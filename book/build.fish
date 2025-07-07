@@ -1,4 +1,7 @@
 #!/usr/bin/fish
+set script_dir (dirname (status --current-filename));
+cd $script_dir;
+
 go run concat.go
 
 
@@ -35,3 +38,12 @@ end;
 run pdf;
 run html;
 run epub;
+
+set PR "../push_release"
+if test -e $PR
+	echo "Release"
+	pushd $(dirname $PR);
+	set -l NAME "./$(basename $PR)";
+	command $NAME;
+	popd
+end;

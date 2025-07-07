@@ -1,4 +1,6 @@
 #!/usr/bin/fish
+set script_dir (dirname (status --current-filename));
+cd $script_dir;
 
 set OUT "../.out"
 set WWW "../release"
@@ -36,3 +38,12 @@ run po_summary v3 html;
 run po_outline v3 pdf;
 run po_outline v3 html;
 
+
+set PR "../push_release"
+if test -e $PR
+	echo "Release"
+	pushd $(dirname $PR);
+	set -l NAME "./$(basename $PR)";
+	command $NAME;
+	popd
+end;
