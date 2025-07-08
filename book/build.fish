@@ -4,15 +4,16 @@ cd $script_dir;
 
 go run concat.go
 
-
+set SRC "book"
+set DST "po_book"
 set OUT "../.out"
 set WWW "../release"
 
 command mkdir -p $OUT
 
 function run -a EXT;
-	set -l FN_SRC book.md
-	set -l FN_DST "po_book.$EXT"
+	set -l FN_SRC $SRC.md
+	set -l FN_DST "$DST.$EXT"
 	set -l FN_OUT "$OUT/$FN_DST"
 	set -l FN_WWW "$WWW/$FN_DST"
 	echo -n "$FN_DST ... "
