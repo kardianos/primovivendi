@@ -1,6 +1,6 @@
 ---
 title: "Procedural Objectivism"
-subtitle: Common Realism
+subtitle: Common Principles Toward a Reality-Based Life
 author: Daniel Theophanes
 date: 2025-07-04
 geometry: margin=3cm
