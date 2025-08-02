@@ -7,6 +7,7 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
+	"strings"
 )
 
 func main() {
@@ -32,7 +33,12 @@ func run() error {
 		if entry.IsDir() {
 			continue
 		}
-		files = append(files, entry.Name())
+		name := entry.Name()
+		if strings.HasSuffix(name, "_exp.md") {
+			continue
+		}
+
+		files = append(files, name)
 	}
 	sort.Strings(files)
 
