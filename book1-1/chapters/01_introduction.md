@@ -1,33 +1,13 @@
 # Introduction
 
-We navigate our social and political world with the directions of liberal-conservative, left-right, religious-atheist. These distinctions have meaning. But in today's social and political landscape I propose there are five positions that are more consequential to how citizens envision and shape society.
+Procedural Objectivism is a worldview focused on a productive way to live and live together.
 
-Religions and philosophies seek to answer the "why" of our existence. This book, however, focuses on the "what" and "how" of a society, proposing five fundamental axes that shape it. When you overlay those "why" beliefs onto these "what" and "how" axes, distinct clusters of thought emerge. One particular cluster corresponds to a coherent set of principles that this book aims to isolate and define. The axes that we define Procedural Objectivism on are:
+*   Reality is real, consequential, and knowable. Truth is what corresponds to reality.
+*   Humans are limited and selfish.
+*   Goodness, at minimum on this earth, is that human life should continue and continue well.
+*   Our responsibility in this moral realm begins with ourselves and our family, radiating outward in decreasing measure to our community, region, and nation.
+*   The foundational perspective beyond ourselves is procedural symmetry: we bind ourselves to the same procedures we demand of others.
 
-* **What is Truth?** Is reality real? If so, is it independently knowable? Can it be grasped through direct, affirmative discovery, or does knowledge always arise dialectically, through the resolution of opposing ideas or forces? How does truth map to reality?
-* **What is Human Nature?** Are humans good in their original state within nature and society corrupts them? Are humans naturally limited and selfish? Or are humans a blank slate, waiting to be written upon?
-* **What is Good?** Aside from any divine, is there any such thing as goodness? If so what should we consider the most important good to align with?
-* **What is Justice?** Is justice an exchange of equal value? An adjustment for equal outcomes? Or the application of equal procedures?
-* **What is Responsibility?** Do we owe anyone anything? If so, what are our responsibilities?
+Procedural Objectivism is not a new religion, a blended philosophy, or an amalgamation. It fully respects that the “why” behind a Christian’s worldview and an atheist’s are fundamentally different and irreconcilable. It operates, instead, on a proven principle: incompatible beliefs do not prevent cooperation on the practical “how” of building a society.
 
-These axes form the core framework for understanding societal positions. To demonstrate why defining these axes and taking a position on these is so important, let's review the diverse perspective of two groups: a right-wing, conservative, Christian and a left-wing, liberal, atheist. While there is a broad range within each group, we will separate each group into two sub-groups to demonstrate their breadth of opinion.
-
-In the Christian group there are a range of opinions. Christians-1 sees truth as that which God thinks to be true and the Bible as the axiomatic foundation of knowledge. While Christians-2 would say that God created a real and knowable world and that apart from divine intervention and divine command, this world is true is discoverable. Similarly, Christians-1 sees justice and responsibility as giving the same consideration to all on earth and justice will ultimately lead to equal places in life. Christians-2 however, sees responsibility in tiers, first giving God his due, then spouse, and radiating out from there. Christians-2 will usually emphasize individual agency that will ultimately end with God's final judgement.
-
-In the Atheist group, there is an even wider range of opinions. Atheists-1 sees reality as real, but our understanding of truth is a gradual socially mediated process consisting of opposing forces, mediated through power forces. Atheists-2, however, sees truth as independently knowable. Atheists-1 sees justice as the leveling of all outcomes because they see any difference as ascribable to society. Atheists-2 sees justice as equal procedures, or the best as humans can manage, for distinct individuals who operate independently of group identity.
-
-These examples just scratch the surface and illustrate the differences within current labels, underscoring why a framework like Procedural Objectivism is needed. This doesn't belittle the importance of understanding if there is an active God or not. But in the present time these central beliefs do little to predict subsequent social beliefs.
-
-Procedural Objectivism is a particular set of positions along these axes that is observed to overlap with existing religions and philosophies that I believe to be internally congruent, self-reinforcing, and overall beneficial to building a good society.
-
-Procedural Objectivism aims to describe a position that already exists, a common ground for realists. We will spend the majority of time describing what Procedural Objectivism is positively, not what it is not. When we contrast Procedural Objectivism with conflicting positions, it is to put bounds on what it is not, not to fully and carefully describe different contrary positions. Procedural Objectivism offers a coherent naming and descriptions of compatible positions:
-
-* Reality is real, consequential, and knowable. Truth is what corresponds to reality.
-* Humans are limited and selfish.
-* Goodness, as demanded in this mortal realm, should be articulated most fundamentally as that human life should continue and continue well.
-* The foundational perspective beyond ourselves is procedural symmetry; that we bind ourselves to the same procedure as we demand of others.
-* Our responsibility in this moral realm should begin with ourselves, our family, and radiate outward in decreasing amounts to our community, then our region, then nation.
-
-To be clear, Procedural Objectivism is not a new religion, a blended philosophy, or a call to be part of an amalgamation. It fully respects that the "why" behind a Christian's worldview and an atheist's are fundamentally different and irreconcilable. It operates, instead, on a proven principle: incompatible beliefs do not prevent cooperation on the practical "how" of building a society.
-
-These principles are named because the common ground is shrinking. People who could work together within mortal society are dividing over their differences. People who differ on these foundational axes sometimes think they are allies, but end up working to different goals. Across the West, totalizing ideologies, both religious and secular, are on the rise. Their defining feature is not just their incompatibility, but their refusal to engage in reasoned debate or seek common cause. They demand surrender, not agreement. This book defines Procedural Objectivism to offer a clear alternative: a framework grounded in reality and reason that not only builds bridges across divides but also exposes, and counters, the totalizing beliefs and philosophies that seek to burn those bridges down.
+Most importantly, these are not separate points, but each must be viewed in light of the others. For example, "Reality is consequential, so truth is knowable, but humans are limited, so be humble." is a reliable phrase that incorporates multiple points at the same time.
