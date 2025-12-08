@@ -10,4 +10,4 @@ Procedural Objectivism is a worldview focused on a productive way to live and li
 
 Procedural Objectivism is not a new religion, a blended philosophy, or an amalgamation. It fully respects that the “why” behind a Christian’s worldview and an atheist’s are fundamentally different and irreconcilable. It operates, instead, on a proven principle: incompatible beliefs do not prevent cooperation on the practical “how” of building a society.
 
-Most importantly, these are not separate points, but each must be viewed in light of the others. For example, "Reality is consequential, so truth is knowable, but humans are limited, so be humble." is a reliable phrase that incorporates multiple points at the same time.
+Most importantly, these are not separate points, but each must be viewed in light of the others.
