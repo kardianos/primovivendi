@@ -2,7 +2,7 @@
 
 ## Summary
 
-**Procedural Objectivism**
+**{{.title}}**
 
 **Epistemology:** Reality is real, reality is knowable, truth is what corresponds to reality, reality is consequential. Truth matters independent of perceived consequences.
 
@@ -22,9 +22,9 @@
 
 * Consequential knowable reality
 * Humans are limited and selfish
-* Procedural symmetry
 * Tiered self-anchored responsibility
 * Goodness: human life should continue and continue well.
+* Procedural symmetry
 
 
 #### Against:
