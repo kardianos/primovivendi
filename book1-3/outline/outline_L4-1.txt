@@ -1,0 +1,97 @@
+{1.0|part} Part 1: Foundation
+{1.1|chapter} Reality is Real, Knowable, and Consequential
+{1.1.1|idea:C007} Reality is real, knowable, and consequential.
+{1.1.2|idea:C015} Truth is what corresponds to reality.
+{1.1.3|idea:C008} There is a hierarchy: existence has primacy over consciousness.
+{1.1.3.1|idea:C009} Consciousness is a faculty for apprehending reality, not for creating it.
+{1.1.4|idea:C010} Reality operates independently of our hopes and feelings.
+{1.1.4.1|example:E001} A bridge built on flawed physics will collapse.
+{1.1.4.2|example:E002} A business based on fantasy will fail.
+{1.1.4.3|example:E003} An entire society could declare that fire is cold, write it into law, and teach it in schools, but the first child who touches a flame will still be burned.
+{1.1.5|idea:C011} Many of our most important social systems are not arbitrary constructions but necessary consequences that emerge to solve problems posed by reality.
+{1.1.5.1|example:E004} Money, for example, is a tool that naturally arises from the reality of human specialization and the need for a common medium of exchange.
+{1.1.6|idea:C012} Domains like biology, mathematics, and history are discovered features of reality, not inventions.
+{1.1.7|idea:C013} Reason untethered to reality is equivalent to hallucination.
+{1.1.8|idea:C014} There is only a single reality, and everyone shares it.
+{1.1|transition} Within this shared reality, we must confront the nature of the humans who inhabit it.
+{1.2|chapter} Humans are Limited, Selfish, and Not Naturally Good
+{1.2.1|idea:C025} Humans are fundamentally limited.
+{1.2.2|idea:C028} Recognizing humans are selfish is not a moral judgment.
+{1.2.3|idea:C029} Humans in a state of nature, or directly upon being born, are not angelic beings only capable of good.
+{1.2.4|idea:C026} Recognizing that humans are limited is sometimes called the constrained vision of humanity.
+{1.2.4.1|idea:C027} The unconstrained vision is the seductive but dangerous belief that human flaws are merely products of corrupt external systems.
+{1.2.5|idea:C028} Human selfishness means an individual's primary driver is their own survival and well being.
+{1.2.6|idea:C029} Goodness must be taught, for virtue, kindness, and self control are skills learned over a lifetime.
+{1.2.6.1|example:E012} A toddler is a bundle of pure, unconstrained self interest, so they must be taught, over many years, to be kind, honest, and respectful.
+{1.2.7|idea:C031} Man starts out selfish and savage, so it is society that civilizes him and provides the structure for his goodness to grow.
+{1.2.7.1|ref:Rousseau} This view opposes the romantic fantasy of the noble savage.
+{1.3|transition} Given this flawed nature, how do we structure our obligations?
+{1.3|chapter} Tiered Self Anchored Responsibility
+{1.3.1|idea:C003} Our responsibility in this moral realm begins with ourselves and our family, radiating outward in decreasing measure to our community, region, and nation.
+{1.3.2|idea:C033} Each person's responsibility starts with themselves: creating our own lives and shaping our future for the better.
+{1.3.3|quote:Q002} At the core of societal principles is the will to live.
+{1.3.4|idea:C034} From the self, responsibility radiates outward in concentric circles of decreasing intensity.
+{1.3.4.1|example:E009} You must first care for yourself by putting on the oxygen mask in a troubled airplane, before you show care to your family.
+{1.3.5|idea:C035} Responsibility must also recognize enemies.
+{1.3.5.1|example:E010} Termites that are entering the house we carefully built are enemies.
+{1.3.5.2|example:E011} The fate of the Moriori of the Chatham Islands starkly illustrates the peril of failing to recognize and resist an existential enemy.
+{1.3.5.3|idea:P022} The limit of our responsibility is the "Mutual Non-Aggression pact."
+{1.3.5.3.1|explanation} We can extend responsibility and care to those who differ from us, but only if they adhere to the principle of non-aggression.
+{1.3.5.3.2|explanation} A worldview that mandates aggression (political or physical) against us cancels our obligation of "Dispositional Love" and replaces it with the obligation of Defense.
+{1.3.6|idea:C036} It is not good to care for everyone on earth or all the strangers on a different continent, so radical altruism should be rejected.
+{1.3.7|idea:C037} Thinking everyone has the same outlook or needs, or that you can know everyone, is not humble, so Universalism should be rejected.
+{1.4|transition} If we reject these extremes, what then is our standard for goodness?
+
+
+
+{1.4|chapter} What Must Be Good
+{1.4.1|idea:C038} What we consider good must include that human life should continue and continue well, both generationally and individually.
+{1.4.2|idea:C039} The first part is that life should continue, which speaks to both individual survival and, crucially, to generational survival.
+{1.4.3|idea:C040} The second part, that it continue well, elevates this philosophy beyond mere animal survival.
+{1.4.3.1|idea:C041} Living well is a vector, a direction, not a location, measured by the positive slope between two points in time.
+{1.4.4|idea:C042} To evaluate any action, system, or idea, we can ask: On balance, and over the long term, does this contribute to or detract from humans living and continuing well?
+{1.5|transition} To Implement this goodness, we require a consistent method.
+{1.5|chapter} Procedural Symmetry
+{1.5.1|idea:P001} Procedural Symmetry is the principle of applying the same rules and methods of evaluation consistently to all subjects within a given domain.
+{1.5.2|idea:C043} Procedural Symmetry is the principle of applying the same rules and methods of evaluation consistently to all subjects within a given domain.
+{1.5.2.1|idea:C044} The legal process, from investigation to trial, must be identical for all individuals, irrespective of identity or status.
+{1.5.2.2|idea:C045} The procedure of public discourse must remain available to all.
+{1.5.2.3|idea:C046} The same methods of critical evaluation must be applied to all claims, regardless of origin or our biases.
+{1.5.2.4|idea:C047} Logical form is a consistent procedure that yields a valid conclusion regardless of the specific propositions.
+{1.5.2.5|idea:C048} This operates as a method for evaluating a rule of conduct by applying it universally and reciprocally.
+{1.5.2.6|idea:C049} Every living person is the result of a predecessor generation undertaking the procedure of raising them from dependency to independence.
+{1.5.2.7|idea:C050} The goal is the future survival and future peace of our society.
+{1.5.2.8|idea:C051} In selection, a single standard is devised and as best as possible uniformly applied.
+{1.5.3|idea:C052} Procedural Symmetry must never be identity based, but it may be tier based.
+{1.5.4|distinction:D004} Procedural Symmetry stands in stark contrast to both Value Symmetry and Outcome Symmetry.
+{1.5.4.1|idea:C053} Value Symmetry creates a direct, equivalent correspondence between an action and its consequence.
+{1.5.4.1.1|ref:Code of Hammurabi} This is the ancient logic of an eye for an eye.
+{1.5.4.2|idea:C054} Outcome Symmetry is fixated on achieving a predetermined future where all individuals and groups have identical results.
+{1.5.5|idea:P003} Cultivate the mindset of Procedural Symmetry: consistently ask whether the same rule and process is being applied to all.
+{1.6|transition} We can now apply this foundational methodology to analyze any situation.
+{1.6|chapter} The Interdependence of the Foundation
+{1.6.1|idea:system_integrity} The foundational principles are not a menu from which one can pick and choose; they are interdependent aspects of the same system.
+{1.6.2|idea:system_failure} Isolation Principle: Any single principle, when isolated from the others, mutates into a destructive vice.
+{1.6.3|analysis} Angle 1: Goodness without Reality (The Utopian Trap).
+{1.6.3.1|explanation} If you cling to the "Axiom of Goodness" (Life should continue well) but reject "Objective Reality" (Constraints), you create Utopia.
+{1.6.3.2|consequence} This leads to "The Unconstrained Vision": believing that if we just wish hard enough or spend enough, we can overcome scarcity, biology, and human nature.
+{1.6.3.3|result} Result: Disappointment, bankruptcy, and eventual tyranny to force the impossible.
+{1.6.4|analysis} Angle 2: Reality without Goodness (The Nihilist Trap).
+{1.6.4.1|explanation} If you accept "Objective Reality" (it's cold, indifferent, deterministic) but lack the "Axiom of Goodness" (Value), you create Nihilism or Social Darwinism.
+{1.6.4.2|consequence} You have a map of the territory, but no reason to travel and no moral compass. "What is, is right."
+{1.6.4.3|result} Result: Apathy, cruelty, and the "Might makes Right" fallacy.
+{1.6.5|analysis} Angle 3: Responsibility without Symmetry (The Tribal Trap).
+{1.6.5.1|explanation} If you embrace "Tiered Responsibility" (Care for your own) but reject "Procedural Symmetry" (Same rules for all), you create Tribalism or Mafioso ethics.
+{1.6.5.2|consequence} You advocate effectively for your group, but justify predation on outsiders.
+{1.6.5.3|result} Result: Gang warfare, corruption, and low-trust societies.
+{1.6.6|analysis} Angle 4: Symmetry without Human Nature (The Bureaucratic Trap).
+{1.6.6.1|explanation} If you enforce "Procedural Symmetry" (Rules) but ignore "Flawed Human Nature" (Selfishness/Incentives), you create soulless Bureaucracy.
+{1.6.6.2|consequence} The system follows the letter of the law but ignores the spirit or the outcome. It assumes people are robotic units to be processed.
+{1.6.6.3|result} Result: Stagnation, malicious compliance, and systems that technically work but practically fail.
+{1.6.7|idea:synthesis} The Protective Lock: How they secure each other.
+{1.6.7.1|tie:C007} Reality prevents Goodness from becoming fantasy.
+{1.6.7.2|tie:C038} Goodness prevents Reality from becoming despair.
+{1.6.7.3|tie:P001} Symmetry prevents Responsibility from becoming nepotism.
+{1.6.7.4|tie:C033} Responsibility prevents Symmetry from becoming sterile indifference.
+{1.6.7.5|tie:C025} Human Nature serves as the engineer's constraint: ensuring the whole system is built for the beings who actually exist.
+{1.6.8|insight} Conclusion: We must hold these five simultaneously. To drop one is to break the whole.

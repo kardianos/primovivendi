@@ -1,0 +1,166 @@
+{3.0|part} Part 3: Society
+{3.1|chapter} Align With Truth: Freedom of Speech
+{3.1.1|idea:C045} The procedure of public discourse must remain available to all.
+{3.2|transition} Free speech allows us to seek truth, but to act on it fairly, we need the Rule of Law.
+{3.2|chapter} Procedural Symmetry: Rule of Law
+{3.2.1|idea:C126} The Rule of Law is a system where society is governed by a set of stable, public, and generally applicable laws.
+{3.2.1.1|explanation} The law applies to everyone, including the rulers themselves.
+{3.2.2|idea:P013} Rulership is distinct from leadership, and it is required for rule of law.
+{3.2.2.1|idea:P013} Law is worthless without someone to enforce the laws.
+{3.2.2.2|explanation} Rulership is not authoritarian leadership, but a practical necessity: rules must be enforced.
+{3.2.2.3|idea:P014} Ideal for rulership is enough force to enforce rule of law, but not a totalitarian state.
+{3.2.2.4|idea:P015} When individuals rule themselves, when families have parents who rule over children, when communities demonstrate self rule, less rule is needed from the top.
+{3.2.2.5|idea:P016} If the individual and families become without rule themselves, the top must rule with more invasiveness or society will be destroyed.
+{3.2.2.6|idea:C038} Society requires direction, so someone must lead toward what is good, not just enforce what is legal.
+{3.2.3|distinction:D006} The choice is between two alternatives: the Rule by Man or the Rule of Law.
+{3.2.3.1|idea:C125} The Rule by Man is a system where power is arbitrary, and judgments are made according to the personal will of those in authority.
+{3.2.3.2|idea:C127} The rule of law can also be subverted through the selective application of law.
+{3.2.4|idea:C128} A common error is to champion empathy as a guide for justice, but at the national level, policy must be based on impartial principles.
+{3.2.5|idea:C129} Mercy, however, is different, for it is not a correction for a flawed process, but a conscious act of judgment to waive a justly applied consequence.
+{3.2.5.1|example:E039} For example, a head of state may grant a pardon, or a victim's family may ask the court for leniency.
+{3.2.6|idea:C051} In selection, a single standard is devised and as best as possible uniformly applied.
+{3.2.6.1|example:E013} This applies against shoplifting and pollution.
+{3.3|transition} Just as strict rules protect free speech, they must also protect responsibility and ownership.
+{3.3|chapter} Responsibility and Ownership Extended
+{3.3.1|name} Property as an extension of individual responsibility.
+{3.3.2|name} Markets and specialization.
+{3.3.2.1|idea:C109} Money is a discovered tool that solves the double coincidence of wants problem.
+{3.3.3|name} Sound money.
+{3.3.4|name} Power to defend yourself.
+{3.4|transition} This responsibility does not stop at the individual; it structures the entire Policy.
+{3.4|chapter} Tiered Responsibility in the Policy
+{3.4.1|idea:C119} A nation's border is the boundary of that home.
+{3.4.2|idea:P010} Society will always have outliers, so never normalize outliers but society must judge if an outlier is good or bad.
+{3.4.2.1|explanation} Most outliers will be bad, but societies must judge if the outlier is good or bad.
+{3.4.2.2|explanation} If outliers build and create surplus, or create beauty, and have children, perhaps they are good.
+{3.4.2.3|explanation} If they take, destroy, fail to have good children, then they are bad.
+{3.4.2.4|explanation} Suppression of outliers by default is protective and not punitive.
+{3.4.2.5|explanation} If someone is an outlier, hold them to higher standards, not lower standards.
+{3.4.2.6|explanation} Outliers are not obligated to conform, but society is not obligated to carry your costs either.
+{3.4.2.7|idea:P011} The guiding principle: Civilization advances by not supporting or normalizing parasitic behavior and insuring surplus producing behavior, wherever they appear.
+{3.4.2.8|explanation} People are free to vary, but behaviors are not free to impose costs.
+{3.4.2.9|idea:D009} Many people confuse agreeableness with politeness, but it's actually tolerance for social friction.
+{3.4.2.10|idea:P012} When societies govern behavior by consequences, they remain adaptive without becoming tyrannical.
+{3.4.3|idea:P018} Individuals are crafted within society, but no situation should absolve a person of their consequences.
+{3.4.3.1|idea:P012} Society influences people, but that cannot stop consequences.
+{3.4.3.2|idea:C059} The Rule of Law is the formalized system of judgment for a society.
+{3.4.3.3|idea:C127} Selective application of law works the system.
+{3.4.3.4|idea:C059} The consequence must stand as a deterrent because the consequence itself is part of society.
+{3.4.4|idea:C120} One form of universalism uses decontextualized religious ethics.
+{3.4.4.1|example:E036} A common tactic is to present a verse like Leviticus 19:34, you shall love the alien as yourself, and imply that this is a divine mandate for open borders.
+{3.4.5|idea:C121} Another form of universalism comes from libertarianism.
+{3.4.5.1|example:E037} Anarcho capitalists argue for no borders at all, proposing a world of private property where landowners decide who may enter.
+{3.4.5.2|example:E038} Minarchist libertarians, meanwhile, often advocate for open borders based on abstract free market principles.
+{3.4.6|idea:C122} The most aggressive modern assault on borders comes from a progressive ideology rooted in critical theory.
+{3.4.6.1|explanation} Progressive ideology argues national borders are illegitimate scars of settler colonialism.
+{3.4.7|idea:C123} Tiered Self Anchored Responsibility rejects this, for it champions a world of concentric loyalties.
+{3.4.7.1|idea:C115} Tiered Self Anchored Responsibility is the realistic perspective to these unworkable extremes.
+{3.4.8|idea:C059} The state's role is to protect citizens, not to absolve them of responsibility for their actions.
+{3.4.9|idea:C044} When the state absolves individuals of consequences, it undermines the very fabric of society.
+{3.5|transition} Beyond defense, the state has a role in fostering the conditions for goodness.
+{3.5|chapter} The State's Role in Human Goodness
+{3.5.1|name} Enabling Families through zoning for housing.
+{3.5.2|name} Safety policies.
+{3.5.3|name} Minimal pro natal policies.
+{3.5.4|name} Education that reinforces responsibility.
+{3.6|transition} All these principles must work together to form a functional society.
+{3.6|chapter} How Societal Principles Work Together
+{3.6.1|application} These principles are not a buffet where you can pick and choose, for they form an interlocking system.
+{3.6.1.1|idea:P001} Procedural Symmetry is the fair process: without it, there is no justice.
+{3.6.1.2|idea:C126} Rule of Law is the framework: without it, there is no stability.
+{3.6.1.3|idea:P013} Rulership is the enforcement: without it, law is worthless.
+{3.6.1.4|idea:C034} Tiered Responsibility is the compass: without it, effort is misdirected.
+{3.6.2|insight} These work together, not in isolation.
+{3.6.3|application_example} Historical Example 1: The Founding of the United States.
+{3.6.3.1|idea:P001} Procedural Symmetry: Constitution created checks and balances, applied equally to all.
+{3.6.3.2|idea:C126} Rule of Law: Judiciary branch enforces laws impartially.
+{3.6.3.3|idea:P013} Rulership: Executive branch enforces laws, but is constrained by them.
+{3.6.3.4|idea:C034} Tiered Responsibility: Federalism allows local, state, and national levels.
+{3.6.3.5|idea:C119} Governmental tier: Borders protect citizens; immigration policy prioritizes citizens.
+{3.6.3.6|idea:P015} Social tier: Community self governance and responsibility.
+{3.6.3.7|idea:C038} Result: A stable, prosperous society where individuals flourish.
+{3.6.4|application_example} Historical Example 2: The Collapse of the Soviet Union.
+{3.6.4.1|idea:C127} Procedural Symmetry: Rejected, for they applied laws selectively to party members.
+{3.6.4.2|idea:C125} Rule of Law: Rejected, for it was Rule by Man under communism.
+{3.6.4.3|idea:P016} Rulership: Excessive, for the totalitarian state controlled every aspect of life.
+{3.6.4.4|idea:C034} Tiered Responsibility: Centralized, for they removed local and family responsibility.
+{3.6.4.5|idea:C118} Governmental tier: Universalist ideology over national interest.
+{3.6.4.6|idea:P012} Social tier: Forced conformity, no room for social outliers.
+{3.6.4.7|idea:C011} Reality: Rejected biological reality, as seen in Lysenkoism, and famine resulted.
+{3.6.4.8|idea:C022} Result: Economic collapse, human suffering, and eventual dissolution.
+{3.6.5|application_example} Historical Example 3: Singapore's Development Under Lee Kuan Yew.
+{3.6.5.1|idea:P001} Procedural Symmetry: Meritocratic system with consistent standards.
+{3.6.5.2|idea:C126} Rule of Law: Strong, impartial enforcement, including caning for certain crimes.
+{3.6.5.2.1|concept} Regarding caning, which is better for the individual and society? Taking years of life away in prison where all your needs are met and you socialize with other prisoners or a caning?
+{3.6.5.2.2|concept} Prison is may still be better for many crimes to remove them from society.
+{3.6.5.3|idea:P014} Rulership: Strong but not totalitarian, maintaining social order.
+{3.6.5.4|idea:C034} Tiered Responsibility: Strong emphasis on family and community responsibility.
+{3.6.5.5|idea:C119} Governmental tier: Strict immigration control prioritizing citizens.
+{3.6.5.6|idea:C038} Social tier: Housing policy enables families and education reinforces responsibility.
+{3.6.5.7|idea:C041} Result: Rapid development from third world to first world prosperity.
+{3.6.6|application_example} Historical Example 4: The Nordic Model.
+{3.6.6.1|idea:P001} Procedural Symmetry: Strong procedural fairness and low corruption.
+{3.6.6.2|idea:C126} Rule of Law: Independent judiciary and consistent application.
+{3.6.6.3|idea:P013} Rulership: Democratic governments, but strong welfare state.
+{3.6.6.4|idea:C034} Tiered Responsibility: Mixed, with strong social safety net, but also strong family expectations.
+{3.6.6.5|idea:C042} Governmental tier: Universal healthcare and education, but managed efficiently.
+{3.6.6.6|idea:P017} Social tier: High social trust and community cohesion.
+{3.6.6.7|idea:C085} Strengths: High quality of life, low inequality, and social stability.
+{3.6.6.8|idea:C118} Weaknesses: High taxes, potential dependency culture, and challenges with integration.
+{3.6.6.9|idea:P012} Note: Works because of cultural homogeneity and social capital, not transferable to all societies.
+{3.6.7|application_example} Historical Example 5: California's Decline.
+{3.6.7.1|idea:C127} Procedural Symmetry: Declining, with selective prosecution and laws not applied equally.
+{3.6.7.2|idea:C126} Rule of Law: Weakening, with theft under a certain amount de facto legalized.
+{3.6.7.3|idea:P013} Rulership: Paralyzed, for law enforcement is constrained by ideology.
+{3.6.7.4|idea:C120} Tiered Responsibility: Inverting, with abstract concern for distant groups over local community.
+{3.6.7.5|idea:C119} Governmental tier: Open borders policy and sanctuary cities, with environmental regulations trumping basic needs.
+{3.6.7.6|idea:P010} Social tier: Normalization of homelessness, drug use, and social disorder.
+{3.6.7.7|idea:C010} Reality: Ignored economic reality of housing costs and human nature of incentive structures.
+{3.6.7.8|idea:C022} Result: Outmigration of middle class, housing crisis, and declining quality of life.
+{3.6.8|application_example} Historical Example 6: The Fall of Rome.
+{3.6.8.1|idea:C127} Procedural Symmetry: Collapsed, with laws applied arbitrarily to citizens vs elites.
+{3.6.8.2|idea:C125} Rule of Law: Collapsed, replaced by rule by man and assassinations.
+{3.6.8.3|idea:P013} Rulership: Excessive then absent, as emperors became figureheads and military took power.
+{3.6.8.4|idea:C034} Tiered Responsibility: Collapsed, with civic duty eroded and dependency on bread and circuses.
+{3.6.8.5|idea:C119} Governmental tier: Overextended empire, citizenship diluted, and borders undefended.
+{3.6.8.6|idea:P012} Social tier: Social decay, loss of community cohesion, and rise of cynicism.
+{3.6.8.7|idea:C022} Result: Barbarian invasions and the collapse of Western Roman Empire.
+{3.6.9|application_example} Thought Experiment: What happens when you stop aligning with truth?
+{3.6.9.1|application} Economic Policy: Price controls ignore market reality, leading to shortages and black markets.
+{3.6.9.2|application} Criminal Justice: If you ignore biological reality of crime recidivism, there will be more victims.
+{3.6.9.3|application} Environmental Policy: If you pursue utopian goals over practical reality, it leads to economic collapse and poverty.
+{3.6.9.4|application} Education: If you deny learning realities, such as different abilities and need for discipline, it leads to failing schools.
+{3.6.9.5|application} Healthcare: If you demand equal outcomes despite biological differences, it leads to system collapse and worse outcomes for all.
+{3.6.9.6|application} Result: When truth is abandoned, reality delivers brutal feedback.
+{3.6.10|application_example} Thought Experiment: What happens when procedural symmetry is abandoned?
+{3.6.10.1|application} Two tier justice: One law for favored groups, another for disfavored groups, leads to loss of legitimacy.
+{3.6.10.2|application} Unequal application of law: Selective prosecution destroys trust in institutions.
+{3.6.10.3|application} Speech codes: Restrictions applied asymmetrically lead to chilling effect and loss of truth seeking.
+{3.6.10.4|application} Free speech for allies, hate speech for opponents, leads to intellectual stagnation.
+{3.6.10.5|application} Result: Society fragments into tribes, no shared reality or common ground.
+{3.6.11|application_example} Thought Experiment: What happens when tiered responsibility is flattened?
+{3.6.11.1|application} Universalism: Equal concern for all people everywhere leads to diluted effort and ineffective help.
+{3.6.11.2|application} You cannot help everyone equally, so you help no one effectively.
+{3.6.11.3|application} Abstract concern for distant strangers displaces concrete duty to family.
+{3.6.11.4|application} Result: Families are neglected, communities decay, and society becomes atomized.
+{3.6.12|application_example} Thought Experiment: What happens when tiered responsibility is inverted?
+{3.6.12.1|application} Prioritizing strangers over citizens: Open borders and sanctuary policies lead to national decline.
+{3.6.12.2|application} Citizens see their government prioritizing others, so there is loss of social cohesion.
+{3.6.12.3|application} Citizens withdraw loyalty, and society fragments.
+{3.6.12.4|application} Prioritizing abstract causes over concrete duties: Climate activism over local community.
+{3.6.12.5|application} Result: Inverted responsibility creates parasitic behavior, suppresses surplus production.
+{3.6.13|application_example} Thought Experiment: What happens when consequences are absolved?
+{3.6.13.1|application} Criminal justice: If a guilty person goes free, they hurt more people.
+{3.6.13.2|application} Feedback loop: If people see no consequences, more people commit crimes.
+{3.6.13.3|application} Economic: If failed businesses are bailed out, it leads to more reckless risk taking.
+{3.6.13.4|application} Social: If bad behavior has no consequences, society declines into disorder.
+{3.6.13.5|application} The consequence itself is part of society and must stand as a deterrent.
+{3.6.13.6|application} Result: Society loses its self regulating mechanisms, and chaos ensues.
+{3.6.14|insight} Key Insight: Societal principles are an interlocking system, not independent choices.
+{3.6.14.1|insight} Remove one element, and the others collapse or become corrupted.
+{3.6.14.2|insight} Procedural Symmetry without Rule of Law is empty rhetoric.
+{3.6.14.3|insight} Rule of Law without Rulership is unenforced paper.
+{3.6.14.4|insight} Rulership without Procedural Symmetry is tyranny.
+{3.6.14.5|insight} Tiered Responsibility without Rule of Law is tribalism.
+{3.6.14.6|insight} Rule of Law without Tiered Responsibility is impersonal bureaucracy.
+{3.6.14.7|insight} Together, they create a society where individuals can flourish.
