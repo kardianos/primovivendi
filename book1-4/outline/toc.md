@@ -117,6 +117,15 @@
   * Discovered Technology
     - Money: any group of people who have different needs at different times and produce different things, all come up with some form of money.
     - Language: To be valuable, we must have some agreement on meaning.
+  * Division of Power
+    - Reality is complex and large. Humans are limited and small. Society must specialize to thrive.
+    - A political statesmen or even an HOA board member, or CEO, is a type of specialization. They take care of the details. If they do a poor job, they can be replaced.
+    - Power is real, and the division of power is real too. 
+    - Power is needed remove murderers from the innocent. Power can be abused, but the lesson isn't that power is evil, but either the system was insufficient or those people who held power were corrupt or without sufficient honor, goodness, or proper direction.
+    - Parents exercise power and authority over their children to direct them in life and keep them safe. The lesson from when a parent hurts their children isn't power or parents with power is bad, but that those parents were bad.
+    - Teachers exercising authority in the classroom, instructing their students is not bad. It is appropriate division of power.
+    - At times power is divided between authority and general public. Other times it is divided generationally, for those children aren't withheld power forever, but until they grow up.
+    - This is a lesson of procedural symmetry and the limited nature of humans.
   * The Principles are Broad
     - This framework is intended to be broad: use it to judge past societies and present ones.
     - There are better and worse ways of living as individuals and as societies.
@@ -155,7 +164,7 @@
     - Kindness in family is a form of love.
     - Kindness is distinct from politeness.
     - In large societies, kindness as the norm or policy can subsidize irresponsible or criminal.
-    - Enemies exist and kindness extended to them rewards predation and selects against excellence, responsibility, and survival). In game theory in an open system the least-kind strategy eventually dominates.
+    - Enemies exist and kindness extended to them rewards predation and selects against excellence, responsibility, and survival. In game theory in an open system the least-kind strategy eventually dominates.
     - Social kindness is an error that should be reserved for close family.
   * Life, Not Nihilism.
     - Propagation of a full life, not just numbers.
@@ -168,10 +177,14 @@
     - Recent incompatible philosophers:
       - Incompatible: Rousseau, Hegel, Marx, Critical Theory, Woke/DEI/CRT/Queer Theory, American Progressivism, etc.
       - Also Incompatible: Stephen Wolfe, Curtis Yarvin/Mencius Moldbug, Charles Haywood, Aaron MacIntyre, etc.: diverge on at least one—and usually several—principles. They ultimately reject procedural symmetry in favor of engineered outcomes or value hierarchies, and they redefine truth itself.
-    - Buddhism
-    - Confucianism
-    - Shinto
-    - Stoicism
+    - Atheism
+      - Intro: Atheism is an opposite of theism, but honestly says even less about what someone believes then atheism.
+      - Some atheists just replace god with a political state or political ideology. Whatever serves the state or the ideology is by definition good.
+      - Some atheists only care about themselves. Some atheists try to care more about strangers then they do their neighbors.
+      - Some atheists believe humans should go away.
+      - Some atheists do believe in seeking truth.
+      - To theists of faiths, I recommend you do not paint all atheists in the same bucket, but understand what they actually believe.
+      - To atheists I ask you consider you ground yourself and your family in explicit principles that lead to human life and flourishing. If you don't, you or your children will enviably bend to those around them. I suggest taking on these 5 principles as a bulwark against those who would incite you to work against your own and your children's interest in the name of "goodness". If you do so, socially and politically you will find you can work with, reason with, others who also seek the truth, but believe in a theistic faith. And it will draw a line between those, theist or atheist who do not share these values who would work against you, truth, and reality itself.
 * Conclusion
   * Individuals as Vectors of Society
     - Pointing the same way gives a society direction and a cohesive vision.
