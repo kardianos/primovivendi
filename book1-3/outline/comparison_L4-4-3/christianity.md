@@ -1,5 +1,16 @@
 # Provenance regarding Christianity
-Primary sources include the Old and New Testaments of the Bible (NASB). The conceptual framework emphasizes a Created Reality, a Fallen Human Nature, and a Redeemer who establishes moral and procedural symmetry.
+Primary sources include the Old and New Testaments of the Bible (NASB). The conceptual framework emphasizes a Created Reality, a Fallen Human Nature, and moral-procedural principles.
+
+## 5-Principle Compatibility Summary
+
+| Principle | Rating | Reason |
+|-----------|--------|--------|
+| P1 (Reality) | **Compatible** | God created reality; His attributes are "clearly seen" through creation; reality is ordered and knowable |
+| P2 (Human Nature) | **Compatible** | "All have sinned"; the heart is "deceitful"; Jesus "knew what was in man" and did not trust humans |
+| P3 (Tiered Responsibility) | **Compatible** | "Provide for his own household" first; each bears own load; honor parents; train children |
+| P4 (Goodness) | **Compatible** | "Be fruitful and multiply"; "life abundantly"; creation is good and to be enjoyed |
+| P5 (Procedural Symmetry) | **Compatible** | "One law for native and stranger"; "God shows no partiality"; Golden Rule |
+| Humility Test | **Passes** | "Render unto Caesar"; "My kingdom is not of this world"; separation of spheres allows critique |
 
 ## Reality is Real, Knowable, and Consequential
 "In the beginning God created the heavens and the earth." (Genesis 1:1).
@@ -50,3 +61,17 @@ Primary sources include the Old and New Testaments of the Bible (NASB). The conc
 "But sanctify Christ as Lord in your hearts, always being ready to make a defense to everyone who asks you to give an account for the hope that is in you, yet with gentleness and reverence." (1 Peter 3:15).
 "For the weapons of our warfare are not of the flesh." (2 Corinthians 10:4).
 "If possible, so far as it depends on you, be at peace with all men." (Romans 12:18).
+
+## 5-Principle Analysis
+
+**P1 (Reality)**: Christianity posits a created, ordered universe. God's attributes are "clearly seen" through creation (Romans 1:20). Reality is not illusion; it is the work of God and can be understood. "Test all things" (1 Thess 5:21) implies reality is knowable and claims must be verified against it.
+
+**P2 (Human Nature)**: "All have sinned" (Romans 3:23) and the heart is "deceitful above all things" (Jeremiah 17:9). Jesus Himself "knew what was in man" and "was not entrusting Himself to them" (John 2:24-25). This is the constrained vision: humans are limited, selfish, and not naturally good.
+
+**P3 (Tiered Responsibility)**: "If anyone does not provide for his own household, he has denied the faith" (1 Tim 5:8). "Each one will bear his own load" (Gal 6:5). "Honor your father and mother" (Exodus 20:12). Responsibility begins with self and radiates through family. This is P3 explicitly.
+
+**P4 (Goodness)**: "Be fruitful and multiply" (Genesis 1:28, 9:1). Jesus came that people "may have life, and have it abundantly" (John 10:10). God "richly supplies us with all things to enjoy" (1 Tim 6:17). Life is good; flourishing is commanded. This satisfies P4.
+
+**P5 (Procedural Symmetry)**: "One law for the native-born and for the stranger" (Exodus 12:49). "God shows no partiality" (Acts 10:34). "Treat people the same way you want them to treat you" (Matthew 7:12). The same procedure applies to all—Jew, Greek, slave, free.
+
+**Humility Test**: "Render to Caesar" (Matthew 22:21) separates political and religious spheres. "My kingdom is not of this world" (John 18:36) prevents theocratic fusion. "Come now, and let us reason together" (Isaiah 1:18) invites dialogue. Christianity can be critiqued in the political sphere without blasphemy laws.

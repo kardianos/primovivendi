@@ -1,5 +1,16 @@
 # Provenance regarding John Locke
-Primary sources include *Two Treatises of Government* (1689) and *A Letter Concerning Toleration* (1689). Locke establishes the framework for natural rights, the social contract, and the limits of government authority based on empirical observation of human nature and reason.
+Primary sources include *Two Treatises of Government* (1689) and *A Letter Concerning Toleration* (1689). Locke establishes the framework for governance based on empirical observation of human nature and reason.
+
+## 5-Principle Compatibility Summary
+
+| Principle | Rating | Reason |
+|-----------|--------|--------|
+| P1 (Reality) | **Compatible** | Reality is governed by discoverable Natural Law; reason is the tool to discover it |
+| P2 (Human Nature) | **Compatible** | Humans are biased, partial to self, and cannot be trusted as judges in own cases |
+| P3 (Tiered Responsibility) | **Compatible** | Self-ownership grounds responsibility; property begins with labor of one's own body |
+| P4 (Goodness) | **Compatible** | Purpose of government is preservation of life, which is "continue and continue well" |
+| P5 (Procedural Symmetry) | **Compatible** | Same rule for rich and poor, court favorite and ploughman |
+| Humility Test | **Passes** | Truth can "shift for herself"; diversity of opinions unavoidable; no forced belief |
 
 ## Reality is Real, Knowable, and Consequential
 "The state of nature has a law of nature to govern it, which obliges every one: and reason, which is that law, teaches all mankind, who will but consult it, that being all equal and independent, no one ought to harm another in his life, health, liberty, or possessions." (*Second Treatise*, §6).
@@ -45,3 +56,17 @@ Primary sources include *Two Treatises of Government* (1689) and *A Letter Conce
 "Ill will, which inconsistent opinions fear, ought not to be found in the debates of men who have truth for their aim." (*Letter Concerning Toleration*).
 "No man can be forced to be rich or healthful, whether he will or no. Nay, God himself will not save men against their wills." (*Letter Concerning Toleration*).
 "It is not the diversity of opinions (which cannot be avoided), but the refusal of toleration to those that are of different opinions... that has produced all the bustles and wars." (*Letter Concerning Toleration*).
+
+## 5-Principle Analysis
+
+**P1 (Reality)**: Locke grounds his system in discoverable Natural Law. Reality exists independently of human will and can be known through reason ("the candle of the Lord"). This satisfies P1: reality is real, knowable, and consequential.
+
+**P2 (Human Nature)**: "Men being biassed by their interest" and "self-love will make men partial" directly affirm P2. Humans cannot be trusted to judge their own cases. This is why neutral institutions are needed—not because humans are evil, but because they are limited and selfish.
+
+**P3 (Tiered Responsibility)**: "Every man has a property in his own person" establishes that responsibility begins with self. Parents have duties to children during "the imperfect state of childhood." Responsibility radiates from self → family → society. Property is the material extension of responsibility (P3).
+
+**P4 (Goodness)**: "The preservation of their property" (life, liberty, estate) is the "great and chief end" of government. This directly maps to P4: life should continue and continue well. Locke's system is oriented toward human flourishing, not conquest or asceticism.
+
+**P5 (Procedural Symmetry)**: "One rule for rich and poor" is the explicit statement of P5. Laws must be "common to every one" and "not varied in particular cases." The magistrate cannot exceed his lawful power. This is procedural symmetry applied to governance.
+
+**Humility Test**: Locke's system allows truth to "shift for herself" and forbids the magistrate from enforcing belief. Diversity of opinions "cannot be avoided." This structural openness to critique passes the Humility Test.

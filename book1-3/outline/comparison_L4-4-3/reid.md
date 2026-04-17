@@ -1,5 +1,16 @@
 # Provenance regarding Thomas Reid
-Primary sources include *An Inquiry into the Human Mind on the Principles of Common Sense* (1764) and *Essays on the Active Powers of Man* (1788). Reid, the founder of the Scottish School of Common Sense, argues for the reliability of the senses and the inherent agency of the human will against Humean skepticism.
+Primary sources include *An Inquiry into the Human Mind on the Principles of Common Sense* (1764) and *Essays on the Active Powers of Man* (1788). Reid argues for the reliability of the senses and inherent agency of human will against skepticism.
+
+## 5-Principle Compatibility Summary
+
+| Principle | Rating | Reason |
+|-----------|--------|--------|
+| P1 (Reality) | **Compatible** | Perception gives "invincible belief" in external reality; denying senses is absurd; first principles are self-evident |
+| P2 (Human Nature) | **Compatible** | Humans yield to passion from "want of strength"; men support their own opinions rather than seek truth |
+| P3 (Tiered Responsibility) | **Compatible** | "Power implies accountability"; "our power is the measure of our duty"; each man conscious of power to determine |
+| P4 (Goodness) | **Compatible** | Thanks the "Author of being" for beneficent design; happiness of individual inseparable from public good |
+| P5 (Procedural Symmetry) | **Compatible** | "Act toward another as we would judge right in him toward us"—the most comprehensive rule of justice |
+| Humility Test | **Passes** | Philosophy must submit to Common Sense; "error is the common lot of humanity"; reason subject to scrutiny |
 
 ## Reality is Real, Knowable, and Consequential
 "If there are certain principles, as I think there are, which the constitution of our nature leads us to believe, and which we are under a necessity to take for granted in the common concerns of life, without being able to give a reason for them—these are what we call the principles of common sense; and what is manifestly contrary to them, is what we call absurd." (*Inquiry*, Ch 2, §6).
@@ -40,3 +51,17 @@ Primary sources include *An Inquiry into the Human Mind on the Principles of Com
 "Reason must be subject to the dictates of common sense." (*Intellectual Powers*, Essay 6, Ch 2).
 "We ought to be always ready to give a reason for our faith." (*Intellectual Powers*, Essay 6, Ch 4).
 "Error is the common lot of humanity." (*Intellectual Powers*, Essay 6, Ch 8).
+
+## 5-Principle Analysis
+
+**P1 (Reality)**: Reid provides the epistemological bedrock for P1. Perception gives an "invincible belief" in external reality. Denying the senses leads to madhouse-level absurdity (the post-breaking example). First principles are not proven—they are the foundation from which proof proceeds. Reality is knowable through Common Sense.
+
+**P2 (Human Nature)**: "Men are not so much disposed to seek the truth as to support their own opinions." This is P2: humans are limited and selfish in their reasoning. "Want of strength and resolution" makes us yield to passion. Reid does not assume humans are naturally good reasoners; we are fallible and must work against our biases.
+
+**P3 (Tiered Responsibility)**: "The power to produce any effect implies moral responsibility." Power is the measure of duty. Reid grounds responsibility in the individual's capacity to act. "If a man receives a trust, he is accountable for the discharge of it." This is P3: responsibility begins with the self and one's sphere of power.
+
+**P4 (Goodness)**: Reid thanks the "Author of my being" for a world designed for human benefit. The "happiness of the individual is inseparable from the public good." Benevolent affections are "naturally agreeable." The universe is structured for flourishing (P4), not indifferent to human welfare.
+
+**P5 (Procedural Symmetry)**: Reid's Golden Rule formulation—"act toward another as we would judge right in him to act toward us"—is the "most comprehensive rule of justice." This is P5 explicitly. Justice is "the same to all men, and in all cases." Specific identity is irrelevant to moral judgment.
+
+**Humility Test**: Philosophy "has no other root but Common Sense" and cannot "set up for herself" without producing "monsters and chimeras." Reason is subject to the dictates of Common Sense—meaning even philosophers can be checked by ordinary faculties. "Error is the common lot of humanity" implies no one is above critique.

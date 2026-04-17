@@ -1,5 +1,16 @@
 # Provenance regarding Scripturalism
-Primary sources include the works of Gordon H. Clark (*A Christian View of Men and Things*, *Thales to Dewey*, *God's Hammer*). Scripturalism (or Clarkian Presuppositionalism) denies the epistemological validity of sense perception/empiricism and asserts that all knowledge must be deduced from the axiom of Scripture.
+Primary sources include the works of Gordon H. Clark (*A Christian View of Men and Things*, *Thales to Dewey*, *God's Hammer*). Scripturalism denies the epistemological validity of sense perception and asserts that all knowledge must be deduced from the axiom of Scripture.
+
+## 5-Principle Compatibility Summary
+
+| Principle | Rating | Reason |
+|-----------|--------|--------|
+| P1 (Reality) | **Incompatible** | Denies correspondence theory of truth; sense perception gives no knowledge; empiricism rejected |
+| P2 (Human Nature) | **Compatible** | Total depravity; sin extends to every faculty including reason; humans are broken instruments |
+| P3 (Tiered Responsibility) | **Compatible** | Family is basic unit; parents responsible for education; spheres of authority (family, church, state) |
+| P4 (Goodness) | **Mixed** | Goodness = glory of God, not human utility; consequences cannot determine right/wrong |
+| P5 (Procedural Symmetry) | **Mixed** | Law of God applies to all, BUT epistemic asymmetry between believer/unbeliever |
+| Humility Test | **Fails** | The axiom cannot be questioned; to question Scripture is to "abandon reason" |
 
 ## Reality is Real, Knowable, and Consequential (Epistemological Denial)
 "The Bible is the only source of truth." (*God's Hammer*).
@@ -42,4 +53,17 @@ Primary sources include the works of Gordon H. Clark (*A Christian View of Men a
 "To question the axiom is to abandon reason." (*Logic*).
 "We do not judge the Scripture; Scripture judges us." (*God's Hammer*).
 "There is no higher court of appeal than the Word of God." (*God's Hammer*).
-*(Note: As an axiomatic system, it treats critique of the foundation as a logical fallacy, not a valid debate).*
+
+## 5-Principle Analysis
+
+**P1 (Reality)**: **Incompatible.** Scripturalism explicitly denies the correspondence theory of truth. "Sense perception does not provide knowledge." If seeing a tree might be hallucination, then empirical reality is unknowable. This destroys P1's claim that reality is knowable. Without shared access to reality through observation, there is no common ground for evidence, science, or courtroom fact-finding.
+
+**P2 (Human Nature)**: Compatible. "Total depravity means sin extends to every faculty, including reason." The human mind is a "broken instrument." This aligns strongly with P2: humans are limited, selfish, and not naturally good. Scripturalism has no illusions about human perfection.
+
+**P3 (Tiered Responsibility)**: Compatible. "The family is the basic unit of society established by God." Parents have authority over education. "God has established spheres of authority: family, church, and state." This maps to P3's tiered structure with distinct responsibilities at each level.
+
+**P4 (Goodness)**: **Mixed.** "Goodness is defined by God's command, not by human utility." If God commands martyrdom, that is good regardless of survival. "Consequences cannot determine right and wrong." This creates friction with P4's focus on life continuing well. A Scripturalist might accept policies that harm flourishing if Scripture seems to demand them.
+
+**P5 (Procedural Symmetry)**: **Mixed.** "The law of God applies to all men" suggests symmetry. BUT: "There is no common ground between believer and unbeliever." This creates epistemic asymmetry—believers have access to truth (Scripture), unbelievers have only opinion. A state run on Scripturalist principles would privilege believers' claims over non-believers' empirical evidence.
+
+**Humility Test**: **Fails.** "The axiom cannot be proved; it is the starting point of all proof." "To question the axiom is to abandon reason." There is no procedure by which Scripture can be critiqued from outside—any critique is pre-classified as irrational. This is a closed system that cannot pass the Humility Test.

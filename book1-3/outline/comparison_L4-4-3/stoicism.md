@@ -1,5 +1,16 @@
 # Provenance regarding Stoicism
-Primary sources include Epictetus (*Discourses*, *Enchiridion*), Marcus Aurelius (*Meditations*), and Seneca (*Letters from a Stoic*). Stoicism emphasizes the objective Logocentric nature of reality, the need for individual self-mastery, and duties to the Cosmopolis (World City).
+Primary sources include Epictetus (*Discourses*, *Enchiridion*), Marcus Aurelius (*Meditations*), and Seneca (*Letters from a Stoic*). Stoicism emphasizes objective rational order (Logos), individual self-mastery, and concentric duties.
+
+## 5-Principle Compatibility Summary
+
+| Principle | Rating | Reason |
+|-----------|--------|--------|
+| P1 (Reality) | **Compatible** | Universe governed by Logos; "everything happens as it should"; reality is ordered and knowable |
+| P2 (Human Nature) | **Compatible** | Humans are "meddling, ungrateful, arrogant"; not naturally master of self; requires training (askesis) |
+| P3 (Tiered Responsibility) | **Compatible** | Hierocles' "Circles of Concern": self → family → neighbors → citizens → humanity; duties vary by proximity |
+| P4 (Goodness) | **Mixed** | "Virtue is the only good" sets high bar; BUT Stoics work for flourishing of society in practice |
+| P5 (Procedural Symmetry) | **Compatible** | "One law for all, namely common reason"; Cosmopolitanism = all share in divine reason |
+| Humility Test | **Passes** | "If anyone can show me I'm making a mistake, I'll gladly change"—explicitly open to correction |
 
 ## Reality is Real, Knowable, and Consequential
 "If you are going to be a philosopher, you must adjust your will to nature." (Epictetus, *Discourses*).
@@ -43,3 +54,17 @@ Primary sources include Epictetus (*Discourses*, *Enchiridion*), Marcus Aurelius
 "Begin the morning by saying to thyself... I have met with the busy-body, the ungrateful, the arrogant, the deceitful, the envious, the unsocial." (Marcus Aurelius, *Meditations* 2.1) - *Acknowledging the imperfection of the social world implies tolerance of imperfection.*
 "Does another do me wrong? Let him look to it. He has his own disposition, his own activity." (Marcus Aurelius, *Meditations* 9.42).
 "The best revenge is to be unlike him who performed the injury." (Marcus Aurelius, *Meditations* 6.6).
+
+## 5-Principle Analysis
+
+**P1 (Reality)**: Stoicism is grounded in Logos—rational, divine order. "Adjust your will to nature" means align with reality, not wish it different. "Everything happens as it should" is not fatalism but recognition that reality has structure. This satisfies P1: reality is real, knowable, and consequential.
+
+**P2 (Human Nature)**: Marcus warns each morning that people will be "meddling, ungrateful, arrogant, dishonest." "No man is free who is not master of himself" implies we are not naturally self-mastered. Humans need training (askesis) to become virtuous. This aligns with P2: humans are limited, selfish, and not naturally good.
+
+**P3 (Tiered Responsibility)**: Hierocles' "Circles of Concern" is the explicit structure of P3: self at center, then family, neighbors, fellow citizens, humanity. "Draw the circles inward" means increase care for distant rings, but the structure remains. Duty to parents, care for one's own city—these are tiered responsibilities.
+
+**P4 (Goodness)**: **Mixed.** "Virtue is the only good" sets a bar higher than P4's "life should continue well." Health and wealth are "preferred indifferents." However, in PRACTICE Stoics like Marcus worked tirelessly for the flourishing of the Empire. Stoicism supports P4 politically (creating conditions for life to continue well) even if philosophically it sets virtue above survival.
+
+**P5 (Procedural Symmetry)**: "One law for all, namely that common reason" (Cicero). All humans share in divine Logos, making them fellow citizens of the Cosmopolis. "Treat your superior as you would wish your superior to treat you." This is P5: the same procedure applies regardless of station.
+
+**Humility Test**: "If anyone can refute me, show me I'm making a mistake... I'll gladly change. It's the truth I'm after." This is explicit openness to correction. The Stoic demands constant self-examination (*Meditations* is private self-critique). The system encourages rather than suppresses correction.

@@ -129,7 +129,7 @@ Scripturalism holds a high view of Total Depravity, aligning with the "Flawed" a
 ### Tiered Self-Anchored Responsibility: Compatible
 As a branch of Reformed Theology, Scripturalism upholds a strong Covenantal model of responsibility. It emphasizes the duties of the individual, the family, and the church as distinct spheres. It rejects the socialist dilution of responsibility, insisting that a man is accountable to God for his specific station. The "Tiered Responsibility" model fits well here, as the duties are clearly defined by Scripture (e.g., parents must train children, children must honor parents) rather than vague appeals to "social justice."
 
-### Goodness is to Live and Live Well: Friction
+### Goodness is to Live and Live Well: Mixed
 The Scripturalist definition of Goodness is "The Glory of God." While this is the highest theological end, in political practice, it can create friction with "Survival and Flourishing." If a specific interpretation of Scripture demands policies that lead to famine or war (hypothetically), the Scripturalist must choose the proposition over the outcome. There is no "Natural Law" feedback loop where bad outcomes (starvation) prove bad policy; only Scripture judges policy. This lack of an empirical check can lead to a form of Theonomy that ignores the practical "Axiom of Goodness" required for a pluralistic society to flourish.
 
 ### Procedural Symmetry: Incompatible
@@ -162,9 +162,9 @@ This is the widest gap. By adopting the "Critical Vanguard" role, Modern Jesuits
 Intellectually, Tilliette is humble before Revelation. Politically, the "Critical Theorist" persona is often devoid of humility. It assumes a "Gnostic" insight—that the Jesuit knows the "Hidden Structures" of oppression that the common man is too blinded to see. This "Vanguard" mentality is inherently elitist and resistant to critique from the "False Consciousness" of the masses.
 
 ### Summary
-The Modern Jesuits (1920s-1980s) represent a "Syncretic" worldview: Christian Metaphysics overlaid with Marxist/Critical Analysis. Their **Methods and Language** (Deconstruction, Power Analysis, Vanguardism) are heavily borrowed from marxism. This makes them a "Trojan Horse" in a Liberty-based framework: they dismantle the Cultural/Institutional defenses of the West using Critical Theory, even if their ultimate goal (The Kingdom of God) differs from the Marxist goal (The Communist State). They are a source of significant **Civilizational Friction**.
+The Modern Jesuits (1920s-1980s) represent a "Syncretic" worldview: Christian Metaphysics overlaid with Marxist/Critical Analysis. Their **Methods and Language** (Deconstruction, Power Analysis, Vanguardism) are heavily borrowed from marxism. This makes them a "Trojan Horse" in a Liberty-based framework: they dismantle the Cultural/Institutional defenses of the West using Critical Theory, even if their ultimate goal (The Kingdom of God) differs from the Marxist goal (The Communist State). They are a source of significant **Civilizational Mixed**.
 
-## 7. Immanuel Kant (Ethical Match, Metaphysical Friction)
+## 7. Immanuel Kant (Ethical Match, Metaphysical Mixed)
 
 ### Reality is Real, Knowable, and Consequential: Incompatible
 Kant introduces a split in reality with his distinction between the *Noumenal* (the thing-in-itself, which is unknowable) and the *Phenomenal* (the world as it appears to our senses). By arguing that "we can know nothing of these [noumena] as they are in themselves" (*Critique of Pure Reason*), he philosophically undermines the claim that "Reality is Knowable." However, for all civilizational purposes, Kant treats the *Phenomenal* world (the world of science and law) as governed by objective, universal laws. He is a "Transcendental Idealist" but an "Empirical Realist." This creates a friction: his metaphysics doubts the bedrock, but his ethics act as if the bedrock is solid.
@@ -210,12 +210,12 @@ Skepticism, by its nature, is humble. A Humean knows that he cannot be certain o
 ### Summary
 David Hume offers mixed support. Politically, he is excellent: he defends the Rule of Law, property, and caution against radical change. He is a check against utopianism. However, his Epistemological roots are dangerous to Real Reality. By denying the objective grounding of Reality and Causation, he leaves the door open for "Truth is Power." If we accept his politics but adopt his metaphysics, we lose the ability to say that freedom is "True" or "Right," we can only say it is "Pleasant for now." He is useful for the audit, but cannot be the foundation.
 
-## 9. Confucianism (Order Match, Symmetry Friction)
+## 9. Confucianism (Order Match, Symmetry Mixed)
 
 ### Reality is Real, Knowable, and Consequential: Compatible
 Confucianism assumes a stable, objective moral order called the "Mandate of Heaven" (Tian Ming) and the "Way" (Dao). It is not a constructivist philosophy; it believes that proper relationships and rituals reflect a cosmic reality. The "Rectification of Names" (Zhengming) argues that language must correspond to reality; a father must actually *be* a father in conduct, not just in name. This alignment with an objective, discoverable moral order matches the "Reality is Knowable" principle. It is a philosophy grounded in the observation of nature and society, seeking to harmonize human conduct with the order of the universe.
 
-### Humans are Limited and Selfish: Friction
+### Humans are Limited and Selfish: Mixed
 There is a significant debate within Confucianism between Mencius (Human nature is good) and Xunzi (Human nature is bad/unformed). However, the dominant Neo-Confucian strain tends toward the idea that humans are perfectible through education and ritual (`Li`). This belief in the potential for distinct moral perfection, particularly of the "Sage King" or the "Junzi" (Gentleman), can friction with the Western "Constrained Vision" which doubts that any human can be trusted with absolute power. The Confucian hope for a "Benevolent Ruler" who needs no checks and balances because of his virtue is a dangerous utopianism that the principle of Limited Humanity rejects.
 
 ### Tiered Self-Anchored Responsibility: Strong Match
@@ -233,15 +233,15 @@ In Imperial China, the concept of "Remonstrance" existed, the duty of an officia
 ### Summary
 Confucianism is a hierarchical alternative to these principles. It is a highly developed system of "Tiered Responsibility" and social stability, offering a civilization that has lasted millennia. However, its fundamental incompatibility with "Procedural Symmetry" and its reliance on the "Perfectible Ruler" rather than the "Rule of Law" make it distinct from the specific operational parameters of this framework. It builds a stable Family-State, but not a Free Society of equal citizens. It can coexist as a private practice, but as a hegemonic system, it would dismantle the legal equality this framework requires.
 
-## 10. Shinto (Nature Alignment, Ethical Friction)
+## 10. Shinto (Nature Alignment, Ethical Mixed)
 
 ### Reality is Real, Knowable, and Consequential: Compatible
 Shinto is deeply "World-Affirming." It views Nature itself as the manifestation of the Divine (*Kami*). Rocks, trees, rivers, and mountains are spirited. This rejects the Gnostic idea that the world is an illusion or a prison. For the Shintoist, the physical territory of Japan is sacred and real. This supports an environmental and physical realism. It is not an abstract theology but a concrete engagement with the land and the seasons, aligning with "Reality is Objective (and Sacred)."
 
-### Humans are Limited and Selfish: Friction
+### Humans are Limited and Selfish: Mixed
 Shinto lacks a concept of "Original Sin." Humans are viewed as "Children of the Kami," born pure. Evil is understood as *Kegare* (Pollution) or *Tsumi* (Offense), external impurities that "stick" to a person and must be washed away through ritual purification (*Harae*). This suggests that evil is not an internal condition of the heart but an external accident. This friction makes Shinto vulnerable to nationalist utopianism; if we just purify the nation of foreign elements, we return to the "Age of the Gods." It underestimates the internal capacity for evil within the "Pure" citizen.
 
-### Tiered Self-Anchored Responsibility: Friction
+### Tiered Self-Anchored Responsibility: Mixed
 Shinto responsibility is often collective rather than individual. The village or the nation is the unit of account. If a member of the community offends the Kami, the whole community may suffer a calamity. This creates a "Collective Responsibility" that overrides the individual. In a system of Tiered Self-Anchored Responsibility, the individual is the primary unit of moral agency. While Shinto promotes strong community bonds (`Wa` - Harmony), it risks submerging the individual conscience into the collective will of the "Volk," blurring the tiered lines of personal accountability.
 
 ### Goodness is to Live and Live Well: Compatible
@@ -304,7 +304,7 @@ Postmodernism is the "Inverse Framework." It consciously inverts every single on
 
 ## 13. Islam (Total Submission)
 
-### Reality is Real, Knowable, and Consequential: Friction (The Occasionalist Split)
+### Reality is Real, Knowable, and Consequential: Mixed (The Occasionalist Split)
 Islam is centered on the absolute Reality of Allah (Al-Haqq, The Truth), which ostensibly aligns with "Real Reality." However, the dominant Ash'arite theology promotes **Occasionalism**, which denies secondary causation. It posits that fire does not burn cotton; God creates burning *at the occasion* of contact. This denial of cause-and-effect creates a form of "Ontological Nihilism" regarding the physical world. It implies that there is no fixed "Book of Nature," only the momentary habits of God's will. This friction destabilizes the scientific and legal reliability required for a "Knowable Reality," as nothing has intrinsic nature or predictable causality.
 
 ### Humans are Limited and Selfish: Incompatible
