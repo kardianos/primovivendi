@@ -1,9 +1,12 @@
-Daniel Theophanes
-The Conservative Frame
+---
+author: Daniel Theophanes
+title: The Conservative Frame
+---
 
 In order to be productive in society we must either ensure we have compatible premises. We can talk about conclusions, such as should we make this law or that, but if we do not have similar premises, we will end up just talking past each other at best.
 
 I believe these questions are some of the core premises of society:
+
 * Is there truth and can we know it?
 * Are humans selfish and limited? Are humans good and unlimited in nature?
 * Should human life continue? Should human life thrive?
@@ -16,16 +19,12 @@ Questions of God, ultimate meaning, biological origin are important. But to live
 
 There is a distinct set of conservative principles that answer the above questions; they can be used to find commonality with other conservatives, even when they disagree on their theism, atheism or other aspects of fundamental beliefs. These principles can also show sharp divide between people who would otherwise be lumped together: if two Christians divide over these, they are radically different from each other and one is likely a wolf in sheep clothing.
 
-The 5 Principles
+## The 5 Principles
 
 * Reality is Real, knowable, and consequential. Truth is what corresponds to reality.
-
 * Humans are limited and self-interested.
-
 * Goodness must include human life continuing and human life thriving.
-
 * Act with self-Anchored Tiered Priority.
-
 * Respond with Procedural Symmetry.
 
 These 5 principles must not be taken apart. These principles work together and describe a single whole that is distinct and greater then the parts. These 5 principles can be ordered into 3 groups. Human relationship to reality (Reality is Real, Humans are Limited). Human relationship to self (Goodness). Human relationship to others (Tiered Priority, Procedural Symmetry).
@@ -34,7 +33,7 @@ By articulating these principles and comparing ideologies to them, we can help p
 
 These 5 principles when applied to society can also help direct future progress. True progress, not what passes as social progressivism today. This is not a conservatism that is rooted in the past, but rooted in principles grounded in reality. That which we want to conserve is grounded in reality, life, and proper relationships to each other.
 
-Relationship to Reality
+## Relationship to Reality
 
 We first acknowledge that reality is real. It isn’t a shadow on a wall but rather, it is what makes us and everything around us. Reality is also consequential: a pool ball hitting another ball acts in a way that conserves momentum minus friction. Reality is also knowable: we can observe reality around us through senses which are generally self-consistent. Self-consistent senses are the key to being confident in our ability to have knowledge of reality. My eyes can interpret blue differently then your eyes, but so long as our senses can differentiate differences in reality and do so consistently, we can create a model of the world with accuracy. LLMs (what we call AI today) demonstrate this: they interpret pixels and go through a much different pipeline. But so long as their training is consistent and their residuals resolve, they can read a picture and describe it as a human can, despite the differences in sensors.
 
@@ -48,7 +47,7 @@ On this note when discussing reality, we need to understand the difference betwe
 
 There is a similar tone with language. There are many languages, many have unique nuances. But they all facilitate communication, which again is required to cooperate in a world that demands specialization. Language doesn’t create. Language takes on common, limited, meaning that refers to reality. Even though each individual language is constructed and changes over time, the concept of language is discovered and emergent.
 
-Relationship to Self
+## Relationship to Self
 
 We can describe what is. But what should we bring about in this world? This question is fundamental to what we call Good. What we call Good can be varied, but to be compatible with these 5 principles, what is Good must include that human life continue and continue well. In the Christian bible this command is present twice in the book of beginnings: God tells both Adam and later Noah to go into the world and multiply. This isn’t the only Good in the Christian belief, but it must be a good they take seriously. However an atheist can also value human life and human thriving.
 
@@ -64,7 +63,7 @@ That same care, that same responsibility, we must also use for humanity’s surv
 
 Of all these things, it is only our own actions that we can control. So while we may bemoan society or politics our actions and responsibility begin with ourselves.
 
-Relationship to Others
+## Relationship to Others
 
 We control our self, but we must still relate to others in society. The first step in that is, unless other factors compound, have a general dispositional love to others. That is, have general good will to others in society around you. This doesn’t imply any actions, but general attitude. There is a second, type of love: action-based love. But we have a problem here. Humans are limited, we only have so much time and energy. This is where our Self-Anchored Tiered Priority kicks in.
 
@@ -82,7 +81,7 @@ We contrast Procedural Symmetry with Value Symmetry and Outcome Symmetry. Value 
 
 Within procedural symmetry and reality, we recognize that power is real. An HOA president has distinct power that can improve lives, or make lives harder. A parent has real power over their child. I’ve heard it said that liberalism is the practice of balancing a bat, where no one willingly picks up the bat of power and uses it to hit people. This is a foolish and dangerous idea. Power is real. Power is necessary. It is a teacher’s power to preside over their students, ideally to teach them what they know. Teachers don’t have equal power with their students. Procedural symmetry is paired with Tiered Priority. The teacher should follow the same procedures for each student. But the teacher and student are in different tiers. The same follows for parents and their children. Children should have a voice, but their voice is not equal to their parents in power. They are different tiers and parents rightly hold power over their children. This is a good and necessary thing to protect and care for children.
 
-Encouragement
+## Encouragement
 
 Memorize these 5 principles: Reality is real, humans are limited, goodness is life and thriving, tiered priority, and procedural symmetry. When you hear an idea, take that idea and break it down on these axis, see if it lands fully within it. Guard your self, your community, your church, your ideas with care. Use these 5 principles as an anchor. Do not let yourself become subverted or useful to parasitic individuals and parasitic ideas.
 
