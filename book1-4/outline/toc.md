@@ -21,26 +21,30 @@
     - This is not a system of virtue, honor, or morality; instead we seek how to live.
     - The possible parameter space within these principles are broad, but still limited.
 * Foundations
-  * Reality & Truth: reality is real, knowable, and consequential. Truth is what corresponds to reality.
+  * Reality & Truth:
+    - Reality is real, knowable, and consequential.
+    - Truth is what corresponds to reality.
   * Human Nature: limited, self-interested
     - productive when properly ordered
-    - Don't try to make people angle.
+    - Don't try to make people angels.
     - Don't try to make people philosophers.
     - Understand people will make irrational decisions.
+  * Goodness - Surviving and Flourishing
+    - Goodness must include humans living, and living well.
+    - Only what survives and thrives can be good in the future.
+    - We must allow failure in order for goodness to survive and thrive.
+    - Survival is a good indicator of truth, but it is the practicies, not the theory or ideologies which are validated.
+    - Reality judges on consequences, not on creed.
   * Tiered Self-Anchored Priority (Tiered Priority)
     - Prioritize yourself and family, then neighbors, then community, then nation, then world.
     - Do not drop any tiers off.
     - Enemies are real and have negative value.
     - Kin Selection
     - Dunbar's Number
-  * Goodness - Surviving and Flourishing
-    - Goodness must include humans living, and living well.
-    - Only what survives and thrives can be good in the future.
-    - We must allow failure in order for goodness to survive and thrive.
   * Procedural Symmetry
     - Equal procedures applied to all.
     - This is what seeking truth is.
-    - Procedural Symmetry is scoped.
+    - Procedural Symmetry is scoped to tiers.
     - Not outcome symmetry. Not value symmetry.
   * All or Nothing: All 5 principles, removing, or distorting one, distorts them all.
   * These 5 principles are part of our 3 fundamental relationship:
@@ -65,7 +69,22 @@
     - Language: To be valuable, we must have some agreement on meaning.
 * Individual (Relating to Self)
   * Align with Truth: Reality & Survival.
+    - If we align with truth and seek it out, we can begin to describe what exists. But given what we understand to be true, what should each person do?
+    - This is sometimes called the is-ought problem.
+    - In order to know anything, we must first exist. Therefore goodness must include humans existing.
+    - In order to know truth and refine our ourstanding, we must work to continue well, thus goodness must include humans thriving.
+    - Suviving is proof that there is some alignment to what works in reality.
+    - Do not confuse the idea of why it works with the practice of what works.
+    - Aristotle's description of movement was largly accurate for a given set of constraints. Newtonian Physics didn't invalidate those observations, but genralized it further. Eienstin's general relativity didn't invalidate Newton, but again took the model and made it more generally applicable. Incomplete is not outright wrong often. Newton's physics still work today, we just better understand the limits and constrains of his model.
+    - Other theories such as trying to turn lead into gold do not survive; they don't work. These are outright wrong.
+    - Goodness, that is surviving and thriving, is the fundamental coherence to survivinging and reality itself. Without survival, no other value is possible. Each person comes from a line of parents who chosoe and found survival.
+    - Any philosphy designed to guide humans, cannot guide what doesn't exist.
   * Seek Excellence: Survival and living well demands quality.
+    - Living well can occure in many circumstances: We can keep our large or small house clean and orderly.
+    - Sleeping in an open field requires finding or making a clearing.
+    - Sleeping in a hut requires someone with the skill to make a hut.
+    - Sleeping in a secure house in a bed requires skill to make everything required for that, linen weavers, farmers, carpenders.
+    - All this requires continued excellence.
   * Admire and Create Beauty: Platforms for personal and social joy and propagation.
     - Beauty sits at the conjunction of order, truth, and vitality.
     - Order provides intelligible structure.
@@ -87,6 +106,12 @@
   * Action begins with you. Integrate these references directly into your life.
   * Personal Decisions and perspective Matrix (see "Precepts Matrix Tool" below ).
 * Society (Relating to Others)
+  * Consequences of complexity: Specilization
+    - A farmer must spend their days in the field, while a tailor will spend their days indoors. Difficult to do both.
+    - We specialize.
+    - Even when we can do multiple things we only have time to do a limited number of things.
+    - Due to this specilization and reality being more complex and more timeconsuming then a single person, we have to work together.
+  * Power is societies, tiered areas: parent and child, student and teacher. Real and necessary.
   * Love and Forgiveness
     - Dispositional Love
     - Action-based Love
