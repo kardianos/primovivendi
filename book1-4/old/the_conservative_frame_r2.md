@@ -8,15 +8,15 @@ geometry:
   - bottom=0.6in
 ---
 
-To live and work productively together in society, we must share compatible premises about the world. We can argue over specific conclusions (whether to enact this law or adopt that policy), but if our underlying premises differ, we will at best talk past each other, and at worst weaponize language against one another.
+To live and work productively together in society, we must share compatible premises about the world. We can argue over specific conclusions (whether to enact this law or adopt that policy), but if our underlying premises differ, we will end up just talking past each other at best.
 
-Five questions reveal the deepest fault lines between worldviews:
+I believe these questions are some of the core premises of society:
 
-- Is there truth, and can we know it?
-- Are humans limited and self-interested, or are they fundamentally good and perfectible through social change?
-- Should human life continue, and should it thrive?
-- What deserves priority in our obligations?
-- What does justice require in society: equal procedures, equal outcomes, or equal value returned?
+* Is there truth, and can we know it?
+* Are humans limited and self-interested, or are they fundamentally good and perfectible through social change?
+* Should human life continue, and should it thrive?
+* What deserves priority in our obligations?
+* What does justice require in society: equal procedures, equal outcomes, or equal value returned?
 
 Different churches, political parties, families, and friend groups give different answers to these questions. The United Methodist Church and the Southern Baptist Convention often diverge here. A modern Jesuit and an Eastern Orthodox Christian may part ways on these premises even while sharing a creed. Republicans and Democrats are divided by them. Atheists are not uniform either. Questions of God and ultimate origins matter, but these five questions reign supreme for the practical task of living together without constant conflict or collapse.
 

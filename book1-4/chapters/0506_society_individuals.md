@@ -1,11 +1,13 @@
 ## Society Is Made of Individuals
 
-The frame begins, ends, and works at the individual scale. Society is large and complex, but every society is composed of individuals who make choices. Action begins with you.
+Society is large. Its problems arrive at the scale of millions, its institutions tower over any single life, and the temptation in the face of that scale is to conclude that nothing begins until something vast moves first: an election, a movement, a collapse. The conclusion is wrong, and it is wrong for a structural reason. Every society, however large, is composed of individuals who make choices, and of nothing else. The institutions are individuals following procedures; the movements are individuals showing up; the culture is individuals deciding, one household at a time, what is normal. The frame begins, ends, and works at the individual scale, and so the practical instruction is simple: action begins with you.
 
-Memorize the five principles:
+What action, concretely? Three instructions, in order.
 
-Reality is real. Humans are limited. Goodness is life and thriving. Tiered priority. Procedural symmetry.
+First, memorize the five principles. Not approximately, and not as a bookmark: in your head, where they are available at the moment of decision. The compressed form is short enough to hold: **Reality is real. Humans are limited. Goodness is life and thriving. Tiered priority. Procedural symmetry.** Five phrases. A person who can recite a phone number can carry the entire foundation.
 
-When you hear an idea, run it through all five. See whether it lands within the bundle. Guard yourself, your family, your community, your church, and your work with care. Do not let yourself become subverted or useful to parasitic individuals or parasitic ideas.
+Second, use them as a filter on everything that arrives. When you hear an idea, a policy, a sermon, a headline, a confident claim at dinner, run it through all five and see whether it lands within {{.bundle}}. Does it assume a knowable reality? Does it respect human limits? Does it serve life and thriving? Does it honor the tiers, or demand you invert them? Does it bind everyone by the same rules, or exempt someone? The check takes seconds once the principles are memorized, and it catches most of what needs catching.
 
-The principles are not a distant theory. They are a discipline that begins with the person who holds them.
+Third, guard what is yours. Guard yourself, your family, your community, your church, and your work, with care, because each of these is a platform that took years to build and can be consumed in far less time. The threats apply personally: do not let yourself become subverted, talked out of your premises by appeals dressed in your own values, and do not let yourself become useful to parasitic individuals or parasitic ideas, lending your effort, your reputation, or your institutions to things that consume what they did not build. Guarding is not paranoia; it is the maintenance half of ownership, applied to the things that matter most.
+
+None of this requires permission, office, or scale. That is the point of it. The principles are not a distant theory awaiting implementation by someone with more power than you; they are a discipline that begins with the person who holds them, operating today, in the one life that is fully yours to direct.

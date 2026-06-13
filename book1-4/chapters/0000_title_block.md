@@ -8,7 +8,7 @@ geometry:
   - bottom=0.6in
 
 # Variables below are available for substitution in all chapter files
-# using the syntax {{.variable_name}}. Change them here to update the
+# using the syntax {{"{{.variable_name}}"}}. Change them here to update the
 # entire book before publication.
 five_principles: "the five principles"
 bundle: "the bundle"
