@@ -1,6 +1,6 @@
-# Part 03: Reality, Self, and Others
+# Reality, Self, and Others
 
-## Reality (Relating to Reality)
+## Relating to Reality
 
 Human beings relate to reality through limited capacities and through tools that extend those capacities. Every person who has ever planned a harvest, raised a child, or built a house has had to answer, in practice, the same basic questions: what is actually true, how confident can I be, and what happens if I am wrong? The principles that govern this relationship set the terms for everything that follows, because no plan, no family, and no society can be better than its grip on what is real.
 

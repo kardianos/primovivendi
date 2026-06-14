@@ -42,14 +42,14 @@ Each chapter receives its own file. The list below gives the exact filename, the
 **Part 01: The Five Principles**
 
 - `0101_introduction.md`
-  Header: `# Part 01: The Five Principles`
+  Header: `# Part 1: The Five Principles`
   `## Introduction: The Bundle in Five Sentences`
   Content covers: the five questions that divide societies beneath any label; the five principles each stated in one sentence; the requirement that all five be held at once; why these five form the minimum coherent interlocking set; what the vision is and is not (positive filter, not blueprint; more politics than philosophy; not a system of virtue or morality); the fact that everyone already holds answers to the five questions, explicitly or implicitly; and the recommendation to hold them explicitly.
 
 **Part 02: Foundations**
 
 - `0201_foundations.md`
-  Header: `# Part 02: Foundations`
+  Header: `# Part 2: Foundations`
   `## Foundations: The Five Principles, Paragraph by Paragraph`
   Content covers: each of the five principles developed to paragraph length (Reality and Truth; Human Nature: limited and self-interested; Goodness: surviving and flourishing; Tiered Self-Anchored Priority; Procedural Symmetry); the bundle as all or nothing; the clustering of the five into three relationships; and the existence of a coherent mirror inversion that inverts each principle and interlocks in the same way.
 
@@ -70,7 +70,7 @@ Each chapter receives its own file. The list below gives the exact filename, the
 **Part 04: Ramifications, Contrasts, and Context**
 
 - `0401_reality_revisited.md`
-  Header: `# Part 04: Ramifications, Contrasts, and Context`
+  Header: `# Part 4: Ramifications, Contrasts, and Context`
   `## Reality, Revisited: The Defensive Distinctions`
   Content covers: discovered versus constructed as a defensive distinction; and identity is not modular, including the Seagull Test and rejection of false empathy.
 
@@ -93,7 +93,7 @@ Each chapter receives its own file. The list below gives the exact filename, the
 **Part 05: Application and Practice**
 
 - `0501_precepts_matrix.md`
-  Header: `# Part 05: Application and Practice`
+  Header: `# Part 5: Application and Practice`
   `## The Precepts Matrix: The Tool Made Explicit`
   Content covers: the six filters of the Precepts Matrix in fixed order (survival as flourishing propagation; reality; human limits; tiered responsibility; what must be good; procedural symmetry); the requirement that all six align for any decision; the quick mental version to memorize; and the instruction to run the matrix on habits, major choices, family discussions, and policy positions.
 

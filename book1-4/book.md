@@ -14,9 +14,9 @@ five_principles: "the five principles"
 bundle: "the bundle"
 ---
 
-# Part 01: The Five Principles
+# The Five Principles
 
-## Introduction: The Bundle in Five Sentences
+## In Five Sentences
 
 To live and work productively in society, people must share compatible premises about the world. A premise is a starting belief: a claim a person accepts before the argument begins, and on which the rest of the argument stands. When two people reach different conclusions about a law or a policy, the disagreement often runs deeper than the specific issue at hand. The conclusions only converge when the premises underneath them are aligned. Without that alignment, debate tends to produce confusion at best and weaponized language at worst.
 
@@ -42,7 +42,7 @@ These questions do not belong to any single tradition. They appear inside religi
 
 This point deserves repetition because it runs against habit. People sort each other by label: Christian, atheist, Republican, Democrat, conservative, progressive. The labels feel informative, but they are unreliable. The same church name can house opposite answers to the five questions. The same party name can too. If you want to know whether you can build with someone, ask what they believe about truth, human nature, life, priority, and justice. The answers to those five questions predict cooperation far better than any label does.
 
-### People Already Hold Answers to These Questions
+### You Have An Answer
 
 Everyone who participates in society already holds answers to these five questions. This is true whether or not the person has ever heard the questions stated. A parent who saves for a child's education before donating to distant causes has answered the priority question through action. A voter who feels that unequal salaries are automatic proof of injustice has answered the justice question, probably without noticing. A person who shrugs and says "that may be true for you" has answered the truth question.
 
@@ -50,7 +50,7 @@ The answers may be explicit and carefully examined, or they may remain implicit 
 
 The advantage of making the answers explicit is straightforward. When people can state their premises clearly, they can defend them when challenged. They can refine them when new evidence appears. They can recognize when someone else is operating from a different set of premises entirely, and stop wasting effort on surface arguments that cannot resolve. Unexamined premises are harder to improve and easier to exploit. A person who has never articulated why family comes before strangers can be talked out of that priority by anyone with a sufficiently emotional appeal. A person who holds the priority explicitly, and knows the reasons for it, cannot.
 
-### Five Principles That Answer the Five Questions
+### Coherent Five Answers
 
 The Conservative Frame offers one coherent set of answers to these five questions. Each answer takes the form of a single principle. Together they form a consistent foundation rather than a collection of separate ideas.
 
@@ -72,7 +72,7 @@ A few examples make the interlock visible. Suppose someone accepts four of the p
 
 This requirement, that all five remain active and consistent with one another, is called the bundle. The interlock among them is what allows the set to guide decisions across different domains without collapsing into contradiction. The individual principles each carry weight, but the interlock does the real work.
 
-### Why These Five Principles and Not Others
+### Why These and Not Others
 
 The set is deliberately limited. It includes the smallest number of principles that still interlock and remain coherent under pressure. Fewer principles leave gaps. A set with no priority principle cannot tell you who to help when obligations conflict, and people facing that silence will improvise answers that contradict each other. A set with no justice principle cannot resolve disputes without raw power deciding.
 
@@ -91,9 +91,9 @@ This vision concerns politics more than philosophy. It does not attempt to repla
 It also does not present itself as a complete system of personal virtue, honor, or moral character. It will not tell you how to be courageous or how to pray. Its subject is narrower and more practical: how people with limited capacities and competing interests can still maintain workable cooperation over time. That narrow subject turns out to be the one on which everything else depends.
 
 
-# Part 02: Foundations
+# Foundations
 
-## Foundations: The Five Principles, Paragraph by Paragraph
+## In Five Paragraphs
 
 The five principles can be stated more fully than single sentences while remaining at the level of foundation. Each expanded statement preserves the original claim, shows its immediate implications, and indicates its dependence on the other principles. The goal here is depth without conclusions: what each principle says, why a reasonable person should accept it, and what immediately follows from accepting it.
 
@@ -174,9 +174,9 @@ The inverted set interlocks the same way the original does. If reality is constr
 Naming the inversion matters. It is not a random pile of bad ideas held by confused people. It is a coherent rival foundation, pointed at a different end-state, and it deserves a name. Call it the inverted frame, or the inverted bundle when the interlock itself is the point; in its own self-justifying vocabulary it presents itself as the frame of equity and compassion. Engaging it casually, one principle at a time, fails, because the other four inverted principles absorb the blow. The honest engagement, and the effective one, treats it as what it is: a complete bundle answering the same five questions in the opposite direction. The two sets therefore present a genuine choice between incompatible foundations, and the choice should be made deliberately, with both sets in plain view.
 
 
-# Part 03: Reality, Self, and Others
+# Reality, Self, and Others
 
-## Reality (Relating to Reality)
+## Relating to Reality
 
 Human beings relate to reality through limited capacities and through tools that extend those capacities. Every person who has ever planned a harvest, raised a child, or built a house has had to answer, in practice, the same basic questions: what is actually true, how confident can I be, and what happens if I am wrong? The principles that govern this relationship set the terms for everything that follows, because no plan, no family, and no society can be better than its grip on what is real.
 
@@ -257,7 +257,7 @@ The inverted frame treats markets as a recent ideological construction, an inven
 The conclusion ties reality, human limits, systems, and discovery together. Arrangements that align with the actual limits and interests of human beings compound across generations; the Assyrian network ran for centuries, and its descendants run today. Arrangements that sever truth from correspondence, or that attempt to override discovered solutions by decree, destroy the productivity those solutions sustained, and then fail against the same constraints that produced the Assyrian network in the first place. Reality is real, knowable, and consequential; the consequences include which societies persist.
 
 
-## Self (Relating to Self)
+## Relating to Self
 
 People relate to themselves through the requirements of their own continuation and through the duties that arise from their specific situation and capacities. The question here is plain: given what is true about reality and about human nature, what should an individual person actually do with a life? The answers come in a sequence, and each answer builds on the one before it.
 
@@ -356,7 +356,7 @@ Against this stands one fact that no rigged system can repeal: of all the things
 This principle requires a daily practice to be more than a slogan, and the practical discipline that operationalizes it is the Precepts Matrix.
 
 
-## Others (Relating to Others)
+## Relating to Others
 
 Human beings relate to one another through the limits that force specialization and through the duties that follow from actual relationships and capacities. This is the largest of the three relationships, because most of the hard questions in life involve other people: who you owe, who owes you, who decides, who enforces, and what happens when someone refuses the rules. Each of those questions has an answer, and the answers connect. The reason society exists at all leads to the structure of duty and justice, and that structure leads to the institutions that carry it: power, law, speech, borders, markets, forgiveness, and education.
 
@@ -527,7 +527,7 @@ Society itself is a form of technology, the largest one, and this fact sets the 
 The second rule follows from human nature. Truth, beauty, and excellence must be taught explicitly, because humans are limited and self-interested, and none of these is the default. A child left untaught does not drift toward honesty, craftsmanship, and high standards; drift runs the other way, toward the easy, the shoddy, and the self-serving, not because children are wicked but because the good things are uphill. Every generation that enjoys truth, beauty, and excellence does so because the previous generation deliberately put them there. Education is that deliberate act, repeated forever, and there is no point at which a society may stop and coast.
 
 
-# Part 04: Ramifications, Contrasts, and Context
+# Ramifications, Contrasts, and Context
 
 ## Reality, Revisited: The Defensive Distinctions
 
@@ -752,7 +752,7 @@ The third region matters most for readers on the political right, because it dem
 The whole placement compresses into one cross-cutting claim, and it is the claim to carry away. The test is the bundle, not the label. A truth-seeking atheist and a truth-seeking theist have more in common with each other than either has with someone who shares their label but inverts the bundle; the same holds for conservatives, progressives, and every other name people sort by. Ask the five questions. Trust the answers, not the labels.
 
 
-# Part 05: Application and Practice
+# Application and Practice
 
 ## The Precepts Matrix: The Tool Made Explicit
 

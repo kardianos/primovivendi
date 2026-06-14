@@ -1,4 +1,4 @@
-# Part 05: Application and Practice
+# Application and Practice
 
 ## The Precepts Matrix: The Tool Made Explicit
 

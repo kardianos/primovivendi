@@ -1,4 +1,4 @@
-# Part 04: Ramifications, Contrasts, and Context
+# Ramifications, Contrasts, and Context
 
 ## Reality, Revisited: The Defensive Distinctions
 

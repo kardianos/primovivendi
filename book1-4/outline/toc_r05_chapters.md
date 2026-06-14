@@ -7,17 +7,17 @@ This document lists the five parts (titled by function) and the chapter titles e
 
 The chapters appear below in the order they will be concatenated. The first file of each part includes the `# Part` header; all files begin with their `##` chapter title.
 
-## Part 01: The Five Principles
+## Part 1: The Five Principles
 
 - `0101_introduction.md`  
   **Chapter: Introduction: The Bundle in Five Sentences**
 
-## Part 02: Foundations
+## Part 2: Foundations
 
 - `0201_foundations.md`  
   **Chapter: Foundations: The Five Principles, Paragraph by Paragraph**
 
-## Part 03: Reality, Self, and Others
+## Part 3: Reality, Self, and Others
 
 - `0301_reality.md`  
   **Chapter: Reality (Relating to Reality)**
@@ -26,7 +26,7 @@ The chapters appear below in the order they will be concatenated. The first file
 - `0303_others.md`  
   **Chapter: Others (Relating to Others)**
 
-## Part 04: Ramifications, Contrasts, and Context
+## Part 4: Ramifications, Contrasts, and Context
 
 - `0401_reality_revisited.md`  
   **Chapter: Reality, Revisited: The Defensive Distinctions**
@@ -39,7 +39,7 @@ The chapters appear below in the order they will be concatenated. The first file
 - `0405_philosophical_landscape.md`  
   **Chapter: The Philosophical Landscape: Where the Bundle Stands**
 
-## Part 05: Application and Practice
+## Part 5: Application and Practice
 
 - `0501_precepts_matrix.md`  
   **Chapter: The Precepts Matrix: The Tool Made Explicit**

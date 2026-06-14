@@ -1,0 +1,157 @@
+#!/usr/bin/fish
+
+# Publication-grade build for "The Conservative Frame".
+# Produces three deliverables:
+#   cf_book.pdf  - print PDF, LaTeX book class, fonts embedded by xelatex
+#                  + optional ghostscript pass for print platforms
+#   cf_book.epub - reflowable EPUB3 for KDP / Apple Books / Kobo
+#   cf_book.html - standalone web edition
+#
+# Required: pandoc, texlive-xetex
+# Optional: ghostscript (print PDF pass)
+
+set script_dir (dirname (status --current-filename))
+cd $script_dir
+
+go run concat.go
+
+set SRC "book"
+set DST "cf_book"
+set OUT "../.out"
+set WWW "../release"
+command mkdir -p $OUT $WWW
+
+# ---- book design knobs ----
+set TRIM_W   "6in"
+set TRIM_H   "9in"
+set INNER    "0.875in"
+set OUTER    "0.625in"
+set TOP_M    "0.75in"
+set BOT_M    "0.75in"
+set FONTSIZE "11pt"
+set LEADING  "1.08"
+set BODYFONT "TeX Gyre Pagella"
+set SANSFONT "TeX Gyre Heros"
+set MONOFONT "TeX Gyre Cursor"
+set PDFX     "on"
+
+# ---- LaTeX preamble fragment (book typography) ----
+# titlesec: drop the "Chapter N." auto-label from chapter pages.
+# fancyhdr: page number in footer (outside), running title in header (inside),
+#           so the two never share a line.
+# PassOptionsToPackage{draft}{hyperref}: strip link annotations so gs can reprocess.
+set HDR (mktemp --suffix=.tex)
+printf '%s\n' \
+  '\usepackage{titlesec}' \
+  '% \nohyph: suppress word-wrap hyphenation in display text (titles, headings,' \
+  '% running heads, TOC). Body paragraphs keep hyphenation for clean justification.' \
+  '\newcommand{\nohyph}{\hyphenpenalty=10000\exhyphenpenalty=10000}' \
+  '\titleformat{\chapter}[display]{\normalfont\huge\bfseries\raggedright\nohyph}{}{0pt}{\Huge}' \
+  '\titleformat*{\section}{\normalfont\Large\bfseries\raggedright\nohyph}' \
+  '\titleformat*{\subsection}{\normalfont\large\bfseries\raggedright\nohyph}' \
+  '\titleformat*{\subsubsection}{\normalfont\normalsize\bfseries\raggedright\nohyph}' \
+  '\usepackage{fancyhdr}' \
+  '\pagestyle{fancy}' \
+  '\fancyhf{}' \
+  '\fancyfoot[LE,RO]{\thepage}' \
+  '\fancyhead[RE]{{\nohyph\leftmark}}' \
+  '\fancyhead[LO]{{\nohyph\rightmark}}' \
+  '\renewcommand{\chaptermark}[1]{\markboth{#1}{}}' \
+  '\renewcommand{\headrulewidth}{0pt}' \
+  '% never strand a single line of a paragraph at the bottom (orphan/club)' \
+  '% or top (widow) of a page; force the break to carry a partner line along.' \
+  '\clubpenalty=10000' \
+  '\widowpenalty=10000' \
+  '\displaywidowpenalty=10000' \
+  '\AtBeginDocument{\addtocontents{toc}{\protect\nohyph}}' \
+  '\PassOptionsToPackage{draft}{hyperref}' \
+  > $HDR
+
+# ===== 1. Print PDF (xelatex embeds fonts by default) =====
+echo -n "pdf ... "
+command pandoc "$SRC.md" \
+  -o "$OUT/$DST.pdf" \
+  --pdf-engine=xelatex \
+  --top-level-division=part \
+  -V documentclass=book \
+  --include-in-header=$HDR \
+  -V geometry:"paperwidth=$TRIM_W" \
+  -V geometry:"paperheight=$TRIM_H" \
+  -V geometry:"inner=$INNER" \
+  -V geometry:"outer=$OUTER" \
+  -V geometry:"top=$TOP_M" \
+  -V geometry:"bottom=$BOT_M" \
+  -V geometry:"twoside" \
+  -V fontsize=$FONTSIZE \
+  -V linestretch=$LEADING \
+  -V mainfont="$BODYFONT" \
+  -V sansfont="$SANSFONT" \
+  -V monofont="$MONOFONT" \
+  -V toc \
+  -V toc-depth=1 \
+  -V numbersections=true \
+  -V colorlinks=false \
+  -V linkcolor=black \
+  -V urlcolor=black
+
+if test $status -ne 0
+  echo "FAIL"
+  exit 1
+end
+
+# Fonts are already embedded by xelatex. This ghostscript pass subsets,
+# downsamples images, and flattens to grayscale for print platforms.
+# Strict PDF/X-1a:2001 would need an ICC profile + PDFX_def.ps (IngramSpark);
+# KDP accepts this output directly. Set PDFX=off to skip.
+if test "$PDFX" = "on"; and type -q gs
+  echo -n "print ... "
+  command gs \
+    -dNOPAUSE -dQUIET -dBATCH \
+    -sDEVICE=pdfwrite \
+    -sColorConversionStrategy=Gray \
+    -dPDFSETTINGS="/printer" \
+    -dEmbedAllFonts=true \
+    -dSubsetFonts=true \
+    -sOutputFile="$OUT/$DST.x.pdf" \
+    "$OUT/$DST.pdf"
+  if test $status -eq 0
+    command mv -f "$OUT/$DST.x.pdf" "$WWW/$DST.pdf"
+    echo "Done (print PDF)"
+  else
+    command mv -f "$OUT/$DST.pdf" "$WWW/$DST.pdf"
+    echo "gs failed, fell back to xelatex PDF"
+  end
+else
+  command mv -f "$OUT/$DST.pdf" "$WWW/$DST.pdf"
+  echo "Done (xelatex PDF)"
+end
+
+# ===== 2. EPUB (reflowable ebook) =====
+echo -n "epub ... "
+command pandoc "$SRC.md" \
+  -o "$OUT/$DST.epub" \
+  --toc --toc-depth=1 \
+  --split-level=2 \
+  --metadata lang=en-US
+command mv -f "$OUT/$DST.epub" "$WWW/$DST.epub"
+echo "Done"
+
+# ===== 3. HTML (web edition) =====
+echo -n "html ... "
+command pandoc "$SRC.md" \
+  -o "$OUT/$DST.html" \
+  --standalone \
+  --toc --toc-depth=2 \
+  --split-level=2 \
+  --metadata lang=en-US
+command mv -f "$OUT/$DST.html" "$WWW/$DST.html"
+echo "Done"
+
+set PR "../push_release"
+if test -e $PR
+  echo "Release"
+  pushd $(dirname $PR);
+  set -l NAME "./$(basename $PR)";
+  command $NAME;
+  popd
+end;

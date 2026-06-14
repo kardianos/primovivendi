@@ -1,6 +1,6 @@
-# Part 02: Foundations
+# Foundations
 
-## Foundations: The Five Principles, Paragraph by Paragraph
+## In Five Paragraphs
 
 The five principles can be stated more fully than single sentences while remaining at the level of foundation. Each expanded statement preserves the original claim, shows its immediate implications, and indicates its dependence on the other principles. The goal here is depth without conclusions: what each principle says, why a reasonable person should accept it, and what immediately follows from accepting it.
 

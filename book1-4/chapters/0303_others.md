@@ -1,4 +1,4 @@
-## Others (Relating to Others)
+## Relating to Others
 
 Human beings relate to one another through the limits that force specialization and through the duties that follow from actual relationships and capacities. This is the largest of the three relationships, because most of the hard questions in life involve other people: who you owe, who owes you, who decides, who enforces, and what happens when someone refuses the rules. Each of those questions has an answer, and the answers connect. The reason society exists at all leads to the structure of duty and justice, and that structure leads to the institutions that carry it: power, law, speech, borders, markets, forgiveness, and education.
 

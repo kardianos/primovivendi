@@ -1,6 +1,6 @@
-# Part 01: The Five Principles
+# The Five Principles
 
-## Introduction: The Bundle in Five Sentences
+## In Five Sentences
 
 To live and work productively in society, people must share compatible premises about the world. A premise is a starting belief: a claim a person accepts before the argument begins, and on which the rest of the argument stands. When two people reach different conclusions about a law or a policy, the disagreement often runs deeper than the specific issue at hand. The conclusions only converge when the premises underneath them are aligned. Without that alignment, debate tends to produce confusion at best and weaponized language at worst.
 
@@ -26,7 +26,7 @@ These questions do not belong to any single tradition. They appear inside religi
 
 This point deserves repetition because it runs against habit. People sort each other by label: Christian, atheist, Republican, Democrat, conservative, progressive. The labels feel informative, but they are unreliable. The same church name can house opposite answers to the five questions. The same party name can too. If you want to know whether you can build with someone, ask what they believe about truth, human nature, life, priority, and justice. The answers to those five questions predict cooperation far better than any label does.
 
-### People Already Hold Answers to These Questions
+### You Have An Answer
 
 Everyone who participates in society already holds answers to these five questions. This is true whether or not the person has ever heard the questions stated. A parent who saves for a child's education before donating to distant causes has answered the priority question through action. A voter who feels that unequal salaries are automatic proof of injustice has answered the justice question, probably without noticing. A person who shrugs and says "that may be true for you" has answered the truth question.
 
@@ -34,7 +34,7 @@ The answers may be explicit and carefully examined, or they may remain implicit 
 
 The advantage of making the answers explicit is straightforward. When people can state their premises clearly, they can defend them when challenged. They can refine them when new evidence appears. They can recognize when someone else is operating from a different set of premises entirely, and stop wasting effort on surface arguments that cannot resolve. Unexamined premises are harder to improve and easier to exploit. A person who has never articulated why family comes before strangers can be talked out of that priority by anyone with a sufficiently emotional appeal. A person who holds the priority explicitly, and knows the reasons for it, cannot.
 
-### Five Principles That Answer the Five Questions
+### Coherent Five Answers
 
 {{.title}} offers one coherent set of answers to these five questions. Each answer takes the form of a single principle. Together they form a consistent foundation rather than a collection of separate ideas.
 
@@ -56,7 +56,7 @@ A few examples make the interlock visible. Suppose someone accepts four of the p
 
 This requirement, that all five remain active and consistent with one another, is called {{.bundle}}. The interlock among them is what allows the set to guide decisions across different domains without collapsing into contradiction. The individual principles each carry weight, but the interlock does the real work.
 
-### Why These Five Principles and Not Others
+### Why These and Not Others
 
 The set is deliberately limited. It includes the smallest number of principles that still interlock and remain coherent under pressure. Fewer principles leave gaps. A set with no priority principle cannot tell you who to help when obligations conflict, and people facing that silence will improvise answers that contradict each other. A set with no justice principle cannot resolve disputes without raw power deciding.
 
