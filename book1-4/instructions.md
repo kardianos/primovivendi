@@ -27,11 +27,11 @@ Name each part according to the function it performs in presenting the concepts.
 
 The five parts and their titles are:
 
-- Part 01: The Five Principles
-- Part 02: Foundations
-- Part 03: Reality, Self, and Others
-- Part 04: Ramifications, Contrasts, and Context
-- Part 05: Application and Practice
+- Part 1: The Five Principles
+- Part 2: Foundations
+- Part 3: Reality, Self, and Others
+- Part 4: Ramifications, Contrasts, and Context
+- Part 5: Application and Practice
 
 Use these exact titles in the `#` part headers described below.
 
@@ -165,6 +165,81 @@ Punctuation is limited to the following marks: . , ; : ( ) " ' ? ! together with
 You may use **bold** and *italic* for emphasis when doing so increases clarity. You may use tables, numbered lists, and bullet outlines when they present relationships or procedures more clearly than prose alone.
 
 Every sentence must contain useful, defensible content about the concepts. No sentence may exist only to fill space or to create a transition that comments on the writing itself.
+
+Avoid phrases like "It is X, not Y." State the positive claim directly instead.
+
+Do not attribute human moral character to an abstraction. Human virtues and vices belong to persons, so a concept, worldview, ideology, principle, or argument is never honest, sincere, humble, brave, or cynical. Name an idea by what it claims or does. Forbidden example: "Buddhism is an honest rival." Required example: "Buddhism is a rival that fails the survival standard." Describing what an idea does remains acceptable (a doctrine severs correspondence; a rival set interlocks the same way); the rule forbids only the attribution of human character.
+
+Vary the connective tissue, so that no transition, contrast marker, or sentence opener becomes a verbal habit. When a phrase has appeared recently, reach for a different structure instead of repeating the word. Three families in particular need active rotation.
+
+**Lead-ins that state what a position entails, in place of a repeated "on this account," "on this view," or "by this reasoning."** Rotate among these and others like them: by this logic; under this doctrine; on those terms; by that reasoning; read this way; so construed; so understood; taken seriously, this means; pushed to its conclusion; granting the premise; once that is granted; where this holds; if that is so; given this; from here; it follows that; the upshot is; what this yields is; the consequence is; the doctrine then holds that; such a view commits its holder to; carried through, the claim says. Most often the cleanest move drops the lead-in entirely and states the mechanism as a plain claim: write "The doctrine severs truth from observation" in place of "On this account, truth is severed from observation."
+
+**Contrast and correction, in place of a repeated "rather than."** "Rather than" is a single connective, and leaning on it flattens the prose, so prefer a full structural change. In rough order of preference:
+
+1. State the positive alone and cut the foil, when the contrast adds nothing: "The measure is what the act builds."
+2. Use two sentences, the positive first and the foil dismissed in its own sentence: "The measure is what the act builds. What it costs is a separate matter."
+3. Restate the concept giving the foil its own subject, described positively: "The measure is maintenance; cost merely names the price paid."
+4. Subordinate the foil in a dependent clause: "Where some count the cost, the measure is what the act builds."
+5. Concede the foil, then hold the positive: "The cost is real, and the measure remains what the act builds."
+6. Set the foil in a parenthetical aside: "The measure is what the act builds (the cost, however large, is a separate matter)."
+7. Use a comparative, sparingly: "The act is judged more by what it builds than by what it costs."
+
+The first option is the most common correct answer, because much of the time the foil was never needed and the positive claim stands on its own. A short rotation of connectives can carry the rest, used no more than once per paragraph: instead of; in place of; over; ahead of; before; as against; and not; sooner than; in preference to; well past.
+
+**The negation-distance phrases: "well beyond," "well apart from," "well short of," "far from," "a long way from."** These convert an antithesis into a positive, and a writer who reaches for them repeatedly has simply traded one habit for another. Treat them like "rather than": cut the foil where it adds nothing, or restructure, so that no distance phrase repeats within a few paragraphs.
+
+Run the same discipline on any phrase that begins to recur: a repeated sentence opener ("It is," "This is," "The inverted frame"), a repeated label for the rival set, or a repeated rhetorical move. Vary the subject, vary the shape of the sentence, or cut the repetition. A good target is that no distinctive connective or opener appears twice on the same page.
+
+## Additional Prose Disciplines from Revision
+
+The following patterns have produced hard-to-read passages in draft chapters. Avoid them.
+
+**Vague or abstract opening sentences.** A paragraph should not open by naming a topic in abstract terms. State a concrete claim or mechanism.
+
+- Weak: "The budget for costly care needs an explicit order..."
+- Better: "People cannot help everyone equally, so they need an order of priority."
+
+**Moral-coloring words in place of literal description.** Words like "honest," "honestly," "honorable," or "sincere" describe human character, not procedures. Say what the procedure actually does.
+
+- Weak: "The honest procedure follows from human limits."
+- Better: "The only reliable procedure follows from human limits."
+
+**Jargon without explanation.** Technical or coined terms ("modular identity," "self-anchoring," "status," "motion") should be replaced with explanatory phrases or defined concretely on first use.
+
+- Weak: "The equity-compassion bundle requires modular identity..."
+- Better: "The equity-compassion bundle requires the picture of identity as a detachable self..."
+
+**Dense list logic.** Do not pack multiple distinct claims into a single list-heavy sentence. Spread them across sentences and paragraphs, using explicit connective tissue.
+
+- Weak: "The refusals follow the moods in order: a plain statement..., an account..., a boundary..., and a sober look..."
+- Better: Remove the preview and let the following sections do the work.
+
+**"Both sides" claims without development.** If you say two groups make the same error, develop both groups specifically or do not make the claim.
+
+- Weak: "Notably it is committed on both sides: critics who believe markets can be abolished by decree, and worshippers who treat markets as a creed..."
+- Better: Develop the specific error with concrete content rather than naming two sides.
+
+**Illustrative analogies and parables.** Do not use analogies (oxygen masks, language behavior, boats, furniture) to carry the argument. State the mechanism literally.
+
+- Weak: "...the way an adult on a depressurizing aircraft secures their own oxygen mask..."
+- Better: "A person who collapses cannot help anyone."
+
+**Preview sentences at chapter or section openings.** Do not use the last sentence of a paragraph to list what the next sections will cover.
+
+- Weak: "The refusals follow the moods in order: ..."
+
+**No fluff: signpost in, chain through, walk the reader, repeat, signpost out.** A paragraph should not waste sentences on throat-clearing or self-commentary. Open with a signpost that tells the reader where the argument is going. Then walk through the reasoning step by step, showing the mechanism and its ramifications. Repeat the key point in different terms so it lands. Then signpost the transition to the next topic.
+
+- Weak: "The final examination turns to a confusion, and it must be staged with particular care..."
+- Better: "Kindness and politeness are not the same thing..."
+
+**Anchor claims in primary sources and chain-of-thought reasoning.** Do not make a claim and move on. Cite the source, explain what it says, show the logical consequence, and show the ramifications. Each step should be visible to the reader.
+
+- Weak: "Some recent Jesuit currents... have absorbed the inverted bundle nearly whole."
+- Better: "On goodness, justice becomes equity of outcome... On reality, construction replaces correspondence..."
+- Better: Remove it.
+
+**Abstractions that substitute for specific claims.** Every paragraph should make a real, specific claim. If a paragraph only restates a principle vaguely, either give it concrete content or remove it.
 
 ## Content Development Process
 
