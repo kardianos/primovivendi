@@ -40,7 +40,7 @@ The advantage of making the answers explicit is straightforward. When people can
 
 {{.title}} offers one coherent set of answers to these five questions. Each answer takes the form of a single principle. Together they form a consistent foundation, with the principles interlocking instead of standing as separate ideas.
 
-Here are the five principles, each stated in one sentence:
+Here are the five principles in a simple form:
 
 1. **Reality is real, knowable, and consequential.** Truth is what corresponds to reality.
 2. **Humans are limited and self-interested.** These features allow productive cooperation when properly ordered. They are not defects to be engineered out of people.
@@ -48,7 +48,7 @@ Here are the five principles, each stated in one sentence:
 4. **Priority is tiered and self-anchored.** A person begins with responsibility for the self and immediate family, then extends outward to neighbors, community, nation, and world.
 5. **Justice is procedural symmetry, scoped to tiers.** Within each relevant scope or role, the same procedures and rules apply to everyone. Justice does not require equal outcomes or equal value returned in kind.
 
-The five sentences are short, but each one closes off an entire family of errors. The first closes off the claim that truth is whatever a group decides it is. The second closes off every project that requires people to become angels before the project can work. The third closes off any moral system that treats human existence as a problem to be reduced. The fourth closes off the demand that you owe a stranger as much as your own child. The fifth closes off the demand that fairness means identical results regardless of effort, choices, or circumstance.
+The five are short, but each one closes off an entire family of errors. The first closes off the claim that truth is whatever a group decides it is. The second closes off every project that requires people to become angels before the project can work. The third closes off any moral system that treats human existence as a problem to be reduced. The fourth closes off the demand that you owe a stranger as much as your own child. The fifth closes off the demand that fairness means identical results regardless of effort, choices, or circumstance.
 
 ### All Five Must Be Held Together
 
