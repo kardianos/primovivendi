@@ -2,10 +2,6 @@
 author: Daniel Theophanes
 title: The Conservative Frame
 date: 2026-06-11
-geometry:
-  - margin=0.6in
-  - top=0.6in
-  - bottom=0.6in
 ---
 
 To be productive together in society, we must hold compatible premises. We can debate conclusions, whether to pass this law or that, but when our premises differ, debating conclusions amounts to talking past each other at best.

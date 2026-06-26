@@ -16,7 +16,7 @@ Examples of valid names:
 - `chapters/0000_title_block.md`
 - `chapters/0101_introduction.md`
 - `chapters/0302_self.md`
-- `chapters/0405_philosophical_landscape.md`
+- `chapters/0406_of_truth.md`
 - `chapters/0507_live_well.md`
 
 Sort the directory by filename and concatenate in that order to join the book. Never change the sequence numbers after files exist.
@@ -86,9 +86,15 @@ Each chapter receives its own file. The list below gives the exact filename, the
   Header: `## The Mirror Engaged Directly: The Compassion Weapon and the False Virtues`
   Content covers: the compassionate delusion; strategic adversaries who weaponize your own morals against you; the false virtues of tolerance, diversity, and harm reduction; and the distinction between kindness and politeness.
 
-- `0405_philosophical_landscape.md`
+- `0405_of_god.md`
   Header: `## The Philosophical Landscape: Where the Bundle Stands`
-  Content covers: faith, atheism, and the premise test; address to theists (two-books theology versus scripturalism; Ash'arite occasionalism within Islam); address to atheists; address to readers caught between; and placement among adjacent traditions and philosophers, listing both compatible and incompatible positions with the reasons for each judgment.
+  Content covers: faith, atheism, and the premise test; address to theists (two-books theology versus scripturalism; Ash'arite occasionalism within Islam); address to atheists; and address to readers caught between. (The header title predates the split of this material into two files; the slug `of_god` and the content are the God-question half. A rename of the header to match the content is under consideration.)
+
+- `0406_of_truth.md`
+  Header: `## Words for Truth or Power`
+  Content covers: the deeper fracture beneath the five questions, correspondence versus truth subordinated to power, will, or construction; the three failures that follow (limited scope, procedural symmetry, disconfirmation); the two cases (Woke constructivism in its secular form and the dominant Sunni theology of Islam, Ash'arite occasionalism, read as a political theology); the practical consequence (tolerate doctrines that affirm independent reality and accept limited scope; engage the rest as competitors for power); the American founding as the positive model; the marks of the fracture in practice; adjacent traditions and philosophers in three regions (compatible, incompatible at the root, incompatible despite surface alignment), with direct verdicts on Stoicism, Confucianism, Buddhism, Rawls, Kant, Hume, and Shinto; and the loop closing on scoped procedural symmetry as the method of truth.
+
+  Note: a broader, expanded treatment of the adjacent traditions and philosophers may later occupy its own file (`0407_*`). If so, the neighborhood material in `0406` would be trimmed to the essential verdicts and the fuller discussion moved into `0407`. Decision pending; until then the neighborhood lives in `0406`.
 
 **Part 05: Application and Practice**
 
@@ -113,13 +119,9 @@ Each chapter receives its own file. The list below gives the exact filename, the
   Header: `## Orient to a Core Positive`
   Content covers: that the frame is a positive vision about how to live, build, raise children, and improve rather than a list of grievances; that measurable results where the inversion has gained ground match the predictions of the five principles; and that the project is to build the alternative.
 
-- `0506_society_individuals.md`
-  Header: `## Society Is Made of Individuals`
-  Content covers: that the frame begins, ends, and works at the individual scale; that action begins with you; the instruction to memorize the five principles; and the instruction to guard yourself, your family, your community, your church, and your work.
-
 - `0507_live_well.md`
   Header: `## Live Well`
-  Content covers: the final exhortation to live the bundle starting with yourself and starting now.
+  Content covers: that the frame begins, ends, and works at the individual scale; that action begins with you; the instruction to memorize the five principles; the instruction to guard yourself, your family, your community, your church, and your work; and the final exhortation to live the bundle starting with yourself and starting now. (This file absorbed the former `0506_society_individuals.md`, which was consolidated into it; `0506` is no longer a separate file.)
 
 ## Title Block File
 

@@ -1,6 +1,6 @@
 # The Five Principles
 
-## In Five Sentences
+## Foundation
 
 To live and work productively in society, people must share compatible premises about the world. A premise is a starting belief: a claim a person accepts before the argument begins, and on which the rest of the argument stands. When two people reach different conclusions about a law or a policy, the disagreement often runs deeper than the specific issue at hand. The conclusions only converge when the premises underneath them are aligned. Without that alignment, debate tends to produce confusion at best and weaponized language at worst.
 

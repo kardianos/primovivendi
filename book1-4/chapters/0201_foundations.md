@@ -1,5 +1,3 @@
-# Foundations
-
 ## Unpacking the Five
 
 In the following each of the five principles are unpacked, expanding the original claim while exposing the assumptions and connections that a single sentence must leave implicit. The expansion is not a departure from the introduction; it is the same foundation just with more detail.
@@ -92,4 +90,4 @@ The mirror is a diagnostic for corruption and parasitism. The positive frame, st
 
 These domains run one after another, each setting limits for the next. Answers given in the domain of reality constrain the answers available in the domain of self, and both constrain the answers available in the domain of others. A person who denies knowable truth cannot coherently define thriving; a person with no account of thriving cannot say what cooperation is for. Treating the three domains as freely combinable, picking a theory of justice with no regard for the theory of human nature beneath it, produces arrangements that may sound appealing but cannot be maintained over time.
 
-The three domains map the actual territory of human life: facing reality, ordering the self, and cooperating with others. The next part takes up that work in the same order.
+The three domains map the actual territory of human life: facing reality, orienting the self, and cooperating with others. The next part takes up that work in the same order.

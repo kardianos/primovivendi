@@ -66,8 +66,95 @@ printf '%s\n' \
   'hr::after{content:"\2766";}' \
   > $EPUBCSS
 
+# ---- print PDF (xelatex): book typography, essay layout ----
+# Same fonts and heading treatment as the book (publish.fish), but as an
+# article (the essay has ## sections, no chapters) on a 6in x 9in page (same
+# trim as the book). Geometry lives here, not in the md front matter, so it
+# only affects the PDF; the HTML and EPUB are untouched.
+set TRIM_W   "6in"
+set TRIM_H   "9in"
+set MARGIN_X "0.6in"
+set MARGIN_Y "0.7in"
+set FONTSIZE "11pt"
+set LEADING  "1.05"
+set BODYFONT "TeX Gyre Pagella"
+set SANSFONT "TeX Gyre Heros"
+set MONOFONT "TeX Gyre Cursor"
+set PDFX     "on"
+
+# Title for the running header, pulled from the md front matter so it stays in
+# sync with the document.
+set TITLE (string replace -r '^title:\s*' '' (grep -m1 '^title:' $IN))
+
+# LaTeX preamble: match the book's heading style (raggedright, never hyphenate
+# display text), centered page number in the footer, no widows/orphans. The
+# title runs centered in the header; the title page uses the plain pagestyle
+# (via \maketitle) so the header appears on every page but the first.
+# PassOptionsToPackage{draft}{hyperref}: strip link annotations so gs can
+# reprocess the PDF in the print pass below.
+set PDFHDR (mktemp --suffix=.tex)
+printf '%s\n' \
+  '\usepackage{titlesec}' \
+  '\newcommand{\nohyph}{\hyphenpenalty=10000\exhyphenpenalty=10000}' \
+  '\titleformat*{\section}{\normalfont\Large\bfseries\raggedright\nohyph}' \
+  '\titleformat*{\subsection}{\normalfont\large\bfseries\raggedright\nohyph}' \
+  '\titleformat*{\subsubsection}{\normalfont\normalsize\bfseries\raggedright\nohyph}' \
+  '\usepackage{fancyhdr}' \
+  '\pagestyle{fancy}' \
+  '\fancyhf{}' \
+  '\fancyfoot[C]{\thepage}' \
+  '\fancyhead[C]{{\small\itshape\nohyph '$TITLE'}}' \
+  '\renewcommand{\headrulewidth}{0pt}' \
+  '\clubpenalty=10000' \
+  '\widowpenalty=10000' \
+  '\displaywidowpenalty=10000' \
+  '\PassOptionsToPackage{draft}{hyperref}' \
+  > $PDFHDR
+
 echo -n "pdf ... "
-pandoc -o $OUT.pdf $IN; and echo "Done"; or echo "FAIL"
+pandoc $IN \
+  -o $OUT.pdf \
+  --pdf-engine=xelatex \
+  --include-in-header=$PDFHDR \
+  -V geometry:"paperwidth=$TRIM_W" \
+  -V geometry:"paperheight=$TRIM_H" \
+  -V geometry:"left=$MARGIN_X" \
+  -V geometry:"right=$MARGIN_X" \
+  -V geometry:"top=$MARGIN_Y" \
+  -V geometry:"bottom=$MARGIN_Y" \
+  -V fontsize=$FONTSIZE \
+  -V linestretch=$LEADING \
+  -V mainfont="$BODYFONT" \
+  -V sansfont="$SANSFONT" \
+  -V monofont="$MONOFONT" \
+  -V colorlinks=false \
+  -V linkcolor=black \
+  -V urlcolor=black; and echo "Done"; or echo "FAIL"
+command rm -f $PDFHDR
+
+# Fonts are already embedded by xelatex. This ghostscript pass subsets,
+# downsamples images, and flattens to grayscale for print platforms, matching
+# the book's publish.fish pipeline. KDP accepts this output directly; set
+# PDFX=off to skip. Rewrites $OUT.pdf in place so the move below is unchanged.
+if test "$PDFX" = "on"; and type -q gs
+  echo -n "print ... "
+  command gs \
+    -dNOPAUSE -dQUIET -dBATCH \
+    -sDEVICE=pdfwrite \
+    -sColorConversionStrategy=Gray \
+    -dPDFSETTINGS="/printer" \
+    -dEmbedAllFonts=true \
+    -dSubsetFonts=true \
+    -sOutputFile="$OUT.x.pdf" \
+    "$OUT.pdf"
+  if test $status -eq 0
+    command mv -f "$OUT.x.pdf" "$OUT.pdf"
+    echo "Done (print PDF)"
+  else
+    command rm -f "$OUT.x.pdf"
+    echo "gs failed, kept xelatex PDF"
+  end
+end
 
 echo -n "html ... "
 pandoc -s $IN -o $OUT.html \
