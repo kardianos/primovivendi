@@ -3,3 +3,6 @@ release
 push_release
 ref/
 bk_*/
+.ttskey
+**/.ttskey
+tts/out/
