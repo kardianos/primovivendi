@@ -6,7 +6,7 @@ Most public argument fails before it begins. Parties never establish what would 
 
 When someone advances a claim, policy, or moral demand, ask in order:
 
-1. Does it assume reality is real and knowable, with truth as correspondence—or only how things ought to feel, or truth as power/will/dialectic? 
+1. Does it assume reality is real and knowable, with truth as correspondence, or only how things ought to feel, or truth as power/will/dialectic? 
 2. Does it account for human limits and cultivated virtue, or require angels, a blank slate, or natural goodness that society only corrupts? 
 3. What standard of the good does it serve: human survival and thriving, or a rival aim (pure harm reduction, equalized condition, sacred political unity, co-suffering as virtue)? 
 4. Does it respect tiered priority, or feed outer tiers from the inner? 
@@ -36,7 +36,7 @@ Name the pattern. A named pattern loses power.
 
 These methods work only between parties who still treat reality as final authority and language as description. Where that holds, distant starting points can still meet under a shared world. Where it has failed, one party is moving power; citation and “consistency” are instruments in that project.
 
-Do not keep arguing inside a constructivist premise that recodes every fact as power and every objection as interest. That feeds the narrative. Move the exchange back to principles and to the **specific policy**: knowable reality? human limits? thriving across generations? tiers? same rules? Answers accumulate in public where recodings must compete with effects.
+Do not keep arguing inside a constructivist premise that recodes every fact as power and every objection as interest. That feeds the narrative. Move the exchange back to the principles and the **specific policy**: knowable reality? human limits? thriving across generations? tiers? same rules? Answers accumulate in public where recodings must compete with effects.
 
 Where the precondition has failed across a whole institution, the contest is no longer debate. It is competition for the institution: organization, withdrawal of cooperation, open pursuit of authority. Applying symmetric procedure against a party that abandoned it is defense of the procedure. The other side forced the line first.
 

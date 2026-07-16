@@ -36,7 +36,7 @@ Self, family, community, church, work: platforms that took years and can be cons
 
 All five at once, each guarding the others: in small decisions where no one watches and large ones where everyone does. No permission, office, or scale required. The discipline begins with the person who holds it, today, in the one life fully yours to direct.
 
-The alternative needs no further description. It is already visible wherever inverted premises run to term: emptiness where platforms stood, breakage where procedures bound, purge inside alliances, petition of a world that owes no living.
+The alternative needs no further description. It is already visible wherever inverted premises run to term: emptiness where platforms stood, breakage where procedures bound, purge inside alliances, petition to a world that owes no living.
 
 ### Charge {#live-well-charge}
 

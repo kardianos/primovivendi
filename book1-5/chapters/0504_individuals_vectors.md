@@ -10,9 +10,9 @@ What direction is required? Deliberately modest: orient toward **truth** and tow
 
 ### Attacking Truth {#attacking-truth}
 
-You may disagree about policies, priorities, and gods in good faith. Objecting to orientation toward truth (or to the concept of truth itself), is another matter. The word is chosen for accuracy, not insult: **sociopathic** in the sense that it attacks the precondition of cooperation. Truth is how a society corrects error. A society that treats truth as optional severs error correction and accumulates mistakes until they are fatal. Sophisticated justifications do not change the act.
+You may disagree about policies, priorities, and gods in good faith. Objecting to orientation toward truth (or to the concept of truth itself) is another matter. The word is chosen for accuracy, not insult: **sociopathic** in the sense that it attacks the precondition of cooperation. Truth is how a society corrects error. A society that treats truth as optional severs error correction and accumulates mistakes until they are fatal. Sophisticated justifications do not change the act.
 
-Madison assumed factions sown in human nature and built procedure anyway. Lee assumed the world owed nothing and built anyway. Lenin and the rupture coalitions assumed the existing order was illusion to smash, and reality graded the smash. Your personal vector is smaller than those. It is still real. It still adds.
+Madison assumed factions sown in human nature and built procedure anyway. Lee assumed the world owed nothing and built anyway. Lenin and the rupture coalitions assumed the existing order was illusion to smash, and reality graded the result. Your personal vector is smaller than those. It is still real. It still adds.
 
 ### Charge {#vectors-charge}
 
