@@ -1,0 +1,9 @@
+attack: A-0002
+status: answered
+method: positive_clarify
+response_loci:
+- 0101_introduction.md#five-principles
+- 0301_reality.md#reality-real
+note: Correspondence + knowability; institutional consequences in later chapters; world answers back.
+cycle: 1
+updated: '2026-07-10'

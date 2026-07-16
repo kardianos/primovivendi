@@ -1,0 +1,19 @@
+chapter: 0507_live_well
+title: 0507_live_well
+status: frozen
+schema_version: 1
+notes: Cicero Part 5 rewrite 2026-07-10
+claims:
+- id: P-0507-01
+  text: Memorize five, filter arrivals, guard platforms; begin with self now.
+  type: charge
+  depends_on: []
+  anchors:
+  - three-instructions
+  - live-well
+- id: P-0507-02
+  text: Each principle becomes standing instruction in ordinary life.
+  type: discipline
+  depends_on: []
+  anchors:
+  - standing-instructions

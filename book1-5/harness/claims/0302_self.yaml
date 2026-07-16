@@ -1,0 +1,65 @@
+chapter: 0302_self
+title: 0302_self
+status: frozen
+schema_version: 1
+claims:
+- id: P-0302-01
+  text: Align with truth and survival; existence is floor of values; thriving is required beyond bare survival.
+  type: principle
+  depends_on: []
+  anchors:
+  - align-truth
+- id: P-0302-02
+  text: Excellence renews inherited capability; competence is civilizational maintenance.
+  type: principle
+  depends_on: []
+  anchors:
+  - excellence
+- id: P-0302-03
+  text: Beauty is order + truth + vitality.
+  type: definition
+  depends_on: []
+  anchors:
+  - beauty
+- id: P-0302-04
+  text: 'Generational continuation: have children where possible; else raise up children by real means.'
+  type: principle
+  depends_on: []
+  anchors:
+  - have-children
+- id: P-0302-05
+  text: Responsibility is create-and-maintain within tier; sacrifice untethered to responsibility is waste.
+  type: principle
+  depends_on: []
+  anchors:
+  - responsibility
+- id: P-0302-06
+  text: Strength is duty taken up, not petition for a right to exist; not cruelty.
+  type: principle
+  depends_on: []
+  anchors:
+  - strength
+- id: P-0302-07
+  text: Outcomes outweigh feelings in institutional scope; feelings matter in intimate tiers.
+  type: discipline
+  depends_on: []
+  anchors:
+  - outcomes
+- id: P-0302-08
+  text: Action begins with the self; doomerism is self-permission.
+  type: discipline
+  depends_on: []
+  anchors:
+  - action-begins
+- id: P-0302-09
+  type: exemplum
+  text: Singapore refusal of doomer surrender under worse odds than modern fatalism; excellence/yeast
+    as thriving under limits.
+  depends_on:
+  - P-0302-01
+  - P-0302-02
+  - P-0302-08
+  anchors:
+  - action-begins
+  - excellence
+notes: Cicero energy rewrite 2026-07-10 with ref/ exempla

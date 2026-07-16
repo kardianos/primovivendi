@@ -1,0 +1,25 @@
+chapter: 0505_orient_positive
+title: 0505_orient_positive
+status: frozen
+schema_version: 1
+notes: Cicero Part 5 rewrite 2026-07-10
+claims:
+- id: P-0505-01
+  text: Frame is positive construction, not grievance catalog.
+  type: principle
+  depends_on: []
+  anchors:
+  - orient-positive
+- id: P-0505-02
+  text: Singapore compounding vs rupture/erosion paths as street addresses for predictions.
+  type: exemplum
+  depends_on: []
+  anchors:
+  - results-briefly
+- id: P-0505-03
+  text: 'Daily test: grievance day builds nothing; construct before next indictment.'
+  type: discipline
+  depends_on: []
+  anchors:
+  - daily-test
+  - orient-charge

@@ -1,0 +1,70 @@
+chapter: 0301_reality
+title: 0301_reality
+status: frozen
+schema_version: 1
+claims:
+- id: P-0301-01
+  text: Reason guides; reality has final say; models are incomplete proxies.
+  type: principle
+  depends_on: []
+  anchors:
+  - reason-not-enough
+- id: P-0301-02
+  text: Correspondence truth is required; scripturalist anti-correspondence, Ash'arite occasionalism,
+    and postmodern constructivism each sever it.
+  type: principle
+  depends_on: []
+  anchors:
+  - reality-real
+- id: P-0301-03
+  text: Naming those three doctrines is not a verdict against religion in general.
+  type: fence
+  depends_on: []
+  anchors:
+  - reality-real
+- id: P-0301-04
+  text: Humans are limited in time, understanding, reach, and relationship capacity (Dunbar-scale limits).
+  type: principle
+  depends_on: []
+  anchors:
+  - humans-limited
+- id: P-0301-05
+  text: Systems arrange flawed people to check each other (diary, bookkeeping, science method, government
+    procedures).
+  type: principle
+  depends_on: []
+  anchors:
+  - systems
+- id: P-0301-06
+  text: 'Discovered vs constructed: form may be chosen; substance reappears under the same problem.'
+  type: definition
+  depends_on: []
+  anchors:
+  - discovered-constructed
+- id: P-0301-07
+  text: Markets, contracts, credit are discovered technologies evidenced in Bronze Age commerce.
+  type: implication
+  depends_on: []
+  anchors:
+  - markets
+- id: P-0301-08
+  type: exemplum
+  text: 'Singapore 1965–67 exemplifies reality-first posture: world does not owe a living; tough society;
+    yeast/talent under scarcity.'
+  depends_on:
+  - P-0301-04
+  anchors:
+  - relating-to-reality
+  - markets
+  - humans-limited
+- id: P-0301-09
+  type: exemplum
+  text: 'Madison Federalist 10/51: factions sown in human nature; if men were angels no government; ambition
+    counteracts ambition.'
+  depends_on:
+  - P-0301-04
+  - P-0301-05
+  anchors:
+  - humans-limited
+  - systems
+notes: Cicero energy rewrite 2026-07-10 with ref/ exempla

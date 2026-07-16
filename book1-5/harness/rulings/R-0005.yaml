@@ -1,0 +1,8 @@
+attack: A-0005
+status: answered
+method: fence
+response_loci:
+- 0101_introduction.md#held-together
+note: 'Same holism fence; criterion: refine scope vs drop/invert pillar.'
+cycle: 1
+updated: '2026-07-10'

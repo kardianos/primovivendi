@@ -1,0 +1,24 @@
+chapter: 0502_scenarios
+title: 0502_scenarios
+status: frozen
+schema_version: 1
+notes: Cicero Part 5 rewrite 2026-07-10
+claims:
+- id: P-0502-01
+  text: Matrix applies from kitchen to polity; counter-examples when filters drop.
+  type: case
+  depends_on: []
+  anchors:
+  - what-the-scenarios-teach
+- id: P-0502-02
+  text: Cheap-save of stranger in reach allowed; unlimited distant claims not the measure of virtue.
+  type: fence
+  depends_on: []
+  anchors:
+  - what-the-scenarios-teach
+- id: P-0502-03
+  text: Stolen-land petitionary frame fails symmetry and survival filters.
+  type: case
+  depends_on: []
+  anchors:
+  - scenario-stolen

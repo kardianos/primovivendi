@@ -1,0 +1,9 @@
+attack: A-0038
+status: answered
+method: positive_clarify
+response_loci:
+- 0503_debate_methods.md#precondition-debate
+note: Policy effects still tested in public; refusal is of power-recoding as sole meta, not of all
+  exchange.
+cycle: 5
+updated: '2026-07-10'

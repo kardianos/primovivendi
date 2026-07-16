@@ -1,0 +1,12 @@
+# Documentation schema for claim maps
+# File: harness/claims/<chapter_slug>.yaml
+
+chapter: 0101_introduction
+title: "Introduction"
+claims:
+  - id: P-0101-01
+    text: "Load-bearing proposition in author voice."
+    type: principle | definition | implication | case | fence
+    depends_on: []
+    anchors:
+      - compatible-premises

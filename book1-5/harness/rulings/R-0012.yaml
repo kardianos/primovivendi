@@ -1,0 +1,9 @@
+attack: A-0012
+status: answered
+method: fence
+response_loci:
+- 0502_scenarios.md#what-the-scenarios-teach
+- 0303_others.md#tiered-priority-full
+note: Added explicit cheap-save / not-indifference fence to scenarios close.
+cycle: 2
+updated: '2026-07-10'

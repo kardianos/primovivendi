@@ -1,0 +1,9 @@
+attack: A-0029
+status: answered
+method: positive_clarify
+response_loci:
+- 0301_reality.md#reality-real
+- 0301_reality.md#reason-not-enough
+note: Hard domains still answer via consequences; unfalsifiable social claims remain the target.
+cycle: 3
+updated: '2026-07-10'

@@ -1,0 +1,72 @@
+chapter: 0201_foundations
+title: 0201_foundations
+status: frozen
+schema_version: 1
+claims:
+- id: P-0201-01
+  text: Knowledge requires consistent differentiation and correspondence, not identical inner experience.
+  type: principle
+  depends_on: []
+  anchors:
+  - reality-and-truth
+- id: P-0201-02
+  text: Positions that sever truth from correspondence disable the whole foundation.
+  type: principle
+  depends_on: []
+  anchors:
+  - reality-and-truth
+- id: P-0201-03
+  text: Self-interest is protective and permanent; institutions must channel it, not abolish it.
+  type: principle
+  depends_on: []
+  anchors:
+  - human-nature
+- id: P-0201-04
+  text: Goodness requires existence plus drive to order, maintain, and build; practice is tested by consequences.
+  type: principle
+  depends_on: []
+  anchors:
+  - goodness
+- id: P-0201-05
+  text: Tiered priority follows limits; enemies have negative priority; outer tiers still carry real duties.
+  type: principle
+  depends_on: []
+  anchors:
+  - tiered-priority
+- id: P-0201-06
+  text: Procedural symmetry is scoped; unscoped symmetry is inoperable.
+  type: principle
+  depends_on: []
+  anchors:
+  - procedural-symmetry
+- id: P-0201-07
+  text: The inverted frame is a coherent rival interlock of five inversions.
+  type: principle
+  depends_on: []
+  anchors:
+  - the-mirror
+- id: P-0201-08
+  text: Sacred or secular vocabulary can carry either bundle; test structure, not clothing.
+  type: implication
+  depends_on: []
+  anchors:
+  - the-mirror
+- id: P-0201-09
+  text: 'Three relationships: reality, self, others—ordered so each constrains the next.'
+  type: definition
+  depends_on: []
+  anchors:
+  - three-relationships
+- id: P-0201-10
+  text: Inverted frame is five coherent inversions, secular or sacred clothing.
+  type: definition
+  depends_on: []
+  anchors:
+  - the-mirror
+- id: P-0201-11
+  text: Hold correspondence, design for humans, thriving, tiers, procedure as one form.
+  type: charge
+  depends_on: []
+  anchors:
+  - foundations-charge
+notes: Tone/Cicero continuity pass 2026-07-10

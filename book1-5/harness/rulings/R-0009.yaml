@@ -1,0 +1,10 @@
+attack: A-0009
+status: answered
+method: positive_clarify
+response_loci:
+- 0303_others.md#proc-sym-full
+- 0201_foundations.md#procedural-symmetry
+note: Outcome symmetry corruption mechanism stated; historical extraction handled under law/repair
+  without equalizing all ends.
+cycle: 1
+updated: '2026-07-10'

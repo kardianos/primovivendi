@@ -1,0 +1,24 @@
+chapter: 0504_individuals_vectors
+title: 0504_individuals_vectors
+status: frozen
+schema_version: 1
+notes: Cicero Part 5 rewrite 2026-07-10
+claims:
+- id: P-0504-01
+  text: Society is sum of individual effort-vectors.
+  type: principle
+  depends_on: []
+  anchors:
+  - vectors
+- id: P-0504-02
+  text: Attacking truth as such attacks precondition of cooperation.
+  type: principle
+  depends_on: []
+  anchors:
+  - attacking-truth
+- id: P-0504-03
+  text: Point toward truth, survival, thriving; choose what to build.
+  type: charge
+  depends_on: []
+  anchors:
+  - vectors-charge

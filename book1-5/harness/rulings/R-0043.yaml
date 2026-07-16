@@ -1,0 +1,9 @@
+attack: A-0043
+status: answered
+method: positive_clarify
+response_loci:
+- 0301_reality.md#reason-not-enough
+- 0301_reality.md#reality-real
+note: Social domains noisier; still residual-error possible; unfalsifiable claims targeted.
+cycle: 7
+updated: '2026-07-10'

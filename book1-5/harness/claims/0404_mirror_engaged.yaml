@@ -1,0 +1,31 @@
+chapter: 0404_mirror_engaged
+title: 0404_mirror_engaged
+status: frozen
+schema_version: 1
+notes: Cicero mirror rewrite 2026-07-10
+claims:
+- id: P-0404-01
+  text: Compassionate delusion delivers outcome symmetry via leniency reframes.
+  type: definition
+  depends_on: []
+  anchors:
+  - the-compassionate-delusion
+- id: P-0404-02
+  text: Strategic adversaries weaponize host morals; principles are not suicide pacts.
+  type: principle
+  depends_on: []
+  anchors:
+  - strategic-adversaries
+- id: P-0404-03
+  text: 'Alliance-then-purge: Russia 1917 path; Iran 1978–83 left-Islamist alliance and purge.'
+  type: exemplum
+  depends_on: []
+  anchors:
+  - alliance-purge
+- id: P-0404-04
+  text: Tolerance, diversity, harm-reduction not foundational virtues; kindness scoped, politeness social.
+  type: principle
+  depends_on: []
+  anchors:
+  - not-virtues
+  - kindness-versus-politeness

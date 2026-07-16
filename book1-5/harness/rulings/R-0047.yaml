@@ -1,0 +1,9 @@
+attack: A-0047
+status: answered
+method: positive_clarify
+response_loci:
+- 0303_others.md#proc-sym-full
+- 0201_foundations.md#procedural-symmetry
+note: Outcome symmetry corruption mechanism retained; repair != equal end-states.
+cycle: 7
+updated: '2026-07-10'

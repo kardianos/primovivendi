@@ -1,0 +1,8 @@
+attack: A-0070
+status: answered
+method: fence
+response_loci:
+- 0504_individuals_vectors.md#attacking-truth
+note: Defined as attack on cooperation precondition; policy disagreement still good faith.
+cycle: 7
+updated: '2026-07-10'

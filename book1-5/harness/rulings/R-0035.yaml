@@ -1,0 +1,8 @@
+attack: A-0035
+status: answered
+method: positive_clarify
+response_loci:
+- 0406_of_truth.md#adjacent-traditions
+note: Adjacent traditions section keeps right failures load-bearing.
+cycle: 4
+updated: '2026-07-10'

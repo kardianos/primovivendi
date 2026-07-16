@@ -1,0 +1,103 @@
+chapter: 0303_others
+title: 0303_others
+status: frozen
+schema_version: 1
+claims:
+- id: P-0303-01
+  text: Society arises from specialization under human limits.
+  type: principle
+  depends_on: []
+  anchors:
+  - relating-to-others
+- id: P-0303-02
+  text: Dispositional love scales; action-based love must be tier-budgeted.
+  type: definition
+  depends_on: []
+  anchors:
+  - two-loves
+- id: P-0303-03
+  text: Tiered priority with real outer claims and real enemies.
+  type: principle
+  depends_on: []
+  anchors:
+  - tiered-priority-full
+- id: P-0303-04
+  text: Procedural symmetry within scope; outcome and value symmetry rejected.
+  type: principle
+  depends_on: []
+  anchors:
+  - proc-sym-full
+- id: P-0303-05
+  text: Power is legitimate when it serves tiered responsibility and is bounded by procedural symmetry.
+  type: principle
+  depends_on: []
+  anchors:
+  - power
+- id: P-0303-06
+  text: 'Rule of law: knowable, equally enforced; leniency to predators reallocates harm to innocents.'
+  type: principle
+  depends_on: []
+  anchors:
+  - rule-of-law
+- id: P-0303-07
+  text: Free speech follows from truth-seeking plus limited censors.
+  type: principle
+  depends_on: []
+  anchors:
+  - rule-of-law
+- id: P-0303-08
+  text: Borders make safety nets, defense, and plural polities possible.
+  type: principle
+  depends_on: []
+  anchors:
+  - rule-of-law
+- id: P-0303-09
+  text: Unity implies exclusion of incompatible practices; force is held in reserve under law.
+  type: principle
+  depends_on: []
+  anchors:
+  - rule-of-law
+- id: P-0303-10
+  text: Ownership assigns responsibility; markets are discovered; failure must remain possible.
+  type: principle
+  depends_on: []
+  anchors:
+  - ownership
+- id: P-0303-11
+  text: Personal release vs social reconciliation in forgiveness.
+  type: definition
+  depends_on: []
+  anchors:
+  - ownership
+- id: P-0303-12
+  text: Education must transmit true structure of society and excellence deliberately.
+  type: principle
+  depends_on: []
+  anchors:
+  - ownership
+- id: P-0303-13
+  type: exemplum
+  text: 'American founding + Federalist: design for non-angels; divided power; natural law appeal.'
+  depends_on:
+  - P-0303-05
+  anchors:
+  - others-exempla
+  - power
+- id: P-0303-14
+  type: exemplum
+  text: Lenin April Theses rupture vs incremental property reform path; Khomeini Islamic Government as
+    rival law-source package (not person census).
+  depends_on:
+  - P-0303-04
+  - P-0303-05
+  anchors:
+  - others-exempla
+- id: P-0303-15
+  type: implication
+  text: 'Citizenship-as-adoption: rights with duties of loyalty to concrete civic family; not blood mysticism.'
+  depends_on:
+  - P-0303-03
+  - P-0303-08
+  anchors:
+  - rule-of-law
+notes: Cicero energy rewrite 2026-07-10 with ref/ exempla

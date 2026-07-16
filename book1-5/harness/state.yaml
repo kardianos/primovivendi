@@ -1,0 +1,53 @@
+schema_version: 1
+book: book1-5
+title: The Conservative Frame
+active_unit:
+  chapter: 0406_of_truth
+  cycle: 8
+  phase: frozen
+  max_cycles: 8
+frozen_units:
+- chapter: ALL
+  date: '2026-07-10'
+  note: Positive port from book1-4 complete; 2 adversarial cycles; 0 open attacks.
+    Human literary polish still welcome.
+  stats:
+    claims: 89
+    attacks: 25
+    rulings: 25
+- chapter: part3_cicero
+  date: '2026-07-10'
+  note: Part 3 rewritten with Cicero energy + ref exempla; cycle 3 residual attacks
+    closed.
+- chapter: part4_mirror
+  date: '2026-07-10'
+  note: Part 4 Cicero rewrite with Russia/Iran/Singapore/USA mirror spine; cycle 4
+    closed.
+- chapter: part5_cicero
+  date: '2026-07-10'
+  note: Part 5 application rewritten Cicero style; cycle 5 closed.
+- chapter: tone_continuity
+  date: '2026-07-10'
+  note: 'Full read-through: Parts 1–2 Cicero-aligned; bridges; thriving unify; charges.'
+- chapter: full_swarm_c07
+  date: '2026-07-10'
+  note: 33-agent swarm post-Cicero; criticals fenced; all ruled.
+  new_attacks: 33
+- chapter: dugin_primary
+  date: '2026-07-10'
+  note: Dugin ref + tweet + A-0075 + 0406 section from primaries
+default_swarm:
+- constructivist
+- outcome_equity
+- universalist
+- scripturalist
+- muslim_package
+- blank_slate
+- near_rival
+pilot_swarm:
+- near_rival
+- constructivist
+optional_agents:
+- rhetorical_predator
+- nihilist_anti_thrival
+notes: Cycle 7 post-Cicero full swarm. scripturalist != muslim_package.

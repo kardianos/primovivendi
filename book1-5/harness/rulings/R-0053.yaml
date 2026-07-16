@@ -1,0 +1,9 @@
+attack: A-0053
+status: answered
+method: positive_clarify
+response_loci:
+- 0302_self.md#have-children
+- 0502_scenarios.md#scenario-children
+note: Quality+capacity constraints; cultural default not forced births under chaos.
+cycle: 7
+updated: '2026-07-10'

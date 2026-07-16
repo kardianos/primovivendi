@@ -1,0 +1,11 @@
+attack: A-0025
+status: answered
+method: positive_clarify
+response_loci:
+- 0301_reality.md#reality-real
+- 0301_reality.md#systems
+- 0401_reality_revisited.md#discovered-versus-constructed
+note: Measurement regimes can be biased; correction still requires a world that answers. Social stats
+  imperfect ≠ all categories free play.
+cycle: 2
+updated: '2026-07-10'

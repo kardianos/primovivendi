@@ -1,0 +1,30 @@
+chapter: 0403_others_revisited
+title: 0403_others_revisited
+status: frozen
+schema_version: 1
+notes: Cicero mirror rewrite 2026-07-10
+claims:
+- id: P-0403-01
+  text: Family unit is civilizational technology for cumulative goods.
+  type: principle
+  depends_on: []
+  anchors:
+  - family-unit
+- id: P-0403-02
+  text: Asymmetric polities require scoped enforcement at borders.
+  type: principle
+  depends_on: []
+  anchors:
+  - asymmetric-relations
+- id: P-0403-03
+  text: Russia reform-vs-rupture and Iran Red-Black alliance then purge as mirror sequences.
+  type: exemplum
+  depends_on: []
+  anchors:
+  - mirror-russia-iran
+- id: P-0403-04
+  text: Islamic law-source packages filterable as packages; persons≠packages; officials bound by procedure.
+  type: fence
+  depends_on: []
+  anchors:
+  - asymmetric-relations

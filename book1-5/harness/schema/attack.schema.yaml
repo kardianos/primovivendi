@@ -1,0 +1,31 @@
+# Documentation schema for attack records (validated in scripts/harness.py)
+required:
+  - id
+  - against
+  - agent
+  - severity
+  - mode
+  - summary
+optional:
+  - quote
+  - source_ref
+  - subversion
+  - chapter
+  - created
+  - cycle
+  - notes
+
+id: "A-0001"  # A- plus zero-padded integer
+against: "P-0101-01 or C-0101-01 or NEW"
+agent: >
+  constructivist | outcome_equity | universalist | scripturalist |
+  muslim_package | blank_slate | near_rival | rhetorical_predator |
+  nihilist_anti_thrival
+severity: critical | major | minor | rhetorical
+mode: primary_source | popular_book | x_discourse | logic | motive_attack | ambiguity
+summary: "One paragraph, attacker voice."
+quote: "Optional excerpt."
+source_ref: "Key into harness/sources/ or durable citation."
+subversion: "How the author's wording can be twisted."
+chapter: "0101_introduction"
+cycle: 1

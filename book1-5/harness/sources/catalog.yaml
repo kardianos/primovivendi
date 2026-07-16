@@ -1,0 +1,57 @@
+schema_version: 1
+sources:
+  crampton_scripturalism:
+    label: W. Gary Crampton / Clarkian scripturalist epistemology (as cited in prior notes)
+    notes: Use for scripturalist agent; define truth as divine think rather than correspondence.
+    related_paths:
+    - /home/d/code/po/ref/scripturalism.xhtml
+  foucault_power_knowledge:
+    label: Michel Foucault — power/knowledge (standard academic use)
+    notes: Constructivist agent.
+  derrida_popular:
+    label: Jacques Derrida — popular academic reception (deconstruction as anti-correspondence)
+    notes: Constructivist agent; prefer careful short formulations.
+  rawls_tj:
+    label: John Rawls — A Theory of Justice
+    notes: Near-rival and outcome_equity may cite different readings.
+  singer_famine:
+    label: Peter Singer — Famine, Affluence, and Morality
+    notes: Universalist agent.
+  khomeini_islamic_government:
+    label: Ruhollah Khomeini — Islamic Government (Velayat-e Faqih), 1970
+    notes: muslim_package political theology track.
+    related_paths:
+    - /home/d/code/po/book1-4/ref/iran/khomeini_islamic_government_1970.txt
+  ashari_occasionalism:
+    label: Ashʿarite occasionalism (secondary literature + classical kalam summaries)
+    notes: muslim_package causation track; not Christian scripturalism.
+  federalist_10:
+    label: Madison — Federalist 10
+    related_paths:
+    - /home/d/code/po/book1-4/ref/usa/federalist_10_madison.txt
+  federalist_51:
+    label: Madison — Federalist 51
+    related_paths:
+    - /home/d/code/po/book1-4/ref/usa/federalist_51_madison.txt
+  lky_1965_separation:
+    label: Lee Kuan Yew — 1965 separation / survival speeches
+    related_paths:
+    - /home/d/code/po/book1-4/ref/singapore/
+  dugin_tweet_success_2026:
+    label: Alexander Dugin (@AGDugin), X post 2026-07-10 on success as immoral/satanic
+    related_paths:
+    - /home/d/code/po/book1-4/ref/dugin/tweet_success_immoral_2026-07-10.txt
+  dugin_fourth_political_theory:
+    label: Alexander Dugin, The Fourth Political Theory (Eurasian Movement, 2012 Eng.)
+    related_paths:
+    - /home/d/code/po/book1-4/ref/dugin/alexander-dugin-fourth-political-theory.pdf
+    - /home/d/code/po/book1-4/ref/dugin/fourth_political_theory.txt
+  dugin_foundations_geopolitics:
+    label: Alexander Dugin, Foundations of Geopolitics (English PDF as held)
+    related_paths:
+    - /home/d/code/po/book1-4/ref/dugin/Foundations-of-Geopolitics.pdf
+    - /home/d/code/po/book1-4/ref/dugin/foundations_geopolitics.txt
+  dugin_robinson_interview_2017:
+    label: Paul Robinson interview with Alexander Dugin, 31 Aug 2017
+    related_paths:
+    - /home/d/code/po/book1-4/ref/dugin/interview.txt

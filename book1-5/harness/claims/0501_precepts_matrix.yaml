@@ -1,0 +1,24 @@
+chapter: 0501_precepts_matrix
+title: 0501_precepts_matrix
+status: frozen
+schema_version: 1
+notes: Cicero Part 5 rewrite 2026-07-10
+claims:
+- id: P-0501-01
+  text: 'Six filters: survival, reality, limits, tiers, goodness, symmetry—all must align.'
+  type: definition
+  depends_on: []
+  anchors:
+  - the-six-filters
+- id: P-0501-02
+  text: Forced answers signal desire overriding principle; order catches cheap failures first.
+  type: discipline
+  depends_on: []
+  anchors:
+  - how-to-use-the-matrix
+- id: P-0501-03
+  text: Memorize six words; use on kitchen before nation.
+  type: charge
+  depends_on: []
+  anchors:
+  - matrix-charge

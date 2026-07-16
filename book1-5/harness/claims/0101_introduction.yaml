@@ -1,0 +1,87 @@
+chapter: 0101_introduction
+title: 0101_introduction
+status: frozen
+schema_version: 1
+claims:
+- id: P-0101-01
+  text: Productive social cooperation requires compatible premises, not merely shared labels.
+  type: principle
+  depends_on: []
+  anchors:
+  - compatible-premises
+- id: P-0101-02
+  text: Surface policy disputes often mask deeper premise disagreements.
+  type: implication
+  depends_on: []
+  anchors:
+  - compatible-premises
+  - five-questions
+- id: P-0101-03
+  text: Five questions (truth, human nature, standard of the good, priority, justice) predict cooperation
+    better than religious or party labels.
+  type: principle
+  depends_on: []
+  anchors:
+  - five-questions
+- id: P-0101-04
+  text: Everyone already holds answers to the five questions, including through action.
+  type: implication
+  depends_on: []
+  anchors:
+  - you-have-an-answer
+- id: P-0101-05
+  text: Reality is real, knowable, and consequential; truth corresponds to reality.
+  type: principle
+  depends_on: []
+  anchors:
+  - five-principles
+- id: P-0101-06
+  text: Humans are limited, self-interested, and not naturally good; design constraints, not blank slate or temporary defects.
+  type: principle
+  depends_on: []
+  anchors:
+  - five-principles
+- id: P-0101-07
+  text: Goodness is surviving and thriving—this frame's answer to what the good is / what we ought to
+    aim at.
+  type: principle
+  depends_on: []
+  anchors:
+  - five-principles
+- id: P-0101-08
+  text: Priority is tiered and self-anchored.
+  type: principle
+  depends_on: []
+  anchors:
+  - five-principles
+- id: P-0101-09
+  text: Justice is procedural symmetry scoped to tiers, not outcome or value symmetry.
+  type: principle
+  depends_on: []
+  anchors:
+  - five-principles
+- id: P-0101-10
+  text: The five principles must be held together as one form; removing any distorts the others.
+  type: principle
+  depends_on: []
+  anchors:
+  - held-together
+- id: P-0101-11
+  text: Interlock allows refining scope of a principle; it forbids dropping or inverting pillars as heresy-hunting.
+  type: fence
+  depends_on: []
+  anchors:
+  - held-together
+- id: P-0101-12
+  text: The frame is a positive filter compatible with theism and atheism; not a full virtue system.
+  type: fence
+  depends_on: []
+  anchors:
+  - what-this-is
+- id: P-0101-13
+  text: Name premises; prefer five questions to jersey; hold five as one form.
+  type: charge
+  depends_on: []
+  anchors:
+  - intro-charge
+notes: Tone/Cicero continuity pass 2026-07-10

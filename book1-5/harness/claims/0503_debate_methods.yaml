@@ -1,0 +1,38 @@
+chapter: 0503_debate_methods
+title: 0503_debate_methods
+status: frozen
+schema_version: 1
+notes: Cicero Part 5 rewrite 2026-07-10
+claims:
+- id: P-0503-01
+  text: Run every claim through all five principles; no cherry-picking.
+  type: discipline
+  depends_on: []
+  anchors:
+  - run-five
+- id: P-0503-02
+  text: Recognize inverted premises and selective logic.
+  type: discipline
+  depends_on: []
+  anchors:
+  - recognize-inversion
+- id: P-0503-03
+  text: When truth-precondition fails, contest institutions not fake shared inquiry.
+  type: discipline
+  depends_on: []
+  anchors:
+  - precondition-debate
+- id: P-0503-04
+  text: 'Refuse compassion weapon: care for own is why you refuse.'
+  type: discipline
+  depends_on: []
+  anchors:
+  - refuse-compassion-weapon
+- id: P-0503-05
+  text: Apply matrix to own side first; scope arguments; use mirror as bundle.
+  type: discipline
+  depends_on: []
+  anchors:
+  - test-yourself
+  - use-mirror
+  - scope-arguments

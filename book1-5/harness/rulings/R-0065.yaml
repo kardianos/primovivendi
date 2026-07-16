@@ -1,0 +1,8 @@
+attack: A-0065
+status: answered
+method: fence
+response_loci:
+- 0101_introduction.md#held-together
+note: 'Public refine-vs-invert test: five affirmations still held.'
+cycle: 7
+updated: '2026-07-10'

@@ -1,0 +1,46 @@
+chapter: 0406_of_truth
+title: 0406_of_truth
+status: frozen
+schema_version: 1
+notes: Dugin primary section + attack A-0075 2026-07-10
+claims:
+- id: P-0406-01
+  text: Truth subordinated to power/will collapses scope, argument symmetry, disconfirmation.
+  type: principle
+  depends_on: []
+  anchors:
+  - when-truth-is-subordinated-to-power
+- id: P-0406-02
+  text: Constructivism and Islamic will-packages share structure not content.
+  type: implication
+  depends_on: []
+  anchors:
+  - the-two-cases
+- id: P-0406-03
+  text: 'American founding: nature''s God + non-angel design; Federalist anthropology.'
+  type: exemplum
+  depends_on: []
+  anchors:
+  - american-founding
+- id: P-0406-04
+  text: Right-wing anti-procedure fails the frame as left exterior does.
+  type: implication
+  depends_on: []
+  anchors:
+  - adjacent-traditions
+- id: P-0406-05
+  text: Test is the frame; labels settle nothing.
+  type: principle
+  depends_on: []
+  anchors:
+  - loop-closes
+  - truth-charge
+- id: P-0406-06
+  type: implication
+  text: Dugin package (anti-success tweet; 4PT anti-liberal subject; FoG common-enemy vs market-liberal
+    values) fails the five despite conservative brand; persons≠package.
+  depends_on:
+  - P-0406-04
+  - P-0406-05
+  anchors:
+  - dugin-surface-alignment

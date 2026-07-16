@@ -1,0 +1,38 @@
+chapter: 0405_of_god
+title: 0405_of_god
+status: frozen
+schema_version: 1
+notes: Cicero mirror rewrite 2026-07-10
+claims:
+- id: P-0405-01
+  text: Labels theist/atheist do not settle the five questions.
+  type: principle
+  depends_on: []
+  anchors:
+  - to-theists-atheists
+- id: P-0405-02
+  text: Two-books Christianity compatible; Crampton scripturalism not; progressive inversion under church
+    names not.
+  type: implication
+  depends_on: []
+  anchors:
+  - to-theists
+- id: P-0405-03
+  text: Ash'arite occasionalism, boundary concealment, jizya structure, Khomeini implementation package
+    incompatible.
+  type: implication
+  depends_on: []
+  anchors:
+  - to-theists
+- id: P-0405-04
+  text: Package tests bind officials to commitments/conduct not ancestry.
+  type: fence
+  depends_on: []
+  anchors:
+  - to-theists
+- id: P-0405-05
+  text: Atheists split on five; truth-seeking atheists share frame; articulate principles.
+  type: implication
+  depends_on: []
+  anchors:
+  - to-atheists

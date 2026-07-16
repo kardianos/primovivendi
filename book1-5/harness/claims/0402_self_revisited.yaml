@@ -1,0 +1,32 @@
+chapter: 0402_self_revisited
+title: 0402_self_revisited
+status: frozen
+schema_version: 1
+notes: Cicero mirror rewrite 2026-07-10
+claims:
+- id: P-0402-01
+  text: Aim is full life propagation, not headcount or grievance rolls.
+  type: principle
+  depends_on: []
+  anchors:
+  - life-not-nihilism
+- id: P-0402-02
+  text: Doomerism is self-permission; Singapore 1965 refuses it.
+  type: principle
+  depends_on: []
+  anchors:
+  - doomerism-as-self-permission
+- id: P-0402-03
+  text: Durnovo warning + Lenin rupture + Cheremukhin on collectivization disaster as civic anti-doomer/anti-utopia
+    grade.
+  type: exemplum
+  depends_on: []
+  anchors:
+  - doomerism-as-self-permission
+- id: P-0402-04
+  text: Responsibility not sacrifice-as-virtue; constrain ideological/social/tech parasitism.
+  type: principle
+  depends_on: []
+  anchors:
+  - responsibility-not-sacrifice
+  - constraining-parasitism

@@ -1,0 +1,8 @@
+attack: A-0045
+status: answered
+method: fence
+response_loci:
+- 0503_debate_methods.md#precondition-debate
+note: Not exit when losing; refuse power-recoding meta; still test policy on five in public.
+cycle: 7
+updated: '2026-07-10'

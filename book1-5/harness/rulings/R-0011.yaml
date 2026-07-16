@@ -1,0 +1,10 @@
+attack: A-0011
+status: answered
+method: positive_clarify
+response_loci:
+- 0303_others.md#two-loves
+- 0303_others.md#tiered-priority-full
+- 0201_foundations.md#tiered-priority
+note: Outer tiers real but weaker; dispositional goodwill vs action budget; unscoped duty fails performance.
+cycle: 1
+updated: '2026-07-10'

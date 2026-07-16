@@ -1,0 +1,17 @@
+# Documentation schema for rulings
+required:
+  - attack
+  - status
+  - method
+optional:
+  - response_loci
+  - note
+  - cycle
+
+attack: A-0001
+status: answered | partial | wontfix | deferred
+method: positive_clarify | fence | new_case | glossary | ledger_only | structural
+response_loci:
+  - "0101_introduction.md#compatible-premises"
+note: "What changed and why."
+cycle: 1
