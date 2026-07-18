@@ -1,0 +1,80 @@
+<!-- chapter: state the good cushion first (F0), name the slide into harmlessness entitlement as a risk pattern with mechanisms (F1), refuse the bad inference and define harm under the axioms (F2, F3), break the reactionary false fix (F4), and close on the independent positive with cushion design tests (F5, F6) -->
+
+## Falling off the boat: the harmlessness entitlement
+
+The first way to fall off the path of surviving and thriving starts from a genuine good, which is what makes it dangerous. A people that lives by the virtues builds stores, skills, and institutions, and those works succeed: shocks that once killed now cost a season and pass. The fall begins when the success is misread, when protection built for emergencies is claimed as the permanent condition of an adult life. This chapter states the good first, then names the slide away from it, then refuses the brutal overcorrection, then says what cushions are for.
+
+### The good cushion
+
+A short, bridgable shock should not mean death when a household, kin, mutual aid, or a polity can bridge it at bearable cost. A layoff lasts two months. A fever keeps a strong man in bed for six weeks. A late frost takes half a crop. Under the axiom that life is good, a society that carries its members across such gaps is doing part of what a society is for. This is machinery for life, not decadence.
+
+<!-- arc: F0 | point: pantry picture; the stock maps the gap between work and hunger, and the rotation shows the cushion is time-bound by design -->
+The spare pantry shows the shape of the thing. In October a woman fills her shelves with what the garden and the market gave: jars of beans, sacks of rice, onions braided by the door. She eats from the front and restocks at the back, so nothing rots and nothing runs out all at once. In February snow closes the road and no wage arrives, and the household eats from the shelves in the order she laid them. In April work resumes and the shelves fill again. Every part of the pantry has a job. The stock exists because work and hunger do not always arrive in the same month, and the rotation exists because the stock is for crossing a gap, not for living in.
+
+Kin and neighbors run the same machinery one tier out. A farmer's barn burns the week before planting. His brother lends seed grain from his own store, and on Saturday the neighbors raise the walls and roof beam with him. At harvest the farmer returns the grain with a measure added, and the next spring he carries his own hammer to another man's raising. The help has a date on both ends: seed against a named season, labor against a named day, repayment against a named harvest.
+
+The polity's version is the emergency room, and its logic is the same. A driver crashes on the highway at night. An ambulance crew she has never met keeps her breathing, a surgeon she will never see again closes the wound, and six weeks later she is back at her bench. Nobody proposes that she move into the hospital. The care is intense precisely because everyone in the chain expects her to leave.
+
+None of this is the fall. A cushion, as this book uses the word, is a time-bound bridge over a short shock. It is not permanent exemption from work. It is not non-participation across generations as a normal life script. It is not a promise never to feel scarcity, and it is not an open-ended claim on other people's labor with nothing returned.
+
+### The slide
+
+The slide begins because the machinery works. A society gets good at survival: reliable food, medicine, policing, long peace, and real cushions of the kind just described. The generation that built those works remembers the price. The generation that inherits them meets them as facts of the world, present before any effort of their own and expected to continue without any.
+
+From there the claim grows by small steps, each one sounding like the last. First: I should not die from a two-month layoff. True, and this book says so. Then: I should not have to feel scarcity while others have more. Then: I ought never be harmed, blocked, ranked, refused, or made uncomfortable for any reason. Each step widens the claim from life, to comfort, to insulation, and the last step demands what no society of limited people can deliver while remaining alive.
+
+Under the widened claim, its holders reclassify ordinary pains as injustices. Pain itself becomes evidence of someone's guilt. A fair failure, the exam not passed or the loan refused on the numbers, reads as an attack. A duty imposed by life, the care of a child or the repayment of a debt, reads as oppression. Administrators and lawmakers respond to the loudest hurt, and they slowly reorganize policy and culture around eliminating felt harm and guaranteeing insulation from consequence, rather than around protecting life and the conditions of thriving under truth.
+
+Lottery language accelerates the slide. The talk runs: I did not choose to be born here, to these parents, in this body, with this mind, so no burden attached to any of those is mine. Behind the talk stands the generic person this book refuses, a self with no family, no lineage, no situation, owed goods with no burdens. Real persons are particular. The burdens that arrive attached to a real life are not an injustice committed against some other person you might have been; they are the shape of the one life actually on offer.
+
+### A risk pattern, not a law
+
+The slide is a named risk pattern with mechanisms, not a universal law of history. Success hides its own price from those who never paid it. A widened claim is easier to grant than to refuse once refusal reads as cruelty. And the agencies that administer cushions hold budgets and staff that grow when new harms are counted, so the counting tends to grow. These are tendencies with named actors and incentives, not a prophecy that every generous society must decay.
+
+The hardest counter-case deserves to be faced plainly. Some wealthy, high-trust societies appear to have run broad, near-universal cushions for decades without visible collapse: work continues, formation continues, order holds. It may be that old habits of work and duty still carry the load there, and that the cushions are drawing down stored habits rather than creating them; this chapter does not litigate that case. What would count against the slide thesis is clearer: multi-generation universal cushions with no erosion of work, formation, or birth rates, sustained without drawing down the platform of habits and institutions that took generations to build. If that were shown, the thesis would shrink to a claim about societies whose formation is already weak. The design tests below would stand either way, because they rest on the difference between a bridge and a substitute life, not on the slide being universal.
+
+### Why the inference fails
+
+The inference from cushions are good to no one may ever be harmed breaks on the axiom of life itself. Survival was built, and is kept, by restraint, work, defense, and the saying of no. Every no harms someone's plan. If avoiding harm to anyone's feelings or aims becomes the master rule, then no officer may stop a predator and no examiner may enforce a standard. A society that cannot stop predation or enforce standards loses survival itself, and the good cushions collapse along with everything else. So the claim that one must never be harmed in any way is false under the axiom that life is good. Some harms are just consequences, deserved penalties, or the price of protecting someone else.
+
+The point is concrete, not abstract. The arresting officer harms the burglar's evening, and the evening is not owed protection. The examiner who fails the unprepared student harms the student's pride, and the pride is not owed protection. The border guard who turns away the man without membership harms that man's plan, and the plan is not owed protection. The physician who refuses a demanded treatment that cannot work harms a false hope, and the hope is not owed protection. In each case a named person feels the harm, and in each case the harm is what protecting life and truth costs.
+
+None of this touches the good cushion. Refusing to let a short, bridgable shock kill a person affirms the axiom. Claiming endless insulation from consequence as a birthright free-rides on the same axiom: it draws the stores, the trust, and the labor that cushions run on, and it replenishes none of them. The first use replenishes what it draws, in money, labor, or loyalty. The second only draws.
+
+### What harm means under the axioms
+
+Once the slide is refused, the word harm needs its boundaries drawn again. Core harms, the ones law and custom exist to forbid, are murder, rape, enslavement, theft, fraud, and unprovoked assault; attacks on the shared process of truth and law itself; and, under this book's axiom, preventable death from a short, bridgable catastrophe when the capacity to bridge exists. That last item is what keeps the good cushion inside the definition of harm rather than outside justice altogether.
+
+A longer list of pains is not automatically injustice, and treating that list as injustice dissolves judgment. Hurt feelings. Status lost when a rival earns the rank. Fair competition lost under honest rules. Duty imposed by tiered priority: the child's claim on the parent, the debt's claim on the debtor. A true description that shames: the audit that finds the shortfall, the diagnosis that names the disease. Temporary scarcity while a person is still fed and housed through work or through time-limited help.
+
+The confusion costs because protection and frustration are the same act seen from two sides. The locked door that protects the shopkeeper's stock frustrates the thief's will. One act, one protection, one frustration. Anyone who counts every frustrated will as a wrong has decided, in effect, against every protection, since the thief's ledger and the shopkeeper's cannot both be balanced. Under procedural symmetry, the question is never whether someone was harmed. The question is whether the harm was a just consequence under rules that apply to everyone inside the scope.
+
+### The reactionary false fix
+
+There is an overcorrection to refuse, and it deserves to be heard in its own voice first.
+
+<!-- arc: F4 | point: steelman of the reaction in its own voice; this is the view to be broken, not endorsed -->
+The reaction says: you have gone soft. Your cushions raised a generation of beggars who call their laziness a right. Tear the whole apparatus down. Let the idle man starve at the door he will not work to open. Let the weak be mocked until they harden or vanish. Cruelty is only clarity that hurts, and pain is the one teacher who never flatters. Might makes right, because might is the only thing that has ever made anything.
+
+This fails on the axiom of life. The affirmed good is to continue and continue well, not to suffer and not to inflict suffering. A polity that lets a bridgable shock kill, when the bridge costs little, is not hard; it is spending lives it will later need, which is the same waste the entitlement commits from the other side. Cruelty adopted as an identity wastes the people a society needs, the discouraged young worker and the indebted small farmer among them, and it corrupts judgment: men who learn to enjoy the blow stop asking whether the blow was just.
+
+It also fails on the virtue of strength. Strength, as this book defines it, is the capacity to defend what must live, not an appetite for other people's pain. The guard who can fight and prefers not to, the father working a second job without announcing it, the surgeon steady at three in the morning: strength. The man who needs a beggar at the door in order to feel tall is displaying the opposite, and the need itself confesses the weakness.
+
+Worst of all, the reaction cannot tell the slide from the tool. Demanding no cushions ever throws out the pantry, the kin loan, and the emergency room along with the entitlement, and so repeats the slide's central error in reverse: both refuse to distinguish the bridge from the way of life. A reaction that only reverses a slogan stays tied to the slogan. It rebuilds nothing: not truth, not tiered duty, not procedure. Name it, break it, leave it.
+
+### Cushions as bridges
+
+The positive does not depend on the slide or on the reaction; it stands on the axioms alone. Survival is earned and maintained, by households and by polities, and comfort is not dispensed automatically to whoever asks. The design work is to keep bridges standing at every tier of duty: household stores first, then kin and neighbors and mutual aid, then the polity's emergency floor, each tier doing what the tier below cannot.
+
+<!-- arc: F5 | point: bridge picture; a cushion is built for a crossing, and a life lived on it brings it down -->
+The bridge is the right picture for all of this, and it is worth painting once. A stream floods every spring and cuts the village off from the mill. The villagers throw a bridge across: two footings dug below the flood line, a span of planks, rope rails waist-high. The bridge exists for the crossing. A man walks his grain over, sells at the mill, and walks back with coin; the flood falls; the planks dry in the sun. Now picture a second man who builds his house on the planks mid-stream. He has crossed nothing. The span sags under a load it was never shaped to carry, and when the next flood rises it takes the house and the bridge together, and the whole village crosses nothing that year. A cushion is the first man's tool: built for a crossing, time-bound by design, rated for a shock. An entitlement claimed as a way of life is the second man's house, and it brings down the structure the crossings depend on.
+
+Design follows from the picture. Build cushions time-bound, reciprocal where possible, and aimed at return to contribution. The adults who draw on them accept ranked duty, fair no's, just penalties, and allowed failure: the race lost, the exam failed under honest rules, the shop that does not survive its second year. Failure is allowed without being courted. No one owes the polity a ruin he went looking for, and no one may claim exemption from every real test. There is no moral right to permanent non-participation as the default adult life, and no right to a life in which no one ever says no.
+
+Compassion in this design is real, and it is scoped. Carry the infant and the elder; those bridges have no return date and need none. Bridge the worker's shock. Show mercy after judgment: the magistrate weighs the case, convicts, and then chooses forbearance of the full just consequence. What must not happen is the skip, judgment waived while the waiver is called compassion. That is permissiveness, and it protects the predator at the price of his next victims. And neither predation nor permanent exemption gets to reclassify itself as a self-esteem need.
+
+Institutions keep both duties, and so do persons. A relief office that can fund an emergency bridge in a week must also be able to say no without staged apology, to show mercy after judgment rather than instead of it, and to avoid growing into a permanent way of life for the people it serves. The private person holds the same two duties: toughness in the standards he sets for himself, and justice toward others under the same rules he claims.
+
+Every proposed cushion can be tested before it is built, and the tests fit in four questions. Is this for a shock, or for a career of dependence? Does it preserve life without killing work and formation? Is it time-limited, with work or training required where the person can work, with kin and neighbors first under tiered priority, and with fraud met by the same rules for everyone? And when the help ends after recovery, does the person stand? If he does not stand, what was built was not a bridge but a substitute life, and it should be rebuilt or refused.
+
+Keep the bridge. Cross it. Then be found on the far side, working. Refuse both falls: the entitlement that builds its house on the planks, and the cruelty that would burn the planks for warmth.

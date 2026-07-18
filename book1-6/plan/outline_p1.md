@@ -1,0 +1,256 @@
+---
+title: "Life Under Axioms (working title) — Part 1"
+titleShort: "book1-6 outline p1"
+status: structural outline only
+part: 1
+dictionary: dictionary_p1.md
+next: outline_p2.md
+note: Nested bullets only below this title block. No section headers. No prose paragraphs. Expand from dictionary_p1.md entries cited in brackets.
+---
+
+- Front matter
+  - Title and author
+  - One-line aim: how to live and keep living well from a few axioms [A1, A3]
+  - What this book refuses to be: enemy catalog, regime worship, branded “frame vs mirror” [A2]
+
+- Opening: five questions that divide societies (diagnostic; keep open; do not smuggle answers into the questions) [Q]
+  - Questions cut beneath religion and party; shared labels do not guarantee shared answers [Q1–Q3]
+  - Everyone already answers them in action even if unspoken [Q4]
+  - List each question in full (do not shorten or paraphrase in the manuscript opener) [Q5]
+    - What is truth? Is reality real and independent of wish? Can we know it with usable confidence? Is knowledge mainly discovery that answers to the world, or only a product of power, will, or pure dialectic? What makes a claim true?
+    - Are humans limited and self-interested by nature, a blank slate waiting to be written, or naturally good / perfectible / restorable by remaking the whole social (or sacral-political) order?
+    - What is the standard of the good: what ought human life and society aim at?
+    - What deserves priority when obligations conflict?
+    - What does justice require: equal procedures within a scope, equal outcomes for everyone, or equal value returned in kind?
+  - First two describe world and creature; third is the is-ought turn (keep open for rivals); fourth and fifth order duty and justice under a good [Q6]
+  - Premises predict cooperation better than jersey labels [Q7]
+  - Charge: name your answers; then state this book’s answers [Q8]
+
+- Opening: the axioms (tight) — this book’s answers to the five questions [B]
+  - Reality is real [B1]
+    - World independent of wish
+    - Bridge, harvest, knife as tests
+  - Truth is correspondence to reality [B2]
+    - Shared test for cooperation
+    - When model and world disagree, prefer the world
+  - Life is good [B3]
+    - Affirmed axiom: continue and continue well
+    - Dead earth vs consent-only ranking (short) [B3 chain]
+    - Three layers kept distinct: axiom, corollaries, participation
+  - Scopes and tiers are mandatory [B4]
+    - Finite time and knowledge
+    - Near duties stronger; outer real but weaker
+    - Unscoped action-love as theater
+  - Procedural symmetry [B5]
+    - Same rules within honest scope
+    - Not equal outcomes; not feud ledger
+    - Domains: law, inquiry, conduct, generations (brief)
+  - Particular person plant only [B8]
+    - Plant lives inside the B7 human-premise paragraph: part of human limits, not an added answer (author ruling)
+    - There is no generic person: you, your family, their lineage, your situation
+    - Full primer at social open [E0]
+  - How the axioms work together without a product name [B6]
+  - Humans we are designing for: limited, self-interested, not naturally good [B7]
+  - Charge of the axioms block: these are the answers held here; next, how to look at what can be tested [A3, M]
+
+- Looking at testable truth (own section; after axioms, before virtues bulk) [M]
+  - Section off the divine / non-testable [M1]
+    - If testable in reality: test in reality
+    - If not: this book does not settle it; let the divine speak or leave open
+    - Nothing for or against words of the divine as such
+  - Motivation from the axioms: reality judges; truth is correspondence; we are limited [B1, B2, B7]
+  - “X produces Y, so X is a valid model” is not enough [M2]
+    - Useful prediction is a clue and a filter, not a certificate of full ontology
+    - Practice can save lives while the story is garbled; grade practice and theory apart when they split
+  - Wrong vs incomplete [M3]
+    - Wrong: systematic failure; no progressive domain (alchemy-class)
+    - Incomplete: succeeds in a domain; successor keeps limit-case successes and covers more
+    - Do not confuse the two
+  - Example A: historical astronomy vs Kepler [M4]
+    - Older methods relatively accurate in results for their needs
+    - Model and math aimed at saving appearances; ontology not the true arrangement
+    - Kepler: cleaner correspondence to what bodies do
+    - Result-accuracy ≠ truth of the full model
+  - Example B: Kepler → Newton → special relativity [M4]
+    - Incomplete chain that progressively models more, more accurately
+    - Newton builds on Kepler; relativity shows Newton’s domain limits without alchemy-wronging him
+  - Procedural symmetry in inquiry [M5, B5]
+    - Same critical standard for favored and disfavored models
+    - No one-way valve when tests threaten the preferred story
+    - Humility without “all models equal”
+  - Charge: section off divine; test what can be tested; prefer better correspondence; then live [M6]
+
+- Middle bulk: survival and thriving
+  - What survival is and is not [C1]
+  - What thriving is: vector, not utopia [C2]
+  - Survival without thriving: drawing down capital [C3]
+  - Thriving talk without survival [C4]
+  - Social forms graded only as tools for life [C5, H6]
+  - Transition: virtues are how limited people do this on purpose [D, E]
+
+- Middle bulk: personal virtues (go long)
+  - Align with truth [D1]
+    - Prefer world to preferred story
+    - Daily checks; admit error
+  - Align with survival [D2]
+    - Earn the next year; no petition theater
+  - Responsibility as creating and maintaining [D3]
+    - Not blame; forward ownership
+    - Create and keep: roof, skill, child, trust
+    - Smallest next act
+  - Ownership [D4]
+    - Care tied to consequence
+    - Paper title without maintenance is decay
+  - Excellence [D5]
+    - Skill under maintenance
+    - One untaught generation loses capability
+    - Formation is never neutral
+  - Beauty [D6]
+    - Order + truth + vitality
+    - Ordinary making and keeping
+  - Generational continuation [D7]
+    - Have children or raise up
+    - Transmit platform; refuse broken link
+    - Full life, not headcount
+    - No generic person: you, family, lineage, situation; gratitude is not lottery guilt [E0, D7]
+  - Strength [D8]
+    - Defend what must live
+    - Kindness vs softness that cannot defend
+  - Judgment, mercy, permissiveness [D9]
+  - Humility paired with excellence [D10]
+  - Outcomes over feelings in public scope [D11]
+  - Action begins with you; refuse doomer exemption [D12]
+  - Love: dispositional wide, action-based tiered [D13]
+  - Forgiveness: personal release vs earned trust [D14]
+  - Allow failure; do not court failure [D15]
+    - Real tests: scraped knee, lost race, failed exam under honest rules
+    - Do not seek ruin for yourself (neglect, fashion struggle, permanent exemption)
+    - Do not engineer failure into children (envy-equality, withheld formation, pure victim story)
+    - Picture: lose and try again; do not break legs for equal outcomes
+  - Closing rhythm of personal section: one day built from these acts [I2]
+
+- Middle bulk: social virtues and forms (go long)
+  - Social primer [E0] (hybrid: planted at B8; full three units here)
+    - Load-bearing line (do not dilute): There is no generic person. There is you—tied to your family, their lineage, and your situation [E0]
+    - ¶1 Positive core: open with that line; survive and thrive; gratitude; duty thickest to those people and that situation; transmission [E0 ¶1]
+    - ¶2a Wrong turn: slide away from you/family/lineage/situation → weightless traits → near duty as prejudice → generic person / goods-without-burdens choice [E0 ¶2a]
+    - ¶2b Return from positive: if no generic person, morality for a generic person is for nobody real; genetic potential, environment, and self-determination vary; foresight of second- and third-order effects varies; design that promises goods without burdens hollows the platform [E0 ¶2b]
+    - ¶3 Personal narrative (your household, your child, your roof); end affirming no generic person—you, family, lineage, situation; then transition: how far claims reach beyond your own, and what same rules bind where lives meet → scopes, tiers, procedural symmetry [E0 ¶3]
+    - Exact terms only: reality real/knowable/consequential; truth as correspondence; continue and continue well; limited not naturally good; tiered priority; procedural symmetry [E0 language]
+    - No theorist names; no ethnoreligious package war in this primer
+  - Rule of law as same process [E2]
+  - Honest speech and fraud as process attack [E3]
+  - Property and contract [E4]
+  - Family as formation and replacement [E5]
+  - Education always forms; aim it [E6]
+  - Scopes, tiers, and procedural symmetry in social form (develop fully after E0 transition)
+    - How far claims reach under limits and real chains
+    - Same rules within honest scopes; not outcome sameness; not feud ledger
+  - Borders and membership as scope [E7]
+    - Defined “we” for cushions, defense, law
+    - Membership for real peoples in situation—not a global pool of generic persons [E0, E7]
+  - Trade under scarcity [E8]
+  - Defense; enemy vs opponent by acts and programs [E9]
+  - Merit under honest procedure [E10]
+  - Experiment, expand what works, kill what fails [E11]
+  - Plural spaces under shared public floor [E12, B8]
+    - Thicker visions in household, association, polity
+    - Shared B1–B5 where streets and courts are shared
+    - Neither forced one-world synthesis nor no shared floor
+  - Social section charge: build and keep platforms that let the personal virtues scale [C5]
+
+- Fall off the boat: harmlessness entitlement [F]
+  - First state the good cushion [F0]
+    - Short job loss or hunger should not mean death when bridge is possible
+    - Pantry, kin, time-bound help, emergency care
+    - This is life-affirming, not decadence
+  - Then name the slide [F1]
+    - Cushion for shock becomes entitlement as a way of life
+    - From “don’t die from a two-month layoff” to “never be harmed or refused for any reason”
+    - Pain, fair failure, duty misread as injustice
+    - Marble-self / lottery talk fuels the slide [B8]
+  - Refute the bad inference [F2, F3]
+    - Survival required no’s that harm someone’s plan
+    - Core harms (including preventable death from short bridgable shock) vs hurt feelings and fair loss
+    - Keep F0 distinct from lifestyle free-ride
+  - Refute the reactionary false fix [F4]
+    - “Let them starve; all cushions are weakness; cruelty is clarity”
+    - Breaks on B3, F0, D8: bridges good; sadism not strength
+  - Independent positive [F5, F6]
+    - Design cushions as bridges: time-bound, reciprocal where possible, return to contribution
+    - Refuse permanent non-participation as default adult life
+    - Fair no’s; mercy after judgment; allow failure without courting failure [D15]
+
+- Fall off the boat: standards in making (craft, building, image, music) [G]
+  - Method: not a proof of art history; show time effects, perverse incentives, 2nd/3rd-order effects; lower certainty than M; name domains to check [G0]
+  - Mechanisms [G1]
+    - Time: untaught generation loses skill the prior generation still had
+    - Perverse incentives: status/grants/schools pay for shock, theory-without-skill, incompetence-as-critique
+    - 2nd/3rd order: fundamentals cut → public cannot staff competence; “critique” that cannot build
+  - Risk pattern (tendency): trained standard → first breakers still skilled → reward shifts to the break → later cohorts get ideology without the standard → moral cover for garbage [G2]
+  - Domains to look into (not prove here): craft school, architecture/trades, music/visual drill, museums/grants, street/housing stock, elite speech [G3]
+  - Wrong vs incomplete one breath; what would falsify the pattern [G4, G5]
+  - Refute reactionary freeze (ban everything after year X; museum only) [G6]
+  - Positive: drill fundamentals; credential competence; refuse “skill is oppression” and “ugliness is virtue” [G7]
+  - Parallel shape to F only [G8]
+
+- Ending arc: external principles first, then alliances, then positive close [H]
+  - Order rule: name packages → test rule → long-horizon effects → only then alliances → what we are for [H1]
+  - Name principles external to this book [H8]
+    - Social constructivism (power/language as reality and truth)
+    - Divine constructivism / pure will; occasionalism-style blocks on secondary order
+    - Scripturalism as package (creation not a witness)
+    - Islamic doctrinal-political packages (not every Muslim): sacral monopoly of public law, two-tier standing, speech rules; note compatible secondary-cause strands
+    - Outcome equity as justice
+    - Blank slate / perfectibility / natural goodness
+    - Marble-self / luck-lottery self [B8]
+    - Anti-natal / harm-reduction as highest good
+    - Reactionary anti-procedure / anti-success packages
+    - Universal action-duty; tiers as bigotry
+    - Short dossiers; persons ≠ packages; history does the work
+  - Church and state of knowledge [H9, B2]
+    - If testable in reality: test in reality
+    - If not testable in reality: do not settle here; let the divine speak (or leave open)
+    - Nothing for or against words of the divine as such
+    - Authority claimed only over checkable claims and thrival consequences
+    - Two-books theists can accept the method; public order needs shared empirical tests
+  - Limits and 2nd- / 3rd-order effects [H10]
+    - Know our limits; humility without skipping runnable tests
+    - History and present cases, not slogans
+    - Generational: multi-generation embrace; original meaning drains; supporting system dies; live on inherited capital then bankrupt
+    - Population scale: works at small percent; degrades when large share adopts
+    - Interconnects: second- and third-order incentive and system effects not advertised in the slogan
+    - For major packages, point to at least one generational, scale, or interconnect example where space allows
+  - Practical alliances (only after above) [H2, H3]
+    - Shared obstacle beats shared utopia short-term
+    - Low coordination cost against the same institutions
+    - Alliance then purge when force consolidates
+    - Mechanisms: common enemy, shared tongue, truth as instrument, shield/sword roles, dual codes, collective subject, humiliation politics, speech sacralization, anti-merit strains, entryism
+    - Prime example: red–green style coordination (tendencies, not census)
+  - Alliances do not refute our axioms [H4]
+  - Premises cut labels; incompatible pairs named [H5]
+  - What we are not ultimately for: democracy, republic, monarchy, premier, party as highest ends [H6]
+  - What we are for [H7]
+    - Life and thriving this generation and the next
+    - Personal virtues listed short (create-and-maintain; allow failure without courting it)
+    - Social virtues listed short (shock bridges; plural spaces; honest membership)
+    - Procedural justice in honest scopes
+    - Clear sight: packages named; testable tested; divine not fake-settled; long horizon watched
+    - Final stress: construction over villain tour
+      - Clean the floor
+      - Keep the skill
+      - Raise the child
+      - Tell the truth
+      - Hold the line
+      - Make something worth handing on
+
+- Length and tone instructions for the writer [I]
+  - Longest pages: personal + social virtues under survival/thriving
+  - Own method section after axioms: testable truth / models [M] (before C)
+  - Long thread payoffs: B8 returns in D7, D15, E7, E12, F, H5/H8 (not one isolated rant)
+  - Ending order fixed: H8 → H9 → H10 → H2/H3 → H7 (do not lead with alliances)
+  - Short: axioms opening; positive close
+  - Medium: section M; two fall-off sections; ending external + alliance block
+  - Harm section must open with F0 good cushion before F1 slide
+  - Concrete nouns; cut filler; one chain one picture [I1, I2]
+  - Avoid frame/mirror branding [I4]

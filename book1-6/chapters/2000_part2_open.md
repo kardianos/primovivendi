@@ -1,0 +1,17 @@
+<!-- chapter: opens Part 2; states the spine and the dramatic question, the part's order of work, and what the part refuses; points back to Part 1 without re-proving the axioms -->
+
+# The world is consequential and has natural constraints
+
+## What Part 2 is for
+
+Part 1 stated the axioms and the method, and this part does not prove them again. What follows assumes the axioms and puts them under the two pressures a book of foundations cannot create: pressure from other people, and pressure from long history. The question is no longer only what is true. The question is what happens to a people that means to live by what is true.
+
+The central claim of this part is one line: the world is consequential and has natural constraints. Forms can change; the problems underneath often do not. A people can rewrite its money, its schoolbooks, and its marriage law. Scarcity, childhood dependency, and violence will still be waiting on the far side of the decree.
+
+That claim sets the dramatic question of Part 2: how does a people that means to live under the axioms get fooled, captured, or bankrupted, and how does that people keep the platform without pure reaction? The platform is what took generations to build and can be consumed in far less time. Fooled is the work of factions that rig words and tests so that credit always attaches and blame never does. Captured is the work of a package that takes the courts, the schools, and the grant committees while the buildings keep their old names. Bankrupted is the people's own work, consuming the built order faster than anyone rebuilds it. Pure reaction refuses every new thing because it is new, and refusal is not a defense. This part asks for the defense that keeps judgment while conditions change.
+
+This part works in a fixed order, and the order is the argument. It begins with constraints: what redesign can touch, and what reappears whenever limited people face scarcity, specialization, and violence. It then shows how words and tests get rigged, and why open speech is equipment for staying corrected. It separates justice from its counterfeits, and mercy from permissiveness, which skips judgment and calls the skip compassion. It reads history under real constraints and grades cases by whether people survived and thrived, not by the beauty of the program. It names adversary packages and the purity moves that sort persons into clean and unclean, while holding that persons are not packages. It closes with practice: checks and decisions a reader can run this week.
+
+Five things this part refuses to be. It is not a catalog of villains; the product is a set of tests, and a test outlives any roster of offenders. It carries no brand name for the axioms working together; the description is the name, and a coined label adds nothing a reader can test. It is not a second Part 1 of equal length with every answer reversed; where rival answers appear, this part names each one specifically and refuses it on evidence. It builds no harness and no machinery that claims to channel every human motive into one design. And it does not revive label pairs omitted from this book's vocabulary; the terms stay the closed set already defined.
+
+The reader who finished Part 1 holds the axioms. Part 2 is about keeping them when keeping them costs something. Keeping the platform is the aim; keeping any particular regime form is not.

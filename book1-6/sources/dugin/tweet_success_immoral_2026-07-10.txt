@@ -1,0 +1,23 @@
+# Primary: Alexander Dugin on “success” (X / Twitter)
+
+**Author:** Alexander Dugin (@AGDugin)  
+**Date:** 2026-07-10 (UTC; post timestamp Fri, 10 Jul 2026 14:22:08 GMT)  
+**Platform:** X (Twitter)  
+**Post ID:** 2075586373277360520  
+**URL:** https://x.com/AGDugin/status/2075586373277360520  
+
+## Exact text
+
+The very concept of the success is deeply immoral. If you are successful the other is loser. We shouldn’t accept it. We should prosper or suffer together. Otherwise it is satanic.
+
+## Notes for citation
+
+- Primary short-form statement of anti-success ethics and mandatory co-prosperity / co-suffering.
+- Useful as a compact, attributable micro-claim of outcome-fusion morality under a “conservative” public brand.
+- Pair with book-length sources in this folder for package structure (Fourth Political Theory; Foundations of Geopolitics; Robinson interview 2017).
+
+## Related local files
+
+- `alexander-dugin-fourth-political-theory.pdf` (+ extracted `fourth_political_theory.txt`)
+- `Foundations-of-Geopolitics.pdf` (+ extracted `foundations_geopolitics.txt`)
+- `interview.txt` (Paul Robinson interview, Moscow, 31 Aug 2017; published 13 Sep 2017)
