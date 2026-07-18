@@ -7,7 +7,7 @@ date: "2026-07-17"
 
 
 
-# Part 1
+# Foundations
 
 ## The five questions
 
@@ -718,7 +718,7 @@ The last word is construction. Clean the floor. Keep the skill. Raise the child.
 
 
 
-# Part 2
+# The world is consequential and has natural constraints
 
 ## What Part 2 is for
 
