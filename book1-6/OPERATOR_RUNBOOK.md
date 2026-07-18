@@ -70,8 +70,9 @@ Task: write book1-6/chapters/[FILENAME] covering the [ARC ID] arc.
   line, then the chapter's H2 title (## ...), then a blank line. ### section
   headings are allowed in long chapters. Headings use sentence case
   (capitalize only the first word and proper nouns). Only the two genuine
-  parts get an H1 (# Part 1 at the top of 1000, # Part 2 at the top of
-  2000); nothing else uses #. (House convention, set in Batch 1, revised
+  parts get an H1 (# Foundations at the top of 1000; # The world is
+  consequential and has natural constraints at the top of 2000); nothing
+  else uses #. (House convention, set in Batch 1, revised
   2026-07-18: with pandoc --top-level-division=part, # maps to \part, ## to
   \chapter, ### to \section, so chapters must be ## for the PDF hierarchy
   to come out as two parts, seventeen chapters.)
