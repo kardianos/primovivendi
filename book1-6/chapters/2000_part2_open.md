@@ -4,6 +4,7 @@
 
 ## What Part 2 is for
 
+%% [LOW] [plan-gap] P2.0 complete: does not re-prove axioms; spine line; dramatic question (fooled/captured/bankrupted vs pure reaction); fixed work order; five refuses (villain catalog, brand name, mirror twin, harness, banned labels). No frame/mirror product names. Plan-faithful open.
 Part 1 stated the axioms and the method, and this part does not prove them again. What follows assumes the axioms and puts them under the two pressures a book of foundations cannot create: pressure from other people, and pressure from long history. The question is no longer only what is true. The question is what happens to a people that means to live by what is true.
 
 The central claim of this part is one line: the world is consequential and has natural constraints. Forms can change; the problems underneath often do not. A people can rewrite its money, its schoolbooks, and its marriage law. Scarcity, childhood dependency, and violence will still be waiting on the far side of the decree.

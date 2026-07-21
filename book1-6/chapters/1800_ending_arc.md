@@ -3,44 +3,58 @@
 ## Rivals, alliances, and what we are for
 
 <!-- arc: H1 | point: fixed order of the ending: packages first, then the test rule, then the long horizon, then alliances, then what we are for -->
+%% [LOW] [plan-order] H1 order fixed and stated: H8 packages → H9 test rule → H10 long horizon → alliances → what we are for. Does not lead with alliances. Correct.
 This book has answered five questions with a handful of axioms and spent its middle on how to live under them. The part ends facing outward. The order matters. First this book names the rival answers, as packages, not as peoples. Then the rule for what this book settles and what it leaves open. Then the limits of our sight and the lenses for long effects. Only then alliances, because alliances are downstream of named premises. Last, and shortest, what we are for.
 
 ### The rival packages, named
 
+%% [LOW] [plan-gap] Persons ≠ packages; short dossiers; steelman then conflict. House rule met for whole H8 block.
 A package is a named set of premises, texts, and institutions. Persons are not packages: a person is judged by commitments and conduct, not by a surname, and many people raised inside a package hold pieces of it loosely or not at all. The dossiers below grade sets of answers, never censuses of persons. Each is short. The rival speaks first, in terms its holders would recognize as their own; then this book marks the conflict. History and present cases do the rest of the work.
 
 <!-- arc: H8 | point: conflict sits at B1 and B2, and at B5 where procedure becomes a power tool -->
+%% [CRIT] [constructivist] [truth] Load-bearing for the whole book's anti-constructivist stake: social constructivism is named as an **external package**, not house method. Steelman (forms built by hands—law, money, rank) then refuse: reality/truth as products of power with no world veto conflicts B1–B2; procedure as power tool conflicts B5. Bridge test is correspondence. This is the correct placement of form/substance half-truth vs totalism. Do not soften "the package goes further" or move this into the axioms as "our view of truth."
+%% [MED] [vocab] [author-ruling] "honest scope" again in constructivism and later dossiers/charge. Same house diction pass.
 **Social constructivism.** Much of what people call natural is built by hands: law, money, rank, manners. Language decides which descriptions win, and power decides whose language counts. So runs the starting point, and half of it is true. The package goes further: reality and truth themselves are products of power, language, and group position, and the world holds no independent veto. The conflict sits at the first two axioms. A bridge either carries the load or drops the crew, and no committee votes on the outcome. When the package treats procedure as one more power tool, same rules within an honest scope die with honest procedure.
 
 <!-- arc: H8 | point: conflict begins only where unbound will overrides what creation shows -->
+%% [LOW] [plan-gap] Divine constructivism / pure will: steelman, occasionalism qualifier (habit steady → craft still runs), conflict only where will overrides failed test. Matches H8 + M1/H9. Not anti-theist smear.
 **Divine constructivism, or pure will.** God is not a subcontractor under laws that creatures can measure; a will bound by regularities would be smaller than the God it names. So the starting point runs. The package fixes what is true and what happens by unbound divine (or sacral-political) will, and denies any stable secondary order that experiment may trust. One qualifier belongs here. Some schools hold that created causes do not necessitate effects, that God creates each event, and that regularity is divine habit; where those schools hold the habit steady, prediction, craft, and medicine still run, and the quarrel is metaphysical rather than public. The conflict with the first two axioms begins where the package uses unbound will to override what creation shows: where the package answers a failed test with will instead of correction.
 
 <!-- arc: H8 | point: conflict only where the package forbids reality tests of testable claims -->
+%% [LOW] [plan-gap] Scripturalism vs two-books distinguished correctly. Conflict only where tests of testable claims forbidden.
 **Scripturalism, as a package.** Revelation is the one word that cannot err; every other authority has erred. So the starting point runs. The package makes scripture (or its equivalent) the sole axiom of knowledge and refuses creation any standing as a witness. Two-books theism is a different settlement: the same author wrote the book of words and the book of nature, so nature may teach, and testing creation is reading rather than rebellion. The conflict with this book appears only where the package forbids reality tests of testable claims. There interpretation rules alone, and correction dies.
 
 <!-- arc: H8 | point: name the package, with its qualifiers, and grade by texts, institutions, and conduct; not every Muslim, and compatible strands exist -->
+%% [MED] [source] Islamic package: qualifiers + compatible secondary-cause strands (Ibn Rushd / falsafa) match plan and islam_secondary_causes_brief. Names Khomeini-style rule, jizya structure, speech rules—short dossier OK; historical depth belongs in Part 2 / 2500. No persons=packages. If any claim is expanded to quote, use sources/ only.
 **Islamic doctrinal-political packages.** The qualifiers come first. Not every Muslim holds any of this, and the Islamic intellectual tradition is not one mind. Strands inside that civilization defended real secondary causes and a stable created order (the falsafa tradition, with Ibn Rushd answering al-Ghazali's polemic against causal necessity, and the early rationalist schools of divine justice and human responsibility), and those strands can sit with public correspondence the way two-books Christianity can. The package to name is doctrinal and political at once: divine law implemented as the constitution of public order (rule in the modern Khomeini style, where the jurist applies the law rather than citizens making it); two-tier standing in law (the jizya structure); speech and concealment rules that break shared inquiry; weakened trust in natural regularity where occasionalism is preached as public method. This book grades the package by its texts, its institutions, and its conduct. Not by surname.
 
 <!-- arc: H8 | point: conflict at B5 (rules bent toward matched ends) and at B2 (causes of disparity settled before inquiry) -->
+%% [HIGH] [justice] Outcome equity named as external; steelman (rigged games real); conflict B5 + B2. Repairs 1100's missing refuse by placing the refuse here as package. Keep aligned with 1500 justice block.
 **Outcome equity as justice.** When the same group loses decade after decade, honest procedure should have scattered the losses by now; sometimes the rules really are rigged, and neutral wording hides the rigging. So the starting point runs. The package takes the suspicion as proof: unequal results show unjust rules, and its holders must bend procedure until outcomes match. This book calls that outcome symmetry, a rival justice in which same end-states are demanded and disparity is treated as proof of injustice. The conflict sits at procedural symmetry, where the package trades same rules inside an honest scope for rule-bending toward matched ends, and at correspondence, because the causes of any disparity are questions of fact and the package settles them before the inquiry begins.
 
 <!-- arc: H8 | point: conflict at B7; virtue is trained and maintained, not factory settings -->
+%% [HIGH] [anthropology] Blank slate / perfectibility / natural goodness named as external against B7. This is the refuse 1100 publish text dropped. Keep; consider one-line callback from 1100 human-nature paragraph to this dossier name.
 **Blank slate, perfectibility, natural goodness.** Cruelty is trained and paid; remake the training and the pay, and you remake the person; no child is born selfish, only taught. So the starting point runs. The package holds that order alone writes the human, or that humans are good until society corrupts them. The conflict sits at the working premise of this book: humans are limited, self-interested, and not naturally good, and virtue is trained and maintained rather than shipped from the factory. History has graded the large rewrites hard.
 
 <!-- arc: H8 | point: conflict at B8; there is no generic person, and designing for one hollows the platform -->
+%% [LOW] [marble] Marble-self / lottery: external; goods without burdens. Matches E0/D7/F1. Complete.
 **Marble-self and the luck lottery.** Nobody earns the womb; talent, start, and station are luck, and the lucky owe nearly everything to a pool that everyone owns. So the starting point runs. The package reasons about a generic person, a someone with no family, no lineage, and no situation, and lets the particular chain weigh nothing. The conflict sits at the particular-person premise. There is no generic person. A morality designed for one serves nobody real, and in practice the choosing comes out the same way: goods without burdens, claims on what is produced, and no duty to the households and lines that produce it.
 
 <!-- arc: H8 | point: conflict at B3; a standard that ranks an empty world over a lived one answers the third question against us at the root -->
+%% [LOW] [life-axiom] Anti-natal / harm-reduction-as-highest: external vs B3. Dead-earth ranking named. Complements 1100 B3 gap (dead-earth motivation thinned there).
 **Anti-natal and harm-reduction as the highest good.** Every birth starts a life that will hurt; nobody consents to being born; reducing the count of lives reduces the sum of pain. So the starting point runs. The package makes life optional and sets harm-reduction as the highest good. The conflict sits at the affirmed axiom of this book: life is good, to continue and continue well. A standard that ranks an empty world over a lived one has answered the third question against us at the root, before any argument about means begins.
 
 <!-- arc: H8 | point: right-coded rejection of same rules and excellence fails B3 and B5 even while hating the left -->
+%% [LOW] [plan-gap] Reactionary anti-procedure: right-coded, fails B3/B5 even while hating left. Not only left-facing book. Complete.
 **Reactionary anti-procedure and anti-success.** Neutral procedure has been gamed by people who preach it; excellence talk excuses arrogance; ordinary people want fate-sharing and belonging more than open contest. So the starting point runs. The package, usually right-coded, rejects same rules, rejects excellence, and rejects individual accountability, and levels by sacral or tribal fate-sharing instead. The package fails the axiom of life and the axiom of same rules even when it hates the left. Cruelty is not clarity, and contempt for standards is not strength.
 
 <!-- arc: H8 | point: conflict at B4; unscoped action-duty becomes theater and the near duties die -->
+%% [LOW] [tiers] Universal action-duty vs B4. All H8 packages present (ten). H8 list complete.
 **Universal action-duty.** A hungry child far away is as real as the child next door; rationing care by distance looks like prejudice with good public relations. So the starting point runs. The package assigns the same action-duty to everyone everywhere and calls tiered priority bigotry. The conflict sits at the axiom of scopes and tiers. Time, knowledge, and reach are limited. Action-love without a scope becomes theater, and the near duties that only you can do die while the far cause is fed.
 
 ### The test rule
 
+%% [LOW] [plan-gap] [truth] H9 restates M: testable vs non-testable; nothing for/against divine as such; authority only checkable + thrival consequences; two-books OK; public shared tests. Wrong/incomplete one breath. Plan-complete. Not first introduction—callback. Good.
 The chapter on testable truth drew this line, and the line belongs here again, before any talk of alliances. Call the divide the church and state of knowledge: one jurisdiction for claims that reality can check, another for claims that reality cannot, and this book polices only the border. If a question can be tested in reality, test it in reality, and accept the answer. If a question cannot be tested in reality, this book does not decide it. Let the divine speak there, for those who hold a divine. Or leave the question open.
 
 This book offers nothing for or against the words of the divine as such. These pages are not a catechism and not an anti-catechism.
@@ -53,6 +67,7 @@ Public order needs the rule. Shared streets require shared tests for shared empi
 
 ### Limits and the long horizon
 
+%% [LOW] [plan-gap] H10: humility without skipping tests; generational / scale / interconnect lenses; granary picture; one-line read per major package. Plan duty met. Anti-slogan.
 Judgment under these axioms stays humble, because we are limited and no one sees all the chains. Humility is not a pardon for skipping tests that can be run. Humility is the discipline of reading effects over time, at scale, and across connections, using history and present cases rather than slogans, and offering readings rather than prophecies. Three lenses do the work.
 
 **The generational lens.** Some results appear only after several generations hold a premise. The original meaning drains out while the slogan stays, and the systems that held the slogan up (a family form, elite restraint, a shared faith, a craft guild, a shame culture) die while the chanting continues. The first generation lives on inherited capital (skill, trust, beauty, fertility) while teaching the opposite of what stocked it.
@@ -78,6 +93,8 @@ Read the major packages through these lenses, one line each:
 
 ### Alliances among rivals
 
+%% [HIGH] [constructivist] Alliance block correctly places "truth as instrument: reality may not veto the cause" as a **hostile mechanism**, not method. Shared obstacle chain; wall picture; mechanism checklist; red-green as tendencies not census; Iran as alliance-then-purge warning. Order after H8–H10. Plan H2/H3 complete.
+%% [MED] [source] Iran purge and red-green: mechanism claims; Part 2 history expands with DISTILL files. Do not invent death-toll precision here. If challenged, point to sources/notes/red_green_alliance.md and iran/.
 Now alliances, downstream of the naming. The chain is mechanical. Two packages can disagree on God, sex, property, and the shape of the final utopia, and still face the same obstacle: an order that runs on correspondence, the individual under law, borders, family, merit, and open criticism. Removing that obstacle helps both packages in the short term. Coordination is cheap because the shared target is concrete: this court, this border law, this curriculum, this newspaper. After the obstacle falls, the residual conflict returns, and the harder or better-placed package purges the partner. Iran is the standing warning: left and hard sacral packages marched against the same throne, and when the old order fell, the better-organized package jailed and shot its partners.
 
 <!-- arc: H2 | point: a shared obstacle makes coordination cheap between packages that share no good; after the fall, the better-placed crew builds alone -->
@@ -100,10 +117,12 @@ The prime example in our time is red-green coordination: progressive packages on
 
 ### Alliances do not refute the axioms
 
+%% [LOW] [plan-gap] H4: alliances do not falsify B1–B5; seeing pattern is strength. Complete.
 Bad alliances show that power seeks partners. They show nothing against the axioms. That two crews pulled on one wall does not make the wall imaginary, and does not make correspondence, same rules, and tiers false. The pattern makes those worth defending. Seeing the pattern is part of strength and defense: enemies are named by acts and programs, and coordinated packages act. The lesson is not to ally with anyone who hates the same wall. The lesson is to hold the axioms, judge every package by reality tests and long horizons, and refuse partners whose own premises aim at the floor we stand on.
 
 ### Premises cut labels
 
+%% [LOW] [plan-gap] H5: premise forks listed (correspondence vs power-truth; life vs optional; procedure vs outcomes; tiers vs universal duty; etc.). Matches Q/cooperation opener. Complete.
 Labels do not predict cooperation; premises do. Two people wearing one jersey can give opposite answers to the five questions and find that they cannot build together. Two people who differ on God can share these axioms for public cooperation, if both accept reality tests for testable claims. Some pairs of premises do not combine, and honesty means naming them:
 
 - correspondence to reality, or truth as an instrument of power;
@@ -118,10 +137,14 @@ Each pair is a fork, not a blend. Choose, and know what your neighbor chose.
 
 ### What we are not ultimately for
 
+%% [LOW] [plan-gap] H6: regimes as instruments graded by thrival. No regime worship. Complete.
 This book is not ultimately for democracy, or a republic, or a monarchy, or a premier, or a party. Those are instruments. We grade each by one measure: whether the people living under the instrument continue and continue well, this generation and the next, under reality, correspondence, the good of life, tiers, and same rules. Worship of the instrument forgets what the instrument is for.
 
 ### What we are for
 
+%% [LOW] [plan-gap] H7: life; personal list; social list; procedural justice; clear sight four habits; construction close (clean floor… make something worth handing on). Ends on construction not villain tour. Plan-complete.
+%% [MED] [plan-order] [truth] Close restates justice "inside honest scopes" and floors without author-merged "knowable and consequential" / human limits elevation from 1100. Same consistency seam as E12. Optional one-line align on final pass.
+%% [LOW] [constructivist] Whole ending treats constructivism as external package and instrument-truth as alliance mechanism. **No house-voice constructivism.** This chapter is the planned place for that fight—and it lands correctly.
 What we are for is short enough to say plainly. Life, and lives that continue well, this generation and the next.
 
 For persons: align with truth; take responsibility as creating and maintaining; own what you keep; build excellence and keep it under maintenance; make beauty in ordinary work; have children or raise them up; be strong enough to defend what must live; judge, then show mercy; stay humble and stay excellent; love widely in disposition and spend costly love by tier; allow failure and never court it.

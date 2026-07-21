@@ -2,10 +2,13 @@
 
 ## The practice close
 
+%% [LOW] [plan-gap] P2.G open: matrix → scenarios → begin with yourself → charge. Correct close shape.
 Everything argued in this book has to fit in one hand. The axioms, the tests, the history: they earn their keep only at the moment a person decides something that costs. This last chapter is that moment, repeated. First a short list that every serious decision must pass. Then a few decisions run through it, at rising stakes. Then the smallest unit of any people, the reader, and one act. Then the charge that closes the book.
 
 ### The precepts matrix
 
+%% [HIGH] [plan-gap] P2.G1 seven filters: reality/correspondence; wrong/incomplete; form/substance; life/cushion vs free-ride; tiers; procedural symmetry; long horizon. All-must-pass. Aligns Part 1 + 2100/2300. **Do not drop form/substance or wrong/incomplete**—they lock anti-constructivist totalism into practice.
+%% [MED] [vocab] [plan-order] "honest scope" in filter 6; floor language still split B1/B2 style not 1100 "knowable and consequential." Consistency pass with 1100/E12 if author merge is final.
 A serious decision needs a fixed short list, not a mood. Write the list once, before the decision arrives, because the wanting that comes with a live decision edits any list it can reach. Deciding what to plant is beneath the list. Deciding whether to sell the field is not. Six filters, and a seventh for decisions that outlive you. Fail any one, and you stop or you revise. You do not argue a failed filter into a pass.
 
 The filters:
@@ -30,6 +33,7 @@ Keep the tool light. The list fits on a card in a pocket, and an honest run of i
 
 ### The matrix at work
 
+%% [LOW] [plan-gap] P2.G2 four scenarios (kitchen, school, border, coalition)—rising stakes; packages named; maintenance owned. Soft-prosecution and art/funding optional examples skipped—OK lite. Complete enough.
 Four decisions, stakes rising from a kitchen table to the survival of a people. In each, the matrix does the work; the drama is incidental. Where a package walks into the room, the package gets named. Where a decision is made, someone owns the maintenance of it.
 
 <!-- arc: G2 | point: kitchen budget: filters one, four, five decide; the parents own the maintenance -->
@@ -46,6 +50,7 @@ Four decisions, stakes rising from a kitchen table to the survival of a people. 
 
 ### Begin with yourself
 
+%% [LOW] [plan-gap] P2.G3: one create-and-maintain act; allow failure / do not court. Complete.
 Society is individuals under procedures. That is the whole anatomy. A procedure is kept or dropped by persons, one decision at a time, and the person most available to you for this work is the one reading this page.
 
 So the book ends with an order that sounds small and is not: before the next indictment of the world, create one thing and maintain it. Not a theory of the thing. The thing. A garden bed kept through a season. A sum saved and not raided. A class taught weekly to children not your own. A roof repaired so well it does not leak in the second winter. A trade learned well enough that a stranger pays for the work twice. The size is not the point; the creating and the maintaining are. The creating teaches you what reality costs, and the maintaining teaches you what procedures are for. A person who has kept one small thing alive under constraint reads the news differently.
@@ -54,6 +59,7 @@ Allow failure in training; do not court failure. The apprentice planes the board
 
 ### The closing charge
 
+%% [LOW] [plan-gap] P2.G4 charge: spine; maps/procedure; life; refuse counterfeit justice + weaponized compassion; thrival vs empty stalls; packages not blood; repair/teach/raise/defend/truth. Book ends on construction. Complete. No constructivist house voice.
 Hold the spine. The world is consequential and has natural constraints. Wishes do not move the world; names do not move it; votes do not move it. Work moves it, inside limits, at a cost.
 
 Keep your maps in correspondence with that world, and keep your procedure honest. A map stays honest when its claims are tested and the same tests judge success and failure. A procedure stays honest when the same rules run inside an honest scope, for your side and for the other side, on the good day and on the bad.
