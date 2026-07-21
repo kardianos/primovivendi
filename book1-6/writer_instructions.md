@@ -58,6 +58,35 @@ Use HTML comments for notes to writers and LLMs. They are stripped at concat (se
 - Paragraph level: `<!-- arc: D7 | point: gratitude is not lottery guilt -->` by a paragraph whose point is not obvious from its first sentence.
 - Verification: `<!-- verify: source needed for the Assur figure -->`.
 
+### W11. Line revision markers (edit / rewrite)
+Column-0 only; one paragraph per line. Stripped or selected by `concat.go` (see Comment convention).
+
+| Prefix | Meaning | Default (`go run concat.go` → `book.md`) | `-old` (`book-old.md`) |
+|--------|---------|------------------------------------------|-------------------------|
+| `%%` | freeform edit note | drop | drop |
+| `%+` | new paragraph body | keep body | drop |
+| `%-` | old paragraph body | drop | keep body |
+
+Example replace pair:
+
+```markdown
+%% soften voice; keep the claim
+%- Old paragraph that was too stiff.
+%+ New paragraph that sounds like a human.
+```
+
+Use HTML comments for stable arc/point/verify structure. Use `%%` for ephemeral edit chatter. Use `%+`/`%-` for contested rewrites you may want to compare. Agents: see `.grok/skills/book-markup/SKILL.md`.
+
+### W12. Writing Style
+
+Write in the formal English prose style of the 1820s following the rhetorical habits taught in Hugh Blair’s Lectures on Rhetoric. Use balanced periodic sentences, moderately elevated but not archaic diction, and the measured, slightly oratorical cadence found in serious non-fiction of the period. Prefer abstract nouns and careful qualification over vivid metaphor. Avoid contractions, modern idioms, and short choppy sentences. Model the tone on the philosophical and critical prose of the era rather than novels.
+
+For example:
+
+> MY design in the four preceding lectures, was not merely to appreciate the merit of Mr. Addison's style, by pointing out the faults and the beanties that are mingled in the writings of that great author. They were not composed with any view to gain the reputation of a critic: but intended for the assistance of such as are desirous of studying the most proper and elegant construction of sentences in the English language. To such, it is hoped, that they may be of advantage; as the proper application of rules respecting style, will always be best learned by the means of the illustration which examples afford. I conceived that examples, taken from the writings of an author so justly esteemed, would on that account, not only be more attended to, but would also produce this good effect, of familiarising those who study composition with the style of a writer, from whom they may, upon the whole, derive great benefit. With the same view, I shall, in this lecture, give one critical exercise more of the same kind, upon the style of an author, of a different character, Dean Swift; repeating the intimation I gave formerly, that such as stand in need of no assistance of this kind, and who, therefore, will naturally consider such minute discussions concerning the propriety of words, and structure of sentences, as beneath their attention, had best pass over what will seem to them a tedious part of the work.
+> I formerly gave the general character of Dean Swift's style. He is esteemed one of our most correct writers. His style is of the plain and simple kind; free from all affectation, and all superfluity; perspicuous, manly, and pure. These are its advantages. But we are not to look for much ornament and grace in it.* On the contrary, Dean Swift seems to have slighted and despised the ornaments of language, rather than to have studied them. His arrangement is often loose and negligent. In elegant, musical, and figurative language, he is much inferior to Mr. Addison. His manner of writing carries in it the character of one who rests altogether upon his sense, and aims at no more than giving his meaning in a clear and concise manner.
+
+
 ---
 
 ## Editing phase (after drafting; one rule per pass)
@@ -74,7 +103,13 @@ Use HTML comments for notes to writers and LLMs. They are stripped at concat (se
 
 ## Comment convention
 
-Tested 2026-07-17 (evidence in `build/comment_test.*`): pandoc passes HTML comments through into EPUB and HTML output (invisible when displayed, present in the shipped source). The PDF path (xelatex) drops them. Conclusion: comments are not safe at render time, so `concat.go` (book1-6 copy) strips all `<!-- ... -->` before template execution and rendering. Do not place a literal `<!-- -->` inside fenced code blocks; the stripper does not parse code fences.
+Tested 2026-07-17 (evidence in `build/comment_test.*`): pandoc passes HTML comments through into EPUB and HTML output (invisible when displayed, present in the shipped source). The PDF path (xelatex) drops them. Conclusion: comments are not safe at render time, so `concat.go` strips markup before template execution and rendering.
+
+**Order in `concat.go`:** (1) line markers at column 0 (`%%`, `%+`, `%-`); (2) HTML comments `<!-- ... -->`.
+
+**Line markers:** only at the start of a line. Optional single space after `%+` / `%-` is stripped with the marker. Mid-line `%` (e.g. `50%`) is ordinary text. Default mode is **new** (publish): keep `%+` bodies, drop `%-` and `%%`. Flag `-old` writes `book-old.md` with the reverse for `%+`/`%-`. `./publish.fish` always uses new mode.
+
+**HTML comments:** do not place a literal `<!-- -->` inside fenced code blocks; the stripper does not parse code fences.
 
 ---
 

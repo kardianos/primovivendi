@@ -12,12 +12,19 @@
 #
 # Intermediate: book.md (concat of chapters/), work files under ../.out/
 #
+# concat.go revision modes:
+#   go run concat.go        → book.md (new/publish: keep %+, drop %-, drop %%)
+#   go run concat.go -old   → book-old.md (old view: keep %-, drop %+)
+# This script always runs the new/publish path. Never pass -old here.
+# Line markers and HTML writer comments are stripped by concat before pandoc.
+#
 # Required: go, pandoc, texlive-xetex
 # Optional: ghostscript (print PDF pass)
 
 set script_dir (dirname (status --current-filename))
 cd $script_dir
 
+# Release builds use new mode only (default). Do not pass -old.
 go run concat.go
 if test $status -ne 0
   echo "concat failed"

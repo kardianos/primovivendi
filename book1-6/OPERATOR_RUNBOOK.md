@@ -14,7 +14,8 @@ How to write this book with an orchestrator session and writer/editing agents. S
 - Plan (fixed): `plan/outline_p1.md`, `plan/outline_p2.md`, `plan/dictionary_p1.md`, `plan/dictionary_p2.md`.
 - Style rules (fixed): `writer_instructions.md`, `vocab_whitelist.txt`, `vocab_blacklist.txt`.
 - Chapters: `chapters/0000_title_block.md` (YAML config only) and `chapter_map_exp.md` (task map, lives at the book root; concat skips `_exp` files). No manuscript chapters exist yet; all are agent-written, starting with Batch 0.
-- Build: from `book1-6/`, `go run concat.go` produces `book.md` and strips writer comments. `./publish.fish` runs the full publication build (adapted from book1-5): `../release/lua-book.{pdf,epub,html}`, intermediates in `../.out/`; it ends by invoking `../push_release`, which uploads to the author's WebDAV mount when that mount is present — run the script only when an upload is intended.
+- Build: from `book1-6/`, `go run concat.go` produces `book.md` (new/publish mode: strip `%%`, keep `%+`, drop `%-`, strip HTML comments). `go run concat.go -old` produces `book-old.md` for the pre-rewrite view. `./publish.fish` always uses new mode; full publication build (adapted from book1-5): `../release/lua-book.{pdf,epub,html}`, intermediates in `../.out/`; it ends by invoking `../push_release`, which uploads to the author's WebDAV mount when that mount is present — run the script only when an upload is intended.
+- Line markup skill (agents): `.grok/skills/book-markup/SKILL.md` — extract `%%` / `%+` / `%-`, revision norms for Grok/Kimi.
 - Working notes: `e0_working_notes.md` (E0 variation material), `plan_review_commentary.md` (external review, open seams), `build/comment_test.*` (renderer evidence for the comment convention).
 
 ## 2. Startup context for a new operator
@@ -166,9 +167,15 @@ grep -rniE 'candyland|thrival|tapestry|delve|unravel|important to note' chapters
 
 # writer comments stripped / no leaks in book.md
 go run concat.go && grep -n '<!--' book.md
+# line markers must not leak either
+go run concat.go && rg -n '^%%|^%\+|^%-' book.md || true
 
 # open verify tags (E6)
 grep -rn 'verify:' chapters/
+
+# freeform edit notes and pending rewrites (see book-markup skill)
+rg -n '^%%' chapters/
+rg -n '^%\+|^%-' chapters/
 
 # blacklist words that slipped into book.md
 grep -niE 'candyland|thrival|tapestry' book.md
