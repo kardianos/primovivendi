@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"bytes"
+	"flag"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -33,6 +34,74 @@ func stripComments(b []byte) ([]byte, int) {
 	return reHTMLComment.ReplaceAll(b, nil), n
 }
 
+// lineStats counts column-0 line markers processed by applyLineMarkers.
+type lineStats struct {
+	Comments     int // %% lines dropped (both modes)
+	PlusKept     int // %+ lines kept (new mode)
+	PlusDropped  int // %+ lines dropped (old mode)
+	MinusKept    int // %- lines kept (old mode)
+	MinusDropped int // %- lines dropped (new mode)
+}
+
+// applyLineMarkers handles revision markup at column 0 only:
+//
+//	%% comment   — dropped in both modes
+//	%+ body      — kept in new (default/publish); dropped in old
+//	%- body      — dropped in new; kept in old
+//
+// An optional single space after %+ / %- is stripped with the marker.
+// Mid-line % is never treated as markup. Markers are line-level only
+// (paragraphs in this manuscript are single lines).
+func applyLineMarkers(b []byte, oldMode bool) ([]byte, lineStats) {
+	var st lineStats
+	if len(b) == 0 {
+		return b, st
+	}
+
+	lines := bytes.Split(b, []byte("\n"))
+	out := make([][]byte, 0, len(lines))
+
+	for _, line := range lines {
+		// Normalize CRLF line bodies without reintroducing \r into output.
+		s := string(bytes.TrimSuffix(line, []byte("\r")))
+
+		switch {
+		case strings.HasPrefix(s, "%%"):
+			st.Comments++
+			continue
+
+		case strings.HasPrefix(s, "%+"):
+			body := s[len("%+"):]
+			if strings.HasPrefix(body, " ") {
+				body = body[1:]
+			}
+			if oldMode {
+				st.PlusDropped++
+				continue
+			}
+			st.PlusKept++
+			out = append(out, []byte(body))
+
+		case strings.HasPrefix(s, "%-"):
+			body := s[len("%-"):]
+			if strings.HasPrefix(body, " ") {
+				body = body[1:]
+			}
+			if oldMode {
+				st.MinusKept++
+				out = append(out, []byte(body))
+			} else {
+				st.MinusDropped++
+			}
+
+		default:
+			out = append(out, []byte(s))
+		}
+	}
+
+	return bytes.Join(out, []byte("\n")), st
+}
+
 func main() {
 	if err := run(); err != nil {
 		fmt.Fprintln(os.Stderr, err)
@@ -41,8 +110,14 @@ func main() {
 }
 
 func run() error {
+	oldMode := flag.Bool("old", false, "emit old (%-) lines instead of new (%+); writes book-old.md")
+	flag.Parse()
+
 	const dir = "chapters"
-	const outputFile = "book.md"
+	outputFile := "book.md"
+	if *oldMode {
+		outputFile = "book-old.md"
+	}
 
 	// Read and sort chapter files
 	entries, err := os.ReadDir(dir)
@@ -85,6 +160,11 @@ func run() error {
 		sep = "\n\n"
 	}
 
+	modeName := "new"
+	if *oldMode {
+		modeName = "old"
+	}
+
 	for i, fname := range files {
 		if i > 0 {
 			out.WriteString(sep)
@@ -98,11 +178,20 @@ func run() error {
 			return fmt.Errorf("reading %s: %w", fname, err)
 		}
 
+		// Line markers first (column-0 %% / %+ / %-), then HTML comments.
+		content, st := applyLineMarkers(content, *oldMode)
+		if st.Comments+st.PlusKept+st.PlusDropped+st.MinusKept+st.MinusDropped > 0 {
+			fmt.Fprintf(os.Stderr,
+				"%s: mode=%s %%%% %d, %%+ kept %d dropped %d, %%- kept %d dropped %d\n",
+				fname, modeName,
+				st.Comments, st.PlusKept, st.PlusDropped, st.MinusKept, st.MinusDropped)
+		}
+
 		// Strip writer comments (arc tags, point lines, verify tags) so they
 		// never reach book.md or any renderer.
 		content, nComments := stripComments(content)
 		if nComments > 0 {
-			fmt.Fprintf(os.Stderr, "%s: stripped %d writer comment(s)\n", fname, nComments)
+			fmt.Fprintf(os.Stderr, "%s: stripped %d HTML writer comment(s)\n", fname, nComments)
 		}
 
 		if i == 0 {
