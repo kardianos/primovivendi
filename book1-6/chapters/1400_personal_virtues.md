@@ -2,6 +2,7 @@
 
 ## Personal virtues
 
+%% [LOW] [plan-gap] Opener correctly grounds D in B7 + C: limited, self-interested, not naturally good; virtues as trained acts under axioms. Pattern (act / why / practice / not) matches dictionary shape. Personal-before-social order is plan-correct.
 The axioms say what is real and what is good. Survival and thriving say what continuing takes. None of it happens by itself. A person limited in time and knowledge, self-interested by wiring, and not naturally good still has to do the work, and has to do it on purpose, because drift runs the other way. The virtues in this chapter are that work, taken one act at a time.
 
 A virtue here is not a mood and not a personality type. Each is a trained act with a reason under the axioms, a daily practice small enough to refuse excuses, and a set of counterfeits that look like the act and cost less. The entries follow one pattern: the act, why the act, the practice, and what the act is not.
@@ -10,6 +11,8 @@ The order is personal before social on purpose. A man who waits for better insti
 
 ### Align with truth
 
+%% [MED] [truth] [author-ruling] D1: "When your model ... disagree, the things win" is bare world-wins again (same seam as 1200). Daily checks are empirical; OK in practice, but align with 1100 scope (testable claims / world can decide) so mystery/divine is not accidentally ruled out of personal life.
+%% [LOW] [constructivist] Prefer world to preferred story; loyalty is not truth; cynic "nothing knowable" refused. Anti-constructivist. Map picture is fully painted (W2).
 The act is to prefer the world to the preferred story. When your model of things and the things themselves disagree, the things win. Truth is correspondence to reality, and reality does not grade on loyalty.
 
 Wrong maps kill. Consider a map drawn to please: the river moved half a day's walk east because the patron liked the symmetry, the marsh left off because marshes are ugly on vellum. A traveler trusts it. He plans his water stops by the drawn river and finds reeds and black mud where the blue line ran. He loses the daylight arguing with the ground, and the ground does not argue back. By the second evening he is drinking marsh water, and by the end of the week the fever decides the dispute. Every step of that death was a step of the map. A household budget is a map of a year. A diagnosis is a map of a body. A harvest plan is a map of rain and soil. Drawn to please instead of drawn to match, each kills in its own currency.
@@ -22,6 +25,7 @@ This is not cynicism. The cynic's claim that nothing is knowable is one more pre
 
 ### Align with survival
 
+%% [LOW] [plan-gap] D2 complete: earn next year; refuse petition theater; cushion vs lifestyle exemption; not greed. Plant for F0/F1 already. Grammar nit: "Life is good is the affirmed axiom" is stiff—voice only.
 The act is to keep body, household, and tools in working order, and to earn the next year before spending it.
 
 Life is good is the affirmed axiom, and survival is the floor under every other act in this chapter. The dead practice no virtues. A household that cannot feed itself in March had opinions in February and nothing else.
@@ -34,6 +38,7 @@ This is not greed. The year is earned so that life can continue and continue wel
 
 ### Responsibility as creating and maintaining
 
+%% [LOW] [plan-gap] D3 chain complete (create+maintain; forward test; finite scope; sacrifice sorted). Roof picture does causal work. No doctrine risk.
 Responsibility is bringing something into being and keeping it in being under limits, both halves together. The word names a practice, not a verdict and not a mood.
 
 It is not blame. Blame looks backward to assign the fault, and the search has its place in a courtroom. Responsibility faces the other way: who owns the cleanup, and what is the smallest next act. A family can spend a decade establishing whose fault the estrangement was and never once ask who will make the first phone call. The forward question is the virtue; the backward question is at best evidence for it.
@@ -49,6 +54,7 @@ Sacrifice sorts by the same test. Sacrifice that builds or protects something re
 
 ### Ownership
 
+%% [LOW] [plan-gap] D4 complete: care–consequence link; paper title without maintenance refused; community-owns-everything refused. Social twin deferred appropriately.
 Ownership is the link between control, care, and consequence: what is yours to maintain, and what fails when you neglect it.
 
 The chain is visible anywhere people share things. Watch a shared kitchen in any workplace: the sponge no one owns, the tap that drips for a year because every worker assumes someone else reported it. Unowned things tend toward neglect, and where neglect grows costly enough, toward plunder: what everyone owns, someone eventually strips. Named ownership concentrates care because it concentrates consequence. The man who will pay for the broken fence checks the fence.
@@ -61,6 +67,8 @@ This is not the doctrine that the community owns everything and no one is named.
 
 ### Excellence
 
+%% [MED] [vocab] [author-ruling] "inside the honest scope" (excellence/selection paragraph) uses the phrase the author rejected in 1100. Prefer "same rules for the same position" / "inside a defined membership or role."
+%% [LOW] [justice] Refuses equal outcomes as fix for corrupt selection; fix procedure instead—matches B5/D5. Formation never neutral—good.
 Excellence is doing the work at hand properly, and keeping the capacity to do harder work than today's. Skill under maintenance: nothing more romantic, and nothing less.
 
 A workshop outlives its master only if someone was taught. The forge goes cold one spring. The tools hang where his hands left them, oiled and ready. His sons can name every cut and every temper, because they grew up reciting the names at his elbow. None of them can do the cuts. The names took a season to learn; the hands took ten years each, and the ten years were never given. Within five years the family buys its nails like everyone else, and the shop is a room where a capable man used to be. A trade, a literacy, or a habit of order dies this way within a single span when the teaching stops, and anyone can check this where apprenticeships or schooling were cut.
@@ -71,6 +79,7 @@ Excellence is not perfectionism. The perfectionist who never finishes because th
 
 ### Beauty
 
+%% [LOW] [plan-gap] D6 structure (order + truth + vitality), personal practice, two counterfeits—all present. Plant for G (standards in making). No art-history overclaim.
 Beauty, as the word is used here, is order and truth and vitality together in a made thing.
 
 Order is proportion, rhythm, and arrangement fitted to use. It is measurable enough to teach and strict enough to fail: a stair either climbs evenly or trips people, and a sentence either parses or does not.
@@ -87,6 +96,7 @@ Two counterfeits. First, the claim that whatever I like is beauty, which cannot 
 
 ### Generational continuation
 
+%% [LOW] [plan-gap] [life-axiom] D7 complete: have children or raise up; transmit platform not sentiment; broken link; full life not headcount; non-parenthood as ideal refused. Particular-person / not lottery guilt plant present (B8/E0 callback).
 Have children when you can responsibly anchor them, or raise up: adoption, teaching, material support of the families doing the raising.
 
 The duty is transmission, and the cargo is more than sentiment. A platform is what took generations to build and can be consumed in far less time: the skills, the moral tools (truth over the preferred story, judgment with mercy, tiered duty, fair procedure), the habits that keep a household upright. Raising a child means handing on the platform intact, with the judgment to use it. A child given affection but no standard has been loved and left unarmed.
@@ -100,6 +110,7 @@ Keep the person particular through all of it. There is no generic person. There 
 
 ### Strength
 
+%% [LOW] [plan-gap] D8 complete: defend what must live; petition right-to-exist refused; kindness vs softness; not cruelty; not contempt for weak you must carry. Shepherd picture fully painted.
 Strength is the capacity and the will to defend what must live: yourself, your household, your people, and the conditions that make kindness possible.
 
 Force is the oldest argument, and it is still accepted everywhere. Harvests and cities fall to it when they are undefended; read any century. A declared right to exist, without the work of defense behind it, is petition theater again, and the audience that matters does not applaud.
@@ -113,6 +124,7 @@ Strength is not cruelty. The strong can spare, and a man who must hurt someone i
 
 ### Judgment, mercy, permissiveness
 
+%% [LOW] [plan-gap] D9 sequence judgment → mercy → permissiveness exact. "Someone always decides" blocks non-judgment-as-virtue (P2.D seed). Good.
 Judgment is naming what meets the standard and what does not. It comes first in the sequence, and the other two words in this section are defined by where they stand relative to the naming.
 
 The naming has to come first because procedure and mercy both require a named wrong. A court cannot try an unnamed crime, and a person cannot forgive an unnamed debt. The shrug that says we all make mistakes tries nothing and forgives nothing, and it leaves every standard unkept.
@@ -125,6 +137,7 @@ The daily practice is the sequence done knowingly: name the standard, name the m
 
 ### Humility
 
+%% [LOW] [constructivist] D10: fallibility without "nothing is knowable"; "all views equal" is abdication not humility. Blocks soft relativism. Paired with excellence—plan.
 Humility is the standing admission that you can be wrong: fallibility kept in view, without collapse into the claim that nothing is knowable. The marsh is there either way.
 
 It is paired with excellence because each keeps the other honest. Humility without work is passivity with a humble excuse. Excellence without humility is brittle: the craftsman who cannot be told about the flaw ships the flaw, and the doctrine that cannot be corrected keeps its errors warm for decades. The paired form is plain. Do the work at full standard, and hold the standard open to correction.
@@ -133,6 +146,7 @@ The practice is to invite the check before the expense: measure twice, show the 
 
 ### Outcomes over feelings in public scope
 
+%% [LOW] [plan-gap] D11: public vs family scopes distinguished; promote-to-spare-pain example. Not "outcomes" as justice definition (that is outcome symmetry)—here outcomes vs feelings as institutional grade. Clear enough; if misread later, add "not equal end-states as justice."
 In the public scope, the institutions among strangers, judge by outcomes more than by how the policy felt. The warmth of the announcing speech is not a result.
 
 Feelings are real data in the scopes where love binds. In a family, the child's dread at dinner and the tiredness in a spouse's voice are evidence that matters. The error runs in both directions: running the public scope like a family, where policies are graded by the emotions of their announcers, and running a family like an office, where the children are graded like quarterly reports and the household becomes a firm with worse hours.
@@ -143,6 +157,7 @@ This is not cruelty. Outcomes include pain, and the rule is not to ignore suffer
 
 ### Action begins with you
 
+%% [LOW] [plan-gap] D12: doomerism as self-permission; smallest next step; not alone-sufficient fantasy. Plant for P2.D5. Good.
 Your own acts are the one instrument that answers without an intermediary. Law, markets, weather, and other people can be influenced at best and commanded never. Your next act is commanded by you and by no one else.
 
 Doomerism is the analysis that reliably concludes in the analyst's own exemption from effort, and it should be read as self-permission rather than as research. The world supplies real constraints; limited is a permanent design input, not an excuse. The man who has proven to his own satisfaction that everything is lost has not discovered a fact. He has purchased a note excusing him from the ledger, the tools, and the child, and the interest on that note is his life.
@@ -153,6 +168,7 @@ This is not the fantasy that you are sufficient alone. Action begins with you; i
 
 ### Love, dispositional and action-based
 
+%% [LOW] [tiers] D13 two kinds + budget by B4 + do not bankrupt the near. Explicit refuse of unscoped action-love theater—stronger here than in 1100 priority paragraph. Good.
 Love comes in two kinds, and most confusion about it is the refusal to keep them apart. Dispositional love is goodwill and non-malice. It is cheap enough to extend far, and it should be extended far: to strangers, to opponents, to people you will never meet. Action-based love is costly: time, money, attention, hours that cannot be spent twice.
 
 Action-based love is budgeted by tier: self and household first, then family, neighbors, community, polity, world. The near duties are stronger; the outer duties are real but weaker. That ranking was stated with the axioms and is not re-argued here. The rule for the virtues is the spending rule: do not spend action-love on the far in a way that bankrupts the near.
@@ -163,6 +179,7 @@ Neither kind substitutes for the other. Dispositional love is not nothing: it is
 
 ### Forgiveness, release and restoration
 
+%% [LOW] [plan-gap] D14 two acts distinct; victim owes no restoration on demand. Ties to D9 permissiveness. Complete.
 Forgiveness is two acts that share a name, and keeping them separate is most of the virtue. Personal release is letting go of the need for revenge so that you can live. Restoration of trust is a social act, and it must be earned.
 
 Release may require nothing from the offender. You do it for the peace of your own household, because a grievance kept warm costs the keeper daily and costs the offender nothing at all. It can be done while the offender denies everything; it is not his act but yours. Release does not pretend the wrong was small, and it does not require pretending the wrong never happened. It declines to let the wrong keep collecting.
@@ -173,6 +190,8 @@ The victim owes no restoration on demand. The offender who demands instant resto
 
 ### Allow failure; do not court failure
 
+%% [HIGH] [marble] [justice] D15 is load-bearing against marble-self / lottery / envy-equality: allow real tests; do not court self-ruin; do not engineer failure into children (withheld formation, victim story). Race picture matches dictionary. Doctrine risk if cut for length—do not thin this section in later edits.
+%% [LOW] [constructivist] "Luck is real" steelman then refuse remedy that removes the test—correct. Not constructivist capture.
 Allow failure, because competence is built from real tests and real tests are lost by real people. The scraped knee teaches that gravel is not smooth. The lost race says the training was thin. The failed exam under honest rules names the unstudied chapter. The failed firm priced wrong. Each loss carries information that no praise carries, and a person shielded from every loss has been shielded from the information, which is to say from the skill and the judgment the information builds. The social form later in this book has the same shape: procedures that let bad ideas and bad firms fail, cushions as bridges for the people caught in the fall, and no treatment of the unsuccessful as moral garbage. Here the point is personal: failure allowed is a teacher with rough hands and accurate records.
 
 Do not seek ruin for yourself. Neglect of the body, addiction, permanent exemption from effort, tools dropped because struggling has become your fashion: none of these is honesty about human limits, and none is depth. A style exists that calls self-neglect authenticity; self-neglect is what it remains. Under the axiom that life is good, and under the duties to survive and to maintain already named, you owe the upkeep of your own capacity, to yourself and to everyone whose tiers include you.
@@ -184,6 +203,7 @@ Keep one picture for all three rules: a child and a footrace. The lanes are chal
 
 ### One day
 
+%% [LOW] [plan-gap] I2 / D close: one ordinary day stitches D1–D15 without new doctrine. Plan wants this rhythm. Keep.
 None of this waits for a better world. Here is one day built from these acts.
 
 Get up. Step on the scale and read the number without arguing. Eat, because the body is a tool with a job today. Check the ledger against the drawer; the numbers add up or the month is a story. Then work, and do the work properly, because skill under maintenance is this year's wage and next year's capacity.

@@ -4,6 +4,7 @@
 
 ### Why history is here
 
+%% [LOW] [plan-gap] P2.E1: H10 lenses made concrete; depth over catalog; grade thrival under constraints not saints. Method correct.
 Part 1 built three long-horizon lenses, and this chapter puts a people behind each one. The generational lens asks what a practice compounds into across three or four generations. The scale lens asks what happens when millions of people hold a premise instead of a committee holding the premise. The interconnect lens asks how one change travels through a whole order and arrives where nobody aimed the change. So far these lenses have been argued in the abstract. History is where peoples ran the lenses in fact, with food, blood, and children as the recording instruments.
 
 The method here is depth, not catalog. Five famous names sketched in a paragraph each teach a reader to sort jerseys. One positive case followed down to the case's premises, and one rupture case followed down to the case's ledger, teach a reader to grade. This chapter takes two spines at full depth: an island that continued well under hard constraints, and a revolution that consumed the platform the revolution inherited. Three shorter studies follow: a coalition that ended in a purge, a constitution written for non-angels, and a text that wears the reader's jersey while failing the reader's tests.
@@ -12,6 +13,7 @@ The grading question does not change from case to case: did the people continue,
 
 ### The island that earned its keep
 
+%% [LOW] [plan-gap] [source] P2.E2: world owes no living; merit/yeast under scarcity; order as survival equipment; procedure not outcome equity. LKY quotes from DISTILL-class material; writer notes when paraphrase required. Grade thrival; copy premises not police manual. Strong positive spine.
 Singapore's constraints were not rhetorical. In 1965 the island was on its own: "small in size, geographic area and in population", almost without natural resources, ringed by larger neighbors, one of them hostile enough that Lee Kuan Yew could say in a September 1965 interview: "I can see their forward bases where they are training our assassins." No hinterland fantasy was available. There was no countryside to retreat into, no peasantry to live off, no depth of territory to trade for time. The island earned the island's bread from the world, or the island did not eat.
 
 From that position Lee stated the first premise at the Serangoon Gardens Circus on 11 December 1965: "Look, the world does not owe us a living. We start off with that. At the same time, we owe the world nothing." Read the sentence as map correction, not complaint. Survival is not a verdict a people receives from some tribunal of history; survival is a result a people produces, this year, against constraints. The sentence cancels the foreign debt in both directions: no living is owed to the island, and no tribute of guilt is owed by the island. What remained was work, and Lee counted the work in jobs: "We have to create, in one year, an additional eight to ten thousand jobs by building new industries."
@@ -30,6 +32,7 @@ Grade the case by this book's question. The people continued: the island survive
 
 ### The rupture that emptied the stalls
 
+%% [LOW] [plan-gap] [source] P2.E3: Stolypin reform path; Durnovo warning; Lenin April rupture steelmanned then graded; Cheremukhin et al. empty stalls/famine; data gap for 1914–27 admitted. Source hygiene excellent (no invented tolls). Cow-slaughter picture causal. Complete rupture spine.
 Russia in the first years of the twentieth century still had an incremental path, and the path ran through property. The reform program associated with Prime Minister Stolypin, defended before the Duma in 1907, moved peasants out of communal strip farming toward hereditary household property: own the land, keep the yield, invest in the soil, lend against the title. The logic is reform inside constraints. The form of tenure changes so that effort and reward meet in the same person, and the machine keeps running while the repair proceeds. The path was slow, legal, unglamorous, and aimed at exactly the grievance the revolution later harvested.
 
 <!-- arc: P2.E3 | point: Stolypin is paraphrased per the Russia DISTILL's use rule; no quotation, because the repository's OCR of the 1907 speech is corrupt and a clean English edition is still needed -->
@@ -48,6 +51,7 @@ Set the two paths side by side and the chapter's spine appears. Reform under con
 
 ### The alliance that became a purge
 
+%% [LOW] [plan-gap] [source] P2.E4: shared target only; Khomeini implementation-not-legislation quote; purge as structure not friendship; persons ≠ packages; no invented tallies. Correct restraint. Complete.
 Iran shows the third pattern, and the wording here stays inside what the sources allow. In the 1970s, left organizations and Islamist forces both opposed the Shah. The coalition shared a target and almost nothing else. The two packages wanted incompatible successor orders; the Shah was the one point on which the maps agreed.
 
 The Islamist package had stated its constitution of politics in print, years before the victory. In lectures given in 1970, Khomeini taught that the ruler's "task is not legislation, but the implementation of the divine laws that the Prophet (s) has promulgated", and that "divine precepts are to be enforced perpetually" because "they are meant for all time." For the package's holders, this is not tyranny but obedience: law given by God is not men's to rewrite. Take the package at the package's word. Public order is the perpetual enforcement of divine law; the ruler implements and does not legislate as one citizen among equal citizens. Any partner in the coalition could read, in advance, what the better-placed package intended to build on the ruins of the Shah's order.
@@ -58,6 +62,7 @@ The lesson is short and worth memorizing: a shared enemy is not shared axioms. C
 
 ### Design for non-angels
 
+%% [LOW] [plan-gap] [source] P2.E5: Madison Federalist 10/51 quotes; faction in nature; ambition counters ambition; foil pure collective / angels. Aligns B7. Complete short.
 One more case, kept short, because the case supplies the positive procedure the rupture case refused. The American founding designed for the human premise this book states with Part 1: people are limited and self-interested, and virtue is trained rather than factory-installed. Madison's Federalist 10 does not deplore faction and dream of abolishing faction; Madison locates faction in the wiring: "The latent causes of faction are thus sown in the nature of man." Madison refuses both remedies that remove the causes. Destroying liberty to kill faction is the cure of which "it was worse than the disease": "Liberty is to faction what air is to fire, an aliment without which it instantly expires." Imposing sameness, "giving to every citizen the same opinions, the same passions, and the same interests", is impossible while minds differ: "As long as the reason of man continues fallible, and he is at liberty to exercise it, different opinions will be formed."
 
 So the design controls effects instead of causes, and the design assumes the worst about the operators. Federalist 51: "If men were angels, no government would be necessary." Therefore "Ambition must be made to counteract ambition", connecting the interest of the man with the constitutional rights of the place, so that "the private interest of every individual may be a sentinel over the public rights." Madison states the difficulty as plainly as the remedy: "you must first enable the government to control the governed; and in the next place oblige it to control itself." The machinery (divided power, rival branches, different modes of election) is "This policy of supplying, by opposite and rival interests, the defect of better motives."
@@ -66,6 +71,8 @@ Read the founding as a tool for continuing well under the human premise, not as 
 
 ### The false friend on the right
 
+%% [HIGH] [justice] [source] P2.E6: Dugin-class steelman then fail thrival (success immoral / co-suffering = outcome symmetry), procedure (collective subject = rule by man), Iran-pattern multipolar common-enemy. Tweet primary dated. Jersey not the test. Completes right false friend. Keep—blocks "enemy of progressive = friend."
+%% [LOW] [plan-gap] P2.E7 enemy-recognition optional skipped with arc note (no source)—acceptable optional skip.
 The last study is an adversary text, and the study exists because jerseys are cheap. A reader who has watched the progressive package keep the names of church, party, and nation while swapping the premises inside will reasonably go looking for that package's enemies. Alexander Dugin's package (the Fourth Political Theory and the author's public statements) presents itself as exactly that enemy: against liberal modernity, against rootless individualism, for peoples and tradition. On the surface the jersey matches. The tests come next.
 
 Give the package the package's own voice first. The theory teaches that each modern politics has seated a collective subject: "The subject of communism was class"; fascism seated the state or race; liberalism seated the individual cut loose from collective identity and membership. In the theory's diagnosis, triumphant liberalism dissolved politics into consumption and "fragmented and sub-political being", leaving persons unmoored from people and place. A holder of this package would recognize those sentences as the package's own view, and the diagnosis of dissolution is not the part this book refuses.
@@ -82,4 +89,5 @@ The verdict: the test is the axioms, never the jersey color. Measured by continu
 
 ### The charge
 
+%% [LOW] [plan-gap] P2.E8 charge complete. Chapter plan-complete; strong source discipline overall.
 Read history as consequence under constraints, never as costume drama. The costumes (the uniforms, the slogans, the flags) record what the actors wanted to feel. The ledger (the stalls, the tables, the prisons, the jobs) records what the premises did. Copy what thrives under limits: the island's premises, where the world owes no living and quality under scarcity is the law of survival; the founders' procedure, where ambition counters ambition because men are not angels. Refuse rupture romance: the break-the-machine promise ends in the empty stall, and the empty stall does not care how beautiful the manifesto was. Refuse false friends: a shared enemy is not shared axioms, and the test is the axioms, not the jersey. A people that means to see the next century keeps the platform the way the cases teach: premises held under pressure, procedure kept against friends, and the ledger read without flinching.

@@ -3,6 +3,7 @@
 ## The world is consequential and has natural constraints
 
 <!-- arc: P2.A1 | point: reality answers what is done, not what is named; bad maps are paid for in food, blood, and children -->
+%% [LOW] [plan-gap] [truth] P2.A1: reality answers doing not naming; bad maps cost food/blood/children. Anti-slogan. Complete open.
 A people can rename anything. A parliament can vote a new word for bread, a treasury can print a new note, a ministry can issue a new schedule for the school year, and all of it will be obeyed, at least on paper. Reality answers what is done, not what is named. Wheat responds to seed, weather, and work, not to the new word for wheat. A wound responds to the surgeon's training, not to the clinic's new title. A child responds to whoever actually feeds her and teaches her, not to the name of the office that claims her. When the names and the doing part company, the cost arrives in the oldest currencies there are: food, blood, and children.
 
 The rules and stories a people lives under are its maps of this terrain, and bad maps do not fail where they are drawn. A map that gets the terrain wrong still passes the committee that approved it. The map fails at the harvest, in the clinic, at the border, in the nursery. A people whose map says bread is made by decree gets empty shelves. A people whose map says violence stops when the words improve gets graves. A people whose map says children raise themselves gets a generation that cannot. This is the first thing to know about the world: it is consequential, and its consequences do not read the decrees.
@@ -12,6 +13,7 @@ Not everything in an arrangement is fixed, and this chapter is not an argument f
 
 ### Discovered and constructed
 
+%% [CRIT] [constructivist] [truth] Load-bearing Part 2 anti-totalism: "constructed" = form (could be otherwise); "discovered" = substance (reappears under independent conditions). Steelman of reformers' half-truth, then line. This is plan form/substance tool—not house social constructivism (reality/truth as power). Do not blur into "all social reality is construction." Matches discovered_vs_constructed.md and 1500 trade line.
 The reformers who call human arrangements constructed are right about something real, and the chapter starts there because their point is load-bearing up to a line. Words, calendars, coinage, ceremonies, and statutes are human work. They have changed many times, and people in power have often dressed privilege as nature to keep it safe from question. So the word needs an exact meaning before it can do honest work. Call an arrangement constructed when it could have been otherwise without cancelling the problem it answers. Which side of the road traffic keeps is constructed: left serves as well as right, so long as everyone keeps the same side. Which sound a language makes for bread is constructed. Whether the token is shell, metal, paper, or an entry in a ledger is constructed. The form is real, the form matters for coordination, and the form is open.
 
 Call an arrangement discovered when it reappears under independent conditions because the problem remains. No assembly voted these into being, and no assembly can vote them out. The need for a stable medium of exchange, once people specialize, is discovered. The long dependency of children, and the need for specific adults to invest years in them, is discovered. The need for predictable rules against collision and theft, inside any group that means to cooperate past tomorrow, is discovered. Peoples who shared no books, no laws, and no teachers have found each of these again, because each is an answer to a problem that does not go away.
@@ -20,10 +22,12 @@ The distinction is a working tool, not a war cry. Used honestly, the distinction
 
 ### The reinvention test
 
+%% [LOW] [plan-gap] P2.A2 test exact: ban official form → reinvented = substance. Complete.
 There is a clean test for which kind of arrangement stands in front of you. Ban the official form, and watch what the people under the ban do. If the arrangement was only a form, the ban holds: life goes on under the new label, and nobody misses the old one except at weddings. If the arrangement is substance, unrelated peoples reinvent the arrangement, quietly, illegally, at real cost to themselves, because the problem the arrangement answered is still standing in their kitchens and workshops. Prohibit private trade and trade reappears under other names. Abolish the family's legal form and grandmothers become mothers again in practice. The reinvention is the tell. Costume stays banned. Substance comes back wearing whatever costume is still legal.
 
 ### The chain from limits to empty tables
 
+%% [LOW] [plan-gap] Five-step chain matches dictionary P2.A2. No bad-intent requirement—good. Complete.
 The logic from human limits to policy failure runs in five short steps.
 
 1. Limited people specialize. No one has the years or the reach to make everything his household needs, so the potter pots and the farmer farms.
@@ -36,6 +40,7 @@ No step in this chain requires bad intentions. The officials can be sincere, edu
 
 ### What this is not
 
+%% [LOW] [plan-gap] Both errors refused: sacred tradition freeze; nothing-may-change. Reform forms; respect constraints. Plan "what this is not" complete.
 First, this is not the doctrine that everything traditional is sacred. Age is not proof. A custom can be old and false, old and cruel, or old and merely habitual, and the number of generations that carried the custom settles nothing by itself. Every custom faces the same two tests: is the custom true, and do the people who hold the custom continue and continue well. A market rule, a marriage rite, or a school schedule that fails those tests has no defense in its age. Traditions that pass deserve respect as stored answers. Traditions that fail deserve reform, whatever their age.
 
 Second, this is not the doctrine that nothing may change. The freezing instinct usually comes from watching reformers deny a constraint and then deny the damage, and the instinct is understandable. The instinct is still wrong. Forms often should change, and should change precisely when the forms fail under present conditions. The metal token gives way to the ledger entry when trade outgrows the mint. The apprenticeship gives way to the technical school if the school actually forms capability. The test is never whether the form is old or new. The test is whether the change serves people who mean to continue and continue well, under constraints that were not consulted and do not negotiate. Reform the forms; respect the constraints.
@@ -43,6 +48,7 @@ Second, this is not the doctrine that nothing may change. The freezing instinct 
 ### Money, words, land, and children
 
 <!-- arc: P2.A3 | point: money's forms change many times; the exchange problem returns under every ban, which is the reinvention test passed in the open -->
+%% [LOW] [plan-gap] P2.A3 four pictures present (money, words, property, children). Fully painted. Children case heaviest—good. Complete.
 Watch money move through its forms. Cowrie shells, silver cut by weight, stamped coins, paper notes, ledger entries, digits on a bank's screen: each change was real, each was fought over, and none of the changes touched the substance. The substance is the potter's problem. She fires more pots than her household can use. She needs grain this week and shoes next season, and the grain farmer does not want pots this week. Some token has to carry value across that gap, from the person who wants what she makes to the person who has what she needs, and strangers have to trust the token enough to keep taking it. That is what money is for, under every form money has ever worn. Now let a state break the form: print the note until the note buys nothing, or ban private trade outright. The problem does not retire. Where official money has died, people have coined their own out of whatever was scarce, portable, and divisible; under trade bans, households have run barter networks at real risk. The substance reinvented itself under a banned form, because the potter still had pots and still needed grain. That return is the reinvention test, passed in the open.
 
 <!-- arc: P2.A3 | point: word sounds are form; stable shared labels are substance, and forced redefinition taxes coordination -->
@@ -56,10 +62,12 @@ Children are the last case and the heaviest. The forms are genuinely various: nu
 
 ### A caution from Part 1
 
+%% [LOW] [plan-gap] P2.A4: M useful-form/wrong-substance; B4–B5 as constraints; scale. %% [MED] [vocab] "honest scope" in procedure line—house diction seam.
 Part 1's account of models carries a warning that transfers whole to this chapter's question. A model can work in form while the model is wrong on substance: the model computes, the model predicts inside its domain, the model can even be worth keeping as a ladder, and the model's picture of the world can still be false. Part 1 taught the repair: keep what the old model got right at the edges, and never mistake the ladder for the ground. Social redesign needs the same caution. An institution can function on paper, file its reports, hold its ceremonies, and be wrong about the constraint underneath. Paper function is the form of working. Feeding people, forming children, and keeping the peace are the substance.
 
 Two more Part 1 results belong here, because both are constraints rather than decorations. Tiered priority, duties ranked self and household, then family, neighbors, community, polity, world, follows from the same limits this chapter began with: no one has the reach to owe everyone equally, and a redesign that flattens the tiers does not abolish the limit; the redesign simply leaves the nearest duties unpaid. Procedural symmetry, the same rules inside an honest scope, is a constraint on justice: a redesign that exempts the favored has not risen above procedure; the redesign has broken the peace that procedure was keeping. And scale governs all of it: an arrangement that works for fifty people who know each other's names can fail for fifty million, because the fifty ran on knowledge and enforcement that a whole population does not have.
 
 ### The charge
 
+%% [LOW] [plan-gap] P2.A5 charge exact. No doctrine risk.
 Before any redesign is celebrated, ask the standing question: is this a change of form, or a denial of substance? Change the form gladly when the form has failed: rename the school, recoin the money, reschedule the market, whenever the change serves people who mean to continue and continue well. Keep what continuing well requires, even when the keeping is unfashionable: the exchange that feeds the potter, the word that means the same thing tomorrow, the specific adult in the child's night, the duty with a name and an address. And refuse the redesign that only renames, for the plainest reason there is: the world is consequential, and natural constraints do not care about the slogan. The cost of pretending otherwise is not paid by the slogan's authors. The cost is paid in food, blood, and children, by people who never got a vote on the map.

@@ -4,10 +4,12 @@
 
 <!-- arc: P2.B | point: two rigging moves (rigged record, rigged standards) and the one fix plus the one piece of equipment the chapter defends -->
 
+%% [LOW] [plan-gap] [constructivist] Map correct: hermetic + selective logic + not-real-X + speech as equipment. Anti-hermetic is anti-package-protection, not constructivist. Complete open.
 Part 1 gave you two tests: a claim must match reality, and one procedure must judge like cases alike. This chapter shows how those tests get rigged so that a favored package cannot lose. Two moves do most of the work. The first rigs the record of results after the fact. The second rigs the standards of reasoning while the argument is still running. Behind both sits a word game: the name of the package stretches to collect credit and shrinks to dodge blame. Against the rigging stands one fix, and behind the fix stands one piece of equipment: speech kept open enough that reality can still correct the map.
 
 ### The hermetic argument: credit without blame
 
+%% [LOW] [plan-gap] P2.B1: valve picture painted; steelman betrayal case; ledger fix; six-entry test. Complete.
 A hermetic argument seals a package against its own record. When the package succeeds, its defenders credit the success to the ideal. When the package fails, the same defenders declare the failure "not real X": the wrong implementers, the saboteurs, the weather, anything but the ideal. Blame never attaches to the package. Credit always does.
 
 The mechanism is a one-way valve. A valve is a flap hinged inside a pipe. Pressure from upstream swings the flap open, and the water moves through. Pressure from downstream presses the flap against its seat, and the flow stops dead. Water travels one direction; nothing returns. The hermetic argument runs cause through such a valve. A good harvest, a good quarter, a won war: the flap swings open and credit flows into the ideal's account. A famine, a purge, an emptied treasury: pressure from the wrong side, and the flap seals. The account only grows.
@@ -24,6 +26,7 @@ There is a quick test for the valve. List three claimed successes of the package
 
 <!-- arc: P2.B2 | point: the standard stays clear while it favors the preferred end and becomes "reductive" or "violence" when it binds that end -->
 
+%% [LOW] [plan-gap] P2.B2 complete with controlled-studies example.
 The second rigging move works earlier, inside the reasoning itself. A standard of argument stays clear, welcome, and enforceable while it favors the preferred end. The same standard becomes "reductive," or even "violence," the moment the standard binds the preferred end.
 
 <!-- arc: P2.B2 | point: worked example; the standard did not change, the direction of the result did -->
@@ -34,6 +37,7 @@ Name the move plainly: procedural asymmetry at the level of reasoning itself. Th
 
 ### A narrow test for the "not real X" defense
 
+%% [LOW] [plan-gap] P2.B3: central texts + classical practice; yes/no branches; sacred and secular same; persons ≠ packages. Complete.
 The "not real X" defense can be checked, and the test is narrow on purpose. Do not hold a seminar on the true meaning of the package. Ask one question: do the system's own central texts and its classical practice, read under the system's own rules of reading, support the conduct in question?
 
 If the answer is yes, the problem sits in the premises or the tradition, not only in bad apples. The argument then belongs against the package itself, and blaming a few bad members is its own evasion.
@@ -44,6 +48,7 @@ The test is the same for sacred and secular packages. A church has central texts
 
 ### Free speech as equipment for truth-seeking
 
+%% [LOW] [truth] P2.B4: limits + self-interest → collision of claims; censor not wise/disinterested; fraud vs uncomfortable description. Ties E3/M5. Complete.
 Free speech is not a courtesy the strong extend to the annoying. Free speech is equipment for finding truth under limits, and a people that means to continue well cannot do without such equipment for long.
 
 The reason sits in two facts from Part 1. People are limited: finite knowledge, finite reach. People are self-interested: built to favor their own survival and near kin. Under those conditions, error is found by collision of claims. One claim runs against another claim, and both run against the world, and the false part shows at the impact. If one side may not speak, no collision happens, and the error stands uncorrected.
@@ -54,6 +59,7 @@ The censor's case gets one fair sentence before refusal: lies travel fast, mobs 
 
 ### The charge
 
+%% [LOW] [plan-gap] P2.B5 charge + marsh map picture. Plan-complete chapter. No doctrine risk.
 Name the rigging when you see it. When every failure is "not real X" and every success is proof, name the hermetic valve and refuse the account. When a standard is praised while the standard serves and denounced as violence when the standard binds, name the selective standard and ask what changed besides the direction of the result. Keep one procedure for success and failure: one ledger, one rule of cause for all six entries.
 
 And keep correction possible. A walker follows a map across wet country. The map says the ground ahead is firm. The ground ahead is a marsh. If the walker may say aloud what the ground does to his boots, the next walker redraws the map, and the walker after that keeps dry feet. If the first walker may not speak, because the map is official and marsh-talk is forbidden, the map stays wrong and the marsh takes its walkers one by one. Keep speech open enough that reality can still correct the map. That is the whole charge.

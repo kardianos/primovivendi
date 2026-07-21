@@ -2,10 +2,12 @@
 
 ## Falling off the boat: the harmlessness entitlement
 
+%% [LOW] [plan-order] Opens with good-first / F0-before-slide map. Outline absolute: harm section must open with F0. Structure correct before body begins.
 The first way to fall off the path of surviving and thriving starts from a genuine good, which is what makes it dangerous. A people that lives by the virtues builds stores, skills, and institutions, and those works succeed: shocks that once killed now cost a season and pass. The fall begins when the success is misread, when protection built for emergencies is claimed as the permanent condition of an adult life. This chapter states the good first, then names the slide away from it, then refuses the brutal overcorrection, then says what cushions are for.
 
 ### The good cushion
 
+%% [LOW] [plan-gap] [life-axiom] F0 complete: short bridgable shock; household/kin/mutual aid/polity; life-affirming not decadence; pantry, kin, ER pictures painted; not permanent exemption / multi-gen non-participation / never-scarcity / open claim. Plan-faithful.
 A short, bridgable shock should not mean death when a household, kin, mutual aid, or a polity can bridge it at bearable cost. A layoff lasts two months. A fever keeps a strong man in bed for six weeks. A late frost takes half a crop. Under the axiom that life is good, a society that carries its members across such gaps is doing part of what a society is for. This is machinery for life, not decadence.
 
 <!-- arc: F0 | point: pantry picture; the stock maps the gap between work and hunger, and the rotation shows the cushion is time-bound by design -->
@@ -19,6 +21,8 @@ None of this is the fall. A cushion, as this book uses the word, is a time-bound
 
 ### The slide
 
+%% [LOW] [plan-gap] F1 steps present: success → weather-not-work → claim widens (die from layoff → never harmed/refused) → pain/failure/duty reclassified → policy around felt harm. Actors named (administrators, lawmakers). Good.
+%% [HIGH] [marble] Lottery paragraph is the B8/F1 link: generic person, goods without burdens. Correctly refused as house doctrine. Keep; do not thin when editing for length.
 The slide begins because the machinery works. A society gets good at survival: reliable food, medicine, policing, long peace, and real cushions of the kind just described. The generation that built those works remembers the price. The generation that inherits them meets them as facts of the world, present before any effort of their own and expected to continue without any.
 
 From there the claim grows by small steps, each one sounding like the last. First: I should not die from a two-month layoff. True, and this book says so. Then: I should not have to feel scarcity while others have more. Then: I ought never be harmed, blocked, ranked, refused, or made uncomfortable for any reason. Each step widens the claim from life, to comfort, to insulation, and the last step demands what no society of limited people can deliver while remaining alive.
@@ -29,12 +33,14 @@ Lottery language accelerates the slide. The talk runs: I did not choose to be bo
 
 ### A risk pattern, not a law
 
+%% [MED] [plan-gap] Falsifier / hard counter-case (high-trust societies with broad cushions) is epistemically honest and anti-hermetic—good. Not in dictionary F as a named subsection; still fits W9/M spirit. Keep, but do not let it become a dodge that never grades real draw-down of work/formation/birth rates.
 The slide is a named risk pattern with mechanisms, not a universal law of history. Success hides its own price from those who never paid it. A widened claim is easier to grant than to refuse once refusal reads as cruelty. And the agencies that administer cushions hold budgets and staff that grow when new harms are counted, so the counting tends to grow. These are tendencies with named actors and incentives, not a prophecy that every generous society must decay.
 
 The hardest counter-case deserves to be faced plainly. Some wealthy, high-trust societies appear to have run broad, near-universal cushions for decades without visible collapse: work continues, formation continues, order holds. It may be that old habits of work and duty still carry the load there, and that the cushions are drawing down stored habits rather than creating them; this chapter does not litigate that case. What would count against the slide thesis is clearer: multi-generation universal cushions with no erosion of work, formation, or birth rates, sustained without drawing down the platform of habits and institutions that took generations to build. If that were shown, the thesis would shrink to a claim about societies whose formation is already weak. The design tests below would stand either way, because they rest on the difference between a bridge and a substitute life, not on the slide being universal.
 
 ### Why the inference fails
 
+%% [LOW] [plan-gap] [life-axiom] F2 chain complete: survival needs no's; master never-harm rule blocks predation stop and standards; cushions collapse. Concrete list (officer, examiner, border, physician). F0 vs free-ride separated. Complete.
 The inference from cushions are good to no one may ever be harmed breaks on the axiom of life itself. Survival was built, and is kept, by restraint, work, defense, and the saying of no. Every no harms someone's plan. If avoiding harm to anyone's feelings or aims becomes the master rule, then no officer may stop a predator and no examiner may enforce a standard. A society that cannot stop predation or enforce standards loses survival itself, and the good cushions collapse along with everything else. So the claim that one must never be harmed in any way is false under the axiom that life is good. Some harms are just consequences, deserved penalties, or the price of protecting someone else.
 
 The point is concrete, not abstract. The arresting officer harms the burglar's evening, and the evening is not owed protection. The examiner who fails the unprepared student harms the student's pride, and the pride is not owed protection. The border guard who turns away the man without membership harms that man's plan, and the plan is not owed protection. The physician who refuses a demanded treatment that cannot work harms a false hope, and the hope is not owed protection. In each case a named person feels the harm, and in each case the harm is what protecting life and truth costs.
@@ -43,6 +49,8 @@ None of this touches the good cushion. Refusing to let a short, bridgable shock 
 
 ### What harm means under the axioms
 
+%% [LOW] [plan-gap] F3: core harms listed (incl. preventable bridgable death); non-crimes listed (feelings, fair loss, duty, true shame, temporary scarcity); protection/frustration same act. Complete.
+%% [MED] [vocab] [author-ruling] "inside the scope" / later "honest scopes" in justice line—same house-diction seam as Runs 1–2. Prefer plain "same position / defined membership."
 Once the slide is refused, the word harm needs its boundaries drawn again. Core harms, the ones law and custom exist to forbid, are murder, rape, enslavement, theft, fraud, and unprovoked assault; attacks on the shared process of truth and law itself; and, under this book's axiom, preventable death from a short, bridgable catastrophe when the capacity to bridge exists. That last item is what keeps the good cushion inside the definition of harm rather than outside justice altogether.
 
 A longer list of pains is not automatically injustice, and treating that list as injustice dissolves judgment. Hurt feelings. Status lost when a rival earns the rank. Fair competition lost under honest rules. Duty imposed by tiered priority: the child's claim on the parent, the debt's claim on the debtor. A true description that shames: the audit that finds the shortfall, the diagnosis that names the disease. Temporary scarcity while a person is still fed and housed through work or through time-limited help.
@@ -51,6 +59,7 @@ The confusion costs because protection and frustration are the same act seen fro
 
 ### The reactionary false fix
 
+%% [LOW] [plan-gap] F4: steelman in reaction's voice, then break on B3, F0, D8; confuses slide with tool; rebuilds nothing. Plan writer task met. Not endorsing cruelty-as-clarity.
 There is an overcorrection to refuse, and it deserves to be heard in its own voice first.
 
 <!-- arc: F4 | point: steelman of the reaction in its own voice; this is the view to be broken, not endorsed -->
@@ -64,6 +73,7 @@ Worst of all, the reaction cannot tell the slide from the tool. Demanding no cus
 
 ### Cushions as bridges
 
+%% [LOW] [plan-gap] F5–F6: independent positive; bridge picture fully painted; time-bound/reciprocal/return to contribution; no permanent non-participation; mercy after judgment not instead; four design tests. Charge refuses both entitlement and cruelty. Plan-complete. No constructivist capture.
 The positive does not depend on the slide or on the reaction; it stands on the axioms alone. Survival is earned and maintained, by households and by polities, and comfort is not dispensed automatically to whoever asks. The design work is to keep bridges standing at every tier of duty: household stores first, then kin and neighbors and mutual aid, then the polity's emergency floor, each tier doing what the tier below cannot.
 
 <!-- arc: F5 | point: bridge picture; a cushion is built for a crossing, and a life lived on it brings it down -->
