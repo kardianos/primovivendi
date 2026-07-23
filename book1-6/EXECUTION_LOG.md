@@ -10,10 +10,10 @@
 | Field | Value |
 |-------|--------|
 | **Status** | **Waiting on human** |
-| **Waiting on** | Human — gate **G-B1** |
-| **Active pass** | B1 (done; awaiting gate) |
+| **Waiting on** | Human — gate **G-B** |
+| **Active pass** | Phase B complete (B0–B4 done; awaiting G-B) |
 | **Active role** | — |
-| **Next action** | Human reviews B1 (`1100` axioms): diff, refuses, charge, positive-first. Say ***B1 accepted*** or list rework. Until then: no B2 spawn. |
+| **Next action** | Human reviews Phase B coherence (1000/1100 + protect scan green). Say ***Phase B accepted*** or list rework. Until then: no C1 spawn. |
 | **F loop round** | 0 (not started) |
 | **Last updated** | 2026-07-23 |
 
@@ -24,7 +24,7 @@
 | Gate | Status | Decision / notes |
 |------|--------|------------------|
 | **G-A** Phase A / HOUSE_FORMULAS | **passed** | 2026-07-23 — Phase 0 approved; A1–A8 locked in `HOUSE_FORMULAS.md` |
-| **G-B1** after B1 `1100` | **waiting on human** | 2026-07-23 — B1 commit `7eda162`; `./publish.fish` **exit 0** (pdf/epub/html → `../release/lua-book.*`). Review refuses + charge; unstick: *B1 accepted* or rework list |
+| **G-B1** after B1 `1100` | **passed** | 2026-07-23 — Author: *B1 accepted* (continue). Also confirmed Q2 interchangeable-unit limb + Q4 S1-D for B2. |
 | **G-B** after B2–B4 | pending | **must** `./publish.fish` before human review |
 | **G-C** after C1–C4 | pending | **must** `./publish.fish` before human review |
 | **G-D8-cal** after D8 on 1000+1100 | pending | **must** `./publish.fish` |
@@ -49,6 +49,9 @@
 | 2026-07-23 | Pangram verify | Assist | Key + credits OK; strip works; 1000 scored Human | — |
 | 2026-07-23 | **B1** `1100` CRITs | Writer | A6 A4 man premise + blank-slate/perfectibility refuse; justice short refuses; positive-first opener; charge mirrors; no twins/dead-earth; all `%%` cleared in 1100 | `7eda162` |
 | 2026-07-23 | G-B1 build | Orchestrator | `./publish.fish` exit 0; hard stop for human review | — |
+| 2026-07-23 | **G-B1** decision | Author | *B1 accepted*; yes on Q2 unit limb + Q4 S1-D | — |
+| 2026-07-23 | **B2** `1000` Q list | Writer | Q2 interchangeable-unit limb; Q4 S1-D; Q1/Q3/Q5/charge kept; policy-premises clause | `566f8b9` |
+| 2026-07-23 | **B3** verify hygiene | Writer | Twins gone (B1); open verifies: 1500 author bullets, 2600 Qur'an edition | no commit |
 
 ---
 
@@ -57,10 +60,10 @@
 | Order | Pass ID | Role | Notes |
 |-------|---------|------|--------|
 | ~~1~~ | ~~B0~~ | — | **done** |
-| ~~1~~ | ~~B1~~ | Writer | **done** — awaiting **G-B1** |
-| 2 | B2 | Writer | `1000` after G-B1 (align Q list to dict; Q4 if decided) |
-| 3 | B3 | Writer | Twins soften / verify |
-| 4 | B4 | Editor (read-only) | Protect-list scan |
+| ~~1~~ | ~~B1~~ | Writer | **done** — G-B1 **passed** |
+| ~~2~~ | ~~B2~~ | Writer | **done** `566f8b9` |
+| ~~3~~ | ~~B3~~ | Writer | **done** (no file changes) |
+| 4 | **B4** | Editor (read-only) | **in progress** protect-list scan |
 | 5 | — | Human | **G-B** + `./publish.fish` |
 | 6 | C1–C4 | Writer / Editor | Then **G-C** + publish |
 | 7 | D1–D7 | Editor | Mechanical / judgment |
@@ -73,20 +76,7 @@
 
 ## Waiting / blocked detail
 
-```text
-Waiting on: human
-Gate or pass: G-B1 (after Pass B1)
-What to review:
-  - chapters/1100_axioms.md (commit 7eda162)
-  - Diff: positive-first opener; single man premise (limited → particular → self-interested, HOUSE A4);
-    blank-slate + perfectibility refuse; justice not equal end-states / not return in kind;
-    charge mirrors body; protected reality paragraph intact; twin studies and dead-earth gone
-  - Build: ../release/lua-book.pdf (and .epub / .html)
-Commands already run:
-  - Writer B1 → commit 7eda162
-  - ./publish.fish → exit 0 (2026-07-23)
-Unstick condition: human says "B1 accepted" OR lists rework → new B1 Writer agent
-```
+_None (B2 Writer running)._
 
 ---
 
@@ -103,7 +93,8 @@ Unstick condition: human says "B1 accepted" OR lists rework → new B1 Writer ag
 ## Orchestrator notes
 
 - **Do not re-run B0** unless human orders rework.  
-- **B1 done** (`7eda162`). **G-B1 hard stop** — do not spawn B2 until human accepts or rework list.  
-- After *B1 accepted*: spawn Writer **B2** (`1000` only).  
+- **G-B1 passed** 2026-07-23. B1 `7eda162` accepted.  
+- B2 implements Q2 interchangeable-unit limb + Q4 S1-D (author yes on both).  
+- After B2: B3 then B4 then `./publish.fish` → **G-B**.  
 - Commits: `book1-6/` only; message prefix `book1-6: `.  
 - Ignore monorepo dirt outside `book1-6/`.  
