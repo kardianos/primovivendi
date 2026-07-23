@@ -42,6 +42,12 @@
 
 **Arc job:** Before stating axioms, put the diagnostic on the table. Readers already answer these questions in action. Labels (church, party) do not guarantee shared answers. The book then states *its* answers [B]. Do not smuggle thrival or any other answer into question 3’s wording.
 
+**Author rulings (HOUSE_FORMULAS; do not reintroduce old seams):**
+- Manuscript and HOUSE win over any older “copy as written” list in this file.
+- Positive vision first in answers [B / 1100]; other packages later (H8 / Part 2), not beside every head.
+- Never re-paste “independent of wish,” “honest scope(s),” or confession-charge “admit you hold others” into chapters from this dictionary.
+- Full locks: `HOUSE_FORMULAS.md` A1–A8.
+
 ### Q1. Placement
 - Immediately after front matter; before B1–B8.
 - Keep tight: questions + why they matter + “you already answer them”; then move to axioms as answers.
@@ -50,84 +56,97 @@
 1. Two people can share a religion or party and split on these five.  
 2. Policy fights fail when premises stay hidden.  
 3. Cooperation tracks answers to these questions better than jerseys.  
-4. Question 3 stays **open** so rivals can answer differently; the book’s answer is B3 (affirmed), not smuggled into the question.
+4. Question 3 stays **open** so other standards of the good can answer differently; the book’s answer is B3 (affirmed), not smuggled into the question.
 
-### Q3. The five questions (full text — do not paraphrase in the manuscript opener)
+### Q3. The five questions (house list for writers)
 
-Copy these into the reader-facing opener **as written**:
+**Do not** treat the list below as frozen paste-into-manuscript law. Prefer current `chapters/1000_questions.md` publish text when it is more recent; keep this list aligned with HOUSE. Catechism: short, memorable.
 
-1. What is truth? Is reality real and independent of wish? Can we know it with usable confidence? Is knowledge mainly discovery that answers to the world, or only a product of power, will, or pure dialectic? What makes a claim true?
+1. What is truth? Is reality real, knowable, and consequential? Can we know reality with usable confidence? Is knowledge mainly discovery that answers to the world, or only a product of power, will, or pure dialectic? What makes a claim true?  
+   *(All three of real / knowable / consequential are load-bearing. Not “independent of wish.” Edge is knowability of the real and that facts bind.)*
 
-2. Are humans limited and self-interested by nature, a blank slate waiting to be written, or naturally good / perfectible / restorable by remaking the whole social (or sacral-political) order?
+2. What is a human being by nature? Are human beings limited, particular, and self-interested; blank slates waiting to be written; or naturally good, perfectible, and restorable by remaking the whole social (or sacral-political) order?  
+   *(House answer order in 1100: limited → particular → self-interested — HOUSE A6 / A4 prose. Fork stays available; positive limbs first.)*
 
-3. What is the standard of the good: what ought human life and society aim at?
+3. What is the standard of the good: what ought human life and society aim at?  
+   *(Do not smuggle life/thriving into the question.)*
 
-4. What deserves priority when obligations conflict?
+4. When a man’s goals and claims on him conflict, how should he employ himself — what comes first?  
+   *(Surface still open for polish. Sense: ordered priority under limits and real differences of position (parent/child, teacher/student); self outward. Avoid dead jargon. Pair with Q5 in rhythm and understanding. Older “obligations” / “claims” are not mandatory nouns.)*
 
-5. What does justice require: equal procedures within a scope, equal outcomes for everyone, or equal value returned in kind?
+5. What does justice require: equal procedures within a scope, equal outcomes for everyone, or equal value returned in kind?  
+   *(“Within a scope” earns its place — defined membership/role/jurisdiction. Not “honest scope.” Three forks stay in the **question** and in longer justice treatment; **1100 stays positive-first** — short guiding-light refuse only if needed; full fork exposition may live in the next method/social file rather than stuffing 1100.)*
 
 ### Q4. Structure of the five
 - **Q1–Q2:** world and creature (descriptive premises).  
-- **Q3:** is–ought turn; many rival answers exist (thrival, harm reduction, equity, sacred political unity, co-suffering, etc.).  
-- **Q4–Q5:** duty and justice under a chosen good, given human limits.
+- **Q3:** is–ought turn; many other standards of the good exist (name them later as packages, not in the question).  
+- **Q4–Q5:** how a man employs himself under conflict, and justice under a chosen good, given human limits — **paired**, not free-standing slogans.
 
 ### Q5. Map questions → this book’s answers
 | Question | This book’s answer (entry) |
 |----------|----------------------------|
-| 1 Truth / reality / knowledge | B1 + B2 (+ M for testable method) |
-| 2 Human nature | B7 (limited, self-interested, not naturally good; not blank slate / perfectible) |
+| 1 Truth / reality / knowledge | **One public answer:** reality real, knowable, consequential; truth = correspondence / model of reality (internal partition B1+B2; + M for testable method) |
+| 2 Human nature | B7 + B8 plant: limited, particular, self-interested; not blank slate; not naturally good / perfectible |
 | 3 The good | B3 (continue and continue well; affirmed axiom) |
-| 4 Priority | B4 (tiered, self-anchored scopes) |
-| 5 Justice | B5 (procedural symmetry in honest scopes; not outcome or value symmetry) |
+| 4 Priority | B4 (tiered priority; real scopes of role/membership) |
+| 5 Justice | B5 (same procedure for persons in the same position within a defined scope; not outcome or value symmetry) |
 
-B8 (particular person, not marble-self) deepens Q2/Q4 against lottery metaphysics; it is not a sixth question.
+B8 (particular person) is part of the human premise with B7, not a sixth question. Full social primer at E0.
 
 ### Q6. Everyone already has answers
 - Parent who funds own child before distant causes → answered priority.  
-- Voter who treats unequal pay as automatic injustice → answered justice.  
+- Voter who reads unequal pay as automatic injustice → answered justice.  
 - “True for you” shrug → answered truth.  
 - Children as optional luxury or as main work of a people → answered the good.
 
 ### Q7. Writer guards
-- Do not shorten Q1 into only “what is truth?” — the sub-clauses are the edge.  
+- Do not shorten Q1 into only “what is truth?” — real, knowable, and consequential (and usable confidence / discovery vs power) are the edge.  
 - Do not load Q3 with “surviving and thriving.” That is the *answer*.  
 - Do not brand this “the Frame’s five questions.” They are five questions; then five answers.  
-- Later packages [H8] and Part 2 dossiers are rival *answers* to these same questions.
+- Later packages [H8] and Part 2 dossiers are *other answers* to these same questions (state them there, not as a parade in 1100).  
+- Do not reintroduce “independent of wish,” “honest scope,” or confession-charge wording from older plan drafts.
 
 ### Q8. Charge of the questions block
+**Pending author comment (do not hard-lock confession vs non-confession until author marks this).** Working direction from HOUSE A5 / publish 1000:
+
 - Prefer these five questions to the shared label.  
-- State your answers or admit you hold others.  
+- Examine and weigh present convictions; consider whether the book’s answers may serve as a good beginning.  
+- **Not** (old plan): “State your answers, or admit you hold others” as forced confession.  
 - Then read this book’s answers and how to live under them.
+
+*(Author: see session note on Q8 in context before freezing.)*
 
 ---
 
 ## B. Primary axioms (answers to the five questions)
 
-**Note:** B1–B5 answer Q’s five questions in order (with B7 supplying more of Q2’s anthropology). State them as answers after the questions block, not as if no rival answers exist.
+**Note:** B1–B5 answer Q’s five in order (B7+B8 supply Q2). State **this book’s answers** after the questions block. Positive first [HOUSE A3]; other answers later as packages, not co-equal heads on every axiom line.
 
-### B1. Reality is real
-- **Definition:** There is a world that exists whether anyone likes it, names it, or votes on it.
-- **Answers Q1 (part):** reality is real and independent of wish.
-- **Not:** “My lived experience is the world.” Not “the map is the territory.”
+**Author ruling — Q1 public form:** B1 and B2 are **two parts of one whole**. Public answer in one breath: reality is real, knowable, and consequential; truth is correspondence to it (model of reality, not of falsehood or hope). Do not teach two coordinate “first axioms” that fight the merge.
+
+### B1. Reality is real (part of merged Q1)
+- **Definition:** There is a world that exists whether anyone likes it, names it, or votes on it. It is knowable (usable confidence, not omniscience) and consequential (facts bind; declaration does not set them aside).
+- **Answers Q1 (with B2):** the reality half of the one public answer.
+- **Not:** “My lived experience is the world.” Not “the map is the territory.” Not “only a group lens is knowable.”
 - **Chain:**
   1. Bodies need food, shelter, heat.
   2. Those needs are met or not met by what actually happens, not by slogans.
   3. A bridge holds or falls; a harvest comes or fails; a knife cuts or does not.
-  4. Therefore public life must treat the world as independent of wish.
-- **Entailment:** Wish, story, and power can change what people do; they do not rewrite load-bearing facts at will.
+  4. Therefore public life must treat the world as independent of mere declaration.
+- **Entailment:** Story and power can change what people do; they do not rewrite load-bearing facts at will.
 - **Error:** Treating social agreement as the test of what is.
 
-### B2. Truth is what corresponds to reality
-- **Definition:** A claim is true when it matches what is.
-- **Answers Q1 (part):** knowledge is mainly discovery answering to the world; correspondence makes a claim true (among public rivals: decree, power, pure coherence).
+### B2. Truth is what corresponds to reality (part of merged Q1)
+- **Definition:** A claim is true when it matches what is. Truth names a model of reality rather than of falsehood or of hope.
+- **Answers Q1 (with B1):** the correspondence half of the one public answer.
 - **Not:** Truth as pure group consensus. Not truth as “what serves the cause.”
 - **Chain:**
-  1. Reality is real (B1).
+  1. Reality is real, knowable, consequential (B1).
   2. We need shared knowledge to cooperate (plant, build, heal, defend).
   3. Shared knowledge requires a shared test: does the claim track the world?
   4. Correspondence is that test.
-- **Entailment:** Models are provisional; the world is the judge. When model and world disagree on a matter the world can decide, prefer the world.
-- **Plant (one clause only in axioms opening; full method at M2b):** A claim offered for shared use should be stateable with enough precision that reality can try it; do not rewrite the claim after the outcome in order to collect a win. Full treatment of specificity, reasons fixed at the time, and credit: [M2b]. Daily form: [D1].
+- **Entailment:** Models are provisional; where a claim is offered as knowledge of what is or what follows, the world answers by what comes to pass [HOUSE A2]. When model and world disagree on a matter the world can decide, the model yields.
+- **Plant (one clause only in axioms opening; full method at M2b):** A claim offered for shared use should be stateable with enough precision that reality can try it; do not rewrite the claim after the outcome in order to collect a win. Full treatment: [M2b]. Daily form: [D1].
 - **Error:** Equal scrutiny for favored and disfavored claims abandoned; fashion exempts itself.
 - **Error:** “X predicts Y, therefore X is a valid full account of reality.” Prediction can hold while the story is wrong or incomplete [M2, M3].
 - **Error (preview of M2b):** Treating a lucky hit under bad grounds, or a vague claim that almost any outcome can “confirm,” as proof of insight or as a right to future trust.
@@ -135,11 +154,11 @@ B8 (particular person, not marble-self) deepens Q2/Q4 against lottery metaphysic
 
 ### B3. Life is good
 - **Definition (axiom of goodness):** Human life should continue and continue well. Survival plus thriving. Affirmed, not deduced from pure description alone.
-- **Answers Q3:** this book’s standard of the good (one answer among rivals; do not write it into the question).
+- **Answers Q3:** this book’s standard of the good (one answer among others; do not write it into the question).
 - **Not:** Headcount only. Not survival at any cruelty. Not “comfort is the good.” Not harm reduction as the highest good if it ends the beings who can be good.
 - **Chain (motivations, not fake pure proof):**
   1. Without living people, no value, justice, beauty, or kindness has a holder.
-  2. Consent-only ethics: duties only to existing subjects who can agree or be wronged. Then a dead earth and a living earth rank equal, because no subject is wronged by emptiness. That result is only coherent if life’s existence is not itself a good. Reject that.
+  2. Consent-only ethics: duties only to existing subjects who can agree or be wronged. Then a dead earth and a living earth rank equal, because no subject is wronged by emptiness. That result is only coherent if life’s existence is not itself a good. Reject that. **Writer note:** this dead-earth chain is for dossiers / later reasoning [HOUSE A7]; **do not require it in 1100** (1100 asserts; does not argue the ranking trial).
   3. Every living person is the end of a chain of parents who continued life.
   4. Therefore affirm: flourishing human life is good.
 - **Layers (keep separate in prose):**
@@ -149,8 +168,8 @@ B8 (particular person, not marble-self) deepens Q2/Q4 against lottery metaphysic
 - **Error:** Treating anti-natal “generosity” as higher ethics. Treating existence as optional luxury.
 
 ### B4. Scopes and tiers are mandatory
-- **Definition:** Duties and care are ranked. Strongest near the self and household, then outward: family, neighbors, community, polity, wider world. Scopes (roles, memberships, jurisdictions) are real; unscoped duty is not performable by limited people.
-- **Answers Q4:** what deserves priority when obligations conflict — tiered, self-anchored reach.
+- **Definition:** Care and action are ranked. Strongest near the self and household, then outward: family, neighbors, community, polity, wider world. Scopes (roles, memberships, jurisdictions) are real; unscoped unlimited duty is not performable by limited people.
+- **Answers Q4:** how a man employs himself when goals and claims conflict — tiered, self-anchored reach under real differences of position.
 - **Not:** Hate of strangers. Not zero duty beyond the door. Not nation as the only real unit by metaphysics; the list is practical reach under limits.
 - **Chain:**
   1. Time, knowledge, and strength are finite.
@@ -161,11 +180,12 @@ B8 (particular person, not marble-self) deepens Q2/Q4 against lottery metaphysic
 - **Error:** “Love everyone equally in action” as moral theater while the near are neglected.
 
 ### B5. Procedural symmetry
-- **Definition:** Within an honest scope, the same rules and methods of judgment apply to each person in the same position. Justice is same process, not same outcome, and not equal return in kind (feud ledger).
+- **Definition:** Within a defined scope (membership, role, or jurisdiction), the same rules and methods of judgment apply to each person in the same position. Justice is same process, not same outcome, and not equal return in kind (feud ledger). **Never** “honest scope” as a frozen phrase [HOUSE A4].
 - **Answers Q5:** justice requires equal procedures within a scope — not equal outcomes for everyone, not equal value returned in kind.
+- **1100:** state procedural justice **positively**; short guiding-light refuse of end-state / return-in-kind only if needed for Q5; full fork exposition may live in later justice/method chapters so 1100 stays positive-first.
 - **Not:** Treating parent and child as identical roles. Not open borders as “symmetry” with no polity scope. Not outcome equity.
 - **Chain:**
-  1. Limited, self-interested people must cooperate.
+  1. Limited, particular, self-interested people must cooperate.
   2. Cooperation needs stable expectations.
   3. Stable expectations need same rules within a defined set of people and roles.
   4. Outcome equality requires unequal procedure and breeds a class that lives by equalizing.
@@ -173,18 +193,18 @@ B8 (particular person, not marble-self) deepens Q2/Q4 against lottery metaphysic
   6. Therefore procedural symmetry within scope.
 - **Domains:** law; truth-seeking (same critical standard for every model) [M5]; logic; conduct (reversal test); generations (what procedure you wish had been used toward you: life, formation, platform).
 - **Boundary (short):** Symmetry holds among those still inside shared life and truth-seeking. Armed enemy, systematic fraud against the process, unbound will replacing reciprocal citizenship: the form of the answer changes. Judgment required. (Detail procedure later if author expands; do not let this eat the positive book.)
-- **Error:** One-way rules for favored groups. “Mercy” that never names the wrong (that is permissiveness). One-way scrutiny in science and public argument: tests that kill rival models are waived for the preferred model [M5].
+- **Error:** One-way rules for favored groups. “Mercy” that never names the wrong (that is permissiveness). One-way scrutiny in science and public argument: tests that kill other models are waived for the preferred model [M5].
 
 ### B6. How the axioms lock (without branding a “frame”)
 - Truth without life as good becomes trivia or suicide notes.
-- Life as good without truth becomes wish and cargo-cult policy.
+- Life as good without truth becomes hope passed off as policy.
 - Tiers without procedure become clan favoritism and exemption.
 - Procedure without tiers becomes a universal claim no limited person can keep.
 - Writer may say “these axioms work together.” Writer need not say “the Frame.”
 
 ### B7. Human nature (working premise under the axioms)
 
-**Answers Q2:** Man is limited and self-interested by nature; not blank slate; not naturally good / perfectible / restorable by remaking the whole social or sacral-political order. Virtue is cultivated. Particularity [B8] is part of the same human premise (plant in the axioms chapter; full primer at E0), not a sixth question.
+**Answers Q2:** Man is **limited, particular, and self-interested** (HOUSE A6 / A4 order in 1100: limited → particular → self-interested). Not blank slate; not naturally good / perfectible / restorable by remaking the whole social or sacral-political order. Virtue is cultivated. Particularity [B8] is part of this premise, not a sixth question.
 
 **Author full sense (retain even when manuscript phrases Q2/B7 smaller):** locked concepts below are house meaning. Publish may use fewer words; agents must not drop the sense when expanding, teaching, or defending the premise.
 
