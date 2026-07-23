@@ -85,15 +85,13 @@ Unstick condition:
 
 ---
 
-## Soft author items (present for decision before/with B1–B2; do not block B1 spawn)
+## Soft author items
 
-See session: Q4 surface; justice forks placement; 1000 Q1/Q2 wording vs dict. Orchestrator presents each in context and records decisions here when human answers.
-
-| ID | Topic | Status |
-|----|--------|--------|
-| S1 | Q4 catechism surface string | open |
-| S2 | Justice three-fork: 1100 length vs later chapter | open (working: 1100 positive-first) |
-| S3 | 1000 Q1/Q2 lines vs dictionary house list | open (B2 implements after decision) |
+| ID | Topic | Status | Decision (2026-07-23) |
+|----|--------|--------|------------------------|
+| S1 | Q4 catechism surface | **locked** | **S1-D:** When a man cannot give himself fully to every claim at once, and the claims on him differ in urgency and nearness, what should govern how he spends himself? |
+| S2 | Justice three-fork in 1100 | **locked** | **S2-B:** positive procedure + short refuse (not end-states; not return in kind); full fork later |
+| S3 | 1000 Q1/Q2 | **locked** | **Q1:** keep current publish (objectively knowable…). **Q2:** edit to ask non-genericity without saying “particular” (interchangeable-unit limb); do not lead questions with house answers. B2 implements. |
 
 ---
 

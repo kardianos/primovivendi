@@ -156,9 +156,9 @@ Use the **smallest role** that fits the pass. One spawn = one role + one pass ID
 
 | Tool | Command (cwd `book1-6/`) | Who | When |
 |------|--------------------------|-----|------|
-| Concat (publish view) | `go run concat.go` → `book.md` | Orchestrator; Editor on E-flow-3 | After multi-chapter edits; before human prose review |
+| Concat (publish view) | `go run concat.go` → `book.md` | Orchestrator; Editor on E-flow-3 | After multi-chapter edits; optional skim |
 | Concat (old view) | `go run concat.go -old` → `book-old.md` | Rare; author compare | Not default repair |
-| Publish suite | `./publish.fish` | **Orchestrator** when requesting **human review** of readable output | At human gates that need PDF/EPUB/HTML (see §0.9); needs go, pandoc, texlive-xetex |
+| Publish suite | `./publish.fish` | **Orchestrator** | **Required before any human gate review request** (§0.9). Confirmed working in this tree. Needs go, pandoc, texlive-xetex. Log success in EXECUTION_LOG. |
 | Pangram tone | `go run pangram.go [files]` or `-all chapters/` | Orchestrator (F1) | After first-pass E; each F loop. Key: `.pangram_key` or `PANGRAM_API_KEY` |
 | Grep hygiene | `rg` blacklist, `honest scope`, bare world-wins | Orchestrator or Editor | C3, E-flow-3, post-pass checks |
 | Git | status/diff/add/commit under `book1-6/` only | Writer, Editor, Orchestrator (log/plan) | End of each pass (§0.5) |
@@ -269,30 +269,31 @@ Agents in every phase get this list in the packet. Thinning these undoes the aud
 
 ### Pass B1 — `1100_axioms.md` CRIT fixes only
 
-**Agent:** 1, single chapter, high attention.  
+**Agent:** Writer, single chapter, high attention.  
 **Files to edit:** `chapters/1100_axioms.md` only.  
 **Read (in order):**
 
-1. `writer_instructions.md` (W11 markup; skip deep W12)
-2. Phase A note (A1–A3, A7)
-3. `plan/dictionary_p1.md` B1–B8, Q5 map
-4. `sources/logic/logical_sequences_full_book.md` SEQ-3, SEQ-4
-5. `sources/philosophy/life_axiom_long_argument.md` §3.2 (if restoring dead-earth)
-6. Full `1100_axioms.md` including existing `%%` and `%+`/`%-`
+1. `writer_instructions.md` (W overview / W11; skip deep W12)
+2. `HOUSE_FORMULAS.md` (A1–A3, A6–A7; A4 man prose)
+3. `plan/dictionary_p1.md` B1–B8, Q5 map (post-B0 text)
+4. `sources/logic/logical_sequences_full_book.md` SEQ-3, SEQ-4 (justice refuse chain)
+5. Full `chapters/1100_axioms.md` (publish body is authority; `%%` = tickets, may be stale)
+
+**Do not read** for this pass: dead-earth long argument (A7: not in 1100); other chapters; earlier books.
 
 **Jobs (do these only):**
 
 | # | Job | Acceptance |
 |---|-----|------------|
-| B1.1 | **CRIT anthropology:** After positive human nature, one plain refuse: not blank slate; not naturally good / perfectible by remaking the whole order. Positive-first; no rival parade. | Sentence present; blank slate named |
-| B1.2 | **CRIT justice:** After positive procedural symmetry, one plain refuse: not equal end-states; not equal return in kind. No need for jargon names. | Q5 fully answered |
+| B1.1 | **Human premise (HOUSE A6 A4):** Implement limited → particular → self-interested (Variation A4 sense). Positive first. Then short refuse: not blank slate; not naturally good / perfectible by remaking the whole order. No rival parade; no twin studies. | A4-order plant; blank slate named in refuse |
+| B1.2 | **Justice:** Positive procedural symmetry (same procedure, same position / defined scope). Short guiding-light refuse only: not equal end-states; not equal return in kind. Do not expand full fork dossier in 1100. | Positive justice + short refuses |
 | B1.3 | **Opener:** Remove “beside chief antagonists” / “not sole or necessary conclusion” if still present; positive list of answers; other answers later | Matches A3 |
-| B1.4 | **Charge:** Mirror B1.1–B1.2 refuses in the charge list | Charge and body agree |
-| B1.5 | A7: **skip** dead-earth / empty-world in 1100 (author: assert only; reason later) | No dead-earth chain in 1100 |
-| B1.6 | A6: soften or `<!-- verify -->` twins claim | No unsourced hard empirics |
-| B1.7 | Light merge note: limited + particular as one human premise (cross-ref bold heads; no full rewrite) | B8 plant still clear |
+| B1.4 | **Charge:** Mirror body (incl. man order + justice refuses) | Charge and body agree |
+| B1.5 | A7: **no** dead-earth / empty-world ranking trial | Absent from 1100 |
+| B1.6 | A6: remove unsourced twin-study empirics | No twin studies / bare hard empirics |
+| B1.7 | One human premise (limited + particular + self-interested), not split rival bold heads that fight HOUSE | Single clear anthropology arc |
 
-**Explicit non-goals:** W12 polish; rewriting bridge/harvest/knife picture; renaming “honest scope” book-wide; editing other chapters.
+**Explicit non-goals:** W12 polish; rewriting bridge/harvest/knife picture; book-wide “honest scope” rename (C3); editing other chapters; dead-earth restore.
 
 **Arc check:** Open → each bold answer → lock together → charge still one rising sequence. Re-read full chapter once after edits.
 
@@ -302,21 +303,22 @@ Agents in every phase get this list in the packet. Thinning these undoes the aud
 
 ### Pass B2 — `1000_questions.md` plan/author seam
 
-**Agent:** 1.  
+**Agent:** Writer.  
 **Edit:** `1000_questions.md` only.  
-**Read:** Phase A (A5); dictionary Q1–Q8; full 1000; author `%%` already on file.
+**Read:** `HOUSE_FORMULAS.md` A5; `plan/dictionary_p1.md` Q1–Q8 (post-B0); full 1000; `%%` as tickets only.
 
 **Jobs:**
 
-1. Implement A5 (restore plan Q text **or** leave author text and confirm B0 updated dictionary).
-2. Keep Q2 three-way fork (blank slate / perfectible) intact.
+1. Align Q list to house dictionary **questions** (not axiom slogans): Q1 keep publish “objectively knowable…”; Q2 add interchangeable-unit limb (ask particularity without the word); Q4 spend-himself line (S1-D); Q8 charge already locked.
+2. Do not put “particular” or “real, knowable, and consequential” into the *questions*.
 3. Keep Q3 free of thrival smuggling.
-4. Keep non-confession charge (author ruling).
+4. Keep Q5 three-fork in the **question**; “within a scope” OK.
 5. Optional: one clause that policy fights fail while premises stay hidden (MED audit).
+6. Drop or supersede stale `%%` that demand “copy dictionary as written” or wish-language.
 
-**Non-goals:** Full W12 ornament; inventing new questions.
+**Non-goals:** Full W12 ornament; inventing new questions; editing 1100.
 
-**Exit:** Q list and charge stable; no plan/dictionary fight.
+**Exit:** Q list and charge stable; no fight with HOUSE/dict.
 
 ---
 
@@ -591,9 +593,9 @@ Default: unmarked publish text. Commit this pass. Exit report. STOP.
 | 0 | Read `EXECUTION_LOG.md`; act as **Orchestrator** only (§0.6). Update log every transition. |
 | 1 | Every child launch: role + pass ID + §7.0 lifecycle; **do not resume** Writer/Editor agents |
 | 2 | Phase A done → HOUSE_FORMULAS present (**G-A** passed) |
-| 3 | Pass B0 (Writer) → `book1-6:` commit → log |
-| 4 | Pass B1 (Writer) → commit → **hard stop G-B1** (human; optional `./publish.fish`) |
-| 5 | After G-B1: B2, B3, B4 → commits → **hard stop G-B** |
+| 3 | Pass B0 (Writer) → `book1-6:` commit → log — **done 2026-07-23** |
+| 4 | Pass B1 (Writer) → commit → run **`./publish.fish`** → **hard stop G-B1** |
+| 5 | After G-B1: B2, B3, B4 → commits → **`./publish.fish`** → **hard stop G-B** |
 | 6 | After G-B: C1–C4 → commits → **hard stop G-C** |
 | 7 | After G-C: D1, D2, D5, D6 (Editor) → commits |
 | 8 | D3, D4, D7 as needed → commits |
@@ -691,3 +693,4 @@ prefix "book1-6: ".
 | 2026-07-23 | W12 wording: Campbell (not Blair). Phase F: Pangram bulk tone check after E; recursive D8→E→check until satisfied. Tool: `pangram.go`, key `.pangram_key`. |
 | 2026-07-23 | §0.3.1 agent lifecycle (boot, poison list, exit, no resume); §0.4 default unmarked publish (avoid `%-` unless contested); §0.5 agents commit per pass; packets §7.0. |
 | 2026-07-23 | Phase 0 approved. Roles §0.6; tools §0.7; EXECUTION_LOG §0.8; human gates §0.9; F in phase table; git prefix `book1-6:`; publish.fish at review gates. |
+| 2026-07-23 | B0 done in log; B1 packet cleaned (no dead-earth read; A4 man; positive justice); publish.fish **required** before human review. |

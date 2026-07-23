@@ -60,22 +60,24 @@
 
 ### Q3. The five questions (house list for writers)
 
-**Do not** treat the list below as frozen paste-into-manuscript law. Prefer current `chapters/1000_questions.md` publish text when it is more recent; keep this list aligned with HOUSE. Catechism: short, memorable.
+**Rule:** Questions must be **general** and able to lead to the book’s answers. **Do not** load the house answer into the question wording (e.g. do not put “particular” or “real, knowable, and consequential” as if the question were already the axiom). Answers live in [B] / 1100.
 
-1. What is truth? Is reality real, knowable, and consequential? Can we know reality with usable confidence? Is knowledge mainly discovery that answers to the world, or only a product of power, will, or pure dialectic? What makes a claim true?  
-   *(All three of real / knowable / consequential are load-bearing. Not “independent of wish.” Edge is knowability of the real and that facts bind.)*
+**Catechism list (author 2026-07-23):** Prefer this for B2 `1000` unless publish is intentionally older mid-edit.
 
-2. What is a human being by nature? Are human beings limited, particular, and self-interested; blank slates waiting to be written; or naturally good, perfectible, and restorable by remaking the whole social (or sacral-political) order?  
-   *(House answer order in 1100: limited → particular → self-interested — HOUSE A6 / A4 prose. Fork stays available; positive limbs first.)*
+1. What is truth? Is reality objectively knowable? Can we know reality with usable confidence? Is knowledge mainly discovery that answers to the world, or only a product of power, will, or pure dialectic? What makes a claim true?  
+   *(Publish Q1 kept. The **answer** still asserts real + knowable + consequential in one breath [A1]; do not force all three into the question.)*
+
+2. What is a human being by nature? Are human beings limited and self-interested; blank slates waiting to be written; naturally good, perfectible, and restorable by remaking the whole social (or sacral-political) order; or interchangeable units for whom any station and any chain of birth would do the same moral work?  
+   *(Ask after non-genericity without using the word “particular” — that word is the **answer** [B7/B8 / HOUSE A6]. House answer order in 1100: limited → particular → self-interested.)*
 
 3. What is the standard of the good: what ought human life and society aim at?  
    *(Do not smuggle life/thriving into the question.)*
 
-4. When a man’s goals and claims on him conflict, how should he employ himself — what comes first?  
-   *(Surface still open for polish. Sense: ordered priority under limits and real differences of position (parent/child, teacher/student); self outward. Avoid dead jargon. Pair with Q5 in rhythm and understanding. Older “obligations” / “claims” are not mandatory nouns.)*
+4. When a man cannot give himself fully to every claim at once, and the claims on him differ in urgency and nearness, what should govern how he spends himself?  
+   *(Author S1-D: spend/use himself under differing optionality; what governs. Sense: ordered priority under limits and real differences of position; self outward. Pair with Q5.)*
 
 5. What does justice require: equal procedures within a scope, equal outcomes for everyone, or equal value returned in kind?  
-   *(“Within a scope” earns its place — defined membership/role/jurisdiction. Not “honest scope.” Three forks stay in the **question** and in longer justice treatment; **1100 stays positive-first** — short guiding-light refuse only if needed; full fork exposition may live in the next method/social file rather than stuffing 1100.)*
+   *(“Within a scope” OK. Three forks in the **question**. **1100:** positive procedure + short refuse only [S2-B]; full fork exposition later.)*
 
 ### Q4. Structure of the five
 - **Q1–Q2:** world and creature (descriptive premises).  
