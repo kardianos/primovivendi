@@ -42,10 +42,10 @@
 | 2026-07-23 | Phase A (A1–A8) | Author | House formulas locked: Q1 merge; world/room/judgment; positive-first; honest-scope remove (flag/revise); Q catechism; A6 anthropology A4 prose chosen (F4 alternate); A7 no dead-earth in 1100; A8 staged Campbell/meaning | `HOUSE_FORMULAS.md` |
 | 2026-07-23 | A6 publish prose | Author | Variation **A4** chosen for 1100 man premise; F4 kept as alternate in HOUSE | HOUSE_FORMULAS A6 |
 | 2026-07-23 | Dictionary B7–B8 sense | Author / assist | Full self-interest + particular concepts recorded in `plan/dictionary_p1.md` | (local; commit with plan batch) |
-| 2026-07-23 | Accept `%+` in 1000, 1100 | Assist | All `%+` accepted to unmarked; all `%-` dropped; `%%` and HTML comments kept | pending orchestrator commit |
-| 2026-07-23 | Pangram tooling | Assist | `pangram.go`, `.pangram_key.example`, skill `pangram-tone`, gitignore entries | pending |
-| 2026-07-23 | FIX_PLAN lifecycle | Assist | Agent lifecycle, unmarked default, commits, Campbell wording, Phase F | pending |
-| 2026-07-23 | FIX_PLAN ops layer | Assist | Roles, tools, human gates, execution log, `book1-6:` commit prefix, publish.fish at review | this file + FIX_PLAN |
+| 2026-07-23 | Accept `%+` in 1000, 1100 | Assist | All `%+` accepted to unmarked; all `%-` dropped; `%%` and HTML comments kept | `c108a3f` (batch) |
+| 2026-07-23 | Pangram tooling | Assist | `pangram.go`, `.pangram_key.example`, skill `pangram-tone`, `book1-6/.gitignore` | `c108a3f` |
+| 2026-07-23 | FIX_PLAN lifecycle + ops | Assist | Lifecycle; roles; tools; gates; F in phase table; `book1-6:` commits; publish.fish at review | `c108a3f` |
+| 2026-07-23 | EXECUTION_LOG.md started | Orchestrator setup | Resume state; queue starts at B0 | `c108a3f` |
 
 ---
 
