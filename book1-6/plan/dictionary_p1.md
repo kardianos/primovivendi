@@ -102,7 +102,8 @@ B8 (particular person) is part of the human premise with B7, not a sixth questio
 - Children as optional luxury or as main work of a people → answered the good.
 
 ### Q7. Writer guards
-- Do not shorten Q1 into only “what is truth?” — real, knowable, and consequential (and usable confidence / discovery vs power) are the edge.  
+- Do not shorten Q1 into only “what is truth?” — usable confidence and discovery vs power remain in the question; full real/knowable/consequential is the **answer**.  
+- Do not put house axiom slogans into the questions (no “particular” in Q2; no “real, knowable, and consequential” forced into Q1).  
 - Do not load Q3 with “surviving and thriving.” That is the *answer*.  
 - Do not brand this “the Frame’s five questions.” They are five questions; then five answers.  
 - Later packages [H8] and Part 2 dossiers are *other answers* to these same questions (state them there, not as a parade in 1100).  
