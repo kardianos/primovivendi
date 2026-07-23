@@ -30,7 +30,7 @@ go run pangram.go -all chapters/
 go run pangram.go -json build/pangram/scan.json -all chapters/
 ```
 
-Publish text only: tool drops `%%`, keeps `%+` bodies, drops `%-`, strips HTML comments (same spirit as `concat.go` new mode).
+Plain prose only: tool drops `%%` and `%-`, keeps `%+` bodies (and unmarked lines), strips HTML comments, YAML front matter, and markdown chrome (headings, bold, links, list markers) so Pangram scores wording, not markup.
 
 ## Agent rules
 
