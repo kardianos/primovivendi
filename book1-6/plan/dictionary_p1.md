@@ -126,10 +126,12 @@ B8 (particular person, not marble-self) deepens Q2/Q4 against lottery metaphysic
   2. We need shared knowledge to cooperate (plant, build, heal, defend).
   3. Shared knowledge requires a shared test: does the claim track the world?
   4. Correspondence is that test.
-- **Entailment:** Models are provisional; the world is the judge. When model and world disagree, prefer the world.
+- **Entailment:** Models are provisional; the world is the judge. When model and world disagree on a matter the world can decide, prefer the world.
+- **Plant (one clause only in axioms opening; full method at M2b):** A claim offered for shared use should be stateable with enough precision that reality can try it; do not rewrite the claim after the outcome in order to collect a win. Full treatment of specificity, reasons fixed at the time, and credit: [M2b]. Daily form: [D1].
 - **Error:** Equal scrutiny for favored and disfavored claims abandoned; fashion exempts itself.
-- **Error:** “X predicts Y, therefore X is a valid full account of reality.” Prediction can hold while the story is wrong or incomplete [M].
-- **Church / state of knowledge:** Stated briefly in opening; full method section after axioms [M1, H9]. If testable in reality, test in reality. If not, this book does not settle it.
+- **Error:** “X predicts Y, therefore X is a valid full account of reality.” Prediction can hold while the story is wrong or incomplete [M2, M3].
+- **Error (preview of M2b):** Treating a lucky hit under bad grounds, or a vague claim that almost any outcome can “confirm,” as proof of insight or as a right to future trust.
+- **Church / state of knowledge:** Stated briefly in opening; full method section after axioms [M1, H9]. If testable in reality, test it in reality. If not, this book does not settle it.
 
 ### B3. Life is good
 - **Definition (axiom of goodness):** Human life should continue and continue well. Survival plus thriving. Affirmed, not deduced from pure description alone.
@@ -214,6 +216,31 @@ B8 (particular person, not marble-self) deepens Q2/Q4 against lottery metaphysic
   4. Therefore: keep what works as practice when needed; keep testing the story; prefer models that succeed more widely and fail more honestly when pushed.
 - **Survival link:** Practices can save lives while explanations are garbled (crop rotation “because spirits”). Grade practice and theory separately when they come apart [ties C, D1].
 - **Error:** Treating predictive success as proof that no further scrutiny is allowed—especially when the model is politically or sacral-favored.
+- **Next beat:** Even when a prediction hits, grade the **claim as made** [M2b], not a rewritten wider story.
+
+### M2b. Claim as made: specificity, reasons fixed at the time, credit
+**Arc job:** Join correspondence (B2) to procedural symmetry in inquiry (B5, M5). The world grades whether what was said matches what is. Procedure grades whether the claimant may rewrite the claim after the fact, or collect trust for a hit under grounds that did not earn it.
+
+- **Three grades (keep distinct):**
+  1. **Correspondence:** Did the proposition match the world? (B2)
+  2. **Claim as made:** What was actually asserted, at what precision, on what reasons, when it was advanced?
+  3. **Credit / future trust:** May this speaker’s process be trusted next time? Only if the hit was earned under a claim that could have failed, with grounds available at the time—not by luck under bad reasons, and not by stretching a vague assertion after the outcome.
+- **Reasonableness fixed at the time:** Whether it was reasonable to hold a claim is fixed by the evidence and reasoning available when the claim was made. Later events that make the claim look lucky do not repair bad grounds. A person may still have been wrong in **how** the belief was formed, even if the world later matches a lucky guess. [ties B7 limits; humility without “nothing is knowable”]
+- **Specificity:** A claim so broad that almost any later development can be sold as confirmation earns little confirmation. A claim pinned enough that it could have failed, and that then matches the world, earns credit for the process that produced it. Confirmability tracks how far the claim could have been falsified. (Writer picture stock: “some wind tomorrow” vs a named place, hour, and measure.)
+- **Victory-lap error:** Keeping the assertion vague on purpose, then taking a public win when any unexpected complexity appears, and demanding future trust for a “prediction” that was never pinned. Sibling move in Part 2: hermetic credit without blame [P2.B1, `outline_p2` / dictionary_p2].
+- **Not:**
+  - Denial that secret coordination, fraud, or cover-ups occur (they do; name a specific claim and try it).
+  - A ban on revising models under new evidence (revision is honest when the old claim is admitted, the new claim is stated, and both are open to trial).
+  - A demand that every ordinary speech act be a lab protocol (public and load-bearing claims that ask for shared belief and future trust).
+- **Chain:**
+  1. Truth is correspondence to reality (B2).
+  2. Shared work needs shared claims that can be checked (B1–B2, M1).
+  3. Checking requires knowing **what** was claimed (precision enough to fail).
+  4. Trusting a map-maker next time requires grading **how** the map was made at the time, not only a later lucky hit.
+  5. Same procedure must award credit and assign failure (B5, M5); rewriting the claim after the outcome is one-way credit.
+  6. Therefore: state the claim; pin it; grade grounds at the time; award trust only when a hit was earned under a claim that could have failed.
+- **Refs:** B2 (plant); B5 / M5 (same standard); M2 (useful hit ≠ full ontology); D1 (daily: check the claim you made); P2.B1 (hermetic / vague victory lap); H10 (short-run “works” can hide wrong stories).
+- **Writer:** Full treatment in manuscript section M after M2, before M3. No Twitter names, no culture-war exempla. No coinage required; plain prose. Optional painted picture: wind / weather measure.
 
 ### M3. Wrong vs incomplete
 - **Wrong:**
@@ -245,23 +272,25 @@ B8 (particular person, not marble-self) deepens Q2/Q4 against lottery metaphysic
 
 ### M5. Tie to procedural symmetry and truth
 - **Same critical standard:** The tests that kill a disfavored model must also be run on the favored one (B5 in truth-seeking).
-- **No one-way valve:** “Our model predicts something, so the ontology is closed” is hermetic if failures cannot count [absences: hermetic argument].
+- **No one-way valve:** “Our model predicts something, so the ontology is closed” is hermetic if failures cannot count [Part 2 P2.B1 hermetic argument].
+- **Same rule for credit and failure:** A hit under a pinned claim earns trust; a miss under that claim costs it; rewriting the claim after the outcome is one-way credit [M2b].
 - **Correspondence over prestige:** Kepler wins on data, not on court fashion; Newton wins on unified success, not on epicycles’ pedigree.
 - **Humility without relativism:** All models we hold may be incomplete (M3). That does not make all models equal. Wrong still fails; better correspondence still ranks higher.
-- **Public method:** In policy and morals that claim empirical effects (“this will reduce harm,” “this will raise thrival”), demand the same honesty: short-run “works” can hide wrong stories and postponed costs [H10].
+- **Public method:** In policy and morals that claim empirical effects (“this will reduce harm,” “this will help people continue and continue well”), demand the same honesty: short-run “works” can hide wrong stories and postponed costs [H10].
 
 ### M6. Charge of this section
 - Section off the divine and the non-testable.
 - For what can be tested: prefer the world to the preferred story.
 - Do not confuse useful prediction with full validity of the model.
+- Grade the claim as made: specificity enough to fail; reasons fixed at the time; no victory lap on vagueness [M2b].
 - Distinguish wrong from incomplete; keep progressive tools; discard what reality refuses.
 - Apply the same procedure of scrutiny to every model, including your own.
-- Then live: survival and thrival need true-enough maps and honest correction [C onward].
+- Then live: survival and continuing well need true-enough maps and honest correction [C onward].
 
 ### M7. Writer placement and length
 - **Place:** Immediately after opening axioms (B), before survival/thriving bulk (C).
-- **Length:** Own arc section—long enough for both examples and the wrong/incomplete distinction; shorter than the virtues bulk.
-- **Callback later:** D1 (align with truth), E11 (experiment), H9–H10 (divine split; long-horizon effects of practices that “worked” short-term).
+- **Length:** Own arc section—long enough for both examples, wrong/incomplete, and M2b (claim as made); shorter than the virtues bulk.
+- **Callback later:** D1 (align with truth: check the claim you made); E11 (experiment); H9–H10 (divine split; long-horizon effects of practices that “worked” short-term); Part 2 P2.B1 (hermetic / vague credit).
 
 ---
 
@@ -303,6 +332,7 @@ B8 (particular person, not marble-self) deepens Q2/Q4 against lottery metaphysic
 - **Act:** Prefer the world to the preferred story. Check claims. Update when wrong.
 - **Why:** Wrong maps kill harvests, patients, and polities.
 - **Daily:** Numbers that add up; news checked; self-assessment that hurts if true.
+- **Callback from M2b (required short):** Grade the claim you actually made, at the precision you offered, on the reasons you then had. Do not claim a victory for a vague hunch when a later fact is only a cousin of what you said. Admit error on the claim as stated; do not rewrite the claim after the check so that you always “win.”
 - **Social twin:** Institutions that reward discovery and punish fraud, not loyalty tests as truth.
 
 ### D2. Align with survival

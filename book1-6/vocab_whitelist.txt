@@ -25,6 +25,8 @@ platform: what took generations to build and can be consumed in far less time
 formation: teaching and training that produce capability; never neutral (E6)
 wrong: systematically fails across places and trials; no progressive domain (M3)
 incomplete: succeeds inside a domain; successor keeps limit-case successes (M3)
+claim as made: the proposition actually advanced, at the precision and on the reasons then offered; grade this, not a story rewritten after the outcome (M2b)
+reasons fixed at the time: whether it was reasonable to hold a claim is fixed by evidence and reasoning available when the claim was made; later luck does not repair bad grounds (M2b)
 enemy: defined by acts and programs against your people or shared process (E9)
 opponent: shares enough process to be answered inside law and argument (E9)
 mercy: chosen forbearance of full just consequence, after judgment (D9)
