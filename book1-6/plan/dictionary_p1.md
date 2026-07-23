@@ -26,7 +26,7 @@
 - Not a defense of democracy, republic, monarchy, party, or constitution as ultimate ends.
 - Not a steelman tournament with every rival school.
 - Not an inverted-five mirror of equal length.
-- Government forms are tools. They are graded by whether they help limited people live and continue well under truth and fair procedure within honest scopes.
+- Government forms are tools. They are graded by whether they help limited people live and continue well under truth and fair procedure (same rules for persons in the same position within a defined scope).
 
 ### A3. Method of argument
 1. State the axiom or claim in one sentence.
@@ -219,9 +219,10 @@ B8 (particular person) is part of the human premise with B7, not a sixth questio
 - **Not a creed of pure egoism:** the claim does not command indifference to everyone beyond the door, pure self-love as duty, or “maximize only yourself.”
 - **Incomplete for social thrival:** taken alone, self-interest is not yet a full social life. A sealed self will not by itself produce thriving among others (household, formation, trust, common procedure). Insufficiency is not vice. Principles of particularity [B8], priority [B4], and justice [B5] complete the design.
 - **Bridge limb (rhetoric / arc):**
-  - Limits (and the limited knower) sit in knowable reality and help move **from principle 1 (reality/truth) into principle 2 (man)**.
-  - Self-interest, stated as own survival and well-being, bridges **from principle 2 into principle 3 (particular)**: “own” is never the interest of a generic unit; it is *this* person’s survival and well-being, already almost social (met through people, language, skill, and protection he did not invent alone).
-- **Preferred axiom order in 1100 (M4, author):** **limited → particular → self-interested last**, so self-interest closes anthropology and opens into particularity’s full weight and then into priority (self outward). Alternate manuscript order may state the three in one breath; retain this transition logic when drafting.
+  - Limits (and the limited knower) sit in knowable reality and help move **from principle 1 (reality/truth) into man**.
+  - Particularity situates *who* has the life and care.
+  - Self-interest (own survival, well-being, and life continuing in what is his) **closes** the human premise and opens into priority / how a man employs himself (B4): the care is good, incomplete alone for common life, and always someone’s in particular.
+- **Preferred axiom order in 1100 (HOUSE A6 A4 prose):** **limited → particular → self-interested last**. Publish target: HOUSE Variation A4.
 - **Older phrase “descriptive sense”:** still usable as a short fence against normative egoism, but the **full house meaning** is the positive formula above (survival and well-being; good; incomplete for social thrival; bridge to particular), not a thin “merely descriptive” shrug.
 
 #### B7.3 Not blank slate; not naturally good
@@ -505,7 +506,7 @@ Use the book’s own terms:
 - **Human life should continue and continue well** / survive and thrive (not bare “life continues”).
 - **Humans are limited, self-interested, and not naturally good**; virtue is cultivated.
 - **Priority is tiered and self-anchored.**
-- **Justice is procedural symmetry within honest scopes.**
+- **Justice is procedural symmetry within a defined scope** (same rules for persons in the same position).
 
 #### ¶1 — Positive core (writer target; keep strength and clarity)
 Open hard: **There is no generic person.** There is you. You are tied to your family, to their lineage, and to your situation—body, place, language, debts, and the people who actually fed and formed you. That is not a costume over a blank token. That *is* the person who must survive and thrive. Human life should continue and continue well; the chain that produced you is how that happens in fact. Gratitude for what your line and household handed you is not theft. Duty is thickest to those people and that situation first. Preferring your children is not a bug. Handing on life, skill, and honest premises is how any free productive order outlasts one generation. Social rules exist so limited people bound this way can keep thrival going together without requiring angels.
@@ -822,7 +823,7 @@ Do not open the ending with alliance theory. Alliance is downstream of named pre
 - Life and thriving across this generation and the next.
 - Personal virtues: truth, responsibility (create and maintain), ownership, excellence, beauty, children or raising-up, strength, judgment, humility, scoped love; allow failure without courting it.
 - Social virtues: law as same process, honest speech, family, formation, borders that work, defense, merit under honest procedure; bridges for shock not lifestyle engines; plural spaces under a shared testable floor.
-- True justice: procedural symmetry in honest scopes.
+- True justice: procedural symmetry within a defined scope (same rules for persons in the same position).
 - Clear sight: enemies by acts and programs; external packages named; testable claims tested; divine words not fake-settled by this book; long-horizon effects watched.
 - **Final stress:** Weight of the book is how to live and build. End on construction: clean the floor, keep the skill, raise the child, tell the truth, hold the line, make something worth handing on.
 
