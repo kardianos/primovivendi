@@ -188,15 +188,15 @@ Orchestrator **stops** and sets `EXECUTION_LOG.md` to **waiting on human**. No n
 | Gate ID | After | Human reviews | Unstick when human says | Build for review |
 |---------|--------|---------------|-------------------------|------------------|
 | **G-A** | Phase A | HOUSE_FORMULAS complete | *Phase A accepted* (already true 2026-07-23) | — |
-| **G-B1** | Pass B1 (`1100` CRITs) | Diff + refuses + charge; positive-first | *B1 accepted* or list rework → new B1 agent | Optional `go run concat.go`; `./publish.fish` if human wants full book render |
-| **G-B** | B2+B3+B4 complete | 1000/1100 still coherent; protect scan green | *Phase B accepted* | `go run concat.go`; prefer `./publish.fish` for reading |
-| **G-C** | C1–C4 complete | Floors, world-as-judge, no `honest scope` in publish | *Phase C accepted* | `go run concat.go` |
-| **G-D8-cal** | First D8 on `1000` and `1100` | Voice calibration before bulk D8 | *1000/1100 W12 accepted* | `./publish.fish` recommended |
-| **G-E** | First full E-flow (1–3) | Arcs and spine | *Phase E accepted* (enter F) | `./publish.fish` recommended |
-| **G-F** | Each F loop after F1 (or author-chosen cadence) | Pangram flags vs acceptable formality | *F round N accepted* or *F done / ship tone* | `go run pangram.go …`; `./publish.fish` if reading whole book |
-| **G-ship** | Cleanup / ready to call repair done | Author sign-off | *Repair complete* | `./publish.fish` |
+| **G-B1** | Pass B1 (`1100` CRITs) | Diff + refuses + charge; positive-first | *B1 accepted* or list rework → new B1 agent | **Required:** `./publish.fish` before asking human to review (works in this tree today). Also `go run concat.go` if useful for markdown skim. |
+| **G-B** | B2+B3+B4 complete | 1000/1100 still coherent; protect scan green | *Phase B accepted* | **Required:** `./publish.fish` |
+| **G-C** | C1–C4 complete | Floors, world-as-judge, no `honest scope` in publish | *Phase C accepted* | **Required:** `./publish.fish` |
+| **G-D8-cal** | First D8 on `1000` and `1100` | Voice calibration before bulk D8 | *1000/1100 W12 accepted* | **Required:** `./publish.fish` |
+| **G-E** | First full E-flow (1–3) | Arcs and spine | *Phase E accepted* (enter F) | **Required:** `./publish.fish` |
+| **G-F** | Each F loop after F1 (or author-chosen cadence) | Pangram flags vs acceptable formality | *F round N accepted* or *F done / ship tone* | `go run pangram.go …`; **Required:** `./publish.fish` when human reads book form |
+| **G-ship** | Cleanup / ready to call repair done | Author sign-off | *Repair complete* | **Required:** `./publish.fish` |
 
-**Hard rule:** Orchestrator never marks a gate passed without a human line in the log (date + short decision text).
+**Hard rules:** Orchestrator never marks a gate passed without a human line in the log (date + short decision text). Orchestrator **never requests human prose review without having run `./publish.fish` successfully** for that gate (log the command and exit status). Ignore monorepo paths outside `book1-6/`.
 
 ---
 

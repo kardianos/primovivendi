@@ -13,7 +13,7 @@
 | **Waiting on** | — (nothing blocked) |
 | **Active pass** | — |
 | **Active role** | — |
-| **Next action** | Orchestrator spawns **Writer** for pass **B0** (dictionary / plan alignment to HOUSE_FORMULAS A1–A5). Packet: FIX_PLAN §7.0 + §7.1 + Pass B0 jobs. |
+| **Next action** | Orchestrator spawns **Writer** for pass **B1** (`chapters/1100_axioms.md` only). Packet: FIX_PLAN §7.0 + §7.1 + Pass B1 jobs. HOUSE_FORMULAS A1–A3, A6–A7. After exit + commit → **hard stop G-B1** (run `./publish.fish` before asking human to review). |
 | **F loop round** | 0 (not started) |
 | **Last updated** | 2026-07-23 |
 
@@ -24,13 +24,13 @@
 | Gate | Status | Decision / notes |
 |------|--------|------------------|
 | **G-A** Phase A / HOUSE_FORMULAS | **passed** | 2026-07-23 — Phase 0 approved; A1–A8 locked in `HOUSE_FORMULAS.md` |
-| **G-B1** after B1 `1100` | pending | Hard stop; human review before B2+ |
-| **G-B** after B2–B4 | pending | |
-| **G-C** after C1–C4 | pending | |
-| **G-D8-cal** after D8 on 1000+1100 | pending | `./publish.fish` recommended |
-| **G-E** after first full E | pending | Enter Phase F after accept |
-| **G-F** F-loop tone | pending | Each round or as author sets |
-| **G-ship** repair complete | pending | |
+| **G-B1** after B1 `1100` | pending | Hard stop; **must** `./publish.fish` before human review request |
+| **G-B** after B2–B4 | pending | **must** `./publish.fish` before human review |
+| **G-C** after C1–C4 | pending | **must** `./publish.fish` before human review |
+| **G-D8-cal** after D8 on 1000+1100 | pending | **must** `./publish.fish` |
+| **G-E** after first full E | pending | **must** `./publish.fish` |
+| **G-F** F-loop tone | pending | Pangram + **must** `./publish.fish` if human reads full book |
+| **G-ship** repair complete | pending | **must** `./publish.fish` |
 
 ---
 
@@ -38,14 +38,15 @@
 
 | When | Pass / item | Role | Result | Commit |
 |------|-------------|------|--------|--------|
-| 2026-07-23 | Phase 0 strategy | Author | Content-first order approved; later extended with Phase F (Pangram + D8→E→F1 loop) | — |
-| 2026-07-23 | Phase A (A1–A8) | Author | House formulas locked: Q1 merge; world/room/judgment; positive-first; honest-scope remove (flag/revise); Q catechism; A6 anthropology A4 prose chosen (F4 alternate); A7 no dead-earth in 1100; A8 staged Campbell/meaning | `HOUSE_FORMULAS.md` |
-| 2026-07-23 | A6 publish prose | Author | Variation **A4** chosen for 1100 man premise; F4 kept as alternate in HOUSE | HOUSE_FORMULAS A6 |
-| 2026-07-23 | Dictionary B7–B8 sense | Author / assist | Full self-interest + particular concepts recorded in `plan/dictionary_p1.md` | (local; commit with plan batch) |
-| 2026-07-23 | Accept `%+` in 1000, 1100 | Assist | All `%+` accepted to unmarked; all `%-` dropped; `%%` and HTML comments kept | `c108a3f` (batch) |
-| 2026-07-23 | Pangram tooling | Assist | `pangram.go`, `.pangram_key.example`, skill `pangram-tone`, `book1-6/.gitignore` | `c108a3f` |
-| 2026-07-23 | FIX_PLAN lifecycle + ops | Assist | Lifecycle; roles; tools; gates; F in phase table; `book1-6:` commits; publish.fish at review | `c108a3f` |
-| 2026-07-23 | EXECUTION_LOG.md started | Orchestrator setup | Resume state; queue starts at B0 | `c108a3f` |
+| 2026-07-23 | Phase 0 strategy | Author | Content-first order approved; Phase F (Pangram + D8→E→F1) in plan | — |
+| 2026-07-23 | Phase A (A1–A8) | Author | HOUSE_FORMULAS locked | `HOUSE_FORMULAS.md` |
+| 2026-07-23 | A6 publish prose | Author | Variation **A4** for 1100 man premise; F4 alternate | HOUSE A6 |
+| 2026-07-23 | Accept `%+` in 1000, 1100 | Assist | Unmarked publish; `%-` dropped; `%%` kept | `c108a3f` |
+| 2026-07-23 | Pangram tooling | Assist | `pangram.go` (plain-prose strip), skill, key path | `c108a3f`, `9e535a7` |
+| 2026-07-23 | FIX_PLAN ops | Assist | Lifecycle, roles, gates, tools, `book1-6:` commits | `c108a3f` |
+| 2026-07-23 | **B0** dictionary / plan alignment | Assist (B0 jobs) | Q/B seams aligned to HOUSE; no copy-as-written; no wish / honest-scope / confession poison; Q8 charge locked; Q1 three clauses; B7 order | `a3a7172`, `f0a5b13`, `9e535a7` |
+| 2026-07-23 | Q8 charge open | Author | “Then write down what you believe…” in 1000 + dict | `9e535a7` |
+| 2026-07-23 | Pangram verify | Assist | Key + credits OK; strip works; 1000 scored Human | — |
 
 ---
 
@@ -53,18 +54,18 @@
 
 | Order | Pass ID | Role | Notes |
 |-------|---------|------|--------|
-| 1 | **B0** | Writer | Dictionary alignment to HOUSE; no chapter prose |
-| 2 | **B1** | Writer | `1100` CRITs only → then **G-B1** |
-| 3 | B2 | Writer | `1000` after G-B1 |
-| 4 | B3 | Writer | Empirical / twins soften |
-| 5 | B4 | Editor (read-only) | Protect-list scan |
-| 6 | — | Human | **G-B** |
-| 7 | C1–C4 | Writer / Editor | Then **G-C** |
-| 8 | D1–D7 | Editor | Mechanical / judgment |
-| 9 | D8-1000, D8-1100 | Editor | Then **G-D8-cal** + `./publish.fish` |
-| 10 | D8 rest | Editor | One chapter per agent |
-| 11 | E-flow-1…3 | Editor | Then **G-E** |
-| 12 | F1 / F2… | Orchestrator + Editor | Pangram; loop until **G-F** / ship |
+| ~~1~~ | ~~B0~~ | — | **done** |
+| 1 | **B1** | Writer | `1100` CRITs only → then **G-B1** + `./publish.fish` |
+| 2 | B2 | Writer | `1000` after G-B1 (align Q list to dict; Q4 if decided) |
+| 3 | B3 | Writer | Twins soften / verify |
+| 4 | B4 | Editor (read-only) | Protect-list scan |
+| 5 | — | Human | **G-B** + `./publish.fish` |
+| 6 | C1–C4 | Writer / Editor | Then **G-C** + publish |
+| 7 | D1–D7 | Editor | Mechanical / judgment |
+| 8 | D8-1000, D8-1100 | Editor | Then **G-D8-cal** + publish |
+| 9 | D8 rest | Editor | One chapter per agent |
+| 10 | E-flow-1…3 | Editor | Then **G-E** + publish |
+| 11 | F1 / F2… | Orchestrator + Editor | Pangram; loop until **G-F** / ship |
 
 ---
 
@@ -78,14 +79,27 @@ When blocked, write here:
 Waiting on: human | agent
 Gate or pass:
 What to review:
-Commands already run:
+Commands already run (include ./publish.fish when gate needs human read):
 Unstick condition:
 ```
 
 ---
 
+## Soft author items (present for decision before/with B1–B2; do not block B1 spawn)
+
+See session: Q4 surface; justice forks placement; 1000 Q1/Q2 wording vs dict. Orchestrator presents each in context and records decisions here when human answers.
+
+| ID | Topic | Status |
+|----|--------|--------|
+| S1 | Q4 catechism surface string | open |
+| S2 | Justice three-fork: 1100 length vs later chapter | open (working: 1100 positive-first) |
+| S3 | 1000 Q1/Q2 lines vs dictionary house list | open (B2 implements after decision) |
+
+---
+
 ## Orchestrator notes
 
-- Working tree may still have uncommitted book1-6 plan/tooling/chapter accepts — first orchestrator act after B0 spawn prep: commit tooling+plan batch as `book1-6: …` if appropriate, without staging other books.
-- Do not open B1 until B0 exit report is in and committed.
-- After B1: set Status = waiting on human, Gate G-B1; offer `./publish.fish` if human will read full render.
+- **Do not re-run B0** unless human orders rework.  
+- After B1: Status = waiting on human, Gate G-B1; run **`./publish.fish`** before requesting review.  
+- Commits: `book1-6/` only; message prefix `book1-6: `.  
+- Ignore monorepo dirt outside `book1-6/`.  
