@@ -121,28 +121,40 @@
 
 ---
 
-## A6 — Human particularity / “twins” (assert premise, not studies)
+## A6 — Human premise in 1100 (assert; M4 order; full sense in dictionary)
 
-**Locked:** Reserve empirical fashion. The book **offers a standard for examination**; it does not perform the examination of every fact of the age. Claim reality only where the axioms require it. **Do not lean on twin studies or other contemporary study language** in the axioms block.
+**Locked:** Reserve empirical fashion. The book **offers a standard for examination**; it does not perform the examination of every fact of the age. **Do not lean on twin studies or other contemporary study language** in the axioms block.
 
-**House sense — nature of man (working fourfold):**
+**Canonical full sense:** `plan/dictionary_p1.md` §B7–B8 (especially B7.2 self-interest and B8 particular). Manuscript may phrase smaller; agents must not lose that full sense.
 
-1. **Limited** — necessary.
-2. **Self-interested** (descriptive: survival and near kin) — necessary.
-3. **Varied in ability** — increasingly required by the rest of the work; will draw anger, contempt, or willful misunderstanding; still assert as premise, not as lab report.
-4. **Product of lineage** — same: particular, not a generic token; inheritance of the body and the line is meaningful; assert without study citation.
+**1100 anthropology (M4):** three positive limbs in order **limited → particular → self-interested** (self-interested last as bridge into near care and later priority). No “token”; no ordered-priority lecture inside this block (priority may look back later); no studies; no dead-earth.
 
-The first pair many will accept with minor contention. The last pair is harder and more contested; author judges them increasingly necessary. For this lock: **all four may stand as axioms of the creature**, stated as method/premise, not as results of named studies of this age.
+1. **Limited** — finite in time, energy, knowledge, reach; finite in what he can be made into (social force does not turn him into another kind of creature while he means to live).
+2. **Particular** — this person, of a family and a chain that formed him, in a situation that is his. (Lineage/ability as full specs → E0+; not 1100 co-heads.)
+3. **Self-interested** — cares for own life and well-being, and for life continuing in those who are his and in what he hands on (not first mankind as a faceless crowd); that care is **good**; alone **incomplete** for life among many under shared rules; not a creed of pure egoism.
+
+### Publish choice: Variation A4 (use this)
+
+**Status:** Author-chosen publish target for the 1100 human-premise paragraph (B1). Prefer this wording unless the author revises it.
+
+> **Man is limited, particular, and self-interested.**  
+> He is limited, finite in time, energy, knowledge, and reach, and finite in what he can be made into. No social force turns him into another kind of creature while he remains a man who means to live. He is particular, this person, of a family and a chain that formed him, in a situation that is his. He is self-interested, caring for his own life and well-being, and for life continuing in those who are his and in what he hands on, not first for mankind as a crowd without faces or households. That care is good. Alone it is not yet life among many under shared rules; it remains the real motive of a living man, and it only ever runs through someone in particular.
+
+### Alternate: Variation F4 (context / fallback)
+
+**Status:** Author-approved alternate. Keep for context and use only if A4 needs a denser neighbor wording or a fallback during revision. Do not prefer F4 over A4 by default.
+
+> **Man is limited, particular, and self-interested.**  
+> He is limited in time, energy, knowledge, and reach, and limited in what he can become. Social force does not make him a different creature; so long as he means to survive, his drive to live does not yield to total remaking as if his nature were empty matter. He is particular: this person, of a family and a chain that formed him, in a situation that is his. He is self-interested: he cares for his own life and well-being, and for that life continuing in those who are his and in what he hands on, not first for the species as a faceless whole. That care is good. Alone it is incomplete for life among many under shared rules. It is still what moves him, and it is always the care of someone in particular.
 
 **Writer rules:**
 
-- Soften or cut “studies of twins reared apart… resembling stations.”
-- Keep particularity: no generic person; bound to family, lineage, situation; people differ; ability is not uniform; the body and the line matter.
-- Close the verify tag by **removing unsourced study claims**, not by inventing sources.
-- Positive-first (A3): state what man is; short refuse of blank slate / perfectibility as guiding light where required — not a genetics dossier.
-- Matches A5 charge spirit: standard for the reader’s examination, not a substitute for it.
+- Soften or cut “studies of twins reared apart… resembling stations”; close verify by removing unsourced study claims.
+- Positive-first (A3); short guiding-light refuse (blank slate / factory goodness) where Q2 requires; no rival parade; no dog-whistle slogan pair on ability+lineage in 1100.
+- Implement **A4** in `1100` unless author directs otherwise; align charge list to limited, particular, and self-interested (that order).
+- Matches A5 charge: standard for examination, not substitute for it.
 
-**Downstream:** B1.6, B3 empirical hygiene; anthropology paragraph and charge in `1100`.
+**Downstream:** B1 anthropology + charge; E0 full particularity; dictionary B7–B8 is authority on full conceptual sense.
 
 ---
 
@@ -200,3 +212,5 @@ All of A1–A8 are locked in this file. Orchestrator may launch Phase B (B0 dict
 | Date | Note |
 |------|------|
 | 2026-07-22 | Phase A complete. A1–A8 locked. A8: staged content then W12; meaning per word first; pictures must earn place; Campbell for clarity, not pastiche. |
+| 2026-07-23 | A6 refined: M4 order (limited → particular → self-interested last); self-interest = own survival/well-being (good, incomplete for social thrival, bridge to particular). Full sense in `plan/dictionary_p1.md` B7–B8. |
+| 2026-07-23 | A6 publish prose: **Variation A4** chosen; **F4** recorded as alternate/fallback. |
