@@ -1,7 +1,7 @@
 # Writer instructions (book1-6)
 
 **Scope:** Manuscript prose (chapters/). Plan files, dictionaries, and notes are writer-facing and exempt.
-**Input quarantine:** Writers read only this file, `vocab_whitelist.txt`, `vocab_blacklist.txt`, `plan/`, and `sources/`. Earlier books in this repository (`book/`, `book1-1/`, `book1-4/`, `book1-5/`, `outline/`, `release/`) are not phrasing sources. Do not read them for voice, structure, or pictures. Content comes from the plan and the sources; every sentence is new.
+**Input quarantine:** Writers read only this file, `vocab_whitelist.txt`, `vocab_blacklist.txt`, `plan/`, `sources/`, `HOUSE_FORMULAS.md` when present (author-locked claim formulas), and (for style only) `style/campbell_agent_rules.md`. Earlier books in this repository (`book/`, `book1-1/`, `book1-4/`, `book1-5/`, `outline/`, `release/`) are not phrasing sources. Do not read them for voice, structure, or pictures. Content comes from the plan, the sources, and house formulas; every sentence is new. Style comes from W12 and `style/campbell_agent_rules.md`.
 **Phases:** Writing and editing are separate. Rules marked "editing" run as passes after drafting, one rule per pass. Do not interrupt drafting flow to satisfy them.
 **Applies to:** Human writers and LLM writers alike. LLM writers: these rules are restated in the prompt for every session; compliance is checked by the editing passes, not assumed.
 
@@ -25,6 +25,17 @@ A picture is not decoration. If you use one, stop and paint it fully:
 - **Vitality:** concrete life (frost, weight, the mason's hands), not a dead label.
 
 Every picture does all three. If you will not paint it, state the claim directly instead.
+
+**After the picture is set, finish in direct speech.** One picture per claim-chain is enough. Once the picture has done its causal work, state the remaining steps in words that mean those steps. Do not:
+
+- **Restack figures** for the same relation (a second metaphor for what the first already showed).
+- **Inventory exemplars** where a single class-term carries the logic (a list of instances that adds no new step).
+- **Pile near-synonyms** for one social or logical role (three names for one pressure, three labels for one test).
+
+Abstract form: *establish one picture → name the next logical step directly → use one term per role → end with the discrimination the paragraph exists to make.*  
+If a draft line only multiplies images or examples without advancing the chain, cut it to the class or the claim (editing may treat this under E2 and E3 together).
+
+See Arc 4 below for a worked before/after.
 
 ### W3. Proper sentences; one arc per paragraph
 Each paragraph carries one arc of thought. If a second arc appears, split the paragraph.
@@ -77,15 +88,22 @@ Example replace pair:
 
 Use HTML comments for stable arc/point/verify structure. Use `%%` for ephemeral edit chatter. Use `%+`/`%-` for contested rewrites you may want to compare. Agents: see `.grok/skills/book-markup/SKILL.md`.
 
-### W12. Writing Style
+### W12. Writing Style (Campbell)
 
-Write in the formal English prose style of the 1820s following the rhetorical habits taught in Hugh Blair’s Lectures on Rhetoric. Use balanced periodic sentences, moderately elevated but not archaic diction, and the measured, slightly oratorical cadence found in serious non-fiction of the period. Prefer abstract nouns and careful qualification over vivid metaphor. Avoid contractions, modern idioms, and short choppy sentences. Model the tone on the philosophical and critical prose of the era rather than novels.
+**Required before drafting or style-editing manuscript prose:** read `style/campbell_agent_rules.md` in full (compact rules and both cleaned examples). Do not rely on this W12 summary alone.
 
-For example:
+Write in the formal English prose style of George Campbell, *The Philosophy of Rhetoric* (1776), especially Book I (*The Nature and Foundations of Eloquence*). Use balanced periodic sentences, moderately elevated but not archaic diction, and the measured, slightly oratorical cadence of serious didactic non-fiction of the period. Prefer abstract nouns and careful qualification; when a picture is used (W2), make it do causal work in the argument, as Campbell’s arch and tower do for two kinds of evidence. Avoid contractions, modern idioms, and short choppy sentences. One principal end per stretch of discourse; secondary effects only as means; perspicuity first.
 
-> MY design in the four preceding lectures, was not merely to appreciate the merit of Mr. Addison's style, by pointing out the faults and the beanties that are mingled in the writings of that great author. They were not composed with any view to gain the reputation of a critic: but intended for the assistance of such as are desirous of studying the most proper and elegant construction of sentences in the English language. To such, it is hoped, that they may be of advantage; as the proper application of rules respecting style, will always be best learned by the means of the illustration which examples afford. I conceived that examples, taken from the writings of an author so justly esteemed, would on that account, not only be more attended to, but would also produce this good effect, of familiarising those who study composition with the style of a writer, from whom they may, upon the whole, derive great benefit. With the same view, I shall, in this lecture, give one critical exercise more of the same kind, upon the style of an author, of a different character, Dean Swift; repeating the intimation I gave formerly, that such as stand in need of no assistance of this kind, and who, therefore, will naturally consider such minute discussions concerning the propriety of words, and structure of sentences, as beneath their attention, had best pass over what will seem to them a tedious part of the work.
-> I formerly gave the general character of Dean Swift's style. He is esteemed one of our most correct writers. His style is of the plain and simple kind; free from all affectation, and all superfluity; perspicuous, manly, and pure. These are its advantages. But we are not to look for much ornament and grace in it.* On the contrary, Dean Swift seems to have slighted and despised the ornaments of language, rather than to have studied them. His arrangement is often loose and negligent. In elegant, musical, and figurative language, he is much inferior to Mr. Addison. His manner of writing carries in it the character of one who rests altogether upon his sense, and aims at no more than giving his meaning in a clear and concise manner.
+**Author priority (see also `HOUSE_FORMULAS.md` A8):** The chief end of this style is not to *sound like* Campbell as costume. It is that **every word carry meaning**, and that every concept be dictated clearly. Sentence structure serves that end. A metaphor that can be deleted without loss is a failure (W2, W4). Careful Campbell habits (define, divide, discriminate; few words with purity and perspicuity) are required because they **increase clarity**. Content-repair passes may write plain formal prose first; full cadence passes come after substance is stable (`FIX_PLAN` Phase D).
 
+**Canonical style file (must read):** `style/campbell_agent_rules.md`
+
+That file is the agent-facing digest of Campbell: ends of eloquence, persuasion, evidence, hearer/speaker, use and purity, perspicuity and vivacity, sentence habits, checklists, and cleaned specimens of Campbell’s own prose.
+
+**Emulate Campbell’s cleaned samples in that file, not other rhetoricians:**
+
+- **Example A** — four ends of eloquence (Book I, Ch. I): definition, partition, progression of faculties, discrimination of terms.
+- **Example B** — arch and tower (Book I, Ch. V): scientific vs moral evidence; the arch (one chain) vs the tower (stacked independent proofs).
 
 ---
 
@@ -147,11 +165,36 @@ Format: a composite before-passage showing several violations at once, then the 
 
 **Notes:** "thrival" is a coinage with no definition. Use the defined phrase from the vocabulary file.
 
+### Arc 4: picture set, then direct finish (no restack, no inventory)
+
+**Abstract fault:** A sound picture opens the relation, then the prose piles more metaphors, instance-lists, and synonym stacks that do not add a new step in the chain. Vivacity falls; the spine of the claim is harder to hear (Campbell: fewer words with purity and perspicuity; one principal end).
+
+**Before (second half only; first half already good):**
+
+> The world does not take its seat in the room where speeches are scored. It answers when a claim is made to stand for what will happen to bodies, harvests, children, and the works of men's hands. There the prior, the fashion, and the permission of the company may still win the hour; they do not rewrite the consequence. Truth is not the applause of the room, but the name of a model of reality rather than of falsehood or of hope.
+
+**After:**
+
+> The world does not take its seat in the room where speeches are scored. When a claim is offered as knowledge of what is, or of what will follow from what is, the world answers by what in fact comes to pass. What the company accepts may still prevail among speakers for a time; it does not alter what comes to pass. Truth is the name of a model of reality, rather than of falsehood or of hope.
+
+**Notes:**
+
+| Fault in before | Fix in after |
+|-----------------|--------------|
+| Instance inventory (bodies, harvests, children, hands) | One class: *what is* / *what will follow from what is* |
+| Synonym pile (prior, fashion, permission) | One role: *what the company accepts* |
+| Restacked figures (win the hour, rewrite, applause) after the room picture | Direct verbs: *prevail*, *alter*, *comes to pass* |
+| Discrimination (truth vs acceptance) | Kept, in plain terms, as the end of the arc |
+
+The room picture stays once and still does causal work. Everything after it advances the chain without a second painted scene.
+
 ---
 
 ## Files
 
 - `vocab_whitelist.txt` — approved terms with fixed definitions.
 - `vocab_blacklist.txt` — banned terms with reason and replacement.
+- `HOUSE_FORMULAS.md` — author-locked claim formulas (Phase A); when present, agents must follow them.
+- `style/campbell_agent_rules.md` — Campbell style rules and cleaned examples (required by W12).
 - `concat.go` — strips writer comments at build.
 - `build/comment_test.*` — renderer evidence for the comment convention.

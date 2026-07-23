@@ -70,7 +70,7 @@ Decide once:
 | **A4** | “Honest scope” diction | Replace book-wide with plain phrase | Recommended: **“same rules for every person in the same position”** / **“inside a defined membership or role”** (keep “scope” only when defined in-place) |
 | **A5** | Q1–Q5 wording vs dictionary | (i) Restore dictionary full text; (ii) revise dictionary Q3 to match author `%+` | Must pick one; do not leave plan and opener disagreeing |
 | **A6** | Twin / genetic claims | Soften to observable difference; or add source under `sources/` | Soften until sourced |
-| **A7** | Dead-earth / consent-only B3 | Restore short form in 1100 or leave to 1800 anti-natal dossier only | Prefer **short restore in 1100** (one sentence chain) |
+| **A7** | Dead-earth / consent-only B3 | Restore short form in 1100 or leave to 1800 anti-natal dossier only | Author lock: **not in 1100** (assertion only); reason/rhetoric later (e.g. 1800) — see `HOUSE_FORMULAS.md` |
 | **A8** | Style intensity | Full W12 (Blair periodic) vs plain-correct first | **Phase D = full W12**, but content phases use **clear formal prose without forced archaism** so substance stays legible |
 
 **Phase A exit:** formulas written down; then launch Phase B.
@@ -142,7 +142,7 @@ Agents in every phase get this list in the packet. Thinning these undoes the aud
 | B1.2 | **CRIT justice:** After positive procedural symmetry, one plain refuse: not equal end-states; not equal return in kind. No need for jargon names. | Q5 fully answered |
 | B1.3 | **Opener:** Remove “beside chief antagonists” / “not sole or necessary conclusion” if still present; positive list of answers; other answers later | Matches A3 |
 | B1.4 | **Charge:** Mirror B1.1–B1.2 refuses in the charge list | Charge and body agree |
-| B1.5 | Optional A7: one short dead-earth / empty-world ranking motivation | If A7 yes |
+| B1.5 | A7: **skip** dead-earth / empty-world in 1100 (author: assert only; reason later) | No dead-earth chain in 1100 |
 | B1.6 | A6: soften or `<!-- verify -->` twins claim | No unsourced hard empirics |
 | B1.7 | Light merge note: limited + particular as one human premise (cross-ref bold heads; no full rewrite) | B8 plant still clear |
 
@@ -217,13 +217,13 @@ House formulas only. Short string/claim alignment. One job family per agent.
 **Agent:** 1.  
 **Read:** Phase A; 1100 charge; E12 + 2700 only.
 
-### Pass C3 — “Honest scope” diction (mechanical)
+### Pass C3 — “Honest scope” diction (flag, then revise)
 
-**Grep:** `honest scope|honest scopes` across `chapters/`.  
-**Replace** with A4 phrase(s). Where “scope” is load-bearing (borders, membership), keep “scope” but define once.  
-**Agent:** 1, whole tree, mechanical + light sentence rebalance only.  
-**Read:** A4; `vocab_whitelist.txt` if “scope” is defined.  
-**Exit:** `rg 'honest scope' chapters/` empty (or only in `%%` notes to strip).
+**Grep:** `honest scope|honest scopes` across `chapters/` (and whitelist/plan if they re-teach the phrase).  
+**Do not blind-replace** with one canned string. Flag every hit; rewrite each so the sentence states the real claim (A4: same procedure in the same position; or defined membership/role/jurisdiction; *scope* alone only when defined and load-bearing). Do not blacklist *honest* or *scope* alone.  
+**Agent:** 1, whole tree; judgment per hit, not a global substitute table.  
+**Read:** `HOUSE_FORMULAS.md` A4; `vocab_whitelist.txt` (fix procedural symmetry definition if it still says “honest scope”).  
+**Exit:** `rg 'honest scope' chapters/` empty in publish text (or only in `%%` notes to strip).
 
 ### Pass C4 — Optional thrival / blacklist mechanical
 
