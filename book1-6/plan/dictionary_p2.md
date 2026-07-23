@@ -80,6 +80,7 @@
 ### P2.B1 Hermetic argument
 - **Definition:** Every failure is declared “not real X”; every success is still claimed for X. Blame never attaches; credit always does.
 - **Why it fails Part 1 B5/M5:** Same procedure must assign cause to success and failure.
+- **Sibling (Part 1 M2b):** Keeping a claim vague so almost any outcome can be sold as a win, then taking credit for a pinned prediction never made; also, treating lucky hits under bad grounds as earned insight. Full treatment in Part 1 section M; here name the package-scale form.
 - **Fix:** If no failure can count against the ideal, no success may be credited either—or better, drop the one-way valve and keep a real ledger.
 
 ### P2.B2 Selective logic

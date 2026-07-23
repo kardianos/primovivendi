@@ -11,15 +11,15 @@ The order is personal before social on purpose. A man who waits for better insti
 
 ### Align with truth
 
-%% [MED] [truth] [author-ruling] D1: "When your model ... disagree, the things win" is bare world-wins again (same seam as 1200). Daily checks are empirical; OK in practice, but align with 1100 scope (testable claims / world can decide) so mystery/divine is not accidentally ruled out of personal life.
-%% [LOW] [constructivist] Prefer world to preferred story; loyalty is not truth; cynic "nothing knowable" refused. Anti-constructivist. Map picture is fully painted (W2).
-The act is to prefer the world to the preferred story. When your model of things and the things themselves disagree, the things win. Truth is correspondence to reality, and reality does not grade on loyalty.
+%% [LOW] [constructivist] Prefer world to preferred story; loyalty is not truth; cynic "nothing knowable" refused. Anti-constructivist. Map picture is fully painted (W2). M2b callback present.
+The act is to prefer the world to the preferred story. When your model of things and the things themselves disagree upon a matter which the world can decide, the things win. Truth is correspondence to reality, and reality does not grade on loyalty.
 
 Wrong maps kill. Consider a map drawn to please: the river moved half a day's walk east because the patron liked the symmetry, the marsh left off because marshes are ugly on vellum. A traveler trusts it. He plans his water stops by the drawn river and finds reeds and black mud where the blue line ran. He loses the daylight arguing with the ground, and the ground does not argue back. By the second evening he is drinking marsh water, and by the end of the week the fever decides the dispute. Every step of that death was a step of the map. A household budget is a map of a year. A diagnosis is a map of a body. A harvest plan is a map of rain and soil. Drawn to please instead of drawn to match, each kills in its own currency.
 
 The daily practice is checking, and it is not glamorous. The ledger has to add up to the cash in the drawer, not to the month you hoped you had. News worth repeating is worth checking against a second telling that does not share the first teller's interest. Self-assessment has to be allowed to hurt: weigh yourself, count the debt, ask the apprentice where the work failed, and let the answer stand.
 
-The practice fails without the admission. When the check shows you wrong, say so out loud, to the person the error cost, before that person has to ask. An error admitted costs once and teaches. An error defended is a second error committed to protect the first.
+<!-- arc: D1 | point: grade the claim as made; do not rewrite after the check to collect a win -->
+Grade the claim you actually made, at the precision you offered, and on the reasons you then had. A vague hunch that "something will go wrong" is not confirmed by every later trouble, any more than a forecast of "some wind" is confirmed by every breeze. When the check shows you wrong, say so out loud, to the person the error cost, before that person has to ask, and say it of the claim as you stated it. An error admitted costs once and teaches. An error defended by rewriting the claim after the fact, so that you always appear to have won, is a second error committed to protect the first. Lucky agreement with the world under bad grounds is still a poor map for the next decision.
 
 This is not cynicism. The cynic's claim that nothing is knowable is one more preferred story, lazier than most, and the marsh does not care about it either. Nor is truth a loyalty test: an institution that grades claims by who speaks them has stopped mapping and started drawing. The social form of this virtue (institutions that reward discovery and punish fraud) comes later; the personal form is older and needs no one's permission.
 

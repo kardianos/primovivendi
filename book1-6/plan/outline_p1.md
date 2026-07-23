@@ -62,6 +62,12 @@ note: Nested bullets only below this title block. No section headers. No prose p
   - “X produces Y, so X is a valid model” is not enough [M2]
     - Useful prediction is a clue and a filter, not a certificate of full ontology
     - Practice can save lives while the story is garbled; grade practice and theory apart when they split
+  - Claim as made: specificity, reasons fixed at the time, credit [M2b, B2, B5]
+    - Grade the proposition actually advanced, not a wider story rewritten after the outcome
+    - Reasonableness is fixed by evidence and reasoning available when the claim was made; later luck does not repair bad grounds
+    - Vague claims that almost any outcome can “confirm” earn little trust; pin claims enough that they can fail
+    - Confirmability tracks how far a claim could have been falsified (same discipline as procedural symmetry in inquiry)
+    - Plant only at B2 if needed; full treatment here; daily form at D1; hermetic sibling at Part 2 P2.B1
   - Wrong vs incomplete [M3]
     - Wrong: systematic failure; no progressive domain (alchemy-class)
     - Incomplete: succeeds in a domain; successor keeps limit-case successes and covers more
@@ -77,8 +83,9 @@ note: Nested bullets only below this title block. No section headers. No prose p
   - Procedural symmetry in inquiry [M5, B5]
     - Same critical standard for favored and disfavored models
     - No one-way valve when tests threaten the preferred story
+    - Same rule for awarding credit and assigning failure (ties M2b)
     - Humility without “all models equal”
-  - Charge: section off divine; test what can be tested; prefer better correspondence; then live [M6]
+  - Charge: section off divine; test what can be tested; prefer better correspondence; grade the claim as made; then live [M6]
 
 - Middle bulk: survival and thriving
   - What survival is and is not [C1]

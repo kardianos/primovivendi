@@ -42,12 +42,15 @@
 1. Suppose procedure P outputs useful predictions or successful practice.  
 2. That shows P is useful in a domain.  
 3. It does **not** alone prove P’s ontology is the full true account (M2).  
-4. **Wrong:** fails systematically under proper tests; no progressive domain (alchemy-class).  
-5. **Incomplete:** succeeds in a domain; fails outside; successor keeps limit-case success (M3).  
-6. **Example wrong-story / good-enough numbers:** historical astronomical schemes with epicycles could be relatively accurate for positions while the physical story was not the true arrangement; Kepler improved correspondence (M4A; `philosophy/models_astronomy_chain.md`).  
-7. **Example incomplete progressive chain:** Kepler → Newton → special relativity (M4B).  
-8. Apply **same critical standard** to favored and disfavored models (B5, M5).  
-9. Therefore: keep useful tools inside their envelope; revise stories under harder tests; do not hermetically protect preferred models.
+4. **Claim as made (M2b):** Grade the proposition actually advanced (precision, reasons available at the time), not a wider story rewritten after the outcome.  
+5. Later luck does not repair bad grounds; vague claims that almost any outcome can “confirm” earn little credit.  
+6. Confirmability tracks how far a claim could have failed; award future trust only to processes that earn hits under pinned claims.  
+7. **Wrong:** fails systematically under proper tests; no progressive domain (alchemy-class).  
+8. **Incomplete:** succeeds in a domain; fails outside; successor keeps limit-case success (M3).  
+9. **Example wrong-story / good-enough numbers:** historical astronomical schemes with epicycles could be relatively accurate for positions while the physical story was not the true arrangement; Kepler improved correspondence (M4A; `philosophy/models_astronomy_chain.md`).  
+10. **Example incomplete progressive chain:** Kepler → Newton → special relativity (M4B).  
+11. Apply **same critical standard** to favored and disfavored models, including the same rule for credit and failure (B5, M5, M2b).  
+12. Therefore: keep useful tools inside their envelope; revise stories under harder tests; do not hermetically protect preferred models; do not take victory laps on unpinned claims.
 
 ---
 
