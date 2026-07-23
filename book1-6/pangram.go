@@ -247,12 +247,14 @@ func loadKey(flagKey string) (string, error) {
 	return "", fmt.Errorf("no API key: set PANGRAM_API_KEY or create .pangram_key (gitignored)")
 }
 
-// publishText mirrors concat.go new-mode line markers + HTML comment strip.
+// publishText prepares plain prose for Pangram:
+// drop HTML comments; keep %+ bodies only (drop %%, %-); strip markdown chrome.
 func publishText(b []byte) string {
 	b, _ = stripComments(b)
-	b, _ = applyLineMarkers(b)
+	b, _ = applyLineMarkers(b) // %% and %- out; %+ unwrapped; unmarked kept
+	s := stripMarkdown(string(b))
 	// collapse excess blank lines
-	lines := strings.Split(string(b), "\n")
+	lines := strings.Split(s, "\n")
 	var out []string
 	blank := 0
 	for _, ln := range lines {
@@ -267,6 +269,76 @@ func publishText(b []byte) string {
 		out = append(out, ln)
 	}
 	return strings.TrimSpace(strings.Join(out, "\n")) + "\n"
+}
+
+// stripMarkdown removes formatting noise so the detector sees prose, not markup.
+func stripMarkdown(s string) string {
+	// YAML front matter
+	if strings.HasPrefix(strings.TrimSpace(s), "---") {
+		rest := strings.TrimSpace(s)
+		if i := strings.Index(rest[3:], "\n---"); i >= 0 {
+			// after closing ---
+			end := 3 + i + len("\n---")
+			rest = rest[end:]
+			s = strings.TrimLeft(rest, "\r\n")
+		}
+	}
+	lines := strings.Split(s, "\n")
+	var out []string
+	for _, ln := range lines {
+		t := strings.TrimSpace(ln)
+		// skip pure markdown rules / empty ATX after strip
+		if t == "---" || t == "***" || t == "___" {
+			continue
+		}
+		// headings: remove leading # marks
+		for strings.HasPrefix(t, "#") {
+			t = strings.TrimSpace(strings.TrimPrefix(t, "#"))
+		}
+		// list markers
+		if strings.HasPrefix(t, "- ") || strings.HasPrefix(t, "* ") || strings.HasPrefix(t, "+ ") {
+			t = strings.TrimSpace(t[2:])
+		}
+		if len(t) > 2 && t[0] >= '0' && t[0] <= '9' {
+			// "1. " ordered list
+			j := 0
+			for j < len(t) && t[j] >= '0' && t[j] <= '9' {
+				j++
+			}
+			if j < len(t) && t[j] == '.' {
+				t = strings.TrimSpace(t[j+1:])
+			}
+		}
+		// blockquote
+		for strings.HasPrefix(t, ">") {
+			t = strings.TrimSpace(strings.TrimPrefix(t, ">"))
+		}
+		t = stripInlineMarkdown(t)
+		if t != "" {
+			out = append(out, t)
+		}
+	}
+	return strings.Join(out, "\n")
+}
+
+var (
+	reLink     = regexp.MustCompile(`\[([^\]]*)\]\([^)]*\)`)
+	reImage    = regexp.MustCompile(`!\[([^\]]*)\]\([^)]*\)`)
+	reBold     = regexp.MustCompile(`\*\*([^*]+)\*\*|__([^_]+)__`)
+	reItalic   = regexp.MustCompile(`\*([^*]+)\*|_([^_]+)_`)
+	reCode     = regexp.MustCompile("`([^`]*)`")
+	reStrike   = regexp.MustCompile(`~~([^~]+)~~`)
+)
+
+func stripInlineMarkdown(t string) string {
+	t = reImage.ReplaceAllString(t, "$1")
+	t = reLink.ReplaceAllString(t, "$1")
+	t = reBold.ReplaceAllString(t, "$1$2")
+	t = reStrike.ReplaceAllString(t, "$1")
+	t = reCode.ReplaceAllString(t, "$1")
+	// italics last (after bold)
+	t = reItalic.ReplaceAllString(t, "$1$2")
+	return strings.TrimSpace(t)
 }
 
 func stripComments(b []byte) ([]byte, int) {

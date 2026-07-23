@@ -107,14 +107,12 @@ B8 (particular person) is part of the human premise with B7, not a sixth questio
 - Do not reintroduce “independent of wish,” “honest scope,” or confession-charge wording from older plan drafts.
 
 ### Q8. Charge of the questions block
-**Pending author comment (do not hard-lock confession vs non-confession until author marks this).** Working direction from HOUSE A5 / publish 1000:
+**Author locked (2026-07-23):** examine and weigh; no confession close. Publish open:
+
+> Then write down what you believe about the world, about yourself, and about society. Ask these five questions of yourself, and prefer them to any label which you or any other man may wear. Do not proceed upon assumptions you have never examined: weigh your present convictions, and consider whether the answers this book is about to propose may serve as a good beginning. The next chapter states those answers as axioms; the remainder of the book treats of how to live under them.
 
 - Prefer these five questions to the shared label.  
-- Examine and weigh present convictions; consider whether the book’s answers may serve as a good beginning.  
-- **Not** (old plan): “State your answers, or admit you hold others” as forced confession.  
-- Then read this book’s answers and how to live under them.
-
-*(Author: see session note on Q8 in context before freezing.)*
+- **Not** (old plan): “State your answers, or admit you hold others.”
 
 ---
 
@@ -504,7 +502,7 @@ Use the book’s own terms:
 - **Reality is real, knowable, and consequential** (not “reality answers”).
 - **Truth is what corresponds to reality** (not “the world speaks”).
 - **Human life should continue and continue well** / survive and thrive (not bare “life continues”).
-- **Humans are limited, self-interested, and not naturally good**; virtue is cultivated.
+- **Humans are limited, particular, and self-interested**; not blank slate; not naturally good; virtue is cultivated.
 - **Priority is tiered and self-anchored.**
 - **Justice is procedural symmetry within a defined scope** (same rules for persons in the same position).
 
