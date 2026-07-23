@@ -183,16 +183,46 @@ B8 (particular person, not marble-self) deepens Q2/Q4 against lottery metaphysic
 - Writer may say “these axioms work together.” Writer need not say “the Frame.”
 
 ### B7. Human nature (working premise under the axioms)
-- **Answers Q2:** limited and self-interested by nature; not blank slate; not naturally good / perfectible / restorable by remaking the whole social or sacral-political order. Virtue is cultivated.
-- People are limited in time, knowledge, and power.
-- People are self-interested in the descriptive sense: oriented to their own survival and near kin; not “should be pure egoists.”
-- People are not naturally good: virtue is trained, not factory settings.
-- **Chain into design:** Build personal habits and social rules for the humans who exist. Do not wait for angels. Channel self-interest; do not abolish it by decree.
+
+**Answers Q2:** Man is limited and self-interested by nature; not blank slate; not naturally good / perfectible / restorable by remaking the whole social or sacral-political order. Virtue is cultivated. Particularity [B8] is part of the same human premise (plant in the axioms chapter; full primer at E0), not a sixth question.
+
+**Author full sense (retain even when manuscript phrases Q2/B7 smaller):** locked concepts below are house meaning. Publish may use fewer words; agents must not drop the sense when expanding, teaching, or defending the premise.
+
+#### B7.1 Limited
+- Finite in time, energy, knowledge, and reach.
+- Ground of humility, ordered priority [B4], and honest procedure [B5]: a rule that pretends unlimited performance pretends to what no such creature can keep.
+- Aspect of knowable reality [B1/A1]: the creature who knows is limited; this helps transition from the reality floor into anthropology.
+
+#### B7.2 Self-interested (house meaning — do not reduce to “egoism” or a mere lawyer’s hedge)
+- **Core:** Man is self-interested: interested in his **own survival and well-being**.
+- **That interest is good.** It is not named as vice. It aligns with the life axiom’s family of ideas without replacing B3: the creature already aims at continuance and well-being **for himself**; B3 affirms life and thriving as the standard of the good more generally.
+- **Not a creed of pure egoism:** the claim does not command indifference to everyone beyond the door, pure self-love as duty, or “maximize only yourself.”
+- **Incomplete for social thrival:** taken alone, self-interest is not yet a full social life. A sealed self will not by itself produce thriving among others (household, formation, trust, common procedure). Insufficiency is not vice. Principles of particularity [B8], priority [B4], and justice [B5] complete the design.
+- **Bridge limb (rhetoric / arc):**
+  - Limits (and the limited knower) sit in knowable reality and help move **from principle 1 (reality/truth) into principle 2 (man)**.
+  - Self-interest, stated as own survival and well-being, bridges **from principle 2 into principle 3 (particular)**: “own” is never the interest of a generic unit; it is *this* person’s survival and well-being, already almost social (met through people, language, skill, and protection he did not invent alone).
+- **Preferred axiom order in 1100 (M4, author):** **limited → particular → self-interested last**, so self-interest closes anthropology and opens into particularity’s full weight and then into priority (self outward). Alternate manuscript order may state the three in one breath; retain this transition logic when drafting.
+- **Older phrase “descriptive sense”:** still usable as a short fence against normative egoism, but the **full house meaning** is the positive formula above (survival and well-being; good; incomplete for social thrival; bridge to particular), not a thin “merely descriptive” shrug.
+
+#### B7.3 Not blank slate; not naturally good
+- **Not blank slate:** not empty matter for total redesign by society or power. Face to refuse: “written wholly by inscription.”
+- **Second face (do not assume the first refuse covers it):** “equal blank capacity” (all gaps in outcome under same rules are only injustice/environment). That face is fully met later via particularity and uneven gifts [B8, E0], not only by B7’s classic pair.
+- **Not naturally good / perfectible** by remaking the whole social or sacral-political order. Virtue is trained and kept by parents, teachers, and practice; not factory settings.
+- In 1100: positive limbs first [HOUSE A3]; short guiding-light refuse where Q2 requires it; no rival parade.
+
+#### B7.4 Chain into design
+- Build personal habits and social rules for the humans who exist. Do not wait for angels. Channel self-interest; do not abolish it by decree.
+- 1100 **asserts** this premise; does not examine every fact of the age [HOUSE A6, A7]. No twin studies or contemporary study language as load-bearing proof in the axioms block.
 
 ### B8. Particular person (plant only; full primer at E0)
-- **Plant inside the B7 human-premise paragraph (author ruling 2026-07-18; keep this edge):** part of human limits, not an added answer. There is no generic person. There is you—tied to your family, their lineage, and your situation. The axioms are for that kind of creature, not for an interchangeable token.
-- **Full three-paragraph primer:** social open [E0]. Continues in D7, D15, E5–E7.
-- Do not name academic theorists here. Do not open package wars here.
+
+- **Plant with B7 (author):** part of the human premise, not an added sixth answer. There is no generic person. There is this person, bound to a family, to the chain that formed him, and to a situation. The axioms are for that creature, not for an interchangeable token.
+- **Relation to self-interest [B7.2]:** Self-interest (own survival and well-being) is the on-ramp; particularity **situates** it. “Own” is this man’s, in this chain and situation. Particularity does not cancel self-interest.
+- **Not needed, not generic (binding concept for later arcs):** The world does not require you as a numbered spare among billions; you are still not a generic unit. Gratitude for the chain that fed and formed you is not theft; thick duty near that chain is morals fitted to the creature, not a failure of morals. Full development at E0 and package refusals (marble-self, lottery); plant the non-generic person in 1100 without the full arc.
+- **Specifications later (not required as 1100 co-heads):** uneven gifts, strength, foresight; lineage and transmission in full; ability variation as why identical-token design fails. Assert as premise/method when they appear; do not lean on studies of the age in the axioms block [HOUSE A6].
+- **Dog-whistle guard:** 1100 states particularity as *this person / chain / situation*, not as ranking of peoples, blood mystique, or slogan pair “varied ability + product of lineage.”
+- **Full three-paragraph primer:** social open [E0]. Continues in D7, D15, E5–E7, P2 marble/lottery.
+- Do not name academic theorists in the axioms plant. Do not open package wars there.
 
 ---
 
