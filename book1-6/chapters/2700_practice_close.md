@@ -8,12 +8,12 @@ Everything argued in this book has to fit in one hand. The axioms, the tests, th
 ### The precepts matrix
 
 %% [HIGH] [plan-gap] P2.G1 seven filters: reality/correspondence; wrong/incomplete; form/substance; life/cushion vs free-ride; tiers; procedural symmetry; long horizon. All-must-pass. Aligns Part 1 + 2100/2300. **Do not drop form/substance or wrong/incomplete**—they lock anti-constructivist totalism into practice.
-%% [MED] [vocab] [plan-order] "honest scope" in filter 6; floor language still split B1/B2 style not 1100 "knowable and consequential." Consistency pass with 1100/E12 if author merge is final.
+%% [done: C2] [vocab] [plan-order] Filter 1 aligned to merged A1 (real, knowable, consequential; truth as correspondence). "honest scope" in filter 6 left for C3.
 A serious decision needs a fixed short list, not a mood. Write the list once, before the decision arrives, because the wanting that comes with a live decision edits any list it can reach. Deciding what to plant is beneath the list. Deciding whether to sell the field is not. Six filters, and a seventh for decisions that outlive you. Fail any one, and you stop or you revise. You do not argue a failed filter into a pass.
 
 The filters:
 
-1. **Reality and correspondence.** The decision rests on claims about the world. Is the load-bearing claim testable, and does it pass? Suppose the plan assumes that sales will recover by spring; that is testable, so wait for the evidence, or stake less. Suppose instead the plan assumes that the policy is on the right side of history; that is not testable, so it buys nothing and should carry nothing.
+1. **Reality and correspondence.** Reality is real, knowable, and consequential; truth is correspondence to it. The decision rests on claims about that world. Is the load-bearing claim testable, and does it pass? Suppose the plan assumes that sales will recover by spring; that is testable, so wait for the evidence, or stake less. Suppose instead the plan assumes that the policy is on the right side of history; that is not testable, so it buys nothing and should carry nothing.
 
 2. **Wrong versus incomplete.** Is a useful wrong story being treated as final? A story that fails everywhere it is tried has earned no domain. A story that works inside limits may keep those limits and its successes at the edges. Build on the second kind. Never mortgage a decade to the first, however well the first story flatters you.
 
