@@ -10,10 +10,10 @@
 | Field | Value |
 |-------|--------|
 | **Status** | **Waiting on human** |
-| **Waiting on** | Human — gate **G-C** (after C-rework-1) |
-| **Active pass** | Phase C + C-rework-1 done; awaiting G-C |
+| **Waiting on** | Human — gate **G-C** |
+| **Active pass** | Phase C + reworks; awaiting G-C |
 | **Active role** | — |
-| **Next action** | Human reviews 1500 rework (+ Phase C). Say ***Phase C accepted*** or further rework. No D until accepted. |
+| **Next action** | Human: ***Phase C accepted*** or further rework. No D until accepted. |
 | **F loop round** | 0 (not started) |
 | **Last updated** | 2026-07-24 |
 
@@ -26,7 +26,7 @@
 | **G-A** Phase A / HOUSE_FORMULAS | **passed** | 2026-07-23 — Phase 0 approved; A1–A8 locked in `HOUSE_FORMULAS.md` |
 | **G-B1** after B1 `1100` | **passed** | 2026-07-23 — Author: *B1 accepted* (continue). Also confirmed Q2 interchangeable-unit limb + Q4 S1-D for B2. |
 | **G-B** after B2–B4 | **passed** | 2026-07-24 — Author: *Phase B accepted*; 1500 variation bullets accepted; 2600 translation tag OK until publish |
-| **G-C** after C1–C4 | **waiting on human** | 2026-07-24 — C1–C4 done; `./publish.fish` **exit 0**. Unstick: *Phase C accepted* or rework |
+| **G-C** after C1–C4 | **waiting on human** | 2026-07-24 — C-rework-1 `a688692` (1500); rebuild OK. Unstick: *Phase C accepted* or rework |
 | **G-D8-cal** after D8 on 1000+1100 | pending | **must** `./publish.fish` |
 | **G-E** after first full E | pending | **must** `./publish.fish` |
 | **G-F** F-loop tone | pending | Pangram + **must** `./publish.fish` if human reads full book |
@@ -65,6 +65,9 @@
 | 2026-07-24 | **C3** honest-scope | Writer | Phrase gone from chapters/; whitelist/plan cleaned | `d07bff2` |
 | 2026-07-24 | **C4** blacklist | Writer | Publish body already clean | no commit |
 | 2026-07-24 | G-C build | Orchestrator | `./publish.fish` exit 0; hard stop Phase C review | — |
+| 2026-07-24 | **C-rework-1** 1500 clarity | Writer | Wrong-turn; ownership/contract theory-first; scopes open; borders store; defense ideology; merit yeast-first; experiment laws/theories | `a688692` |
+| 2026-07-24 | G-C rebuild | Orchestrator | `./publish.fish` exit 0 after C-rework-1 | — |
+| 2026-07-24 | **C-rework-2** Newton line | Writer | Admit alchemy; credit for what corresponds | `df46301` |
 
 ---
 
@@ -90,15 +93,19 @@
 
 ```text
 Waiting on: human
-Gate or pass: G-C (after C1–C4)
-What to review:
-  - C1: world-as-judge already scoped (no edits needed)
-  - C2: floor lists merged A1 (1500 E12, 2700 filter 1, 1800 grade line); variation verify stripped
-  - C3: "honest scope" gone from chapters/ (+ whitelist/plan)
-  - C4: thrival/blacklist publish clean
-  - Build: ../release/lua-book.pdf (.epub / .html)
-Commands: ./publish.fish exit 0 (2026-07-24)
-Unstick: "Phase C accepted" OR rework list
+Gate or pass: G-C (after C1–C4 + C-rework-1)
+What to review (latest = 1500):
+  - Wrong-turn: no slide; no rival; error extends
+  - Ownership/contract: theory + brief consequence first
+  - Claims-reach plain open; justice "differing accounts"
+  - Borders: defined-scope store (no cushion jargon)
+  - Defense: acts + ideology-as-enemy adherence
+  - Merit: yeast first; "under procedure"; no rival
+  - Experiment: laws/theories tested; kill bad law/theory
+  - Prior Phase C: floors, no honest-scope, blacklist clean
+  - Build: ../release/lua-book.*
+Commands: C-rework-1 a688692; ./publish.fish exit 0
+Unstick: "Phase C accepted" OR further rework
 ```
 
 ---
