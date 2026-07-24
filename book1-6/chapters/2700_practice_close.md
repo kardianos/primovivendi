@@ -2,7 +2,7 @@
 
 ## The practice close
 
-Everything argued in this book must fit in one hand. The axioms, the tests, and the history earn their keep only at the moment a person decides something that costs. This last chapter is that moment, repeated: first a short list that every serious decision must pass; then a few decisions run through it at rising stakes; then the smallest unit of any people, the reader, and one act; then the charge that closes the book.
+Systems and purity moves named, everything argued in this book must still fit in one hand. The axioms, the tests, and the history earn their keep only at the moment a person decides something that costs. This last chapter is that moment, repeated: first a short list that every serious decision must pass; then a few decisions run through it at rising stakes; then the smallest unit of any people, the reader, and one act; then the charge that closes the book.
 
 ### The precepts matrix
 
