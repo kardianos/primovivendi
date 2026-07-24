@@ -68,6 +68,7 @@
 | 2026-07-24 | **C-rework-1** 1500 clarity | Writer | Wrong-turn; ownership/contract theory-first; scopes open; borders store; defense ideology; merit yeast-first; experiment laws/theories | `a688692` |
 | 2026-07-24 | G-C rebuild | Orchestrator | `./publish.fish` exit 0 after C-rework-1 | — |
 | 2026-07-24 | **C-rework-2** Newton line | Writer | Admit alchemy; credit for what corresponds | `df46301` |
+| 2026-07-24 | **C-rework-3** Newton short | Writer | “incomplete, not incorrect inside its domain”; drop alchemy digression | `76b77d9` |
 
 ---
 
