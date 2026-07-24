@@ -29,7 +29,7 @@
 | **G-C** after C1–C4 | **passed** | 2026-07-24 — Author: *Phase C accepted* |
 | **G-D8-cal** after D8 on 1000+1100 | **passed** | 2026-07-24 — Author: continue next phase (Iran OK; proceed bulk D8) |
 | **G-E** after first full E | **passed** | 2026-07-24 — Author: *continue* → Phase F |
-| **G-F** F-loop tone | pending | Pangram + **must** `./publish.fish` if human reads full book |
+| **G-F** F-loop tone | **waiting on human** | 2026-07-24 — F1 bulk: only `1000` **Human**; rest **AI** (soft; Campbell FP likely). F2-r1 on 1100 `6ab448b`, 1200 `8610d66`; 1100 re-scan still AI. Publish OK. Unstick: *F done / ship tone* or more F2 list |
 | **G-ship** repair complete | pending | **must** `./publish.fish` |
 
 ---
@@ -90,6 +90,11 @@
 | 2026-07-24 | **E-flow-2** spine | Editor | 1200/1400/1500/2600/2700 joints | `002f418` |
 | 2026-07-24 | **E-flow-3** protect | Editor (RO) | All §2 GREEN; concat clean | no commit |
 | 2026-07-24 | G-E build | Orchestrator | `./publish.fish` exit 0 | — |
+| 2026-07-24 | **G-E** decision | Author | *continue* → Phase F | — |
+| 2026-07-24 | **F1** Pangram bulk | Orchestrator | 17 chapters; only 1000 Human; rest AI (soft) | `build/pangram/f1_round1.json` |
+| 2026-07-24 | **F2-r1-1100** | Editor | Soft A8 glue cuts; protect kept | `6ab448b` |
+| 2026-07-24 | **F2-r1-1200** | Editor | Soft A8 glue cuts | `8610d66` |
+| 2026-07-24 | F1 re-scan 1100 | Orchestrator | Still AI after F2 | — |
 
 ---
 
@@ -97,11 +102,11 @@
 
 | Order | Pass ID | Role | Notes |
 |-------|---------|------|--------|
-| ~~B–D8~~ | — | — | **done** through bulk W12 |
-| ~~E-flow-2/3~~ | — | Editor | **done** |
-| (opt) | E-flow-1 | Editor | Chapter-internal arcs — deferred; run if author wants |
-| — | Human | **G-E** waiting |
-| next | F1 Pangram | Orchestrator | After *Phase E accepted* |
+| ~~B–E~~ | — | — | **done** (E-flow-1 still optional) |
+| ~~F1~~ | F1 | Orchestrator | **done** round 1 |
+| ~~F2-r1~~ | 1100, 1200 | Editor | **done** |
+| — | Human | **G-F** waiting |
+| next | F2 more / F done / G-ship | — | Author call |
 
 ---
 
@@ -109,14 +114,14 @@
 
 ```text
 Waiting on: human
-Gate or pass: G-E (after D8 + E-flow-2/3)
-What to review:
-  - Book spine handoffs (1200→1300, 1400→1500, 2600→2700 especially)
-  - Protect list still load-bearing after W12
-  - Full book form: ../release/lua-book.pdf
-Note: E-flow-1 (every chapter internal reflow) deferred; say if you want it before F.
-Commands: bulk D8; E-flow-2 002f418; E-flow-3 GREEN; ./publish.fish exit 0
-Unstick: "Phase E accepted" OR rework OR "run E-flow-1"
+Gate or pass: G-F (F-loop tone, round 1)
+F1 headline summary:
+  Human: 1000_questions.md only
+  AI (soft signal): 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 2000, 2100, 2200, 2300, 2400, 2500, 2600, 2700
+Note: Campbell formal prose commonly false-positives as AI. Do not thrash doctrine to chase Human.
+F2-r1: soft tone only on 1100 + 1200; 1100 re-scan still AI.
+Build: ../release/lua-book.pdf
+Unstick: "F done / ship tone" | "F round 1 accepted" + more F2 list | rework
 ```
 
 ---
@@ -134,8 +139,7 @@ Unstick: "Phase E accepted" OR rework OR "run E-flow-1"
 
 ## Orchestrator notes
 
-- Bulk D8 complete; E-flow-2/3 done; **G-E hard stop**.  
-- After *Phase E accepted*: Phase F (Pangram F1 → F2 loop as needed).  
-- Optional E-flow-1 if author wants full chapter-internal reflow before F.  
-- HOUSE A9 + Iran-narrative locks still in force.  
-- Commits: `book1-6/` only; message prefix `book1-6: `.  
+- **G-E passed.** F1 complete; F2-r1 on 1100/1200 only. **G-F hard stop.**  
+- Prefer accepting residual AI flags as formal-prose FP unless author names more F2 targets.  
+- Do not commit `.pangram_key`.  
+- After *F done*: optional cleanup → **G-ship**.  
