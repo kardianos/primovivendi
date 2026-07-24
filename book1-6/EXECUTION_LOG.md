@@ -10,12 +10,12 @@
 | Field | Value |
 |-------|--------|
 | **Status** | **Waiting on human** |
-| **Waiting on** | Human — gate **G-B** |
-| **Active pass** | Phase B complete (B0–B4 done; awaiting G-B) |
+| **Waiting on** | Human — gate **G-B** (after B-rework-1) |
+| **Active pass** | Phase B + B-rework-1 done; awaiting G-B |
 | **Active role** | — |
-| **Next action** | Human reviews Phase B coherence (1000/1100 + protect scan green). Say ***Phase B accepted*** or list rework. Until then: no C1 spawn. |
+| **Next action** | Human reviews rework + Phase B. Say ***Phase B accepted*** or further rework. No C1 until accepted. |
 | **F loop round** | 0 (not started) |
-| **Last updated** | 2026-07-23 |
+| **Last updated** | 2026-07-24 |
 
 ---
 
@@ -25,7 +25,7 @@
 |------|--------|------------------|
 | **G-A** Phase A / HOUSE_FORMULAS | **passed** | 2026-07-23 — Phase 0 approved; A1–A8 locked in `HOUSE_FORMULAS.md` |
 | **G-B1** after B1 `1100` | **passed** | 2026-07-23 — Author: *B1 accepted* (continue). Also confirmed Q2 interchangeable-unit limb + Q4 S1-D for B2. |
-| **G-B** after B2–B4 | pending | **must** `./publish.fish` before human review |
+| **G-B** after B2–B4 | **waiting on human** | 2026-07-23 — B2 `566f8b9`; B3 no-op; B4 **GREEN**; `./publish.fish` **exit 0**. Unstick: *Phase B accepted* or rework list |
 | **G-C** after C1–C4 | pending | **must** `./publish.fish` before human review |
 | **G-D8-cal** after D8 on 1000+1100 | pending | **must** `./publish.fish` |
 | **G-E** after first full E | pending | **must** `./publish.fish` |
@@ -52,6 +52,8 @@
 | 2026-07-23 | **G-B1** decision | Author | *B1 accepted*; yes on Q2 unit limb + Q4 S1-D | — |
 | 2026-07-23 | **B2** `1000` Q list | Writer | Q2 interchangeable-unit limb; Q4 S1-D; Q1/Q3/Q5/charge kept; policy-premises clause | `566f8b9` |
 | 2026-07-23 | **B3** verify hygiene | Writer | Twins gone (B1); open verifies: 1500 author bullets, 2600 Qur'an edition | no commit |
+| 2026-07-23 | **B4** protect scan | Editor (RO) | All §2 blocks **GREEN** for Phase C | no commit |
+| 2026-07-23 | G-B build | Orchestrator | `./publish.fish` exit 0; hard stop Phase B review | — |
 
 ---
 
@@ -63,8 +65,8 @@
 | ~~1~~ | ~~B1~~ | Writer | **done** — G-B1 **passed** |
 | ~~2~~ | ~~B2~~ | Writer | **done** `566f8b9` |
 | ~~3~~ | ~~B3~~ | Writer | **done** (no file changes) |
-| 4 | **B4** | Editor (read-only) | **in progress** protect-list scan |
-| 5 | — | Human | **G-B** + `./publish.fish` |
+| ~~4~~ | ~~B4~~ | Editor (RO) | **done GREEN** |
+| 5 | — | Human | **G-B** waiting |
 | 6 | C1–C4 | Writer / Editor | Then **G-C** + publish |
 | 7 | D1–D7 | Editor | Mechanical / judgment |
 | 8 | D8-1000, D8-1100 | Editor | Then **G-D8-cal** + publish |
@@ -76,7 +78,22 @@
 
 ## Waiting / blocked detail
 
-_None (B2 Writer running)._
+```text
+Waiting on: human
+Gate or pass: G-B (after B2+B3+B4)
+What to review:
+  - 1000 questions (B2): Q2 unit limb; Q4 S1-D; Q1/Q3/Q5/charge stable
+  - 1100 axioms (B1, already accepted at G-B1): still coherent with 1000
+  - Protect scan B4: GREEN (all §2 blocks present)
+  - Open verifies (not blocking Phase C): 1500 author variation bullets; 2600 Qur'an edition at publish
+  - Build: ../release/lua-book.pdf (.epub / .html)
+Commands already run:
+  - B2 → 566f8b9
+  - B3 → no commit
+  - B4 → GREEN
+  - ./publish.fish → exit 0 (2026-07-23)
+Unstick condition: human says "Phase B accepted" OR rework list
+```
 
 ---
 
@@ -93,8 +110,7 @@ _None (B2 Writer running)._
 ## Orchestrator notes
 
 - **Do not re-run B0** unless human orders rework.  
-- **G-B1 passed** 2026-07-23. B1 `7eda162` accepted.  
-- B2 implements Q2 interchangeable-unit limb + Q4 S1-D (author yes on both).  
-- After B2: B3 then B4 then `./publish.fish` → **G-B**.  
+- **G-B1 passed.** Phase B agents B0–B4 complete. **G-B hard stop.**  
+- After *Phase B accepted*: spawn Phase C (C1–C4).  
 - Commits: `book1-6/` only; message prefix `book1-6: `.  
 - Ignore monorepo dirt outside `book1-6/`.  
