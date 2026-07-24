@@ -138,12 +138,12 @@ Each pair is a fork, not a blend. Choose, and know what your neighbor chose.
 ### What we are not ultimately for
 
 %% [LOW] [plan-gap] H6: regimes as instruments graded by thrival. No regime worship. Complete.
-This book is not ultimately for democracy, or a republic, or a monarchy, or a premier, or a party. Those are instruments. We grade each by one measure: whether the people living under the instrument continue and continue well, this generation and the next, under reality, correspondence, the good of life, tiers, and same rules. Worship of the instrument forgets what the instrument is for.
+This book is not ultimately for democracy, or a republic, or a monarchy, or a premier, or a party. Those are instruments. We grade each by one measure: whether the people living under the instrument continue and continue well, this generation and the next, under a reality that is real, knowable, and consequential, with truth as correspondence to it, the good of life, tiers, and same rules. Worship of the instrument forgets what the instrument is for.
 
 ### What we are for
 
 %% [LOW] [plan-gap] H7: life; personal list; social list; procedural justice; clear sight four habits; construction close (clean floor… make something worth handing on). Ends on construction not villain tour. Plan-complete.
-%% [MED] [plan-order] [truth] Close restates justice "inside honest scopes" and floors without author-merged "knowable and consequential" / human limits elevation from 1100. Same consistency seam as E12. Optional one-line align on final pass.
+%% [done: C2] [plan-order] [truth] Floor restatement aligned to merged A1. Justice "inside honest scopes" left for C3.
 %% [LOW] [constructivist] Whole ending treats constructivism as external package and instrument-truth as alliance mechanism. **No house-voice constructivism.** This chapter is the planned place for that fight—and it lands correctly.
 What we are for is short enough to say plainly. Life, and lives that continue well, this generation and the next.
 
