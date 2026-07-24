@@ -10,10 +10,10 @@
 | Field | Value |
 |-------|--------|
 | **Status** | **Waiting on human** |
-| **Waiting on** | Human — gate **G-D8-cal** |
-| **Active pass** | D8-1000 + D8-1100 done; awaiting voice calibration |
+| **Waiting on** | Human — gate **G-D8-cal** (and optional skim of A9 rewrites) |
+| **Active pass** | A9 rewrite done; D8-1000/1100 still await voice calibration |
 | **Active role** | — |
-| **Next action** | Human reviews W12 voice on 1000+1100. Say ***1000/1100 W12 accepted*** or rework. No bulk D8 until accepted. |
+| **Next action** | Human: accept A9 chapter rewrites if ready; still need ***1000/1100 W12 accepted*** or rework for bulk D8. |
 | **F loop round** | 0 (not started) |
 | **Last updated** | 2026-07-24 |
 
@@ -77,6 +77,10 @@
 | 2026-07-24 | **D8-1000** W12 | Editor | Campbell style on questions; Q list sense kept | `66e4752` |
 | 2026-07-24 | **D8-1100** W12 | Editor | Campbell style on axioms; refuses preserved | `180edff` |
 | 2026-07-24 | G-D8-cal build | Orchestrator | `./publish.fish` exit 0 | — |
+| 2026-07-24 | **A9** HOUSE lock | Author + Orchestrator | Package ≠ principles; profession; base rates; drop persons≠packages | `HOUSE_FORMULAS.md` |
+| 2026-07-24 | **A9-2600** | Writer | Arc open; 0 package words; profession + safekeeping line | `c1676f7` |
+| 2026-07-24 | **A9-1800** | Writer | H8 open A9; package diction cleared | `2248884` |
+| 2026-07-24 | **A9-dict** | Writer | 1500/2000/2200/2500/2700 slogan + diction | `5745c84` |
 
 ---
 
@@ -119,7 +123,7 @@ Unstick: "1000/1100 W12 accepted" OR rework list
 | S1 | Q4 catechism surface | **locked** | **S1-D:** When a man cannot give himself fully to every claim at once, and the claims on him differ in urgency and nearness, what should govern how he spends himself? |
 | S2 | Justice three-fork in 1100 | **locked** | **S2-B:** positive procedure + short refuse (not end-states; not return in kind); full fork later |
 | S3 | 1000 Q1/Q2 | **locked** | **Q1:** keep current publish (objectively knowable…). **Q2:** edit to ask non-genericity without saying “particular” (interchangeable-unit limb); do not lead questions with house answers. B2 implements. |
-| S4 | Persons ≠ packages / 2600 open | **locked** 2026-07-24 | (1) Drop standing-rule ¶; chapter arc map instead. (2) Drop “persons are not packages” as soft refusal to attribute professed creed. (3) Free profession of package → fair to attribute package values as claimed; rewrite 1800/2600/charges. (4) Anti-blood as *personal moral judgment* ≠ ban on group statistical caution for safekeeping. (5) “Non-political culture” can still be politics by another name. Rewrite queue when scheduled. |
+| S4 / **A9** | Adversary naming, attribution, package diction, base rates | **locked + implemented** 2026-07-24 | HOUSE A9; 2600 `c1676f7`; 1800 `2248884`; dict `5745c84`. House answers ≠ “package”; profession attributes creed; base rates OK for safekeeping; no persons≠packages cant. |
 
 ---
 

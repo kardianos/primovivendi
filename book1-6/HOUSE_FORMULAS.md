@@ -201,9 +201,43 @@
 
 ---
 
+## A9 — Adversary naming, attribution, diction, and base rates (author 2026-07-24)
+
+**Status:** Author-locked. Supersedes plan P2.F1 / H8 wording where it taught soft “persons are not packages” as refusal to attribute professed creeds.
+
+### A9.1 What this book’s answers are called
+
+Call this book’s load-bearing answers **axioms**, **principles**, **answers**, or **core principles** — not a “package.”
+
+**“Package”** (if used at all) names an **adversary** set of premises, texts, and institutions under examination — not the house catechism. Prefer plain names of the adversary system when clearer (constructivism, outcome equity, Islamic political doctrine, etc.). Do not use *package* as a synonym for “principles” or “what someone believes in general.”
+
+### A9.2 Attribution of professed creed
+
+- If a person **freely claims** a creed, church, party, or doctrine as their own, it is fair to treat that system’s content as **what they claim to value**, even when they fail to live it.
+- Do **not** empty a claimed label so that hard package content never attaches to anyone who wears the label.
+- **Court and moral judgment of a person** still rest on evidence of *this* person’s commitments and conduct — not blood as guilt.
+- Drop the slogan **“persons are not packages”** as house cant. Rewrite opens/charges that restate it (esp. `1800`, `2600`, `2200`, `2500`, `2700`).
+
+### A9.3 Blood, surnames, and statistical caution
+
+- Do not collapse into **ethnic grading as moral fate or legal guilt**.
+- Do **not** forbid **group base rates** for **safekeeping** under real limits (age, sex, place, and measured crime patterns by race/origin where published). Ignoring rates is not virtue.
+- Formula sense (plain English, not frozen slogan): Do not convict by blood in court or as moral fate. Do not empty a freely claimed creed of its content. Do not forbid noticing group base rates for survival under limits. Culture that never “does politics” can still be politics when it aligns with an enemy program.
+- “Non-political” personal culture is not automatically innocent of politics: silence and default culture can still be the enemy’s politics in practice.
+
+### A9.4 Chapter form for adversary chapters (`2600`, related)
+
+- Prefer a **chapter arc map** (stops along the way) over a defensive standing-rule paragraph.
+- Grade **named systems** (texts, institutions, public programs) and **professed adherents** by claim + conduct.
+- Temporary allies are not shared axioms — keep that charge without the old persons≠packages cant.
+
+**Downstream:** S4 rewrite passes on `2600`, `1800`, and other chapters that restate the old rule; package-diction hygiene book-wide; plan dictionary later if it re-teaches P2.F1 old form.
+
+---
+
 ## Phase A exit
 
-All of A1–A8 are locked in this file. Orchestrator may launch Phase B (B0 dictionary alignment first), with agents required to read `HOUSE_FORMULAS.md`.
+A1–A8 locked earlier; **A9** added 2026-07-24. Agents in later phases must read this file including A9.
 
 ---
 
@@ -214,3 +248,4 @@ All of A1–A8 are locked in this file. Orchestrator may launch Phase B (B0 dict
 | 2026-07-22 | Phase A complete. A1–A8 locked. A8: staged content then W12; meaning per word first; pictures must earn place; Campbell for clarity, not pastiche. |
 | 2026-07-23 | A6 refined: M4 order (limited → particular → self-interested last); self-interest = own survival/well-being (good, incomplete for social thrival, bridge to particular). Full sense in `plan/dictionary_p1.md` B7–B8. |
 | 2026-07-23 | A6 publish prose: **Variation A4** chosen; **F4** recorded as alternate/fallback. |
+| 2026-07-24 | **A9** locked: package ≠ house principles; profession attributes creed content; base rates for safekeeping OK; drop persons≠packages cant; arc open for 2600. |
