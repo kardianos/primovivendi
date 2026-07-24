@@ -67,7 +67,6 @@ This is not the doctrine that the community owns everything and no one is named.
 
 ### Excellence
 
-%% [MED] [vocab] [author-ruling] "inside the honest scope" (excellence/selection paragraph) uses the phrase the author rejected in 1100. Prefer "same rules for the same position" / "inside a defined membership or role."
 %% [LOW] [justice] Refuses equal outcomes as fix for corrupt selection; fix procedure instead—matches B5/D5. Formation never neutral—good.
 Excellence is doing the work at hand properly, and keeping the capacity to do harder work than today's. Skill under maintenance: nothing more romantic, and nothing less.
 
@@ -75,7 +74,7 @@ A workshop outlives its master only if someone was taught. The forge goes cold o
 
 Formation is never neutral, so the only choice is which formation. Children will be taught by something: by a parent with a standard, by the street, by a screen built to hold their eyes. The slogan that tells a child to find his own truth with no standard is still a formation, usually a weak one, because it trains the child to grade himself by appetite and to call the grading wisdom.
 
-Excellence is not perfectionism. The perfectionist who never finishes because the work is not flawless holds a refined excuse for not working, and a flawed thing finished and then repaired teaches more than a flawless thing imagined. Nor does excellence pretend talent is uniform. Selection can be corrupt, and the honest answer is to fix the procedure so the same rules apply inside the honest scope. The dishonest answers are to rig the picking, or to declare the differences imaginary.
+Excellence is not perfectionism. The perfectionist who never finishes because the work is not flawless holds a refined excuse for not working, and a flawed thing finished and then repaired teaches more than a flawless thing imagined. Nor does excellence pretend talent is uniform. Selection can be corrupt, and the honest answer is to fix the procedure so the same rules apply to every candidate for the same position. The dishonest answers are to rig the picking, or to declare the differences imaginary.
 
 ### Beauty
 

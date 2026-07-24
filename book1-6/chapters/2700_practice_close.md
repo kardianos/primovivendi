@@ -8,7 +8,7 @@ Everything argued in this book has to fit in one hand. The axioms, the tests, th
 ### The precepts matrix
 
 %% [HIGH] [plan-gap] P2.G1 seven filters: reality/correspondence; wrong/incomplete; form/substance; life/cushion vs free-ride; tiers; procedural symmetry; long horizon. All-must-pass. Aligns Part 1 + 2100/2300. **Do not drop form/substance or wrong/incomplete**—they lock anti-constructivist totalism into practice.
-%% [done: C2] [vocab] [plan-order] Filter 1 aligned to merged A1 (real, knowable, consequential; truth as correspondence). "honest scope" in filter 6 left for C3.
+%% [done: C2] [vocab] [plan-order] Filter 1 aligned to merged A1 (real, knowable, consequential; truth as correspondence).
 A serious decision needs a fixed short list, not a mood. Write the list once, before the decision arrives, because the wanting that comes with a live decision edits any list it can reach. Deciding what to plant is beneath the list. Deciding whether to sell the field is not. Six filters, and a seventh for decisions that outlive you. Fail any one, and you stop or you revise. You do not argue a failed filter into a pass.
 
 The filters:
@@ -23,7 +23,7 @@ The filters:
 
 5. **Tiers.** Who is owed first? Duties run outward: self and household, then family, neighbors, community, polity, world. A decision that starves the near rings to feed the far ones has put the far ahead of the near, and the near rings will pay for it, in silence, for years.
 
-6. **Procedural symmetry.** Same rules inside the honest scope? If the decision needs a quiet exemption for your own side, your own child, your own ministry, it fails. The exemption is the decision confessing.
+6. **Procedural symmetry.** Same rules for every person in the same position? If the decision needs a quiet exemption for your own side, your own child, your own ministry, it fails. The exemption is the decision confessing.
 
 7. **Long horizon and scale, for the large decisions.** What if many people hold this for decades? Some failures hide at small scale and short time and stand up only at the size of populations and generations. Ask the question before the generations answer it.
 
@@ -62,7 +62,7 @@ Allow failure in training; do not court failure. The apprentice planes the board
 %% [LOW] [plan-gap] P2.G4 charge: spine; maps/procedure; life; refuse counterfeit justice + weaponized compassion; thrival vs empty stalls; packages not blood; repair/teach/raise/defend/truth. Book ends on construction. Complete. No constructivist house voice.
 Hold the spine. The world is consequential and has natural constraints. Wishes do not move the world; names do not move it; votes do not move it. Work moves it, inside limits, at a cost.
 
-Keep your maps in correspondence with that world, and keep your procedure honest. A map stays honest when its claims are tested and the same tests judge success and failure. A procedure stays honest when the same rules run inside an honest scope, for your side and for the other side, on the good day and on the bad.
+Keep your maps in correspondence with that world, and keep your procedure honest. A map stays honest when its claims are tested and the same tests judge success and failure. A procedure stays honest when the same rules run for your side and for the other side, on the good day and on the bad.
 
 Keep life, continuing and continuing well, as the aim. Every test in this book bends back to that aim: does this help a person, a household, a people survive, and then do more than survive, in order, with skill, building and transmitting?
 

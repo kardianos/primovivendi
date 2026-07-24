@@ -50,12 +50,11 @@ None of this touches the good cushion. Refusing to let a short, bridgable shock 
 ### What harm means under the axioms
 
 %% [LOW] [plan-gap] F3: core harms listed (incl. preventable bridgable death); non-crimes listed (feelings, fair loss, duty, true shame, temporary scarcity); protection/frustration same act. Complete.
-%% [MED] [vocab] [author-ruling] "inside the scope" / later "honest scopes" in justice line—same house-diction seam as Runs 1–2. Prefer plain "same position / defined membership."
 Once the slide is refused, the word harm needs its boundaries drawn again. Core harms, the ones law and custom exist to forbid, are murder, rape, enslavement, theft, fraud, and unprovoked assault; attacks on the shared process of truth and law itself; and, under this book's axiom, preventable death from a short, bridgable catastrophe when the capacity to bridge exists. That last item is what keeps the good cushion inside the definition of harm rather than outside justice altogether.
 
 A longer list of pains is not automatically injustice, and treating that list as injustice dissolves judgment. Hurt feelings. Status lost when a rival earns the rank. Fair competition lost under honest rules. Duty imposed by tiered priority: the child's claim on the parent, the debt's claim on the debtor. A true description that shames: the audit that finds the shortfall, the diagnosis that names the disease. Temporary scarcity while a person is still fed and housed through work or through time-limited help.
 
-The confusion costs because protection and frustration are the same act seen from two sides. The locked door that protects the shopkeeper's stock frustrates the thief's will. One act, one protection, one frustration. Anyone who counts every frustrated will as a wrong has decided, in effect, against every protection, since the thief's ledger and the shopkeeper's cannot both be balanced. Under procedural symmetry, the question is never whether someone was harmed. The question is whether the harm was a just consequence under rules that apply to everyone inside the scope.
+The confusion costs because protection and frustration are the same act seen from two sides. The locked door that protects the shopkeeper's stock frustrates the thief's will. One act, one protection, one frustration. Anyone who counts every frustrated will as a wrong has decided, in effect, against every protection, since the thief's ledger and the shopkeeper's cannot both be balanced. Under procedural symmetry, the question is never whether someone was harmed. The question is whether the harm was a just consequence under rules that apply to everyone in the same position.
 
 ### The reactionary false fix
 
