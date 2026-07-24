@@ -38,14 +38,14 @@ note: Nested bullets only below this title block. No section headers. No prose p
 
 - Justice counterfeits [P2.C]
   - Three things called fair [P2.C1]
-    - Procedural symmetry: same rules within honest scope (keep)
+    - Procedural symmetry: same rules for every person in the same position (keep)
     - Outcome symmetry / equity: same end-states; disparity proves injustice (refuse as definition of justice)
     - Value symmetry: eye for eye / equal return in kind (refuse as core justice)
   - Rule of law vs rule by man [P2.C2]
     - Published process including rulers
     - Jersey exemption is rule by man
   - Link to marble-self / lottery metaphysics [P2.C3, B8]
-  - Charge: name which “fair” is demanded; prefer process in honest scopes [P2.C4]
+  - Charge: name which “fair” is demanded; prefer same process for the same position [P2.C4]
 
 - Misused compassion and false foundations [P2.D]
   - Compassion used to block enforcement / reallocate harm [P2.D1]

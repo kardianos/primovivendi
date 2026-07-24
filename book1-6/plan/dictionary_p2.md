@@ -110,7 +110,7 @@
 ### P2.C1 Three things called fair
 | Name | Claim | Problem under Part 1 |
 |------|--------|----------------------|
-| **Procedural symmetry** | Same rules within honest scope | Load-bearing (B5) |
+| **Procedural symmetry** | Same rules for every person in the same position | Load-bearing (B5) |
 | **Outcome symmetry / equity** | Same end-states; disparity proves injustice | Requires unequal procedure; erases causes; breeds equalizing class |
 | **Value symmetry** | Equal return in kind (eye for eye) | Backward ledger; feud; does not build forward cooperation |
 
@@ -125,7 +125,7 @@
 
 ### P2.C4 Charge
 - Name which “fair” is being demanded.
-- Prefer same process in honest scopes; refuse feud justice and forced sameness of results as the definition of justice.
+- Prefer same process for everyone in the same position; refuse feud justice and forced sameness of results as the definition of justice.
 
 ---
 
@@ -264,7 +264,7 @@ After packages are clear, practical alliance mechanics (Part 1 H3 + full note):
   3. Form vs substance — redesign costume or deny constraint? (P2.A)  
   4. Life and thrival — continue and continue well? shock cushion vs lifestyle free-ride? (B3, F)  
   5. Tiers — who is owed first? (B4)  
-  6. Procedural symmetry — same rules in honest scope? (B5)  
+  6. Procedural symmetry — same rules for every person in the same position? (B5)  
   7. Optional seventh: long-horizon / scale — what if many hold this for decades? (H10)  
 - **All-must-pass.** Forced stretch to get a pass is information: desire is driving.
 

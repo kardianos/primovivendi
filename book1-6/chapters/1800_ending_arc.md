@@ -13,8 +13,7 @@ A package is a named set of premises, texts, and institutions. Persons are not p
 
 <!-- arc: H8 | point: conflict sits at B1 and B2, and at B5 where procedure becomes a power tool -->
 %% [CRIT] [constructivist] [truth] Load-bearing for the whole book's anti-constructivist stake: social constructivism is named as an **external package**, not house method. Steelman (forms built by hands—law, money, rank) then refuse: reality/truth as products of power with no world veto conflicts B1–B2; procedure as power tool conflicts B5. Bridge test is correspondence. This is the correct placement of form/substance half-truth vs totalism. Do not soften "the package goes further" or move this into the axioms as "our view of truth."
-%% [MED] [vocab] [author-ruling] "honest scope" again in constructivism and later dossiers/charge. Same house diction pass.
-**Social constructivism.** Much of what people call natural is built by hands: law, money, rank, manners. Language decides which descriptions win, and power decides whose language counts. So runs the starting point, and half of it is true. The package goes further: reality and truth themselves are products of power, language, and group position, and the world holds no independent veto. The conflict sits at the first two axioms. A bridge either carries the load or drops the crew, and no committee votes on the outcome. When the package treats procedure as one more power tool, same rules within an honest scope die with honest procedure.
+**Social constructivism.** Much of what people call natural is built by hands: law, money, rank, manners. Language decides which descriptions win, and power decides whose language counts. So runs the starting point, and half of it is true. The package goes further: reality and truth themselves are products of power, language, and group position, and the world holds no independent veto. The conflict sits at the first two axioms. A bridge either carries the load or drops the crew, and no committee votes on the outcome. When the package treats procedure as one more power tool, same rules for everyone in the same position die with honest procedure.
 
 <!-- arc: H8 | point: conflict begins only where unbound will overrides what creation shows -->
 %% [LOW] [plan-gap] Divine constructivism / pure will: steelman, occasionalism qualifier (habit steady → craft still runs), conflict only where will overrides failed test. Matches H8 + M1/H9. Not anti-theist smear.
@@ -30,7 +29,7 @@ A package is a named set of premises, texts, and institutions. Persons are not p
 
 <!-- arc: H8 | point: conflict at B5 (rules bent toward matched ends) and at B2 (causes of disparity settled before inquiry) -->
 %% [HIGH] [justice] Outcome equity named as external; steelman (rigged games real); conflict B5 + B2. Repairs 1100's missing refuse by placing the refuse here as package. Keep aligned with 1500 justice block.
-**Outcome equity as justice.** When the same group loses decade after decade, honest procedure should have scattered the losses by now; sometimes the rules really are rigged, and neutral wording hides the rigging. So the starting point runs. The package takes the suspicion as proof: unequal results show unjust rules, and its holders must bend procedure until outcomes match. This book calls that outcome symmetry, a rival justice in which same end-states are demanded and disparity is treated as proof of injustice. The conflict sits at procedural symmetry, where the package trades same rules inside an honest scope for rule-bending toward matched ends, and at correspondence, because the causes of any disparity are questions of fact and the package settles them before the inquiry begins.
+**Outcome equity as justice.** When the same group loses decade after decade, honest procedure should have scattered the losses by now; sometimes the rules really are rigged, and neutral wording hides the rigging. So the starting point runs. The package takes the suspicion as proof: unequal results show unjust rules, and its holders must bend procedure until outcomes match. This book calls that outcome symmetry, a rival justice in which same end-states are demanded and disparity is treated as proof of injustice. The conflict sits at procedural symmetry, where the package trades same rules for everyone in the same position for rule-bending toward matched ends, and at correspondence, because the causes of any disparity are questions of fact and the package settles them before the inquiry begins.
 
 <!-- arc: H8 | point: conflict at B7; virtue is trained and maintained, not factory settings -->
 %% [HIGH] [anthropology] Blank slate / perfectibility / natural goodness named as external against B7. This is the refuse 1100 publish text dropped. Keep; consider one-line callback from 1100 human-nature paragraph to this dossier name.
@@ -127,7 +126,7 @@ Labels do not predict cooperation; premises do. Two people wearing one jersey ca
 
 - correspondence to reality, or truth as an instrument of power;
 - life as the affirmed good, or life as optional;
-- same rules within honest scopes, or outcomes bent to match;
+- same rules for everyone in the same position, or outcomes bent to match;
 - tiered priority under human limits, or one universal action-duty;
 - reciprocal citizenship under law, or unbound sacral or party will;
 - the particular chain of you, your family, their lineage, and your situation, or the generic person;
@@ -143,7 +142,7 @@ This book is not ultimately for democracy, or a republic, or a monarchy, or a pr
 ### What we are for
 
 %% [LOW] [plan-gap] H7: life; personal list; social list; procedural justice; clear sight four habits; construction close (clean floor… make something worth handing on). Ends on construction not villain tour. Plan-complete.
-%% [done: C2] [plan-order] [truth] Floor restatement aligned to merged A1. Justice "inside honest scopes" left for C3.
+%% [done: C2] [plan-order] [truth] Floor restatement aligned to merged A1.
 %% [LOW] [constructivist] Whole ending treats constructivism as external package and instrument-truth as alliance mechanism. **No house-voice constructivism.** This chapter is the planned place for that fight—and it lands correctly.
 What we are for is short enough to say plainly. Life, and lives that continue well, this generation and the next.
 
@@ -151,6 +150,6 @@ For persons: align with truth; take responsibility as creating and maintaining; 
 
 For the orders we share: law as the same process for all; honest speech, with fraud treated as an attack on process; property and contract; the family as the first school of formation; education that forms on purpose; borders and honest membership that make a real we; defense against enemies named by acts and programs; merit under honest procedure; experiment, expand what works, and kill what fails; cushions that bridge a shock, never a way of life; plural spaces under a shared testable floor.
 
-Justice, here, is procedural symmetry inside honest scopes. Clear sight, here, is four habits: name the packages, test what is testable, leave the divine unsettled by us rather than fake-settled, and watch the long horizon.
+Justice, here, is procedural symmetry: the same rules for everyone in the same position. Clear sight, here, is four habits: name the packages, test what is testable, leave the divine unsettled by us rather than fake-settled, and watch the long horizon.
 
 The last word is construction. Clean the floor. Keep the skill. Raise the child. Tell the truth. Hold the line. Make something worth handing on.

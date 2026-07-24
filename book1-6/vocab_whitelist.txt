@@ -9,7 +9,7 @@ self-interested: oriented to own survival and near kin; descriptive wiring, not 
 not naturally good: virtue is trained and maintained, not factory settings (B7)
 tiered priority: duties ranked self and household, then family, neighbors, community, polity, world (B4)
 scope: a role, membership, or jurisdiction inside which procedure applies (B4)
-procedural symmetry: same rules and methods of judgment within an honest scope (B5)
+procedural symmetry: same rules and methods of judgment for every person in the same position (B5)
 outcome symmetry: rival justice; same end-states, disparity treated as proof of injustice
 value symmetry: rival justice; equal return in kind; feud ledger
 discovered: arrangement that reappears under independent conditions because the problem remains (substance)

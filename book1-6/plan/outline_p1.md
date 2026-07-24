@@ -42,7 +42,7 @@ note: Nested bullets only below this title block. No section headers. No prose p
     - Near duties stronger; outer real but weaker
     - Unscoped action-love as theater
   - Procedural symmetry [B5]
-    - Same rules within honest scope
+    - Same rules for every person in the same position
     - Not equal outcomes; not feud ledger
     - Domains: law, inquiry, conduct, generations (brief)
   - Particular person plant only [B8]
@@ -152,7 +152,7 @@ note: Nested bullets only below this title block. No section headers. No prose p
   - Education always forms; aim it [E6]
   - Scopes, tiers, and procedural symmetry in social form (develop fully after E0 transition)
     - How far claims reach under limits and real chains
-    - Same rules within honest scopes; not outcome sameness; not feud ledger
+    - Same rules for every person in the same position; not outcome sameness; not feud ledger
   - Borders and membership as scope [E7]
     - Defined “we” for cushions, defense, law
     - Membership for real peoples in situation—not a global pool of generic persons [E0, E7]
@@ -241,7 +241,7 @@ note: Nested bullets only below this title block. No section headers. No prose p
     - Life and thriving this generation and the next
     - Personal virtues listed short (create-and-maintain; allow failure without courting it)
     - Social virtues listed short (shock bridges; plural spaces; honest membership)
-    - Procedural justice in honest scopes
+    - Procedural justice: same rules for every person in the same position
     - Clear sight: packages named; testable tested; divine not fake-settled; long horizon watched
     - Final stress: construction over villain tour
       - Clean the floor
