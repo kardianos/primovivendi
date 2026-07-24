@@ -10,10 +10,10 @@
 | Field | Value |
 |-------|--------|
 | **Status** | **Waiting on human** |
-| **Waiting on** | Human — gate **G-C** |
-| **Active pass** | Phase C complete (C1–C4); awaiting G-C |
+| **Waiting on** | Human — gate **G-C** (after C-rework-1) |
+| **Active pass** | Phase C + C-rework-1 done; awaiting G-C |
 | **Active role** | — |
-| **Next action** | Human reviews Phase C (floors, world-as-judge, no honest-scope). Say ***Phase C accepted*** or rework. No D until accepted. |
+| **Next action** | Human reviews 1500 rework (+ Phase C). Say ***Phase C accepted*** or further rework. No D until accepted. |
 | **F loop round** | 0 (not started) |
 | **Last updated** | 2026-07-24 |
 
