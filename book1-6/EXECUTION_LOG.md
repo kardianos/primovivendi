@@ -10,10 +10,10 @@
 | Field | Value |
 |-------|--------|
 | **Status** | **Waiting on human** |
-| **Waiting on** | Human — gate **G-D8-cal** (and optional skim of A9 rewrites) |
-| **Active pass** | A9 rewrite done; D8-1000/1100 still await voice calibration |
+| **Waiting on** | Human — skim A9b (rival/blood-guard) + still **G-D8-cal** on 1000/1100 W12 |
+| **Active pass** | A9b done |
 | **Active role** | — |
-| **Next action** | Human: accept A9 chapter rewrites if ready; still need ***1000/1100 W12 accepted*** or rework for bulk D8. |
+| **Next action** | Human review of shortened adversary prose; ***1000/1100 W12 accepted*** or rework when ready. |
 | **F loop round** | 0 (not started) |
 | **Last updated** | 2026-07-24 |
 
