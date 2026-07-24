@@ -10,10 +10,10 @@
 | Field | Value |
 |-------|--------|
 | **Status** | **Waiting on human** |
-| **Waiting on** | Human — skim Iran-narrative + G-D8-cal still open |
-| **Active pass** | Iran-narrative done (`6db8e0d`) |
+| **Waiting on** | Human — gate **G-E** |
+| **Active pass** | Phase D + E-flow-2/3 done (E-flow-1 chapter-internal deferred) |
 | **Active role** | — |
-| **Next action** | Human accept Iran rewrite or rework; still ***1000/1100 W12 accepted*** for bulk D8. |
+| **Next action** | Human reviews arcs/spine. Say ***Phase E accepted*** (enter F / Pangram) or rework / request full E-flow-1. |
 | **F loop round** | 0 (not started) |
 | **Last updated** | 2026-07-24 |
 
@@ -27,7 +27,7 @@
 | **G-B1** after B1 `1100` | **passed** | 2026-07-23 — Author: *B1 accepted* (continue). Also confirmed Q2 interchangeable-unit limb + Q4 S1-D for B2. |
 | **G-B** after B2–B4 | **passed** | 2026-07-24 — Author: *Phase B accepted*; 1500 variation bullets accepted; 2600 translation tag OK until publish |
 | **G-C** after C1–C4 | **passed** | 2026-07-24 — Author: *Phase C accepted* |
-| **G-D8-cal** after D8 on 1000+1100 | **waiting on human** | 2026-07-24 — D8-1000 `66e4752`; D8-1100 `180edff`; `./publish.fish` **exit 0**. Unstick: *1000/1100 W12 accepted* or rework |
+| **G-D8-cal** after D8 on 1000+1100 | **passed** | 2026-07-24 — Author: continue next phase (Iran OK; proceed bulk D8) |
 | **G-E** after first full E | pending | **must** `./publish.fish` |
 | **G-F** F-loop tone | pending | Pangram + **must** `./publish.fish` if human reads full book |
 | **G-ship** repair complete | pending | **must** `./publish.fish` |
@@ -84,6 +84,8 @@
 | 2026-07-24 | **A9b** strengthen | Author | Rival banned for epistemology; cut blood-guard; profession = hold to announced content | HOUSE A9 |
 | 2026-07-24 | **A9b-core** | Writer | 1800/2600 rival out; blood-guard cut; short profession | `49a89d9` |
 | 2026-07-24 | **A9b-rest** | Writer | 1200/1500/2000/2200/2300/2500/2700 | `4a408f0` |
+| 2026-07-24 | **Iran-narrative** | Writer | Tehran = justice programs / shared target / purge; not survival under Shah; 2700 survival coalition decoupled from Iran | `6db8e0d` |
+| 2026-07-24 | Iran + G-D8-cal | Author | Iran OK; *continue next phase* → bulk D8 | — |
 
 ---
 
@@ -91,15 +93,13 @@
 
 | Order | Pass ID | Role | Notes |
 |-------|---------|------|--------|
-| ~~B0–C4~~ | — | — | **done**; G-B + G-C **passed** |
-| ~~D1–D2, D5–D6~~ | — | Editor | **done** (mechanical) |
-| ~~D8-1000~~ | D8-1000 | Editor | **done** `66e4752` |
-| ~~D8-1100~~ | D8-1100 | Editor | **done** `180edff` |
-| — | Human | **G-D8-cal** waiting |
-| (opt) | D3/D4/D7 | Editor | After calibration if needed |
-| next | D8 rest | Editor | One chapter per agent after G-D8-cal |
-| 10 | E-flow-1…3 | Editor | Then **G-E** + publish |
-| 11 | F1 / F2… | Orchestrator + Editor | Pangram; loop until **G-F** / ship |
+| ~~B0–C4~~ | — | — | **done** |
+| ~~D1–D2, D5–D6~~ | — | Editor | **done** |
+| ~~D8-1000/1100~~ | — | Editor | **done**; G-D8-cal **passed** |
+| 1 | **D8-1200** | Editor | **in progress** |
+| 2 | D8-1300…2700 | Editor | One chapter per agent |
+| 3 | E-flow-1…3 | Editor | Then **G-E** |
+| 4 | F1 / F2… | Orchestrator + Editor | Pangram loop |
 
 ---
 
@@ -132,7 +132,7 @@ Unstick: "1000/1100 W12 accepted" OR rework list
 
 ## Orchestrator notes
 
-- **G-C passed.** Mechanical D + D8-1000/1100 done. **G-D8-cal hard stop.**  
-- After *1000/1100 W12 accepted*: remaining D8 one chapter per agent; optional D3/D4/D7.  
+- **G-D8-cal passed** 2026-07-24. Bulk D8 in progress (one chapter per Editor).  
+- HOUSE A9 in force: no rival-for-epistemology; profession holds to announced content; package ≠ house principles; Iran = justice programs not survival template.  
 - 2600 Qur'an edition tag: leave until publish.  
 - Commits: `book1-6/` only; message prefix `book1-6: `.  
