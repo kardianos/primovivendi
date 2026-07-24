@@ -10,11 +10,11 @@
 | Field | Value |
 |-------|--------|
 | **Status** | **Waiting on human** |
-| **Waiting on** | Human — gate **G-E** |
-| **Active pass** | Phase D + E-flow-2/3 done (E-flow-1 chapter-internal deferred) |
+| **Waiting on** | Human — gate **G-F** (tone) |
+| **Active pass** | F1 + F2-r1 on 1100/1200 done |
 | **Active role** | — |
-| **Next action** | Human reviews arcs/spine. Say ***Phase E accepted*** (enter F / Pangram) or rework / request full E-flow-1. |
-| **F loop round** | 0 (not started) |
+| **Next action** | Human: ***F round 1 accepted*** / ***F done / ship tone*** or list chapters for more F2. JSON: `build/pangram/f1_round1.json` |
+| **F loop round** | 1 |
 | **Last updated** | 2026-07-24 |
 
 ---
@@ -28,7 +28,7 @@
 | **G-B** after B2–B4 | **passed** | 2026-07-24 — Author: *Phase B accepted*; 1500 variation bullets accepted; 2600 translation tag OK until publish |
 | **G-C** after C1–C4 | **passed** | 2026-07-24 — Author: *Phase C accepted* |
 | **G-D8-cal** after D8 on 1000+1100 | **passed** | 2026-07-24 — Author: continue next phase (Iran OK; proceed bulk D8) |
-| **G-E** after first full E | **waiting on human** | 2026-07-24 — bulk D8 done; E-flow-2 `002f418`; E-flow-3 protect GREEN; `./publish.fish` exit 0. E-flow-1 chapter-internal deferred (optional). Unstick: *Phase E accepted* or rework |
+| **G-E** after first full E | **passed** | 2026-07-24 — Author: *continue* → Phase F |
 | **G-F** F-loop tone | pending | Pangram + **must** `./publish.fish` if human reads full book |
 | **G-ship** repair complete | pending | **must** `./publish.fish` |
 
