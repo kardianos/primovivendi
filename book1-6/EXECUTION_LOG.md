@@ -27,7 +27,7 @@
 | **G-B1** after B1 `1100` | **passed** | 2026-07-23 — Author: *B1 accepted* (continue). Also confirmed Q2 interchangeable-unit limb + Q4 S1-D for B2. |
 | **G-B** after B2–B4 | **passed** | 2026-07-24 — Author: *Phase B accepted*; 1500 variation bullets accepted; 2600 translation tag OK until publish |
 | **G-C** after C1–C4 | **passed** | 2026-07-24 — Author: *Phase C accepted* |
-| **G-D8-cal** after D8 on 1000+1100 | pending | **must** `./publish.fish` |
+| **G-D8-cal** after D8 on 1000+1100 | **waiting on human** | 2026-07-24 — D8-1000 `66e4752`; D8-1100 `180edff`; `./publish.fish` **exit 0**. Unstick: *1000/1100 W12 accepted* or rework |
 | **G-E** after first full E | pending | **must** `./publish.fish` |
 | **G-F** F-loop tone | pending | Pangram + **must** `./publish.fish` if human reads full book |
 | **G-ship** repair complete | pending | **must** `./publish.fish` |
@@ -75,6 +75,8 @@
 | 2026-07-24 | **D5** quotes | Editor | 2500 quote hygiene; 2600 edition tag open | `437b9b4` |
 | 2026-07-24 | **D6** verify tags | Editor | Only 2600 Qur'an edition remains open | no commit |
 | 2026-07-24 | **D8-1000** W12 | Editor | Campbell style on questions; Q list sense kept | `66e4752` |
+| 2026-07-24 | **D8-1100** W12 | Editor | Campbell style on axioms; refuses preserved | `180edff` |
+| 2026-07-24 | G-D8-cal build | Orchestrator | `./publish.fish` exit 0 | — |
 
 ---
 
@@ -84,11 +86,11 @@
 |-------|---------|------|--------|
 | ~~B0–C4~~ | — | — | **done**; G-B + G-C **passed** |
 | ~~D1–D2, D5–D6~~ | — | Editor | **done** (mechanical) |
-| (opt) | D3/D4/D7 | Editor | Deferred until after G-D8-cal unless needed |
 | ~~D8-1000~~ | D8-1000 | Editor | **done** `66e4752` |
-| 6 | **D8-1100** | Editor | **in progress** W12 |
-| 8 | D8-1000, D8-1100 | Editor | Then **G-D8-cal** + publish |
-| 9 | D8 rest | Editor | One chapter per agent |
+| ~~D8-1100~~ | D8-1100 | Editor | **done** `180edff` |
+| — | Human | **G-D8-cal** waiting |
+| (opt) | D3/D4/D7 | Editor | After calibration if needed |
+| next | D8 rest | Editor | One chapter per agent after G-D8-cal |
 | 10 | E-flow-1…3 | Editor | Then **G-E** + publish |
 | 11 | F1 / F2… | Orchestrator + Editor | Pangram; loop until **G-F** / ship |
 
@@ -96,7 +98,17 @@
 
 ## Waiting / blocked detail
 
-_None (Phase D running)._
+```text
+Waiting on: human
+Gate or pass: G-D8-cal (after D8 on 1000 + 1100)
+What to review:
+  - Voice/cadence of 1000 (questions) and 1100 (axioms) after W12
+  - Q list still catechism-true; charge examine/weigh
+  - 1100 refuses intact; reality paragraph protected; no new doctrine
+  - Build: ../release/lua-book.pdf (.epub / .html)
+Commands: D8-1000 66e4752; D8-1100 180edff; ./publish.fish exit 0
+Unstick: "1000/1100 W12 accepted" OR rework list
+```
 
 ---
 
@@ -112,6 +124,7 @@ _None (Phase D running)._
 
 ## Orchestrator notes
 
-- **G-C passed** 2026-07-24. Phase D: D1 em-dash → D2 vocab → … → D8-1000/1100 then **G-D8-cal**.  
+- **G-C passed.** Mechanical D + D8-1000/1100 done. **G-D8-cal hard stop.**  
+- After *1000/1100 W12 accepted*: remaining D8 one chapter per agent; optional D3/D4/D7.  
 - 2600 Qur'an edition tag: leave until publish.  
 - Commits: `book1-6/` only; message prefix `book1-6: `.  
