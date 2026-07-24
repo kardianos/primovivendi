@@ -26,7 +26,7 @@
 | **G-A** Phase A / HOUSE_FORMULAS | **passed** | 2026-07-23 — Phase 0 approved; A1–A8 locked in `HOUSE_FORMULAS.md` |
 | **G-B1** after B1 `1100` | **passed** | 2026-07-23 — Author: *B1 accepted* (continue). Also confirmed Q2 interchangeable-unit limb + Q4 S1-D for B2. |
 | **G-B** after B2–B4 | **passed** | 2026-07-24 — Author: *Phase B accepted*; 1500 variation bullets accepted; 2600 translation tag OK until publish |
-| **G-C** after C1–C4 | pending | **must** `./publish.fish` before human review |
+| **G-C** after C1–C4 | **waiting on human** | 2026-07-24 — C1–C4 done; `./publish.fish` **exit 0**. Unstick: *Phase C accepted* or rework |
 | **G-D8-cal** after D8 on 1000+1100 | pending | **must** `./publish.fish` |
 | **G-E** after first full E | pending | **must** `./publish.fish` |
 | **G-F** F-loop tone | pending | Pangram + **must** `./publish.fish` if human reads full book |
@@ -63,6 +63,8 @@
 | 2026-07-24 | **C1** world-as-judge | Writer | Already scoped (1200/1400); no bare maxims | no commit |
 | 2026-07-24 | **C2** floor lists | Writer | E12/2700/1800 merged A1; 1500 variation verify stripped | `60343af` |
 | 2026-07-24 | **C3** honest-scope | Writer | Phrase gone from chapters/; whitelist/plan cleaned | `d07bff2` |
+| 2026-07-24 | **C4** blacklist | Writer | Publish body already clean | no commit |
+| 2026-07-24 | G-C build | Orchestrator | `./publish.fish` exit 0; hard stop Phase C review | — |
 
 ---
 
@@ -70,17 +72,13 @@
 
 | Order | Pass ID | Role | Notes |
 |-------|---------|------|--------|
-| ~~1~~ | ~~B0~~ | — | **done** |
-| ~~1~~ | ~~B1~~ | Writer | **done** — G-B1 **passed** |
-| ~~2~~ | ~~B2~~ | Writer | **done** `566f8b9` |
-| ~~3~~ | ~~B3~~ | Writer | **done** (no file changes) |
-| ~~4~~ | ~~B4~~ | Editor (RO) | **done GREEN** |
-| ~~5~~ | — | Human | **G-B passed** |
-| ~~6~~ | ~~C1~~ | Writer | **done** (no changes) |
-| ~~7~~ | ~~C2~~ | Writer | **done** `60343af` |
-| ~~8~~ | ~~C3~~ | Writer | **done** `d07bff2` |
-| 9 | **C4** | Writer | **in progress** thrival/blacklist |
-| 7 | D1–D7 | Editor | Mechanical / judgment |
+| ~~B0–B4~~ | — | — | **done**; G-B **passed** |
+| ~~C1~~ | C1 | Writer | **done** (no changes) |
+| ~~C2~~ | C2 | Writer | **done** `60343af` |
+| ~~C3~~ | C3 | Writer | **done** `d07bff2` |
+| ~~C4~~ | C4 | Writer | **done** (no changes) |
+| — | Human | **G-C** waiting |
+| next | D1–D7 | Editor | After G-C |
 | 8 | D8-1000, D8-1100 | Editor | Then **G-D8-cal** + publish |
 | 9 | D8 rest | Editor | One chapter per agent |
 | 10 | E-flow-1…3 | Editor | Then **G-E** + publish |
@@ -90,7 +88,18 @@
 
 ## Waiting / blocked detail
 
-_None (Phase C running)._
+```text
+Waiting on: human
+Gate or pass: G-C (after C1–C4)
+What to review:
+  - C1: world-as-judge already scoped (no edits needed)
+  - C2: floor lists merged A1 (1500 E12, 2700 filter 1, 1800 grade line); variation verify stripped
+  - C3: "honest scope" gone from chapters/ (+ whitelist/plan)
+  - C4: thrival/blacklist publish clean
+  - Build: ../release/lua-book.pdf (.epub / .html)
+Commands: ./publish.fish exit 0 (2026-07-24)
+Unstick: "Phase C accepted" OR rework list
+```
 
 ---
 
@@ -106,8 +115,7 @@ _None (Phase C running)._
 
 ## Orchestrator notes
 
-- **G-B passed** 2026-07-24. Phase C in progress.  
-- 1500 variation verify: author accepted — strip tag in C2 or micro pass.  
+- **G-B passed.** Phase C complete. **G-C hard stop.**  
+- After *Phase C accepted*: Phase D (D1–D7 mechanical, then D8 W12).  
 - 2600 Qur'an edition tag: leave until publish.  
-- After C1–C4: `./publish.fish` → **G-C**.  
 - Commits: `book1-6/` only; message prefix `book1-6: `.  
