@@ -119,6 +119,7 @@ Unstick: "1000/1100 W12 accepted" OR rework list
 | S1 | Q4 catechism surface | **locked** | **S1-D:** When a man cannot give himself fully to every claim at once, and the claims on him differ in urgency and nearness, what should govern how he spends himself? |
 | S2 | Justice three-fork in 1100 | **locked** | **S2-B:** positive procedure + short refuse (not end-states; not return in kind); full fork later |
 | S3 | 1000 Q1/Q2 | **locked** | **Q1:** keep current publish (objectively knowable…). **Q2:** edit to ask non-genericity without saying “particular” (interchangeable-unit limb); do not lead questions with house answers. B2 implements. |
+| S4 | Persons ≠ packages / 2600 open | **locked** 2026-07-24 | (1) Drop standing-rule ¶; chapter arc map instead. (2) Drop “persons are not packages” as soft refusal to attribute professed creed. (3) Free profession of package → fair to attribute package values as claimed; rewrite 1800/2600/charges. (4) Anti-blood as *personal moral judgment* ≠ ban on group statistical caution for safekeeping. (5) “Non-political culture” can still be politics by another name. Rewrite queue when scheduled. |
 
 ---
 
