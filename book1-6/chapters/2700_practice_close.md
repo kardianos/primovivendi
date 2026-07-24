@@ -59,7 +59,7 @@ Allow failure in training; do not court failure. The apprentice planes the board
 
 ### The closing charge
 
-%% [LOW] [plan-gap] P2.G4 charge: spine; maps/procedure; life; refuse counterfeit justice + weaponized compassion; thrival vs empty stalls; packages not blood; repair/teach/raise/defend/truth. Book ends on construction. Complete. No constructivist house voice.
+%% [LOW] [plan-gap] P2.G4 charge: spine; maps/procedure; life; refuse counterfeit justice + weaponized compassion; thrival vs empty stalls; name systems / profession / not blood; repair/teach/raise/defend/truth. Book ends on construction. Complete. No constructivist house voice.
 Hold the spine. The world is consequential and has natural constraints. Wishes do not move the world; names do not move it; votes do not move it. Work moves it, inside limits, at a cost.
 
 Keep your maps in correspondence with that world, and keep your procedure honest. A map stays honest when its claims are tested and the same tests judge success and failure. A procedure stays honest when the same rules run for your side and for the other side, on the good day and on the bad.
@@ -71,6 +71,6 @@ Refuse the counterfeits. Justice is procedural symmetry; when someone demands fa
 <!-- arc: G4 | point: the stall is the maintained chain; learn from both the kept chain and the broken one -->
 Learn from the peoples who thrived under limits, and from the ruptures that emptied the stalls. A market stall is a chain kept daily: the miller's cart came through the rain, the baker woke in the dark, the road stayed safe, the price named yesterday is honored today. Break the procedure at any link and the stall can empty in a season, and no decree fills it. You have read the harbor state that treated the world as owing it nothing and built order under scarcity. You have read the empire that chose rupture over repair and graded out in famine and terror. Grade every proposal you meet by one question: which of those two does it walk toward?
 
-Name packages; do not hunt blood. A package is a set of premises, texts, and institutions; a package can be named, tested, and refused. Persons are not packages. Judge the man in front of you by his commitments and his conduct, never by his surname. This discipline is not politeness. It is accuracy. Blood cannot hold a premise, and any blood can carry one.
+Name adversary systems; do not hunt blood. A doctrine or program is a set of premises, texts, and institutions; it can be named, tested, and refused. Free profession of a creed attaches that creed's content as claimed value, even when the speaker fails it. Judge the man in front of you by his commitments and his conduct, never by his surname alone. This discipline is not politeness. It is accuracy. Blood cannot hold a premise, and any blood can carry one.
 
 Then do the work. Repair what is broken in your reach. Teach what you know to whoever will hold it. Raise the children in order and in skill. Defend your own, in the order the tiers set. Tell the truth, at the price truth costs. The world answers. Make your answer a maintained thing.

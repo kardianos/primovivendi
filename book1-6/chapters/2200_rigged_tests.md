@@ -37,14 +37,14 @@ Name the move plainly: procedural asymmetry at the level of reasoning itself. Th
 
 ### A narrow test for the "not real X" defense
 
-%% [LOW] [plan-gap] P2.B3: central texts + classical practice; yes/no branches; sacred and secular same; persons ≠ packages. Complete.
+%% [LOW] [plan-gap] P2.B3: central texts + classical practice; yes/no branches; sacred and secular same; A9 profession + conduct, not blood. Complete.
 The "not real X" defense can be checked, and the test is narrow on purpose. Do not hold a seminar on the true meaning of the package. Ask one question: do the system's own central texts and its classical practice, read under the system's own rules of reading, support the conduct in question?
 
 If the answer is yes, the problem sits in the premises or the tradition, not only in bad apples. The argument then belongs against the package itself, and blaming a few bad members is its own evasion.
 
 If the answer is no, a second thing follows. The recognized authorities of that system should say so: consistently, across cases, under the reading rules their own tradition honors. One ambiguous statement from one friendly interpreter is not that. And silence is information. When authorities who readily condemn smaller deviations will not condemn this conduct under their own rules, the silence marks where the conduct stands in the package.
 
-The test is the same for sacred and secular packages. A church has central texts, classical practice, and recognized interpreters. So do a party, a movement, and a school of economics. Run the same question through the same steps in both houses. And keep the standing rule in view: persons are not packages. This test judges texts, institutions, and demonstrated commitments. The test never judges surnames.
+The test is the same for sacred and secular systems. A church has central texts, classical practice, and recognized interpreters. So do a party, a movement, and a school of economics. Run the same question through the same steps in both houses. Free profession of a creed attaches its texts and practice as claimed value; this test grades those texts, institutions, and demonstrated commitments. It does not convict by surname or by blood alone.
 
 ### Free speech as equipment for truth-seeking
 
