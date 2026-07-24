@@ -10,10 +10,10 @@
 | Field | Value |
 |-------|--------|
 | **Status** | **Waiting on human** |
-| **Waiting on** | Human — gate **G-C** |
-| **Active pass** | Phase C + reworks; awaiting G-C |
+| **Waiting on** | Human — gate **G-D8-cal** |
+| **Active pass** | D8-1000 + D8-1100 done; awaiting voice calibration |
 | **Active role** | — |
-| **Next action** | Human: ***Phase C accepted*** or further rework. No D until accepted. |
+| **Next action** | Human reviews W12 voice on 1000+1100. Say ***1000/1100 W12 accepted*** or rework. No bulk D8 until accepted. |
 | **F loop round** | 0 (not started) |
 | **Last updated** | 2026-07-24 |
 
@@ -26,7 +26,7 @@
 | **G-A** Phase A / HOUSE_FORMULAS | **passed** | 2026-07-23 — Phase 0 approved; A1–A8 locked in `HOUSE_FORMULAS.md` |
 | **G-B1** after B1 `1100` | **passed** | 2026-07-23 — Author: *B1 accepted* (continue). Also confirmed Q2 interchangeable-unit limb + Q4 S1-D for B2. |
 | **G-B** after B2–B4 | **passed** | 2026-07-24 — Author: *Phase B accepted*; 1500 variation bullets accepted; 2600 translation tag OK until publish |
-| **G-C** after C1–C4 | **waiting on human** | 2026-07-24 — C-rework-1 `a688692` (1500); rebuild OK. Unstick: *Phase C accepted* or rework |
+| **G-C** after C1–C4 | **passed** | 2026-07-24 — Author: *Phase C accepted* |
 | **G-D8-cal** after D8 on 1000+1100 | pending | **must** `./publish.fish` |
 | **G-E** after first full E | pending | **must** `./publish.fish` |
 | **G-F** F-loop tone | pending | Pangram + **must** `./publish.fish` if human reads full book |
@@ -69,6 +69,12 @@
 | 2026-07-24 | G-C rebuild | Orchestrator | `./publish.fish` exit 0 after C-rework-1 | — |
 | 2026-07-24 | **C-rework-2** Newton line | Writer | Admit alchemy; credit for what corresponds | `df46301` |
 | 2026-07-24 | **C-rework-3** Newton short | Writer | “incomplete, not incorrect inside its domain”; drop alchemy digression | `76b77d9` |
+| 2026-07-24 | **G-C** decision | Author | *Phase C accepted* | — |
+| 2026-07-24 | **D1** em-dash | Editor | 1 publish hit fixed (1500 parentheses) | `1037d69` |
+| 2026-07-24 | **D2** vocabulary | Editor | Publish blacklist clean | no commit |
+| 2026-07-24 | **D5** quotes | Editor | 2500 quote hygiene; 2600 edition tag open | `437b9b4` |
+| 2026-07-24 | **D6** verify tags | Editor | Only 2600 Qur'an edition remains open | no commit |
+| 2026-07-24 | **D8-1000** W12 | Editor | Campbell style on questions; Q list sense kept | `66e4752` |
 
 ---
 
@@ -76,13 +82,11 @@
 
 | Order | Pass ID | Role | Notes |
 |-------|---------|------|--------|
-| ~~B0–B4~~ | — | — | **done**; G-B **passed** |
-| ~~C1~~ | C1 | Writer | **done** (no changes) |
-| ~~C2~~ | C2 | Writer | **done** `60343af` |
-| ~~C3~~ | C3 | Writer | **done** `d07bff2` |
-| ~~C4~~ | C4 | Writer | **done** (no changes) |
-| — | Human | **G-C** waiting |
-| next | D1–D7 | Editor | After G-C |
+| ~~B0–C4~~ | — | — | **done**; G-B + G-C **passed** |
+| ~~D1–D2, D5–D6~~ | — | Editor | **done** (mechanical) |
+| (opt) | D3/D4/D7 | Editor | Deferred until after G-D8-cal unless needed |
+| ~~D8-1000~~ | D8-1000 | Editor | **done** `66e4752` |
+| 6 | **D8-1100** | Editor | **in progress** W12 |
 | 8 | D8-1000, D8-1100 | Editor | Then **G-D8-cal** + publish |
 | 9 | D8 rest | Editor | One chapter per agent |
 | 10 | E-flow-1…3 | Editor | Then **G-E** + publish |
@@ -92,22 +96,7 @@
 
 ## Waiting / blocked detail
 
-```text
-Waiting on: human
-Gate or pass: G-C (after C1–C4 + C-rework-1)
-What to review (latest = 1500):
-  - Wrong-turn: no slide; no rival; error extends
-  - Ownership/contract: theory + brief consequence first
-  - Claims-reach plain open; justice "differing accounts"
-  - Borders: defined-scope store (no cushion jargon)
-  - Defense: acts + ideology-as-enemy adherence
-  - Merit: yeast first; "under procedure"; no rival
-  - Experiment: laws/theories tested; kill bad law/theory
-  - Prior Phase C: floors, no honest-scope, blacklist clean
-  - Build: ../release/lua-book.*
-Commands: C-rework-1 a688692; ./publish.fish exit 0
-Unstick: "Phase C accepted" OR further rework
-```
+_None (Phase D running)._
 
 ---
 
@@ -123,7 +112,6 @@ Unstick: "Phase C accepted" OR further rework
 
 ## Orchestrator notes
 
-- **G-B passed.** Phase C complete. **G-C hard stop.**  
-- After *Phase C accepted*: Phase D (D1–D7 mechanical, then D8 W12).  
+- **G-C passed** 2026-07-24. Phase D: D1 em-dash → D2 vocab → … → D8-1000/1100 then **G-D8-cal**.  
 - 2600 Qur'an edition tag: leave until publish.  
 - Commits: `book1-6/` only; message prefix `book1-6: `.  
