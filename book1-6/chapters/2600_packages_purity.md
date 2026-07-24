@@ -61,7 +61,7 @@ These namings raise a practical question: why do opposing systems coordinate so 
 - **Speech sacralization, explicit and implicit.** One side names blasphemy, the other enforces it without naming it; both hold some claims unspeakable and some speakers fit for ruin.
 - **Anti-merit strains.** Where thriving under open procedure reads as suspect, high performers become shared irritants.
 - **Entryism.** Entryists read schools, parties, agencies, and congregations as power bases and use the host's rules until they can rewrite the host.
-- **Alliance, then purge.** Coordination holds while the shared target stands; when monopoly of force becomes available, the harder program sorts the partner. Iran is the standing warning.
+- **Alliance, then purge.** Coordination holds while the shared target stands; when monopoly of force becomes available, the harder program sorts the partner. Iran is the standing warning: incompatible justice programs that shared rhetoric and a regime, not a survival alliance under the Shah.
 
 <!-- arc: P2.F4 | point: coordination recurs because obstruction, permission, methods, and assets align; it ends in purge when force allows -->
 
