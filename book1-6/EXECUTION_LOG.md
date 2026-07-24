@@ -10,10 +10,10 @@
 | Field | Value |
 |-------|--------|
 | **Status** | **Waiting on human** |
-| **Waiting on** | Human — gate **G-B** (after B-rework-1) |
-| **Active pass** | Phase B + B-rework-1 done; awaiting G-B |
+| **Waiting on** | Human — gate **G-B** (after B-rework-2) |
+| **Active pass** | Phase B + reworks; awaiting G-B |
 | **Active role** | — |
-| **Next action** | Human reviews rework + Phase B. Say ***Phase B accepted*** or further rework. No C1 until accepted. |
+| **Next action** | Human reviews 1500 E0 rework (and prior 1000/1100). Say ***Phase B accepted*** or further rework. No C1 until accepted. |
 | **F loop round** | 0 (not started) |
 | **Last updated** | 2026-07-24 |
 
@@ -25,7 +25,7 @@
 |------|--------|------------------|
 | **G-A** Phase A / HOUSE_FORMULAS | **passed** | 2026-07-23 — Phase 0 approved; A1–A8 locked in `HOUSE_FORMULAS.md` |
 | **G-B1** after B1 `1100` | **passed** | 2026-07-23 — Author: *B1 accepted* (continue). Also confirmed Q2 interchangeable-unit limb + Q4 S1-D for B2. |
-| **G-B** after B2–B4 | **waiting on human** | 2026-07-23 — B2 `566f8b9`; B3 no-op; B4 **GREEN**; `./publish.fish` **exit 0**. Unstick: *Phase B accepted* or rework list |
+| **G-B** after B2–B4 | **waiting on human** | 2026-07-24 — B-rework-2 `5700330` (1500 E0); rebuild OK. Unstick: *Phase B accepted* or further rework |
 | **G-C** after C1–C4 | pending | **must** `./publish.fish` before human review |
 | **G-D8-cal** after D8 on 1000+1100 | pending | **must** `./publish.fish` |
 | **G-E** after first full E | pending | **must** `./publish.fish` |
@@ -54,6 +54,8 @@
 | 2026-07-23 | **B3** verify hygiene | Writer | Twins gone (B1); open verifies: 1500 author bullets, 2600 Qur'an edition | no commit |
 | 2026-07-23 | **B4** protect scan | Editor (RO) | All §2 blocks **GREEN** for Phase C | no commit |
 | 2026-07-23 | G-B build | Orchestrator | `./publish.fish` exit 0; hard stop Phase B review | — |
+| 2026-07-24 | **B-rework-1** author lines | Writer | 1000 memory/practical openers; 1100 active opener + lived “we live in a reality…” | `2577401` |
+| 2026-07-24 | G-B rebuild | Orchestrator | `./publish.fish` exit 0 after rework | — |
 
 ---
 
@@ -80,19 +82,18 @@
 
 ```text
 Waiting on: human
-Gate or pass: G-B (after B2+B3+B4)
-What to review:
-  - 1000 questions (B2): Q2 unit limb; Q4 S1-D; Q1/Q3/Q5/charge stable
-  - 1100 axioms (B1, already accepted at G-B1): still coherent with 1000
-  - Protect scan B4: GREEN (all §2 blocks present)
-  - Open verifies (not blocking Phase C): 1500 author variation bullets; 2600 Qur'an edition at publish
+Gate or pass: G-B (after B2+B3+B4 + B-rework-1)
+What to review (rework highlights):
+  - 1000: "An easy way to remember the five questions is this: …"
+  - 1000: "These questions are practical: …"
+  - 1100 opener: "This book answers the five principal questions; other answers exist and appear later. …"
+  - 1100 reality: "We live in a reality that exists whether any man likes it, names it, or votes upon it; …"
+  - Full Phase B still: Q list, axioms, protect GREEN
   - Build: ../release/lua-book.pdf (.epub / .html)
 Commands already run:
-  - B2 → 566f8b9
-  - B3 → no commit
-  - B4 → GREEN
-  - ./publish.fish → exit 0 (2026-07-23)
-Unstick condition: human says "Phase B accepted" OR rework list
+  - B-rework-1 → 2577401
+  - ./publish.fish → exit 0 (2026-07-24)
+Unstick condition: human says "Phase B accepted" OR further rework list
 ```
 
 ---
