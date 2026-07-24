@@ -95,6 +95,8 @@
 | 2026-07-24 | **F2-r1-1100** | Editor | Soft A8 glue cuts; protect kept | `6ab448b` |
 | 2026-07-24 | **F2-r1-1200** | Editor | Soft A8 glue cuts | `8610d66` |
 | 2026-07-24 | F1 re-scan 1100 | Orchestrator | Still AI after F2 | — |
+| 2026-07-24 | **Claude Fable** 1100 (first) | External CLI | meaning-first rewrite; Pangram AI→Mixed | `03daca2` |
+| 2026-07-24 | **Claude Fable continue** 1100 | External CLI | paragraph-grain experiments; Mixed human≈0.078; charge Human window | `a9b8d5c` |
 
 ---
 
