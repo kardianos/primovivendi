@@ -211,27 +211,37 @@ Call this book’s load-bearing answers **axioms**, **principles**, **answers**,
 
 **“Package”** (if used at all) names an **adversary** set of premises, texts, and institutions under examination — not the house catechism. Prefer plain names of the adversary system when clearer (constructivism, outcome equity, Islamic political doctrine, etc.). Do not use *package* as a synonym for “principles” or “what someone believes in general.”
 
-### A9.2 Attribution of professed creed
+### A9.2 Attribution of professed creed (strengthened 2026-07-24)
 
-- If a person **freely claims** a creed, church, party, or doctrine as their own, it is fair to treat that system’s content as **what they claim to value**, even when they fail to live it.
-- Do **not** empty a claimed label so that hard package content never attaches to anyone who wears the label.
-- **Court and moral judgment of a person** still rest on evidence of *this* person’s commitments and conduct — not blood as guilt.
-- Drop the slogan **“persons are not packages”** as house cant. Rewrite opens/charges that restate it (esp. `1800`, `2600`, `2200`, `2500`, `2700`).
+- If a person **freely proclaims** allegiance to a theology, sect, ideology, or program, it is **socially good and acceptable** to hold them to **what that system announces** as its values and political content — including hard content (violence norms, anti-life eco programs, totalizing law, etc.).
+- **Do not** require proof that *this* person personally practices every hard clause before the profession counts. Profession is allegiance to the announced ideas.
+- **Do not** empty labels with long hedges (“labels are not emptied…”, “court and moral… blood alone…”, “not by surname…”) in every dossier. Those guards are weak sauce. Cut them. Stay on the **consequence of ideas**.
+- Drop the slogan **“persons are not packages.”** Do not reintroduce multi-sentence blood/surname apologetics.
+- **Court of law** (same procedure, evidence of acts) remains distinct from **social attribution of proclaimed allegiance**. Do not confuse the two; do not write three paragraphs every time to prove you are not blood-grading.
 
 ### A9.3 Blood, surnames, and statistical caution
 
-- Do not collapse into **ethnic grading as moral fate or legal guilt**.
-- Do **not** forbid **group base rates** for **safekeeping** under real limits (age, sex, place, and measured crime patterns by race/origin where published). Ignoring rates is not virtue.
-- Formula sense (plain English, not frozen slogan): Do not convict by blood in court or as moral fate. Do not empty a freely claimed creed of its content. Do not forbid noticing group base rates for survival under limits. Culture that never “does politics” can still be politics when it aligns with an enemy program.
-- “Non-political” personal culture is not automatically innocent of politics: silence and default culture can still be the enemy’s politics in practice.
+- Do not collapse into **ethnic grading as moral fate**. Blood is not the topic when the topic is **professed creed**.
+- **Group base rates** for **safekeeping** under limits remain legitimate (age, sex, place, measured crime patterns). Ignoring rates is not virtue.
+- “Non-political” personal culture can still be politics when it aligns with an enemy program.
 
-### A9.4 Chapter form for adversary chapters (`2600`, related)
+### A9.4 “Rival” diction — ban as house cant
 
-- Prefer a **chapter arc map** (stops along the way) over a defensive standing-rule paragraph.
-- Grade **named systems** (texts, institutions, public programs) and **professed adherents** by claim + conduct.
-- Temporary allies are not shared axioms — keep that charge without the old persons≠packages cant.
+**Do not** use **rival** for conflicting epistemologies, doctrines, or justice theories. Peers race as rivals; **truth is not a race**.
 
-**Downstream:** S4 rewrite passes on `2600`, `1800`, and other chapters that restate the old rule; package-diction hygiene book-wide; plan dictionary later if it re-teaches P2.F1 old form.
+For each former “rival,” name what is meant:
+- different / opposing / conflicting **principles** or **answers**
+- a **specific system** (constructivism, outcome equity, Islamic political doctrine, Qur’an/classical political reading, progressive program, etc.)
+- **disfavored model** / **other account** (inquiry method)
+- Keep **quoted** Madison “rival interests” and ordinary peer sense (“a rival for the rank”) when that is the real meaning.
+
+### A9.5 Chapter form for adversary sections
+
+- Arc map; short dossiers; **steelman then conflict** without defensive prefaces.
+- Temporary allies ≠ shared axioms — one line, not a sermon.
+- Prefer concrete system names over “package” and never over “rival.”
+
+**Downstream:** A9b rewrites: strip rival; cut blood-guard; shorten profession attribution to plain force; 1800, 2600, 2000, 2200, 2500, 2700, 1500, 1200, 2300 as needed.
 
 ---
 
@@ -249,3 +259,4 @@ A1–A8 locked earlier; **A9** added 2026-07-24. Agents in later phases must rea
 | 2026-07-23 | A6 refined: M4 order (limited → particular → self-interested last); self-interest = own survival/well-being (good, incomplete for social thrival, bridge to particular). Full sense in `plan/dictionary_p1.md` B7–B8. |
 | 2026-07-23 | A6 publish prose: **Variation A4** chosen; **F4** recorded as alternate/fallback. |
 | 2026-07-24 | **A9** locked: package ≠ house principles; profession attributes creed content; base rates for safekeeping OK; drop persons≠packages cant; arc open for 2600. |
+| 2026-07-24 | **A9** strengthened: profession = social hold to announced system content (no practice-proof hedge); cut blood/surname guard prose; ban “rival” for epistemology; short on-topic dossiers. |
