@@ -3,62 +3,49 @@
 ## Opposing systems, alliances, and what we are for
 
 <!-- arc: H1 | point: fixed order of the ending: named opposing systems first, then the test rule, then the long horizon, then alliances, then what we are for -->
-%% [LOW] [plan-order] H1 order fixed and stated: H8 named systems → H9 test rule → H10 long horizon → alliances → what we are for. Does not lead with alliances. Correct.
-This book has answered five questions with a handful of axioms and spent its middle on how to live under them. The part ends facing outward. The order matters. First this book names the opposing answers: systems of premises, texts, and institutions already in conflict with the axioms. Then the rule for what this book settles and what it leaves open. Then the limits of our sight and the lenses for long effects. Only then alliances, because alliances are downstream of named premises. Last, and shortest, what we are for.
+This book has answered five questions with a handful of axioms, and has spent its middle on how to live under them. The part ends facing outward. The order matters. First this book names the opposing answers: systems of premises, texts, and institutions already in conflict with the axioms. Then the rule for what this book settles and what it leaves open. Then the limits of our sight and the lenses for long effects. Only then alliances, because alliances are downstream of named premises. Last, and shortest, what we are for.
 
 ### Named opposing systems
 
-%% [LOW] [plan-gap] A9: free profession attributes creed content; short dossiers; steelman then conflict. No blood-guard cant.
-Who freely names a creed or program as his own is fairly held to what that system announces. What follows are short dossiers of named systems. Each speaks first, in terms its holders would recognize; then this book marks the conflict. History and present cases do the rest.
+Who freely names a creed or program as his own is fairly held to what that system announces. What follows are short dossiers of named systems. Each speaks first, in terms its holders would recognize; then this book marks the conflict. History and present cases do the rest of the work.
 
 <!-- arc: H8 | point: conflict sits at B1 and B2, and at B5 where procedure becomes a power tool -->
-%% [CRIT] [constructivist] [truth] Load-bearing: social constructivism is an **external system**, not house method. Steelman then refuse. Bridge test is correspondence. Do not soften or move into the axioms.
 **Social constructivism.** Much of what people call natural is built by hands: law, money, rank, manners. Language decides which descriptions win, and power decides whose language counts. So runs the starting point, and half of it is true. The doctrine goes further: reality and truth themselves are products of power, language, and group position, and the world holds no independent veto. The conflict sits at the first two axioms. A bridge either carries the load or drops the crew, and no committee votes on the outcome. When the doctrine treats procedure as one more power tool, same rules for everyone in the same position die with honest procedure.
 
 <!-- arc: H8 | point: conflict begins only where unbound will overrides what creation shows -->
-%% [LOW] [plan-gap] Divine constructivism / pure will: steelman, occasionalism qualifier, conflict only where will overrides failed test.
 **Divine constructivism, or pure will.** God is not a subcontractor under laws that creatures can measure; a will bound by regularities would be smaller than the God it names. So the starting point runs. The teaching fixes what is true and what happens by unbound divine (or sacral-political) will, and denies any stable secondary order that experiment may trust. One qualifier belongs here. Some schools hold that created causes do not necessitate effects, that God creates each event, and that regularity is divine habit; where those schools hold the habit steady, prediction, craft, and medicine still run, and the quarrel is metaphysical rather than public. The conflict with the first two axioms begins where the teaching uses unbound will to override what creation shows: where it answers a failed test with will instead of correction.
 
 <!-- arc: H8 | point: conflict only where the doctrine forbids reality tests of testable claims -->
-%% [LOW] [plan-gap] Scripturalism vs two-books distinguished correctly. Conflict only where tests of testable claims forbidden.
 **Scripturalism.** Revelation is the one word that cannot err; every other authority has erred. So the starting point runs. The program makes scripture (or its equivalent) the sole axiom of knowledge and refuses creation any standing as a witness. Two-books theism is a different settlement: the same author wrote the book of words and the book of nature, so nature may teach, and testing creation is reading rather than rebellion. The conflict with this book appears only where the program forbids reality tests of testable claims. There interpretation rules alone, and correction dies.
 
 <!-- arc: H8 | point: grade classical political program and texts; free profession attaches announced content -->
-%% [MED] [source] Islamic political doctrine: free profession attaches; one clause for secondary-cause strands. Names Khomeini-style rule, jizya, speech rules. Historical depth in Part 2 / 2500.
 **Islamic political doctrine.** Free profession of this creed attaches its announced political content. The program graded here is doctrinal and political at once: divine law as the constitution of public order (rule in the modern Khomeini style, where the jurist applies the law rather than citizens making it); two-tier standing in law (the jizya structure); speech and concealment rules that break shared inquiry; weakened trust in natural regularity where occasionalism is preached as public method. Strands that defend real secondary causes and a stable created order (the falsafa tradition, Ibn Rushd against al-Ghazali on causal necessity) sit differently with public correspondence.
 
 <!-- arc: H8 | point: conflict at B5 (rules bent toward matched ends) and at B2 (causes of disparity settled before inquiry) -->
-%% [HIGH] [justice] Outcome equity named as external; steelman (rigged games real); conflict B5 + B2. Keep aligned with 1500 justice block.
 **Outcome equity as justice.** When the same group loses decade after decade, honest procedure should have scattered the losses by now; sometimes the rules really are rigged, and neutral wording hides the rigging. So the starting point runs. The program takes the suspicion as proof: unequal results show unjust rules, and its holders must bend procedure until outcomes match. This book calls that outcome symmetry: same end-states demanded, and disparity treated as proof of injustice. The conflict sits at procedural symmetry, where the program trades same rules for everyone in the same position for rule-bending toward matched ends, and at correspondence, because the causes of any disparity are questions of fact and the program settles them before the inquiry begins.
 
 <!-- arc: H8 | point: conflict at B7; virtue is trained and maintained, not factory settings -->
-%% [HIGH] [anthropology] Blank slate / perfectibility / natural goodness named as external against B7. Keep.
 **Blank slate, perfectibility, natural goodness.** Cruelty is trained and paid; remake the training and the pay, and you remake the person; no child is born selfish, only taught. So the starting point runs. The doctrine holds that order alone writes the human, or that humans are good until society corrupts them. The conflict sits at the working premise of this book: humans are limited, self-interested, and not naturally good, and virtue is trained and maintained rather than shipped from the factory. History has graded the large rewrites hard.
 
 <!-- arc: H8 | point: conflict at B8; there is no generic person, and designing for one hollows the platform -->
-%% [LOW] [marble] Marble-self / lottery: external; goods without burdens. Matches E0/D7/F1. Complete.
 **Marble-self and the luck lottery.** Nobody earns the womb; talent, start, and station are luck, and the lucky owe nearly everything to a pool that everyone owns. So the starting point runs. The doctrine reasons about a generic person, a someone with no family, no lineage, and no situation, and lets the particular chain weigh nothing. The conflict sits at the particular-person premise. There is no generic person. A morality designed for one serves nobody real, and in practice the choosing comes out the same way: goods without burdens, claims on what is produced, and no duty to the households and lines that produce it.
 
 <!-- arc: H8 | point: conflict at B3; a standard that ranks an empty world over a lived one answers the third question against us at the root -->
-%% [LOW] [life-axiom] Anti-natal / harm-reduction-as-highest: external vs B3. Dead-earth ranking named.
 **Anti-natal and harm-reduction as the highest good.** Every birth starts a life that will hurt; nobody consents to being born; reducing the count of lives reduces the sum of pain. So the starting point runs. The program makes life optional and sets harm-reduction as the highest good. The conflict sits at the affirmed axiom of this book: life is good, to continue and continue well. A standard that ranks an empty world over a lived one has answered the third question against us at the root, before any argument about means begins.
 
 <!-- arc: H8 | point: right-coded rejection of same rules and excellence fails B3 and B5 even while hating the left -->
-%% [LOW] [plan-gap] Reactionary anti-procedure: right-coded, fails B3/B5 even while hating left. Complete.
 **Reactionary anti-procedure and anti-success.** Neutral procedure has been gamed by people who preach it; excellence talk excuses arrogance; ordinary people want fate-sharing and belonging more than open contest. So the starting point runs. The program, usually right-coded, rejects same rules, rejects excellence, and rejects individual accountability, and levels by sacral or tribal fate-sharing instead. The program fails the axiom of life and the axiom of same rules even when it hates the left. Cruelty is not clarity, and contempt for standards is not strength.
 
 <!-- arc: H8 | point: conflict at B4; unscoped action-duty becomes theater and the near duties die -->
-%% [LOW] [tiers] Universal action-duty vs B4. All H8 named systems present (ten). H8 list complete.
 **Universal action-duty.** A hungry child far away is as real as the child next door; rationing care by distance looks like prejudice with good public relations. So the starting point runs. The doctrine assigns the same action-duty to everyone everywhere and calls tiered priority bigotry. The conflict sits at the axiom of scopes and tiers. Time, knowledge, and reach are limited. Action-love without a scope becomes theater, and the near duties that only you can do die while the far cause is fed.
 
 ### The test rule
 
-%% [LOW] [plan-gap] [truth] H9 restates M: testable vs non-testable; nothing for/against divine as such; authority only checkable + thrival consequences; two-books OK; public shared tests. Wrong/incomplete one breath. Plan-complete. Not first introduction—callback. Good.
-The chapter on testable truth drew this line, and the line belongs here again, before any talk of alliances. Call the divide the church and state of knowledge: one jurisdiction for claims that reality can check, another for claims that reality cannot, and this book polices only the border. If a question can be tested in reality, test it in reality, and accept the answer. If a question cannot be tested in reality, this book does not decide it. Let the divine speak there, for those who hold a divine. Or leave the question open.
+The chapter on testable truth drew this line, and the line belongs here again, before any talk of alliances. Call the divide the church and state of knowledge: one jurisdiction for claims that reality can check, another for claims that reality cannot; and this book polices only the border. If a question can be tested in reality, test it in reality, and accept the answer. If a question cannot be tested in reality, this book does not decide it. Let the divine speak there, for those who hold a divine; or leave the question open.
 
-This book offers nothing for or against the words of the divine as such. These pages are not a catechism and not an anti-catechism.
+This book offers nothing for or against the words of the divine as such. These pages are neither a catechism nor an anti-catechism.
 
-The authority claimed here runs only over what can be checked, and over what visibly serves or visibly ruins a people's continuing and continuing well: bridges, harvests, bodies, incentives, fertility, crime, literacy, famine, institutional fraud, and the practices and laws that produce visible endurance or visible ruin under human limits. Useful prediction earns a model a hearing, not a certificate; a model that fails systematically is wrong, and a model that succeeds inside a domain is incomplete, and neither verdict comes from a vote.
+The authority claimed here runs only over what can be checked, and over what visibly serves or visibly ruins a people's continuing and continuing well: bridges, harvests, bodies, incentives, fertility, crime, literacy, famine, institutional fraud, and the practices and laws that produce visible endurance or visible ruin under human limits. Useful prediction earns a model a hearing, not a certificate; a model that fails systematically is wrong, and a model that succeeds inside a domain is incomplete; and neither verdict comes from a vote.
 
 A theist who holds that God wrote two books can accept this method whole: revelation speaks where tests cannot run, and nature teaches where they can. These axioms raise no quarrel with that settlement.
 
@@ -66,8 +53,7 @@ Public order needs the rule. Shared streets require shared tests for shared empi
 
 ### Limits and the long horizon
 
-%% [LOW] [plan-gap] H10: humility without skipping tests; generational / scale / interconnect lenses; granary picture; one-line read per major named system. Plan duty met. Anti-slogan.
-Judgment under these axioms stays humble, because we are limited and no one sees all the chains. Humility is not a pardon for skipping tests that can be run. Humility is the discipline of reading effects over time, at scale, and across connections, using history and present cases rather than slogans, and offering readings rather than prophecies. Three lenses do the work.
+Judgment under these axioms stays humble, for we are limited and no one sees all the chains. Humility is not a pardon for skipping tests that can be run. It is the discipline of reading effects over time, at scale, and across connections, using history and present cases rather than slogans, and offering readings rather than prophecies. Three lenses do the work.
 
 **The generational lens.** Some results appear only after several generations hold a premise. The original meaning drains out while the slogan stays, and the systems that held the slogan up (a family form, elite restraint, a shared faith, a craft guild, a shame culture) die while the chanting continues. The first generation lives on inherited capital (skill, trust, beauty, fertility) while teaching the opposite of what stocked it.
 
@@ -92,9 +78,7 @@ Read the major named systems through these lenses, one line each:
 
 ### Alliances among opposing systems
 
-%% [HIGH] [constructivist] Alliance block: "truth as instrument: reality may not veto the cause" as a **hostile mechanism**, not method. Shared obstacle chain; wall picture; mechanism checklist; red-green as tendencies; Iran as alliance-then-purge warning. Order after H8–H10. Plan H2/H3 complete.
-%% [MED] [source] Iran purge and red-green: mechanism claims; Part 2 history expands with DISTILL files. Do not invent death-toll precision here. If challenged, point to sources/notes/red_green_alliance.md and iran/.
-Now alliances, downstream of the naming. The chain is mechanical. Two systems can disagree on God, sex, property, and the shape of the final utopia, and still face the same obstacle: an order that runs on correspondence, the individual under law, borders, family, merit, and open criticism. Removing that obstacle helps both systems in the short term. Coordination is cheap because the shared target is concrete: this court, this border law, this curriculum, this newspaper. After the obstacle falls, the residual conflict returns, and the harder or better-placed program purges the partner. Iran is the standing warning: left and hard sacral programs shared justice rhetoric and a throne to overthrow (both already lived under that order); when the regime fell, the better-placed program purged the partner because the successor orders were incompatible.
+Now alliances, downstream of the naming. The chain is mechanical. Two systems may disagree on God, sex, property, and the shape of the final utopia, and still face the same obstacle: an order that runs on correspondence, the individual under law, borders, family, merit, and open criticism. Removing that obstacle helps both systems in the short term. Coordination is cheap, because the shared target is concrete: this court, this border law, this curriculum, this newspaper. After the obstacle falls, the residual conflict returns, and the harder or better-placed program purges the partner. Iran is the standing warning: left and hard sacral programs shared justice rhetoric and a throne to overthrow (both already lived under that order); when the regime fell, the better-placed program purged the partner because the successor orders were incompatible.
 
 <!-- arc: H2 | point: a shared obstacle makes coordination cheap between systems that share no good; after the fall, the better-placed crew builds alone -->
 The picture is two crews on one wall. Each crew wants a different building on the lot behind the wall, and neither crew likes the other's plan. The wall blocks both, so both pull on the ropes, and the pulling is easy to arrange because stone is a concrete target. Rope by rope, the courses loosen. The wall comes down in dust and noise. Then the crews stand on the rubble facing each other, and the crew with more hands and fewer scruples builds alone.
@@ -112,17 +96,15 @@ The mechanisms recur wherever such coordination appears:
 - Anti-merit and anti-excellence strains, where thriving under open procedure is itself suspect.
 - Entryism: schools, offices, parties, charities, and congregations worked as power bases, using the host's rules until the host can be rewritten.
 
-The prime example in our time is red-green coordination: progressive programs on one side, political-Islamist and other hard programs on the other. The coordination runs on shared obstruction, shared permission, shared methods, and complementary assets: votes, moral cover, organizational discipline, and numbers in the street. Free profession of either program attaches its announced content. The alliance never becomes a friendship, because the break points were there from the start: exit from the faith, pride politics, absolute speech, the status of women, and the question of who holds the monopoly of force after the victory.
+The prime example in our time is red-green coordination: progressive programs on one side, political-Islamist and other hard programs on the other. The coordination runs on shared obstruction, shared permission, shared methods, and complementary assets: votes, moral cover, organizational discipline, and numbers in the street. Free profession of either program attaches its announced content. The alliance never becomes a friendship, for the break points were there from the start: exit from the faith, pride politics, absolute speech, the status of women, and the question of who holds the monopoly of force after the victory.
 
 ### Alliances do not refute the axioms
 
-%% [LOW] [plan-gap] H4: alliances do not falsify B1–B5; seeing pattern is strength. Complete.
-Bad alliances show that power seeks partners. They show nothing against the axioms. That two crews pulled on one wall does not make the wall imaginary, and does not make correspondence, same rules, and tiers false. The pattern makes those worth defending. Seeing the pattern is part of strength and defense: enemies are named by acts and programs, and coordinated programs act. The lesson is not to ally with anyone who hates the same wall. The lesson is to hold the axioms, judge every system by reality tests and long horizons, and refuse partners whose own premises aim at the floor we stand on.
+Bad alliances show that power seeks partners. They show nothing against the axioms. That two crews pulled on one wall does not make the wall imaginary, and does not make correspondence, same rules, and tiers false. The pattern makes those worth defending. Seeing the pattern is part of strength and of defense: enemies are named by acts and programs, and coordinated programs act. The lesson is not to ally with anyone who hates the same wall. The lesson is to hold the axioms, to judge every system by reality tests and long horizons, and to refuse partners whose own premises aim at the floor we stand on.
 
 ### Premises cut labels
 
-%% [LOW] [plan-gap] H5: premise forks listed (correspondence vs power-truth; life vs optional; procedure vs outcomes; tiers vs universal duty; etc.). Matches Q/cooperation opener. Complete.
-Labels do not predict cooperation; premises do. Two people wearing one jersey can give opposite answers to the five questions and find that they cannot build together. Two people who differ on God can share these axioms for public cooperation, if both accept reality tests for testable claims. Some pairs of premises do not combine, and honesty means naming them:
+Labels do not predict cooperation; premises do. Two people wearing one jersey may give opposite answers to the five questions and find that they cannot build together. Two people who differ on God may share these axioms for public cooperation, if both accept reality tests for testable claims. Some pairs of premises do not combine, and honesty means naming them:
 
 - correspondence to reality, or truth as an instrument of power;
 - life as the affirmed good, or life as optional;
@@ -136,15 +118,11 @@ Each pair is a fork, not a blend. Choose, and know what your neighbor chose.
 
 ### What we are not ultimately for
 
-%% [LOW] [plan-gap] H6: regimes as instruments graded by thrival. No regime worship. Complete.
 This book is not ultimately for democracy, or a republic, or a monarchy, or a premier, or a party. Those are instruments. We grade each by one measure: whether the people living under the instrument continue and continue well, this generation and the next, under a reality that is real, knowable, and consequential, with truth as correspondence to it, the good of life, tiers, and same rules. Worship of the instrument forgets what the instrument is for.
 
 ### What we are for
 
-%% [LOW] [plan-gap] H7: life; personal list; social list; procedural justice; clear sight four habits; construction close. Ends on construction not villain tour. Plan-complete.
-%% [done: C2] [plan-order] [truth] Floor restatement aligned to merged A1.
-%% [LOW] [constructivist] Whole ending treats constructivism as external system and instrument-truth as alliance mechanism. **No house-voice constructivism.**
-What we are for is short enough to say plainly. Life, and lives that continue well, this generation and the next.
+What we are for is short enough to say plainly: life, and lives that continue well, this generation and the next.
 
 For persons: align with truth; take responsibility as creating and maintaining; own what you keep; build excellence and keep it under maintenance; make beauty in ordinary work; have children or raise them up; be strong enough to defend what must live; judge, then show mercy; stay humble and stay excellent; love widely in disposition and spend costly love by tier; allow failure and never court it.
 
