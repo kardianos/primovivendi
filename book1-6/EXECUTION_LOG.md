@@ -10,10 +10,10 @@
 | Field | Value |
 |-------|--------|
 | **Status** | **Waiting on human** |
-| **Waiting on** | Human — skim A9b (rival/blood-guard) + still **G-D8-cal** on 1000/1100 W12 |
-| **Active pass** | A9b done |
+| **Waiting on** | Human — skim Iran-narrative + G-D8-cal still open |
+| **Active pass** | Iran-narrative done (`6db8e0d`) |
 | **Active role** | — |
-| **Next action** | Human review of shortened adversary prose; ***1000/1100 W12 accepted*** or rework when ready. |
+| **Next action** | Human accept Iran rewrite or rework; still ***1000/1100 W12 accepted*** for bulk D8. |
 | **F loop round** | 0 (not started) |
 | **Last updated** | 2026-07-24 |
 
@@ -81,6 +81,9 @@
 | 2026-07-24 | **A9-2600** | Writer | Arc open; 0 package words; profession + safekeeping line | `c1676f7` |
 | 2026-07-24 | **A9-1800** | Writer | H8 open A9; package diction cleared | `2248884` |
 | 2026-07-24 | **A9-dict** | Writer | 1500/2000/2200/2500/2700 slogan + diction | `5745c84` |
+| 2026-07-24 | **A9b** strengthen | Author | Rival banned for epistemology; cut blood-guard; profession = hold to announced content | HOUSE A9 |
+| 2026-07-24 | **A9b-core** | Writer | 1800/2600 rival out; blood-guard cut; short profession | `49a89d9` |
+| 2026-07-24 | **A9b-rest** | Writer | 1200/1500/2000/2200/2300/2500/2700 | `4a408f0` |
 
 ---
 
