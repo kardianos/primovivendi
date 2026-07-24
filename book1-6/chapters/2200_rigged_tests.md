@@ -31,7 +31,7 @@ The second rigging move works earlier, inside the reasoning itself. A standard o
 
 <!-- arc: P2.B2 | point: worked example; the standard did not change, the direction of the result did -->
 
-Watch an advocate demand controlled studies when a rival claims an effect. The demand is right; controlled comparison is how limited people check claims. Then watch the same advocate when the demand lands on his own program. Now the call for comparison is hostile, and the request for numbers is an attack on the people the program serves. The standard did not change. The direction of the result did.
+Watch an advocate demand controlled studies when another program claims an effect. The demand is right; controlled comparison is how limited people check claims. Then watch the same advocate when the demand lands on his own program. Now the call for comparison is hostile, and the request for numbers is an attack on the people the program serves. The standard did not change. The direction of the result did.
 
 Name the move plainly: procedural asymmetry at the level of reasoning itself. The hermetic valve rigs the ledger after results arrive; selective logic rigs the instruments while measurement runs. When a standard is denounced at the exact moment the standard reaches the denouncer's own claim, the argument is not about the standard. Someone is switching the standard off.
 
@@ -44,7 +44,7 @@ If the answer is yes, the problem sits in the premises or the tradition, not onl
 
 If the answer is no, a second thing follows. The recognized authorities of that system should say so: consistently, across cases, under the reading rules their own tradition honors. One ambiguous statement from one friendly interpreter is not that. And silence is information. When authorities who readily condemn smaller deviations will not condemn this conduct under their own rules, the silence marks where the conduct stands in the package.
 
-The test is the same for sacred and secular systems. A church has central texts, classical practice, and recognized interpreters. So do a party, a movement, and a school of economics. Run the same question through the same steps in both houses. Free profession of a creed attaches its texts and practice as claimed value; this test grades those texts, institutions, and demonstrated commitments. It does not convict by surname or by blood alone.
+The test is the same for sacred and secular systems. A church has central texts, classical practice, and recognized interpreters. So do a party, a movement, and a school of economics. Run the same question through the same steps in both houses. Free profession of a creed attaches its texts and practice as claimed value; this test grades those texts, institutions, and demonstrated commitments.
 
 ### Free speech as equipment for truth-seeking
 
