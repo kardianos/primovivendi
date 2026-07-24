@@ -10,10 +10,10 @@
 | Field | Value |
 |-------|--------|
 | **Status** | **Waiting on human** |
-| **Waiting on** | Human — gate **G-B** (after B-rework-2) |
-| **Active pass** | Phase B + reworks; awaiting G-B |
+| **Waiting on** | Human — gate **G-C** |
+| **Active pass** | Phase C complete (C1–C4); awaiting G-C |
 | **Active role** | — |
-| **Next action** | Human reviews 1500 E0 rework (and prior 1000/1100). Say ***Phase B accepted*** or further rework. No C1 until accepted. |
+| **Next action** | Human reviews Phase C (floors, world-as-judge, no honest-scope). Say ***Phase C accepted*** or rework. No D until accepted. |
 | **F loop round** | 0 (not started) |
 | **Last updated** | 2026-07-24 |
 
@@ -25,7 +25,7 @@
 |------|--------|------------------|
 | **G-A** Phase A / HOUSE_FORMULAS | **passed** | 2026-07-23 — Phase 0 approved; A1–A8 locked in `HOUSE_FORMULAS.md` |
 | **G-B1** after B1 `1100` | **passed** | 2026-07-23 — Author: *B1 accepted* (continue). Also confirmed Q2 interchangeable-unit limb + Q4 S1-D for B2. |
-| **G-B** after B2–B4 | **waiting on human** | 2026-07-24 — B-rework-2 `5700330` (1500 E0); rebuild OK. Unstick: *Phase B accepted* or further rework |
+| **G-B** after B2–B4 | **passed** | 2026-07-24 — Author: *Phase B accepted*; 1500 variation bullets accepted; 2600 translation tag OK until publish |
 | **G-C** after C1–C4 | pending | **must** `./publish.fish` before human review |
 | **G-D8-cal** after D8 on 1000+1100 | pending | **must** `./publish.fish` |
 | **G-E** after first full E | pending | **must** `./publish.fish` |
@@ -56,6 +56,13 @@
 | 2026-07-23 | G-B build | Orchestrator | `./publish.fish` exit 0; hard stop Phase B review | — |
 | 2026-07-24 | **B-rework-1** author lines | Writer | 1000 memory/practical openers; 1100 active opener + lived “we live in a reality…” | `2577401` |
 | 2026-07-24 | G-B rebuild | Orchestrator | `./publish.fish` exit 0 after rework | — |
+| 2026-07-24 | **B-rework-2** 1500 E0 | Writer | Positive-first ¶2b; token→arbitrary person; creative focus child; drop dodge line; shared communities | `5700330` |
+| 2026-07-24 | 2600 Qur'an verify | Author | Keep translation edition tag until publish (OK as-is) | — |
+| 2026-07-24 | G-B rebuild #2 | Orchestrator | `./publish.fish` exit 0 after B-rework-2 | — |
+| 2026-07-24 | **G-B** decision | Author | *Phase B accepted*; variations accepted; 2600 tag OK | — |
+| 2026-07-24 | **C1** world-as-judge | Writer | Already scoped (1200/1400); no bare maxims | no commit |
+| 2026-07-24 | **C2** floor lists | Writer | E12/2700/1800 merged A1; 1500 variation verify stripped | `60343af` |
+| 2026-07-24 | **C3** honest-scope | Writer | Phrase gone from chapters/; whitelist/plan cleaned | `d07bff2` |
 
 ---
 
@@ -68,8 +75,11 @@
 | ~~2~~ | ~~B2~~ | Writer | **done** `566f8b9` |
 | ~~3~~ | ~~B3~~ | Writer | **done** (no file changes) |
 | ~~4~~ | ~~B4~~ | Editor (RO) | **done GREEN** |
-| 5 | — | Human | **G-B** waiting |
-| 6 | C1–C4 | Writer / Editor | Then **G-C** + publish |
+| ~~5~~ | — | Human | **G-B passed** |
+| ~~6~~ | ~~C1~~ | Writer | **done** (no changes) |
+| ~~7~~ | ~~C2~~ | Writer | **done** `60343af` |
+| ~~8~~ | ~~C3~~ | Writer | **done** `d07bff2` |
+| 9 | **C4** | Writer | **in progress** thrival/blacklist |
 | 7 | D1–D7 | Editor | Mechanical / judgment |
 | 8 | D8-1000, D8-1100 | Editor | Then **G-D8-cal** + publish |
 | 9 | D8 rest | Editor | One chapter per agent |
@@ -80,21 +90,7 @@
 
 ## Waiting / blocked detail
 
-```text
-Waiting on: human
-Gate or pass: G-B (after B2+B3+B4 + B-rework-1)
-What to review (rework highlights):
-  - 1000: "An easy way to remember the five questions is this: …"
-  - 1000: "These questions are practical: …"
-  - 1100 opener: "This book answers the five principal questions; other answers exist and appear later. …"
-  - 1100 reality: "We live in a reality that exists whether any man likes it, names it, or votes upon it; …"
-  - Full Phase B still: Q list, axioms, protect GREEN
-  - Build: ../release/lua-book.pdf (.epub / .html)
-Commands already run:
-  - B-rework-1 → 2577401
-  - ./publish.fish → exit 0 (2026-07-24)
-Unstick condition: human says "Phase B accepted" OR further rework list
-```
+_None (Phase C running)._
 
 ---
 
@@ -110,8 +106,8 @@ Unstick condition: human says "Phase B accepted" OR further rework list
 
 ## Orchestrator notes
 
-- **Do not re-run B0** unless human orders rework.  
-- **G-B1 passed.** Phase B agents B0–B4 complete. **G-B hard stop.**  
-- After *Phase B accepted*: spawn Phase C (C1–C4).  
+- **G-B passed** 2026-07-24. Phase C in progress.  
+- 1500 variation verify: author accepted — strip tag in C2 or micro pass.  
+- 2600 Qur'an edition tag: leave until publish.  
+- After C1–C4: `./publish.fish` → **G-C**.  
 - Commits: `book1-6/` only; message prefix `book1-6: `.  
-- Ignore monorepo dirt outside `book1-6/`.  
