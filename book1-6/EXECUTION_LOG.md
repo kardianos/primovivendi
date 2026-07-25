@@ -11,11 +11,11 @@
 |-------|--------|
 | **Status** | **Waiting on human** |
 | **Waiting on** | Human — gate **G-F** (tone) |
-| **Active pass** | F1 + F2-r1 on 1100/1200 done |
+| **Active pass** | F2-r1 + Fable on 1100/1200 **reverted** to `002f418` (post E-flow) |
 | **Active role** | — |
-| **Next action** | Human: ***F round 1 accepted*** / ***F done / ship tone*** or list chapters for more F2. JSON: `build/pangram/f1_round1.json` |
-| **F loop round** | 1 |
-| **Last updated** | 2026-07-24 |
+| **Next action** | Human: ***F done / ship tone*** or name new F2 targets / approach. F1 JSON still `build/pangram/f1_round1.json` (pre-revert scores). |
+| **F loop round** | 1 (soft-tone edits rolled back) |
+| **Last updated** | 2026-07-25 |
 
 ---
 
@@ -29,7 +29,7 @@
 | **G-C** after C1–C4 | **passed** | 2026-07-24 — Author: *Phase C accepted* |
 | **G-D8-cal** after D8 on 1000+1100 | **passed** | 2026-07-24 — Author: continue next phase (Iran OK; proceed bulk D8) |
 | **G-E** after first full E | **passed** | 2026-07-24 — Author: *continue* → Phase F |
-| **G-F** F-loop tone | **waiting on human** | 2026-07-24 — F1 bulk: only `1000` **Human**; rest **AI** (soft; Campbell FP likely). F2-r1 on 1100 `6ab448b`, 1200 `8610d66`; 1100 re-scan still AI. Publish OK. Unstick: *F done / ship tone* or more F2 list |
+| **G-F** F-loop tone | **waiting on human** | 2026-07-25 — Author: revert 1100+1200 to `002f418` (drop F2 soft tone + Claude Fable). F1 bulk still on record (only `1000` Human). Unstick: *F done / ship tone* or new F2 approach |
 | **G-ship** repair complete | pending | **must** `./publish.fish` |
 
 ---
@@ -97,6 +97,8 @@
 | 2026-07-24 | F1 re-scan 1100 | Orchestrator | Still AI after F2 | — |
 | 2026-07-24 | **Claude Fable** 1100 (first) | External CLI | meaning-first rewrite; Pangram AI→Mixed | `03daca2` |
 | 2026-07-24 | **Claude Fable continue** 1100 | External CLI | paragraph-grain experiments; Mixed human≈0.078; charge Human window | `a9b8d5c` |
+| 2026-07-24 | Fable log | Orchestrator | EXECUTION_LOG Fable continue | `5a12bcb` |
+| 2026-07-25 | **Revert F2+Fable 1100/1200** | Author + Orchestrator | Restore `chapters/1100_axioms.md` + `1200_testable_truth.md` to tree at `002f418` (post E-flow-2; pre F2 soft tone and pre Fable). Supersedes F2-r1 + Fable prose on those files only. | *(this commit)* |
 
 ---
 
@@ -105,10 +107,11 @@
 | Order | Pass ID | Role | Notes |
 |-------|---------|------|--------|
 | ~~B–E~~ | — | — | **done** (E-flow-1 still optional) |
-| ~~F1~~ | F1 | Orchestrator | **done** round 1 |
-| ~~F2-r1~~ | 1100, 1200 | Editor | **done** |
+| ~~F1~~ | F1 | Orchestrator | **done** round 1 (scores pre-revert) |
+| ~~F2-r1~~ | 1100, 1200 | Editor | **done then rolled back** 2026-07-25 → `002f418` text |
+| ~~Fable~~ | 1100 | External | **rolled back** with 1100 restore |
 | — | Human | **G-F** waiting |
-| next | F2 more / F done / G-ship | — | Author call |
+| next | F done / new F2 / G-ship | — | Author call |
 
 ---
 
@@ -116,14 +119,15 @@
 
 ```text
 Waiting on: human
-Gate or pass: G-F (F-loop tone, round 1)
-F1 headline summary:
+Gate or pass: G-F (F-loop tone)
+F1 headline summary (historical, at scan time):
   Human: 1000_questions.md only
   AI (soft signal): 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 2000, 2100, 2200, 2300, 2400, 2500, 2600, 2700
 Note: Campbell formal prose commonly false-positives as AI. Do not thrash doctrine to chase Human.
-F2-r1: soft tone only on 1100 + 1200; 1100 re-scan still AI.
+2026-07-25: 1100 + 1200 prose restored to 002f418 (E-flow complete; F2 soft tone + Claude Fable discarded on those files).
+Other chapters: unchanged by F2/Fable (never F2-edited).
 Build: ../release/lua-book.pdf
-Unstick: "F done / ship tone" | "F round 1 accepted" + more F2 list | rework
+Unstick: "F done / ship tone" | new F2 targets/approach | rework
 ```
 
 ---
@@ -141,7 +145,7 @@ Unstick: "F done / ship tone" | "F round 1 accepted" + more F2 list | rework
 
 ## Orchestrator notes
 
-- **G-E passed.** F1 complete; F2-r1 on 1100/1200 only. **G-F hard stop.**  
+- **G-E passed.** F1 complete. F2-r1 + Fable on 1100/1200 **reverted** to `002f418` (2026-07-25). **G-F hard stop.**  
 - Prefer accepting residual AI flags as formal-prose FP unless author names more F2 targets.  
 - Do not commit `.pangram_key`.  
 - After *F done*: optional cleanup → **G-ship**.  
