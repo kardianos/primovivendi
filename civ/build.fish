@@ -4,12 +4,12 @@
 # Same pipeline as book1-4/essay_build.fish.
 # build_stem appends .md. It rebuilds when that file is newer than a
 # product, or when a product is missing.
-#   <stem>.pdf  - print, via LaTeX, 6in x 9in, TeX Gyre Pagella,
-#                 then an optional ghostscript print pass
-#   <stem>.html - single-file web edition, book typography embedded
-#   <stem>.epub - reflowable ebook, split at the top sections
+#   build/<stem>.pdf  - print, via LaTeX, 6in x 9in, TeX Gyre Pagella,
+#                       then an optional ghostscript print pass
+#   build/<stem>.html - single-file web edition, book typography embedded
+#   build/<stem>.epub - reflowable ebook, split at the top sections
 #
-# Writes products in this directory.
+# Writes products in build/.
 #
 # The markdown has no YAML title. The first H1 is the title. Lines above
 # that H1 are a generation note, so they are left out. The PDF and the
@@ -25,6 +25,9 @@
 
 set script_dir (dirname (status --current-filename))
 cd $script_dir
+
+set BUILD_DIR "build"
+command mkdir -p $BUILD_DIR
 
 # Basenames in this directory. build_stem appends .md.
 set STEMS ccp_argon ccp_derive_argon ccp_eng_argon
@@ -45,7 +48,7 @@ set PDFX     "on"
 
 function build_stem --argument-names stem
   set -l IN "$stem.md"
-  set -l OUT $stem
+  set -l OUT "$BUILD_DIR/$stem"
 
   if not test -f $IN
     echo "missing: $IN"
@@ -258,7 +261,7 @@ end
 
 function build_book --argument-names stem chdir
   set -l IN "$stem.md"
-  set -l OUT $stem
+  set -l OUT "$BUILD_DIR/$stem"
 
   # Assemble chapters/*.md into $IN when $IN is missing or older than any chapter file.
   if test -d "$chdir"
