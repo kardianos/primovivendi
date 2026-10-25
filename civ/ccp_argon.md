@@ -78,14 +78,14 @@ Virtue is that technology in a person. The individual's virtues of civilization 
 
 **Range of views:** Correspondence may be exact or approximate depending on the task. A machinist cutting a steel cylinder requires correspondence within thousandths of an inch; a historian describing a war requires correspondence to the surviving records and physical evidence. Scientific models, such as Newtonian mechanics, remain true and useful within the specific range of conditions where their predictions match reality, even if a broader model is required for extreme conditions.
 
-**What it cannot accept:** It cannot accept redefining truth as whatever is politically useful, whatever a majority agrees upon, or whatever an authority decrees. It cannot accept coherence alone—a theory that is internally consistent on paper but fails when tested against the physical world. It cannot accept altering a hypothesis after the fact to claim a failed prediction was actually correct.
+**What it cannot accept:** It cannot accept redefining truth as whatever is politically useful, whatever a majority agrees upon, or whatever an authority decrees. It cannot accept coherence alone: a theory that is internally consistent on paper but fails when tested against the physical world. It cannot accept altering a hypothesis after the fact to claim a failed prediction was actually correct.
 
 ---
 
 ### 2. Humans are self-interested, limited, and particular.
 
 #### Humans
-**Why it is important:** These principles describe the actual biological creature—men and women—who must live and build in the world. Rules and technologies must be designed for humans as they are, rather than for theoretical beings.
+**Why it is important:** These principles describe the actual biological creatures, men and women, who must live and build in the world. Rules and technologies must be designed for humans as they are, rather than for theoretical beings.
 
 **Range of views:** One may analyze human nature primarily through biology, through psychology, or through history and religion. All are compatible here so long as they recognize the stable traits of the species.
 
@@ -137,7 +137,7 @@ Keeping applies at every level of wealth: sweeping a floor so the home is clean 
 
 **Range of views:** Different societies and households will prioritize different proportions of keeping versus building depending on their stage of development. A frontier settlement must focus heavily on building basic infrastructure; an established city must devote immense labor to keeping its waterworks, roads, and laws in repair.
 
-**What it cannot accept:** It cannot accept neglect—allowing homes, tools, laws, and personal health to rot. It cannot accept building without keeping (creating novel projects that are immediately abandoned to decay), nor keeping without building (hoarding a shrinking stock of inherited wealth while producing nothing new and raising no children). It cannot accept dismissing the destruction of homes, shops, and tools as trivial.
+**What it cannot accept:** It cannot accept neglect: allowing homes, tools, laws, and personal health to deteriorate. It cannot accept building without keeping (creating novel projects that are immediately abandoned to decay), nor keeping without building (hoarding a shrinking stock of inherited wealth while producing nothing new and raising no children). It cannot accept dismissing the destruction of homes, shops, and tools as trivial.
 
 ---
 
@@ -146,26 +146,26 @@ Keeping applies at every level of wealth: sweeping a floor so the home is clean 
 #### What you keep and build
 **Why it is important:** This identifies the subject of moral obligation: the actual work of maintaining and constructing life, addressed directly to the individual ("you"). Moral duty is not a vague feeling of goodwill toward the world; it is measured by what a person actually maintains and constructs with his time, effort, and resources.
 
-**Range of views:** The specific things a person keeps and builds will vary by his station, trade, and stage of life—whether he is maintaining a farm, running a machine shop, raising young children, or serving in public office.
+**Range of views:** The specific things a person keeps and builds will vary by his station, trade, and stage of life: whether he is maintaining a farm, running a machine shop, raising young children, or serving in public office.
 
 **What it cannot accept:** It cannot accept treating verbal signaling, political activism, or emotional sympathy as a substitute for the tangible work of keeping and building.
 
 #### Self-anchored
-**Why it is important:** The work of keeping and building must begin with the individual himself. Because humans are self-interested, limited, and particular, each person is the primary custodian of his own body, mind, solvency, and conduct. A man who does not keep himself in working order—who is undisciplined, bankrupt, or needlessly sick—cannot support a family or defend a country; instead, he becomes a net drain on the people around him who are doing their work.
+**Why it is important:** The work of keeping and building must begin with the individual himself. Because humans are self-interested, limited, and particular, each person is the primary custodian of his own body, mind, solvency, and conduct. A man who does not keep himself in working order (who is undisciplined, insolvent, or needlessly sick) cannot support a family or defend a country; instead, he becomes a burden upon the people around him who are doing their work.
 
 **Range of views:** People may draw the line of the "anchor" strictly at the individual, or include the immediate household (spouse and dependent children) as part of the foundational unit.
 
 **What it cannot accept:** It cannot accept collectivist doctrines that claim the individual belongs first to the state, the party, or humanity at large. You do not start from the globe and reason inward to find out what you are allowed to keep for yourself; you start from yourself and work outward.
 
 #### Tiered
-**Why it is important:** Because human time, money, and energy are limited, obligations must be ranked in tiers of priority based on proximity and bond. Nearer tiers rightly command the largest share of a person's resources; farther tiers command less. Consider a household budget: a man must first keep himself healthy and employed; second, feed, house, and educate his own wife and children; third, meet his obligations to extended family, neighbors, and his local community; fourth, pay taxes and perform duties to his country; and fifth, practice basic honesty and offer charity toward distant strangers when a surplus allows.
+**Why it is important:** Because human time, money, and energy are limited, obligations must be ranked in tiers of priority based on proximity and bond. Nearer tiers rightly command the largest share of a person's resources; farther tiers command less. In a household budget, a man must first keep himself healthy and employed; second, feed, house, and educate his own wife and children; third, meet his obligations to extended family, neighbors, and his local community; fourth, pay taxes and perform duties to his country; and fifth, practice basic honesty in his dealings and offer charity toward distant strangers when a surplus allows.
 
-**Range of views:** Reasonable people and different cultures argue over the exact ordering of intermediate tiers—for example, whether an obligation to a close friend outweighs a distant cousin, or how church obligations rank alongside local civic obligations.
+**Range of views:** Reasonable people and different cultures argue over the exact ordering of intermediate tiers: for example, whether an obligation to a close friend outweighs a distant cousin, or how church obligations rank alongside local civic obligations.
 
-**What it cannot accept:** It cannot accept universalism (such as extreme utilitarianism), which demands that a father treat a stranger in a foreign land as having the exact same claim on his income and attention as his own child. A person who spends his family's grocery money on a distant cause has violated the tiers. Equally, it cannot accept nepotism or clan corruption inside a public office, which belongs under Point 5.
+**What it cannot accept:** It cannot accept universalism (such as extreme utilitarianism), which demands that a father treat a stranger in a foreign land as having the identical claim on his income and attention as his own child. A person who spends his family's grocery money on a distant cause has violated the tiers. Equally, it cannot accept nepotism or clan corruption inside a public office, which belongs under Point 5.
 
 #### Outward
-**Why it is important:** While the work begins at the self and household, it does not stop at the front door. The direction of responsibility moves outward from the individual to the neighborhood, the town, and the nation. A household cannot survive in isolation if the town's water supply fails, the courts collapse, or the country is invaded. Therefore, contributing to the maintenance and defense of the outer rings (through civic duty, honest commerce, and military service when the nation's survival is threatened) is necessary to protect the inner rings.
+**Why it is important:** While the work begins at the self and household, it does not stop at the front door. The direction of responsibility moves outward from the individual to the neighborhood, the town, and the nation. A household cannot survive in isolation if the town's water supply fails, the courts collapse, or the country is invaded. Therefore, contributing to the maintenance and defense of the outer rings (through civic duty, lawful commerce, and military service when the nation's survival is threatened) is necessary to protect the inner rings.
 
 **Range of views:** How much of a person's time and money should go to the outer tiers changes depending on circumstances. In peaceful times, most effort stays near the household and local trade; during an invasion or natural disaster, a much larger share must be directed outward to the border or the common defense so the household is not destroyed.
 
@@ -174,9 +174,9 @@ Keeping applies at every level of wealth: sweeping a floor so the home is clean 
 #### Enemies are real
 **Why it is important:** Not everyone outside your household is merely a distant acquaintance requiring a thin tier of goodwill. Some individuals, groups, and states actively seek to rob, subjugate, or destroy you, your family, or your people. You do not "keep and build" an enemy; you defend against him, deter him, or defeat him. Refusing to recognize that enemies exist leaves a family or a nation defenseless.
 
-At the household level, consider a home invader breaking into a house where a man lives with his family. The invader has stepped outside peaceful law and is using force that threatens the life and safety of the family. To the homeowner, the invader is an immediate enemy who must be stopped by force.
+At the household level, suppose a home invader breaks into a house where a man lives with his family. The invader has stepped outside peaceful law and is using force that threatens the life and safety of the family. To the homeowner, the invader is an immediate enemy who must be stopped by force.
 
-At the national level, consider the actions of the Young Turks and the subsequent Turkish nationalist regimes toward the Greeks and Armenians within their territory, both during the massacres and deportations of 1915–1923 and in the 1940s (through ruinous measures such as the 1942 *Varlık Vergisi* wealth tax and forced labor battalions). From the nationalist viewpoint of the Turkish rulers, the Greek and Armenian minorities were viewed as an internal threat to the ethnic unity and territory of the Turkish state. Consequently, the state made itself the active enemy of its own Greek and Armenian residents, using taxation, confiscation, conscription, and violence to eliminate them from the country. This demonstrates two realities: first, an enemy is defined by an active program to harm, dispossess, or destroy a particular group; second, even the government under which you live can become your enemy if it turns its power toward your destruction.
+At the national level, the actions of the Young Turks and the subsequent Turkish nationalist regimes toward the Greeks and Armenians within their territory, both during the massacres and deportations of 1915–1923 and in the 1940s (through ruinous measures such as the 1942 *Varlık Vergisi* wealth tax and forced labor battalions), illustrate this reality. From the nationalist viewpoint of the Turkish rulers, the Greek and Armenian minorities were viewed as an internal threat to the ethnic unity and territory of the Turkish state. Consequently, the state made itself the active enemy of its own Greek and Armenian residents, using taxation, confiscation, conscription, and violence to eliminate them from the country. This demonstrates two realities: first, an enemy is defined by an active program to harm, dispossess, or destroy a particular group; second, even the government under which you live can become your enemy if it turns its power toward your destruction.
 
 **Range of views:** Prudent people will debate when a competitor becomes an actual enemy, and what level of force or pre-emption is required to stop a threat. A business rival or a political opponent who abides by common laws and procedures is a competitor, not an enemy.
 
@@ -198,19 +198,19 @@ How a society defines its scope and positions determines its character. For exam
 
 **Range of views:** Societies debate where national borders should sit, how immigrants may be admitted to citizenship without overwhelming the existing population, and which differences (such as age, competence, or citizenship) justify separate legal positions.
 
-**What it cannot accept:** It cannot accept borderless universalism, which claims that every human on earth holds the exact same legal claim on a nation's treasury, courts, and territory as the citizens who pay taxes and defend that nation. It also cannot accept arbitrary scopes invented to create corrupt exemptions for a ruling clique.
+**What it cannot accept:** It cannot accept borderless universalism, which claims that every human in the world holds the identical legal claim on a nation's treasury, courts, and territory as the citizens who pay taxes and defend that nation. It also cannot accept arbitrary scopes invented to create corrupt exemptions for a ruling clique.
 
 #### Procedural
-**Why it is important:** Justice requires a known method—rules, laws, and standards of evidence—stated beforehand and followed consistently regardless of who is involved. Procedure ensures predictability so people can plan their lives and build without fear of sudden, arbitrary confiscation or punishment. 
+**Why it is important:** Justice requires a known method (rules, laws, and standards of evidence) stated beforehand and followed consistently regardless of who is involved. Procedure ensures predictability so people can plan their lives and build without fear of sudden, arbitrary confiscation or punishment. 
 
-Because humans are particular and unequal in talent and effort (Point 2), a fair procedure will naturally produce unequal outcomes. Consider a classroom: the teacher grades all students using the exact same examination and grading scale. That is procedural justice. The students will receive different grades based on their mastery of the material; an unequal outcome does not mean the test was unjust. Furthermore, separating gifted students into higher-level classes is completely consistent with procedural justice, provided the qualification standard is stated beforehand and open to any student who meets it.
+Because humans are particular and unequal in talent and effort (Point 2), a fair procedure will naturally produce unequal outcomes. In a classroom, the teacher grades all students using the identical examination and grading scale. That is procedural justice. The students will receive different grades based on their mastery of the material; an unequal outcome does not mean the test was unjust. Furthermore, separating gifted students into higher-level classes is completely consistent with procedural justice, provided the qualification standard is stated beforehand and open to any student who meets it.
 
 **Range of views:** Different legal and institutional traditions use different specific procedures (such as jury trials versus panels of judges, or different standards of testing and licensing) and allow varying degrees of mercy after a person has been found guilty under the rule.
 
 **What it cannot accept:** It cannot accept changing the rules after the fact to guarantee that a favored person or group wins. It cannot accept lawlessness disguised as compassion, where clear violations of the rule are ignored without consequence.
 
 #### Symmetry
-**Why it is important:** Symmetry means that every person who stands in the *same position* within a *scope* receives the *exact same procedure*. While a teacher and a student are in different positions, any two students taking the same class stand in the same position and must be graded by the same rule. Any two citizens accused of theft stand in the same position before the criminal court, regardless of their wealth, family connections, or political views. Symmetry is what prevents the tiered loyalties of Point 4 from corrupting public institutions: when a man serves as a judge, a police officer, or a teacher, he is bound by the scope of his office to apply the procedure symmetrically, rather than favoring his relatives or friends.
+**Why it is important:** Symmetry means that every person who stands in the *same position* within a *scope* receives the *identical procedure*. While a teacher and a student are in different positions, any two students taking the same class stand in the same position and must be graded by the same rule. Any two citizens accused of theft stand in the same position before the criminal court, regardless of their wealth, family connections, or political views. Symmetry is what prevents the tiered loyalties of Point 4 from corrupting public institutions: when a man serves as a judge, a police officer, or a teacher, he is bound by the scope of his office to apply the procedure symmetrically, rather than favoring his relatives or friends.
 
 **Range of views:** People may debate proportionate punishments within the law, and debate what qualifications are necessary to enter a given position (such as an occupation or an advanced class).
 
@@ -225,11 +225,11 @@ Because humans are particular and unequal in talent and effort (Point 2), a fair
 ### Civilization and Technology
 
 #### Civilization as the root technology (Will and Method)
-**Why it is important:** A technology is any repeatable method and structure built by humans to solve problems in reality. We commonly think of technology as machines—steam engines, airplanes, or computers. However, none of those machines can be built or maintained unless people are fed, violent criminals and foreign invaders are kept away, contracts and laws are enforced, language and mathematics are taught, and children are raised to replace retiring workers. Civilization is that foundational technology. It consists of two parts: **will** (the active decision by living individuals to keep the system running and continue into the future) and **method** (the accumulated customs, laws, crafts, and knowledge passed down across generations). Civilization is not a living entity or a collective mind; if individual human beings lose the will or forget the method, the civilization stops working immediately, even if its buildings are still standing.
+**Why it is important:** A technology is any repeatable method and structure built by humans to solve problems in reality. We commonly think of technology as machines: steam engines, airplanes, or computers. However, none of those machines can be built or maintained unless people are fed, violent criminals and foreign invaders are kept away, contracts and laws are enforced, language and mathematics are taught, and children are raised to replace retiring workers. Civilization is that foundational technology. It consists of two parts: **will** (the active decision by living individuals to keep the system running and continue into the future) and **method** (the accumulated customs, laws, crafts, and knowledge passed down across generations). Civilization is not a living entity or a collective mind; if individual human beings lose the will or forget the method, the civilization stops working immediately, even if its buildings are still standing.
 
 **Range of views:** Civilizations vary in their specific customs, forms of government, and technical specializations, provided their methods successfully keep their people fed, defended, and reproducing.
 
-**What it cannot accept:** It cannot accept treating civilization as an automatic background condition that runs by itself without upkeep. It cannot accept valuing secondary technologies (such as financial instruments or entertainment) above the foundational habits—family stability, law, agriculture, defense, and manufacturing—that keep those secondary technologies alive.
+**What it cannot accept:** It cannot accept treating civilization as an automatic background condition that runs by itself without upkeep. It cannot accept valuing secondary technologies (such as financial instruments or entertainment) above the foundational practices (family stability, law, agriculture, defense, and manufacturing) that keep those secondary technologies alive.
 
 #### Virtue
 **Why it is important:** Because civilization is not an independent organism, it only exists when practiced by individual men and women. Virtue is the practice of civilization's method by an individual person. A society composed of individuals who lie, shirk responsibility, produce shoddy work, despise order, refuse correction, and have no children will collapse, no matter how clever its written constitution is.
@@ -239,14 +239,14 @@ Because humans are particular and unequal in talent and effort (Point 2), a fair
 ### The 7 Virtues of Civilization
 
 #### 1. Align with truth
-**Why it is important:** This is the personal practice of Point 1. To build anything that lasts, a person must conform his mind and his speech to reality as it actually is, rather than to what is flattering, comfortable, or socially convenient. An engineer who falsifies a stress test, a business owner who cooks his accounting books, or a citizen who lies about a threat to his city introduces a flaw into the method that reality will eventually punish with failure.
+**Why it is important:** This is the personal practice of Point 1. To build anything that lasts, a person must conform his mind and his speech to reality as it actually is, rather than to what is flattering, comfortable, or socially convenient. An engineer who falsifies a stress test, a business owner who falsifies his accounting ledgers, or a citizen who lies about a threat to his city introduces a flaw into the method that reality will eventually punish with failure.
 
-**Range of views:** Aligning with truth includes rigorous scientific measurement, honest bookkeeping, plain truthfulness in daily speech, and admitting when a plan has failed.
+**Range of views:** Aligning with truth includes rigorous scientific measurement, accurate bookkeeping, plain truthfulness in daily speech, and admitting when a plan has failed.
 
 **What it cannot accept:** It cannot accept lying, fraud, self-deception, or prioritizing ideological loyalty and group consensus over observable facts.
 
 #### 2. Take ownership, which is responsibility
-**Why it is important:** Ownership is not merely holding legal title to property; it is answering personally for the condition and outcome of what is yours. Because humans are limited and tiered (Points 2 and 4), a person must claim a definite scope—his body, his craft, his household, his debts, and his assigned post—and maintain it himself. Property and tasks that belong to "everyone in general" belong to no one in particular, and quickly fall into disrepair.
+**Why it is important:** Ownership is not merely holding legal title to property; it is answering personally for the condition and outcome of what is yours. Because humans are limited and tiered (Points 2 and 4), a person must claim a definite scope (his body, his craft, his household, his debts, and his assigned post) and maintain it himself. Property and tasks that belong to "everyone in general" belong to no one in particular, and quickly fall into disrepair.
 
 **Range of views:** The scale of what a person owns and answers for ranges from a young apprentice responsible only for his own tools and punctuality, to a father responsible for a household, to an executive or general responsible for a large enterprise.
 
@@ -257,21 +257,21 @@ Because humans are particular and unequal in talent and effort (Point 2), a fair
 
 **Range of views:** The specific standard of excellence depends on the task. A temporary field shelter and a permanent stone bridge have different engineering requirements, but both can be executed well or poorly within their class.
 
-**What it cannot accept:** It cannot accept mediocrity, cutting corners when no one is looking, or substituting credentials, titles, and certificates for actual competence.
+**What it cannot accept:** It cannot accept mediocrity, omitting required steps when unsupervised, or substituting credentials, titles, and certificates for actual competence.
 
 #### 4. Admire beauty
-**Why it is important:** Beauty is the intersection of vitality, order, and truth. It is visible in a healthy body, a well-proportioned building, a smoothly running engine, a clean and well-kept home, and a work of art or literature that accurately captures a moral or physical reality. For example, a fictional tale that describes a true moral or aspect of human nature can be genuinely beautiful, whereas a tale that depicts reality falsely—such as portraying cowardice and decay as noble and consequence-free—cannot be truly beautiful. Admiring beauty is practical: it trains a person to recognize when something is thriving, ordered, and true, and makes him unwilling to tolerate squalor, disorder, and falsehood in his surroundings. People will work and sacrifice to maintain a civilization that is orderly and beautiful; they become demoralized in one that is ugly and degraded.
+**Why it is important:** Beauty is the intersection of vitality, order, and truth. It is visible in a healthy body, a well-proportioned building, a smoothly running engine, a clean and well-kept home, and a work of art or literature that accurately captures a moral or physical reality. For example, a fictional tale that describes a true moral or aspect of human nature can be genuinely beautiful, whereas a tale that depicts reality falsely (such as portraying cowardice and decay as noble and consequence-free) cannot be truly beautiful. Admiring beauty is practical: it trains a person to recognize when something is thriving, ordered, and true, and makes him unwilling to tolerate squalor, disorder, and falsehood in his surroundings. People will work and sacrifice to maintain a civilization that is orderly and beautiful; they become demoralized in one that is ugly and degraded.
 
 **Range of views:** Different cultures have distinct architectural, musical, and artistic styles. So long as those styles reflect vitality, order, and truth, they fall within this virtue.
 
-**What it cannot accept:** It cannot accept the cult of ugliness—art, architecture, or narratives that celebrate chaos, filth, deformity, or falsehood. It also cannot accept treating beauty as mere idle luxury detached from function and truth.
+**What it cannot accept:** It cannot accept the cult of ugliness: art, architecture, or narratives that celebrate chaos, filth, deformity, or falsehood. It also cannot accept treating beauty as mere idle luxury detached from function and truth.
 
 #### 5. Be humble
 **Why it is important:** Humility is the practical application of knowing that humans are limited (Point 2) and that we did not invent the civilization we inherited. Because our knowledge and time are finite, our current models of the world may be incomplete or wrong. A humble person tests his ideas against reality, listens to correction, learns from skilled predecessors before trying to change the method, and recognizes that his individual work is only one part of a larger whole.
 
 **Range of views:** Humility applies equally to the student learning a trade from a master and to the master engineer who double-checks his calculations because he knows he is capable of error.
 
-**What it cannot accept:** It cannot accept arrogance—refusing to check one's beliefs against conflicting evidence, or tearing down inherited institutions and customs without understanding why they were built. Conversely, it cannot accept false humility, which is weak self-deprecation used as an excuse to avoid taking ownership and acting.
+**What it cannot accept:** It cannot accept arrogance: refusing to check one's beliefs against conflicting evidence, or tearing down inherited institutions and customs without understanding why they were built. Conversely, it cannot accept false humility, which is weak self-deprecation used as an excuse to avoid taking ownership and acting.
 
 #### 6. Have children
 **Why it is important:** This is the direct personal application of Point 3 (*human life continuing*). Civilization is a technology carried by living people. If the capable, virtuous members of a civilization do not have children, the population shrinks, ages, and is eventually replaced or conquered by others. Having children brings the next generation into existence so that life and the civilization can continue.
@@ -285,4 +285,4 @@ Because humans are particular and unequal in talent and effort (Point 2), a fair
 
 **Range of views:** This obligation is carried out in the home by parents, in schools by teachers, in workshops by master craftsmen, and in civic life by citizens who preserve sound laws and fiscal solvency for their descendants.
 
-**What it cannot accept:** It cannot accept generational theft—consuming inherited wealth, running up unpayable public debts, letting infrastructure rot, or failing to pass on the culture and technical skills required to keep the civilization alive after the current generation is gone.
+**What it cannot accept:** It cannot accept generational theft: consuming inherited wealth, running up unpayable public debts, allowing infrastructure to decay, or failing to pass on the culture and technical skills required to keep the civilization alive after the current generation is gone.
