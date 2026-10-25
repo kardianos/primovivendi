@@ -499,3 +499,12 @@ with open(out_path, "w") as f:
 end
 
 build_book ccp_book_argon chapters
+
+set PR "../push_release"
+if test -e $PR
+  echo "Release"
+  pushd $(dirname $PR);
+  set -l NAME "./$(basename $PR)";
+  command $NAME;
+  popd
+end;

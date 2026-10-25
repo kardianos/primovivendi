@@ -5,4 +5,8 @@ ref/
 bk_*/
 .ttskey
 **/.ttskey
+.pangram_key
+**/.pangram_key
 tts/out/
+book1-6/build/pangram/
+

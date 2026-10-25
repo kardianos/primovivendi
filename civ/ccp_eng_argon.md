@@ -54,7 +54,7 @@ If any of these five constraints is ignored or violated in the design of a socia
 
 ---
 
-## Chapter 1: First Principle — The Nature of the Environment and Information
+## Chapter 1: First Principle: The Nature of the Environment and Information
 
 > **Principle 1: Reality is real, knowable, and consequential. Truth is what corresponds to reality.**
 
@@ -139,7 +139,7 @@ This principle rules out defining truth by political utility, majority consensus
 
 ---
 
-## Chapter 2: Second Principle — Specifications of the Human Operator
+## Chapter 2: Second Principle: Specifications of the Human Operator
 
 > **Principle 2: Humans are self-interested, limited, and particular.**
 
@@ -191,7 +191,7 @@ Every human being is finite in every measurable dimension:
 4. **Knowledge:** No individual possesses complete information about all present facts or future events.
 
 Because humans are **limited**, two operational conclusions follow immediately:
-First, a finite human cannot carry unlimited obligations. A person with limited time, money, and attention cannot care for all eight billion humans on earth equally.
+First, a finite human cannot carry unlimited obligations. A person with limited time, money, and attention cannot care for all eight billion humans in the world equally.
 Second, because human knowledge and cognitive capacity are finite, any human being can be mistaken. Acknowledging this limitation requires checking one's mental models against physical reality and actively looking for conflicting evidence.
 
 #### Detractors and Failure Modes
@@ -225,7 +225,7 @@ This principle rules out theories that treat human beings as identical, swappabl
 
 ---
 
-## Chapter 3: Third Principle — The Objective Function of a Value System
+## Chapter 3: Third Principle: The Objective Function of a Value System
 
 > **Principle 3: Goodness must include human life continuing, and that life kept and built.**
 
@@ -237,14 +237,14 @@ To evaluate whether an action, law, or custom is good or bad, an engineer must d
 "Goodness" is the standard defining what human beings ought to do and aim to achieve. While different cultures and religions propose various ultimate goals for human existence, an engineering analysis identifies a mandatory minimum requirement that any definition of goodness must satisfy: **the continuation, maintenance, and construction of human life.**
 
 The proof of this requirement is self-verifying over time:
-Suppose a community adopts a moral code $M$ which defines "goodness" in a way that excludes or prevents human survival, reproduction, and material maintenance. Within one to three generations, all practitioners of moral code $M$ die without leaving functional replacements, or their material support systems fail and they are conquered or absorbed by another population. Moral code $M$ eliminates itself from reality. Therefore, any viable moral system **must include** the continuation, maintenance, and construction of human life as a necessary minimum specification.
+Suppose a community adopts a moral code that defines "goodness" in a way that excludes or prevents human survival, reproduction, and material maintenance. Within one to three generations, all practitioners of that moral code die without leaving functional replacements, or their material support systems fail and they are conquered or absorbed by another population. Such a moral code eliminates itself from reality. Therefore, any viable moral system **must include** the continuation, maintenance, and construction of human life as a necessary minimum specification.
 
 #### Detractors and Failure Modes
-* **Anti-Human Ideologies:** Certain ideological movements argue that human beings are a destructive parasite on the earth and that voluntary human extinction is the highest moral good. This position explicitly seeks the termination of human life and civilization; it is a suicide program, not a viable operating specification.
+* **Anti-Human Ideologies:** Certain ideological movements argue that human beings are a destructive parasite on the earth and that voluntary human extinction is the highest moral good. This position explicitly seeks the termination of human life and civilization; it is a program of self-destruction, not a viable operating specification.
 * **Hedonic or Rule-Abstracted Systems:** Other systems define goodness solely as the minimization of physical pain, the maximization of pleasant emotional feelings, or rigid adherence to abstract rules regardless of physical consequences. If a society maximizes the short-term comfort and pain-avoidance of currently living individuals while failing to reproduce or defend itself, that society ceases to exist.
 
 #### Operational Tolerances (Range of Views)
-Stating what goodness *must include* establishes a mandatory minimum requirement, not an upper limit. Religious faiths and philosophical traditions may specify higher goods above this minimum—such as spiritual salvation, holiness, artistic achievement, or scientific discovery—provided that the pursuit of those higher goods does not destroy the underlying requirement of human survival, reproduction, and material maintenance.
+Stating what goodness *must include* establishes a mandatory minimum requirement, not an upper limit. Religious faiths and philosophical traditions may specify higher goods above this minimum (such as spiritual salvation, holiness, artistic achievement, or scientific discovery) provided that the pursuit of those higher goods does not destroy the underlying requirement of human survival, reproduction, and material maintenance.
 
 #### Excluded Parameters (What It Cannot Accept)
 This principle rules out anti-human extinction ideologies, as well as any moral system that defines goodness solely by emotional comfort, pain avoidance, or abstract rules that lead to the demographic or material termination of the society practicing them.
@@ -277,7 +277,7 @@ This principle rules out equating animal or plant life with human life, and it r
 #### Derivation
 Human life cannot continue in a state of bare biological existence without tools or shelter (as established in the Introduction). Human life requires material, institutional, and behavioral order. This work is divided into two continuous engineering operations: **keeping** and **building**.
 
-* **Kept (Maintenance):** In physical reality, all ordered structures degrade over time due to wear, weather, biological decay, and entropy. Tools rust, roofs develop leaks, farmland loses nutrients, roads crack, laws are forgotten or violated, and uncleaned living spaces accumulate waste and disease pathogens. *Keeping* is the continuous labor required to counteract degradation and preserve existing structures, wealth, health, and customs in working condition. Sweeping a floor so a dwelling remains sanitary and habitable is the exact same category of maintenance operation whether the floor is compacted earth in a rural hut or marble in an urban house.
+* **Kept (Maintenance):** In physical reality, all ordered structures degrade over time due to wear, weather, biological decay, and entropy. Tools rust, roofs develop leaks, farmland loses nutrients, roads crack, laws are forgotten or violated, and uncleaned living spaces accumulate waste and disease pathogens. *Keeping* is the continuous labor required to counteract degradation and preserve existing structures, wealth, health, and customs in working condition. Sweeping a floor so a dwelling remains sanitary and habitable is the identical category of maintenance operation whether the floor is compacted earth in a rural hut or marble in an urban house.
 * **Built (Construction and Expansion):** *Building* is the creation of new capacity, structures, tools, knowledge, and capable human beings that did not previously exist. It includes constructing houses, factories, and infrastructure; establishing productive businesses; and bearing, educating, and training children so that they become competent adults capable of replacing the aging generation.
 
 This principle also proves that **there is no separation between human life and physical property.** Detractors often dismiss the destruction of houses, shops, and tools during riots or wars as the loss of "mere property" in contrast to "human life." In physical reality, a house, a farm, or a business is constructed by expending a non-renewable portion of a human being's finite lifespan and physical energy (Principle 2), and its function is to house, feed, and sustain human life. While a destroyed building can be reconstructed by expending new human labor whereas a dead person cannot be brought back to life, destroying built property is the direct destruction of the physical life-support equipment of human beings and the theft of the finite life-hours spent constructing it.
@@ -296,7 +296,7 @@ This principle rules out material and institutional neglect, building new projec
 
 ---
 
-## Chapter 4: Fourth Principle — Resource Allocation and Threat Defense
+## Chapter 4: Fourth Principle: Resource Allocation and Threat Defense
 
 > **Principle 4: What you keep and build is self-anchored, tiered, and outward. Enemies are real.**
 
@@ -305,13 +305,13 @@ Having established that humans are finite and particular (Principle 2), and that
 ### 4.1 What You Keep and Build
 
 #### Derivation
-This clause defines the unit of moral and operational accounting. A person's contribution to civilization is measured by **what he actually keeps and builds**—the tangible structures, tools, solvent accounts, healthy children, and functional institutions that exist as a result of his physical and mental labor. And this requirement is addressed directly to the individual operator ("you").
+This clause defines the unit of moral and operational accounting. A person's contribution to civilization is measured by **what he actually keeps and builds**: the tangible structures, tools, solvent accounts, healthy children, and functional institutions that exist as a result of his physical and mental labor. And this requirement is addressed directly to the individual operator ("you").
 
 #### Detractors and Failure Modes
 * **Verbal Signaling and Activism as Substitutes:** A common failure mode treats public expressions of sympathy, political slogans, or attendance at protests as the fulfillment of moral duty. Words and emotions do not purify water, harvest grain, machine steel parts, or raise disciplined children. A society where status is awarded for verbal signaling rather than keeping and building suffers rapid material and institutional decay.
 
 #### Operational Tolerances (Range of Views)
-The specific objects and systems an individual keeps and builds depend on his occupation, capacity, and stage of life—ranging from maintaining a household and raising infants, to operating a farm or machine shop, to administering a court or commanding a military unit.
+The specific objects and systems an individual keeps and builds depend on his occupation, capacity, and stage of life: ranging from maintaining a household and raising infants, to operating a farm or machine shop, to administering a court or commanding a military unit.
 
 #### Excluded Parameters (What It Cannot Accept)
 This principle rules out substituting verbal declarations, emotional sympathy, or ideological activism for the actual work of maintaining and constructing life-sustaining systems.
@@ -325,7 +325,7 @@ To say that keeping and building is **self-anchored** means that the allocation 
 
 Because humans are self-interested, limited, and particular (Principle 2), each individual has direct continuous control over only one physical body and mind: his own. Therefore, the first operational requirement for any person is to keep himself alive, healthy, disciplined, skilled, and financially solvent. 
 
-The engineering proof is straightforward: if an operator fails to maintain himself—if he is chronically undisciplined, incapacitated by preventable illness or addiction, or financially insolvent—he cannot provide for a family or contribute to a community. Instead, he consumes the surplus time and wealth of other operators who are maintaining themselves. Therefore, responsibility cannot begin at the global or collective level and work inward; it must originate at the individual and his immediate household, and work outward from that point.
+The engineering proof is straightforward: if an operator fails to maintain himself (if he is chronically undisciplined, incapacitated by preventable illness or addiction, or financially insolvent), he cannot provide for a family or contribute to a community. Instead, he consumes the surplus time and wealth of other operators who are maintaining themselves. Therefore, responsibility cannot begin at the global or collective level and work inward; it must originate at the individual and his immediate household, and work outward from that point.
 
 #### Detractors and Failure Modes
 * **Collectivism:** Collectivist doctrines assert that the individual human being belongs primarily to the state, the political party, or humanity as a whole, and that the individual is only permitted to keep whatever time and resources the collective chooses to leave him. In practice, this destroys individual ownership and self-maintenance, turning citizens into dependents of a central bureaucracy.
@@ -341,23 +341,23 @@ This principle rules out collectivist systems that claim the individual belongs 
 ### 4.3 Tiered
 
 #### Derivation
-Because an individual's time, energy, attention, and money are strictly limited (Principle 2.3), and because he has specific biological, familial, and civic ties (Principle 2.4), he cannot allocate his resources equally to all human beings. He must allocate them in **tiers**—discrete levels of priority ordered by relational proximity and obligation.
+Because an individual's time, energy, attention, and money are strictly limited (Principle 2.3), and because he has specific biological, familial, and civic ties (Principle 2.4), he cannot allocate his resources equally to all human beings. He must allocate them in **tiers**: discrete levels of priority ordered by relational proximity and obligation.
 
 A standard operational ordering of tiers for an adult is:
 * **Tier 1:** The individual himself (maintaining personal health, competence, and solvency).
 * **Tier 2:** The immediate household (feeding, housing, protecting, and educating one's spouse and children).
 * **Tier 3:** Extended family, neighbors, close associates, and local community institutions (such as a local church, school, or trade association).
 * **Tier 4:** The nation or polity (paying lawful taxes, obeying laws, and performing civic or military duty).
-* **Tier 5:** Distant strangers and foreign populations (practicing basic honesty in trade and offering voluntary charity when a genuine surplus exists after Tiers 1 through 4 are fully secured).
+* **Tier 5:** Distant strangers and foreign populations (practicing basic honesty in commercial dealings and offering voluntary charity when a genuine surplus exists after Tiers 1 through 4 are fully secured).
 
 If a father takes the money required to buy food and shoes for his own children (Tier 2) and sends it to strangers in a foreign country (Tier 5), he has violated the operational tiers. Because no stranger in that foreign country is going to feed his children, his children suffer neglect. If everyone in a society violates the tiers in this manner, household maintenance fails across the entire society.
 
 #### Detractors and Failure Modes
-* **Universal Equal-Allocation Utilitarianism:** Philosophical utilitarians argue that because all humans are morally equal in the abstract, a father should treat a stranger on another continent as having the exact same claim on his income and time as his own child. Executing this doctrine destroys the family unit, which is the only mechanism capable of raising the next generation carefully and efficiently.
+* **Universal Equal-Allocation Utilitarianism:** Philosophical utilitarians argue that because all humans are morally equal in the abstract, a father should treat a stranger on another continent as having the identical claim on his income and time as his own child. Executing this doctrine destroys the family unit, which is the only mechanism capable of raising the next generation carefully and efficiently.
 * **Nepotism in Public Office:** Conversely, applying familial tier preferences inside a public office (such as a judge ruling in favor of his cousin, or a government official awarding public contracts to his brother) violates the scope of public rules, which is governed by Principle 5.
 
 #### Operational Tolerances (Range of Views)
-Cultures and individuals reasonably debate the exact prioritization of intermediate tiers—for example, how to balance obligations between an aging parent, a sibling, a close friend, and a local religious congregation.
+Cultures and individuals reasonably debate the exact prioritization of intermediate tiers: for example, how to balance obligations between an aging parent, a sibling, a close friend, and a local religious congregation.
 
 #### Excluded Parameters (What It Cannot Accept)
 This principle rules out universalist doctrines that demand an individual treat distant strangers as having an equal claim on his resources alongside his own family and countrymen.
@@ -391,8 +391,8 @@ As an individual or a nation looks outward, not every external human or group is
 An enemy is defined not by personal dislike or disagreement, but by an active program to harm, dispossess, or destroy a target person or group. You cannot "keep and build" an enemy; attempting to offer material support or unilateral concessions to an agent committed to your destruction merely increases that agent's capacity to harm you. Against an enemy, the only functional engineering responses are defense, deterrence, or physical defeat.
 
 This reality operates across all tiers:
-1. **At the Household Level:** Consider an armed intruder who forces open the door of a family home at night. The intruder has stepped outside the procedures of peaceful law and initiated physical force that threatens the lives of the occupants. To the homeowner, the intruder is an immediate enemy who must be stopped by physical force.
-2. **At the National and State Level:** Enmity also occurs between populations and even between a government and a population living within its borders. Consider the historical record of the Young Turk regime and subsequent Turkish nationalist governments toward the Greek and Armenian populations within their territory during two distinct periods: first, the massacres, forced marches, and deportations of 1915–1923; and second, during the 1940s, through confiscatory measures such as the 1942 *Varlık Vergisi* (Wealth Tax), which imposed ruinous, arbitrary tax assessments predominantly on non-Muslim citizens (Armenians, Greeks, and Jews), resulting in the seizure of their businesses and properties and the deportation of those unable to pay to forced labor camps. From the operational standpoint of the Turkish nationalist rulers, the Greek and Armenian minorities were categorized as an internal threat to the ethnic homogeneity and territorial security of the Turkish state. Consequently, the state apparatus made itself the active enemy of its own Greek and Armenian residents, using legislation, taxation, property confiscation, conscription, and physical violence to eliminate them from the territory and transfer their built wealth to the majority population.
+1. **At the Household Level:** Suppose an armed intruder forces open the door of a family home at night. The intruder has stepped outside the procedures of peaceful law and initiated physical force that threatens the lives of the occupants. To the homeowner, the intruder is an immediate enemy who must be stopped by physical force.
+2. **At the National and State Level:** Enmity also occurs between populations and even between a government and a population living within its borders. The historical record of the Young Turk regime and subsequent Turkish nationalist governments toward the Greek and Armenian populations within their territory during two distinct periods illustrates this: first, the massacres, forced marches, and deportations of 1915–1923; and second, during the 1940s, through confiscatory measures such as the 1942 *Varlık Vergisi* (Wealth Tax), which imposed ruinous, arbitrary tax assessments predominantly on non-Muslim citizens (Armenians, Greeks, and Jews), resulting in the seizure of their businesses and properties and the deportation of those unable to pay to forced labor camps. From the operational standpoint of the Turkish nationalist rulers, the Greek and Armenian minorities were categorized as an internal threat to the ethnic homogeneity and territorial security of the Turkish state. Consequently, the state apparatus made itself the active enemy of its own Greek and Armenian residents, using legislation, taxation, property confiscation, conscription, and physical violence to eliminate them from the territory and transfer their built wealth to the majority population.
 
 This historical record proves two critical facts: first, an enemy is defined objectively by an active campaign to dispossess or destroy a target group; second, even the government under whose jurisdiction you reside is capable of becoming your enemy if it directs its coercive power toward your destruction.
 
@@ -408,18 +408,18 @@ This principle rules out pacifism and the refusal to recognize and defend agains
 
 ---
 
-## Chapter 5: Fifth Principle — The Protocol for Multi-Agent Rules
+## Chapter 5: Fifth Principle: The Protocol for Multi-Agent Rules
 
 > **Principle 5: Justice is scoped procedural symmetry.**
 
-Because human beings are self-interested (Principle 2.2) and prioritize their own households and kin (Principle 4.3), multiple humans living in proximity will inevitably experience conflicts over property, contracts, authority, and physical safety. If every dispute is settled by raw physical violence or clan favoritism, keeping and building become impossible. A society requires a stable protocol for applying rules across multiple agents. That protocol is **justice**, and it consists of three inseparable specifications: it must be **scoped**, **procedural**, and **symmetrical**. If any one of these three specifications is omitted, the system fails.
+Because human beings are self-interested (Principle 2.2) and prioritize their own households and kin (Principle 4.3), multiple humans living in proximity will inevitably experience conflicts over property, contracts, authority, and physical safety. If every dispute is settled by brute physical violence or clan favoritism, keeping and building become impossible. A society requires a stable protocol for applying rules across multiple agents. That protocol is **justice**, and it consists of three inseparable specifications: it must be **scoped**, **procedural**, and **symmetrical**. If any one of these three specifications is omitted, the system fails.
 
 ### 5.1 Scoped
 
 #### Derivation
 Every rule, law, and institution operates within a defined boundary of jurisdiction, membership, and role. This boundary is its **scope**.
 
-First, scope defines **territorial and institutional jurisdiction**. The laws of France apply within the physical borders of France; a French court has neither the legal authority nor the physical enforcement mechanism to adjudicate disputes in Japan. Similarly, within a nation, smaller organizations—a private business, a university, a military regiment, a family household—each have a defined organizational scope over their own members and property.
+First, scope defines **territorial and institutional jurisdiction**. The laws of France apply within the physical borders of France; a French court has neither the legal authority nor the physical enforcement mechanism to adjudicate disputes in Japan. Similarly, within a nation, smaller organizations (a private business, a university, a military regiment, a family household) each have a defined organizational scope over their own members and property.
 
 Second, scope defines distinct **positions** (roles and statuses) within a jurisdiction based on distinct duties, qualifications, and obligations. Not everyone inside a scope occupies the same position:
 * Within a school, the teacher and the students are inside the same institutional scope, but they occupy different positions with different authority and duties.
@@ -428,7 +428,7 @@ Second, scope defines distinct **positions** (roles and statuses) within a juris
 How a polity defines its scope and the positions within that scope determines the structure of its civilization. For example, in states governed by classical Islamic law (*Sharia*), Islam operates as a polity that incorporates a religion. Consequently, full membership in the political scope is defined by religious adherence: Muslims and non-Muslims (*dhimmis*) are placed into distinct legal positions with different rules governing taxation, court testimony, family law, and eligibility for high office. By contrast, a secular constitutional republic defines the position of citizen without regard to religious affiliation, placing all citizens into a single legal position before the state courts. Both examples demonstrate the universal engineering principle: before symmetry can be applied, a system always defines the boundaries of its scope and specifies who occupies which position within it.
 
 #### Detractors and Failure Modes
-* **Borderless Universalism:** Detractors claim that national borders and citizenship distinctions are unjust, asserting that any human being from anywhere in the world who walks across a border immediately holds the exact same claim to welfare treasuries, voting, and legal status as the citizens who built, funded, and defended that nation. Removing the boundary of scope destroys the fiscal solvency and legal order of the state: a finite treasury (Principle 2.3) cannot satisfy an unlimited global population.
+* **Borderless Universalism:** Detractors claim that national borders and citizenship distinctions are unjust, asserting that any human being from anywhere in the world who walks across a border immediately holds the identical claim to welfare treasuries, voting, and legal status as the citizens who built, funded, and defended that nation. Removing the boundary of scope destroys the fiscal solvency and legal order of the state: a finite treasury (Principle 2.3) cannot satisfy an unlimited global population.
 * **Arbitrary Corruption Scopes:** Conversely, creating ad-hoc legal exemptions to shield a ruling political clique or favored demographic group from criminal laws violates valid scoping and destroys symmetry.
 
 #### Operational Tolerances (Range of Views)
@@ -442,20 +442,20 @@ This principle rules out borderless universalism that grants non-citizens the sa
 ### 5.2 Procedural
 
 #### Derivation
-Within a defined scope, justice requires a known method—explicit rules, statutes, and standards of evidence—written and stated *before* an action takes place, and executed step-by-step according to that fixed method. This is the requirement that justice be **procedural**.
+Within a defined scope, justice requires a known method (explicit rules, statutes, and standards of evidence) written and stated *before* an action takes place, and executed step-by-step according to that fixed method. This is the requirement that justice be **procedural**.
 
 Procedural rules provide predictability. When a builder knows in advance what the tax rate is, how property titles are recorded, how contracts are enforced, and what conduct is criminal, he can plan multi-year projects reliably. 
 
 Crucially, because individual humans are particular and unequal in talent, intelligence, and effort (Principle 2), applying a fair, fixed procedure to different humans will naturally produce **unequal outcomes**. 
 
-Consider an engineering school classroom: the instructor gives every student the exact same printed examination, allows the exact same two hours to complete it, and grades every paper using the exact same objective answer key. That is procedural justice. Because the students differ in ability and preparation, their final scores will be unequal—some will receive high marks and others will fail. The unequal outcome is the direct proof that the procedure measured reality accurately, not evidence that the test was unjust. Furthermore, placing high-scoring students into an advanced course is fully consistent with procedural justice, provided the qualification threshold was stated beforehand and is open to any student who meets it.
+In an engineering school classroom, the instructor gives every student the identical printed examination, allows the same two hours to complete it, and grades every paper using the identical objective answer key. That is procedural justice. Because the students differ in ability and preparation, their final scores will be unequal: some will receive high marks and others will fail. The unequal outcome is the direct proof that the procedure measured reality accurately, not evidence that the test was unjust. Furthermore, placing high-scoring students into an advanced course is fully consistent with procedural justice, provided the qualification threshold was stated beforehand and is open to any student who meets it.
 
 #### Detractors and Failure Modes
 * **Arbitrary Command and Retroactive Rule Changes:** When rulers or administrators make decisions by personal whim, confiscate property without established legal cause, or change the rules *after* a test or competition has concluded in order to ensure that a favored group wins, nobody can trust the system. Long-term building ceases when rules can be altered retroactively.
 * **Non-Enforcement Disguised as Compassion:** Refusing to enforce clear criminal laws against theft, assault, or public disorder out of professed sympathy for the offenders abandons procedure and subjects law-abiding citizens to unpredictable violence and property loss.
 
 #### Operational Tolerances (Range of Views)
-Different legal systems employ different specific procedures to ascertain facts—such as common-law adversarial jury trials versus civil-law judicial panels—and permit defined procedures for executive clemency or sentencing discretion *after* guilt has been established according to the rule.
+Different legal systems employ different specific procedures to ascertain facts (such as common-law adversarial jury trials versus civil-law judicial panels) and permit defined procedures for executive clemency or sentencing discretion *after* guilt has been established according to the rule.
 
 #### Excluded Parameters (What It Cannot Accept)
 This principle rules out arbitrary command, changing rules retroactively to engineer a desired winner, and refusing to enforce established laws against clear violations.
@@ -465,15 +465,15 @@ This principle rules out arbitrary command, changing rules retroactively to engi
 ### 5.3 Symmetry
 
 #### Derivation
-**Symmetry** means that every person who occupies the *same position* within the *same scope* is subjected to the *exact same procedure*.
+**Symmetry** means that every person who occupies the *same position* within the *same scope* is subjected to the *identical procedure*.
 
-While a teacher and a student occupy different positions, any two students enrolled in the same course occupy the same position and must be graded by the identical standard. Any two citizens accused of the same crime occupy the same position before the criminal court and must be tried under the exact same rules of evidence and sentencing statutes, regardless of their wealth, ethnicity, family connections, or political opinions.
+While a teacher and a student occupy different positions, any two students enrolled in the same course occupy the same position and must be graded by the identical standard. Any two citizens accused of the same crime occupy the same position before the criminal court and must be tried under the identical rules of evidence and sentencing statutes, regardless of their wealth, ethnicity, family connections, or political opinions.
 
 Symmetry is the structural mechanism that prevents the tiered personal loyalties of Principle 4 from corrupting public and institutional life. In his private household (Principle 4), a man rightly favors his own son over a stranger. However, when that same man accepts the position of a judge in a public court, a police officer on patrol, or a teacher grading exams, he steps into an institutional scope (Principle 5) whose rules require complete symmetry among all citizens or students in that position. If a judge favors his relatives in court, he destroys the justice system.
 
 #### Detractors and Failure Modes
-* **Equal-Outcome Mandates (Disparate Impact Theory):** The primary modern detractor against procedural symmetry is the doctrine of equal outcomes. This doctrine claims that if two demographic groups achieve different average results under the same test, hiring standard, or criminal law, the procedure itself is automatically "unjust" and must be altered—by assigning different passing scores to different groups, imposing demographic quotas, or selectively declining to prosecute certain groups—until the statistical outcomes are equal. This directly destroys symmetry: it treats individuals in the same position by different rules based on group identity, rewarding lower performance and punishing competence.
-* **Private Retaliatory Feuding:** A primitive distortion of symmetry reduces justice to private clan vengeance—where a family responds to an injury by privately attacking the perpetrator's family outside of any public court procedure. While vengeance attempts a crude symmetry of physical harm, it lacks *procedure* and *public scope*, resulting in endless cycles of retaliatory violence that prevent civilizational stability.
+* **Equal-Outcome Mandates (Disparate Impact Theory):** The primary modern detractor against procedural symmetry is the doctrine of equal outcomes. This doctrine claims that if two demographic groups achieve different average results under the same test, hiring standard, or criminal law, the procedure itself is automatically "unjust" and must be altered (by assigning different passing scores to different groups, imposing demographic quotas, or selectively declining to prosecute certain groups) until the statistical outcomes are equal. This directly destroys symmetry: it treats individuals in the same position by different rules based on group identity, rewarding lower performance and punishing competence.
+* **Private Retaliatory Feuding:** A primitive distortion of symmetry reduces justice to private clan vengeance, in which a family responds to an injury by privately attacking the perpetrator's family outside of any public court procedure. While vengeance attempts a crude symmetry of physical harm, it lacks *procedure* and *public scope*, resulting in endless cycles of retaliatory violence that prevent civilizational stability.
 
 #### Operational Tolerances (Range of Views)
 Societies reasonably debate proportionate sentencing scales for specific offenses and the exact technical qualifications required to enter a given professional position.
@@ -483,7 +483,7 @@ This principle rules out equal-outcome mandates (rigging procedures or imposing 
 
 ---
 
-## Part II: System Architecture — Civilization as the Prerequisite Technology
+## Part II: System Architecture: Civilization as the Prerequisite Technology
 
 ### Chapter 6: Will, Method, and the Individual Operator
 
@@ -493,11 +493,11 @@ In modern usage, the word "technology" is frequently restricted to hardware and 
 To manufacture and operate a semiconductor facility or a power plant requires:
 1. Farmers producing a reliable surplus of food so engineers and technicians do not have to forage for calories.
 2. Police and military forces keeping violent criminals and foreign invaders away from the facility and its workers.
-3. Courts enforcing contracts, property titles, and honest weights and measures.
+3. Courts enforcing contracts, property titles, and accurate weights and measures.
 4. Schools and families teaching children to read, write, calculate, and control their impulses.
 5. Parents bearing and raising a new generation of human beings to replace the engineers, farmers, and guards as they age and retire.
 
-If the farms, courts, defenses, or birthrates fail, the semiconductor facility ceases to operate within weeks or years, even if the physical machinery inside the building is undamaged. Therefore, **civilization is the prerequisite technology**—the primary system upon which all mechanical and informational technologies depend.
+If the farms, courts, defenses, or birthrates fail, the semiconductor facility ceases to operate within weeks or years, even if the physical machinery inside the building is undamaged. Therefore, **civilization is the prerequisite technology**: the primary system upon which all mechanical and informational technologies depend.
 
 #### 6.2 Decomposition: Will and Method
 Civilization is composed of two operational components:
@@ -519,7 +519,7 @@ When an individual human being executes the method of civilization in his own co
 
 ---
 
-## Part III: Operator Specifications — The Seven Virtues of Civilization
+## Part III: Operator Specifications: The Seven Virtues of Civilization
 
 Because civilization operates only through the conduct of individual humans, we can derive the exact behavioral specifications required of an individual operator directly from the five constraints of reality and the definition of civilization. These are the **Seven Virtues of Civilization**:
 
@@ -535,7 +535,7 @@ The following chapters derive each virtue sequentially and define its tolerances
 
 ---
 
-## Chapter 7: First Virtue — Align with Truth
+## Chapter 7: First Virtue: Align with Truth
 
 #### Derivation
 This virtue is the direct individual execution of **Principle 1** (*Reality is real, knowable, and consequential. Truth is what corresponds to reality*).
@@ -544,7 +544,7 @@ Because reality is consequential and punishes inaccurate models with physical or
 
 To **align with truth** requires two operations:
 1. **Internal Alignment (Observation and Reason):** Looking at physical and social facts without self-deception, measuring outcomes accurately, and refusing to ignore evidence that contradicts one's desires or prior beliefs.
-2. **External Alignment (Honest Communication):** Speaking and recording facts accurately to others—whether in engineering stress tests, financial accounting, court testimony, or daily speech.
+2. **External Alignment (Honest Communication):** Speaking and recording facts accurately to others: whether in engineering stress tests, financial accounting, court testimony, or daily speech.
 
 #### Failure Modes When Violated
 When an engineer falsifies a material quality report, when a business owner falsifies his accounting ledgers, or when a public official lies about criminal statistics or military readiness, he injects false data into the operational decisions of others. Because the physical world does not adjust itself to match the lie, the bridge collapses, the enterprise goes bankrupt, or the city is caught unprepared by a threat. Furthermore, widespread lying destroys trust among citizens, greatly increasing the cost and difficulty of every cooperative transaction.
@@ -557,17 +557,17 @@ This virtue rules out lying, fraud, falsification of data, self-deception, and s
 
 ---
 
-## Chapter 8: Second Virtue — Take Ownership, Which Is Responsibility
+## Chapter 8: Second Virtue: Take Ownership, Which Is Responsibility
 
 #### Derivation
 This virtue is derived directly from **Principle 2** (*Humans are self-interested, limited, and particular*), **Principle 3** (*Life kept and built*), and **Principle 4** (*What you keep and build is self-anchored, tiered, and outward*).
 
-Because humans are finite and cannot manage the entire world at once, work must be divided into definite, bounded scopes assigned to specific individuals. To **take ownership** is not merely to hold a legal document of title; it is the operational act of claiming a specific scope—one's own body, health, trade, tools, household, debts, and assigned post—and answering personally for its maintenance and outcomes. That personal accountability is **responsibility**.
+Because humans are finite and cannot manage the entire world at once, work must be divided into definite, bounded scopes assigned to specific individuals. To **take ownership** is not merely to hold a legal document of title; it is the operational act of claiming a specific scope (one's own body, health, trade, tools, household, debts, and assigned post) and answering personally for its maintenance and outcomes. That personal accountability is **responsibility**.
 
 The engineering necessity of individual ownership is demonstrated by the failure of unowned resources: when a tool, a building, or a task belongs to "everyone in general," no specific person bears the direct cost of its neglect or receives the direct benefit of its maintenance. Consequently, each person waits for someone else to do the work, and the tool or building rapidly degrades. When a specific individual takes ownership, the feedback loop between action and consequence is closed.
 
 #### Failure Modes When Violated
-When individuals refuse ownership—blaming their personal failures on society, demanding material subsidies and legal privileges while refusing to perform the upkeep of their own health, finances, and households—the burden of their maintenance is shifted onto the shrinking number of responsible operators, eventually overloading the system. A particularly destructive violation occurs when individuals neglect their immediate Tier 1 and Tier 2 responsibilities (leaving their own homes, debts, and children in disorder) while loudly demanding control over Tier 4 and Tier 5 national or global policies.
+When individuals refuse ownership (blaming their personal failures on society, demanding material subsidies and legal privileges while refusing to perform the upkeep of their own health, finances, and households), the burden of their maintenance is shifted onto the shrinking number of responsible operators, eventually overloading the system. A particularly destructive violation occurs when individuals neglect their immediate Tier 1 and Tier 2 responsibilities (leaving their own homes, debts, and children in disorder) while loudly demanding control over Tier 4 and Tier 5 national or global policies.
 
 #### Operational Tolerances (Range of Views)
 The physical scale of ownership scales with an individual's capacity and station: a young apprentice takes ownership of his tools, his punctuality, and his assigned tasks; a husband and wife take ownership of their household and children; a business owner or military commander takes ownership of the performance and conduct of an entire organization.
@@ -577,17 +577,17 @@ This virtue rules out shifting blame for one's own conduct onto others, demandin
 
 ---
 
-## Chapter 9: Third Virtue — Seek Excellence
+## Chapter 9: Third Virtue: Seek Excellence
 
 #### Derivation
 This virtue is derived from **Principle 1** (*Reality is consequential*) and **Principle 3** (*Kept and built*).
 
-In the physical world, structures and systems are continuously subjected to wear, environmental stress, and unexpected shocks. If an operator performs his work to the bare minimum standard required to avoid immediate failure—if a machinist cuts parts at the outer limit of acceptable tolerance, if a builder uses the weakest permissible materials, or if a janitor cleans only the visible center of a room—the system possesses zero margin of safety. As soon as normal degradation or an external shock occurs, the system fails.
+In the physical world, structures and systems are continuously subjected to wear, environmental stress, and unexpected shocks. If an operator performs his work to the bare minimum standard required to avoid immediate failure (if a machinist cuts parts at the outer limit of acceptable tolerance, if a builder uses the weakest permissible materials, or if a janitor cleans only the visible center of a room), the system possesses no margin of safety. As soon as normal degradation or an external shock occurs, the system fails.
 
-To **seek excellence** is to hold one's work—both in routine maintenance (keeping) and in new construction (building)—to a high, objective standard of durability, precision, and function. When operators across a civilization seek excellence, tools last longer, machines run more efficiently, buildings withstand severe weather, and the society's margin of safety increases.
+To **seek excellence** is to hold one's work, both in routine maintenance (keeping) and in new construction (building), to a high, objective standard of durability, precision, and function. When operators across a civilization seek excellence, tools last longer, machines run more efficiently, buildings withstand severe weather, and the society's margin of safety increases.
 
 #### Failure Modes When Violated
-When a culture accepts mediocrity and slackness—omitting required steps when unsupervised, producing shoddy goods, and substituting paper credentials or bureaucratic titles for actual technical competence—complex systems begin to fail simultaneously. Maintenance backlogs grow until infrastructure breaks down faster than it can be repaired.
+When a culture accepts mediocrity and slackness (omitting required steps when unsupervised, producing shoddy goods, and substituting paper credentials or bureaucratic titles for actual technical competence), complex systems begin to fail simultaneously. Maintenance backlogs grow until infrastructure breaks down faster than it can be repaired.
 
 #### Operational Tolerances (Range of Views)
 The technical specification for excellence depends on the purpose of the task. A temporary wooden shelter built for a three-day surveying expedition and a permanent stone highway bridge have different design lifetimes and material specifications, but each can be executed to a high standard of competence within its class.
@@ -597,17 +597,17 @@ This virtue rules out deliberate mediocrity, omitting required steps when no ins
 
 ---
 
-## Chapter 10: Fourth Virtue — Admire Beauty
+## Chapter 10: Fourth Virtue: Admire Beauty
 
 #### Derivation
 This virtue is derived from **Principle 1** (*Truth corresponds to reality*) and **Principle 3** (*Goodness must include human life continuing, kept and built*).
 
 From an engineering and biological perspective, **beauty** is the observable manifestation of vitality, order, proportion, and truth in a physical object, a living organism, or a human work. 
-* In a biological organism, beauty is visible as health, symmetry, physical strength, and fertility—the indicators of thriving life.
+* In a biological organism, beauty is visible as health, symmetry, physical strength, and fertility: the indicators of thriving life.
 * In a built structure or machine, beauty is visible as structural proportion, clean maintenance, and the efficient alignment of form with physical function.
-* In literature, music, and visual art, beauty is the accurate, ordered representation of physical or moral reality. For example, a fictional narrative can be genuinely beautiful if it accurately portrays the real consequences of human courage, loyalty, or betrayal; conversely, a narrative that depicts reality falsely—portraying cowardice, squalor, and self-destruction as noble and free of consequence—cannot be beautiful because it violates truth (Principle 1).
+* In literature, music, and visual art, beauty is the accurate, ordered representation of physical or moral reality. For example, a fictional narrative can be genuinely beautiful if it accurately portrays the real consequences of human courage, loyalty, or betrayal; conversely, a narrative that depicts reality falsely (portraying cowardice, squalor, and self-destruction as noble and free of consequence) cannot be beautiful because it violates truth (Principle 1).
 
-Why is **admiring beauty** a necessary operational virtue for civilization? Because human beings protect and maintain what they value. Training an individual to recognize and admire beauty trains his sensory and rational judgment to detect when a person, a home, a city, or a work is healthy, ordered, and true, and makes him unwilling to tolerate filth, disorder, decay, and falsehood in his surroundings. A population surrounded by orderly, clean, well-proportioned buildings and honest art is motivated to keep and defend its civilization; a population surrounded by squalor, graffiti, and ugly structures becomes demoralized and ceases to care for its environment.
+**Admiring beauty** is a necessary operational virtue for civilization because human beings protect and maintain what they value. Training an individual to recognize and admire beauty trains his sensory and rational judgment to detect when a person, a home, a city, or a work is healthy, ordered, and true, and makes him unwilling to tolerate filth, disorder, decay, and falsehood in his surroundings. A population surrounded by orderly, clean, well-proportioned buildings and truthful art is motivated to keep and defend its civilization; a population surrounded by squalor, graffiti, and ugly structures becomes demoralized and ceases to care for its environment.
 
 #### Failure Modes When Violated
 Two failure modes occur when this virtue is rejected:
@@ -622,7 +622,7 @@ This virtue rules out art, architecture, and narratives that celebrate chaos, fi
 
 ---
 
-## Chapter 11: Fifth Virtue — Be Humble
+## Chapter 11: Fifth Virtue: Be Humble
 
 #### Derivation
 This virtue is derived directly from **Principle 2.3** (*Humans are limited*) and the definition of **Civilization** as an inherited method.
@@ -631,7 +631,7 @@ Every human being has a finite lifespan, finite intelligence, and incomplete inf
 
 To **be humble** is the practical operational conduct that follows from these two facts:
 1. Because your knowledge is finite and you can be wrong, you must test your hypotheses and plans against physical reality, double-check your calculations, listen to factual correction from others, and actively look for evidence that disproves your assumptions.
-2. Because you did not invent the civilization you inhabit, you must first learn how existing institutions, customs, and technical methods work—and understand *why* they were built—before attempting to alter or discard them.
+2. Because you did not invent the civilization you inhabit, you must first learn how existing institutions, customs, and technical methods work, and understand *why* they were built, before attempting to alter or discard them.
 
 #### Failure Modes When Violated
 * **Arrogance (Hubris):** An arrogant engineer, ruler, or citizen assumes his personal theory is infallible. He refuses to check for conflicting evidence and tears down inherited laws, family structures, or technical practices that he did not build and does not understand, assuming he can design an entire society from scratch on paper. When the protection provided by those inherited institutions is removed, the society suffers immediate, unforeseen failures.
@@ -641,11 +641,11 @@ To **be humble** is the practical operational conduct that follows from these tw
 Humility operates across all skill levels: it is practiced both by the novice apprentice who follows the instructions of a master craftsman, and by the senior chief engineer who insists on independent verification of his own designs because he knows human cognition is fallible.
 
 #### Excluded Parameters (What It Cannot Accept)
-This virtue rules out arrogance—refusing to test beliefs against reality or demolishing inherited institutions without understanding their function—as well as false self-deprecation used to evade responsibility.
+This virtue rules out arrogance (refusing to test beliefs against reality or demolishing inherited institutions without understanding their function) as well as false self-deprecation used to evade responsibility.
 
 ---
 
-## Chapter 12: Sixth Virtue — Have Children
+## Chapter 12: Sixth Virtue: Have Children
 
 #### Derivation
 This virtue is the direct individual execution of **Principle 3.2** (*Goodness must include human life continuing*).
@@ -655,7 +655,7 @@ Civilization is a technology operated by living human beings. Because every huma
 This is an inexorable mathematical constraint: no level of technological sophistication, financial wealth, or military hardware can preserve a society whose members cease to reproduce. Within a few decades, a non-reproducing society experiences a severe shortage of young workers and soldiers, an unsustainable dependency ratio of elderly retirees to working adults, and eventual replacement by other populations that continue to have children.
 
 #### Failure Modes When Violated
-A major failure mode in wealthy societies is the cultural promotion of deliberate childlessness among healthy, financially capable adults—treating children as an inconvenient financial burden or an obstacle to personal leisure, travel, and material consumption. Critically, an adult who chooses to remain childless for personal convenience while expecting to live in comfort during his old age is relying entirely on the children raised and paid for by other parents to grow food, maintain the electrical grid, staff the hospitals, and fund the economy when he is old. If the rest of the society adopts his conduct, everyone starves in old age.
+A major failure mode in wealthy societies is the cultural promotion of deliberate childlessness among healthy, financially capable adults: treating children as an inconvenient financial burden or an obstacle to personal leisure, travel, and material consumption. Critically, an adult who chooses to remain childless for personal convenience while expecting to live in comfort during his old age is relying entirely on the children raised and paid for by other parents to grow food, maintain the electrical grid, staff the hospitals, and fund the economy when he is old. If the rest of the society adopts his conduct, everyone starves in old age.
 
 #### Operational Tolerances (Range of Views)
 The number of children a specific couple has will vary according to biological fertility, health, and economic circumstances. Furthermore, not every individual is biologically capable of having children, or able to find a spouse and marry. Because involuntary infertility and unmarried states occur in every population, this virtue applies as the normal operational course for able adults and as the demographic requirement for the society as a whole, while non-reproducing individuals contribute to continuation through Virtue 7.
@@ -665,7 +665,7 @@ This virtue rules out anti-natalism, treating children as an undesirable burden,
 
 ---
 
-## Chapter 13: Seventh Virtue — Generational Obligation
+## Chapter 13: Seventh Virtue: Generational Obligation
 
 #### Derivation
 This virtue is derived from **Principle 3** (*Human life continuing, kept and built*), **Principle 4** (*Tiered and outward*), and the definition of **Civilization**.
@@ -703,12 +703,12 @@ We can now verify the complete chain of derivation from initial conditions to in
 5. **Resource Allocation and Threat Response (Principle 4):** Because operators are finite and particular, their maintenance and construction work must originate at the individual (**self-anchored**), be allocated by priority of relational proximity (**tiered**), and extend to the community and nation that protect the household (**outward**). Agents who actively seek to rob, subjugate, or destroy the operator or his people must be recognized and stopped (**enemies are real**).
 6. **Multi-Agent Conflict Protocol (Principle 5):** To prevent self-interest and familial tiers from causing destructive internal conflict or corruption, rules must operate within defined boundaries and positions (**scoped**), follow known rules stated in advance (**procedural**), and apply identically to every person in the same position (**symmetry**).
 7. **Individual Execution (The Seven Virtues):** Because civilization is not a collective organism, it functions only when individual operators execute its method (**virtue**) through **Will** and **Method**:
-   * Conforming thought and speech to reality (**Align with truth** — from Principle 1).
-   * Answering personally for a defined scope (**Take ownership** — from Principles 2, 3, and 4).
-   * Working to a high standard to counteract decay and build a margin of safety (**Seek excellence** — from Principles 1 and 3).
-   * Recognizing and valuing order, vitality, and accuracy while rejecting squalor and falsehood (**Admire beauty** — from Principles 1 and 3).
-   * Testing fallible models against reality and learning inherited methods before altering them (**Be humble** — from Principle 2 and Civilization).
-   * Producing the biological replacements for the system (**Have children** — from Principle 3).
-   * Educating the young and handing over the material and institutional inheritance in working order (**Generational obligation** — from Principles 3, 4, and Civilization).
+   * Conforming thought and speech to reality (**Align with truth**, derived from Principle 1).
+   * Answering personally for a defined scope (**Take ownership**, derived from Principles 2, 3, and 4).
+   * Working to a high standard to counteract decay and build a margin of safety (**Seek excellence**, derived from Principles 1 and 3).
+   * Recognizing and valuing order, vitality, and accuracy while rejecting squalor and falsehood (**Admire beauty**, derived from Principles 1 and 3).
+   * Testing fallible models against reality and learning inherited methods before altering them (**Be humble**, derived from Principle 2 and Civilization).
+   * Producing the biological replacements for the system (**Have children**, derived from Principle 3).
+   * Educating the young and handing over the material and institutional inheritance in working order (**Generational obligation**, derived from Principles 3, 4, and Civilization).
 
 Every principle and every virtue in this specification is locked to the others by physical and logical necessity. Remove any one of them, and the failure mode is predictable, measurable, and fatal to the continuation of human life. Maintain all of them within their operational tolerances, and civilization endures across generations.
