@@ -2298,15 +2298,27 @@ A civilization must defend free speech and open scientific inquiry against censo
 
 Whenever you face a serious decision, in your household, your enterprise, your school board, or your vote as a citizen, evaluate the proposal through the **Seven-Filter Decision Checklist**:
 
-| Filter | Question to Ask | Root Principle or Virtue |
-| :--- | :--- | :--- |
-| **1. Reality and Truth** | What are the verifiable physical and historical facts, stripped of wishful thinking and spin? What will happen in reality if we do this? | **Principle 1 and Virtue 1** |
-| **2. Human Limits and Incentives** | Does this plan assume humans are selfless angels, or does it account for self-interest, cognitive limits, and particularity? Have I checked my own blind spots? | **Principle 2 and Virtue 5** |
-| **3. Keeping and Building** | Does this decision maintain what already works (*kept*) and add durable value, competence, and beauty (*built*), or does it consume capital for immediate gratification? | **Principle 3 and Virtues 2, 3, 4** |
-| **4. Self-Anchored Tiers** | Have I secured Tiers 1 and 2 (self and household) before spending scarce action-based resources on outer tiers? Does this respect the proper tier boundary? | **Principle 4** |
-| **5. Enemy and Exploit Check** | How will a bad actor, free rider, fraudster, or active enemy manipulate or attack this arrangement? Are the perimeter boundaries and protective reserves properly guarded? | **Principle 4 ("Enemies are real")** |
-| **6. Scoped Procedural Symmetry** | Is the rule stated in advance and applied identically to everyone in the same position inside this scope? Would I accept this exact rule if the labels were swapped? | **Principle 5** |
-| **7. The Generational Horizon** | If everyone in our community follows this rule for the next seventy years, will our great-grandchildren be more numerous, more capable, and freer, or depleted and insolvent? | **Virtues 6 and 7** |
+1. **Reality and Truth**
+    * **Question to Ask:** What are the verifiable physical and historical facts, stripped of wishful thinking and spin? What will happen in reality if we do this?
+    * **Root Principle or Virtue:** **Principle 1 and Virtue 1**
+2. **Human Limits and Incentives**
+    * **Question to Ask:** Does this plan assume humans are selfless angels, or does it account for self-interest, cognitive limits, and particularity? Have I checked my own oversights?
+    * **Root Principle or Virtue:** **Principle 2 and Virtue 5**
+3. **Keeping and Building**
+    * **Question to Ask:** Does this decision maintain what already works (*kept*) and add durable value, competence, and beauty (*built*), or does it consume capital for immediate gratification?
+    * **Root Principle or Virtue:** **Principle 3 and Virtues 2, 3, 4**
+4. **Self-Anchored Tiers**
+    * **Question to Ask:** Have I secured Tiers 1 and 2 (self and household) before spending scarce action-based resources on outer tiers? Does this respect the proper tier boundary?
+    * **Root Principle or Virtue:** **Principle 4**
+5. **Enemy and Exploit Check**
+    * **Question to Ask:** How will a bad actor, free rider, fraudster, or active enemy manipulate or attack this arrangement? Are the perimeter boundaries and protective reserves properly guarded?
+    * **Root Principle or Virtue:** **Principle 4 ("Enemies are real")**
+6. **Scoped Procedural Symmetry**
+    * **Question to Ask:** Is the rule stated in advance and applied identically to everyone in the same position inside this scope? Would I accept this identical rule if the labels were swapped?
+    * **Root Principle or Virtue:** **Principle 5**
+7. **The Generational Horizon**
+    * **Question to Ask:** If everyone in our community follows this rule for the next seventy years, will our great-grandchildren be more numerous, more capable, and freer, or depleted and insolvent?
+    * **Root Principle or Virtue:** **Virtues 6 and 7**
 
 Five concrete scenarios illustrate how this Seven-Filter Checklist operates in practice:
 
@@ -2379,9 +2391,9 @@ A civilization of fifty million or three hundred million people is not an indepe
 * When millions of individuals direct their daily vectors toward falsehood, evasion of responsibility, negligent work, cynicism, childlessness, and the consumption of inherited capital, the resultant vector of the whole society points downward toward decline, and no prime minister or central bank can reverse that trajectory.
 * When men and women across a nation direct their daily vectors toward correspondence truth, self-anchored ownership, craft excellence, beauty, humility, raising children, and fulfilling their generational obligations under symmetrical laws, the resultant vector of that civilization points upward toward durability and growth, enabling even a resource-poor island or a damaged town after a storm to become a productive center of human life.
 
-To see how practical and orderly this technology is when applied in daily conduct, we may conclude with **One Ordinary Day** in the life of a man or woman who practices it:
+Although every citizen's station, trade, and season of life differs, we may see how practical and orderly this technology is by tracing **One Ordinary Day** in the life of a man or woman who practices it:
 
-* **6:00 a.m. (Tier 1 and Virtue 2: Self-Anchored Ownership):** The alarm sounds before dawn. You do not delay rising and blame external circumstances for your fatigue. You rise, wash, exercise your body, and place your own mind and conduct in order first, establishing self-command so that everyone who depends upon you today encounters a steady, capable adult.
+* **6:00 a.m. (Tier 1 and Virtue 2: Self-Anchored Ownership):** The alarm sounds before dawn. You rise, wash, exercise your body, and place your own mind and conduct in order first, establishing self-command so that everyone who depends upon you today encounters a steady, capable adult.
 * **7:00 a.m. (Tier 2 and Virtues 6 and 7: The Household Table):** In the kitchen, you prepare breakfast with your spouse and sit down with your children. The room reflects order: it is not a palace, but the floor is swept clean, the cabinet hinges are tight, and in the basement below stands the rotated winter pantry (**Principle 3: Kept**). Over breakfast, you review your ten-year-old's spelling words and listen to your seven-year-old's account, expending costly **Action-Based Love** where it belongs, in the inner tier entrusted to your care.
 * **8:30 a.m. to 5:00 p.m. (Tiers 3 and 4, Principles 1 and 5, Virtues 1, 3, 4, and 5: The Workplace and Public Square):** You step out your front door into the wider community. As you pass strangers on the sidewalk and travel to work, you extend **Dispositional Love** and **Politeness**, obeying traffic laws, dealing fairly, and wishing your fellow citizens well.
 
@@ -2394,4 +2406,4 @@ To see how practical and orderly this technology is when applied in daily conduc
 
 That single day illustrates the complete mechanism. There was no public spectacle and no utopian illusion in it. Yet between six in the morning and ten at night, **human life continued, reality was respected, decay was arrested, a household was sheltered, a municipality was strengthened, and the accumulated inheritance of five thousand years of human method was transmitted one day further into the future.**
 
-That is how civilization is built. That is how civilization is kept. Pick up your tools and begin.
+That is how civilization is built, and that is how civilization is kept, including on the difficult days when adversity, fatigue, or corrupt institutions test your resolve. Stand firm in your station, knowing that trials temper what is genuine and that millions of fellow builders across the world are holding the same line. May you keep a sober mind and a joyful heart through every test; may all that you keep and build be established on a sound foundation; and may your household and your descendants prosper in abundance for generations to come.
