@@ -1,7 +1,3 @@
-Here is the complete document, written in a clear, literal, and direct style, incorporating your exact sentences, definitions, and examples.
-
-***
-
 # Civilization's Common Principles
 
 ## Common Principles
