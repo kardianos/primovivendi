@@ -38,7 +38,7 @@ This environmental constraint immediately imposes a specific behavioral rule upo
 
 What happens if the engineer discovers that the wing spar cracked at eighty percent of the required design load, but because he wants to get promoted, or wants to avoid delaying the project, or wants to please his superiors, he writes down that the wing passed the test? He has introduced a falsehood into the design record. Because reality is consequential, that lie remains hidden only until the physical airplane flies into severe turbulence, at which point the wing breaks and the passengers die.
 
-Therefore, to build anything that works in reality, the individual human operator must conform his thought, his measurements, and his speech to reality as it actually is, refusing to lie, commit fraud, or deceive himself. This is our first individual operational specification, our first virtue:
+Therefore, to build anything that works in reality, the individual human operator must conform his thought, his measurements, and his speech to reality as it actually is, refusing to lie, commit fraud, or deceive himself. The seven virtues are numbered in the summary list. They appear in this derivation when the constraint requires them, so the order of appearance is not the order of those numbers. This is the first of them:
 
 > **Virtue 1: Align with truth.**
 
@@ -61,7 +61,7 @@ First, as the engineer works, after sixteen hours without sleep, his calculation
 
 What does a finite, fallible engineer have to do because he is limited? He must recognize that his first calculation might contain an error, and that he did not personally invent aerodynamics, calculus, or metallurgy from nothing during his short lifespan. Before he changes the design of a pressurization valve that has worked safely for thirty years, he must first learn why the engineers before him built it that way, and he must test his new idea under controlled conditions to see where he might be mistaken. If he arrogantly assumes his untested idea is infallible, or tears out existing systems without understanding their function, he destroys the machine. 
 
-Thus, the biological fact that humans are limited directly requires our second operational virtue:
+Thus, the biological fact that humans are limited directly requires the virtue of humility:
 
 > **Virtue 5: Be humble.**
 
@@ -69,7 +69,7 @@ Being humble is not weak self-deprecation or refusing to act; it is the practica
 
 Second, our engineer rises at six o'clock in the morning, studies difficult mathematics, and spends his finite hours machining parts or designing circuits rather than lying on the ground until he dies of exposure because, like every viable biological organism, he possesses an internal drive to preserve his own life, feed his body, avoid injury, and improve his condition. **Humans are self-interested.**
 
-Many moral philosophers condemn self-interest as a defect. From an engineering perspective, self-interest is the primary motivating mechanism that keeps individual operators functioning. A human being who does not value his own life and well-being will not take care of his health, will not learn a trade, and will not work to feed himself; he immediately becomes a passive load who must be carried by the labor of others. Valuing your own life is what makes ownership possible. Ownership is responsibility: the man answers for his own life rather than leaving it for others to carry. Having children matters because the children continue him and continue his particular parental lineage. That lineage is real. His responsibility begins with himself and with his own. He has no generic responsibility to Humanity. Human life remains the floor of goodness, and he values human life both broadly and in particular.
+Many moral philosophers condemn self-interest as a defect. From an engineering perspective, self-interest is the primary motivating mechanism that keeps individual operators functioning. A human being who does not value his own life and well-being will not take care of his health, will not learn a trade, and will not work to feed himself; he immediately becomes a passive load who must be carried by the labor of others. Valuing your own life is what makes ownership possible. Ownership is responsibility: the man answers for his own life rather than leaving it for others to carry. His care is anchored in his own life, in his spouse, and in his own children, who continue him and continue his particular parental lineage. That lineage is real. His responsibility begins with himself and with his own. He has no generic responsibility to Humanity.
 
 Third, are the actual human beings working in the hangar or living in the city featureless, identical, interchangeable units? 
 
@@ -121,7 +121,7 @@ The same constraint governs the mechanic who is "keeping" the airplane, or the c
 
 If a machinist cuts a steel shaft at the outer limit of the tolerance band, or a mason uses weak mortar when unsupervised, or a homeowner only repairs the roof after the ceiling collapses, the rate of physical decay overtakes the rate of maintenance, and the margin of safety vanishes. The first time an unusually strong storm hits the bridge or the aircraft, the structure fails catastrophically.
 
-To defeat continuous physical degradation and maintain a margin of safety, the individual operator cannot merely go through the motions; he must hold his maintenance and construction work to a high, objective standard of durability and precision. This is our third individual virtue:
+To defeat continuous physical degradation and maintain a margin of safety, the individual operator cannot merely go through the motions; he must hold his maintenance and construction work to a high, objective standard of durability and precision. This is the virtue of excellence:
 
 > **Virtue 3: Seek excellence.**
 
@@ -142,7 +142,7 @@ Before inspecting a single maintenance logbook, any passenger would choose to bo
 
 An engineer must include **admiring beauty** as a mandatory operational virtue for civilization because human beings only work to maintain and defend what they value, and beauty is the sensory signal that indicates life is thriving, ordered, and true. A person who is trained to admire beauty immediately notices when his home, his workshop, or his city begins to become dirty, disordered, or degraded, and he acts to clean and repair it. A population that loses the ability to recognize beauty (or worse, is taught by ideological artists and architects to celebrate ugliness, filth, and chaos) becomes demoralized. People do not sacrifice to maintain an environment designed to look like a ruin.
 
-This gives us our fourth individual virtue:
+This gives us the virtue of admiring beauty:
 
 > **Virtue 4: Admire beauty.**
 
@@ -158,7 +158,7 @@ Suppose a philosopher proposes Universal Collectivism: "Every house, every tool,
 
 Run that experiment in an apartment building or a machine shop for thirty days. When a tool belongs to "everyone in general," it belongs to no one in particular. If a worker leaves a lathe dirty or breaks a drill bit, the cost is diffused across thousands of people while the effort of cleaning or repairing it falls entirely on whoever steps up. Consequently, everyone waits for someone else to do the maintenance, and within weeks the shop is unusable. That shop had no named keeper. A shared work lasts when a named person, or a named office, is charged with the upkeep.
 
-Because humans are finite and self-interested (Principle 2), the only way to get actual keeping and building done is to assign a definite, bounded scope (a specific body, a specific set of tools, a specific house, a specific debt, a specific family, a specific job) to a specific individual who answers personally for its outcome. Claiming that bounded scope and answering for its condition is our fifth individual virtue:
+Because humans are finite and self-interested (Principle 2), the only way to get actual keeping and building done is to assign a definite, bounded scope (a specific body, a specific set of tools, a specific house, a specific debt, a specific family, a specific job) to a specific individual who answers personally for its outcome. Claiming that bounded scope and answering for its condition is the virtue of ownership:
 
 > **Virtue 2: Take ownership, which is responsibility.**
 
@@ -262,7 +262,7 @@ Suppose the adults now keeping this society decide that raising their own childr
 
 What happens in year sixty? The engineers who know how to maintain the high-voltage transformers and aviation navigation systems are old. There is no younger generation of their own to take up the work. Within one human lifetime the system stops, not because the physics of airplanes changed, but because the operators did not continue their own lines.
 
-Human life is the floor of goodness. The children a man is here to continue are particular. He cares first for his own. Lacking children of his own, he cares for his kin, broadly understood. Lacking those, he cares for the people who share his general heredity and are likely to share his dispositions and tendencies. He has no generic responsibility to Humanity. Having his own children continues him and continues his particular parental lineage. That lineage is real. For adults who are able, having their own children is a requirement of keeping a living system across a lifespan. This gives us our sixth individual virtue:
+Human life is the floor of goodness. The children a man is here to continue are particular. He cares first for his own. He has no generic responsibility to Humanity. Having his own children continues him and continues his particular parental lineage. That lineage is real. For adults who are able, having their own children is a requirement of keeping a living system across a lifespan. This gives us the sixth virtue in the summary list:
 
 > **Virtue 6: Have children.**
 
@@ -277,7 +277,7 @@ Handing that inheritance on requires these actions:
 2. The young are disciplined and educated so that they align with truth, take ownership, seek excellence, and master the technical and social skills required to sustain life in reality.
 3. The physical infrastructure, laws, culture, and financial solvency of the civilization are maintained so that they are handed on in working order.
 
-While some individuals are biologically unable to have children or do not marry, this seventh virtue remains completely open and binding upon them: they fulfill it through adoption, helping raise extended family, teaching students, training apprentices in a craft or engineering trade, and leaving durable, solvent work behind for the young.
+A man who lacks children of his own cares for his kin, broadly understood. Lacking those, he cares for the people who share his general heredity and are likely to share his dispositions and tendencies. While some individuals are biologically unable to have children or do not marry, this seventh virtue remains completely open and binding upon them: they fulfill it through adoption, helping raise extended family, teaching students, training apprentices in a craft or engineering trade, and leaving durable, solvent work behind for the young.
 
 This gives us our seventh and final individual virtue:
 

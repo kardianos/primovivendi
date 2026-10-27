@@ -94,7 +94,7 @@ Virtue is that technology in a person. The individual's virtues of civilization 
 #### Self-interested
 **Why it is important:** A human being is naturally concerned with his own survival and well-being. Valuing your own life is what makes ownership possible. Ownership is responsibility: the man answers for his own life rather than leaving it for others to carry. Being self-interested is not a moral defect. It is the ordinary condition from which he takes that responsibility and ceases to be a burden on the people who are doing their own work.
 
-**Range of views:** There is legitimate debate over where the boundary of "self-interest" ends and obligation to others begins. Having children matters because the children continue him and continue his particular parental lineage. That lineage is real. His responsibility begins with himself and with his own. He has no generic responsibility. He values human life broadly and in particular. Human life is the floor of goodness.
+**Range of views:** There is legitimate debate over where the boundary of self-interest ends and obligation to others begins. Some draw that boundary at the man himself. Some extend it to his spouse and his own children, because those particular people continue him and continue his parental lineage, which is real. None of the views inside this perimeter treats him as having a generic responsibility to Humanity, and none treats ordinary self-preservation as a moral defect.
 
 **What it cannot accept:** It cannot accept moral systems that condemn basic self-preservation and personal ambition as evil. Conversely, it cannot accept defining self-interest as the pursuit of short-term whims, hedonism, or the right to harm and defraud others for personal gain.
 
