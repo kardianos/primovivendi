@@ -95,6 +95,7 @@ Up to this point, we have a living, self-interested, limited, particular human b
 Now let the clock run forward. Let ten years pass, then fifty years, then one hundred years.
 
 As time passes, two physical processes attack everything we have built:
+
 1. **Material Degradation:** In physical reality, ordered structures do not maintain themselves. Iron oxidizes into rust; wooden beams rot when exposed to moisture; roofs develop leaks; farm ditches silt up; factory bearings wear out from friction; and living quarters accumulate filth and disease bacteria if they are not cleaned.
 2. **Biological Death:** Every human being who built the farm, the house, and the airplane grows old, loses physical and mental capacity, and dies.
 
@@ -105,6 +106,7 @@ How does an engineer evaluate competing definitions of goodness? By running them
 If a group of humans adopts a moral code that itself brings about their death, prevents them from having children, or allows their farms, houses, and tools to decay into ruin, then the code fails. Death at an enemy's hands is a different fact, and it belongs with enemies. A people can keep a sound code and still be destroyed by someone who has set out to destroy them. The code fails when its own commands produce the death or the ruin. Therefore, whatever higher spiritual or philosophical goals a moral system may add at the top, **goodness must include** a mandatory minimum requirement: **human life continuing, and that life kept and built.**
 
 Let us define each part of that minimum requirement literally:
+
 * **Human life continuing:** Living humans must stay alive today, and they must produce and raise children so human life does not terminate when the current adults die.
 * **Kept:** Existing structures, tools, health, laws, and homes must be continuously maintained against physical decay and disorder. Sweeping a floor so a home remains clean and free of disease is the fundamental operation of *keeping*, and it is the identical operational requirement whether the floor is packed dirt in a poor village or marble in a wealthy city.
 * **Built:** New capacity, new structures, new tools, and new capable human beings must be constructed and formed to replace what wears out and to expand the margin of survival.
@@ -136,6 +138,7 @@ In the first hangar, tools are wiped clean of grease and hung in their exact out
 Before inspecting a single maintenance logbook, any passenger would choose to board the first airplane, because human senses immediately detect the presence of order, health, proportion, and functional truth in the first hangar, and the presence of decay and disorder in the second.
 
 **Beauty** is vitality, order, and truth showing together in a particular thing. Vitality means living form. It does not mean the subject must be cheerful or intact. A tragedy is beautiful when its form is alive and its account of grief is true.
+
 * A healthy, strong human body is beautiful because it exhibits biological vitality and order.
 * A well-proportioned stone building or a cleanly designed bridge is beautiful because its physical form accurately and durably resolves gravitational forces.
 * A work of literature or painting is beautiful when it depicts physical or moral reality accurately: for example, a fictional story that truthfully shows the real consequences of courage, duty, or betrayal. A story that portrays cowardice, filth, and self-destruction as noble and free of consequences cannot be beautiful, because it is a lie against reality (violating Principle 1). Depicting a wound or a ruin truthfully is a different act from celebrating it.
@@ -172,7 +175,8 @@ Now trace the geometry of how a finite individual must allocate his ownership an
    * *Tier 4:* His country and fellow citizens (civic upkeep, national defense, and taxes levied by law for the country's continuance). A tax levied to confiscate the household, or to destroy a people, is not this tier. It is an act of enmity.
    * *Tier 5:* Distant strangers in foreign lands (lawful trade, and voluntary charity only when a real surplus remains after Tiers 1 through 4 are fully met).
 
-Honesty in speech and dealing is not one of these tiers. It binds inside every tier. The order above is one workable household budget. Cultures and households still argue over the intermediate tiers. What stands is the shape: the self and the household come before the stranger, and a claim on resources thins as it moves outward.
+   Honesty in speech and dealing is not one of these tiers. It binds inside every tier. The order above is one workable household budget. Cultures and households still argue over the intermediate tiers. What stands is the shape: the self and the household come before the stranger, and a claim on resources thins as it moves outward.
+
 3. **Why must effort move beyond the front door?** While responsibility originates at the self and household, it must extend **Outward** to the neighborhood, town, and nation. A clean, well-kept house cannot survive by itself if the municipal water supply is poisoned, if armed gangs control the roads, if the courts collapse, or if a foreign army invades the country. An individual must contribute a portion of his effort outward to maintain the civic and national structures that protect his household.
 
 However, as we move outward from the household to the neighborhood, the nation, and the world, we do not find that every human being outside our house is merely a peaceful stranger sitting in Tier 5 waiting for polite trade or charity.
@@ -182,6 +186,7 @@ In historical and physical reality, some individuals, gangs, and states organize
 You cannot "keep and build" an enemy. If you give resources to an agent whose active program is to destroy you, you merely subsidize your own destruction. Against an enemy, the only functional responses are defense, deterrence, or physical defeat.
 
 Two historical and practical cases across different tiers demonstrate this:
+
 * **At the household tier:** An armed intruder breaks through the locked door of a family home at two o'clock in the morning. He has stepped outside peaceful procedure and initiated lethal threat against the family. To the father in that house, the intruder is an immediate enemy who must be stopped by physical force.
 * **At the national tier:** The Young Turk government massacred and deported Armenians and Greeks living under its rule. By that program it made itself their enemy.
 
@@ -239,6 +244,7 @@ Now put the airplane into the air during a winter ice storm with a failed hydrau
 ## 8. Closing the Loop From Past to Future: The Seventy-Year Cliff
 
 Up to this point, we have derived the five constraints of reality:
+
 1. Reality is real, knowable, and consequential. Truth is what corresponds to reality.
 2. Humans are self-interested, limited, and particular.
 3. Goodness must include human life continuing, and that life kept and built.
@@ -246,6 +252,7 @@ Up to this point, we have derived the five constraints of reality:
 5. Justice is scoped procedural symmetry.
 
 And we have derived five individual operational virtues required to run this system today:
+
 1. Align with truth.
 2. Take ownership, which is responsibility.
 3. Seek excellence.
@@ -273,6 +280,7 @@ As noted in Section 1, every baby enters the world naked, ignorant, unable to sp
 Every human being born into an existing civilization receives an immense material and informational inheritance that he did not earn: a developed language, a body of scientific and engineering knowledge, cleared farmland, roads, bridges, laws, and a defended territory paid for by the labor and blood of dead ancestors. Because those ancestors are dead, you cannot pay that debt back to them. You can only pay it forward to the next generation.
 
 Handing that inheritance on requires these actions:
+
 1. Elders form those younger than themselves. The duty is broad. It includes kin, and it includes politicians and other leaders, who train the people younger than themselves. Those who are younger seek the experience of the people around them. They listen. They test what they are told. They do not have to agree with all of it.
 2. The young are disciplined and educated so that they align with truth, take ownership, seek excellence, and master the technical and social skills required to sustain life in reality.
 3. The physical infrastructure, laws, culture, and financial solvency of the civilization are maintained so that they are handed on in working order.
@@ -296,12 +304,14 @@ To survive in reality, humans must build artificial structures and repeatable pr
 Because individual humans die and built structures decay, no mechanical technology (neither a plow, nor an airplane, nor a microprocessor) can survive across time by itself. It requires a prerequisite technology: a technology that continues human life from generation to generation, and continues the capacity to keep and build. That prerequisite technology is **civilization**.
 
 Civilization is not a collective organism. It consists of two things held by living people:
+
 1. **Will:** The active decision by living humans to continue living, to keep the system running, to defend against enemies, and to have and raise children into the future.
 2. **Method:** The accumulated laws, customs, technical skills, and procedures that answer the five constraints of reality without failing.
 
 When that **will** and that **method** are practiced in the conduct of an individual human being, it is called **virtue**.
 
 Every piece of this architecture is locked to every other piece by cause and effect:
+
 * Because **reality is real, knowable, and consequential, and truth corresponds to reality** (*Principle 1*), the individual must **align with truth** (*Virtue 1*) and **seek excellence** (*Virtue 3*) to build machines and institutions that do not fail under physical stress.
 * Because **humans are self-interested, limited, and particular** (*Principle 2*), the individual must **be humble** (*Virtue 5*), testing his fallible ideas against reality and learning inherited methods before changing them, and must **take ownership** (*Virtue 2*) of a bounded scope.
 * Because **goodness must include human life continuing, and that life kept and built** (*Principle 3*), the individual must **admire beauty** (*Virtue 4*) to recognize and preserve order and vitality against decay, must **have children** (*Virtue 6*) so his own line continues, and must **form and listen** (*Virtue 7*) so elders form the younger and the younger listen, test, and learn to keep and build.

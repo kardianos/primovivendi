@@ -7,6 +7,7 @@
 This document derives and proves the operating principles required for human survival and continuation across generations. It approaches human organization as an engineering problem rather than a speculative philosophical inquiry. 
 
 In engineering, a system is analyzed by identifying:
+
 1. The initial conditions of the components.
 2. The invariant laws of the environment in which the system operates.
 3. The material and operational properties of the components.
@@ -185,6 +186,7 @@ This principle rules out moral or political systems that condemn basic self-pres
 
 #### Derivation
 Every human being is finite in every measurable dimension:
+
 1. **Lifespan:** A human lives for a limited number of years and has only 24 hours in each day.
 2. **Physical Energy:** A human body can perform only a finite amount of physical work before requiring food and sleep.
 3. **Attention and Cognitive Capacity:** A human brain can process only a limited amount of information at one time and can maintain personal knowledge of only a limited number of other individuals.
@@ -255,6 +257,7 @@ This principle rules out anti-human extinction ideologies, as well as any moral 
 
 #### Derivation
 **Human life continuing** has two literal requirements:
+
 1. Currently living humans must remain alive in the present by securing food, water, shelter, health, and physical protection.
 2. Adult humans must conceive, bear, and raise a sufficient number of children so that the population and its operational knowledge do not die out when the current generation ages and dies.
 
@@ -344,6 +347,7 @@ This principle rules out collectivist systems that claim the individual belongs 
 Because an individual's time, energy, attention, and money are strictly limited (Principle 2.3), and because he has specific biological, familial, and civic ties (Principle 2.4), he cannot allocate his resources equally to all human beings. He must allocate them in **tiers**: discrete levels of priority ordered by relational proximity and obligation.
 
 A standard operational ordering of tiers for an adult is:
+
 * **Tier 1:** The individual himself (maintaining personal health, competence, and solvency).
 * **Tier 2:** The immediate household. He feeds, houses, and protects his spouse and his children, and he educates his children.
 * **Tier 3:** Extended family, neighbors, close associates, and local community institutions (such as a local church, school, or trade association).
@@ -393,6 +397,7 @@ As an individual or a nation looks outward, not every external human or group is
 Dislike is not the definition of enmity. Predatory actors exist, from the solitary violent criminal to a state program that seeks to rob, subjugate, or destroy a peaceful people. You cannot "keep and build" an enemy. Offering material support or unilateral concessions to an agent committed to your destruction increases that agent's capacity to harm you. Against an enemy, the only functional engineering responses are defense, deterrence, or physical defeat.
 
 This reality operates across all tiers:
+
 1. **At the Household Level:** Suppose an armed intruder forces open the door of a family home at night. The intruder has stepped outside the procedures of peaceful law and initiated physical force that threatens the lives of the occupants. To the homeowner, the intruder is an immediate enemy who must be stopped by physical force.
 2. **At the National and State Level:** The Young Turk government massacred and deported Armenians and Greeks living under its rule. By that program it made itself their enemy.
 
@@ -424,6 +429,7 @@ Every rule, law, and institution operates within a defined boundary of jurisdict
 First, scope defines **territorial and institutional jurisdiction**. The laws of France apply within the physical borders of France; a French court has neither the legal authority nor the physical enforcement mechanism to adjudicate disputes in Japan. Similarly, within a nation, smaller organizations (a private business, a university, a military regiment, a family household) each have a defined organizational scope over their own members and property.
 
 Second, scope defines distinct **positions** (roles and statuses) within a jurisdiction based on distinct duties, qualifications, and obligations. Not everyone inside a scope occupies the same position:
+
 * Within a school, the teacher and the students are inside the same institutional scope, but they occupy different positions with different authority and duties.
 * Within a sovereign state, a citizen and a non-citizen occupy different legal positions. A citizen bears permanent obligations to the state (such as tax residency, jury duty, and military conscription) and holds corresponding political rights (such as voting and holding public office) that a foreign tourist or non-citizen resident does not hold.
 
@@ -493,6 +499,7 @@ This principle rules out equal-outcome mandates (rigging procedures or imposing 
 In modern usage, the word "technology" is frequently restricted to hardware and software: internal combustion engines, semiconductors, electrical grids, and pharmaceuticals. However, an engineering dependency analysis shows that none of these machines can be manufactured or operated in isolation. 
 
 To manufacture and operate a semiconductor facility or a power plant requires:
+
 1. Farmers producing a reliable surplus of food so engineers and technicians do not have to forage for calories.
 2. Police and military forces keeping violent criminals and foreign invaders away from the facility and its workers.
 3. Courts enforcing contracts, property titles, and accurate weights and measures.
@@ -503,10 +510,12 @@ If the farms, courts, defenses, or birthrates fail, the semiconductor facility c
 
 #### 6.2 Decomposition: Will and Method
 Civilization is composed of two operational components:
+
 1. **Method:** The accumulated body of repeatable procedures, laws, technical skills, agricultural practices, languages, and social customs developed over generations and transmitted to the living population. Method answers *how* to keep and build life in reality.
 2. **Will:** The active, continuous decision by currently living human beings to execute the method, bear the costs of maintenance, defend the society against enemies, and produce and train the next generation.
 
 Both components are strictly necessary:
+
 * **Will without Method:** A population that desires to survive and prosper, but has lost or destroyed the technical and social methods required to farm, manufacture, and govern under symmetrical law, will fail through incompetence and disorder.
 * **Method without Will:** A population that possesses advanced libraries, industrial factories, and written legal codes, but loses the will to work, enforce its laws, defend its borders, and have children, will cease to exist within a few generations. Its buildings and books will either deteriorate or be taken over by another population that possesses the will to continue.
 
@@ -545,6 +554,7 @@ This virtue is the direct individual execution of **Principle 1** (*Reality is r
 Because reality is consequential and punishes inaccurate models with physical or economic failure, an individual operator must continuously conform his mental models, his measurements, and his spoken and written statements to reality as it actually is. 
 
 To **align with truth** requires two operations:
+
 1. **Internal Alignment (Observation and Reason):** Looking at physical and social facts without self-deception, measuring outcomes accurately, and refusing to ignore evidence that contradicts one's desires or prior beliefs.
 2. **External Alignment (Honest Communication):** Speaking and recording facts accurately to others: whether in engineering stress tests, financial accounting, court testimony, or daily speech.
 
@@ -605,6 +615,7 @@ This virtue rules out deliberate mediocrity, omitting required steps when no ins
 This virtue is derived from **Principle 1** (*Truth corresponds to reality*) and **Principle 3** (*Goodness must include human life continuing, kept and built*).
 
 From an engineering and biological perspective, **beauty** is vitality, order, and truth showing together in a particular thing. Vitality means living form. It does not mean the subject must be cheerful or intact. A tragedy is beautiful when its form is alive and its account of grief is true.
+
 * In a biological organism, beauty is visible as health, proportion, and physical strength: indicators of thriving life.
 * In a built structure or machine, beauty is visible as structural proportion, clean maintenance, and the efficient alignment of form with physical function.
 * In literature, music, and visual art, beauty is the accurate, ordered representation of physical or moral reality. A fictional narrative can be beautiful if it accurately portrays the real consequences of human courage, loyalty, or betrayal. A narrative that depicts reality falsely (portraying cowardice, squalor, and self-destruction as noble and free of consequence) cannot be beautiful because it violates truth (Principle 1).
@@ -613,6 +624,7 @@ From an engineering and biological perspective, **beauty** is vitality, order, a
 
 #### Failure Modes When Violated
 Two failure modes occur when this virtue is rejected:
+
 1. **The Cult of Ugliness:** Ideological movements in art, architecture, and culture sometimes deliberately celebrate filth, chaos, and moral falsehood in order to demoralize the population and repudiate inherited standards of excellence. Environments constructed under these doctrines rapidly attract physical neglect and disorder. Depicting a wound, a ruin, or a deformed body truthfully is a different act from celebrating it.
 2. **Detached Aestheticism:** Treating beauty as an idle luxury for wealthy collectors, disconnected from truth, moral order, and practical function in daily life.
 
@@ -632,6 +644,7 @@ This virtue is derived directly from **Principle 2.3** (*Humans are limited*) an
 Every human being has a finite lifespan, finite intelligence, and incomplete information. Furthermore, no living individual invented the language he speaks, the mathematical notation he uses, the agricultural and metallurgical methods that feed and house him, or the legal procedures that protect him. Every living operator is the beneficiary of a vast technical and social method accumulated through the trial, error, and labor of thousands of preceding generations.
 
 To **be humble** is the practical operational conduct that follows from these two facts:
+
 1. Because your knowledge is finite and you can be wrong, you must test your hypotheses and plans against physical reality, double-check your calculations, listen to factual correction from others, and actively look for evidence that disproves your assumptions.
 2. Because you did not invent the civilization you inhabit, you must first learn how existing institutions, customs, and technical methods work, and understand *why* they were built, before attempting to alter or discard them.
 
@@ -679,6 +692,7 @@ Having children (Virtue 6) brings new human organisms into the world, but as est
 Every human born into a civilization receives a massive material and informational inheritance that he did not earn: a developed language, scientific and technical knowledge, productive farmland, roads, waterworks, defensive borders, and a system of law. He hands that inheritance on in working order.
 
 **Form and listen** is the duty to:
+
 1. Form, discipline, and educate the next generation so that they align with truth, take ownership, and possess useful skills with which to sustain themselves in reality, and so that the younger listen to the experience around them and test what they are told.
 2. Maintain and improve the physical infrastructure, institutional order, cultural heritage, and fiscal solvency of the civilization so that it is handed over to the next generation in working order.
 

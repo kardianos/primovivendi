@@ -518,6 +518,7 @@ Archaeological evidence refutes that claim across tens of millennia of prehistor
 > **The 1900 BCE Old Assyrian Trade Network (Assur to Kanesh):** Nearly four thousand years ago, long before Adam Smith was born and centuries before coined money existed, Assyrian merchants from the city-state of Assur (in modern northern Iraq) operated a private, long-distance commercial trade network stretching roughly one thousand kilometers across mountains and deserts into central Anatolia (modern Turkey), centered on the trading colony (*karum*) of **Kanesh** (Kültepe).
 >
 > Archaeologists have excavated more than **22,000 cuneiform clay tablets** from the private archives of these merchants. What do those clay tablets record?
+>
 > * Long-term joint-stock venture partnerships (*naruqqum*, literally "money-sacks") capitalized in weighed gold and silver by multiple investors for terms of ten or twelve years, complete with profit-sharing formulas and stiff penalties for early capital withdrawal.
 > * Negotiable promissory notes, interest-bearing commercial loans, bills of lading, and customs duties paid to local Anatolian princes.
 > * Commercial courts recognized by both Assyrians and Anatolians to adjudicate contract breaches and debt collection under shared procedural rules.
@@ -538,6 +539,7 @@ This principle was demonstrated in the early 1930s when the Soviet Union treated
 > **The Peasant's Cow Stall:** An armed party detachment arrives at a Russian or Ukrainian village with a decree from Moscow: all private livestock and private grain markets are abolished; by Friday, every peasant family must hand its cow, its workhorses, and its seed over to the collective farm (*kolkhoz*).
 >
 > Stand in the barn stall with that peasant father on Thursday night. The Moscow decree did not change the physical cow, and it did not change the father's love for his own hungry children (Principle 2 and Principle 4). The decree simply presented him with a binary incentive choice:
+>
 > 1. Walk his cow down the road tomorrow morning, hand it to the collective commissar, and have its milk and meat shipped to distant cities while his own children go hungry; or
 > 2. Slaughter the cow tonight in his own barn, salt the meat, hide the tallow, and feed his own family for the winter.
 >
@@ -857,6 +859,7 @@ A concrete example illustrates all three parts of this rule:
 > That second race, even though she finished second, is worth more than a hundred effortless victories, because she saw **her own disciplined effort alter a measurable outcome in the physical world**. In one summer, permitted failure produced both a faster runner and a young person who understands that disciplined effort changes results.
 >
 > Now contrast that with the three ways modern institutions destroy excellence on the field:
+>
 > 1. **Shielding from failure (Canceling the race):** The school cancels timed races and hands every child an identical ribbon so no one experiences disappointment. Result: the feedback is eliminated, nobody trains in July, and every child remains slow and unconditioned.
 > 2. **Forcing equal outcomes (Handicapping the faster runners):** The meet cancels the faster heat, or requires the fastest runners to start well behind the line, so the recorded results look closer together. The fast girl spends the race at a pace that does not test her. The same act appears in a school when the faster class is abolished. Culver City High School in California eliminated honors classes, including honors English, and named academic equity as the reason (*Los Angeles Times* high-school report, 28 February 2023). A capable and willing student is often under-worked even in the faster room. Put him in the slower room and the year runs at the pace of students who have not done the work. The scores can be made to look closer. He does not learn more.
 > 3. **Engineering failure (Withholding instruction or preaching fatalism):** The parent or teacher refuses to teach the girl running mechanics because "striving to win is privilege," or tells her, *"The race is determined entirely by genetics and luck, so training in the heat is pointless."* Result: the child is deprived of her own agency before she ever steps to the starting line.
@@ -1537,6 +1540,7 @@ That is **the seventy-year replacement horizon**.
 And it demonstrates why no list of personal virtues can be complete until it bridges the interval from one mortal lifespan to the next. From Principles 1, 2, 3, and 4, we derive the sixth and seventh Virtues of Civilization:
 
 > **6. Have children**
+>
 > **7. Form and listen**
 
 Both virtues require detailed analysis.
@@ -1665,9 +1669,9 @@ Four examples illustrate **sound civilizational reserves**:
 3. **The Trauma Emergency Room and Short-Term Disability Reserve:** When a carpenter falls from a scaffold and fractures his femur, a trauma surgeon sets the bone with a titanium rod, and a temporary disability reserve keeps his family housed for the twelve weeks required for his leg to heal so he can return to his trade.
 4. **The Plank Bridge Across a Flooded Stream:**
 
-> **The Plank Bridge Across a Flooded Stream:** Between the village homes and the hillside pastures runs a rocky stream that floods every spring with snowmelt. To prevent herdsmen and children from drowning during the spring runoff, the village men bolt a sturdy wooden plank bridge across the gorge.
->
-> What is the purpose of that plank bridge? **To be walked across, from the bank of crisis back to the firm ground of productive work on the other side.**
+    > Between the village homes and the hillside pastures runs a rocky stream that floods every spring with snowmelt. To prevent herdsmen and children from drowning during the spring runoff, the village men bolt a sturdy wooden plank bridge across the gorge.
+    >
+    > What is the purpose of that plank bridge? **To be walked across, from the bank of crisis back to the firm ground of productive work on the other side.**
 
 A society **corrupts a protective reserve** when it permits the reserve to overload the institution that supports it:
 

@@ -221,6 +221,7 @@ Because humans are particular and unequal in talent and effort (Point 2), a fair
 **Range of views:** People may debate proportionate punishments within the law, and debate what qualifications are necessary to enter a given position (such as an occupation or an advanced class).
 
 **What it cannot accept:** It cannot accept two false definitions of symmetry:
+
 1. *Equal outcomes (disparate impact):* The claim that if different individuals or groups achieve different results under the same rule, the rule itself is unjust and must be rigged until the results are equal.
 2. *Retaliatory feuding:* Reducing justice to private vengeance or matching physical harm for physical harm outside an established public procedure.
 
