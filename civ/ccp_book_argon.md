@@ -104,7 +104,7 @@ To answer those five constraints in personal conduct requires **Virtue**, the te
 4. **Admire beauty**
 5. **Be humble**
 6. **Have children**
-7. **Generational obligation**
+7. **Form and listen**
 
 These five principles and seven virtues are not a list of optional preferences from which one may select a few and discard the remainder. They form a single interlocking engineering specification. Remove any one of them, and the remaining components fail under stress until the civilization collapses. We will now derive each specification from first principles.
 
@@ -457,7 +457,7 @@ The same biological reality applies to human beings. **A human being is not an i
 
 Once it is understood that **identity is not detachable from constitution and lineage**, two destructive errors are refuted simultaneously:
 
-1. **The "Lottery Guilt / Entitlement" error is refuted.** Because there was never a random drawing separate from the people who actually lived and built, a child whose parents worked for thirty years to build a house, maintain a farm, and teach him a trade did not steal a prize from a common pool. Specific ancestors worked, sacrificed, and exercised self-restraint to build that inheritance *for their children*. The proper moral response to inheriting a sound family, a reputable name, and a functioning country is never paralyzing guilt over an imaginary lottery; it is **gratitude** to the ancestors who built it and **generational obligation** to maintain it and transmit it in sound condition to one's own children.
+1. **The "Lottery Guilt / Entitlement" error is refuted.** Because there was never a random drawing separate from the people who actually lived and built, a child whose parents worked for thirty years to build a house, maintain a farm, and teach him a trade did not steal a prize from a common pool. Specific ancestors worked, sacrificed, and exercised self-restraint to build that inheritance *for their children*. The proper moral response to inheriting a sound family, a reputable name, and a functioning country is never paralyzing guilt over an imaginary lottery. It is **gratitude** to the ancestors who built it, and **Form and listen (Virtue 7)**: he tests what he was told, keeps what holds, and forms his own children in it.
 2. **The opposite "Self-Made Atom" error is also refuted.** Just as a person is not the beneficiary of a theft from a lottery, neither is he a self-created being who formed himself out of nothing and owes nothing to the household, lineage, and civilization that formed him. We are **particular, formed agents**, rooted in a real chain of parents and ancestors, and accountable for what we add or squander by our own conduct.
 
 ## Chapter 5: Discovered Substance Versus Constructed Form
@@ -644,7 +644,7 @@ Now test **Consent as Morality** against physical and generational reality. When
     - Once a mother and father bring a child into the world, can they wake up when the baby is six months old and say, *"We withdraw our consent to parenting today, so we are leaving the baby on the kitchen floor"*? If they do, the law rightly imprisons them for criminal neglect, because their obligation is fixed by objective reality and tier, not by ongoing subjective preference.
     - Does a grown son owe care and honor to the aging mother and father who fed him for twenty years only if he feels like consenting at age forty?
     - Does a citizen owe defense to the country whose laws and soldiers sheltered his childhood only if he feels like consenting on the morning the enemy crosses the border?
-    - Do living adults owe **Generational obligation (Virtue 7)** to the dead ancestors who built their language and infrastructure, or to the unborn great-grandchildren who will inherit the earth in eighty years, neither of whom are physically present to sign a consent contract with us today?
+    - Do the younger owe **Form and listen (Virtue 7)** to the elders who formed them, and do living adults owe it to those younger than themselves, including great-grandchildren not yet born? None of them can sign a consent contract today. The younger listen and test what they are told. Elders, including kin and those who lead, form the people younger than themselves.
     - Remove **unchosen, tiered obligations**, and every marriage, every household, every army, and every intergenerational trust dissolves the first afternoon that maintaining one's post becomes fatiguing or costly.
 
 5. **Where Consent Actually Belongs: Inside Principle 5 as a Scoped Procedural Instrument Among Peers.**
@@ -1533,7 +1533,7 @@ That is **the seventy-year replacement horizon**.
 And it demonstrates why no list of personal virtues can be complete until it bridges the interval from one mortal lifespan to the next. From Principles 1, 2, 3, and 4, we derive the sixth and seventh Virtues of Civilization:
 
 > **6. Have children**
-> **7. Generational obligation**
+> **7. Form and listen**
 
 Both virtues require detailed analysis.
 
@@ -1575,13 +1575,15 @@ Two opposite parental failures disrupt this twenty-year progression:
 
 ---
 
-### 2. Virtue 7: Generational Obligation
+### 2. Virtue 7: Form and Listen
 
-We require **Virtue 7 (Generational obligation)** alongside **Virtue 6 (Have children)** because **biological birth alone does not transmit civilization.**
+We require **Virtue 7 (Form and listen)** alongside **Virtue 6 (Have children)** because **biological birth alone does not transmit civilization**, and because the young do not come to hold a method unless elders form them and they listen.
+
+Elders form those younger than themselves. The duty is broad. It includes kin. It also includes politicians and other leaders, who train the people younger than themselves. Those who are younger seek the experience of the people around them. They listen. They test what they are told. They do not have to agree with all of it.
 
 Suppose a million infants are born this year, and their parents supply them with food until they reach eighteen, but no one teaches them to read, no one teaches them arithmetic or metallurgy, no one exemplifies marriage or honesty, no one maintains the courts or the water mains, and the older generation accumulates fifty trillion dollars of public debt to fund its own retirement consumption and leaves the obligation to the young. Those children were born biologically, **but they were deprived of their civilizational inheritance.**
 
-Every human infant enters the world naked, illiterate, and ignorant of the five thousand years of accumulated human technology that sustain his life. Therefore, civilization requires **Virtue 7: Generational obligation**, the conscious duty of every living adult to receive the inheritance of the past intact, maintain and improve it during his tenure, and transmit it, together with the moral and technical knowledge required to operate it, to the next generation.
+Every human infant enters the world naked, illiterate, and ignorant of the five thousand years of accumulated human technology that sustain his life. Therefore, civilization requires **Virtue 7: Form and listen**. Elders form those younger than themselves. The younger listen and test what they are told. Every living adult receives the inheritance, maintains it, and hands it on in working order, together with the moral and technical knowledge required to operate it.
 
 #### Edmund Burke's Partnership Across Time
 
@@ -1595,23 +1597,24 @@ Burke's observation applies directly to every individual life:
 
 * **Can you repay the dead who built your world?** You cannot write a check to Michael Faraday for discovering electromagnetic induction so that your electric lamp operates tonight. You cannot repay the Roman jurists and English common-law judges who developed the rules of contract and habeas corpus, or the soldiers who died in the trenches eighty years ago so that you could mature speaking your own language in a free country. The people who gave you your language, your tools, your clean water, and your laws are in their graves.
 * **How is a debt to the dead discharged?** In reality, **a debt to the ancestors can only be paid forward to the descendants.** You repay your great-grandfather for planting the apple orchard and defending the county courthouse by tending the orchard, defending the courthouse, and transmitting both (in sounder condition than you received them) to your children and grandchildren.
+* **What do the younger owe the elders?** They seek the experience of those around them. They listen. They test what they are told against reality. They do not have to agree with all of it. A failed test is a reason to refuse a claim. A refusal to listen is not a test.
 
 #### How Every Adult, Including the Unmarried and Childless, Fulfills Virtue 7
 
 Here is an essential practical truth: **Even if a specific individual is unmarried, infertile, or unable to have biological children of his own, he is never exempt from, or excluded from, Virtue 7.**
 
-While biological parenthood (Virtue 6) is the primary means of biological continuation, **Generational obligation (Virtue 7) binds every adult in the polity** and gives unmarried, widowed, or childless men and women a vital, honorable place in the intergenerational transmission of civilization:
+While biological parenthood (Virtue 6) is the primary means of biological continuation, **Form and listen (Virtue 7) binds every adult in the polity** and gives unmarried, widowed, or childless men and women a vital, honorable place in forming the younger and in handing the civilization on:
 
 * A childless aunt or uncle who helps raise, mentor, and provide an inheritance to nieces and nephews;
 * A couple unable to conceive who adopts or fosters children and gives them a disciplined, affectionate home;
 * A dedicated schoolteacher, master machinist, coach, scientist, or pastor who spends forty years imparting accurate knowledge, craft excellence, and moral character to hundreds of young apprentices and students;
 * A soldier, firefighter, engineer, or magistrate who defends the borders and upholds the laws so that every family's children have a stable country in which to mature.
 
-A historical example is George Washington, who had no biological children of his own, yet raised Martha's children and grandchildren, spent his life establishing and defending a constitutional republic for hundreds of millions of future citizens, and voluntarily relinquished power twice so that the republic would not become a monarchy. That is **Generational obligation** on a national scale.
+A historical example is George Washington, who had no biological children of his own, yet raised Martha's children and grandchildren, spent his life establishing and defending a constitutional republic for hundreds of millions of future citizens, and voluntarily relinquished power twice so that the republic would not become a monarchy. That is **Form and listen** on a national scale. He formed those younger than himself, and he did not discard the inheritance in order to make himself king.
 
 #### Refusing Generational Theft: The Example of the Seed Granary
 
-Conversely, what is the gravest violation of Virtue 7? **Generational theft**: when the currently living generation treats the accumulated moral, institutional, and financial capital of its ancestors as a private fund to be exhausted in a single lifetime, leaving behind decayed infrastructure, debased currency, massive sovereign debt, and corrupted schools.
+What are the grave violations of Virtue 7? Elders who will not form those younger than themselves, and the young who will not listen to the experience around them. And **generational theft**: when the currently living generation treats the accumulated moral, institutional, and financial capital of its ancestors as a private fund to be exhausted in a single lifetime, leaving behind decayed infrastructure, debased currency, massive sovereign debt, and corrupted schools.
 
 A farming valley that has endured for five hundred years by keeping one fundamental agricultural rule illustrates this principle:
 
@@ -1900,7 +1903,7 @@ The architects of classical Anglo-American constitutionalism combined Scottish R
 
 #### C. Burkean Conservatism (Edmund Burke, Russell Kirk)
 
-As we saw in Chapter 10, **Edmund Burke** (and twentieth-century successors such as **Russell Kirk**) articulated the core truths of **Principle 2** (humility before human cognitive limits), **Principle 3** (how difficult it is to build an institution and how easy to destroy it), **Principle 4** (that attachment to country begins in what Burke called the *"little platoons"* of family and neighborhood), and **Virtue 7** (the intergenerational partnership among the dead, the living, and the unborn).
+As we saw in Chapter 10, **Edmund Burke** (and twentieth-century successors such as **Russell Kirk**) articulated the core truths of **Principle 2** (humility before human cognitive limits), **Principle 3** (how difficult it is to build an institution and how easy to destroy it), **Principle 4** (that attachment to country begins in what Burke called the *"little platoons"* of family and neighborhood), and **Virtue 7 (Form and listen)**: elders form those younger than themselves, and the younger listen and test, inside the partnership of the dead, the living, and the unborn.
 
 * **The Necessary Engineering Pairing:** Burkean respect for inherited custom must always remain anchored to **Principle 1** (objective correspondence truth) and **Principle 3** (building as well as keeping). If "tradition" is detached from empirical verification, a society risks preserving defective customs rather than repairing and advancing its methods.
 
@@ -1911,7 +1914,7 @@ As we saw in Chapter 10, **Edmund Burke** (and twentieth-century successors such
 
 #### E. Confucianism (Confucius / Kongzi, Mencius)
 
-* **Where Confucianism aligns:** Across more than two millennia in East Asia, Confucianism proved extraordinarily durable at reinforcing **Tier 2 and Tier 3 family stability**, filial obligation across generations (**Virtue 7**), disciplined study (**Virtue 3**), and polite social order.
+* **Where Confucianism aligns:** Across more than two millennia in East Asia, Confucianism proved extraordinarily durable at reinforcing **Tier 2 and Tier 3 family stability**, filial listening across generations (**Virtue 7, Form and listen**), disciplined study (**Virtue 3**), and polite social order. The younger seek the experience of their elders and test what they are told.
 * **Where Confucianism is vulnerable:** As we saw in the Duke of She's sheep-stealing case (*Analects* 13.18), when family and clan loyalty is not bounded by an independent **Principle 5 (Scoped Procedural Symmetry)** in the public square, a society tends toward nepotism and *guanxi* (patronage networks). Furthermore, when classical mandarinate education prioritized memorizing literary classics and ritual form over empirical craftsmanship and experimental science, it allowed a sophisticated civilization to stagnate technologically until confronted by Western industrial power in the nineteenth century.
 
 #### F. Immanuel Kant and David Hume: The Separation of Speculative Philosophy from Practical Reality
@@ -1928,7 +1931,7 @@ Tracing the development of modern collectivist and anti-realist philosophy acros
 
 * **Jean-Jacques Rousseau** (1712–1778): Denied **Principle 2** (claiming humans are naturally good and corrupted only by property and civilization), attacked **Principle 3** (calling the first man who fenced a plot of ground to establish a farm an impostor), and opposed **Principle 4's** mediating tiers (family, church, local guild), demanding in *The Social Contract* that every citizen surrender himself unconditionally to the unitary state's **"General Will"** and be *"forced to be free."* The Jacobin terror of 1793 was Rousseau's political doctrine applied in practice.
 * **G. W. F. Hegel** (1770–1831) and **Karl Marx** (1818–1883): Replaced **Principle 1** (fixed correspondence truth) with "dialectical" history in which truth and morality change by historical epoch and class identity; denied **Principle 2** by promising that abolishing private property would produce a selfless "New Socialist Man"; and destroyed **Principle 5** by replacing symmetrical law with class liquidation. In every instance where Marx's program was implemented in practice, including in Russia, China, Cambodia, Ethiopia, North Korea, and Cuba, it produced the same outcome of tyranny and famine.
-* **John Rawls** (1921–2002): As we saw in Chapter 4 and Chapter 8, Rawls's *A Theory of Justice* (1971) used the "Veil of Ignorance" to strip away human particularity (**Principle 2**) and treat the intergenerational work of parents for their children (**Principle 4** and **Virtue 7**) as an arbitrary "Lottery of Birth" to be equalized away by the state (**violating Principle 5**).
+* **John Rawls** (1921–2002): As we saw in Chapter 4 and Chapter 8, Rawls's *A Theory of Justice* (1971) used the "Veil of Ignorance" to strip away human particularity (**Principle 2**) and treat the intergenerational work of parents for their children (**Principle 4** and **Virtue 7, Form and listen**) as an arbitrary "Lottery of Birth" to be equalized away by the state (**violating Principle 5**).
 * **Michel Foucault** (1926–1984) and **Jacques Derrida** (1930–2004): Completed the repudiation of classical realism by attacking **Principle 1** directly, teaching generations of university students that language never refers to objective reality (*"there is nothing outside the text"*) and that truth, reason, science, and law are merely instruments of power (*"regimes of truth"*).
 
 ---
@@ -2001,7 +2004,7 @@ Next, evaluate **Buddhism** (across its Theravada, Mahayana, and Vajrayana branc
 
 A fourth example is Japan's indigenous tradition of **Shinto**:
 
-* **Where Shinto aligns strongly:** Shinto fosters a strong cultural ethic of **physical cleanliness, care for tools and craft (Virtues 2 and 3), reverence for natural and architectural beauty (Virtue 4), and deep generational gratitude connecting living households to their ancestors (*kami*) and descendants (Virtue 7).** In a Japanese workshop or train station, the practical results of those habits are evident.
+* **Where Shinto aligns strongly:** Shinto fosters a strong cultural ethic of **physical cleanliness, care for tools and craft (Virtues 2 and 3), reverence for natural and architectural beauty (Virtue 4), and deep generational gratitude connecting living households to their ancestors (*kami*) and descendants, the living listening to what they were given and forming those who come after (Virtue 7, Form and listen).** In a Japanese workshop or train station, the practical results of those habits are evident.
 * **Where Shinto failed when detached from Principle 1 and Principle 5:** Because traditional Shinto is a particularist folk religion without a universal doctrine of correspondence truth or universal human nature, when the Meiji and Showa militarists fused it into **State Shinto** between 1890 and 1945, teaching as state dogma that the Japanese Emperor was a living descendant of the sun goddess and that non-Japanese peoples occupied an inferior ontological tier, it silenced internal rational dissent (violating **Principle 1**) and licensed atrocities against conquered neighbors (violating **Principle 5**), culminating in the catastrophe of 1945.
 
 ---
@@ -2382,14 +2385,14 @@ And we saw that when this technology is practiced by an individual human being, 
 4. **Admire beauty**
 5. **Be humble**
 6. **Have children**
-7. **Generational obligation**
+7. **Form and listen**
 
 In physics and engineering, a **vector** is a quantity that possesses both **magnitude** (strength) and **direction** (orientation).
 
 A civilization of fifty million or three hundred million people is not an independent abstraction existing apart from its members; it is the **vector sum of millions of individual human lives**.
 
 * When millions of individuals direct their daily vectors toward falsehood, evasion of responsibility, negligent work, cynicism, childlessness, and the consumption of inherited capital, the resultant vector of the whole society points downward toward decline, and no prime minister or central bank can reverse that trajectory.
-* When men and women across a nation direct their daily vectors toward correspondence truth, self-anchored ownership, craft excellence, beauty, humility, raising children, and fulfilling their generational obligations under symmetrical laws, the resultant vector of that civilization points upward toward durability and growth, enabling even a resource-poor island or a damaged town after a storm to become a productive center of human life.
+* When men and women across a nation direct their daily vectors toward correspondence truth, self-anchored ownership, craft excellence, beauty, humility, raising children, and forming the younger while listening to those who formed them, under symmetrical laws, the resultant vector of that civilization points upward toward durability and growth, enabling even a resource-poor island or a damaged town after a storm to become a productive center of human life.
 
 Although every citizen's station, trade, and season of life differs, we may see how practical and orderly this technology is by tracing **One Ordinary Day** in the life of a man or woman who practices it:
 
@@ -2400,7 +2403,7 @@ Although every citizen's station, trade, and season of life differs, we may see 
     - At your workplace, whether you are an aircraft mechanic, an engineer, a carpenter, a surgeon, a teacher, or a magistrate, you practice **Virtue 1 (Align with truth)** and **Virtue 3 (Seek excellence)**. When a test gauge indicates a crack in a fitting or an error in a calculation, you do not falsify the report to please a superior; you report the physical truth as it is (**Principle 1**) and you verify your work with checklists because you recognize that you are a fallible mortal (**Principle 2 and Virtue 5: Humility**).
     - When you complete the task, you leave the workspace cleaner, more orderly, and more functional than you found it (**Virtue 4: Beauty as Vitality, Order, and Truth**), and when you evaluate two applicants or two contracts in the afternoon, you apply the same written standard to both without regard to their faction or personal connections (**Principle 5: Scoped Procedural Symmetry**).
 
-* **6:00 p.m. (Principle 3 and Virtue 7: Keeping, Building, and Teaching):** At home before supper, you spend forty-five minutes with your son and daughter by the shed replacing a decayed fence post or splitting firewood, teaching them the proper use of a level and a wrench and the discipline of sustained labor, and permitting them to practice, err, and master the tool (**Progressive Delegation of Responsibility**). You repay the grandfather who instructed you by transmitting that method to the grandchildren who will inhabit this community seventy years hence.
+* **6:00 p.m. (Principle 3 and Virtue 7: Form and Listen):** At home before supper, you spend forty-five minutes with your son and daughter by the shed replacing a decayed fence post or splitting firewood, teaching them the proper use of a level and a wrench and the discipline of sustained labor. They listen. They test the method by using it, and they are permitted to practice, err, and master the tool (**Progressive Delegation of Responsibility**). You do not require them to agree with every word. You repay the grandfather who instructed you by forming the grandchildren who will inhabit this community seventy years hence.
 * **8:00 p.m. (Principle 4 Outward: Civic Participation):** Twice a month after supper, instead of spending the evening in passive distraction and complaining that "someone ought to reform the country," you attend the meeting of the town council, the school board, the volunteer fire company, or the parish vestry. You audit the actual budget ledger, defend the academic standards of the local school, and ensure that the municipal police and courts are supported in protecting property and maintaining public order.
 * **10:00 p.m. (Securing the Household at Night):** Before extinguishing the lights, you inspect the perimeter of your house, verify that the doors are locked (**Enemies are real**), check on your sleeping children under a dry, sound roof, and converse quietly with your spouse.
 
