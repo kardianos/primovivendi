@@ -22,7 +22,7 @@ The following two lists are the foundational axioms and derived virtues of the w
 4. **Admire beauty**
 5. **Be humble**
 6. **Have children**
-7. **Generational obligation**
+7. **Form and listen**
 
 ---
 
