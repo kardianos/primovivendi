@@ -80,6 +80,14 @@ The proposals below are written in the register of `notes/06_editing_guide.md`. 
 
 **18. Applied.** "More than ten million" across three regions is replaced by the 2020 reconstruction: about 8.7 million excess deaths in the Soviet Union in 1932–1933, about 3.9 million in Ukraine, 3.3 million in Russia, and 1.3 million in Kazakhstan (Wolowyna and others, *Journal of Genocide Research*, 2020). The Volga is inside the Russian figure, not a fourth total.
 
+**Correction to 18 (2026-10-27).** That citation was written from a search snippet, not from the article, and two parts were wrong.
+- **Period:** the figures are for 1932–1934, not 1932–1933.
+- **Authorship:** the 2020 *Journal of Genocide Research* article (doi:10.1080/14623528.2020.1834741) has one author, Oleh Wolowyna.
+- **Sources of the figures:** the Ukraine and Russia figures come from Levchuk, Wolowyna, Rudnytskyi, Kovbasiuk, and Kulyk, *Nationalities Papers* 48, no. 3 (2020), Table 1 (doi:10.1017/nps.2019.55). The all-Union 8.7 million and Kazakhstan 1.3 million appear only in a 2018 lecture report.
+- **Chapter 13 now reads:** "Demographers estimate that for 1932–1934 the famine caused about 3.9 million deaths above the expected number in Soviet Ukraine and about 3.3 million in the Russian republic (Levchuk, Wolowyna, Rudnytskyi, Kovbasiuk, and Kulyk, *Nationalities Papers*, 2020). In Kazakhstan, where the famine began earlier among the nomadic herders, about 1.5 million died, more than a quarter of the republic's population (Sarah Cameron, *The Hungry Steppe*, 2018)."
+- **Chapter 5** refers to Chapter 13 for the figures.
+- **Details:** `notes/12_evaluation_findings.md`, §1.2 item 12.
+
 **19. Already applied.** Confirmed.
 
 ### Call 11, the five places
@@ -371,7 +379,7 @@ Those two answers do not make one polity. A non-Muslim will not naturally want t
 
 **What to do:** Decide whether the count stays. Leave the sentence.
 
-**Status:** not applied.
+**Status:** applied, then corrected on 2026-10-27. See the correction under decision 18 above.
 
 ## 19. Habitable land is stated as universally conquered ground
 
