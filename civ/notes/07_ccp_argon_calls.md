@@ -9,7 +9,7 @@ The proposed replacements were written in the register of `notes/06_editing_guid
 - The five principle sentences, including "Justice is scoped procedural symmetry."
 - The seven virtue names, including "Take ownership, which is responsibility" and "Form and listen."
 
-Virtue 7 was "Generational obligation." The author authorized a shorter name that states both acts. The sheet, this note's lock line, `notes/06_editing_guide.md`, and `notes/00_civ_authoritative_bones.md` now say "Form and listen." The longer civ files (`ccp_book_argon.md`, `ccp_derive_argon.md`, `ccp_eng_argon.md`, and the chapters) still say "Generational obligation."
+Virtue 7 was "Generational obligation." The author authorized a shorter name that states both acts. The sheet, this note's lock line, `notes/06_editing_guide.md`, `notes/00_civ_authoritative_bones.md`, `ccp_derive_argon.md`, and `ccp_eng_argon.md` now say "Form and listen." `ccp_book_argon.md` and the chapters still say "Generational obligation."
 
 ## Author's decisions
 
