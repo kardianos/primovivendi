@@ -65,7 +65,7 @@ To build any functional structure or method, an engineer must first establish wh
 #### Derivation
 To say that reality is **real** means that the external world exists independently of human thoughts, desires, linguistic descriptions, or political votes. A steel beam has a specific tensile strength; water freezes at a specific temperature under standard atmospheric pressure; the human body requires a specific minimum intake of calories and water to prevent organ failure. 
 
-Proof of objective existence is demonstrated by invariance across observers. If ten people hold ten different opinions about whether a bridge can support a 50-ton load, the physical bridge does not alter its load-bearing capacity to match their opinions. When the 50-ton load is driven onto the bridge, the structure either holds or fails based strictly on its physical properties and geometry. If reality were not fixed and independent of human preference, no tool could be designed, no law could be written, and no plan could be executed, because the physical parameters would change whenever human opinions changed.
+Proof of objective existence is demonstrated by invariance across observers. If ten people hold ten different opinions about whether a bridge can support a 50-ton load, the physical bridge does not alter its load-bearing capacity to match their opinions. When the 50-ton load is driven onto the bridge, the structure either holds or fails based strictly on its physical properties and geometry. If reality were not objective, and if its behavior changed whenever a person preferred a different result, no tool could be designed, no law could be written, and no plan could be executed, because the physical parameters would change with preference.
 
 #### Detractors and Failure Modes
 * **Solipsism and Subjective Reality Claims:** Some argue that the external world is an illusion of the mind, or that each individual possesses a separate "personal reality." When applied in practice, a person who acts as if physical hazards do not exist because he does not believe in them suffers immediate physical injury or death. Furthermore, two engineers claiming separate "personal realities" cannot cooperate to build a single functional machine, because the machine exists in one shared physical space.
@@ -84,7 +84,7 @@ This principle rules out solipsism, the claim that the external world does not e
 #### Derivation
 If reality existed objectively, but humans had no reliable mechanism to detect or understand its properties, purposeful building would still be impossible. Every action would be random.
 
-Human beings acquire knowledge of reality through their physical senses, processed and organized by reason. Empirical observation of severe sensory and social deprivation in young children proves that human beings do not possess innate, pre-programmed knowledge of how the world works; without sensory input and interaction with the environment, human cognitive capacities do not develop normally. 
+Human beings acquire knowledge of reality through their physical senses and through reason working on what the senses give. Sensory contact with reality and reason are linked. 
 
 Conversely, the daily operation of engineered systems proves that human sensory observation and rational analysis can accurately know reality. When a person boards an aircraft or communicates using a cellular telephone, the device works predictably. Those devices were designed using mathematical and physical models derived from sensory measurements of metallurgy, aerodynamics, and electromagnetism. The repeatable success of these technologies proves that reality is **knowable** to the degree required to act and build reliably.
 
@@ -93,10 +93,10 @@ Conversely, the daily operation of engineered systems proves that human sensory 
 * **Intuitionism and Emotional Certainty:** Another error claims that internal feelings, unverified intuition, or emotional conviction are valid substitutes for sensory observation and empirical testing. A person who feels certain that a contaminated water source is safe to drink will still contract disease if pathogenic bacteria are physically present in the water.
 
 #### Operational Tolerances (Range of Views)
-Valid differences exist regarding the precision of knowledge required for different tasks and the instruments needed to acquire it. Simple tasks require only direct sensory observation, whereas understanding microbiology or radio propagation requires specialized instruments, controlled experiments, and mathematical analysis. Additionally, individuals may accept religious revelation as a source of moral or metaphysical knowledge, provided that such beliefs do not deny or contradict observable, verifiable facts in the shared physical world.
+Valid differences exist regarding the precision of knowledge required for different tasks and the instruments needed to acquire it. Simple tasks require only direct sensory observation, whereas understanding microbiology or radio propagation requires specialized instruments, controlled experiments, and mathematical analysis. Additionally, individuals may accept religious revelation as knowledge of what the senses do not reach, provided that such beliefs do not deny or contradict observable, verifiable facts in the shared physical world. Revelation may add a claim. It may not cancel a measurement. The obligation to test it remains.
 
 #### Excluded Parameters (What It Cannot Accept)
-This principle rules out radical skepticism that denies humans can know enough to act and build. It also rules out substituting subjective feelings or unverified intuition for sensory observation and empirical verification.
+This principle rules out radical skepticism that denies humans can know enough to act and build. It also rules out substituting subjective feelings or unverified intuition for sensory observation and empirical verification where the claim is about the shared physical world. Intuition may suggest a hypothesis. It does not confirm one.
 
 ---
 
@@ -151,8 +151,8 @@ After defining the operating environment, an engineer must specify the propertie
 The term **humans** refers to the biological species *Homo sapiens*, consisting of male and female organisms. Through evolutionary biology and genetics, humans possess fixed anatomical, physiological, and psychological traits. Men and women have distinct reproductive roles and measurable average differences in physical strength and hormonal physiology. All humans go through a fixed life cycle: infancy, childhood, reproductive maturity, aging, and death.
 
 #### Detractors and Failure Modes
-* **Theories of Complete Malleability:** Detractors claim that human beings have no innate biological nature and can be conditioned by state education or social engineering into an entirely new kind of creature with no personal attachments, sex differences, or private motivations. Every political regime that has attempted to re-engineer human nature on this premise has had to rely on continuous coercion and terror, because the biological traits of the population continually resist the artificial design.
-* **Interchangeability of the Sexes:** Treating men and women as identical administrative units ignores biological reproduction and physical differences, leading to institutional standards (for example, in combat infantry or heavy physical labor) that either lower operational capability or cause disproportionate physical injury, while simultaneously disrupting family formation.
+* **Theories of Complete Malleability:** Detractors claim that human beings have no innate biological nature and can be conditioned by state education or social engineering into an entirely new kind of creature with no personal attachments, sex differences, or private motives. A design that requires human beings to have no sex, no particular attachments, and no private motives fails when actual humans operate it. Holding that design in place has required coercion, because the biological traits of the population resist the artificial design.
+* **Interchangeability of the Sexes:** Treating men and women as identical administrative units ignores their distinct reproductive functions and the difference in average strength where the task is carrying a load.
 
 #### Operational Tolerances (Range of Views)
 Human nature may be studied and described through biological sciences, psychology, historical observation, or religious doctrine, provided those descriptions acknowledge the stable biological and behavioral traits of actual men and women.
@@ -167,7 +167,7 @@ This principle rules out theories claiming humans have no innate nature and can 
 #### Derivation
 Every living organism requires an internal regulatory mechanism that directs it to acquire energy, avoid physical damage, and preserve its own life. In human beings, this mechanism is **self-interest**: a human being is naturally concerned first with his own survival, health, and well-being. 
 
-From an engineering standpoint, self-interest is the necessary prerequisite for personal responsibility. A person cannot take ownership of his actions, maintain his health, or work to support himself unless he values his own life and well-being. If a person does not care whether he lives or dies, or whether he succeeds or fails, he becomes dependent on the labor of others. Furthermore, because human genetic continuation occurs through marriage and reproduction, an adult's self-interest naturally extends to the survival and welfare of his spouse and children.
+From an engineering standpoint, self-interest is the necessary prerequisite for personal responsibility. A person cannot take ownership of his actions, maintain his health, or work to support himself unless he values his own life and well-being. If a person does not care whether he lives or dies, or whether he succeeds or fails, he becomes dependent on the labor of others. Having children matters because the children continue him and continue his particular parental lineage. That lineage is real. His responsibility begins with himself and with his own. He has no generic responsibility to Humanity. Human life remains the floor of goodness, and he values human life both broadly and in particular. His self-interest therefore extends to the survival and welfare of his spouse and his own children.
 
 #### Detractors and Failure Modes
 * **Altruistic Condemnation of Self-Preservation:** Some moral systems declare that all self-interest, personal ambition, and desire for personal property are evil, and demand that individuals live exclusively for the service of strangers or the collective. When productive individuals are forbidden from keeping any benefit from their own labor, production drops sharply; people reduce their effort to the minimum required to avoid punishment, causing widespread material scarcity.
@@ -214,7 +214,7 @@ No human being exists as a generic, featureless organism. Every human being is *
 These particular attributes are not superficial additions to a generic person; they constitute the actual person, determining his physical traits, his native skills, his communication methods, and his concrete social bonds.
 
 #### Detractors and Failure Modes
-* **Interchangeable-Token Egalitarianism:** Detractors claim that all human beings across the world are identical, interchangeable units with no meaningful attachment to genetics, heritage, language, or culture. Policies built on this premise assume that any population can be replaced or mixed with any other population instantly without altering the functioning of institutions, laws, or social trust. In reality, because institutions depend on shared language, shared customs, and inherited cultural methods, treating humans as interchangeable tokens disrupts social cooperation and degrades institutional performance.
+* **Interchangeable-Token Egalitarianism:** Detractors claim that all human beings across the world are identical, interchangeable units with no meaningful attachment to genetics, heritage, language, or culture. A large cohort taken from one society and culture tends to reproduce that society and culture in a different land. If the people are able, they adopt the culture of the place they enter. If they are unable, they recreate the failures of the culture they carried. Institutions that depend on a particular language, custom, and method do not survive that replacement unchanged.
 * **Supremacist Moral Hierarchies:** Conversely, recognizing that humans are particular does not mean that one group of humans has a license to murder or enslave another group. Recognizing particularity is an observation of distinct biological and cultural facts, not a denial of the humanity of other groups.
 
 #### Operational Tolerances (Range of Views)
@@ -237,7 +237,7 @@ To evaluate whether an action, law, or custom is good or bad, an engineer must d
 "Goodness" is the standard defining what human beings ought to do and aim to achieve. While different cultures and religions propose various ultimate goals for human existence, an engineering analysis identifies a mandatory minimum requirement that any definition of goodness must satisfy: **the continuation, maintenance, and construction of human life.**
 
 The proof of this requirement is self-verifying over time:
-Suppose a community adopts a moral code that defines "goodness" in a way that excludes or prevents human survival, reproduction, and material maintenance. Within one to three generations, all practitioners of that moral code die without leaving functional replacements, or their material support systems fail and they are conquered or absorbed by another population. Such a moral code eliminates itself from reality. Therefore, any viable moral system **must include** the continuation, maintenance, and construction of human life as a necessary minimum specification.
+Suppose a community adopts a moral code that itself prevents human survival, reproduction, and material maintenance. The code fails when its own commands produce the death or the ruin. Death at an enemy's hands is a different fact. A people can keep a sound code and still be destroyed by someone who has set out to destroy them. That case belongs under enemies, not under a failed goodness. Therefore, any viable moral system **must include** the continuation, maintenance, and construction of human life as a necessary minimum specification.
 
 #### Detractors and Failure Modes
 * **Anti-Human Ideologies:** Certain ideological movements argue that human beings are a destructive parasite on the earth and that voluntary human extinction is the highest moral good. This position explicitly seeks the termination of human life and civilization; it is a program of self-destruction, not a viable operating specification.
@@ -345,10 +345,12 @@ Because an individual's time, energy, attention, and money are strictly limited 
 
 A standard operational ordering of tiers for an adult is:
 * **Tier 1:** The individual himself (maintaining personal health, competence, and solvency).
-* **Tier 2:** The immediate household (feeding, housing, protecting, and educating one's spouse and children).
+* **Tier 2:** The immediate household. He feeds, houses, and protects his spouse and his children, and he educates his children.
 * **Tier 3:** Extended family, neighbors, close associates, and local community institutions (such as a local church, school, or trade association).
-* **Tier 4:** The nation or polity (paying lawful taxes, obeying laws, and performing civic or military duty).
-* **Tier 5:** Distant strangers and foreign populations (practicing basic honesty in commercial dealings and offering voluntary charity when a genuine surplus exists after Tiers 1 through 4 are fully secured).
+* **Tier 4:** The nation or polity (obeying laws, performing civic or military duty, and paying taxes levied by law for the country's continuance). A tax levied to confiscate the household, or to destroy a people, is not this tier. It is an act of enmity.
+* **Tier 5:** Distant strangers and foreign populations (lawful trade, and voluntary charity when a genuine surplus exists after Tiers 1 through 4 are fully secured).
+
+Honesty in speech and dealing is not one of these tiers. It binds inside every tier. The order above is one workable household budget. What stands, beneath the debate over intermediate tiers, is the shape: the self and the household come before the stranger.
 
 If a father takes the money required to buy food and shoes for his own children (Tier 2) and sends it to strangers in a foreign country (Tier 5), he has violated the operational tiers. Because no stranger in that foreign country is going to feed his children, his children suffer neglect. If everyone in a society violates the tiers in this manner, household maintenance fails across the entire society.
 
@@ -360,7 +362,7 @@ If a father takes the money required to buy food and shoes for his own children 
 Cultures and individuals reasonably debate the exact prioritization of intermediate tiers: for example, how to balance obligations between an aging parent, a sibling, a close friend, and a local religious congregation.
 
 #### Excluded Parameters (What It Cannot Accept)
-This principle rules out universalist doctrines that demand an individual treat distant strangers as having an equal claim on his resources alongside his own family and countrymen.
+This principle rules out universalist doctrines that demand an individual treat distant strangers as having an equal claim on his resources alongside his own family and countrymen. It also rules out treating truthfulness as an outer-tier surplus, owed only after the household and the state have been satisfied.
 
 ---
 
@@ -388,13 +390,13 @@ This principle rules out pure egoism that refuses all civic and national contrib
 #### Derivation
 As an individual or a nation looks outward, not every external human or group is a peaceful neighbor or a neutral stranger. In reality, some individuals, criminal organizations, and foreign or domestic regimes actively seek to rob, enslave, subjugate, or kill you, your family, or your people. Such agents are **enemies**.
 
-An enemy is defined not by personal dislike or disagreement, but by an active program to harm, dispossess, or destroy a target person or group. You cannot "keep and build" an enemy; attempting to offer material support or unilateral concessions to an agent committed to your destruction merely increases that agent's capacity to harm you. Against an enemy, the only functional engineering responses are defense, deterrence, or physical defeat.
+An enemy is any person, or any body of persons, who acts to rob, subjugate, or destroy you, your household, or your people. Dislike is not the definition. You cannot "keep and build" an enemy; attempting to offer material support or unilateral concessions to an agent committed to your destruction merely increases that agent's capacity to harm you. Against an enemy, the only functional engineering responses are defense, deterrence, or physical defeat.
 
 This reality operates across all tiers:
 1. **At the Household Level:** Suppose an armed intruder forces open the door of a family home at night. The intruder has stepped outside the procedures of peaceful law and initiated physical force that threatens the lives of the occupants. To the homeowner, the intruder is an immediate enemy who must be stopped by physical force.
-2. **At the National and State Level:** Enmity also occurs between populations and even between a government and a population living within its borders. The historical record of the Young Turk regime and subsequent Turkish nationalist governments toward the Greek and Armenian populations within their territory during two distinct periods illustrates this: first, the massacres, forced marches, and deportations of 1915–1923; and second, during the 1940s, through confiscatory measures such as the 1942 *Varlık Vergisi* (Wealth Tax), which imposed ruinous, arbitrary tax assessments predominantly on non-Muslim citizens (Armenians, Greeks, and Jews), resulting in the seizure of their businesses and properties and the deportation of those unable to pay to forced labor camps. From the operational standpoint of the Turkish nationalist rulers, the Greek and Armenian minorities were categorized as an internal threat to the ethnic homogeneity and territorial security of the Turkish state. Consequently, the state apparatus made itself the active enemy of its own Greek and Armenian residents, using legislation, taxation, property confiscation, conscription, and physical violence to eliminate them from the territory and transfer their built wealth to the majority population.
+2. **At the National and State Level:** The Young Turk government massacred and deported Armenians and Greeks living under its rule. By that program it made itself their enemy.
 
-This historical record proves two critical facts: first, an enemy is defined objectively by an active campaign to dispossess or destroy a target group; second, even the government under whose jurisdiction you reside is capable of becoming your enemy if it directs its coercive power toward your destruction.
+An enemy is any person, or any body of persons, who acts to rob, subjugate, or destroy you, your household, or your people. The act may be one man forcing a door. It may be a state carrying out a program against a people. The government under whose jurisdiction you reside can be that enemy when it turns its power to your destruction.
 
 #### Detractors and Failure Modes
 * **Pacifism and Denial of Enmity:** Pacifists claim that violence is never justified and that enmity is merely a communication failure that disappears if one refuses to name enemies or disarm unilaterally. In physical reality, a disarmed, pacifist population encountering an armed predatory group is swiftly conquered, robbed, or killed.
@@ -404,7 +406,7 @@ This historical record proves two critical facts: first, an enemy is defined obj
 Prudent leaders and citizens will debate the exact threshold at which a rival state or organization crosses from competition into active enmity, as well as the most effective military, diplomatic, or legal methods required to deter or defeat that enemy.
 
 #### Excluded Parameters (What It Cannot Accept)
-This principle rules out pacifism and the refusal to recognize and defend against real enemies. Equally, it rules out categorizing peaceful competitors or law-abiding citizens who hold differing opinions as enemies.
+This principle rules out the refusal to use violence to protect oneself and one's own. That refusal stands against these principles. It also rules out the refusal to recognize a real enemy. Equally, it rules out categorizing peaceful competitors or law-abiding citizens who hold differing opinions as enemies.
 
 ---
 
@@ -425,7 +427,7 @@ Second, scope defines distinct **positions** (roles and statuses) within a juris
 * Within a school, the teacher and the students are inside the same institutional scope, but they occupy different positions with different authority and duties.
 * Within a sovereign state, a citizen and a non-citizen occupy different legal positions. A citizen bears permanent obligations to the state (such as tax residency, jury duty, and military conscription) and holds corresponding political rights (such as voting and holding public office) that a foreign tourist or non-citizen resident does not hold.
 
-How a polity defines its scope and the positions within that scope determines the structure of its civilization. For example, in states governed by classical Islamic law (*Sharia*), Islam operates as a polity that incorporates a religion. Consequently, full membership in the political scope is defined by religious adherence: Muslims and non-Muslims (*dhimmis*) are placed into distinct legal positions with different rules governing taxation, court testimony, family law, and eligibility for high office. By contrast, a secular constitutional republic defines the position of citizen without regard to religious affiliation, placing all citizens into a single legal position before the state courts. Both examples demonstrate the universal engineering principle: before symmetry can be applied, a system always defines the boundaries of its scope and specifies who occupies which position within it.
+How a polity defines its scope and the positions within that scope determines the structure of its civilization. Men and women differ, the young and the old differ, and the teacher and the student differ. The question for justice is which differences are real and relevant to a position inside the scope, and which are not. A Muslim who wants a country that distinguishes Muslim from non-Muslim in law, as written in the Quran, gives one answer to that question. A non-Muslim will not naturally want to live in that country. A person who truly holds that distinction to be morally right is not compatible with a country that refuses to draw it. Those two answers do not make one polity. A secular constitutional state does not use religion to place citizens in different legal positions. Age, competence, office, and the difference between citizen and non-citizen remain positions where the difference is real and relevant. Symmetry runs between persons who occupy the same position. Before symmetry can be applied, a system defines the boundary of its scope and who occupies which position inside it.
 
 #### Detractors and Failure Modes
 * **Borderless Universalism:** Detractors claim that national borders and citizenship distinctions are unjust, asserting that any human being from anywhere in the world who walks across a border immediately holds the identical claim to welfare treasuries, voting, and legal status as the citizens who built, funded, and defended that nation. Removing the boundary of scope destroys the fiscal solvency and legal order of the state: a finite treasury (Principle 2.3) cannot satisfy an unlimited global population.
@@ -529,7 +531,7 @@ Because civilization operates only through the conduct of individual humans, we 
 4. Admire beauty
 5. Be humble
 6. Have children
-7. Generational obligation
+7. Form and listen
 
 The following chapters derive each virtue sequentially and define its tolerances and failure modes.
 
@@ -564,7 +566,7 @@ This virtue is derived directly from **Principle 2** (*Humans are self-intereste
 
 Because humans are finite and cannot manage the entire world at once, work must be divided into definite, bounded scopes assigned to specific individuals. To **take ownership** is not merely to hold a legal document of title; it is the operational act of claiming a specific scope (one's own body, health, trade, tools, household, debts, and assigned post) and answering personally for its maintenance and outcomes. That personal accountability is **responsibility**.
 
-The engineering necessity of individual ownership is demonstrated by the failure of unowned resources: when a tool, a building, or a task belongs to "everyone in general," no specific person bears the direct cost of its neglect or receives the direct benefit of its maintenance. Consequently, each person waits for someone else to do the work, and the tool or building rapidly degrades. When a specific individual takes ownership, the feedback loop between action and consequence is closed.
+The engineering necessity of individual ownership is demonstrated by the failure of unowned resources: when a tool, a building, or a task belongs to "everyone in general," no specific person bears the direct cost of its neglect or receives the direct benefit of its maintenance. Consequently, each person waits for someone else to do the work, and the tool or building falls into disrepair unless a named person, or a named office, is charged with the upkeep. When a specific individual takes ownership, the feedback loop between action and consequence is closed.
 
 #### Failure Modes When Violated
 When individuals refuse ownership (blaming their personal failures on society, demanding material subsidies and legal privileges while refusing to perform the upkeep of their own health, finances, and households), the burden of their maintenance is shifted onto the shrinking number of responsible operators, eventually overloading the system. A particularly destructive violation occurs when individuals neglect their immediate Tier 1 and Tier 2 responsibilities (leaving their own homes, debts, and children in disorder) while loudly demanding control over Tier 4 and Tier 5 national or global policies.
@@ -602,23 +604,23 @@ This virtue rules out deliberate mediocrity, omitting required steps when no ins
 #### Derivation
 This virtue is derived from **Principle 1** (*Truth corresponds to reality*) and **Principle 3** (*Goodness must include human life continuing, kept and built*).
 
-From an engineering and biological perspective, **beauty** is the observable manifestation of vitality, order, proportion, and truth in a physical object, a living organism, or a human work. 
-* In a biological organism, beauty is visible as health, symmetry, physical strength, and fertility: the indicators of thriving life.
+From an engineering and biological perspective, **beauty** is vitality, order, and truth showing together in a particular thing. Vitality means living form. It does not mean the subject must be cheerful or intact. A tragedy is beautiful when its form is alive and its account of grief is true.
+* In a biological organism, beauty is visible as health, proportion, and physical strength: indicators of thriving life.
 * In a built structure or machine, beauty is visible as structural proportion, clean maintenance, and the efficient alignment of form with physical function.
-* In literature, music, and visual art, beauty is the accurate, ordered representation of physical or moral reality. For example, a fictional narrative can be genuinely beautiful if it accurately portrays the real consequences of human courage, loyalty, or betrayal; conversely, a narrative that depicts reality falsely (portraying cowardice, squalor, and self-destruction as noble and free of consequence) cannot be beautiful because it violates truth (Principle 1).
+* In literature, music, and visual art, beauty is the accurate, ordered representation of physical or moral reality. A fictional narrative can be beautiful if it accurately portrays the real consequences of human courage, loyalty, or betrayal. A narrative that depicts reality falsely (portraying cowardice, squalor, and self-destruction as noble and free of consequence) cannot be beautiful because it violates truth (Principle 1). Depicting a wound or a ruin truthfully is a different act from celebrating it.
 
 **Admiring beauty** is a necessary operational virtue for civilization because human beings protect and maintain what they value. Training an individual to recognize and admire beauty trains his sensory and rational judgment to detect when a person, a home, a city, or a work is healthy, ordered, and true, and makes him unwilling to tolerate filth, disorder, decay, and falsehood in his surroundings. A population surrounded by orderly, clean, well-proportioned buildings and truthful art is motivated to keep and defend its civilization; a population surrounded by squalor, graffiti, and ugly structures becomes demoralized and ceases to care for its environment.
 
 #### Failure Modes When Violated
 Two failure modes occur when this virtue is rejected:
-1. **The Cult of Ugliness:** Ideological movements in art, architecture, and culture sometimes deliberately celebrate deformity, filth, chaos, and moral falsehood in order to demoralize the population and repudiate inherited standards of excellence. Environments constructed under these doctrines rapidly attract physical neglect and disorder.
+1. **The Cult of Ugliness:** Ideological movements in art, architecture, and culture sometimes deliberately celebrate filth, chaos, and moral falsehood in order to demoralize the population and repudiate inherited standards of excellence. Environments constructed under these doctrines rapidly attract physical neglect and disorder. Depicting a wound, a ruin, or a deformed body truthfully is a different act from celebrating it.
 2. **Detached Aestheticism:** Treating beauty as an idle luxury for wealthy collectors, disconnected from truth, moral order, and practical function in daily life.
 
 #### Operational Tolerances (Range of Views)
 Different civilizations and historical periods develop distinct architectural, musical, and artistic styles (such as classical Greek, Gothic, or traditional Japanese architecture). Provided those styles embody order, craftsmanship, vitality, and truth, they fall fully within this virtue.
 
 #### Excluded Parameters (What It Cannot Accept)
-This virtue rules out art, architecture, and narratives that celebrate chaos, filth, deformity, and falsehood, as well as treating beauty as a superficial luxury divorced from truth and function.
+This virtue rules out art, architecture, and narratives that celebrate chaos, filth, and falsehood, as well as treating beauty as a superficial luxury divorced from truth and function.
 
 ---
 
@@ -650,45 +652,47 @@ This virtue rules out arrogance (refusing to test beliefs against reality or dem
 #### Derivation
 This virtue is the direct individual execution of **Principle 3.2** (*Goodness must include human life continuing*).
 
-Civilization is a technology operated by living human beings. Because every human operator ages and dies (Principle 2), the system requires continuous biological replacement. If the capable, self-supporting, virtuous adults of a civilization do not **have children**, the population of capable operators shrinks with every passing generation. 
+Civilization is a technology operated by living human beings. Human life is the floor of goodness. The children a man is here to continue are particular. He cares first for his own. Lacking children of his own, he cares for his kin, broadly understood. Lacking those, he cares for the people who share his general heredity and are likely to share his dispositions and tendencies. He has no generic responsibility for children as such. Having his own children continues him and continues his particular parental lineage. That lineage is real.
 
-This is an inexorable mathematical constraint: no level of technological sophistication, financial wealth, or military hardware can preserve a society whose members cease to reproduce. Within a few decades, a non-reproducing society experiences a severe shortage of young workers and soldiers, an unsustainable dependency ratio of elderly retirees to working adults, and eventual replacement by other populations that continue to have children.
+Because every operator ages and dies (Principle 2), a society whose adults do not have children of their own runs out of operators. No stock of machines replaces the missing people. Within a few decades that society has too few young workers and soldiers, and too many elderly dependents, to keep the system in being.
 
 #### Failure Modes When Violated
 A major failure mode in wealthy societies is the cultural promotion of deliberate childlessness among healthy, financially capable adults: treating children as an inconvenient financial burden or an obstacle to personal leisure, travel, and material consumption. Critically, an adult who chooses to remain childless for personal convenience while expecting to live in comfort during his old age is relying entirely on the children raised and paid for by other parents to grow food, maintain the electrical grid, staff the hospitals, and fund the economy when he is old. If the rest of the society adopts his conduct, everyone starves in old age.
 
 #### Operational Tolerances (Range of Views)
-The number of children a specific couple has will vary according to biological fertility, health, and economic circumstances. Furthermore, not every individual is biologically capable of having children, or able to find a spouse and marry. Because involuntary infertility and unmarried states occur in every population, this virtue applies as the normal operational course for able adults and as the demographic requirement for the society as a whole, while non-reproducing individuals contribute to continuation through Virtue 7.
+The number of children a specific couple has will vary according to biological fertility, health, and economic circumstances. Furthermore, not every individual is biologically capable of having children, or able to find a spouse and marry. For those who are able, having their own children is the normal course of an adult life. Those who cannot have children remain bound by Virtue 7.
 
 #### Excluded Parameters (What It Cannot Accept)
 This virtue rules out anti-natalism, treating children as an undesirable burden, and promoting deliberate childlessness among healthy adults as a cultural ideal.
 
 ---
 
-## Chapter 13: Seventh Virtue: Generational Obligation
+## Chapter 13: Seventh Virtue: Form and Listen
 
 #### Derivation
 This virtue is derived from **Principle 3** (*Human life continuing, kept and built*), **Principle 4** (*Tiered and outward*), and the definition of **Civilization**.
 
+Elders form those younger than themselves. The duty is broad. It includes kin. It also includes politicians and other leaders, who train the people younger than themselves. Those who are younger seek the experience of the people around them. They listen. They test what they are told. They do not have to agree with all of it.
+
 Having children (Virtue 6) brings new human organisms into the world, but as established in the Introduction, a newborn human knows nothing and possesses no tools. If parents bear children but fail to discipline, educate, and train them, or if the adult generation consumes the accumulated capital of the society and leaves behind ruined infrastructure and unpayable debts, civilization still fails.
 
-Every human born into a civilization receives a massive material and informational inheritance that he did not earn: a developed language, scientific and technical knowledge, productive farmland, roads, waterworks, defensive borders, and a system of law. Because the predecessors who built and maintained that inheritance are dead, the living individual cannot pay that debt backward to his ancestors; he can only pay it forward to his descendants.
+Every human born into a civilization receives a massive material and informational inheritance that he did not earn: a developed language, scientific and technical knowledge, productive farmland, roads, waterworks, defensive borders, and a system of law. He hands that inheritance on in working order.
 
-**Generational obligation** is the duty to:
-1. Form, discipline, and educate the next generation so that they align with truth, take ownership, and possess useful skills with which to sustain themselves in reality.
+**Form and listen** is the duty to:
+1. Form, discipline, and educate the next generation so that they align with truth, take ownership, and possess useful skills with which to sustain themselves in reality, and so that the younger listen to the experience around them and test what they are told.
 2. Maintain and improve the physical infrastructure, institutional order, cultural heritage, and fiscal solvency of the civilization so that it is handed over to the next generation in working order.
 
-Importantly, for individuals who are biologically unable to have children or who remain unmarried, this virtue remains completely open and binding: they fulfill generational obligation through adoption, supporting extended family members, teaching, training apprentices in a trade, and leaving durable material and institutional work behind for the next generation.
+Importantly, for individuals who are biologically unable to have children or who remain unmarried, this virtue remains completely open and binding: they fulfill it through adoption, supporting extended family members, teaching, training apprentices in a trade, and leaving durable material and institutional work behind for the next generation.
 
 #### Failure Modes When Violated
 * **Permissive Neglect in Child-Rearing:** Feeding and clothing a child while failing to teach him self-control, truthfulness, hard work, and a productive trade leaves the child unequipped to survive in reality.
 * **Generational Theft:** Consuming inherited family or national wealth, accumulating massive public debts to fund current consumption while passing the tax bill to unborn citizens, allowing physical infrastructure to decay, or failing to transmit the history, language, and technical skills of the civilization to the young.
 
 #### Operational Tolerances (Range of Views)
-Generational obligation is executed across multiple roles: by mothers and fathers in the home, by teachers in schools, by master craftsmen and engineers training junior workers on the job, and by citizens and statesmen who preserve sound currency, solvent budgets, and functional laws for their descendants.
+Form and listen is carried out by mothers and fathers in the home, by teachers in schools, by master craftsmen and engineers training junior workers on the job, and by politicians and other leaders who train the people younger than themselves. The younger may test an elder's word and refuse what fails the test. Listening remains. Citizens and statesmen also preserve sound currency, solvent budgets, and functional laws for their descendants.
 
 #### Excluded Parameters (What It Cannot Accept)
-This virtue rules out generational theft (liquidating inherited capital and accumulating unpayable public debt for present consumption), neglecting the infrastructural and legal upkeep of the nation, and failing to train the young in the discipline and skills required to operate the civilization after the current generation dies.
+This virtue rules out elders who will not form those younger than themselves, and the young who will not listen to the experience around them. It rules out generational theft (liquidating inherited capital and accumulating unpayable public debt for present consumption), neglecting the infrastructural and legal upkeep of the nation, and failing to train the young in the discipline and skills required to operate the civilization after the current generation dies.
 
 ---
 
@@ -709,6 +713,6 @@ We can now verify the complete chain of derivation from initial conditions to in
    * Recognizing and valuing order, vitality, and accuracy while rejecting squalor and falsehood (**Admire beauty**, derived from Principles 1 and 3).
    * Testing fallible models against reality and learning inherited methods before altering them (**Be humble**, derived from Principle 2 and Civilization).
    * Producing the biological replacements for the system (**Have children**, derived from Principle 3).
-   * Educating the young and handing over the material and institutional inheritance in working order (**Generational obligation**, derived from Principles 3, 4, and Civilization).
+   * Elders forming those younger than themselves, and the younger listening and testing what they are told, and handing over the material and institutional inheritance in working order (**Form and listen**, derived from Principles 3, 4, and Civilization).
 
 Every principle and every virtue in this specification is locked to the others by physical and logical necessity. Remove any one of them, and the failure mode is predictable, measurable, and fatal to the continuation of human life. Maintain all of them within their operational tolerances, and civilization endures across generations.
