@@ -82,6 +82,8 @@ The following two lists are the foundational axioms and derived virtues of the w
   - `"Watch what happens..."`
   - `"Observe how..."` / `"Observe that..."`
   - `"Examine..."` / `"Consider..."`
+  - `"Look back at..."` / `"Step back and..."`
+  - `"Imagine..."` / `"Picture..."`
 - **Replacement:** State the subject and the analytical observation directly in declarative form (for example, replace `"Look at what happens when a bridge corrodes"` with `"When a bridge corrodes..."`; replace `"Notice the double standard here"` with `"This argument applies a double standard"`).
 
 ### Rule 6: No Hyperbolic Scope Tags ("On Earth")
@@ -95,6 +97,8 @@ The following two lists are the foundational axioms and derived virtues of the w
 
 ### Rule 8: No Rhetorical Question-Fragment Transitions ("Why? Because...")
 - **Prohibited:** Never use standalone `"Why? Because..."` transitions or inline `"Why does...? Because..."` question-and-fragment pairs.
+- **Also prohibited:** A question answered by a one-word fragment (`"...? No."`, `"...? Never."`) or a stock prompt such as `"What happened?"` / `"What occurred...?"` followed by the answer.
+- **Permitted (author's decision, 2026-10-27):** A question answered by a word may stay when it forms a deliberate contrast (two questions with opposite answers) or completes a series of parallel questions. The audit still flags these for review. Kept cases: `02_ch02.md` (practice versus explanation), `07_ch07.md` (fault versus responsibility), `09_ch09.md` (the international-law series), `11_ch11.md` (Step 5), and `14_ch14.md` (the stolen-land professor).
 - **Replacement:** Combine the cause and effect into a single declarative sentence (`"This occurs because..."`, `"A bridge stands only because..."`) or answer a section's framing question with a complete independent sentence rather than a `"Because..."` fragment.
 
 ### Rule 9: Substantive Titles and Headings
@@ -104,7 +108,7 @@ The following two lists are the foundational axioms and derived virtues of the w
 
 ## 5. Automated N-Gram & Pattern Verification Method
 
-Before finalizing any document in `civ/`, run the following two-part Python verification suite from `/home/d/code/po`:
+Before finalizing any document in `civ/`, run the following four-part verification suite from `/home/d/code/po`. Parts A and B check wording; Parts C and D check that the Markdown renders as intended.
 
 ### Part A: Deterministic Rule & Pattern Audit Script
 
@@ -120,15 +124,16 @@ files = sorted(glob.glob("civ/chapters/*.md")) + [
 
 checks = [
     ("Em-dash or exclamation", re.compile(r"[—!]")),
-    ("Math / symbols in text", re.compile(r"(\$.*?\$|\\\w+|\s[\+=<>≈×÷&]\s|\b[A-Z]\s*[\+=<>]\s*[A-Z]\b)")),
+    ("Math / symbols in text", re.compile(r"(\$.*?\$|\\\w+|\s[\+=≈×÷&]\s|\b[A-Z]\s*[\+=]\s*[A-Z]\b)")),
     ("exact same / every single", re.compile(r"\b(exact same|every single)\b", re.I)),
     ("zero", re.compile(r"\bzero\b", re.I)),
-    ("Imperative openers", re.compile(r"(?:^|[.!?]\s+|\*\*\s+)(Look\s+at|Look\s+closely|Notice\s+|Watch\s+|Observe\s+|Examine\s+|Consider\s+)", re.I)),
+    ("Imperative openers", re.compile(r"(?:^|[.!?]\s+|\*\*\s+|>\s+)(Look\s+at|Look\s+closely|Look\s+back|Step\s+back|Notice\s+|Watch\s+|Observe\s+|Examine\s+|Consider\s+|Imagine\s+|Picture\s+)", re.I)),
     ("on earth", re.compile(r"\bon earth\b", re.I)),
     ("raw / real-world / rot", re.compile(r"\b(raw|real-world|rot|rotted|rotting|rots)\b", re.I)),
     ("honest", re.compile(r"\bhonest\w*\b", re.I)),
     ("load-bearing", re.compile(r"\bload[- ]bearing\b", re.I)),
     ("Why... Because", re.compile(r"Why[^.!?]*\?\s*\*?\*?Because\b", re.I)),
+    ("Question then fragment", re.compile(r"\?\s+\*{0,2}(No|Yes|Never|Nothing)\.|What (happened|occurred)[^?]*\?")),
 ]
 
 for name, pat in checks:
@@ -181,11 +186,55 @@ for op, c in openers.most_common(25):
 '
 ```
 
+### Part C: Structural Markdown Check (Lists That Will Run Into a Paragraph)
+
+The build uses pandoc's default Markdown reader. A list that follows a paragraph line with no blank line between them is printed as run-in text inside that paragraph, in the PDF, HTML, and EPUB alike. The same holds inside a blockquote, where the separating line must be a bare `>`. This check finds every such list:
+
+```bash
+python3 -c '
+import glob, re
+
+files = sorted(glob.glob("civ/chapters/*.md")) + [
+    "civ/ccp_argon.md",
+    "civ/ccp_derive_argon.md",
+    "civ/ccp_eng_argon.md",
+]
+
+item = re.compile(r"^(\d+\.|[*-])\s")
+print("=== Lists that will run into the preceding paragraph ===")
+for p in files:
+    lines = open(p).read().split("\n")
+    for i in range(1, len(lines)):
+        cur, prev = lines[i], lines[i - 1]
+        if cur.startswith("> ") and prev.startswith("> "):
+            cur, prev = cur[2:], prev[2:]
+        elif prev.startswith((" ", "#", ">")):
+            continue
+        if item.match(cur) and prev.strip() and not item.match(prev.lstrip()) and not prev.startswith(" "):
+            print(f"  {p}:{i + 1}: {cur.strip()[:100]}")
+'
+```
+
+Fix each hit by inserting a blank line (or a bare `>` line inside a blockquote) before the list.
+
+### Part D: Rendered-Output Check
+
+Render each source with pandoc and look for a list that ended up inside a paragraph. The check renders into memory only, so it does not run `build.fish` and does not publish:
+
+```bash
+for f in civ/chapters/*.md civ/ccp_argon.md civ/ccp_derive_argon.md civ/ccp_eng_argon.md; do
+  n=$(pandoc "$f" -t html | tr '\n' ' ' | grep -o -E ':\s+(1\.|\*) ' | wc -l)
+  [ "$n" -gt 0 ] && echo "$f: $n run-in list(s)"
+done; echo "Part D done"
+```
+
+After a build, the same `grep` can be run on `civ/build/*.html`.
+
 ---
 
 ## 6. Bottom-Up Editing Workflow
 
-1. Run the audit script to obtain exact file paths and line numbers for all violations.
+1. Run the audit scripts (Parts A and C) to obtain exact file paths and line numbers for all violations.
 2. Read the surrounding context of each flagged line.
 3. **Always edit files from the bottom up** (from the highest line number to the lowest line number within each file) so that earlier line numbers do not shift during multi-region edits.
-4. Re-run the audit script to verify zero violations remain, then execute `fish civ/build.fish` to rebuild all targets in `civ/build/` and publish via `push_release`.
+4. Re-run Parts A and C to verify that no new violations remain, and run Part D to confirm the rendering. Then execute `fish civ/build.fish` to rebuild all targets in `civ/build/`. The script also runs `../push_release`, so building publishes.

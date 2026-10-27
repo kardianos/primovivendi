@@ -10,7 +10,7 @@ We will allow ourselves only one starting priority: **we want to build things th
 
 Start with nothing else. Put a human being into the world at birth. He arrives naked, wet, ignorant of language, unable to walk, unable to find food, and unable to regulate his own body temperature against winter weather. Left alone on the earth for forty-eight hours, he dies.
 
-Yet today, grown human beings fly across oceans in pressurized aluminum aircraft at thirty-five thousand feet and eight hundred kilometers per hour, and land safely. 
+Yet today, grown human beings fly across oceans in pressurized aluminum aircraft at thirty-five thousand feet and nearly five hundred miles per hour, and land safely. 
 
 How do we get from a naked, helpless infant to an operational commercial airplane that flies safely not just once, but across successive generations of human beings? Every rule of human conduct and social organization is locked inside that engineering problem. We will derive them step by step.
 
@@ -38,7 +38,7 @@ This environmental constraint immediately imposes a specific behavioral rule upo
 
 What happens if the engineer discovers that the wing spar cracked at eighty percent of the required design load, but because he wants to get promoted, or wants to avoid delaying the project, or wants to please his superiors, he writes down that the wing passed the test? He has introduced a falsehood into the design record. Because reality is consequential, that lie remains hidden only until the physical airplane flies into severe turbulence, at which point the wing breaks and the passengers die.
 
-Therefore, to build anything that works in reality, the individual human operator must conform his thought, his measurements, and his speech to reality as it actually is, refusing to lie, commit fraud, or deceive himself. The seven virtues are numbered in the summary list. They appear in this derivation when the constraint requires them, so the order of appearance is not the order of those numbers. This is the first of them:
+Therefore, to build anything that works in reality, the individual human operator must conform his thought, his measurements, and his speech to reality as it actually is, refusing to lie, commit fraud, or deceive himself. Each of the seven virtues corresponds to a fixed reference number. They appear in this derivation when the constraint requires them, so the order of appearance is not the order of those numbers. This is the first of them:
 
 > **Virtue 1: Align with truth.**
 
@@ -47,7 +47,7 @@ Before taking the next step, let us invite several competing schools of philosop
 
 1. **Social Constructivism and Postmodernism:** This philosophy claims that "truth" is not an objective correspondence to physical reality, but a social construct created by language, culture, and political power. Put a constructivist in charge of jet engine turbine metallurgy. The gas temperature inside the combustion chamber reaches 1,500 degrees Celsius. The melting point of an uncooled nickel-based superalloy is approximately 1,350 degrees Celsius. Ask the constructivist: can you prevent the turbine blades from melting by changing the language used to describe heat, or by dismantling the power hierarchy of the engineering department? He cannot. If he tries, the blades melt in midair.
 2. **Radical Skepticism:** The radical skeptic argues that because human senses can occasionally be fooled and human knowledge is never infinitely complete, we cannot know anything about reality with certainty. Ask the skeptic: how do you design a landing gear strut if you claim we cannot know the properties of steel? He cannot design it. Yet when the skeptic travels to a university lecture to argue that reality is unknowable, he does not jump out of the tenth-floor hotel window, and he willingly boards a commercial jetliner, proving by his physical actions that he relies entirely on engineers who rejected his philosophy.
-3. **Ideological Authority and Intention-Based Morality:** This view holds that truth is whatever the ruling political party decrees, or that actions should be judged by the purity of the actor's political intentions rather than physical outcomes. In the 1930s and 1940s, the Soviet Union placed Trofim Lysenko in charge of agricultural biology because his theories of acquired traits matched Marxist ideology, while imprisoning geneticists who aligned with truth. The physical crops did not obey Marxist theory; they died, and millions of human beings starved to death. In 1986, operators at the Chernobyl nuclear plant conducted a turbine test while disabling safety systems in order to meet an administrative quota; the physical reactor core did not care about the administrative schedule and exploded.
+3. **Ideological Authority and Intention-Based Morality:** This view holds that truth is whatever the ruling political party decrees, or that actions should be judged by the purity of the actor's political intentions rather than physical outcomes. In the 1930s and 1940s, the Soviet Union placed Trofim Lysenko in charge of agricultural biology because his theories of acquired traits matched Marxist ideology, while imprisoning geneticists who aligned with truth. The physical crops did not obey Marxist theory; they died, and millions of human beings starved to death. In 1986, operators at the Chernobyl nuclear plant conducted a turbine test with safety systems disabled so that a test already delayed would not slip to a later shutdown; the physical reactor core did not care about the administrative schedule and exploded.
 
 None of these philosophies can build an airplane. None of them can run a power plant. Any system of thought that denies Principle 1 and Virtue 1 leads to self-destruction when placed in charge of physical technology.
 
@@ -84,7 +84,7 @@ The modern political philosophy of radical egalitarianism asserts that human bei
 
 Test this philosophy in reality. If human beings are interchangeable tokens with no innate biological differences, then men and women should be interchangeable in nursing infants, and interchangeable in tasks that require carrying a heavy load. They are not. Men and women have distinct reproductive functions, and they differ in average strength where the task is carrying a load.
 
-Similarly, a large cohort taken from one society and culture tends to reproduce that society and culture in a different land. If the people are able, they adopt the culture of the place they enter. If they are unable, they recreate the failures of the culture they carried. Treating that cohort as swappable tokens, and expecting the institution to run as before, ignores that fact.
+Similarly, a large cohort taken from one society and culture tends to reproduce that society and culture in a different land, because not all people are willing and able to adopt the standards that make the new culture work. Those who are willing and able adopt the culture of the place they enter. Those who are not recreate the failures of the culture they carried. Treating that cohort as swappable tokens, and expecting the institution to run as before, ignores that fact.
 
 ---
 
@@ -113,13 +113,13 @@ Let us define each part of that minimum requirement literally:
 
 An immediate corollary follows regarding physical property. Political activists frequently claim during riots or confiscations that burning down a shop, a factory, or a house does not matter because "human life is more important than mere property." 
 
-Evaluated as an engineering structure, what was that burned shop? A human being with a finite lifespan (Principle 2) spent ten thousand hours of his irreplaceable life laying bricks, wiring circuits, and stocking tools so that the structure could shelter and feed his family. While a burned building can be rebuilt by expending another ten thousand hours of human life whereas a murdered man cannot be brought back to life, physical property is the constructed life-support equipment of human beings. Destroying built property is the direct destruction of the means by which human life is kept and continued.
+Evaluated as an engineering structure, what was that burned shop? A human being with a finite lifespan (Principle 2) spent ten thousand hours of his irreplaceable life laying bricks, wiring circuits, and stocking tools so that the structure could shelter and feed his family. Although a burned building can be rebuilt by expending another ten thousand hours of human life, and a murdered man cannot be brought back to life, physical property is the constructed life-support equipment of human beings. Destroying built property is the direct destruction of the means by which human life is kept and continued.
 
 We have now derived our third constraint of reality:
 
 > **Principle 3 of Reality: Goodness must include human life continuing, and that life kept and built.**
 
-The same constraint governs the mechanic who is "keeping" the airplane, or the civil engineer who is "building" a municipal water system. Because physical reality is consequential (Principle 1) and because natural decay and wear operate relentlessly every second (Principle 3), what happens if the mechanic or the builder does the bare minimum required to avoid dismissal today? 
+The same constraint governs the mechanic who is "keeping" the airplane, or the civil engineer who is "building" a municipal water system. Because physical reality is consequential and natural decay and wear operate relentlessly every second (Principle 1), and because goodness requires that life be kept as well as built (Principle 3), what happens if the mechanic or the builder does the bare minimum required to avoid dismissal today? 
 
 If a machinist cuts a steel shaft at the outer limit of the tolerance band, or a mason uses weak mortar when unsupervised, or a homeowner only repairs the roof after the ceiling collapses, the rate of physical decay overtakes the rate of maintenance, and the margin of safety vanishes. The first time an unusually strong storm hits the bridge or the aircraft, the structure fails catastrophically.
 
@@ -131,7 +131,7 @@ To defeat continuous physical degradation and maintain a margin of safety, the i
 
 ## 5. How the Operator Detects Order and Vitality
 
-Walk into two different aircraft maintenance hangars, or two different towns.
+Two aircraft maintenance hangars, or two towns, can differ at a glance.
 
 In the first hangar, tools are wiped clean of grease and hung in their exact outlines on the wall; the floor is swept clean; the lighting is bright; the aircraft skin is polished and free of corrosion; the mechanics are physically fit and alert. In the second hangar, oil pools on the floor among scattered bolts; broken tools are piled in corners; the walls are covered in graffiti; and the mechanics are slovenly and inattentive.
 
@@ -237,7 +237,7 @@ The dominant modern challenger to Principle 5 is the doctrine of Equal Outcomes 
 Apply Equal-Outcome Justice to an airline and an aircraft manufacturer:
 Suppose we administer a blind, objective test of calculus, metallurgy, and instrument flying to a thousand applicants. Because humans are particular and vary in preparation and aptitude, the passing rates among various groups are not statistically identical. The Equal-Outcome administrator steps in and declares the test unjust. To equalize the outcomes, he eliminates the math exam, lowers the passing score for favored groups, or mandates that seats in the cockpit and the structural engineering department be filled by demographic quota rather than test performance.
 
-Now put the airplane into the air during a winter ice storm with a failed hydraulic pump. Does the atmospheric ice or the law of gravity adjust its physical force to respect the demographic quota of the hiring committee? No. Reality is consequential (Principle 1). When you abandon procedural symmetry in order to force equal outcomes among unequal operators, complex technical and legal systems fail.
+Now put the airplane into the air during a winter ice storm with a failed hydraulic pump. Neither the atmospheric ice nor the law of gravity adjusts its physical force to respect the demographic quota of the hiring committee. Reality is consequential (Principle 1). When you abandon procedural symmetry in order to force equal outcomes among unequal operators, complex technical and legal systems fail.
 
 ---
 
@@ -269,7 +269,7 @@ Suppose the adults now keeping this society decide that raising their own childr
 
 What happens in year sixty? The engineers who know how to maintain the high-voltage transformers and aviation navigation systems are old. There is no younger generation of their own to take up the work. Within one human lifetime the system stops, not because the physics of airplanes changed, but because the operators did not continue their own lines.
 
-Human life is the floor of goodness. The children a man is here to continue are particular. He cares first for his own. He has no generic responsibility to Humanity. Having his own children continues him and continues his particular parental lineage. That lineage is real. For adults who are able, having their own children is a requirement of keeping a living system across a lifespan. This gives us the sixth virtue in the summary list:
+Human life is the floor of goodness, and it is valued both broadly and in particular. The children a man is here to continue are particular. He cares first for his own. Lacking children of his own, he cares for his kin, broadly understood. Lacking those, he cares for the people who share his general heredity and are likely to share his dispositions and tendencies. He has no generic responsibility for children as such. As Section 3 established, his own children continue him and his particular parental lineage. For adults who are able, having their own children is a requirement of keeping a living system across a lifespan. This gives us the virtue numbered six:
 
 > **Virtue 6: Have children.**
 
@@ -285,9 +285,9 @@ Handing that inheritance on requires these actions:
 2. The young are disciplined and educated so that they align with truth, take ownership, seek excellence, and master the technical and social skills required to sustain life in reality.
 3. The physical infrastructure, laws, culture, and financial solvency of the civilization are maintained so that they are handed on in working order.
 
-A man who lacks children of his own cares for his kin, broadly understood. Lacking those, he cares for the people who share his general heredity and are likely to share his dispositions and tendencies. While some individuals are biologically unable to have children or do not marry, this seventh virtue remains completely open and binding upon them: they fulfill it through adoption, helping raise extended family, teaching students, training apprentices in a craft or engineering trade, and leaving durable, solvent work behind for the young.
+While some individuals are biologically unable to have children or do not marry, this seventh virtue remains completely open and binding upon them: they fulfill it through adoption, helping raise extended family, teaching students, training apprentices in a craft or engineering trade, and leaving durable, solvent work behind for the young.
 
-This gives us our seventh and final individual virtue:
+This gives us the seventh virtue:
 
 > **Virtue 7: Form and listen.**
 
