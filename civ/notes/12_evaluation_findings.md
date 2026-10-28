@@ -1,9 +1,9 @@
 # Evaluation of the Latest Edits and Re-Evaluation of the Essays and Book
 
 **Date:** 2026-10-27
-**Scope:** `civ/ccp_argon.md`, `civ/ccp_derive_argon.md`, `civ/ccp_eng_argon.md`, `civ/chapters/01_ch01.md` to `14_ch14.md`. `civ/ccp_book_argon.md` matches the concatenated chapters (only blank separator lines differ), so the chapter line numbers below also locate the book text.
+**Scope:** `civ/ccp_sheet.md`, `civ/ccp_derive.md`, `civ/ccp_eng.md`, `civ/chapters/01_ch01.md` to `14_ch14.md`. `civ/ccp_book.md` matches the concatenated chapters (only blank separator lines differ), so the chapter line numbers below also locate the book text.
 **Edits evaluated:** mainly `cb0a84c` ("additional editing"), which applied most of `notes/11_evaluation_findings.md`. Where an older commit in the 26–27 October series (`cd8cb49` to `a410a0a`) caused a problem that is still present, the commit is named.
-**Standard:** `notes/06_editing_guide.md`, read together with the author's recorded decisions in `notes/07_ccp_argon_calls.md`, `notes/08_eng_derive_calls.md`, and `notes/10_chapter_calls.md`.
+**Standard:** `notes/06_editing_guide.md`, read together with the author's recorded decisions in `notes/07_ccp_sheet_calls.md`, `notes/08_eng_derive_calls.md`, and `notes/10_chapter_calls.md`.
 **Method:** I read all three essays and all fourteen chapters in full and reviewed the word-level diff of `cb0a84c`. I ran Parts A and B of the guide's audit and checked the built HTML in `build/` for rendering. I checked four factual claims by web search; sources are cited where they are used.
 
 No source files were edited when this file was written. §2.1 (formatting) has since been fixed; see the status note there.
@@ -28,20 +28,20 @@ No source files were edited when this file was written. §2.1 (formatting) has s
 ### 1.1 Edits that reverse the author's recorded decisions (High)
 
 1. **"Valued both broadly and in particular" was deleted from all three essays.**
-   - `notes/07_ccp_argon_calls.md`, decision 24: *"Human life is valued both broadly and in particular. Applied in the self-interest range paragraph, and the floor is restated under 'Have children.'"*
-   - `cb0a84c` removed "He values human life broadly and in particular" and "Human life is the floor of goodness" from `ccp_argon.md:97` (Principle 2, range of views). It also removed "he values human life both broadly and in particular" from `ccp_derive_argon.md:72` and `ccp_eng_argon.md:170`. Advice 1.4.1–1.4.2 in `11_evaluation_findings.md` was to *move* those sentences to Principle 3 or 4 or to Virtue 6. They were deleted instead. A search now finds "broadly and in particular" nowhere in `civ/`. The floor sentence survives only under "Have children".
-   - **Result:** an idea the author asked for is gone from the corpus. The new argon range paragraph is a reasonable statement of the range, but it no longer says what decision 24 required.
+   - `notes/07_ccp_sheet_calls.md`, decision 24: *"Human life is valued both broadly and in particular. Applied in the self-interest range paragraph, and the floor is restated under 'Have children.'"*
+   - `cb0a84c` removed "He values human life broadly and in particular" and "Human life is the floor of goodness" from `ccp_sheet.md:97` (Principle 2, range of views). It also removed "he values human life both broadly and in particular" from `ccp_derive.md:72` and `ccp_eng.md:170`. Advice 1.4.1–1.4.2 in `11_evaluation_findings.md` was to *move* those sentences to Principle 3 or 4 or to Virtue 6. They were deleted instead. A search now finds "broadly and in particular" nowhere in `civ/`. The floor sentence survives only under "Have children".
+   - **Result:** an idea the author asked for is gone from the corpus. The new sheet range paragraph is a reasonable statement of the range, but it no longer says what decision 24 required.
    - **Decide:** either restore "Human life is valued both broadly and in particular" (in the range paragraph, as decided, or under Virtue 6) or record that decision 24 has been revised.
 
 2. **The "particular children, in order" sequence was moved in one essay only.**
    - `notes/07`, decision 21: own children first, then kin broadly defined, then general heredity. *"Applied in 'Have children.'"*
-   - `cb0a84c` moved those sentences out of Virtue 6 and into the Virtue 7 section in `ccp_derive_argon.md:280`, following advice 1.4.3 of the previous findings. `ccp_argon.md:283` and `ccp_eng_argon.md:655` still carry the sequence under Virtue 6.
+   - `cb0a84c` moved those sentences out of Virtue 6 and into the Virtue 7 section in `ccp_derive.md:280`, following advice 1.4.3 of the previous findings. `ccp_sheet.md:283` and `ccp_eng.md:655` still carry the sequence under Virtue 6.
    - **Result:** the three essays now disagree about where the sequence belongs. In derive, the moved sentences also read badly in their new place (see §1.2, item 8).
-   - **Decide:** follow decision 21 and restore derive to Virtue 6, so all three essays match. Or, if the author now prefers Virtue 7, move it in argon and eng as well.
+   - **Decide:** follow decision 21 and restore derive to Virtue 6, so all three essays match. Or, if the author now prefers Virtue 7, move it in the sheet and eng as well.
 
 > **Status: both items resolved (2026-10-27).**
 > - **Item 1 (option B).**
->   - Argon keeps decision 24's placement: the Principle 2 range paragraph now ends "All of them value human life both broadly and in particular."
+>   - The sheet keeps decision 24's placement: the Principle 2 range paragraph now ends "All of them value human life both broadly and in particular."
 >   - Derive and eng carry it under Virtue 6, so the derivation order holds: "Human life is the floor of goodness, and it is valued both broadly and in particular."
 > - **Item 2 (option A).**
 >   - Derive's sequence is back under Virtue 6, per decision 21, and removed from the Virtue 7 paragraph, which again opens "While some individuals are biologically unable…".
@@ -92,19 +92,19 @@ No source files were edited when this file was written. §2.1 (formatting) has s
    - "It is **gratitude** to the ancestors who built it, and the practice of **Virtue 7 (Form and listen)**: he tests what he was told…" The subject of the sentence is "The proper moral response". The child appears two sentences earlier.
    - **Suggested fix:** "…: the heir tests what he was told, keeps what holds, and forms his own children in it."
 
-8. **Derive's new virtue-numbering sentence points to a list the essay does not have** **Applied (2026-10-27), with the author's change:** no reference to other documents. `:41` now reads "Each of the seven virtues corresponds to a fixed reference number. They appear in this derivation when the constraint requires them, so the order of appearance is not the order of those numbers." `:272` reads "This gives us the virtue numbered six:" and `:290` reads "This gives us the seventh virtue:". (`ccp_derive_argon.md:41`, `:265`, `:282`). Medium.
-   - "The seven virtues are numbered in **the summary list**." The derivation has no summary list. That list is in `ccp_argon.md`. The first list of virtues in derive is the five-item list at `:249`. Line `:265` says "the sixth virtue in the summary list" and `:282` still says "our seventh and final individual virtue", so the ordinal style is now mixed.
+8. **Derive's new virtue-numbering sentence points to a list the essay does not have** **Applied (2026-10-27), with the author's change:** no reference to other documents. `:41` now reads "Each of the seven virtues corresponds to a fixed reference number. They appear in this derivation when the constraint requires them, so the order of appearance is not the order of those numbers." `:272` reads "This gives us the virtue numbered six:" and `:290` reads "This gives us the seventh virtue:". (`ccp_derive.md:41`, `:265`, `:282`). Medium.
+   - "The seven virtues are numbered in **the summary list**." The derivation has no summary list. That list is in `ccp_sheet.md`. The first list of virtues in derive is the five-item list at `:249`. Line `:265` says "the sixth virtue in the summary list" and `:282` still says "our seventh and final individual virtue", so the ordinal style is now mixed.
    - **Suggested fix:** At `:41`: "Each virtue carries a fixed number, used in every companion document. The derivation reaches them in the order the constraints require, so the order of appearance is not the order of the numbers." At `:265`: "This gives us the virtue numbered six:". At `:282`: "This gives us the seventh virtue:".
 
-9. **The sentences moved to derive's Virtue 7 do not fit their new place** (`ccp_derive_argon.md:280`). Medium. This also bears on §1.1 item 2.
+9. **The sentences moved to derive's Virtue 7 do not fit their new place** (`ccp_derive.md:280`). Medium. This also bears on §1.1 item 2.
    - "A man who lacks children of his own **cares for** his kin… Lacking those, he **cares for** the people who share his general heredity…" Then: "**this seventh virtue** remains completely open". The virtue is named only at `:284`, after this. And the sentences are about care (Principle 4 tiers), not about forming the young, so they do not lead into what follows.
    - If §1.1 item 2 is resolved by restoring Virtue 6, this problem goes away. **Resolved (2026-10-27)** by §1.1 item 2, option A.
 
-10. **Eng's Principle 2 paragraph now repeats itself, with a broken "therefore"** **Applied (2026-10-27) as suggested:** the last sentence is deleted. (`ccp_eng_argon.md:170`). Low–Medium.
+10. **Eng's Principle 2 paragraph now repeats itself, with a broken "therefore"** **Applied (2026-10-27) as suggested:** the last sentence is deleted. (`ccp_eng.md:170`). Low–Medium.
     - "His care is anchored in his own life, in his spouse, and in his own children… He has no generic responsibility to Humanity. **His self-interest therefore extends to the survival and welfare of his spouse and his own children.**" The last sentence repeats the first new sentence, and "therefore" does not follow from "no generic responsibility".
     - **Suggested fix:** Delete the last sentence.
 
-11. **Eng's enemy passage now denies the definition before it gives it** **Applied (2026-10-27) as suggested:** "Dislike is not the definition of enmity" now follows the definition sentence, and the earlier line reads "…to a state that carries out a program to rob, subjugate, or destroy a peaceful people." (`ccp_eng_argon.md:393`). Low.
+11. **Eng's enemy passage now denies the definition before it gives it** **Applied (2026-10-27) as suggested:** "Dislike is not the definition of enmity" now follows the definition sentence, and the earlier line reads "…to a state that carries out a program to rob, subjugate, or destroy a peaceful people." (`ccp_eng.md:393`). Low.
     - "Dislike is not the definition of enmity" now comes six lines before the definition (`:399`). "Predatory actors exist, from the solitary violent criminal to **a state program** that seeks…" makes a program an actor.
     - **Suggested fix:** Put the dislike sentence after the definition at `:399`, and write "…to a state that carries out a program to rob, subjugate, or destroy a peaceful people."
 
@@ -142,14 +142,14 @@ No source files were edited when this file was written. §2.1 (formatting) has s
       - **Grok's verdict:** neither paper supports the bullet's last sentence as written ("…fails it more readily, and does not hand the method on"). Both support the narrower claim that a carried norm persists, and Fisman and Miguel also show that enforcement changes behavior.
     - **Status: applied (2026-10-27), option (a).** The Fisman and Miguel sentence and the Algan and Cahuc sentence now sit before the bullet's last sentence. The last sentence is kept as the author's claim.
 15. **Smaller points in the edited passages** (Low). **All applied (2026-10-27) as suggested.**
-    - `ccp_argon.md:97`: "continue his parental lineage, which is real". The relative clause is awkward. Try "…continue him and his parental lineage. That lineage is real."
+    - `ccp_sheet.md:97`: "continue his parental lineage, which is real". The relative clause is awkward. Try "…continue him and his parental lineage. That lineage is real."
     - `02_ch02.md:25`: "For the shared physical world, access comes through the physical senses and the instruments and reasoning built upon them." The sentence has no agent. Try "we know the shared physical world through our senses and the instruments and reasoning we build on them." The forward reference ("Chapter 3 states that limit") is valid (`03_ch03.md:59–62`).
     - `04_ch04.md:66`: "approximations, not a statute" works. "(the people in daily life-support)" can read as medical. Dunbar's term is "support clique".
 
 ### 1.3 Problems from the 26 October commit (`a077b2c`) that are still present
 
-1. **Derive's list item "3." is printed inside a paragraph** (`ccp_derive_argon.md:175–176`). High visibility. **Fixed with §2.1** as described here. The "Honesty in speech…" paragraph is not indented and has no blank line after it. In `build/ccp_derive_argon.html`, item 3 ("Why must effort move beyond the front door?") prints as "…thins as it moves outward. 3. **Why must effort…**" in the middle of the paragraph. Fix: indent the honesty paragraph three spaces so it belongs to item 2, and leave a blank line before "3.".
-2. **"Conversely" no longer contrasts with anything** (`ccp_eng_argon.md:89`). **Fixed (2026-10-27):** "Conversely," removed. It used to answer the deleted child-deprivation sentence. Now it follows "Sensory contact with reality and reason are linked." Replace it with "The daily operation of engineered systems shows…".
+1. **Derive's list item "3." is printed inside a paragraph** (`ccp_derive.md:175–176`). High visibility. **Fixed with §2.1** as described here. The "Honesty in speech…" paragraph is not indented and has no blank line after it. In `build/ccp_derive.html`, item 3 ("Why must effort move beyond the front door?") prints as "…thins as it moves outward. 3. **Why must effort…**" in the middle of the paragraph. Fix: indent the honesty paragraph three spaces so it belongs to item 2, and leave a blank line before "3.".
+2. **"Conversely" no longer contrasts with anything** (`ccp_eng.md:89`). **Fixed (2026-10-27):** "Conversely," removed. It used to answer the deleted child-deprivation sentence. Now it follows "Sensory contact with reality and reason are linked." Replace it with "The daily operation of engineered systems shows…".
 
 ### 1.4 Previous findings (`11_evaluation_findings.md`) that are still open
 
@@ -174,14 +174,14 @@ No source files were edited when this file was written. §2.1 (formatting) has s
 > - In ch11, the Plank Bridge vignette is nested under list item 4 and its duplicated bold title removed.
 > - A `>` line was added before the lists inside blockquotes at `05_ch05.md` (Kanesh tablets; the peasant's two choices) and `07_ch07.md` (the three institutional failures). My first scan skipped blockquotes; the HTML showed these three lists as run-in text too.
 >
-> `ccp_book_argon.md` was regenerated from the chapters with the same assembly code as `build.fish`. Rendering was checked with `pandoc -t html` into a scratch directory: no run-in lists remain. `build.fish` was **not** run, because it ends by calling `../push_release`. Rebuild and publish when ready.
+> `ccp_book.md` was regenerated from the chapters with the same assembly code as `build.fish`. Rendering was checked with `pandoc -t html` into a scratch directory: no run-in lists remain. `build.fish` was **not** run, because it ends by calling `../push_release`. Rebuild and publish when ready.
 
-1. **Twenty-five lists in the essays print as run-in text.** The build reads pandoc markdown, where a list that follows a paragraph with no blank line becomes part of that paragraph. Confirmed in `build/ccp_eng_argon.html` ("…analyzed by identifying: 1. The initial…") and `build/ccp_derive_argon.html` ("…attack everything we have built: 1. **Material Degradation:**…"). Affected lines, where the list begins:
-   - `ccp_argon.md`: 224
-   - `ccp_derive_argon.md`: 98, 108, 139, 176, 185, 242, 249, 276, 299, 305
-   - `ccp_eng_argon.md`: 10, 188, 258, 347, 396, 427, 496, 506, 510, 548, 608, 616, 635, 682
+1. **Twenty-five lists in the essays print as run-in text.** The build reads pandoc markdown, where a list that follows a paragraph with no blank line becomes part of that paragraph. Confirmed in `build/ccp_eng.html` ("…analyzed by identifying: 1. The initial…") and `build/ccp_derive.html` ("…attack everything we have built: 1. **Material Degradation:**…"). Affected lines, where the list begins:
+   - `ccp_sheet.md`: 224
+   - `ccp_derive.md`: 98, 108, 139, 176, 185, 242, 249, 276, 299, 305
+   - `ccp_eng.md`: 10, 188, 258, 347, 396, 427, 496, 506, 510, 548, 608, 616, 635, 682
    - **Fix:** insert a blank line before each list. The book chapters are not affected. Lists that follow a heading render correctly.
-2. **The two virtues at ch10:23–24 print on one line.** "> **6. Have children**" and "> **7. Form and listen**" are adjacent blockquote lines, so they join into one paragraph ("6. Have children 7. Form and listen" in `build/ccp_book_argon.html:4321`). Fix: put a `>` line between them.
+2. **The two virtues at ch10:23–24 print on one line.** "> **6. Have children**" and "> **7. Form and listen**" are adjacent blockquote lines, so they join into one paragraph ("6. Have children 7. Form and listen" in `build/ccp_book.html:4321`). Fix: put a `>` line between them.
 3. **Heading duplicated in ch11** (`11_ch11.md:34–36`). List item 4 is a bare bold title, followed by a blockquote that repeats the same bold title.
 
 ### 2.2 Factual accuracy
@@ -200,7 +200,7 @@ No source files were edited when this file was written. §2.1 (formatting) has s
 > 9. **UN rights:** the list now quotes the instruments: food, housing, medical care, and social security (UDHR arts. 22, 25); "periodic holidays with pay" (art. 24); higher education made free by "progressive introduction" (ICESCR art. 13(2)(c)). Internet access is described as a 2016 Human Rights Council call (A/HRC/RES/32/13), so the "fiber-optic cables" question that follows still has a referent.
 > 10. **Kant:** now "a categorical duty not to lie to him, even if the truth lets him find and murder your friend". Kant's case is a friend; the added "or child" is gone.
 >
-> `ccp_book_argon.md` was regenerated from the chapters. The guide's Part A audit shows no new hits.
+> `ccp_book.md` was regenerated from the chapters. The guide's Part A audit shows no new hits.
 
 1. **Singapore caning is not an alternative to prison** (`09_ch09.md:243`). The passage contrasts caning with "Western prisons that confine a young offender … for five years" and says it "returns the chastened offender to work … the following week." Under Singapore's Penal Code, robbery with hurt (s 394) carries **5 to 20 years' imprisonment and at least 12 strokes**. For most caning offences, caning is imposed together with a prison term. Primary sources: Penal Code 1871, s 394, on Singapore Statutes Online (sso.agc.gov.sg/Act/PC1871); Singapore Police Force releases that state the statutory penalty when charging under s 394 ([Feb 2024](https://www.police.gov.sg/Media-Hub/News/2024/20240226_two_men_arrested_for_robbery_with_hurt), [Apr 2025](https://www.police.gov.sg/Media-Room/News/20250427_two_men_arrested_for_robbery_with_hurt_within_four_hours)). Keep the point about symmetry (same statute for the banker's son and the dockworker) and drop the "instead of prison" contrast.
 2. **Typhus versus typhoid** (`02_ch02.md:55`). Drinking stagnant marsh water causes typhoid fever (or cholera or dysentery). Typhus is carried by lice and fleas. Write "typhoid fever".
@@ -250,7 +250,7 @@ No source files were edited when this file was written. §2.1 (formatting) has s
 - `04_ch04.md:63` and `06_ch06.md:160`: "some twenty-five thousand adult days". 25,000 days is about 68 years, which is a whole life, not its adult part. Use "some twenty-five thousand days", or "some twenty thousand adult days".
 - `01_ch01.md:42`: "the first infant born ten thousand years ago". Humans are far older than that. Write "an infant born ten thousand years ago".
 - `04_ch04.md:113`: the title is *A Theory of Justice*. `04_ch04.md:23`: "noble savage" is Dryden's phrase. Rousseau never used it.
-- `02_ch02.md:60` and `ccp_derive_argon.md:50`: Chernobyl is "an administrative deadline and … bureaucratic bonuses" in the book and "an administrative quota" in derive. Pick one. "Bonuses" needs a source. The RBMK has no "reactor vessel" in the usual sense, so write "reactor core".
+- `02_ch02.md:60` and `ccp_derive.md:50`: Chernobyl is "an administrative deadline and … bureaucratic bonuses" in the book and "an administrative quota" in derive. Pick one. "Bonuses" needs a source. The RBMK has no "reactor vessel" in the usual sense, so write "reactor core".
 - `07_ch07.md:88`: Rome fell to about 30,000 people over the sixth century, after the Gothic War, not "within two generations" of 476. The Forum's cattle pasture (Campo Vaccino) is medieval.
 - `09_ch09.md:128`: after Leuctra, Sparta was a minor power for centuries, not "an insignificant village". "Not a single work of … architecture" is hyperbole the guide's register avoids.
 - `12_ch12.md:122`: *kitman* is not a term of classical jurisprudence. It comes from modern polemical writing. Keep *taqiyya* and name the juristic sources.
@@ -274,13 +274,13 @@ No source files were edited when this file was written. §2.1 (formatting) has s
      - concludes that the society continues if every Christian attains the highest good;
      - notes that the Shakers departed from that teaching, pointing to Chapter 11.
    - **Wording choices.** "Even where a church honors consecrated celibacy as a high calling, it is not required of all and is not the condition of salvation." This covers the Council of Trent, which held celibacy "better and more blessed" than marriage (Session 24, canon 10). It also covers Paul's "I would that all men were even as I myself" (1 Corinthians 7:7a), which the quoted second half of the verse answers.
-4. **Principle 3 is used as the label for decay** (`ccp_derive_argon.md:120`, `07_ch07.md:63`, `09_ch09.md:232`). "natural decay … (Principle 3)", "Principle 3 (physical things degrade…)", "Recall Principle 3: … failure and death require no effort". Principle 3 is the standard of goodness. Decay is the condition under which "kept" is required. Write "(the decay that Principle 3's *kept* answers)", or cite Principle 1.
+4. **Principle 3 is used as the label for decay** (`ccp_derive.md:120`, `07_ch07.md:63`, `09_ch09.md:232`). "natural decay … (Principle 3)", "Principle 3 (physical things degrade…)", "Recall Principle 3: … failure and death require no effort". Principle 3 is the standard of goodness. Decay is the condition under which "kept" is required. Write "(the decay that Principle 3's *kept* answers)", or cite Principle 1.
    - **Author's direction:** Principle 3 is the opposite of decay, the guard against idolizing it. The rule is that decay is filed under Principle 1, and Principle 3 is the requirement to keep and build against it.
-   - **Status: applied (2026-10-27)** at four places: the three above plus `ccp_argon.md:263` (Excellence, "things decay (Points 1 and 3)"), found by search.
+   - **Status: applied (2026-10-27)** at four places: the three above plus `ccp_sheet.md:263` (Excellence, "things decay (Points 1 and 3)"), found by search.
    - **Wording now:** decay sits with Principle 1, and Principle 3 appears as the requirement that what is built be kept. In ch09 the line reads "Recall why Principle 3 must require that life be kept and built: …".
    - **Not added:** the proposed sentence in ch06 stating the guard explicitly, per the author.
 5. **A foreign state is put in Tier 4** (`09_ch09.md:99`). "treating Tier 4 and Tier 5 foreign state operations as if they were domestic citizens". Tier 4 is one's own country. Write "foreign state operations". **Status: applied (2026-10-27), option 2 of three offered:** "It is placing the operations of a foreign state in Tier 4, among fellow citizens, when they belong at most in Tier 5 and, once directed against the host, under "Enemies are real.""
-6. **The particularity sentence in derive and eng is ambiguous** (`ccp_derive_argon.md:87`, `ccp_eng_argon.md:217`). This is the author's wording (`notes/08` decision 3). "Tends to reproduce that society" is followed by "If the people are able, they adopt the culture of the place they enter." The two sentences agree only if "able" means "able to adopt". Consider "able and willing to adopt the method of the place".
+6. **The particularity sentence in derive and eng is ambiguous** (`ccp_derive.md:87`, `ccp_eng.md:217`). This is the author's wording (`notes/08` decision 3). "Tends to reproduce that society" is followed by "If the people are able, they adopt the culture of the place they enter." The two sentences agree only if "able" means "able to adopt". Consider "able and willing to adopt the method of the place".
    - **Author's direction:** not all people are willing and able to adopt the standards that make the new culture work.
    - **Status: applied (2026-10-27)** in both files. The text now reads: "…tends to reproduce that society and culture in a different land, because not all people are willing and able to adopt the standards that make the new culture work. Those who are willing and able adopt the culture of the place they enter. Those who are not recreate the failures of the culture they carried." The first sentence now gives its reason, so the two no longer pull against each other.
 7. **Ch05's diagnostic question uses the wrong word** (`05_ch05.md:24`). "Is it constructed in form, or is it constructed in substance?" The chapter's thesis is that substance is *discovered*. Write "constructed in form, or discovered in substance?". **Status: applied (2026-10-27).**
@@ -307,7 +307,7 @@ No source files were edited when this file was written. §2.1 (formatting) has s
 
 **What it draws on:**
 - The section heading already promises it: "Reason Guides, Reality Vetoes: Models, Practices, and **Precision**". Distinctions 1 to 3 cover practices, models, and claims. None covers precision.
-- The essays' range of views for "Truth is what corresponds to reality" says: *"Correspondence may be exact or approximate depending on the task. A machinist … thousandths of an inch; a historian … the surviving records and physical evidence"* (`ccp_argon.md:79`). Eng says the same in more detail, with a surveyor and Newtonian mechanics (`ccp_eng_argon.md:136`). The book has no statement of this anywhere.
+- The essays' range of views for "Truth is what corresponds to reality" says: *"Correspondence may be exact or approximate depending on the task. A machinist … thousandths of an inch; a historian … the surviving records and physical evidence"* (`ccp_sheet.md:79`). Eng says the same in more detail, with a surveyor and Newtonian mechanics (`ccp_eng.md:136`). The book has no statement of this anywhere.
 
 #### Draft 1
 
@@ -386,7 +386,7 @@ The opening paragraph and the closing rule are unchanged from draft 2.
 
 #### Draft 4 (after the author's second review; applied with one change)
 
-> **Applied to `02_ch02.md` on 2026-10-27.** One change at the author's request: the final sentence "A claim presented as having no error, and a claim dismissed merely because it has one, are both mishandled." was replaced by "Truth can still be known within uncertainty and within a bound." `ccp_book_argon.md` was regenerated. The new section passes the Part A audit and renders correctly.
+> **Applied to `02_ch02.md` on 2026-10-27.** One change at the author's request: the final sentence "A claim presented as having no error, and a claim dismissed merely because it has one, are both mishandled." was replaced by "Truth can still be known within uncertainty and within a bound." `ccp_book.md` was regenerated. The new section passes the Part A audit and renders correctly.
 
 The author's direction on draft 3:
 - The fault is not reporting a figure "to the last pound". On one side it is implying exact understanding with no error; on the other, treating an error or unknown as a lack of knowledge.
@@ -436,47 +436,47 @@ The author's direction on draft 3:
 >    - Ch14, *The Daily Practice of Civilization*
 >
 >    The verbatim principles no longer sit in the titles, so each principle chapter now quotes its principle in the body as "Principle N of Reality: …". Ch2 gained that quote at the end of "Truth Is What Corresponds to Reality". Ch9's "> 5. Justice is…" was brought into the same form. `07_ch07.md:162` is now "Virtue 5: Be Humble".
-> 2. **Reader-directing openers.** "Look back at" and "Step back" are gone. So are "Imagine" (ch02), "Drive a car", "Listen to", and "Stand in the barn stall" (ch05), and "Walk into…" and "Now follow…" (ch07). Each is now declarative or uses "Suppose". `ccp_derive_argon.md:132` "Walk into two different…hangars" was the same pattern and was changed too.
+> 2. **Reader-directing openers.** "Look back at" and "Step back" are gone. So are "Imagine" (ch02), "Drive a car", "Listen to", and "Stand in the barn stall" (ch05), and "Walk into…" and "Now follow…" (ch07). Each is now declarative or uses "Suppose". `ccp_derive.md:132` "Walk into two different…hangars" was the same pattern and was changed too.
 > 3. **Question answered by a fragment.** All six listed cases are rewritten as statements. In ch11 the closing rule now says "two structural rules", which is the number it lists. Ch02's Lysenko paragraph lost only "What happened?"; its content is unchanged, per `notes/10` call 2.
 > 4. **Repetition.**
 >    - Ch10:70 keeps the elders' sentences; the younger's sentences now appear once, at the Burke answer.
 >    - Derive's Virtue 6 now begins "As Section 3 established, …".
->    - Argon's enemy paragraph drops the repeated "you do not keep and build the enemy…".
+>    - The sheet's enemy paragraph drops the repeated "you do not keep and build the enemy…".
 >    - Ch05 now says "millions starved (Chapter 13 gives the demographic figures)". Chapter 13's citation still says 1932–1933 and "Wolowyna and others"; that is §1.2 item 12, still open.
-> 5. **Grammar.** "While … whereas" became "Although …, and …" in derive, eng, and ch06. Also fixed: "its each", "on remaining non-Muslim", "either" with three items, and "on which" (now "on whom"). In ch08 and argon, "thereby gain" became "owing a stranger the truth does not give him the child's claim".
+> 5. **Grammar.** "While … whereas" became "Although …, and …" in derive, eng, and ch06. Also fixed: "its each", "on remaining non-Muslim", "either" with three items, and "on which" (now "on whom"). In ch08 and the sheet, "thereby gain" became "owing a stranger the truth does not give him the child's claim".
 > 6. **Colloquial words.** "clean illustration" became "clearest", "same shape" became "same pattern" or "meet the same test", and "listening to what they were given" became "heeding what their elders handed down".
 > 7. **Book voice.** "before any census of regimes" is cut. "authoritative statement/specification" is now "statement". "(The Precepts Matrix)" is removed from ch14.
 > 8. **Style.** "35,000 feet" is now in words. "Strip #4" is now "his fourth strip". "**Virtue**" is lowercase in ch01. Derive's units are now "nearly five hundred miles per hour".
 >
 > Checks:
-> - `ccp_book_argon.md` was regenerated.
+> - `ccp_book.md` was regenerated.
 > - The Part A audit shows no new violations.
 > - The guide's "Math / symbols" regex flags the indented `>` lines of the ch11 Plank Bridge quote (nested under list item 4 by the §2.1 fix). That is a false positive like the existing `12_ch12.md:179` hit.
 > - Pandoc renders all lists and quotes correctly.
-> - Not changed, because they were not listed: other rhetorical "…? No." lines (`02_ch02.md:13`, `06_ch06.md:79`, `ccp_derive_argon.md:240`) and "Test …" openers.
+> - Not changed, because they were not listed: other rhetorical "…? No." lines (`02_ch02.md:13`, `06_ch06.md:79`, `ccp_derive.md:240`) and "Test …" openers.
 
 1. **Rule 9 (titles).** Twelve of fourteen chapter titles use the banned "Chapter N: Topic: Subtitle" form (all except ch05 and ch12). The five principle chapters also end the heading with a full stop. Section heading `07_ch07.md:162` is "Virtue 5: Be Humble: Paired With…". This was never addressed. The principle chapters could take a single descriptive title and give the principle as the first block quote, as ch10 does.
 2. **Rule 5 (directing the reader) and what the regex misses.** `07_ch07.md:63` "**Look back at** Principle 1…" is a direct violation; the audit regex looks only for "Look at" and "Look closely". Close relatives of the banned openers: `01_ch01.md:27` "Step back and ask", `05_ch05.md:33` "Drive a car onto…", `:40` "Listen to a Frenchman…", `:78` "Stand in the barn stall…", `07_ch07.md:17` "Walk into…", `02_ch02.md:53` "Imagine…". Some second-person vignettes are deliberate; at least revise "Look back at" and "Step back".
 3. **Rule 8 (question followed by a fragment answer).** `02_ch02.md:59` "What happened? The wheat seeds…", `13_ch13.md:88` "What occurred…? **The policy succeeded.**", `13_ch13.md:140`, `11_ch11.md:114` "…stop the rats from feeding? No.", `11_ch11.md:234–235` "**How does a civilization correct Managerialism…?** By enforcing…", `05_ch05.md:90`.
 4. **Repetition:**
    - `10_ch10.md:70` and `:88` repeat the five Virtue 7 sentences ("They seek the experience…They listen. They test… They do not have to agree with all of it.") within the same section. Keep them once. Line 88 is the better home, as the answer to "What do the younger owe the elders?"
-   - `ccp_derive_argon.md:72` and `:265` both say "continues his particular parental lineage. That lineage is real." and "He has no generic responsibility to Humanity." In a sequential derivation, the second could say "As Section 3 established, …".
-   - `ccp_argon.md:175` and `:181` both say "You do not keep and build an enemy; you defend against him, deter him, or defeat him." `:181` also restates the two examples just given at `:177–179`.
+   - `ccp_derive.md:72` and `:265` both say "continues his particular parental lineage. That lineage is real." and "He has no generic responsibility to Humanity." In a sequential derivation, the second could say "As Section 3 established, …".
+   - `ccp_sheet.md:175` and `:181` both say "You do not keep and build an enemy; you defend against him, deter him, or defeat him." `:181` also restates the two examples just given at `:177–179`.
    - `05_ch05.md:82` and `13_ch13.md:111`: the same famine sentence and citation (see §1.2 item 12).
 5. **Grammar:**
-   - "**While** a burned building can be rebuilt … **whereas** a murdered man cannot…, physical property is…" uses two subordinators and leaves no main clause for the first: `ccp_derive_argon.md:114`, `ccp_eng_argon.md:283`, `06_ch06.md:161`. Drop "whereas" and write "While a burned building can be rebuilt …, and a murdered man cannot be brought back, physical property is…".
-   - `ccp_eng_argon.md:265`: "reduces **its each** successive generation" should be "reduces each successive generation".
+   - "**While** a burned building can be rebuilt … **whereas** a murdered man cannot…, physical property is…" uses two subordinators and leaves no main clause for the first: `ccp_derive.md:114`, `ccp_eng.md:283`, `06_ch06.md:161`. Drop "whereas" and write "While a burned building can be rebuilt …, and a murdered man cannot be brought back, physical property is…".
+   - `ccp_eng.md:265`: "reduces **its each** successive generation" should be "reduces each successive generation".
    - `09_ch09.md:56`: "the jizya was collected as the tax **on remaining non-Muslim**" should be "as the tax on those who remained non-Muslim".
    - `03_ch03.md:57`: "either … , … , or …" is used with three items.
    - `11_ch11.md:140`: "children **on which** continuance depends" should be "on whom".
-   - `08_ch08.md:48` and `ccp_argon.md:161`: "a stranger does not **thereby** gain the child's claim". Nothing in the sentence supplies the "thereby". Try "Owing a stranger the truth does not give him the child's claim on the household."
+   - `08_ch08.md:48` and `ccp_sheet.md:161`: "a stranger does not **thereby** gain the child's claim". Nothing in the sentence supplies the "thereby". Try "Owing a stranger the truth does not give him the child's claim on the household."
 6. **Colloquial or figurative words:** `11_ch11.md:140` "The **clean** illustration", `12_ch12.md:134` "Jain mendicants are **the same shape**", `11_ch11.md:140` "The same **shape** appears…", `12_ch12.md:140` "the living **listening to what they were given**".
 7. **Book voice slipping into editorial language:**
    - `09_ch09.md:233`: "The consequence follows from the arrangement itself, **before any census of regimes**." This reads as a reply to the review note (`notes/10` call 12: "not as a census"). Write "The consequence follows from the arrangement itself."
    - `07_ch07.md:15` "The **authoritative statement** of this virtue…" and `09_ch09.md:284` "the **authoritative specification** of Virtue 2" use the notes' vocabulary. Write "The statement of this virtue…".
    - `14_ch14.md:8`, `:69`: "(The Precepts Matrix)" is a term from book1-4 and is never defined in `civ/`. Drop it or define it.
-8. **Consistency of style:** `11_ch11.md:159` "35,000 feet" against "thirty-five thousand feet" elsewhere. `13_ch13.md:84` "Strip #4". `01_ch01.md:97` "requires **Virtue**" (capitalised mid-sentence). `ccp_derive_argon.md:13` mixes "thirty-five thousand feet" with "eight hundred kilometers per hour".
-9. **Virtue 7's short sentences** (`ccp_argon.md:290`, `ccp_eng_argon.md:675`, `10_ch10.md:70`) are the author's requested form (`notes/07` decision 17). No change recommended, apart from removing the repetition in item 4.
+8. **Consistency of style:** `11_ch11.md:159` "35,000 feet" against "thirty-five thousand feet" elsewhere. `13_ch13.md:84` "Strip #4". `01_ch01.md:97` "requires **Virtue**" (capitalised mid-sentence). `ccp_derive.md:13` mixes "thirty-five thousand feet" with "eight hundred kilometers per hour".
+9. **Virtue 7's short sentences** (`ccp_sheet.md:290`, `ccp_eng.md:675`, `10_ch10.md:70`) are the author's requested form (`notes/07` decision 17). No change recommended, apart from removing the repetition in item 4.
 
 ### 2.5 Suggested additions to the audit (guide §5)
 
@@ -486,7 +486,7 @@ The author's direction on draft 3:
 > - New Part C is a structural check for lists that will run into a paragraph, including inside blockquotes.
 > - New Part D renders each source with pandoc in memory and counts run-in lists. It does not run `build.fish`, so it does not publish.
 > - Section 5's introduction and section 6's workflow now refer to Parts A–D, and section 6 notes that the build publishes.
-> - The scripts were extracted from the guide and run. Parts C and D find nothing. Part A's new check flags ten existing lines: `02_ch02.md:13`, `:94`; `06_ch06.md:79`; `07_ch07.md:38`; `09_ch09.md:322–324`; `11_ch11.md:93`; `14_ch14.md:119`; `ccp_derive_argon.md:240`.
+> - The scripts were extracted from the guide and run. Parts C and D find nothing. Part A's new check flags ten existing lines: `02_ch02.md:13`, `:94`; `06_ch06.md:79`; `07_ch07.md:38`; `09_ch09.md:322–324`; `11_ch11.md:93`; `14_ch14.md:119`; `ccp_derive.md:240`.
 
 - Extend the Rule 5 pattern: `Look\s+back|Step\s+back|Imagine\s|Picture\s`.
 - Add a Rule 8 analog: `\?\s+(No|Yes|Never|Nothing)\.` and `What (happened|occurred)[^?]*\?`.
@@ -531,10 +531,10 @@ The author's direction on draft 3:
 - `13_ch13.md:52`: the riot rationale for home ownership is not Lee's stated reason, which was a stake in the country. `:56`: Malaysia's quotas restricted rather than "barred". `:59`: the CPIB prosecutions of "cabinet ministers" need names. Wee Toon Boon was a Minister of State; Teh Cheang Wan died before charge.
 - `13_ch13.md:88`: attributing the assassination motive to "Lenin and the socialist revolutionaries" overstates. Bogrov was an anarchist and police informant.
 - `09_ch09.md:340`: the Soviet Union adhered to the Kellogg-Briand Pact in 1929; it did not sign in 1928.
-- `ccp_eng_argon.md:434`: "tax residency" is listed as an obligation of citizenship, but resident non-citizens also pay tax.
+- `ccp_eng.md:434`: "tax residency" is listed as an obligation of citizenship, but resident non-citizens also pay tax.
 
 **Guide compliance:**
-- Rule 9: `ccp_eng_argon.md` chapter headings use the double-colon form ("Chapter 1: First Principle: The Nature of…"), twelve times, plus the Part II and Part III headings.
+- Rule 9: `ccp_eng.md` chapter headings use the double-colon form ("Chapter 1: First Principle: The Nature of…"), twelve times, plus the Part II and Part III headings.
 - Rule 9: fifteen book section headings use the "Why …" pattern (for example `01_ch01.md:23`, `:55`; `03_ch03.md:3`; `09_ch09.md:130`). This is a judgment call; some are fine.
 - Rule 1, borderline: `04_ch04.md:48` "honest trade".
 
@@ -550,7 +550,7 @@ The author's direction on draft 3:
 - "The chain is absolute" (`04_ch04.md:41`) and the absolute family sentence in ch05 stay (calls 6 and 7).
 - The choir's 0.6 children is a supposition (call 9).
 - `10_ch10.md:14` "A couple with 0.8 children has 0.4 grandchildren": call 13 kept it as "loose arithmetic". **Corrected (2026-10-27) at the author's request to "0.32 grandchildren".** For the record, 0.8 children form 0.4 couples, who have 0.32 children, so a couple has 0.32 grandchildren. The 100 → 40 → 16 line is correct. Deleting the 0.4 clause would remove the inconsistency without changing the illustration.
-- "That refusal stands against these principles" after the refusal-of-violence sentence (`ccp_argon.md:185`, `ccp_eng_argon.md:409`) is the author's wording (`notes/07` decision 22).
+- "That refusal stands against these principles" after the refusal-of-violence sentence (`ccp_sheet.md:185`, `ccp_eng.md:409`) is the author's wording (`notes/07` decision 22).
 
 ---
 
@@ -565,7 +565,7 @@ The author's direction on draft 3:
 
 ## Open items (2026-10-27)
 
-1. **The ten lines flagged by the Rule 8 "Question then fragment" check.** Quoted for the author's decision. **Decided:** reworded `02_ch02.md:13`, `06_ch06.md:79`, and `ccp_derive_argon.md:240`. The other seven are kept as deliberate contrasts or series and recorded as permitted under Rule 8 in the guide.
+1. **The ten lines flagged by the Rule 8 "Question then fragment" check.** Quoted for the author's decision. **Decided:** reworded `02_ch02.md:13`, `06_ch06.md:79`, and `ccp_derive.md:240`. The other seven are kept as deliberate contrasts or series and recorded as permitted under Rule 8 in the guide.
 2. **Part A "Math / symbols" false positives:** `11_ch11.md:39–41` and `12_ch12.md:180`. Listed for the author's decision. **Decided: option (b).** `<` and `>` are dropped from the pattern, and the check is now clean.
 3. **`notes/10` call 18:** annotated with the correction. Done.
 4. **Checks relied on rather than re-run** (the Levchuk and Duke table values via grok; Lee's memoir and Lenin's 1908 remark via secondary summaries): accepted by the author.

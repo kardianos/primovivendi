@@ -1,6 +1,6 @@
 # Note 05: Consent as Morality, Human Rights, International Law, and Managerialism vs. Engineering
 
-All notes below are derived directly from the authoritative `civ` framework (`ccp_argon.md`, `ccp_derive_argon.md`, `ccp_eng_argon.md`) and supporting passages in `book1-4/chapters/0301_reality.md`, `book1-4/chapters/0303_others.md`, `book1-5/chapters/0201_foundations.md`, and `book1-6/chapters/1800_ending_arc.md`.
+All notes below are derived directly from the authoritative `civ` framework (`ccp_sheet.md`, `ccp_derive.md`, `ccp_eng.md`) and supporting passages in `book1-4/chapters/0301_reality.md`, `book1-4/chapters/0303_others.md`, `book1-5/chapters/0201_foundations.md`, and `book1-6/chapters/1800_ending_arc.md`.
 
 ---
 
@@ -48,7 +48,7 @@ All notes below are derived directly from the authoritative `civ` framework (`cc
 ---
 
 ## 4. Managerialism vs. Engineering
-- **Why `civ` Is Framed as Engineering (`ccp_eng_argon.md`):**
+- **Why `civ` Is Framed as Engineering (`ccp_eng.md`):**
   - *Engineering* is the discipline of knowing the objective properties of reality (Principle 1), accounting for real material and human limits (Principle 2), and designing load-bearing structures and methods that keep and build human life across time (Principle 3) with clear ownership (Virtue 2) and excellence (Virtue 3).
   - *Managerialism* is the modern pathology in which credentialed bureaucrats, process-administrators, HR/compliance officers, and narrative spinners—insulated from physical reality and frontline consequences—capture institutions built by engineers and founders.
 - **Side-by-Side Structural Contrast:**

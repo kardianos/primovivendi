@@ -8,7 +8,7 @@ The split is the right one for this book. A change of form the author has alread
 
 The scope is right. Edit `civ/chapters/*.md` only. Leave the short sheet, the derivation, the engineering draft, the proposal sections of notes 07 and 08, and the built book file alone. Two cuts were for the short form only, and the instructions name them: note 07 call 10, and note 07 call 20.
 
-The lock list matches `notes/06_editing_guide.md` and `notes/00_civ_authoritative_bones.md`. The warning on the stale sentence in note 07 is accurate. The chapters and `civ/ccp_book_argon.md` say "Form and listen." Note 05 still says "Generational obligation," and it is a note. "Passing life" is still the opening civilization clause in `civ/chapters/01_ch01.md`, and the assembled book still has it because that chapter still has it.
+The lock list matches `notes/06_editing_guide.md` and `notes/00_civ_authoritative_bones.md`. The warning on the stale sentence in note 07 is accurate. The chapters and `civ/ccp_book.md` say "Form and listen." Note 05 still says "Generational obligation," and it is a note. "Passing life" is still the opening civilization clause in `civ/chapters/01_ch01.md`, and the assembled book still has it because that chapter still has it.
 
 These named passages are where the instructions say they are.
 
@@ -19,17 +19,17 @@ These named passages are where the instructions say they are.
 - Chapter 2 states that millions starved, in the Lysenko section. The keep-rule for that clause has a limit, below.
 - The Burke passage, the seed-grain granary, and the Washington example are in chapter 10.
 
-`civ/build.fish` does assemble `ccp_book_argon.md` from `civ/chapters/*.md` in filename order. Fixing a chapter, and leaving the book file alone until the author asks for a build, is the right order.
+`civ/build.fish` does assemble `ccp_book.md` from `civ/chapters/*.md` in filename order. Fixing a chapter, and leaving the book file alone until the author asks for a build, is the right order.
 
 ## 1. The paths have no common root
 
-The file mixes two roots. From the repository root, `civ/chapters/` and `civ/build.fish` resolve, and `notes/07_ccp_argon_calls.md`, `ccp_argon.md`, `chapters/01_ch01.md`, and `notes/10_chapter_calls.md` do not. From `civ/`, the second set resolves, and the `civ/` prefixes do not. There is also a `book/chapters/` tree. A session that follows the written paths will read the wrong tree or create `notes/10_chapter_calls.md` outside `civ/notes/`.
+The file mixes two roots. From the repository root, `civ/chapters/` and `civ/build.fish` resolve, and `notes/07_ccp_sheet_calls.md`, `ccp_sheet.md`, `chapters/01_ch01.md`, and `notes/10_chapter_calls.md` do not. From `civ/`, the second set resolves, and the `civ/` prefixes do not. There is also a `book/chapters/` tree. A session that follows the written paths will read the wrong tree or create `notes/10_chapter_calls.md` outside `civ/notes/`.
 
 Recommend one root, stated in the first lines, and one form after that. Paths relative to the repository root, each beginning with `civ/`, match the way a new session is usually pointed at the file. The calls file is `civ/notes/10_chapter_calls.md`.
 
 ## 2. The opening says the method is the same method
 
-The first paragraph says the method is the one used on `ccp_argon.md`, then on the engineering draft and the derivation. Those reviews wrote calls, the author decided, and the files were edited afterward. This review applies a decision already recorded, and it leaves every new call unapplied. The body says that. The opening does not. A session that "does what the earlier reviews did" will either call everything and edit nothing, or paste a new proposal into a chapter because an earlier "order of application" worked that way.
+The first paragraph says the method is the one used on `ccp_sheet.md`, then on the engineering draft and the derivation. Those reviews wrote calls, the author decided, and the files were edited afterward. This review applies a decision already recorded, and it leaves every new call unapplied. The body says that. The opening does not. A session that "does what the earlier reviews did" will either call everything and edit nothing, or paste a new proposal into a chapter because an earlier "order of application" worked that way.
 
 Recommend the opening state the difference in one sentence. The register and the call shape are the same. The authority is different: only a recorded decision is applied.
 

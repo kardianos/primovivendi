@@ -1,6 +1,6 @@
 # Chapter review instructions
 
-Point a new session at this file when reviewing `civ/chapters/`. The method is the same one used on `ccp_argon.md`, then on `ccp_eng_argon.md` and `ccp_derive_argon.md`.
+Point a new session at this file when reviewing `civ/chapters/`. The method is the same one used on `ccp_sheet.md`, then on `ccp_eng.md` and `ccp_derive.md`.
 
 The author will not accept unsolicited AI prose as the book. A suggested replacement is a proposal. It enters a chapter only after the author accepts it, or when it restates a decision the author has already accepted.
 
@@ -10,7 +10,7 @@ Read one chapter at a time, in filename order, from `00_title.md` through `14_ch
 
 For each questionable sentence or phrase:
 
-1. If it conflicts with a change of form already recorded below, or in the Author's decisions of `notes/07_ccp_argon_calls.md` or `notes/08_eng_derive_calls.md`, fix that passage in the chapter so the form matches the decision. Keep the surrounding exposition. Do not restyle the chapter, and do not shorten it to the short sheet.
+1. If it conflicts with a change of form already recorded below, or in the Author's decisions of `notes/07_ccp_sheet_calls.md` or `notes/08_eng_derive_calls.md`, fix that passage in the chapter so the form matches the decision. Keep the surrounding exposition. Do not restyle the chapter, and do not shorten it to the short sheet.
 2. If the issue is new, or if it is unclear whether an old decision already covers it, write it to `notes/10_chapter_calls.md` and leave the passage unchanged.
 
 A doubtful match is a new call. Write the call. Leave the sentence.
@@ -23,10 +23,10 @@ Read these before editing a chapter:
 
 - `notes/06_editing_guide.md` for the register and the locked lines.
 - `notes/00_civ_authoritative_bones.md` for the same locks in short form.
-- The Author's decisions at the top of `notes/07_ccp_argon_calls.md` and `notes/08_eng_derive_calls.md`. The sections under those decisions are the original proposals. They are history. Where a decision rejected a proposal, the decision stands.
-- `ccp_argon.md`, the short sheet. It is the authority for the locked lines and for the changes of form. It is not a length limit on the chapters.
+- The Author's decisions at the top of `notes/07_ccp_sheet_calls.md` and `notes/08_eng_derive_calls.md`. The sections under those decisions are the original proposals. They are history. Where a decision rejected a proposal, the decision stands.
+- `ccp_sheet.md`, the short sheet. It is the authority for the locked lines and for the changes of form. It is not a length limit on the chapters.
 
-`notes/07_ccp_argon_calls.md` still says, near the top, that `ccp_book_argon.md` and the chapters say "Generational obligation." That sentence is stale. The chapters now say "Form and listen," and the built book was assembled from those chapters. Leave that header unless the author asks to update the note. `notes/07` also says the book still has "Passing life." That part remains true until chapter 1 is corrected and the book is rebuilt.
+`notes/07_ccp_sheet_calls.md` still says, near the top, that `ccp_book.md` and the chapters say "Generational obligation." That sentence is stale. The chapters now say "Form and listen," and the built book was assembled from those chapters. Leave that header unless the author asks to update the note. `notes/07` also says the book still has "Passing life." That part remains true until chapter 1 is corrected and the book is rebuilt.
 
 `notes/05_rights_intlaw_managerialism_consent.md` still names "Generational obligation." It is a note, not a chapter. Leave it unless the author includes the notes in the review.
 
@@ -34,9 +34,9 @@ Read these before editing a chapter:
 
 Edit `civ/chapters/*.md` only.
 
-`civ/build.fish` assembles `ccp_book_argon.md` by concatenating `civ/chapters/*.md` in filename order, then builds the pdf, html, and epub, and may run a release script. Edit the chapters. Leave `ccp_book_argon.md` and `civ/build/` alone. Run `build.fish` only when the author asks.
+`civ/build.fish` assembles `ccp_book.md` by concatenating `civ/chapters/*.md` in filename order, then builds the pdf, html, and epub, and may run a release script. Edit the chapters. Leave `ccp_book.md` and `civ/build/` alone. Run `build.fish` only when the author asks.
 
-Leave `ccp_argon.md`, `ccp_derive_argon.md`, and `ccp_eng_argon.md` alone. Those reviews are finished. If a chapter seems to expose an error in the short sheet, write a call. Do not change the sheet in the chapter review.
+Leave `ccp_sheet.md`, `ccp_derive.md`, and `ccp_eng.md` alone. Those reviews are finished. If a chapter seems to expose an error in the short sheet, write a call. Do not change the sheet in the chapter review.
 
 Leave the historical proposal sections of notes 07 and 08 alone. When the author decides a new call, record that decision in the author's terms at the top of `notes/10_chapter_calls.md`, the way notes 07 and 08 record theirs, and apply only what the author has accepted.
 
@@ -125,7 +125,7 @@ The Burke partnership quotation, the seed granary, and the Washington example st
 
 Apply these when the review reaches them. They are not new calls.
 
-**Chapter 1, opening.** `chapters/01_ch01.md` still says "Passing life and the ability to build and keep from generation to generation is civilization." Replace that clause with the short-sheet sentence: "Continuing life from generation to generation, and the ability to build and keep, is civilization." The same sentence is in `ccp_book_argon.md` because the book is assembled from the chapters. Fix the chapter. The book file updates on the next build the author asks for.
+**Chapter 1, opening.** `chapters/01_ch01.md` still says "Passing life and the ability to build and keep from generation to generation is civilization." Replace that clause with the short-sheet sentence: "Continuing life from generation to generation, and the ability to build and keep, is civilization." The same sentence is in `ccp_book.md` because the book is assembled from the chapters. Fix the chapter. The book file updates on the next build the author asks for.
 
 **Chapter 8, the national enemy example.** The longer Turkish exposition may stay, including the measures after the Young Turks. Call 10 shortened that example for the short sheet only. Still apply the changes of form in the same chapter. The enemy definition includes one man forcing his way into a house, not only a program against a group. Check the tier list, honesty, the children rather than the wife, and the tax-as-enmity line against the decisions above. Do not add a new history.
 

@@ -1,6 +1,6 @@
-# Calls on `ccp_argon.md`
+# Calls on `ccp_sheet.md`
 
-The sections below are the original calls and the wording that was proposed. The author's decisions are recorded here. All twenty-five decisions are applied in `civ/ccp_argon.md`.
+The sections below are the original calls and the wording that was proposed. The author's decisions are recorded here. All twenty-five decisions are applied in `civ/ccp_sheet.md`.
 
 The proposed replacements were written in the register of `notes/06_editing_guide.md`: declarative, no em-dash, no exclamation mark.
 
@@ -9,7 +9,7 @@ The proposed replacements were written in the register of `notes/06_editing_guid
 - The five principle sentences, including "Justice is scoped procedural symmetry."
 - The seven virtue names, including "Take ownership, which is responsibility" and "Form and listen."
 
-Virtue 7 was "Generational obligation." The author authorized a shorter name that states both acts. The sheet, this note's lock line, `notes/06_editing_guide.md`, `notes/00_civ_authoritative_bones.md`, `ccp_derive_argon.md`, and `ccp_eng_argon.md` now say "Form and listen." `ccp_book_argon.md` and the chapters still say "Generational obligation."
+Virtue 7 was "Generational obligation." The author authorized a shorter name that states both acts. The sheet, this note's lock line, `notes/06_editing_guide.md`, `notes/00_civ_authoritative_bones.md`, `ccp_derive.md`, and `ccp_eng.md` now say "Form and listen." `ccp_book.md` and the chapters still say "Generational obligation."
 
 ## Author's decisions
 
@@ -19,7 +19,7 @@ Virtue 7 was "Generational obligation." The author authorized a shorter name tha
 
 **11. Keep scoped procedural symmetry. Reopen the illustration.** Scoped procedural symmetry is real and needed. People are different: men and women, young and old, student and teacher. The question for justice is which scope differences are real and relevant, and which are not. If a Muslim wants a country that differentiates between a Muslim and a non-Muslim, as written in the Quran, then any non-Muslim will naturally not be likely to want to be in that country, nor would they be compatible in another country if they truly believed that differentiation to be correct and morally right. Applied in that sense: the neutral "both systems illustrate scope" illustration is gone. The draft states the question of real and relevant differences, then states that those two answers do not make one polity.
 
-**12. Replace the phrase. Do not define it.** Use a different, less ambiguous phrase than "Passing life." Do not define a new phrase. Applied: "Continuing life from generation to generation, and the ability to build and keep, is civilization." The same sentence is in `notes/00_civ_authoritative_bones.md`. `civ/ccp_book_argon.md` still has "Passing life."
+**12. Replace the phrase. Do not define it.** Use a different, less ambiguous phrase than "Passing life." Do not define a new phrase. Applied: "Continuing life from generation to generation, and the ability to build and keep, is civilization." The same sentence is in `notes/00_civ_authoritative_bones.md`. `civ/ccp_book.md` still has "Passing life."
 
 **13. Illusory distinction, in real language.** The direction is right. Do not say "false line." Say an illusory distinction. Drop the metaphor. Applied: "Separating 'human life' from 'mere property' is an illusory distinction."
 
@@ -422,7 +422,7 @@ Property and tasks assigned to everyone in general are assigned to no one in par
 
 ## Order of application
 
-Apply by location, from the top of `ccp_argon.md`, so a later paste does not restore an earlier sentence.
+Apply by location, from the top of `ccp_sheet.md`, so a later paste does not restore an earlier sentence.
 
 1. Opening: call 12.
 2. "Reality is real": call 19.

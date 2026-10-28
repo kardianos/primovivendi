@@ -30,7 +30,7 @@ set BUILD_DIR "build"
 command mkdir -p $BUILD_DIR
 
 # Basenames in this directory. build_stem appends .md.
-set STEMS ccp_argon ccp_derive_argon ccp_eng_argon
+set STEMS ccp_sheet ccp_derive ccp_eng
 
 # ---- print PDF (xelatex): book typography, essay layout ----
 # Same fonts and heading treatment as book1-4/essay_build.fish, as an
@@ -498,7 +498,7 @@ with open(out_path, "w") as f:
   command rm -f $HTMLCSS $EPUBCSS $BODY
 end
 
-build_book ccp_book_argon chapters
+build_book ccp_book chapters
 
 set PR "../push_release"
 if test -e $PR
