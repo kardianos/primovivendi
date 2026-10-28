@@ -1,6 +1,6 @@
 # Civilization (`civ`) Prose & Editing Guide
 
-This guide consolidates the stylistic standards, lexical rules, punctuation constraints, and automated N-gram verification methods used across all documents in `civ/` (`civ/chapters/*.md`, `civ/ccp_argon.md`, `civ/ccp_derive_argon.md`, and `civ/ccp_eng_argon.md`).
+This guide consolidates the stylistic standards, lexical rules, punctuation constraints, and automated N-gram verification methods used across all documents in `civ/` (`civ/chapters/*.md`, `civ/ccp_sheet.md`, `civ/ccp_derive.md`, and `civ/ccp_eng.md`).
 
 ---
 
@@ -117,9 +117,9 @@ python3 -c '
 import glob, re
 
 files = sorted(glob.glob("civ/chapters/*.md")) + [
-    "civ/ccp_argon.md",
-    "civ/ccp_derive_argon.md",
-    "civ/ccp_eng_argon.md",
+    "civ/ccp_sheet.md",
+    "civ/ccp_derive.md",
+    "civ/ccp_eng.md",
 ]
 
 checks = [
@@ -155,9 +155,9 @@ python3 -c '
 import glob, re, collections
 
 files = sorted(glob.glob("civ/chapters/*.md")) + [
-    "civ/ccp_argon.md",
-    "civ/ccp_derive_argon.md",
-    "civ/ccp_eng_argon.md",
+    "civ/ccp_sheet.md",
+    "civ/ccp_derive.md",
+    "civ/ccp_eng.md",
 ]
 
 text = "\n".join(open(p).read() for p in files)
@@ -195,9 +195,9 @@ python3 -c '
 import glob, re
 
 files = sorted(glob.glob("civ/chapters/*.md")) + [
-    "civ/ccp_argon.md",
-    "civ/ccp_derive_argon.md",
-    "civ/ccp_eng_argon.md",
+    "civ/ccp_sheet.md",
+    "civ/ccp_derive.md",
+    "civ/ccp_eng.md",
 ]
 
 item = re.compile(r"^(\d+\.|[*-])\s")
@@ -222,7 +222,7 @@ Fix each hit by inserting a blank line (or a bare `>` line inside a blockquote) 
 Render each source with pandoc and look for a list that ended up inside a paragraph. The check renders into memory only, so it does not run `build.fish` and does not publish:
 
 ```bash
-for f in civ/chapters/*.md civ/ccp_argon.md civ/ccp_derive_argon.md civ/ccp_eng_argon.md; do
+for f in civ/chapters/*.md civ/ccp_sheet.md civ/ccp_derive.md civ/ccp_eng.md; do
   n=$(pandoc "$f" -t html | tr '\n' ' ' | grep -o -E ':\s+(1\.|\*) ' | wc -l)
   [ "$n" -gt 0 ] && echo "$f: $n run-in list(s)"
 done; echo "Part D done"

@@ -1,6 +1,6 @@
 # Authoritative Baseline from `civ/*.md`
 
-All concepts and phrasing in `civ/ccp_argon.md`, `civ/ccp_derive_argon.md`, and `civ/ccp_eng_argon.md` are authoritative and override any conflicting phrases or ideas from earlier books (`book`, `book1-1`, `book1-4`, `book1-5`, `book1-6`).
+All concepts and phrasing in `civ/ccp_sheet.md`, `civ/ccp_derive.md`, and `civ/ccp_eng.md` are authoritative and override any conflicting phrases or ideas from earlier books (`book`, `book1-1`, `book1-4`, `book1-5`, `book1-6`).
 
 ## Core Framing
 - **Initial State & Reality:** We come into this world naked. Beneath us stands reality.

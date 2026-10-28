@@ -1,10 +1,10 @@
-# Calls on `ccp_eng_argon.md` and `ccp_derive_argon.md`
+# Calls on `ccp_eng.md` and `ccp_derive.md`
 
-New issues only. Settled decisions from `notes/07_ccp_argon_calls.md` were applied in both files and are not repeated here.
+New issues only. Settled decisions from `notes/07_ccp_sheet_calls.md` were applied in both files and are not repeated here.
 
 ## Author's decisions
 
-**1. "Millions starved" stands.** At this level of nuance the clause is accurate. The author read the Grokipedia page on Trofim Lysenko, section "large-scale failures and causal links to agricultural shortfalls." The Lysenko sentence in `ccp_derive_argon.md` is unchanged.
+**1. "Millions starved" stands.** At this level of nuance the clause is accurate. The author read the Grokipedia page on Trofim Lysenko, section "large-scale failures and causal links to agricultural shortfalls." The Lysenko sentence in `ccp_derive.md` is unchanged.
 
 **2. Applied as suggested.** The fracture multiple, the pack weight, and the fertility mechanism are gone. Both files keep the refusal to treat men and women as interchangeable, and they state distinct reproductive function and the difference in average strength where the task is carrying a load.
 
@@ -14,11 +14,11 @@ New issues only. Settled decisions from `notes/07_ccp_argon_calls.md` were appli
 
 **5. Applied as suggested.** The universal "every regime" and "terror" are gone. A design that requires human beings to have no sex, no particular attachments, and no private motives fails in operation, and holding it in place has required coercion.
 
-**6. Applied, and revelation stays under test.** The derivation now allows revelation to add a claim about what the senses do not reach, and forbids it to cancel a measurement. The obligation to test the revelation remains. The same sentence is in `ccp_eng_argon.md` and `ccp_argon.md`.
+**6. Applied, and revelation stays under test.** The derivation now allows revelation to add a claim about what the senses do not reach, and forbids it to cancel a measurement. The obligation to test the revelation remains. The same sentence is in `ccp_eng.md` and `ccp_sheet.md`.
 
 ## 1. Lysenko and "millions starved"
 
-**Where:** `ccp_derive_argon.md`, Tangent 1, item 3.
+**Where:** `ccp_derive.md`, Tangent 1, item 3.
 
 **Wording:** "In the 1930s and 1940s, the Soviet Union placed Trofim Lysenko in charge of agricultural biology because his theories of acquired traits matched Marxist ideology, while imprisoning geneticists who aligned with truth. The physical crops did not obey Marxist theory; they died, and millions of human beings starved to death."
 
@@ -28,7 +28,7 @@ New issues only. Settled decisions from `notes/07_ccp_argon_calls.md` were appli
 
 ## 2. The sex-difference examples add injury rates and fertility
 
-**Where:** `ccp_derive_argon.md`, Tangent 2. `ccp_eng_argon.md`, Chapter 2.1, "Interchangeability of the Sexes."
+**Where:** `ccp_derive.md`, Tangent 2. `ccp_eng.md`, Chapter 2.1, "Interchangeability of the Sexes."
 
 **Wording:** Derive says that if men and women were interchangeable, "men and women should be interchangeable in combat infantry units carrying eighty-pound packs, and biological mothers and fathers should be interchangeable in nursing infants. When tested, female soldiers suffer stress fractures at multiples of the male rate under heavy load, and fertility drops when family roles are treated as purely administrative assignments." Eng says standards in combat infantry or heavy labor "either lower operational capability or cause disproportionate physical injury, while simultaneously disrupting family formation."
 
@@ -38,7 +38,7 @@ New issues only. Settled decisions from `notes/07_ccp_argon_calls.md` were appli
 
 ## 3. Population replacement as an immediate institutional failure
 
-**Where:** `ccp_derive_argon.md`, Tangent 2. `ccp_eng_argon.md`, Chapter 2.4, "Interchangeable-Token Egalitarianism."
+**Where:** `ccp_derive.md`, Tangent 2. `ccp_eng.md`, Chapter 2.4, "Interchangeable-Token Egalitarianism."
 
 **Wording:** Derive says you should be able to "take ten thousand people from a society with no tradition of written contract law or industrial maintenance, place them into a high-trust municipal administration or an aviation maintenance facility, and expect identical institutional output the next morning." Eng says policies assume "any population can be replaced or mixed with any other population instantly without altering the functioning of institutions, laws, or social trust," and that treating humans as interchangeable tokens "disrupts social cooperation and degrades institutional performance."
 
@@ -48,7 +48,7 @@ New issues only. Settled decisions from `notes/07_ccp_argon_calls.md` were appli
 
 ## 4. The family as the only institution that has ever raised children
 
-**Where:** `ccp_derive_argon.md`, Tangent 3, equal-allocation utilitarianism.
+**Where:** `ccp_derive.md`, Tangent 3, equal-allocation utilitarianism.
 
 **Wording:** "the family unit (the only institution in history that reliably raises children with personal care)."
 
@@ -58,7 +58,7 @@ New issues only. Settled decisions from `notes/07_ccp_argon_calls.md` were appli
 
 ## 5. Every regime that re-engineers human nature uses terror
 
-**Where:** `ccp_eng_argon.md`, Chapter 2.1, "Theories of Complete Malleability."
+**Where:** `ccp_eng.md`, Chapter 2.1, "Theories of Complete Malleability."
 
 **Wording:** "Every political regime that has attempted to re-engineer human nature on this premise has had to rely on continuous coercion and terror, because the biological traits of the population continually resist the artificial design."
 
@@ -68,7 +68,7 @@ New issues only. Settled decisions from `notes/07_ccp_argon_calls.md` were appli
 
 ## 6. The derivation never allows revelation
 
-**Where:** `ccp_derive_argon.md`, the knowability step in Section 2. `ccp_eng_argon.md` now states the allowance. `ccp_argon.md` already states it.
+**Where:** `ccp_derive.md`, the knowability step in Section 2. `ccp_eng.md` now states the allowance. `ccp_sheet.md` already states it.
 
 **Wording:** Derive concludes that reality is knowable "through sensory observation and reason together," and then moves on. It does not say what the sheet says: revelation may add a claim about what the senses do not reach, and it may not cancel a measurement.
 
