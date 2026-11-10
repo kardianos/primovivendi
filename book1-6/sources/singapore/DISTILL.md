@@ -2,7 +2,7 @@
 
 **Book use:** Part 2 historical positive case; Part 1 thrival under constraints; excellence/merit; survival not owed.  
 **Full transcripts:** same folder (`lky_*.txt`). This file is enough for drafting.  
-**Provenance:** NAS-style English transcripts from `book1-4/ref/singapore/`. Spot-check against National Archives of Singapore if publishing long quotes.
+**Provenance:** NAS-style English transcripts in `ext-ref/book1-4/singapore/` (repo root; not committed). Spot-check against National Archives of Singapore if publishing long quotes.
 
 ---
 

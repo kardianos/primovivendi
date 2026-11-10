@@ -1,4 +1,4 @@
-# Lenin April Theses 1917 — full text also in lenin_april_theses_1917.txt
+# Lenin April Theses 1917 — full text also in ext-ref/book1-4/russia/lenin_april_theses_1917.txt (repo root; not committed)
 
 The April Theses, 1917 aka "The Tasks of the Proletariat in the Present Revolution"
 

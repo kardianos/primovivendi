@@ -1,7 +1,7 @@
 .out
 release
 push_release
-ref/
+/ext-ref/
 bk_*/
 .ttskey
 **/.ttskey
@@ -9,4 +9,4 @@ bk_*/
 **/.pangram_key
 tts/out/
 book1-6/build/pangram/
-
+civ/build

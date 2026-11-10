@@ -1,6 +1,6 @@
 # Excerpts from dugin/foundations_geopolitics.txt
 
-Full file in book1-4/ref (large). Verify against published editions.
+Full file in `ext-ref/book1-4/dugin/` (repo root; not committed) (large). Verify against published editions.
 
 
 ## Near: atlanticism

@@ -18,7 +18,7 @@
 
 ## 1. Durnovo memorandum (1914) — war → social revolution
 
-**File:** `durnovo_memorandum_1914.txt`  
+**File:** `ext-ref/book1-4/russia/durnovo_memorandum_1914.txt` (repo root; not committed)  
 **Role:** Pre-1917 warning from former Interior Minister P. N. Durnovo.
 
 ### Social revolution in the defeated country
@@ -35,7 +35,7 @@
 
 ## 2. Lenin, April Theses (1917) — rupture blueprint
 
-**File:** `lenin_april_theses_1917.txt`  
+**File:** `ext-ref/book1-4/russia/lenin_april_theses_1917.txt` (repo root; not committed)  
 **Source note in file:** marxists.org / Pravda 7 Apr 1917.  
 **Full text is short — prefer full file for complete theses.** Essential points:
 
@@ -57,7 +57,7 @@
 
 ## 3. Stolypin (1907) — reform pointer only
 
-**File:** `stolypin_duma_speech_1907.txt`  
+**File:** `ext-ref/book1-4/russia/stolypin_duma_speech_1907.txt` (repo root; not committed)  
 **Problem:** OCR heavily corrupted in places.  
 **Use rule:** Do not invent polished Stolypin quotes from this OCR. For publication, fetch a clean English edition of Stolypin’s Duma speeches on land reform / private peasant property.  
 **Logic the book needs (supported by secondary consensus, not fake OCR quotes):**  
@@ -67,7 +67,7 @@ exit from communal strip farming toward hereditary household property as alterna
 
 ## 4. Economic grade — Cheremukhin et al. (2017)
 
-**File:** `cheremukhin_yale_russian_economy_1913_1928_or_later.txt`  
+**File:** `ext-ref/book1-4/russia/cheremukhin_yale_russian_economy_1913_1928_or_later.txt` (repo root; not committed)  
 **Paper:** Anton Cheremukhin, Mikhail Golosov, Sergei Guriev, Aleh Tsyvinski, “The Industrialization and Economic Development of Russia through the Lens of a Neoclassical Growth Model,” *Review of Economic Studies* 84 (2017): 613–649.
 
 ### Data hole 1914–27 (primary gap acknowledged)

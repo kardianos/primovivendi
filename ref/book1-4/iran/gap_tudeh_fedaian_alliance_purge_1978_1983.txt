@@ -1,0 +1,26 @@
+GAP PLACEHOLDER: Primary documents from Tudeh Party and People's Fedaian (guerrilla organizations) on the 1978–79 tactical alliance with Khomeini/Islamists against the Shah and the subsequent 1981–83 purge, executions, and suppression of the left.
+
+DESCRIPTION OF NEEDED CONTENT:
+- Statements, communiques, newspaper excerpts (e.g., from "Mardom" or Fedaian publications) from 1978–early 1979 showing leftist support for or tactical united front with the Islamic movement, criticism of Shah as "imperialist puppet", calls for "people's revolution" in alliance.
+- Later documents or accounts (1980–1983) on the conflict, arrests, trials, executions of Tudeh and Fedaian members by the Islamic Republic regime (e.g., after the 1981–82 power consolidation, ban on Tudeh 1983, mass executions).
+- Why it matters for the narrative (Iran mirror capstone): Provides the missing "leftist/Marxist side" primary voice to balance Khomeini (1970 ideological blueprint for theocratic rule) and Shah (modernizer's perspective on White Revolution reforms/outcomes). Demonstrates the revolutionary path's logic: tactical alliance of convenience between ideological opponents (leftists vs. Islamists) to topple the reformer, followed by purge of former allies once power consolidated — illustrating effects of abstract ideology over pragmatic continuity, human costs (executions, repression), and direction away from the socio-economic gains (literacy, women's education, GDP) claimed in pre-1979 sources. Essential for full symmetry in comparing "reform vs. revolution" outcomes, and principle alignment (e.g., failure of procedural symmetry, human limits ignored in utopian revolutionary zeal).
+- Specific data points/quotes sought: Exact language used in 1978 alliance (e.g., "support for Imam Khomeini as anti-imperialist leader"); numbers or names of purged leaders (e.g., Tudeh General Secretary Nureddin Kianuri arrest 1983); descriptions of post-revolution economic reversal or social direction from leftist viewpoint.
+
+MOST LIKELY PRIMARY / STRONG SECONDARY SOURCES:
+- Tudeh Party official publications and statements (1978–1983), e.g., excerpts from "Mardom" (People's) newspaper or central committee declarations archived in Persian opposition collections or international communist archives.
+- People's Fedaian documents: "Fedaian-e Khalq" manifestos, "Kar" newspaper (1979–), internal faction documents (majority/minority splits post-revolution). English translations or summaries in academic works.
+- Collections: 
+  - Marxists Internet Archive (marxists.org) — sections on Iranian Marxism, Tudeh, Fedaian (some English translations of key texts).
+  - Academic compilations: Ervand Abrahamian, "Iran Between Two Revolutions" or "The Iranian Mojahedin" (Princeton UP) with extensive quotes/docs from left groups; "A History of Modern Iran" by Abrahamian includes leftist perspectives.
+  - "The Iranian Revolution: Its Global Impact" or primary doc readers; books like "Tudeh Party and the Iranian Revolution" scholarly analyses with appendices of translated statements.
+  - Post-purge accounts: survivor memoirs or trial transcripts (e.g., from Amnesty International reports 1980s on Iran executions; Human Rights Watch archives).
+  - Persian sources: Sahifeh-ye Imam Khomeini (collected works) for responses to left; or opposition sites like tudehpartyiran.org or fedai.org historical sections.
+- Location/URLs: https://www.marxists.org/history/iran/ or search "Tudeh Party statements 1979" on archive.org; Syracuse Iran Data Portal may have indirect refs; National Library of Iran or academic libraries (e.g., via JSTOR or Project MUSE for papers reproducing docs). Full primary PDFs often in Persian; English translations partial in books.
+- Access notes: Many original Persian documents require Persian language proficiency or academic access; digitized selections available on marxists.org and in Western scholarship. Full runs of "Mardom" or Fedaian periodicals may need interlibrary loan or Iranian archives. Use secondary academic sources with extensive primary excerpts for verifiability if direct download restricted. Cross-reference with Khomeini 1978–79 Paris speeches/fatwas (available in collected works) for alliance context from Islamist side.
+- Recommended starting search: "Tudeh support for Islamic Revolution 1979 primary source" or "Fedaian Khalq alliance Khomeini documents".
+
+STATUS: Placeholder created 2026-05-15. No local PDF/txt acquired due to distribution of primary materials across archives and language barriers. Manual acquisition recommended for full Persian originals + translations. This fills the "outstanding gap" repeatedly noted in SOURCE_LOG for leftist voices in the 1978–79 alliance and purge period.
+
+CITATION EXAMPLE FOR BOOK: Tudeh Party Central Committee, "Statement on the Islamic Movement" (or similar, 1978/1979), as reproduced in [academic source, e.g., Abrahamian, Iran Between Two Revolutions, pp. XXX]; or direct from marxists.org archive.
+
+This placeholder should be replaced with actual extracted text/PDF once sourced.

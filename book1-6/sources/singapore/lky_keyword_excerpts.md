@@ -1,6 +1,6 @@
 # Lee Kuan Yew 1965–1967 speech excerpts (from NAS-style transcripts in repo)
 
-Full transcripts in this folder. Search keywords below for context.
+Full transcripts in `ext-ref/book1-4/singapore/` (repo root; not committed). Search keywords below for context.
 
 
 ## File: lky_1965_separation_survival_19650909.txt

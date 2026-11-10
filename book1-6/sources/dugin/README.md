@@ -11,6 +11,6 @@ Local primary materials for scoring Alexander Dugin’s package against *The Con
 | `foundations_geopolitics.txt` | `pdftotext` extract of above |
 | `interview.txt` | Paul Robinson interview (31 Aug 2017), published 13 Sep 2017 |
 
-Logged in `../SOURCE_LOG.txt` under **DUGIN**.
+The files listed are in `ext-ref/book1-4/dugin/` (repo root; not committed). Logged in `ref/book1-4/SOURCE_LOG.txt` under **DUGIN**.
 
 Book placement: `book1-5/chapters/0406_of_truth.md` § Surface Alignment: Dugin…

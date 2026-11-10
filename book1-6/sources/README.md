@@ -62,12 +62,12 @@ sources/
   notes/
     red_green_alliance.md            (copy from book1-5)
     purity_virtue_reality.md         (copy from book1-5)
-  singapore/DISTILL.md               (writer-facing distill; full LKY txts alongside)
-  russia/DISTILL.md                  (writer-facing distill; full primaries alongside)
-  iran/DISTILL.md                    (writer-facing distill; full Khomeini + gaps alongside)
+  singapore/DISTILL.md               (writer-facing distill; full LKY txts in ext-ref/book1-4/singapore/)
+  russia/DISTILL.md                  (writer-facing distill; full primaries in ext-ref/book1-4/russia/)
+  iran/DISTILL.md                    (writer-facing distill and gaps; full Khomeini in ext-ref/book1-4/iran/)
   china/                             (Mao / Great Leap pack)
   usa/                               (Federalist excerpts)
-  dugin/                             (tweet, interview, excerpts)
+  dugin/                             (excerpts; tweet and interview in ext-ref/book1-4/dugin/)
 ```
 
 ---
@@ -101,3 +101,4 @@ cleaner Federalist text if quoting long; full Mao volume; one famine monograph; 
 |------|------|
 | 2026-07-17 | Initial source pack: logic, philosophy, scripture, notes copies, history primaries from book1-4/ref |
 | 2026-07-17 | Renamed folder `ref/` → `sources/` (root .gitignore ignores `ref/`) |
+| 2026-11-10 | Third-party full texts (LKY, Lenin, Durnovo, Stolypin, Cheremukhin, Khomeini, Dugin interview and tweet, Vermeule) removed from this pack; the identical copies are in `ext-ref/book1-4/` at the repo root, which is not committed. Own notes, distills, excerpts and gap files stay here. |

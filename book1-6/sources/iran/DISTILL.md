@@ -1,7 +1,7 @@
 # Iran distill — relevant quotes and data for the book
 
 **Book use:** Part 2 alliance-then-purge case; political-theological package (implementation not legislation); persons ≠ packages.  
-**Full files:** `khomeini_islamic_government_1970.txt` (long). This distill is enough for drafting core claims.  
+**Full files:** `ext-ref/book1-4/iran/khomeini_islamic_government_1970.txt` (repo root; not committed) (long). This distill is enough for drafting core claims.  
 **Honesty:** Tudeh/Fedaian primary alliance documents and some LE/housing/repression series are **gap placeholders** in-repo — structural claim stands; do not invent leftist communiqués or fake execution counts.
 
 ---
@@ -17,7 +17,7 @@
 
 ## 1. Khomeini, *Islamic Government* / Governance of the Jurist (1970)
 
-**File:** `khomeini_islamic_government_1970.txt`  
+**File:** `ext-ref/book1-4/iran/khomeini_islamic_government_1970.txt`  
 **English materials:** Institute for Compilation and Publication of Imam Khomeini’s Works (translator/annotator per file header). Verify edition if publishing.
 
 ### Implementation, not legislation (load-bearing)
@@ -75,7 +75,7 @@ For jizya / subordination structure and concealment-under-fear verses used in cl
 - Marxists Internet Archive Iran sections (partial translations)  
 - Amnesty International annual reports early 1980s  
 
-Shah-side modernizer claims: `book1-4/ref/iran/shah_answer_to_history_ocr_text.txt` not fully distilled here — optional later.
+Shah-side modernizer claims: `ext-ref/book1-4/iran/shah_answer_to_history_ocr_text.txt` not fully distilled here — optional later.
 
 ---
 

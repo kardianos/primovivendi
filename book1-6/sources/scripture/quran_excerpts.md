@@ -86,7 +86,7 @@ Classical theme: fight those who fight you; fitnah worse than killing; stop if t
 
 ## Khomeini political reception (not Qur’an; primary for modern package)
 
-See `iran/khomeini_islamic_government_1970.txt` and `iran/khomeini_excerpts.md`.
+See `ext-ref/book1-4/iran/khomeini_islamic_government_1970.txt` (repo root; not committed) and `iran/khomeini_excerpts.md`.
 
 Core claim pattern: ruler’s task is **implementation of divine law**, not legislation among equal citizens as sovereign lawmakers.
 

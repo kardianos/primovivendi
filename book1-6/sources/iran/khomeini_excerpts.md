@@ -1,6 +1,6 @@
 # Excerpts: Khomeini, Islamic Government (Velayat-e Faqih), 1970 English materials in repo
 
-Full text: iran/khomeini_islamic_government_1970.txt
+Full text: `ext-ref/book1-4/iran/khomeini_islamic_government_1970.txt` (repo root; not committed)
 
 Verify against a standard edition; OCR/translation quality varies.
 
