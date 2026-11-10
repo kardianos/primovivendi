@@ -9,7 +9,7 @@ This document derives and proves the operating principles required for human sur
 In engineering, a system is analyzed by identifying:
 
 1. The initial conditions of the components.
-2. The invariant laws of the environment in which the system operates.
+2. The constraints of the environment in which the system operates.
 3. The material and operational properties of the components.
 4. The objective function the system must satisfy to avoid termination.
 5. The resource-allocation and conflict-resolution protocols required to keep the components working together.
@@ -25,7 +25,7 @@ Every word in this document is used in its literal sense. When a term from the s
 A human being enters the world at birth without tools, shelter, clothing, language, or stored food. Unlike most other biological organisms, the human infant cannot regulate its own body temperature in cold climates, cannot forage for food, cannot defend itself against predators, and does not possess sufficient instinctual programming to survive independently in nature. Without continuous material care and instruction provided by existing adults for many years, a newborn human dies within days.
 
 ### 2. The Operating Environment: Reality
-Beneath and around every human being is the physical environment: matter, energy, space, time, and biological organisms operating according to fixed laws of cause and effect. This total environment is **reality**. Humans do not invent reality; they exist within it and are subject to its physical and biological constraints at every moment.
+Beneath and around every human being is the physical environment: matter, energy, space, time, and biological organisms, never at rest and bound together by cause and effect. This total environment is **reality**. Humans do not invent reality; they exist within it and are subject to its physical and biological constraints at every moment.
 
 ### 3. Definition of Technology
 Because an unequipped human cannot survive in reality by instinct alone, humans must construct artificial means to survive. Anything humans construct or organize by purposeful effort to solve problems in reality is **technology**. 
@@ -59,12 +59,12 @@ If any of these five constraints is ignored or violated in the design of a socia
 
 > **Principle 1: Reality is real, knowable, and consequential. Truth is what corresponds to reality.**
 
-To build any functional structure or method, an engineer must first establish whether the operating environment has fixed properties, whether those properties can be measured, what happens when a design conflicts with those properties, and how to verify whether an informational model is accurate.
+To build any functional structure or method, an engineer must first establish whether the operating environment has properties that do not change with human opinion, whether those properties can be measured, what happens when a design conflicts with those properties, and how to verify whether an informational model is accurate.
 
 ### 1.1 Reality is Real
 
 #### Derivation
-To say that reality is **real** means that the external world exists independently of human thoughts, desires, linguistic descriptions, or political votes. A steel beam has a specific tensile strength; water freezes at a specific temperature under standard atmospheric pressure; the human body requires a specific minimum intake of calories and water to prevent organ failure. 
+To say that reality is **real** means that the external world exists independently of human thoughts, desires, linguistic descriptions, or political votes. There is one reality. A book or a story does not create a new reality; it creates a narrative. A steel beam has a specific tensile strength; water freezes at a specific temperature under standard atmospheric pressure; the human body requires a specific minimum intake of calories and water to prevent organ failure. 
 
 Proof of objective existence is demonstrated by invariance across observers. If ten people hold ten different opinions about whether a bridge can support a 50-ton load, the physical bridge does not alter its load-bearing capacity to match their opinions. When the 50-ton load is driven onto the bridge, the structure either holds or fails based strictly on its physical properties and geometry. If reality were not objective, and if its behavior changed whenever a person preferred a different result, no tool could be designed, no law could be written, and no plan could be executed, because the physical parameters would change with preference.
 
@@ -73,7 +73,7 @@ Proof of objective existence is demonstrated by invariance across observers. If 
 * **Social Constructivism:** Others argue that reality is created by social consensus, language, or political authority. History provides direct tests of this claim. When political authorities decree that agricultural yields will increase through ideological enthusiasm while violating biological principles of crop rotation and genetics, the crops die and famine occurs. Consensus does not alter physical or biological law.
 
 #### Operational Tolerances (Range of Views)
-People may hold different views regarding the total scope of what exists. One person may conclude that reality consists exclusively of physical matter, energy, and natural laws. Another person may conclude that God and spiritual laws also exist and operate within the universe. Both positions remain within operational tolerances provided both parties agree that they inhabit a single, shared physical world with objective properties that do not change when human descriptions change.
+People may hold different views regarding the total scope of what exists. One person may conclude that reality consists exclusively of physical matter and energy, whose behavior natural laws describe. Another person may conclude that God and spiritual laws also exist and operate within the universe. Both positions remain within operational tolerances provided both parties agree that they inhabit a single, shared physical world with objective properties that do not change when human descriptions change.
 
 #### Excluded Parameters (What It Cannot Accept)
 This principle rules out solipsism, the claim that the external world does not exist, the claim that individuals inhabit separate realities, and the claim that political decrees or majority votes alter physical or biological facts.
@@ -85,9 +85,9 @@ This principle rules out solipsism, the claim that the external world does not e
 #### Derivation
 If reality existed objectively, but humans had no reliable mechanism to detect or understand its properties, purposeful building would still be impossible. Every action would be random.
 
-Human beings acquire knowledge of reality through their physical senses and through reason working on what the senses give. Sensory contact with reality and reason are linked. 
+Human beings acquire knowledge of reality through their physical senses and through reason working on what the senses give. Sensory contact with reality and reason are linked. The senses are proxies. The eye is matter arranged to turn specific bands of light into nerve signals, and the ear does the same with variations in air pressure. Humans also build proxies, such as telescopes, X-ray machines, and strain gauges, and proxies can be chained: a radiograph turns X-rays, which the eye cannot see, into an image the eye can see. The reliability of each proxy is itself learned by testing it in different ways.
 
-The daily operation of engineered systems proves that human sensory observation and rational analysis can accurately know reality. When a person boards an aircraft or communicates using a cellular telephone, the device works predictably. Those devices were designed using mathematical and physical models derived from sensory measurements of metallurgy, aerodynamics, and electromagnetism. The repeatable success of these technologies proves that reality is **knowable** to the degree required to act and build reliably.
+The daily operation of engineered systems proves that human sensory observation and rational analysis can accurately know reality. When a person boards an aircraft or communicates using a cellular telephone, the device works predictably. Those devices were designed using mathematical and physical models derived from sensory measurements of metallurgy, aerodynamics, and electromagnetism. The repeatable success of these technologies proves that reality is **knowable** to the degree required to act and build reliably. Knowledge grows by repeated testing against reality until the models converge. From Ptolemy to Einstein, models of the planets and stars converged on ever more accurate predictions, and Newton joined the model of the planets to the model of motion on the Earth's surface.
 
 #### Detractors and Failure Modes
 * **Radical Skepticism:** Detractors argue that because human senses can occasionally be deceived, or because humans cannot know every variable in the universe with infinite precision, humans cannot know anything with certainty. If an engineer adopted radical skepticism, he would refuse to calculate structural loads because he cannot know the exact position of every atom in a steel girder. In practice, radical skepticism produces paralysis and prevents the construction and maintenance of life-sustaining systems.
@@ -104,39 +104,43 @@ This principle rules out radical skepticism that denies humans can know enough t
 ### 1.3 Reality is Consequential
 
 #### Derivation
-Reality operates by cause and effect. Every physical condition and every human action produces definite results determined by the laws of nature, regardless of what the human actor intended or hoped would happen. 
+To say that reality is **consequential** means that reality pushes back. A person who runs into a wall breaks his nose. Pushing back is more than having effects: a story can affect its reader, but nothing in the story pushes back on him. Reality pushes back even when no one acts. It is never at rest: air and the molecules of every substance are always moving. A human being who does nothing at all still starves or dies of exposure, as the newborn of the Introduction (section 1) dies when no adult cares for him. Reality is consequential because there is no way to escape the activity of the physical. Every physical condition, every human action, and every failure to act produces definite results, determined by the properties of the things involved, regardless of what any person intended or hoped would happen.
 
-If a person brings an open flame into contact with dry cotton in the presence of oxygen, combustion occurs whether the person intended to start a fire, intended to illuminate the room, or did not know that cotton is flammable. When an animal or a human dies, biological processes cease permanently, and further living interaction with that organism is impossible. Because cause and effect operate continuously and without exception, reality is **consequential**: errors in judgment, design, or conduct carry real physical, financial, or biological costs.
+If a person brings an open flame into contact with dry cotton in the presence of oxygen, combustion occurs whether the person intended to start a fire, intended to illuminate the room, or did not know that cotton is flammable. When an animal or a human dies, biological processes cease permanently, and further living interaction with that organism is impossible. Because cause and effect operate continuously and without exception, errors in judgment, design, or conduct carry real physical, financial, or biological costs, and so does neglect.
 
 #### Detractors and Failure Modes
 * **Intention-Based Evaluation:** A common detractor argues that actions and policies should be judged by the benevolence of the actor's intentions rather than by their actual outcomes. In an engineered system, good intentions do not prevent a poorly designed dam from breaking under hydrostatic pressure. In a society, policies that reward people based on stated intentions rather than measurable results eliminate the incentive to correct errors, causing material systems and institutions to fail while their administrators congratulate themselves on their motives.
 * **Linguistic Evasion:** A related error holds that changing the name or description of a failure alters the consequence of that failure. Renaming insolvency, criminal violence, or educational failure with positive terminology does not alter the physical or economic degradation occurring in the society.
+* **Inaction as Exemption:** A third error holds that a person who does nothing escapes consequence and answers for no result. The roof that is not repaired still leaks, the field that is not weeded is overgrown, and the person who does not eat starves. Doing nothing meets the same cause and effect as doing something.
 
 #### Operational Tolerances (Range of Views)
 Because a single action can produce multiple effects across different periods of time, reasonable people will debate how to weigh short-term consequences against long-term consequences. For example, extracting a natural resource or incurring financial debt may produce an immediate material gain while creating a long-term cost. Analyzing the complete sequence of causes and effects requires ongoing measurement and rational debate.
 
 #### Excluded Parameters (What It Cannot Accept)
-This principle rules out the belief that good intentions excuse or reverse destructive outcomes, and the belief that renaming a failure changes its physical or social consequences.
+This principle rules out the belief that good intentions excuse or reverse destructive outcomes, the belief that renaming a failure changes its physical or social consequences, and the belief that doing nothing escapes consequence.
 
 ---
 
 ### 1.4 Truth is What Corresponds to Reality
 
 #### Derivation
-Humans use language, numbers, and mental models to represent reality and coordinate work. Because reality exists prior to and independently of human thought, a human statement or model is **true** if and only if its contents accurately match the actual state of reality. 
+Humans use language, numbers, and mental models to represent reality and coordinate work. Because reality exists prior to and independently of human thought, a human statement or model is **true** if and only if its contents accurately match the actual state of reality. Reality is the truth-maker; the statement or model is the truth-bearer. What corresponds only to a narrative is not truth.
 
 This establishes the required relationship between the human mind and the external world: reality is the invariant standard, and the human model must be adjusted to match reality. When two people disagree about a factual claim, the disagreement cannot be resolved merely by comparing the intensity of their personal preferences. They must refer to the external world, deduce testable predictions from their respective claims, and observe which prediction matches the physical evidence.
 
+Correspondence is what makes a belief true. Justification is having a reason to think it corresponds. A belief is justified in so much as it has been tested against reality and holds up, through the senses and instruments and through predictions that continue to come true. The more independent tests converge, the stronger the justification. A working method can be justified while the explanation given for it is not: farmers who rotate crops because they say the spirits demand it have a justified practice, since the crops grow better, and an unjustified explanation.
+
 #### Detractors and Failure Modes
 * **Pragmatic or Political Redefinition of Truth:** Detractors claim that "truth" is whatever is politically advantageous, whatever produces social harmony, or whatever a ruling authority or majority declares to be true. If a government or corporation defines truth as whatever conforms to official policy, operators are forced to report false data to match the policy. When decisions are made using falsified data, supply chains run out of materials, financial accounts become insolvent, and physical machinery fails.
-* **Coherence-Only Theories:** Another detractor claims that a theory is true so long as it is internally consistent and free of logical contradiction on paper, without needing to be tested against the external world. An architectural plan can be mathematically consistent within a fictional set of physical assumptions while still failing immediately when subjected to real gravity.
-* **Retroactive Hypothesis Alteration:** A third failure mode consists of altering a hypothesis after a test has failed in order to claim that the failed prediction was actually correct, thereby preventing the correction of the underlying model.
+* **Coherence-Only Theories:** Another detractor claims that a theory is true so long as it is internally consistent and free of logical contradiction on paper, without needing to be tested against the external world. An architectural plan can be mathematically consistent within a fictional set of physical assumptions while still failing immediately when subjected to real gravity. Truth is self-coherent, but self-coherence does not make a theory true. Logic can tell what is congruent inside a model or a story; it cannot tell whether the story is real.
+* **Retroactive Hypothesis Alteration:** A third failure mode consists of altering a hypothesis after a test has failed in order to claim that the failed prediction was actually correct, thereby preventing the correction of the underlying model. If every claim that fails a test is reclassified, the system that reclassifies them is itself suspect.
+* **Frame-Relative Truth:** A fourth error holds that truth is relative to a frame, so that a person, a class, a culture, or an epoch each has its own truth. Truth does not have different frames, just one: reality. When two groups hold contradictory claims about the same fact, at least one of the claims is false, whichever group holds it.
 
 #### Operational Tolerances (Range of Views)
 The degree of precision required for a true correspondence depends on the task. A machinist manufacturing an engine piston requires dimensional correspondence within thousandths of an inch; a land surveyor requires correspondence within fractions of a foot; a historian writing an account of a war requires correspondence to the surviving documentary and physical evidence. Similarly, scientific models such as Newtonian mechanics remain true and operationally valid within the velocity and mass ranges where their predictions match measured reality, even though relativistic mechanics is required at velocities approaching the speed of light.
 
 #### Excluded Parameters (What It Cannot Accept)
-This principle rules out defining truth by political utility, majority consensus, or authoritarian decree. It rules out accepting internal theoretical consistency without empirical verification, and it rules out falsifying records or retroactively changing hypotheses to conceal failed predictions.
+This principle rules out defining truth by political utility, majority consensus, or authoritarian decree. It rules out truth relative to a person, a class, a culture, or an epoch. It rules out accepting internal theoretical consistency without empirical verification, and it rules out falsifying records or retroactively changing hypotheses to conceal failed predictions.
 
 ---
 
@@ -594,7 +598,7 @@ This virtue rules out shifting blame for one's own conduct onto others, demandin
 #### Derivation
 This virtue is derived from **Principle 1** (*Reality is consequential*) and **Principle 3** (*Kept and built*).
 
-In the physical world, structures and systems are continuously subjected to wear, environmental stress, and unexpected shocks. If an operator performs his work to the bare minimum standard required to avoid immediate failure (if a machinist cuts parts at the outer limit of acceptable tolerance, if a builder uses the weakest permissible materials, or if a janitor cleans only the visible center of a room), the system possesses no margin of safety. As soon as normal degradation or an external shock occurs, the system fails.
+In the physical world, which is never at rest, structures and systems are continuously subjected to wear, environmental stress, and unexpected shocks. If an operator performs his work to the bare minimum standard required to avoid immediate failure (if a machinist cuts parts at the outer limit of acceptable tolerance, if a builder uses the weakest permissible materials, or if a janitor cleans only the visible center of a room), the system possesses no margin of safety. As soon as normal degradation or an external shock occurs, the system fails.
 
 To **seek excellence** is to hold one's work, both in routine maintenance (keeping) and in new construction (building), to a high, objective standard of durability, precision, and function. When operators across a civilization seek excellence, tools last longer, machines run more efficiently, buildings withstand severe weather, and the society's margin of safety increases.
 
@@ -618,7 +622,7 @@ From an engineering and biological perspective, **beauty** is vitality, order, a
 
 * In a biological organism, beauty is visible as health, proportion, and physical strength: indicators of thriving life.
 * In a built structure or machine, beauty is visible as structural proportion, clean maintenance, and the efficient alignment of form with physical function.
-* In literature, music, and visual art, beauty is the accurate, ordered representation of physical or moral reality. A fictional narrative can be beautiful if it accurately portrays the real consequences of human courage, loyalty, or betrayal. A narrative that depicts reality falsely (portraying cowardice, squalor, and self-destruction as noble and free of consequence) cannot be beautiful because it violates truth (Principle 1).
+* In literature, music, and visual art, beauty is the accurate, ordered representation of physical or moral reality. A fictional narrative can be beautiful if it accurately portrays the real consequences of human courage, loyalty, or betrayal. A narrative that depicts reality falsely (portraying cowardice, squalor, and self-destruction as noble and free of consequence) cannot be beautiful because it violates truth (Principle 1). Inside a narrative the author decides the consequences; in reality they come whether anyone decides them or not.
 
 **Admiring beauty** is a necessary operational virtue for civilization because human beings protect and maintain what they value. Training an individual to recognize and admire beauty trains his sensory and rational judgment to detect when a person, a home, a city, or a work is healthy, ordered, and true, and makes him unwilling to tolerate filth, disorder, decay, and falsehood in his surroundings. A population surrounded by orderly, clean, well-proportioned buildings and truthful art is motivated to keep and defend its civilization; a population surrounded by squalor, graffiti, and ugly structures becomes demoralized and ceases to care for its environment.
 
@@ -715,7 +719,7 @@ This virtue rules out elders who will not form those younger than themselves, an
 We can now verify the complete chain of derivation from initial conditions to individual conduct:
 
 1. **Initial Problem:** Humans enter reality unequipped. Without artificial structures and repeatable methods (**technology**), they die. Because humans age and die and physical structures degrade, a prerequisite technology is required to transmit life, material structures, and operational methods across generations (**civilization**).
-2. **Environmental Constraints (Principle 1):** The environment (**reality**) exists objectively, can be known through sensory observation and reason, and operates by strict cause and effect. Therefore, our models must match reality (**truth**).
+2. **Environmental Constraints (Principle 1):** The environment (**reality**) exists objectively, can be known through sensory observation and reason, and pushes back by cause and effect whether or not anyone acts. Therefore, our models must match reality (**truth**).
 3. **Component Constraints (Principle 2):** The operators (**humans**) are biological men and women who are naturally concerned with their own survival (**self-interested**), finite in time, energy, and knowledge (**limited**), and defined by specific genetic, familial, and cultural traits (**particular**).
 4. **System Objective Function (Principle 3):** Any viable standard of value (**goodness**) must at a minimum keep the operators alive and reproducing (**human life continuing**), while counteracting degradation and constructing new capacity (**kept and built**).
 5. **Resource Allocation and Threat Response (Principle 4):** Because operators are finite and particular, their maintenance and construction work must originate at the individual (**self-anchored**), be allocated by priority of relational proximity (**tiered**), and extend to the community and nation that protect the household (**outward**). Agents who actively seek to rob, subjugate, or destroy the operator or his people must be recognized and stopped (**enemies are real**).
