@@ -12,9 +12,9 @@ First, the physical means by which writer and reader are communicating right now
 
 Neither of us is dead. Neither of us is transmitting thoughts through the air by wishing hard enough. Between the writer and the reader stands an immense, interlocking physical apparatus: copper and fiber-optic cables routing light and electrons across continents; electrical power stations burning fuel or splitting atoms to spin heavy turbines and hold voltage steady on a grid; municipal waterworks filtering and pressurizing clean water so the people operating those power stations do not die of cholera; farms plowing soil, sowing seed, and harvesting grain so the city does not starve by next Tuesday; courts of law enforcing contracts so the farmer, the miller, and the trucker can trade across hundreds of miles without knowing one another's names; and armed police and soldiers standing guard so violent men do not smash the equipment, rob the granaries, or kill the operators in their beds.
 
-Contrast that apparatus with the condition in which every human being actually enters this world.
+Every human being enters this world without any of that apparatus.
 
-Put a newborn human infant on the bare ground. He arrives wet, naked, and toothless. He possesses no language, no mathematics, no agriculture, and no knowledge of which berries are nourishing and which are fatal poison. Unlike a foal that can stand and walk within an hour of birth, a human infant cannot lift his own head, cannot find food, cannot defend himself against a stray dog, and cannot regulate his own body temperature against a cold night. Left alone on the bare earth for forty-eight hours, he dies of exposure or dehydration.
+A newborn human infant on the bare ground is wet, naked, and toothless. He possesses no language, no mathematics, no agriculture, and no knowledge of which berries are nourishing and which are fatal poison. Unlike a foal that can stand and walk within an hour of birth, a human infant cannot lift his own head, cannot find food, cannot defend himself against a stray dog, and cannot regulate his own body temperature against a cold night. Left alone on the bare earth for forty-eight hours, he dies of exposure or dehydration.
 
 Yet twenty or thirty years later, that same helpless infant can walk into an airport, board a pressurized aluminum aircraft weighing three hundred tons, fly across an ocean at thirty-five thousand feet where the outside air temperature is fifty degrees below zero Celsius, and step off safely on another continent while drinking hot coffee.
 
@@ -78,8 +78,6 @@ Unexamined premises are dangerous because a person who holds a sound habit witho
 
 ### The Architecture in Full: Five Principles and Seven Virtues
 
-Before we begin the step-by-step derivation, let us state the complete system of principles and virtues so that the relation of the parts to the whole is clear.
-
 All civilizations exist within the bounds and consequences of reality. Here are the **Five Common Principles of Reality**:
 
 1. **Reality is real, knowable, and consequential. Truth is what corresponds to reality.**
@@ -106,7 +104,7 @@ To answer those five constraints in personal conduct requires **virtue**, the te
 6. **Have children**
 7. **Form and listen**
 
-These five principles and seven virtues are not a list of optional preferences from which one may select a few and discard the remainder. They form a single interlocking engineering specification. Remove any one of them, and the remaining components fail under stress until the civilization collapses. We will now derive each specification from first principles.
+These five principles and seven virtues are not a list of optional preferences from which one may select a few and discard the remainder. They form a single interlocking engineering specification. Without any one of them, the remaining components fail under stress until the civilization collapses. We will now derive each specification from first principles.
 
 ## Chapter 2: Reality and Truth (Principle 1)
 
@@ -226,7 +224,7 @@ Second, the progression from **Aristotle** to **Kepler and Galileo**, to **Isaac
 
 Two centuries later, Einstein showed that at velocities approaching the speed of light, or in intense gravitational fields like that near the Sun's surface, Newtonian mechanics is **incomplete**: time and space are not absolute, and Mercury's orbit precesses by an extra 43 arcseconds per century that Newton's formula cannot account for.
 
-Did Einstein prove that Newton was a fraud or that Newtonian physics is "just a social construct"? Ask any civil engineer designing a suspension bridge today, any mechanical engineer designing an automobile engine, or the flight controllers who calculated the trajectory of the Apollo spacecraft to the Moon. Every day, engineers use Newton's equations because at speeds of a few hundred or a few thousand miles per hour, the relativistic correction factor differs from Newton's answer by less than one part in a billion. Within its domain of ordinary speeds and masses, Newton's model corresponds to physical reality with high precision. Meanwhile, when we launch Global Positioning System (GPS) satellites into orbit, where atomic clocks move at 14,000 kilometers per hour in weaker gravity twenty thousand kilometers above the Earth, engineers *must* include Einstein's special and general relativistic corrections (about 38 microseconds per day), or else a receiver's calculated position would drift by approximately ten kilometers per day.
+Did Einstein prove that Newton was a fraud or that Newtonian physics is "just a social construct"? Civil engineers designing suspension bridges today, mechanical engineers designing automobile engines, and the flight controllers who calculated the trajectory of the Apollo spacecraft to the Moon all answer no. Every day, engineers use Newton's equations because at speeds of a few hundred or a few thousand miles per hour, the relativistic correction factor differs from Newton's answer by less than one part in a billion. Within its domain of ordinary speeds and masses, Newton's model corresponds to physical reality with high precision. Meanwhile, when we launch Global Positioning System (GPS) satellites into orbit, where atomic clocks move at 14,000 kilometers per hour in weaker gravity twenty thousand kilometers above the Earth, engineers *must* include Einstein's special and general relativistic corrections (about 38 microseconds per day), or else a receiver's calculated position would drift by approximately ten kilometers per day.
 
 A chain of incomplete models expanding from Kepler to Newton to Einstein is not a failure of truth-seeking; it is what real, cumulative truth-seeking looks like among limited human beings. Do not commit either of the two opposite errors: never rescue a *wrong* model by pretending every failure was "outside its domain" without stating where its domain actually is, and never discard a working *incomplete* model that still builds sound bridges merely because a broader theory is required for extreme relativistic conditions.
 
@@ -327,9 +325,7 @@ Three consequences follow for human speech and social cooperation the moment tru
 
 ### The Jurisdictional Boundary: Empirical Verification and Metaphysical Belief
 
-How does a free, productive civilization allow believers of different faiths and non-believers to live and build together without falling into Scripturalist blindness, Occasionalist fatalism, or Constructivist power-warfare?
-
-By maintaining a strict jurisdictional boundary between empirical verification and metaphysical belief:
+A free, productive civilization lets believers of different faiths and non-believers live and build together, without falling into Scripturalist blindness, Occasionalist fatalism, or Constructivist power-warfare, by holding a strict boundary between two kinds of claim:
 
 * **For any claim that can be tested in observable reality, bring it to trial in reality, and let reality's verdict stand.** Claims about whether a bridge design will carry a load, whether a medicine cures an infection, whether a defendant committed a burglary, or whether an educational method teaches children to read are empirical claims in the shared physical world. They yield to counting, measuring, and controlled testing. No sacred text, no clerical decree, and no ideological narrative may override a failed inspection report on a physical bridge. Legitimate religious faith is not compromised by an accurate measurement of physical reality.
 * **For ultimate metaphysical questions that produce no measurable distinction in the observable world, civilization's common principles issue no catechism and no anti-catechism.** Whether the universe was created by God, what happens to the soul after death, or how an individual prays in his household are questions beyond the scope of a wind tunnel or a municipal accounting audit. Claims about what lies beyond the universe's beginning, or about all possible worlds, cannot be settled by repeated testing against reality; they are extrapolation from the world we interact with. People who differ on those ultimate questions can still build an electrical grid, serve on a jury, and defend a border together, *provided* they all hold that the shared world is real, knowable, and consequential.
@@ -338,7 +334,7 @@ Which side of that boundary a claim stands on is settled before it is tested, no
 
 Suppose two civil engineers from different religious traditions argue over how to design a river bridge. If the first engineer says, *"We must make the piers out of unreinforced mud brick because my ancient scroll says so,"* and the second says, *"I reject your scroll; we must build it according to my scroll,"* they are not arguing about engineering at all, and they can never reach agreement until one conquers the other. The moment both engineers agree that **the river current, the weight of the trucks, and the compressive strength of the masonry determine whether the structure stands or fails**, they have stepped onto the common ground of Principle 1. Now they can test the mud brick and the stone in water, see the mud brick dissolve, and build the bridge in stone together.
 
-### Deriving Virtue 1 (Align with Truth) and Virtue 5 (Be Humble)
+### Deriving Two Virtues: Align with Truth (Virtue 1) and Be Humble (Virtue 5)
 
 Principle 1 immediately imposes specific requirements upon individual actors.
 
@@ -384,7 +380,7 @@ To design for real humans, we must first dispense with one of the most destructi
 
 In the eighteenth century, **Jean-Jacques Rousseau** opened his political philosophy with the claim that man is born naturally good in a "state of nature," and that it is only civilization, with its agriculture, private property, and laws, that corrupts him and makes him selfish or cruel. The political conclusion invited by Rousseau's premise is clear: if human beings are naturally good and society is what makes them bad, then the way to produce an ideal society is to abolish existing laws and property rights so that man's natural goodness can operate unimpeded. Before the end of the century, others drew that conclusion. The *Manifesto of the Equals* (1796), written for Gracchus Babeuf's conspiracy to abolish private property in France, declared: "No more individual property in land: the land belongs to no one." At his trial in 1797, Babeuf named Rousseau among the philosophers of whom he said, "They were my masters." In 1878 Friedrich Engels wrote that in Rousseau "we find not only a line of thought which corresponds exactly to the one developed in Marx's *Capital*," but the same dialectical turns of argument.
 
-Test Rousseau's premise of natural goodness against a two-year-old child in any household.
+A two-year-old child in any household is a test of Rousseau's premise of natural goodness.
 
 Was that two-year-old child corrupted by capitalist property law or feudal institutions? No; he cannot even read yet. Yet when another child picks up a toy a two-year-old wants, or when he is tired and hungry at five o'clock in the afternoon, if he is not supervised and corrected, he seizes the toy, screams, bites, or strikes his playmate with a wooden block. He does not do this because he is demonic or irredeemably evil; he does it because he is a biological organism governed by unguided, unconstrained appetites and self-interest.
 
@@ -422,8 +418,6 @@ Do not design arrangements that require people to be angels; they will not be. D
 
 ### 3. Limited: Finite Reach, Cognitive Circles, and the Need for Systems
 
-The second specification in Principle 2 states that **humans are limited**.
-
 We are finite in every dimension of our existence:
 
 * **Finite in lifespan:** We have roughly seventy or eighty years in this life, some twenty-five thousand days, before our organs wear out and we die.
@@ -439,7 +433,7 @@ Because your time, sensory reach, and mental capacity are permanently finite, **
 
 When a young engineer enters a power plant or a young citizen enters an inherited legal and moral order, he is looking at systems that were refined over hundreds of years by the trial, error, and labor of thousands of predecessors. If he looks at a pressure-relief valve or a traditional family rule whose purpose he does not immediately understand and says, *"I am wiser than my ancestors; remove this immediately,"* he is acting as if his finite mind were omniscient. A constraint removed before its purpose is understood often brings back the failure it was put there to prevent.
 
-Thus, human limitation is what makes **Virtue 5 (Be humble)** an indispensable survival requirement. Humility is not weak self-deprecation, and it is never an excuse for laziness or refusing to act on the duties within your reach. Humility is the active, disciplined habit of knowing your limits: double-checking your calculations against reality, actively looking for evidence that might disprove your preferred hypothesis, listening to a subordinate or an opponent when he points out a flaw in your plan, and learning *why* an inherited tool or custom was built the way it was before you attempt to improve it.
+Human limitation is what makes **being humble (Virtue 5)** indispensable to survival. Humility is not weak self-deprecation, and it is never an excuse for laziness or refusing to act on the duties within your reach. Humility is the active, disciplined habit of knowing your limits: double-checking your calculations against reality, actively looking for evidence that might disprove your preferred hypothesis, listening to a subordinate or an opponent when he points out a flaw in your plan, and learning *why* an inherited tool or custom was built the way it was before you attempt to improve it.
 
 #### Second Consequence of Human Limits: External Systems That Check Human Flaws
 
@@ -457,11 +451,7 @@ In every one of these cases, the individual human being inside the system remain
 
 ### 4. Particular: Why Humans Are Not Interchangeable Units
 
-Now we turn to the third specification in Principle 2: **humans are particular**.
-
-On any factory floor, schoolroom, or city street, is any human being a generic, featureless "Unit of Humanity"?
-
-No. Every human being is concrete and particular:
+Every human being on a factory floor, in a schoolroom, or on a city street is concrete and particular, not a generic, featureless "Unit of Humanity":
 
 * **Biologically particular:** Every human is either male or female, with chromosomal, hormonal, skeletal, and reproductive differences that no statute can repeal. Every human inherits a specific genetic endowment from a specific mother and father, influencing temperament, physical stature, and natural aptitudes.
 * **Familially and historically particular:** Every human is born to particular parents in a particular household, at a particular moment in history, inheriting specific family debts, assets, habits, and memories.
@@ -484,7 +474,7 @@ That "Lottery of Birth" argument rests upon the hidden fallacy of **detachable i
 
 For the statement *"I was lucky to be born to my parents in this country rather than being born to different parents in another country"* to make logical sense, there would have to be a pre-existing *"I"*, a generic, featureless entity existing prior to conception, which drew an assignment by chance and was then inserted into *this* genetic body, *this* mother and father, *this* family history, and *this* native language as an occupant enters a vehicle.
 
-Test that hidden premise by an analogous proposition across biological species:
+An analogous proposition across biological species tests that hidden premise:
 
 Does the sentence *"I was lucky not to be born a seagull"* describe a real physical possibility, or does it merely form a grammatically correct sentence that describes an impossibility?
 
@@ -494,14 +484,14 @@ The same biological reality applies to human beings. **A human being is not an i
 
 Once it is understood that **identity is not detachable from constitution and lineage**, two destructive errors are refuted simultaneously:
 
-1. **The "Lottery Guilt / Entitlement" error is refuted.** Because there was never a random drawing separate from the people who actually lived and built, a child whose parents worked for thirty years to build a house, maintain a farm, and teach him a trade did not steal a prize from a common pool. Specific ancestors worked, sacrificed, and exercised self-restraint to build that inheritance *for their children*. The proper moral response to inheriting a sound family, a reputable name, and a functioning country is never paralyzing guilt over an imaginary lottery. It is **gratitude** to the ancestors who built it, and the practice of **Virtue 7 (Form and listen)**: the heir tests what he was told, keeps what holds, and forms his own children in it.
+1. **The "Lottery Guilt / Entitlement" error is refuted.** Because there was never a random drawing separate from the people who actually lived and built, a child whose parents worked for thirty years to build a house, maintain a farm, and teach him a trade did not steal a prize from a common pool. Specific ancestors worked, sacrificed, and exercised self-restraint to build that inheritance *for their children*. The proper moral response to inheriting a sound family, a reputable name, and a functioning country is never paralyzing guilt over an imaginary lottery. It is **gratitude** to the ancestors who built it, and the heir's part in **forming and listening (Virtue 7)**: he tests what he was told, keeps what holds, and forms his own children in it.
 2. **The opposite "Self-Made Atom" error is also refuted.** Just as a person is not the beneficiary of a theft from a lottery, neither is he a self-created being who formed himself out of nothing and owes nothing to the household, lineage, and civilization that formed him. We are **particular, formed agents**, rooted in a real chain of parents and ancestors, and accountable for what we add or squander by our own conduct.
 
 ## Chapter 5: Discovered Substance Versus Constructed Form
 
 ### How Limited Humans Solve Recurrent Problems in Reality
 
-Before we move to Principle 3, we must analyze what occurs when the world of Principle 1 (real, knowable, consequential reality) meets the creature of Principle 2 (self-interested, limited, particular humans).
+Before the standard of the good (Principle 3) comes a prior question: what happens when a real, knowable, and consequential world (Principle 1) meets self-interested, limited, and particular humans (Principle 2)?
 
 Because every human being has only twenty-four hours in a day and a finite lifespan, no single household can efficiently mine its own iron ore, smelt its own steel, weave its own cloth, grow its own wheat, mill its own flour, cobble its own boots, and perform its own appendectomies. If a farmer tries to make everything from scratch, he spends all winter making one crude iron hoe and starves in the spring.
 
@@ -520,7 +510,7 @@ How should a builder answer that claim? By drawing a precise analytical distinct
 
 ### The Engineering Distinction: Constructed in Form vs. Discovered in Substance
 
-When someone calls an institution "constructed," never accept or reject the word wholesale. Ask one question immediately: **Is it constructed in form, or is it discovered in substance?**
+When someone calls an institution "constructed," the word can be neither accepted nor rejected wholesale, because every institution has two parts:
 
 * **Constructed Form** is the local convention, symbol, schedule, or administrative procedure through which a society implements a solution, where a different convention would solve the problem equally well so long as everyone in the scope agrees on it.
 * **Discovered Substance** is the underlying functional arrangement itself, which is forced upon human beings by the recurrent constraints of physical reality and human nature. Nobody "invented" discovered substance out of arbitrary whim, and no parliament or dictator can abolish it by decree, because the underlying problem remains standing in reality the morning after the decree is signed.
@@ -630,8 +620,6 @@ We will now analyze each of the three parts of Principle 3 (*Goodness must inclu
 
 ### 1. "Goodness Must Include": A Necessary Minimum Condition, Not an Upper Limit
 
-The exact phrasing of the first three words is essential: **Goodness must include...**
-
 Principle 3 does not claim that bare biological survival and material maintenance are the *upper limit* or the exhaustive totality of all human aspiration. A devout Christian or Jew may hold that the highest good includes loving God, holiness, and eternal salvation; a contemplative philosopher may hold that wisdom and artistic creation complete a well-lived life. Principle 3 leaves full scope for those higher spiritual and intellectual aims, **provided they rest upon, and do not undermine, the necessary minimum condition of human life continuing, kept, and built.**
 
 That minimum condition is mandatory because a dead man cannot pray, cannot contemplate philosophy, cannot paint a work of art, cannot keep a promise, and cannot show kindness to his neighbor. Any moral code that undermines the preconditions of survival, maintenance, and generational replacement in the name of a "higher" ideal is a prescription for self-destruction disguised as ethics.
@@ -650,7 +638,7 @@ Stated in its standard form, the "Consent as Morality" framework asserts three p
 
 At first glance, this formula appears simple, modern, and humane: no inherited commandments, no unchosen duties, no moral judgment over how neighbors live, and no obligations toward the unborn.
 
-Now test **Consent as Morality** against physical and generational reality. When evaluated against the Five Common Principles, it fails on **four separate foundational points**:
+Tested against physical and generational reality and against the Five Common Principles, **Consent as Morality** fails on **four separate foundational points**:
 
 1. **Failure Under Principle 1: Reality Does Not Ask Your Consent.**
 
@@ -669,7 +657,7 @@ Now test **Consent as Morality** against physical and generational reality. When
 
 3. **Failure Under Principle 3: "The Empty Planet Problem" and Consensual Self-Destruction.**
 
-    Follow a pure person-affecting, consent-only standard to its logical conclusion.
+    Carried to its logical conclusion, a pure person-affecting, consent-only standard produces the following case.
 
     - Suppose the currently living generation of human beings decides, by **wholly peaceful, unanimous consent**, to sterilize itself, burn the great libraries for winter heat, consume the remaining stores of food and fuel in comfort for fifty years, bear no children, and let the human race go completely extinct when the last eighty-year-old dies.
     - On a pure consent-only ethics, **no moral wrong whatsoever has occurred.** Nobody's consent was violated; no existing person on the ledger was forced against his will; and once the last human dies, there is nobody left on the ledger to object. Under that standard, **a dead planet of bare rock under a hot sun and a living planet populated by flourishing families, music, science, and cities are morally equivalent.**
@@ -677,24 +665,24 @@ Now test **Consent as Morality** against physical and generational reality. When
 
 4. **Failure Under Principle 4 and Virtues 6–7: The Unchosen Obligations That Keep Every Human Alive.**
 
-    Ask how many of the most important, life-sustaining moral duties in human existence originated in a revocable consent contract:
+    The most important, life-sustaining moral duties in human existence did not originate in a revocable consent contract:
 
     - You did not sign a consent form before being born to your particular mother and father, in your particular country and century.
     - Once a mother and father bring a child into the world, can they wake up when the baby is six months old and say, *"We withdraw our consent to parenting today, so we are leaving the baby on the kitchen floor"*? If they do, the law rightly imprisons them for criminal neglect, because their obligation is fixed by objective reality and tier, not by ongoing subjective preference.
     - Does a grown son owe care and honor to the aging mother and father who fed him for twenty years only if he feels like consenting at age forty?
     - Does a citizen owe defense to the country whose laws and soldiers sheltered his childhood only if he feels like consenting on the morning the enemy crosses the border?
-    - Do the younger owe the elders who formed them a hearing only if they consent, and do living adults owe the young their formation, and the unborn a working inheritance, only if they consent (**Virtue 7: Form and listen**)? None of the unborn can sign a consent contract today.
-    - Remove **unchosen, tiered obligations**, and every marriage, every household, every army, and every intergenerational trust dissolves the first afternoon that maintaining one's post becomes fatiguing or costly.
+    - Do the younger owe the elders who formed them a hearing only if they consent, and do living adults owe the young their formation, and the unborn a working inheritance, only if they consent (**Virtue 7**)? None of the unborn can sign a consent contract today.
+    - Without **unchosen, tiered obligations**, every marriage, every household, every army, and every intergenerational trust dissolves the first afternoon that maintaining one's post becomes fatiguing or costly.
 
-Once we set aside the misconception that consent is the *foundation of morality*, we can see immediately where consent *does* belong and why it is valuable there. Consent is **not** Principle 3 (the definition of the good); consent is an operational instrument inside **Principle 5 (Scoped Procedural Symmetry)**. Within the scope of **competent adult peers dealing with one another inside a lawful order**, such as buying and selling a workshop, signing an employment contract, taking marriage vows, or electing representatives under a constitution (*"the consent of the governed"*), requiring mutual consent is the **symmetrical procedural check** that prevents one citizen from robbing, enslaving, or defrauding another.
+Once we set aside the misconception that consent is the *foundation of morality*, we can see immediately where consent *does* belong and why it is valuable there. Consent is **not** the definition of the good (Principle 3); it is an operational instrument inside **scoped procedural symmetry (Principle 5)**. Within the scope of **competent adult peers dealing with one another inside a lawful order**, such as buying and selling a workshop, signing an employment contract, taking marriage vows, or electing representatives under a constitution (*"the consent of the governed"*), requiring mutual consent is the **symmetrical procedural check** that prevents one citizen from robbing, enslaving, or defrauding another.
 
-Keep the hierarchy clear: **Principle 3 (keeping and building human life) and Principle 4 (tiered obligation) establish the institutional order; consent is the procedural rule governing voluntary transactions among adult peers within that order.** One must not mistake a procedural rule among peers for the foundation of morality itself.
+**Keeping and building human life (Principle 3) and tiered obligation (Principle 4) establish the institutional order; consent is the procedural rule governing voluntary transactions among adult peers within that order.** One must not mistake a procedural rule among peers for the foundation of morality itself.
 
 #### Harm-Reduction: A Subordinate Consideration, Not the Supreme Good
 
 A second, even more widespread modern definition makes goodness **the minimization of harm and suffering**.
 
-Again, begin by recognizing harm-reduction as a legitimate *subordinate consideration*: installing guardrails on a high staircase, filtering cholera bacteria out of drinking water, and wearing seatbelts in automobiles reduce needless injury while helping human life continue and build. Under Principle 3, those are genuine improvements.
+Harm-reduction is a legitimate *subordinate consideration*: installing guardrails on a high staircase, filtering cholera bacteria out of drinking water, and wearing seatbelts in automobiles reduce needless injury while helping human life continue and build. Under Principle 3, those are genuine improvements.
 
 The failure occurs when **harm-reduction is elevated from a subordinate consideration to the supreme definition of the good**, because once "reducing suffering and risk of harm" becomes the supreme moral rule, **it has no limiting principle within living reality**:
 
@@ -702,13 +690,11 @@ The failure occurs when **harm-reduction is elevated from a subordinate consider
 * Competing in an objective examination, starting a business, or proposing marriage carries a risk of failure, rejection, and emotional distress; therefore, abolish the examinations and discourage the risk.
 * Having and raising children guarantees morning sickness, the pain of childbirth, sleepless nights, financial sacrifice, and the certainty that every child born will someday suffer grief, illness, and death; therefore, declare childbearing an unethical imposition of harm upon the unborn and promote childlessness ("anti-natalism") as the highest environmental and moral virtue.
 
-Extend the proposition that "goodness is the reduction of suffering" to its mathematical limit, and what is the only state of the earth in which suffering, pain, inequality, and risk of harm are permanently eliminated? **Total extinction: lifeless rock under a sun, with not a single living mind remaining in the universe.**
+Carried to its limit, the proposition that "goodness is the reduction of suffering" leaves one state of the earth in which suffering, pain, inequality, and risk of harm are permanently eliminated. **Total extinction: lifeless rock under a sun, with not a single living mind remaining in the universe.**
 
 When an ethical system's logical endpoint is the elimination of all living beings capable of acting, building, or caring, one is not looking at a higher form of compassion. One is looking at nihilism disguised as humanitarian concern.
 
 ### 2. "Human Life Continuing": Revealed Preference and Cultural Worthiness
-
-The second element of Principle 3 is **human life continuing**.
 
 Continuing has two inseparable time horizons:
 
@@ -733,9 +719,7 @@ To some, a child is something to have once their own life is in order. To others
 
 ### 3. "And That Life Kept and Built": Entropy, Property, and the Trajectory of Living Well
 
-The final words of Principle 3 state: **and that life kept and built.**
-
-Why is bare biological survival not sufficient? Why must Principle 3 join *continuing* with *kept* and *built*?
+Bare survival does not last. What exists decays unless it is kept in working order, and a household living at bare subsistence has no margin against hardship unless it builds.
 
 #### Kept: Maintaining Order Against Physical and Social Decay
 
@@ -802,13 +786,11 @@ Principles 1, 2, and 3 tell us that reality is consequential, that humans are se
 
 Yet a principle written on a page does not sweep a single floor or machine a single steel shaft. Because civilization is not an independent organism existing apart from human beings, its method only exists when it is practiced in the daily habits of individual men and women. That practice in an individual is **virtue**.
 
-In Chapters 3 and 4, we saw how Principle 1 and Principle 2 immediately require **Virtue 1 (Align with truth)** and **Virtue 5 (Be humble)**. Now let us see how keeping and building in a consequential world require three additional personal virtues (**Virtue 2: Take ownership, which is responsibility**, **Virtue 3: Seek excellence**, and **Virtue 4: Admire beauty**) and how they interlock with humility.
+A consequential reality and limited human beings (Principles 1 and 2) already require us to **align with truth (Virtue 1)** and **be humble (Virtue 5)**. Keeping and building in a consequential world require three more: to **take ownership, which is responsibility (Virtue 2)**, to **seek excellence (Virtue 3)**, and to **admire beauty (Virtue 4)**. All three work together with humility.
 
 ### Virtue 2: Take Ownership, Which Is Responsibility
 
-> **Virtue 2: Take ownership, which is responsibility.**
-
-The statement of this virtue equates **taking ownership** directly with **responsibility** because in a world populated by finite, self-interested human beings (Principle 2), **property and tasks assigned to everyone in general are assigned to no one in particular. Unless a named person, or a named office, answers for them, they fall into disrepair. A shared work lasts only when someone in particular is charged with the upkeep.**
+The virtue equates **taking ownership** directly with **responsibility** because in a world populated by finite, self-interested human beings (Principle 2), **property and tasks assigned to everyone in general are assigned to no one in particular. Unless a named person, or a named office, answers for them, they fall into disrepair. A shared work lasts only when someone in particular is charged with the upkeep.**
 
 In the shared breakroom kitchen of almost any large office building or factory where fifty employees eat lunch and no single person is assigned ownership of the sink, the scene by Thursday afternoon is predictable: a sour, grey sponge sitting in a puddle at the bottom of the basin; coffee grounds encrusted on the counter; a refrigerator holding plastic containers of spoiling food from three months ago; and a hot-water tap that has dripped steadily for a year because each of the fifty workers assumes that one of the other forty-nine reported it to maintenance.
 
@@ -852,11 +834,9 @@ Of all the billions of variables in the universe, including the weather, the fin
 
 ### Virtue 3: Seek Excellence
 
-> **Virtue 3: Seek excellence.**
+Taking ownership of a task and doing the bare minimum required to get by is not enough. Civilization also requires **seeking excellence**: holding one's maintenance and building work to a high, objective standard of durability and precision.
 
-Why is it not enough merely to take ownership of a task and do the bare minimum required to get by? Why does civilization require the virtue of **seeking excellence**: holding one's maintenance and building work to a high, objective standard of durability and precision?
-
-The answer lies in Principle 1 (reality is consequential, and physical things degrade continuously over time) and in Principle 3, which requires that what is built be kept against that decay.
+The reason is that reality is consequential and physical things degrade continuously over time (Principle 1), and what is built must be kept against that decay (Principle 3).
 
 Suppose a machinist turning an aircraft landing-gear bolt cuts the steel at the outermost limit of the tolerance band because nobody is inspecting closely, or a mason builds a stone retaining wall using weak, sandy mortar and omits the drainage gravel behind the wall to finish by Friday afternoon. On Friday afternoon in dry weather, the poorly built wall and the well-built wall look almost identical from the street. Both builders collect their pay.
 
@@ -914,9 +894,7 @@ At the same time, distinguish **allowing failure in training** from **courting r
 
 ### Virtue 4: Admire Beauty
 
-> **Virtue 4: Admire beauty.**
-
-At first glance, a reader who thinks of civilization purely in terms of calories and steel girders might wonder: *Why is "Admire beauty" one of the seven foundational virtues of civilization? Is beauty not merely an optional decorative luxury for art critics after the essential work is finished?*
+A reader who thinks of civilization purely in terms of calories and steel girders may take beauty for an optional decorative luxury, for art critics after the essential work is finished.
 
 Comparing two aircraft maintenance hangars, or the main streets of two towns, shows why beauty is a practical requirement for maintenance and survival.
 
@@ -959,9 +937,7 @@ Reject both errors: reject the **cult of ugliness** (which celebrates filth, inc
 
 ### Virtue 5: Be Humble
 
-> **Virtue 5: Be humble.**
-
-We first met **Virtue 5 (Be humble)** under Principle 1 and Principle 2 as the practical recognition that we are finite, fallible creatures who did not invent the civilization we inherited. Before leaving the personal virtues of keeping and building, we should note how **humility** and **excellence** form a complementary pair, and how together they enforce one of the most important disciplines of public life: **judging by outcomes rather than by feelings**.
+**Humility** first appeared as the practical recognition that we are finite, fallible creatures who did not invent the civilization we inherited. Humility and **excellence** form a complementary pair, and together they enforce one of the most important disciplines of public life: **judging by outcomes rather than by feelings**.
 
 1. **The Complementarity of Humility and Excellence:**
 
@@ -983,11 +959,9 @@ We first met **Virtue 5 (Be humble)** under Principle 1 and Principle 2 as the p
 
 ### The Resource-Allocation Problem of Finite Builders
 
-Let us take stock of where our derivation stands.
-
 We know that human life must continue and be kept and built to a high standard of truth, ownership, excellence, and beauty (Principles 1 and 3; Virtues 1, 2, 3, and 4). We also know from Principle 2 that every human being is **finite**, possessing only twenty-four hours in a day, one body, a limited income, a limited span of attention, and particular biological and cultural ties.
 
-Combine those two facts, and an inescapable engineering question appears immediately:
+Together, those two facts raise an inescapable engineering question:
 
 **There are eight billion human beings in the world, millions of houses that need roof repairs, millions of fields that need weeding, and millions of children who need to be fed and taught tonight. Since you are one finite person who cannot maintain all eight billion lives simultaneously, how must your work of keeping and building be ordered across space and people? And how must you act toward people who are not trying to cooperate with you at all, but are actively trying to rob or destroy you?**
 
@@ -999,13 +973,11 @@ Every word of this principle requires careful definition, because misunderstandi
 
 ### 1. "What You Keep and Build": Moral Duty Is Measured in Tangible Work
 
-The opening words are specific: **What you keep and build...**
-
 Principle 4 addresses you directly as an active agent, and it defines the measure of moral obligation. Moral duty is not measured by how much indignation you feel while watching the evening news, how many slogans you repeat in public, or how earnestly you lecture strangers about global problems. Moral duty is measured by **what actually remains clean, solvent, fed, repaired, taught, and defended because your labor and your resources were expended upon it.**
 
 ### 2. "Self-Anchored": Why You Start From the Center, Never From the Globe
 
-Where must the work of keeping and building begin? It must be **self-anchored**, starting with the individual himself and his immediate household, for two concrete operational reasons:
+The work of keeping and building begins with the individual himself and his immediate household, for two concrete operational reasons:
 
 1. **Direct Control and Knowledge:** You have direct, moment-by-moment authority over exactly one body, one mind, and one set of hands: your own. You know immediately when your own tooth aches, when your own bank account is overdrawn, and when your own roof is leaking; you can only conjecture regarding the detailed needs of a stranger five thousand miles away.
 2. **Foundational Prerequisite (The Oxygen Mask Principle):** On an aircraft, if cabin pressure drops, the safety instructions direct every parent to secure his own oxygen mask *before* attempting to assist his child or his neighbor, because a parent who loses consciousness from hypoxia in thirty seconds helps nobody; he becomes a second incapacitated person whom someone else must carry.
@@ -1048,14 +1020,9 @@ The work of a single family over one year illustrates how self-anchored, tiered 
 
 ### 4. Dispositional Love Versus Action-Based Love (And When to Use Each)
 
-Here we arrive at one of the most important practical clarifications in moral philosophy.
-
-Whenever one states Principle 4 (that what you keep and build is self-anchored and tiered, and that you owe your spouse and children far more than you owe a stranger), critics immediately object: *"Does not morality command us to love our neighbor, and even to love all mankind? How can one ration love by tiers?"*
+Whenever one states that what you keep and build is self-anchored and tiered (Principle 4), and that you owe your spouse and children far more than you owe a stranger, critics immediately object: *"Does not morality command us to love our neighbor, and even to love all mankind? How can one ration love by tiers?"*
 
 The confusion vanishes as soon as we recognize that the single English word **love** is used to denote two distinct operations with opposite economic properties: **Dispositional Love** and **Action-Based Love**.
-
-Let us define both carefully and see when and how each must be applied:
-
 #### 1. Dispositional Love: General Goodwill That Scales Widely
 
 **Dispositional love** is an internal disposition of general goodwill, non-malice, and basic human decency toward other human beings.
@@ -1116,11 +1083,9 @@ Conversely, a household that practices only cold *politeness* inside the home tr
 
 ### 5. "Outward": Why Duty Does Not Stop at the Front Door
 
-The third directional term in Principle 4 is **outward**: **What you keep and build is self-anchored, tiered, and outward.**
+The word **outward** is in Principle 4 because a short-sighted man might read "self-anchored and tiered" and conclude: *"Very well; I will lock my front door, keep my own house spotless, feed my own wife and children, and refuse to contribute to my street, my town, my local courts, or my country's defense."*
 
-Principle 4 adds the word **outward** because a short-sighted man might read "self-anchored and tiered" and conclude: *"Very well; I will lock my front door, keep my own house spotless, feed my own wife and children, and refuse to contribute to my street, my town, my local courts, or my country's defense."*
-
-Trace the consequences over time for that purely isolationist household.
+Over time, the consequences for that purely isolationist household run as follows.
 
 Your kitchen floor is swept clean, and your pantry is stocked with provisions. Then, outside your front fence:
 
@@ -1132,10 +1097,6 @@ Your kitchen floor is swept clean, and your pantry is stocked with provisions. T
 **No household exists in physical or institutional isolation.** The inner tiers (self and family) can survive and compound across generations *only* when they are sheltered inside functioning outer tiers (a clean neighborhood, an impartial local court, a solvent and defended nation). Therefore, once a man has anchored himself and his household, his work of keeping and building **must extend outward**: helping keep the street safe, dealing honestly in local trade, serving on juries and boards, paying lawful taxes for shared infrastructure, and bearing arms at the national border when the country that shelters every family is threatened. The inner tier sustains the outer tier; the outer tier protects the inner tier.
 
 ### 6. "Enemies Are Real": Force, Predation, and the Futility of Unarmed Appeals
-
-Now we reach the final proposition of Principle 4:
-
-> **Enemies are real.**
 
 A foundational statement of civilization's common principles dedicates a separate sentence to the reality of enemies because in peaceful, prosperous eras, comfortable people are constantly tempted by a fatal misconception: they imagine that every human being outside their front door is simply a friendly neighbor in Tier 3 or a harmless distant stranger in Tier 5 who desires the same peaceful life they desire, and that all violent conflict in the world is merely a misunderstanding caused by poor communication or lack of generosity.
 
@@ -1173,7 +1134,7 @@ A similar principle applies to a shepherd tending his flock at the edge of the h
 
 #### 2. At the National Scale: When the State Makes Itself the Enemy of Its Own Residents
 
-Can a government itself become the active enemy of a group of people living inside its borders? History gives a clear and unmistakable affirmative.
+A government can itself become the active enemy of a group of people living inside its borders.
 
 A clear example appears in the actions of the Young Turk regime and the subsequent Turkish nationalist governments toward the long-established non-Muslim minorities living inside the Ottoman Empire and the Turkish Republic during the first half of the twentieth century:
 
@@ -1215,9 +1176,9 @@ Placing Principle 4 next to Principle 2 creates a direct institutional problem.
 
 Under **Principle 2**, human beings are self-interested, limited, and particular. Under **Principle 4**, every good father, mother, and brother rightly prioritizes his own household and kin above strangers. That tiered loyalty is the primary motive force that builds homes, clears land, and raises children.
 
-Now ask a direct question of institutional design: **What happens when ten thousand self-anchored, family-loyal households must share the same town, the same river, the same highway, the same marketplace, and the same army?**
+That raises a direct question of institutional design: **What happens when ten thousand self-anchored, family-loyal households must share the same town, the same river, the same highway, the same marketplace, and the same army?**
 
-Two examples illustrate what occurs if Principle 4 (direct loyalty to one's own kin and inner circle) is permitted to govern the municipal courtroom or the licensing board:
+Two examples show what happens when loyalty to one's own kin and inner circle (Principle 4) is permitted to govern the municipal courtroom or the licensing board:
 
 * Suppose your neighbor's brother steals your work truck at midnight. You bring the thief into the municipal court the next morning, and you discover that the judge on the bench is the thief's older brother. If the judge applies Principle 4 from the bench (*"Kinship comes first; I must protect my brother"*), he dismisses the case and allows his brother to keep your truck. Tomorrow morning, you and your cousins will not resort to the court; you will arm yourselves, march to the judge's house, and recover the truck by force. Within six months, the town resembles a failed state: a collection of armed family compounds conducting blood feuds across the street.
 * Or suppose an aviation examiner at the flight licensing board is testing candidates for commercial airline captaincies. Five strangers pass the rigorous cockpit emergency simulation, while the examiner's own nephew panics and fails the simulation three times in succession. If the examiner applies inner-tier family favoritism at the licensing desk and certifies his incompetent nephew regardless, he sends three hundred passengers, including his own neighbors' children, to their deaths against a mountain on the first icy night.
@@ -1232,13 +1193,11 @@ Only through **Principle 5**:
 
 > **Principle 5 of Reality: Justice is scoped procedural symmetry.**
 
-Three terms follow the verb: **scoped**, **procedural**, **symmetry**. Every word in this definition is essential to the structure of justice. Remove any one of them, and what people call "justice" immediately degenerates into anarchy, tyranny, or legalized plunder. Each term must be defined in turn.
+Three terms follow the verb: **scoped**, **procedural**, **symmetry**. Every word in this definition is essential to the structure of justice. Without any one of them, what people call "justice" immediately degenerates into anarchy, tyranny, or legalized plunder. Each term must be defined in turn.
 
 ---
 
 ### 1. "Scoped": Boundaries, Roles, Legitimate Power, and Borders
-
-The first word of justice is **scoped**.
 
 Justice must be *scoped* because a rule has meaning only when one knows **where the rule applies, to whom it applies, and what position each person occupies inside that boundary.** An unscoped rule, a rule that treats every human being in the world as standing in the same relationship to every house, every contract, every classroom, and every courtroom, is an impossibility in reality.
 
@@ -1291,7 +1250,7 @@ That is the universal test of legitimate authority in every scope, from a househ
 
 #### Borders, the Winter Storehouse, and Naturalization as Civic Adoption
 
-Apply this law of scope directly to the **national border**.
+The same law of scope governs the **national border**.
 
 A house without walls and a roof is not a "welcoming house"; it is merely an open patch of ground exposed to the wind and rain. In the same way, **a country without enforced borders is not a compassionate polity; it is a dissolved jurisdiction** where no law, no civic trust, and no shared treasury can survive.
 
@@ -1318,10 +1277,6 @@ How, then, should a sound nation admit newcomers into its citizen scope? Through
 
 ### 2. "Procedural": Known Rules, Unequal Outcomes, Judgment, and Two-Part Forgiveness
 
-Turn now to the second word of Principle 5: **Justice is scoped *procedural* symmetry.**
-
-Why **procedural**? What is a procedure?
-
 A **procedure** is a clear, repeatable method of action and adjudication whose rules are **stated in advance, known to all participants before the contest or dispute begins, and applied step-by-step to the evidence of what a person actually did.**
 
 #### Rule of Law Versus Rule by Man (and Why Impartial Rules Cannot Depend on Identity)
@@ -1333,16 +1288,14 @@ Within five minutes, the contest disintegrates, because when rules are invented 
 In political and legal history, this is the fundamental dividing line between the **Rule of Law** (procedural justice) and **Rule by Man** (arbitrary decree by monarchs, commissars, mobs, or administrative bureaucrats):
 
 * When **Solon** reformed the laws of **Athens** in 594 BCE, he had the statutes inscribed onto rotating wooden and stone tablets (*axones* and *kyrbeis*) erected in the public marketplace where every citizen could read them in advance, binding magistrate and poor farmer to the same procedure. Even the ancient Near Eastern proverb of **"the law of the Medes and Persians, which cannot be changed"** captured an essential discovery of early statecraft: once a decree was entered into the public law, not even the monarch could arbitrarily rewrite it to favor a courtier today.
-* Contrast Solon's procedural Athens with **Lycurgus's Sparta**, which collectivists from Rousseau to modern authoritarians have praised for its supposed "equality" and martial discipline. The actual mechanics of Sparta's outcome-equality rested on two practices:
+* **Lycurgus's Sparta**, the counterpart to Solon's procedural Athens, has been praised by collectivists from Rousseau to modern authoritarians for its supposed "equality" and martial discipline. The actual mechanics of Sparta's outcome-equality rested on two practices:
 
     1. First, the "equality" of the Spartiate warrior caste (*Homoioi*) rested entirely on the enslavement of a massive subject population, the **Helots**, who outnumbered Spartans roughly seven to one and worked the land under threat of death. Every year, the Spartan magistrates formally declared war on their own helot laborers so that young Spartans in the secret police (***Krypteia***) could patrol the countryside at night and kill any helot who appeared too strong, intelligent, or industrious without incurring religious blood-guilt.
     2. Second, inside the Spartan state upbringing (*agoge*), how were Spartan boys trained? They were deliberately underfed and **commanded to steal food from farms and storehouses**, and if a boy was caught stealing, he was flogged severely, **not because stealing was wrong, but because he had been clumsy enough to be caught.** That practice corrupted the moral formation of the society: it taught from childhood that property and truth have no intrinsic status, and that only stealth, force, and state utility matter. Unsurprisingly, historical accounts repeatedly noted that whenever Spartan commanders went abroad away from domestic surveillance, they were notoriously susceptible to bribery; and when Thebes finally defeated the Spartan phalanx at the Battle of Leuctra in 371 BCE and liberated the Messenian helots, Sparta never recovered its former standing, and it left behind no notable work of science or philosophy.
 
 #### Fair Procedure and Unequal Outcomes Among Particular Humans
 
-Connect Principle 5 directly back to **Principle 2** (*Humans are self-interested, limited, and particular*).
-
-Because human beings are **particular**, differing in innate talent, physical stamina, conscientiousness, family preparation, and daily effort, what happens whenever one applies an **identical, scrupulously fair procedure** to a hundred particular individuals?
+Because human beings are **particular (Principle 2)**, differing in innate talent, physical stamina, conscientiousness, family preparation, and daily effort, what happens whenever one applies an **identical, scrupulously fair procedure** to a hundred particular individuals?
 
 **One obtains unequal outcomes in every instance.**
 
@@ -1360,7 +1313,7 @@ A procedure is useless unless human beings have the courage to render a **verdic
 
 In a decadent culture, one constantly hears the slogan *"Who am I to judge? We must never judge anyone's choices or way of life."*
 
-Test that slogan against reality:
+The slogan fails when tested against reality:
 
 * Can a carpenter build a house that stands in a gale if he refuses to **judge** between seasoned white oak and decayed, dry-rotted pine?
 * Can a young woman build a sound marriage and raise safe children if she refuses to **judge** between a suitor who is sober, truthful, and industrious and a suitor who is a violent, habitual liar?
@@ -1405,9 +1358,7 @@ Confusing two separate scopes of forgiveness ruins many lives, either trapping v
 
 ### 3. "Symmetry": The Blindfolded Scale, Boundary Conditions, and the Two Counterfeits
 
-The third word of Principle 5 is **symmetry**: **Justice is scoped procedural *symmetry*.**
-
-What does **symmetry** mean in geometry and engineering? It means that if you interchange the labels of two parties who occupy the **same position inside the same scope**, the procedure does not change at all.
+In geometry and engineering, **symmetry** means that if you interchange the labels of two parties who occupy the **same position inside the same scope**, the procedure does not change at all.
 
 * If a wealthy citizen breaches a written contract with a poor citizen, the court applies the established legal procedure.
 * If the poor citizen breaches the same written contract with the wealthy citizen, the court applies the **same established legal procedure**.
@@ -1431,16 +1382,16 @@ Because symmetry operates inside a procedure, two boundary conditions govern how
 
 #### Refuting the Two Counterfeits of Symmetry
 
-Whenever a civilization forgets that symmetry belongs to **procedure**, it falls into one of two destructive counterfeits: **Outcome Symmetry ("Equity")** or **Value Symmetry (Retaliatory Feuding)**. Both require direct analysis:
+Whenever a civilization forgets that symmetry belongs to **procedure**, it falls into one of two destructive counterfeits: **Outcome Symmetry ("Equity")** or **Value Symmetry (Retaliatory Feuding)**.
 
 #### Counterfeit 1: Outcome Symmetry ("Equity") and the Equalizer Class
 
 Modern ideological activists explicitly draw a contrast between *Equality* (which they define as equal procedural rules at the starting line) and ***Equity*** (which they define as **Outcome Symmetry**: guaranteeing that every person or group arrives at the same result regardless of performance).
 
-Ask three simple engineering questions about Outcome Symmetry:
+Three simple engineering questions expose Outcome Symmetry:
 
-1. **How can one force unequal inputs to produce equal outputs?** Only by **destroying procedural symmetry**, that is, by biasing the rules in reverse. If one group masters the examination and another does not, the scores differ. The way to make the scores match is to abolish the faster class. Culver City High School in California eliminated honors classes, including honors English, and the stated reason was academic equity (*Los Angeles Times* high-school report, 28 February 2023). A student who would do the work had been free to enter. A capable and willing student is often bored even when that class exists, because the room is still slower than he is. Remove it, and he spends the year at the pace of students who have not done the work. The outcomes move closer because his instruction was cut, not because the others rose. **Outcome Symmetry requires Procedural Asymmetry.** One cannot have both.
-2. **Where does Outcome Symmetry naturally converge?** Recall why Principle 3 must require that life be kept and built: building excellence requires exceptional skill and labor, whereas failure and death require no effort at all. One cannot enact a statute that confers upon every student in the world the mathematical genius of Isaac Newton or the surgical skill of the world's finest neurosurgeon. **One can never equalize human beings upward to the highest level of performance; one can only equalize them downward to the lowest common denominator.** Place a pilot who passed the flight examination and a pilot who failed the flight examination into an ice storm under a mandate of "equal outcomes": one cannot decree that both aircraft land safely; **one can guarantee equal outcomes only by causing the competent pilot's aircraft to crash alongside the incompetent one.**
+1. **How can one force unequal inputs to produce equal outputs?** Only by **destroying procedural symmetry**, that is, by biasing the rules in reverse. If one group masters the examination and another does not, the scores differ. The way to make the scores match is to abolish the faster class. Culver City High School in California eliminated honors classes, including honors English, and the stated reason was academic equity (*Los Angeles Times* high-school report, 28 February 2023). A student who would do the work had been free to enter. A capable and willing student is often bored even when that class exists, because the room is still slower than he is. Without it, he spends the year at the pace of students who have not done the work. The outcomes move closer because his instruction was cut, not because the others rose. **Outcome Symmetry requires Procedural Asymmetry.** One cannot have both.
+2. **Where does Outcome Symmetry naturally converge?** Life must be kept and built (Principle 3) because building excellence requires exceptional skill and labor, whereas failure and death require no effort at all. One cannot enact a statute that confers upon every student in the world the mathematical genius of Isaac Newton or the surgical skill of the world's finest neurosurgeon. **One can never equalize human beings upward to the highest level of performance; one can only equalize them downward to the lowest common denominator.** Place a pilot who passed the flight examination and a pilot who failed the flight examination into an ice storm under a mandate of "equal outcomes": one cannot decree that both aircraft land safely; **one can guarantee equal outcomes only by causing the competent pilot's aircraft to crash alongside the incompetent one.**
 3. **Who holds the scale in an "Equity" regime?** The consequence follows from the arrangement itself. If unequal results must be forced to the same result, the rule cannot stay as it was written. Someone must alter it, again and again, until the outcomes match. That person stands outside the symmetry he administers. The office is a permanent one for as long as the promise lasts: an **Equalizer**, whether he is called a commissar, an administrator, or a board. George Orwell stated the end of that office in *Animal Farm*: the equalizers become *"more equal than others."*
 
 #### Counterfeit 2: Value Symmetry (Retaliatory Feuding and Status Pricing)
@@ -1451,15 +1402,15 @@ Two historical forms of Value Symmetry illustrate its defects:
 
 * **The Unending Clan Feud Ledger:** In blood-feud societies (from medieval vendetta clans to highland feuds), Clan A accidentally kills a herdsman from Clan B. Clan B calculates that *their* dead man was worth two ordinary men of Clan A, so they ride over and kill two men of Clan A. Clan A, viewing its own sons through the natural partiality of inner-tier affection, regards the killing of two of its men as an unprovoked outrage worth four men of Clan B. **The feud ledger never closes**, because human beings are biased judges of their own injuries. Only when a third-party magistrate intervenes with a **scoped, uniform procedural law**, removing retaliatory force from private clan control, can the cycle of reprisal be terminated.
 * **Status-Graded Retaliation (*Lex Talionis* and *Diyya* Schedules) vs. Uniform Statutory Punishment:** In many ancient codes, including parts of the Code of Hammurabi and classical tribal or sectarian blood-money (*diyya*) schedules, the penalty for killing or injuring a person explicitly varied by the victim's caste, sex, or religion: under Hammurabi's laws, knocking out the tooth of a man of the offender's own rank cost the offender his own tooth, while knocking out the tooth of a commoner cost twenty shekels of silver (laws 200–201), and several classical schools of Islamic law set the blood-money for a non-Muslim at a fraction of that for a Muslim.
-* Contrast that status-pricing with **uniform statutory punishment** under procedural symmetry, even when that punishment is severe and physical. An example is **Singapore's judicial caning** for violent robbery, vandalism, or extortion: the statute is written in advance in plain language; it applies identically to a wealthy foreign banker's son and a local dockworker convicted of the same offense; it is administered under strict medical supervision; and the penalty is fixed by the offense, not by the rank of the offender or the victim. Robbery with hurt, for example, carries imprisonment of five to twenty years together with at least twelve strokes of the cane (Penal Code 1871, section 394). Severity is not injustice; **arbitrary asymmetry is injustice.**
+* Procedural symmetry replaces that status-pricing with **uniform statutory punishment**, even when that punishment is severe and physical. An example is **Singapore's judicial caning** for violent robbery, vandalism, or extortion: the statute is written in advance in plain language; it applies identically to a wealthy foreign banker's son and a local dockworker convicted of the same offense; it is administered under strict medical supervision; and the penalty is fixed by the offense, not by the rank of the offender or the victim. Robbery with hurt, for example, carries imprisonment of five to twenty years together with at least twelve strokes of the cane (Penal Code 1871, section 394). Severity is not injustice; **arbitrary asymmetry is injustice.**
 
 ---
 
 ### 4. Human Rights Under the Five Principles: Scoped Constitutional Liberties Versus Modern "Human Rights" Ideology
 
-Now that we understand all three words of Principle 5 (**scoped**, **procedural**, **symmetry**), we can resolve the confusion surrounding one of the most frequently misused phrases of the modern age: **"Human Rights."**
+The three words of justice (Principle 5), **scoped**, **procedural**, and **symmetry**, resolve the confusion surrounding one of the most frequently misused phrases of the modern age: **"Human Rights."**
 
-The term "rights" sometimes denotes the foundational liberties of a free, high-trust republic, and at other times operates as an ideological instrument that paralyzes law enforcement, exhausts public treasuries, and dissolves national borders, because two distinct concepts are concealed within the same term: **Classical Constitutional Rights** (which conform to Principle 5) and **Modern Universal "Human Rights" Ideology** (which systematically violates Principles 1, 3, 4, and 5). Let us distinguish them clearly:
+The term "rights" sometimes denotes the foundational liberties of a free, high-trust republic, and at other times operates as an ideological instrument that paralyzes law enforcement, exhausts public treasuries, and dissolves national borders, because two distinct concepts are concealed within the same term: **Classical Constitutional Rights** (which conform to Principle 5) and **Modern Universal "Human Rights" Ideology** (which systematically violates Principles 1, 3, 4, and 5).
 
 #### 1. What Classical Constitutional Rights Actually Are: Scoped, Negative Procedural Symmetries
 
@@ -1474,17 +1425,17 @@ When the English Bill of Rights (1689), the American Declaration of Independence
 
 #### 2. The Five Structural Flaws of Modern "Human Rights" Ideology
 
-Contrast that classical constitutional structure with the post-1945 **Universal "Human Rights" Ideology** promoted by United Nations committees, transnational non-governmental organizations, and activist courts. When tested against the Five Principles of Reality, modern human-rights ideology fails on five critical counts:
+The post-1945 **Universal "Human Rights" Ideology** promoted by United Nations committees, transnational non-governmental organizations, and activist courts departs from that classical constitutional structure. When tested against the Five Principles of Reality, modern human-rights ideology fails on five critical counts:
 
 1. **Unscoped Universalism (Violating Principle 4 and Principle 5):**
 
-    A functional right cannot exist in a vacuum; it operates in reality **only inside a defined jurisdiction (*scope*) where citizens bear the cost of enforcing it.** Modern human-rights ideology erases the word *scoped*. It declares that any of the eight billion human beings in the world, simply by existing biologically, possesses an immediate "human right" to cross your national border uninvited, enter the **Winter Storehouse** (Section 1 above) that your parents and grandparents stocked, and demand housing, schooling, medical care, legal representation, and political power on the same terms as the citizens who built the storehouse. That is a direct violation of **Principle 4 (Tiered Obligation)** and **Principle 5 (Scope)**: an unscoped claim for eight billion strangers is a prescription for insolvency and dissolution for the host nation.
+    A functional right cannot exist in a vacuum; it operates in reality **only inside a defined jurisdiction (*scope*) where citizens bear the cost of enforcing it.** Modern human-rights ideology erases the word *scoped*. It declares that any of the eight billion human beings in the world, simply by existing biologically, possesses an immediate "human right" to cross your national border uninvited, enter the **Winter Storehouse** (Section 1 above) that your parents and grandparents stocked, and demand housing, schooling, medical care, legal representation, and political power on the same terms as the citizens who built the storehouse. It ignores that obligation is **tiered (Principle 4)** and that justice is **scoped (Principle 5)**: an unscoped claim for eight billion strangers is a prescription for insolvency and dissolution for the host nation.
 
 2. **Confusing Negative Procedural Symmetry With Positive Claims on Builders' Labor (Violating Principle 3 and Virtue 2):**
 
     The expanding catalog of modern United Nations "human rights" includes the "human right" to food, housing, medical care, and social security (Universal Declaration of Human Rights, articles 22 and 25), to "periodic holidays with pay" (article 24), and to higher education made free by "progressive introduction" (International Covenant on Economic, Social and Cultural Rights, article 13). A 2016 Human Rights Council resolution adds a call on every state to pursue universal access to the internet.
 
-    Ask the operational question from **Principle 3 (*Goodness must include human life continuing, and that life kept and built*)**: **Where do houses, grain, antibiotics, and fiber-optic cables come from?**
+    Goodness must include life **kept and built (Principle 3)**, and that raises an operational question: **where do houses, grain, antibiotics, and fiber-optic cables come from?**
 
     They do not come into existence spontaneously when a diplomat in Geneva signs a document. Every house must be framed by a carpenter's labor; every loaf of bread must be harvested by a farmer; every surgical operation must be performed by a trained surgeon.
 
@@ -1492,7 +1443,7 @@ Contrast that classical constitutional structure with the post-1945 **Universal 
 
 3. **Rights Divorced From Responsibilities and Upkeep (Violating Virtue 2):**
 
-    Recall the statement of **Virtue 2 (*Take ownership, which is responsibility*)**: civilization ***"cannot accept blaming others for one's own failures, demanding rights and privileges without carrying the corresponding upkeep."***
+    **Taking ownership, which is responsibility (Virtue 2)**, means that civilization ***"cannot accept blaming others for one's own failures, demanding rights and privileges without carrying the corresponding upkeep."***
 
     Modern human-rights rhetoric trains millions of people to use only a vocabulary of **grievance and demand** (*"What are my rights? What am I owed?"*), while treating the mention of duties, law-abiding conduct, sobriety, family support, and civic upkeep as an "oppressive burden." A bridge where everyone claims the right to drive thirty-ton trucks across the span while nobody accepts the duty to bolt the girders or paint the steel collapses into the river.
 
@@ -1516,11 +1467,11 @@ Closely tied to the illusion of unscoped "human rights" is a second misconceptio
 
 Whenever a foreign dictator invades a neighbor, seizes shipping lanes, or builds covert nuclear weapons, commentators on television solemnly announce: *"That action is a violation of International Law. The international community must refer this to the International Court,"* speaking as though the globe were a single municipality possessing a courthouse, a magistrate, and a police force ready to arrest the invader.
 
-Let us state the operational truth about the international arena plainly:
+The operational truth about the international arena is plain:
 
 > **Between sovereign nations, the scope of procedural symmetry runs out. There is no such thing as "international law" in the strong sense in which domestic law is law.**
 
-The reason follows from the mechanics of **Principle 5 (*Justice is scoped procedural symmetry*)** and **Principle 4 (*Enemies are real*)**:
+The reason is that **justice is scoped procedural symmetry (Principle 5)** and **enemies are real (Principle 4)**:
 
 1. **Why Domestic Law Is Real Law (Inside the Polity Scope):**
 
@@ -1607,8 +1558,8 @@ If one frames having children merely as a joyless civic burden (*"Endure eightee
 
 Normal men and women across ten thousand years have desired children, labored for them, and regarded their children and grandchildren as the fulfillment of their lives because **humans are biological, relational creatures constituted to transmit life**, and a household full of children (demanding, exhausting, and costly as it may be on any given evening) is one of the deepest sources of satisfaction, meaning, and enduring affection available to a mortal human being.
 
-* Recall **The Family Creek-Bridge** in Chapter 8: the father and mother who spent six months clearing brush and bolting locust timbers over the creek did not experience those Saturdays as a penal sentence; building a world for their eight-year-old son gave their own strength and skill a clear, daily purpose.
-* Compare an eighty-year-old grandfather and grandmother sitting at the head of a holiday table surrounded by four adult children and twelve grandchildren and great-grandchildren with an eighty-year-old sitting alone in a silent apartment with a television set and a stack of travel photographs from forty years ago.
+* In **The Family Creek-Bridge** of Chapter 8, the father and mother who spent six months clearing brush and bolting locust timbers over the creek did not experience those Saturdays as a penal sentence; building a world for their eight-year-old son gave their own strength and skill a clear, daily purpose.
+* At eighty, one grandfather and grandmother sit at the head of a holiday table surrounded by four adult children and twelve grandchildren and great-grandchildren; another eighty-year-old sits alone in a silent apartment with a television set and a stack of travel photographs from forty years ago.
 
 Therefore, **Virtue 6 aims at *full life***: forming stable marriages between men and women, welcoming children into the world as a benefit rather than an inconvenience, and maintaining a culture and household economy in which young couples can marry in their twenties and afford a home and a family without first spending fifteen years paying off inflated credential requirements.
 
@@ -1630,7 +1581,7 @@ The record does not settle every case. Some people are unable to bear children, 
 
 #### Direct Authority and Progressive Autonomy: The Twenty-Year Progression of Raising a Child
 
-How do parents actually form a child from a helpless newborn into a capable adult who can carry civilization forward? Through the developmental progression of **Direct Authority Followed by Progressive Autonomy**:
+Parents form a helpless newborn into a capable adult who can carry civilization forward in stages:
 
 * **Years 0 to 7 (Direct Protection and Authority):** The infant and young child has no capacity to judge highway traffic, nutrition, or moral truth on his own. Here, the parents keep the child within a predictable, authoritative household perimeter, feeding, protecting, teaching speech, establishing basic obedience, and demonstrating that the environment within his home is safe, truthful, and affectionate.
 * **Years 7 to 14 (Guided Apprenticeship and Earned Responsibility):** As the child's reason and physical coordination develop, the parents do not treat him as an infant. They assign regular household duties (sweeping the porch, feeding the dog, assisting with meals, managing a small allowance), instruct him in academic and practical skills, allow him to compete and experience genuine failure, and teach him to take ownership of his mistakes rather than offering excuses.
@@ -1645,7 +1596,7 @@ Two opposite parental failures disrupt this twenty-year progression:
 
 ### 2. Virtue 7: Form and Listen
 
-We require **Virtue 7 (Form and listen)** alongside **Virtue 6 (Have children)** because **biological birth alone does not transmit civilization**, and because the young do not come to hold a method unless elders form them and they listen.
+**Having children (Virtue 6)** must be joined by **forming and listening (Virtue 7)** because **biological birth alone does not transmit civilization**, and because the young do not come to hold a method unless elders form them and they listen.
 
 Elders form those younger than themselves. The duty is broad. It includes kin. It also includes politicians and other leaders, who train the people younger than themselves.
 
@@ -1669,7 +1620,7 @@ Burke's observation applies directly to every individual life:
 
 #### How Every Adult, Including the Unmarried and Childless, Fulfills Virtue 7
 
-Here is an essential practical truth: **Even if a specific individual is unmarried, infertile, or unable to have biological children of his own, he is never exempt from, or excluded from, Virtue 7.**
+**Even if a specific individual is unmarried, infertile, or unable to have biological children of his own, he is never exempt from, or excluded from, Virtue 7.**
 
 While biological parenthood (Virtue 6) is the primary means of biological continuation, **Form and listen (Virtue 7) binds every adult in the polity** and gives unmarried, widowed, or childless men and women a vital, honorable place in forming the younger and in handing the civilization on:
 
@@ -1678,7 +1629,7 @@ While biological parenthood (Virtue 6) is the primary means of biological contin
 * A dedicated schoolteacher, master machinist, coach, scientist, or pastor who spends forty years imparting accurate knowledge, craft excellence, and moral character to hundreds of young apprentices and students;
 * A soldier, firefighter, engineer, or magistrate who defends the borders and upholds the laws so that every family's children have a stable country in which to mature.
 
-A historical example is George Washington, who had no biological children of his own, yet raised Martha's children and grandchildren, spent his life establishing and defending a constitutional republic for hundreds of millions of future citizens, and voluntarily relinquished power twice so that the republic would not become a monarchy. That is the elder's side of **Virtue 7 (Form and listen)** practiced on a national scale. He formed those younger than himself, and he did not discard the inheritance in order to make himself king.
+A historical example is George Washington, who had no biological children of his own, yet raised Martha's children and grandchildren, spent his life establishing and defending a constitutional republic for hundreds of millions of future citizens, and voluntarily relinquished power twice so that the republic would not become a monarchy. That is the elder's side of **forming and listening (Virtue 7)**, practiced on a national scale. He formed those younger than himself, and he did not discard the inheritance in order to make himself king.
 
 #### Refusing Generational Theft: The Example of the Seed Granary
 
@@ -1721,9 +1672,9 @@ Analyzing each of these failure modes enables a society to identify them in thei
 
 ### 1. Protective Reserves Versus the Demand for Exemption from Risk
 
-Let us begin by stating a fundamental truth clearly: **Protective reserves are beneficial. Civilization is intended to build protective reserves.**
+**Protective reserves are beneficial. Civilization is intended to build protective reserves.**
 
-No one who understands Principle 3 (*human life continuing, and that life kept and built*) desires a state of unmitigated natural hazard where every broken ankle is a death sentence and every crop blight starves half the county. A primary reason human beings build families, communities, insurance pools, and nations is to absorb sudden, catastrophic shocks so that a productive citizen who suffers a severe reversal can recover his footing and return to keeping and building life.
+No one who holds that goodness must include *human life continuing, and that life kept and built* (Principle 3) desires a state of unmitigated natural hazard where every broken ankle is a death sentence and every crop blight starves half the county. A primary reason human beings build families, communities, insurance pools, and nations is to absorb sudden, catastrophic shocks so that a productive citizen who suffers a severe reversal can recover his footing and return to keeping and building life.
 
 Four examples illustrate **sound civilizational reserves**:
 
@@ -1755,7 +1706,7 @@ The corrupted reserve degrades both **material welfare** and **human agency (wil
 
 #### Rejecting the Callous Reactionary Error: Four Design Criteria for Protective Reserves
 
-An opposite error must also be avoided. When citizens finally see that a welfare program or regulatory bureaucracy has been corrupted into permanent dependency, a callous reactionary sometimes declares: *"All assistance makes people idle. Demolish the plank bridge, close the charity pantry, and let anyone who falls perish."*
+When citizens finally see that a welfare program or regulatory bureaucracy has been corrupted into permanent dependency, a callous reactionary sometimes declares: *"All assistance makes people idle. Demolish the plank bridge, close the charity pantry, and let anyone who falls perish."*
 
 **That reactionary response is as erroneous as the entitlement state.** Demolishing the plank bridge drowns industrious workers in the spring flood. The engineering solution is not to abolish protective reserves, but to design and maintain them according to **Four Strict Engineering Criteria**:
 
@@ -1818,10 +1769,10 @@ The operational principle in that storehouse applies across society: **When a so
 
 #### How to Answer the Misuse of Compassion Without Apology
 
-When someone attempts to coerce you through emotional appeals into violating truth, keeping and building, tiered duty, or procedural symmetry in the name of "compassion," never yield or apologize. Answer with calm, analytical clarity:
+When someone uses emotional appeals to press for violating truth, keeping and building, tiered duty, or procedural symmetry in the name of "compassion," the answer is calm and analytical:
 
 1. **Ask "Compassionate to Whom, in What Tier, and at Whose Expense?"** *"You call it 'compassionate' to release a twenty-time violent offender onto the subway without bail. Is that compassionate to the sixty-year-old nurse riding home from her night shift in the next car? Why is your empathy reserved exclusively for the offender and absent for his innocent victims?"*
-2. **Ask "What Happens in Year Ten if Everyone Does This?"** Trace the consequences over time. A policy that sounds benevolent in a brief slogan but leaves the storehouse empty and the street ruined in ten years is not compassion; it is delayed-action cruelty.
+2. **Ask "What Happens in Year Ten if Everyone Does This?"** A policy that sounds benevolent in a brief slogan but leaves the storehouse empty and the street ruined in ten years is not compassion; it is delayed-action cruelty.
 3. **Hold the Hierarchy of Principles Firm:** Compassion is a valuable disposition within the bounds of reality, **but compassion may not corrupt the magistrate, suppress the evidence, or leave the perimeter unguarded.**
 
 ---
@@ -1858,15 +1809,13 @@ In every society, there is a small number of people who **genuinely cannot** sup
 A clear instance is the postmodern professor who flies at thirty-five thousand feet in a commercial jetliner, takes antibiotics when he contracts an infection, drinks purified municipal water, and collects a salary paid by industrial taxpayers, while spending his afternoon lecture teaching twenty-year-olds that objective scientific truth, merit, engineering standards, and property rights are "oppressive Western constructs" that must be dismantled.
 
 * Another instance is an extremist movement that imports satellite telephones, modern rifles, antibiotics, and electrical generators designed by empirical scientific societies while enforcing a regime of religious or ideological dogma that forbids free scientific inquiry at home.
-* Both are **technological parasites**: they consume the technical achievements of Principle 1 (correspondence truth) and Virtue 3 (excellence) while actively undermining the intellectual and institutional foundation that produces those capabilities.
+* Both are **technological parasites**: they consume the technical achievements of correspondence truth (Principle 1) and of seeking excellence (Virtue 3) while actively undermining the intellectual and institutional foundation that produces those capabilities.
 
 ---
 
 ### 4. Fatalism as a Justification for Inaction (And Why Assigned Action Is the Remedy)
 
-Finally, an internal failure tempts even those who recognize the truth about reality: **Fatalism**.
-
-What is **fatalism** in civic life? It is the posture of surveying the real problems of one's society or the world and declaring: *"Everything is already lost. The culture is too corrupt, the institutions are too captured, and the demographics, the environment, or the public debt are beyond recovery; therefore, there is no point in marrying, no point in having children, no point in mastering a difficult trade, and no point in maintaining my neighborhood or serving on a local board."*
+Finally, an internal failure tempts even those who recognize the truth about reality: **fatalism**, the posture of surveying the real problems of one's society or the world and declaring: *"Everything is already lost. The culture is too corrupt, the institutions are too captured, and the demographics, the environment, or the public debt are beyond recovery; therefore, there is no point in marrying, no point in having children, no point in mastering a difficult trade, and no point in maintaining my neighborhood or serving on a local board."*
 
 There is a telling similarity between **Left-Wing Fatalism** (*"The climate is ruined and industrial society has doomed the future, so do not have children or build anything"*) and **Right-Wing Fatalism** (*"Western civilization has fallen and the courts and schools are beyond repair, so withdraw from civic life, consume news passively, and await the collapse"*):
 
@@ -1878,7 +1827,7 @@ That conclusion is notably convenient for the speaker. The fatalist flatters him
 
 **Civic fatalism is rarely an objective forecast of the future; it is a self-serving excuse for personal abdication in the present.**
 
-Test the fatalist's claim against historical reality (Principle 1):
+Historical reality (Principle 1) refutes the fatalist's claim:
 
 * Suppose a Christian Roman father living in North Africa or Gaul in **430 CE**, watching Vandals and Visigoths cross the imperial frontier, had said, *"The Western Empire is falling, so there is no point in raising children, copying manuscripts, keeping our farm tools sharp, or teaching the next generation."* If everyone had obeyed the fatalist of 430 CE, European civilization would have vanished from the earth. Instead, ordinary fathers, mothers, craftsmen, and monastic copyists continued building, teaching, farming, and preserving manuscripts within their own scopes, and out of their labor grew the medieval towns, universities, cathedrals, and scientific revolution.
 * Suppose the citizens of **London in September 1940** or **Singapore in August 1965** had heeded the fatalists who argued on paper that their situation was hopeless. They did not. London kept its fire watches, factories, and railways working through the Blitz, and Singapore built in one generation what the prevailing theories of the 1960s said it could not (Chapter 13).
@@ -1912,7 +1861,7 @@ When an institution, such as a manufacturing company, a railroad, a hospital sys
 
 **Managerialism** is the disorder that occurs when **the administrative apparatus detaches itself from physical reality, captures command over the engineers and frontline builders, and turns the institution's purpose inward: away from building things that work in reality, and toward the self-perpetuation, status, ideological conformity, and risk-insulation of the managers themselves.**
 
-Compare **The Engineering Mode** and **The Managerial Mode** side by side across all Five Common Principles and Seven Virtues:
+**The Engineering Mode** and **The Managerial Mode** differ across all Five Common Principles and Seven Virtues:
 
 | Dimension | **The Engineering Mode (Civilizational Builder)** | **The Managerial Mode (Bureaucratic Decay)** |
 | :--- | :--- | :--- |
@@ -1926,7 +1875,7 @@ Compare **The Engineering Mode** and **The Managerial Mode** side by side across
 
 #### Managerialism vs. Engineering in Practice: From the Launchpad to the Hospital
 
-Three familiar domains illustrate how destructive the shift from Engineering to Managerialism is in the physical world:
+In three familiar domains, the shift from Engineering to Managerialism has had physical consequences:
 
 1. **In Aerospace and Industrial Safety (The *Challenger* O-Ring Lesson):** On the night of January 27, 1986, the frontline rocket engineers at Morton Thiokol, led by Roger Boisjoly and Allan McDonald, reviewed the physical data showing that rubber O-ring seals in the solid rocket boosters stiffened and failed to seal at freezing temperatures (twenty-nine degrees Fahrenheit forecast at Cape Canaveral). They urged management not to launch. Instead of halting the flight, because NASA and corporate managers were under schedule and public-relations pressure, a senior executive told a fellow manager to **"take off your engineering hat and put on your management hat,"** overruling the engineers' physical data by administrative vote. Seventy-three seconds after liftoff the next morning, physical reality enforced its laws and killed all seven astronauts.
 2. **In Medicine and Education:** Fifty years ago, a community hospital was directed by chief surgeons and head nurses (**Engineers of health**), and a school was directed by a headmaster who taught mathematics and Latin (**Engineers of formation**). Today, in hospital and university systems across the West, administrative and compliance staff have grown faster than the frontline physicians and teaching faculty they exist to support. The surgeon spends half his day completing administrative and billing forms designed by personnel who have never held a scalpel, while the teacher attends mandatory ideological training sessions while more than a third of American fourth-grade pupils read below the basic level (National Assessment of Educational Progress, 2022).
@@ -1945,7 +1894,7 @@ This framework provides an objective standard for evaluating history, philosophy
 
 Without an explicit set of foundational principles, people frequently evaluate philosophies and political movements by **factional label** or **rhetorical tone**: *"Does this writer employ persuasive language? Does he oppose the same adversaries I oppose? Does his treatise invoke familiar terms such as justice or tradition?"* Through such superficial criteria, large numbers of well-intentioned citizens are induced to adopt defective ideological systems, ranging from utopian Marxism on the political left to neo-feudal warlordism and Eurasianist collectivism on the political right.
 
-Under **Principle 5 (Scoped Procedural Symmetry)** and **Principle 1 (Truth is what corresponds to reality)**, we must apply the **same inspection checklist** to every philosopher, every religious framework, and every political movement, whether friendly or hostile, ancient or modern, Eastern or Western. We do not judge a doctrine by its outward title; we test its foundational premises directly and ask:
+**Scoped procedural symmetry (Principle 5)** and **truth as correspondence to reality (Principle 1)** require the **same inspection checklist** for every philosopher, every religious framework, and every political movement, whether friendly or hostile, ancient or modern, Eastern or Western. We do not judge a doctrine by its outward title; we test its foundational premises directly and ask:
 
 1. Does this system affirm that reality is real, knowable, and consequential, and that truth is correspondence to reality (**Principle 1**)?
 2. Does it take human beings as they actually are: self-interested, limited, and particular (**Principle 2**)?
@@ -1975,43 +1924,43 @@ The architects of classical Anglo-American constitutionalism combined Scottish R
 
 #### C. Burkean Conservatism (Edmund Burke, Russell Kirk)
 
-As we saw in Chapter 10, **Edmund Burke** (and twentieth-century successors such as **Russell Kirk**) articulated the core truths of **Principle 2** (humility before human cognitive limits), **Principle 3** (how difficult it is to build an institution and how easy to destroy it), **Principle 4** (that attachment to country begins in what Burke called the *"little platoons"* of family and neighborhood), and **Virtue 7 (Form and listen)**: elders form those younger than themselves, and the younger listen and test, inside the partnership of the dead, the living, and the unborn.
+As we saw in Chapter 10, **Edmund Burke** (and twentieth-century successors such as **Russell Kirk**) articulated the core truths of humility before the limits of human knowledge (**Principle 2**), of how hard an institution is to build and how easy to destroy (**Principle 3**), of attachment to country that begins in what Burke called the *"little platoons"* of family and neighborhood (**Principle 4**), and of **forming and listening (Virtue 7)**: elders form those younger than themselves, and the younger listen and test, inside the partnership of the dead, the living, and the unborn.
 
-* **The Necessary Engineering Pairing:** Burkean respect for inherited custom must always remain anchored to **Principle 1** (objective correspondence truth) and **Principle 3** (building as well as keeping). If "tradition" is detached from empirical verification, a society risks preserving defective customs rather than repairing and advancing its methods.
+* **The Necessary Engineering Pairing:** Burkean respect for inherited custom must always remain anchored to **objective correspondence truth (Principle 1)** and to **building as well as keeping (Principle 3)**. If "tradition" is detached from empirical verification, a society risks preserving defective customs rather than repairing and advancing its methods.
 
 #### D. Classical Stoicism (Hierocles, Epictetus, Marcus Aurelius)
 
-* **Where Stoicism aligns:** The Roman Stoics excelled at **Tier 1 self-command and Virtue 2 (Ownership)**. **Epictetus**, born a lame slave in Hierapolis, taught with great clarity the distinction between what is within our control (our own judgments, integrity, and actions) and what is not within our control, forbidding the evasion of responsibility through external blame. **Hierocles** mapped the concentric circles of tiered obligation (**Principle 4**), and the Emperor **Marcus Aurelius** (*Meditations*) exemplified tireless outward civic and military duty on the Danubian frontier when he would have preferred the quiet study of philosophy at home.
+* **Where Stoicism aligns:** The Roman Stoics excelled at **self-command (Tier 1) and taking ownership (Virtue 2)**. **Epictetus**, born a lame slave in Hierapolis, taught with great clarity the distinction between what is within our control (our own judgments, integrity, and actions) and what is not within our control, forbidding the evasion of responsibility through external blame. **Hierocles** mapped the concentric circles of tiered obligation (**Principle 4**), and the Emperor **Marcus Aurelius** (*Meditations*) exemplified tireless outward civic and military duty on the Danubian frontier when he would have preferred the quiet study of philosophy at home.
 * **Where Stoicism requires Principle 3:** When Stoic detachment (*apatheia*) is carried to the extreme of fatalistic resignation, treating the external material world as wholly indifferent, it can weaken the drive to **build** new technology and improve physical conditions for future generations. Stoic self-command is a valuable discipline of personal agency, provided **Principle 3** supplies the constructive purpose.
 
 #### E. Confucianism (Confucius / Kongzi, Mencius)
 
-* **Where Confucianism aligns:** Across more than two millennia in East Asia, Confucianism proved extraordinarily durable at reinforcing **Tier 2 and Tier 3 family stability**, filial listening across generations (**Virtue 7, Form and listen**), disciplined study (**Virtue 3**), and polite social order.
-* **Where Confucianism is vulnerable:** As we saw in the Duke of She's sheep-stealing case (*Analects* 13.18), when family and clan loyalty is not bounded by an independent **Principle 5 (Scoped Procedural Symmetry)** in the public square, a society tends toward nepotism and *guanxi* (patronage networks). Furthermore, when classical mandarinate education prioritized memorizing literary classics and ritual form over empirical craftsmanship and experimental science, it allowed a sophisticated civilization to stagnate technologically until confronted by Western industrial power in the nineteenth century.
+* **Where Confucianism aligns:** Across more than two millennia in East Asia, Confucianism proved extraordinarily durable at reinforcing **Tier 2 and Tier 3 family stability**, filial listening across generations (**Virtue 7**), disciplined study (**Virtue 3**), and polite social order.
+* **Where Confucianism is vulnerable:** As we saw in the Duke of She's sheep-stealing case (*Analects* 13.18), when family and clan loyalty is not bounded in the public square by an independent **scoped procedural symmetry (Principle 5)**, a society tends toward nepotism and *guanxi* (patronage networks). Furthermore, when classical mandarinate education prioritized memorizing literary classics and ritual form over empirical craftsmanship and experimental science, it allowed a sophisticated civilization to stagnate technologically until confronted by Western industrial power in the nineteenth century.
 
 #### F. Immanuel Kant and David Hume: The Separation of Speculative Philosophy from Practical Reality
 
 Two of the most influential figures of eighteenth-century academic philosophy were **David Hume** in Scotland and **Immanuel Kant** in Prussia:
 
 * **David Hume** was a penetrating historian and economist outside his study, understanding property, contract, and the danger of political fanaticism; yet inside his philosophical treatise, his premise that we perceive only disconnected mental impressions led him to claim that we possess no rational justification for believing in cause and effect or the permanence of external objects. He severed speculative philosophy from common-sense reality (**Principle 1**).
-* **Immanuel Kant**, prompted by Hume, sought to rescue science and morality by placing external reality beyond human knowledge (*das Ding an sich*, the "thing-in-itself" which Kant claimed we can never know) and relocating order entirely within the structure of the human mind. In ethics, Kant's **Categorical Imperative** (*"Act only according to that maxim whereby you can at the same time will that it should become a universal law"*) captures a valid procedural test ("What if everyone acted on this rule?"). **Kant's formulation fails where it detaches procedure from reality:** because Kant severed moral duty from **Principle 3** (keeping and building real human life) and **Principle 4** (tiered scope, recognizing that enemies are real), he famously argued in his 1797 essay *On a Supposed Right to Lie Because of Philanthropic Concerns* that if a murderer knocks at your door asking whether the friend he is pursuing has taken refuge in your house, you have a categorical duty not to lie to him, even if the truth lets him find and murder your friend.
+* **Immanuel Kant**, prompted by Hume, sought to rescue science and morality by placing external reality beyond human knowledge (*das Ding an sich*, the "thing-in-itself" which Kant claimed we can never know) and relocating order entirely within the structure of the human mind. In ethics, Kant's **Categorical Imperative** (*"Act only according to that maxim whereby you can at the same time will that it should become a universal law"*) captures a valid procedural test ("What if everyone acted on this rule?"). **Kant's formulation fails where it detaches procedure from reality:** because Kant severed moral duty from **keeping and building real human life (Principle 3)** and from **tiered obligation and the reality of enemies (Principle 4)**, he famously argued in his 1797 essay *On a Supposed Right to Lie Because of Philanthropic Concerns* that if a murderer knocks at your door asking whether the friend he is pursuing has taken refuge in your house, you have a categorical duty not to lie to him, even if the truth lets him find and murder your friend.
 * Under the Five Principles, Kant's answer to the murderer at the door is a failure of **scope** (**Principle 4 and Principle 5**): a murderer with a weapon in his hand has stepped outside the scope of peaceful civic procedure and made himself an active **enemy**. One owes truth to reality and to peaceful procedural courts; one does not owe assistance to an armed murderer.
 
 #### G. The Modern Collectivist and Anti-Realist Line (Rousseau, Hegel, Marx, Rawls, Foucault, Derrida)
 
 Tracing the development of modern collectivist and anti-realist philosophy across two centuries shows how each theorist systematically repudiates one or more of the Five Principles:
 
-* **Jean-Jacques Rousseau** (1712–1778): Denied **Principle 2** (claiming humans are naturally good and corrupted only by property and civilization), attacked **Principle 3** (calling the first man who fenced a plot of ground to establish a farm an impostor), and opposed **Principle 4's** mediating tiers (family, church, local guild), demanding in *The Social Contract* that every citizen surrender himself unconditionally to the unitary state's **"General Will"** and be *"forced to be free."* Robespierre and the Jacobins invoked Rousseau's General Will to justify the Terror of 1793–1794.
-* **G. W. F. Hegel** (1770–1831): Replaced **Principle 1** (fixed correspondence truth) with a "dialectical" history in which truth unfolds by historical epoch, and set the state above the household and civil society as "the actuality of the ethical Idea" (*Elements of the Philosophy of Right*, 1820, section 257), against **Principle 4**. Hegel himself defended private property and the family; what his successors took from him was the historicized truth and the exalted state.
+* **Jean-Jacques Rousseau** (1712–1778): Denied that virtue must be cultivated in human beings (**Principle 2**), claiming they are naturally good and corrupted only by property and civilization; attacked **keeping and building (Principle 3)** by calling the first man who fenced a plot of ground to establish a farm an impostor; and opposed the mediating tiers of family, church, and local guild (**Principle 4**), demanding in *The Social Contract* that every citizen surrender himself unconditionally to the unitary state's **"General Will"** and be *"forced to be free."* Robespierre and the Jacobins invoked Rousseau's General Will to justify the Terror of 1793–1794.
+* **G. W. F. Hegel** (1770–1831): Replaced **fixed correspondence truth (Principle 1)** with a "dialectical" history in which truth unfolds by historical epoch, and set the state above the household and civil society as "the actuality of the ethical Idea" (*Elements of the Philosophy of Right*, 1820, section 257), against **Principle 4**. Hegel himself defended private property and the family; what his successors took from him was the historicized truth and the exalted state.
 * **Karl Marx** (1818–1883): Carried Hegel's dialectic into a history in which truth and morality change by class identity (**Principle 1**); denied **Principle 2** by promising that abolishing private property would remake human nature into the selfless type that later regimes called the "New Socialist Man"; and destroyed **Principle 5** by replacing symmetrical law with class liquidation. In every instance where Marx's program was implemented in practice, including in Russia, China, Cambodia, Ethiopia, North Korea, and Cuba, it produced the same outcome of tyranny and famine.
-* **John Rawls** (1921–2002): As we saw in Chapter 4 and Chapter 8, Rawls's *A Theory of Justice* (1971) used the "Veil of Ignorance" to strip away human particularity (**Principle 2**) and treat the intergenerational work of parents for their children (**Principle 4** and **Virtue 7, Form and listen**) as an arbitrary "Lottery of Birth" to be equalized away by the state (**violating Principle 5**).
+* **John Rawls** (1921–2002): As we saw in Chapter 4 and Chapter 8, Rawls's *A Theory of Justice* (1971) used the "Veil of Ignorance" to strip away human particularity (**Principle 2**) and treat the intergenerational work of parents for their children (**Principle 4** and **Virtue 7**) as an arbitrary "Lottery of Birth" to be equalized away by the state (**violating Principle 5**).
 * **Michel Foucault** (1926–1984) and **Jacques Derrida** (1930–2004): Completed the repudiation of classical realism by attacking **Principle 1** directly, teaching generations of university students that language never refers to objective reality (*"there is nothing outside the text"*) and that truth, reason, science, and law are merely instruments of power (*"regimes of truth"*).
 
 ---
 
 ### 2. Specific Religions and Theological Systems Graded by the Five Principles
 
-Religion is one of the deepest forces in human history because it binds together a cosmology (what reality is), an anthropology (what humans are), a moral code (how to live), and an intergenerational community. Let us evaluate specific religious traditions and theological systems with strict impartiality.
+Religion is one of the deepest forces in human history because it binds together a cosmology (what reality is), an anthropology (what humans are), a moral code (how to live), and an intergenerational community.
 
 #### A. Two-Books Christianity and the Teachings of Jesus (Versus Scripturalism and Progressive Inversion)
 
@@ -2045,55 +1994,53 @@ Even more specifically, the **teachings of Jesus of Nazareth** in the Gospels ar
 
     Properly scoped, Jesus is teaching **personal self-command and refusal to escalate personal insults into private blood feuds**. He is *never* commanding a father to stand idle while a murderer kills his children, nor commanding a magistrate or soldier to disband the civil police and armed forces. That is why the New Testament explicitly affirms the **tiered duty to provide for and protect one's own family** (*"if someone does not provide for his own, especially his own family, he has denied the faith and is worse than an unbeliever,"* 1 Timothy 5:8, **Principle 4**) and the **magistrate's duty to wield lethal force against criminals and enemies** (*"it is God's servant for your well-being... government does not bear the sword for nothing. It is God's servant to administer punishment on the person who does wrong,"* Romans 13:4, **Principles 4 and 5**).
 
-Contrast this classical Two-Books and properly scoped Christian heritage with **two Christian failure modes**:
+**Two Christian failure modes** depart from this classical Two-Books and properly scoped Christian heritage:
 
 * **Failure Mode 1: Scripturalism (Clark / Crampton).** As we examined in depth in Chapter 3, extreme Scripturalism denies the Book of Nature and correspondence truth (**Principle 1**), claiming that empirical observation can never discover truth and confining inquiry within an unfalsifiable textual system.
 * **Failure Mode 2: Progressive Church Inversion.** Across the twentieth and twenty-first centuries, many historic mainline denominations retained their historic stone buildings, stained-glass windows, clerical vestments, and traditional vocabulary on the signboard outside, while completely hollowing out and inverting the internal premises inside. They replaced correspondence truth (**Principle 1**) with therapeutic sentiment, replaced keeping and building family life (**Principle 3** and **Virtue 6**) with ideological activism, erased the distinction between inner-tier duty and borderless universalism (**Principle 4**), and replaced symmetrical judgment and repentance (**Principle 5**) with unconditional permissiveness. The result, predictably, has been institutional decline within two generations.
 
 #### B. Islam: Distinguishing Persons and the *Falsafa* Heritage From the Classical Political-Theological System
 
-When evaluating Islam under the Five Principles, **Principle 1 (Truth)** and **Principle 5 (Procedural Symmetry)** require us to draw a clear distinction between:
+In evaluating Islam under the Five Principles, **truth (Principle 1)** and **scoped procedural symmetry (Principle 5)** require a clear distinction between:
 
 1. **Individual Muslim human beings** (who, like any other human beings, vary across every degree of personal honesty, family devotion, craftsmanship, and goodwill) and the historical **rationalist scientific heritage** of the Islamic world (such as the Mu'tazilite thinkers and the *falsafa* tradition of **Ibn al-Haytham** in optics, **Ibn Sina / Avicenna** in medicine, and **Ibn Rushd / Averroes** in defense of natural causation and Aristotelian reason); and
 2. **The classical orthodox political-theological system of Islam (*fiqh* and *sharia* statecraft)** when implemented as a comprehensive legal and political order.
 
 When that classical political-theological system, together with its modern Islamist revivals, is evaluated against the Five Principles, four structural conflicts appear directly in the foundational texts and legal codes:
 
-* **On Principle 1 (Causation and Public Truth):** As we saw in Chapter 3, **Al-Ghazali's** Ash'arite occasionalism holds that created things have no action of their own and that the regularity of nature is a habit of God's creating, and al-Azhar's secondary creed textbook still classifies the belief that fire burns by its nature as unbelief. Furthermore, classical jurisprudence developed explicit doctrines of **boundary speech**. ***Taqiyya***, developed chiefly in Shi'a jurisprudence as a dispensation under persecution and recognized in Sunni treatises for believers under coercion (on the basis of Qur'an 3:28 and 16:106), permits a believer to conceal his faith or his intentions from outsiders, and the jurists' law of war permitted deceiving the enemy in battle. Where truth-telling is scoped by religious boundary rather than owed symmetrically in the public square, cross-community trust erodes.
-* **On Principle 4 and Principle 5 (The Scope of the Polity and *Jizya* Subordination):** Classical Islamic statecraft was founded not as a private spiritual church alongside a civil state, but as an all-encompassing military-political jurisdiction dividing the world into ***Dar al-Islam*** (the House of Submission, governed by Islamic law) and ***Dar al-Harb*** (the House of War, not yet brought under Islamic rule). Inside *Dar al-Islam*, as we noted in Chapter 9, legal procedure is explicitly **asymmetrical by religion**: under **Qur'an 9:29** (*"Fight those who do not believe in Allah or in the Last Day... among the People of the Book, until they give the jizya willingly while they are humbled/subdued"*), conquered Jews and Christians (*dhimmis*) are placed in a permanent subordinate legal tier and barred from equal courtroom testimony against Muslims, while Muslims who leave the faith (**apostasy**, *riddah*) face the death penalty under classical jurisprudence across all four major Sunni schools (*madhhabs*) and Ja'fari Shi'a law.
+* **On causation and public truth (Principle 1):** As we saw in Chapter 3, **Al-Ghazali's** Ash'arite occasionalism holds that created things have no action of their own and that the regularity of nature is a habit of God's creating, and al-Azhar's secondary creed textbook still classifies the belief that fire burns by its nature as unbelief. Furthermore, classical jurisprudence developed explicit doctrines of **boundary speech**. ***Taqiyya***, developed chiefly in Shi'a jurisprudence as a dispensation under persecution and recognized in Sunni treatises for believers under coercion (on the basis of Qur'an 3:28 and 16:106), permits a believer to conceal his faith or his intentions from outsiders, and the jurists' law of war permitted deceiving the enemy in battle. Where truth-telling is scoped by religious boundary rather than owed symmetrically in the public square, cross-community trust erodes.
+* **On the scope of the polity and *jizya* subordination (Principles 4 and 5):** Classical Islamic statecraft was founded not as a private spiritual church alongside a civil state, but as an all-encompassing military-political jurisdiction dividing the world into ***Dar al-Islam*** (the House of Submission, governed by Islamic law) and ***Dar al-Harb*** (the House of War, not yet brought under Islamic rule). Inside *Dar al-Islam*, as we noted in Chapter 9, legal procedure is explicitly **asymmetrical by religion**: under **Qur'an 9:29** (*"Fight those who do not believe in Allah or in the Last Day... among the People of the Book, until they give the jizya willingly while they are humbled/subdued"*), conquered Jews and Christians (*dhimmis*) are placed in a permanent subordinate legal tier and barred from equal courtroom testimony against Muslims, while Muslims who leave the faith (**apostasy**, *riddah*) face the death penalty under classical jurisprudence across all four major Sunni schools (*madhhabs*) and Ja'fari Shi'a law.
 * **On Modern Revolutionary Islamism (*Velayat-e Faqih* and Muslim Brotherhood Doctrine):** In the twentieth century, thinkers such as **Sayyid Qutb** in Egypt and **Ayatollah Ruhollah Khomeini** in Iran (*Islamic Government: Governance of the Jurist*, 1970) removed even the traditional quietist accommodations of earlier centuries and turned Islam into a totalizing revolutionary state ideology, explicitly rejecting secular constitutional symmetry, national sovereignty, and freedom of conscience as idolatrous (*jahiliyyah* or *taghut*).
 
-Any free constitutional society that wishes to preserve **Principle 5 (Scoped Procedural Symmetry)** must understand this distinction clearly: individual citizens of Muslim background who embrace constitutional citizenship under a single symmetrical secular law are welcome participants in civic life, **while the political-legal system of supremacist *sharia* jurisdiction, blasphemy coercion, apostasy penalties, and sectarian legal tiers is fundamentally incompatible with a constitutional republic and must be granted no legal jurisdiction within its borders.**
+Any free constitutional society that wishes to preserve **scoped procedural symmetry (Principle 5)** must understand this distinction clearly: individual citizens of Muslim background who embrace constitutional citizenship under a single symmetrical secular law are welcome participants in civic life, **while the political-legal system of supremacist *sharia* jurisdiction, blasphemy coercion, apostasy penalties, and sectarian legal tiers is fundamentally incompatible with a constitutional republic and must be granted no legal jurisdiction within its borders.**
 
 #### C. Buddhism: Valuable Tier-1 Mental Discipline, Insufficient Civilizational Root
 
-Next, evaluate **Buddhism** (across its Theravada, Mahayana, and Vajrayana branches):
+This assessment covers all three branches of **Buddhism**: Theravada, Mahayana, and Vajrayana.
 
 * **Where Buddhism provides genuine value:** As a **personal psychological and attentional discipline (Tier 1)**, Buddhist mindfulness, meditation, and the analysis of how craving (*tanha*) and undisciplined emotional reactivity cloud human judgment offer practical methods for self-command, composure under pressure, and humility (**Virtue 5**).
 * **Why Buddhism cannot serve as a standalone root for civilization:** The foundational metaphysical premise of Buddhism is stated in the **Four Noble Truths**. Buddhism begins with the premise that all conditioned biological and material existence is fundamentally **unsatisfactory suffering (*dukkha*)**, that desire for life and attachment to the world is the cause of that suffering, and that the supreme spiritual goal is **Nirvana**, literally the extinguishing of the flame of desire and the termination of the cycle of biological rebirth (*samsara*). Consequently, the highest ideal of classical Buddhism is the **celibate monk (*bhikkhu*)** who leaves behind wife, children, farm, workshop, and army to live on alms offered by lay households.
-* Test the ideal on its own terms. An ideal that is the root of a civilization has to be able to sustain itself when people actually attain it. If every member attains the highest Buddhist ideal of celibate monastic non-attachment, no one cultivates the fields, no one manufactures tools, no one defends the frontier, and no children are born. The society ends within one generation. Continuance then depends on people who do not attain the ideal, or who set it aside. Jain mendicants meet the same test: the highest form does not pick the fruit or till the soil, and lay households do that work so the mendicant can keep the rule. A root that survives only by being broken is not a root.
+* Judged on its own terms, an ideal that is the root of a civilization has to be able to sustain itself when people actually attain it. If every member attains the highest Buddhist ideal of celibate monastic non-attachment, no one cultivates the fields, no one manufactures tools, no one defends the frontier, and no children are born. The society ends within one generation. Continuance then depends on people who do not attain the ideal, or who set it aside. Jain mendicants meet the same test: the highest form does not pick the fruit or till the soil, and lay households do that work so the mendicant can keep the rule. A root that survives only by being broken is not a root.
 * **The same test applied to Christianity.** The Christian heritage examined above gives a different result, because its highest good is not a state of life or of mind, such as the extinguishing of desire, but obedience to God and salvation, which are open to the married and the unmarried alike. Celibacy is a particular gift for some: *"Not everyone can accept this statement, except those to whom it has been given"* (Matthew 19:11); *"each has his own gift from God, one this way, another that"* (1 Corinthians 7:7). Paul gives his own counsel on it *"as a concession, not as a command"* (1 Corinthians 7:6). Even where a church honors consecrated celibacy as a high calling, it is not required of all and is not the condition of salvation. The blessing given to the first man and woman, *"Be fruitful and multiply"* (Genesis 1:28), was repeated to Noah and his sons after the flood (Genesis 9:1). If every Christian attained the highest Christian good, households would still marry and bear children, and the society would continue. The Shakers, who made celibacy the rule for every full member, departed from that teaching, and Chapter 11 records the result.
 
 #### D. Shinto: Strong on Continuity and Beauty, Vulnerable When Bound to Blood Mysticism
 
-A fourth example is Japan's indigenous tradition of **Shinto**:
-
-* **Where Shinto aligns strongly:** Shinto fosters a strong cultural ethic of **physical cleanliness, care for tools and craft (Virtues 2 and 3), reverence for natural and architectural beauty (Virtue 4), and deep generational gratitude connecting living households to their ancestors (*kami*) and descendants, the living heeding what their elders handed down and forming those who come after (Virtue 7, Form and listen).** In a Japanese workshop or train station, the practical results of those habits are evident.
+* **Where Shinto aligns strongly:** Shinto fosters a strong cultural ethic of **physical cleanliness, care for tools and craft (Virtues 2 and 3), reverence for natural and architectural beauty (Virtue 4), and deep generational gratitude connecting living households to their ancestors (*kami*) and descendants, the living heeding what their elders handed down and forming those who come after (Virtue 7).** In a Japanese workshop or train station, the practical results of those habits are evident.
 * **Where Shinto failed when detached from Principle 1 and Principle 5:** Because traditional Shinto is a particularist folk religion without a universal doctrine of correspondence truth or universal human nature, when the Meiji and Showa militarists fused it into **State Shinto** between 1890 and 1945, teaching as state dogma that the Japanese Emperor was a living descendant of the sun goddess and that non-Japanese peoples occupied an inferior ontological tier, it silenced internal rational dissent (violating **Principle 1**) and licensed atrocities against conquered neighbors (violating **Principle 5**), culminating in the catastrophe of 1945.
 
 ---
 
 ### 3. Right-Wing Anti-Proceduralists and Surface-Aligned False Friends (Including Alexander Dugin)
 
-We must now apply these same evaluative criteria to an error that frequently entraps observers who recognize the defects of modern left-wing progressivism.
+The same evaluative criteria apply to an error that frequently entraps observers who recognize the defects of modern left-wing progressivism.
 
 When an intelligent young man or woman realizes that postmodern constructivism, "equity" outcome-leveling, open borders, and family breakdown are destroying their country, their first impulse is often to embrace **any writer who loudly denounces modern liberalism**.
 
 **The foundational premises of such doctrines must be tested before they are accepted.**
 
-Remember: **the enemy of a bad idea is not automatically a good idea.** If a house has termites in the floorboards, setting the house on fire will certainly destroy the termites, yet it will also destroy the house and its inhabitants.
+**The enemy of a bad idea is not automatically a good idea.** If a house has termites in the floorboards, setting the house on fire will certainly destroy the termites, yet it will also destroy the house and its inhabitants.
 
-In recent years, two clusters of "anti-liberal" thinkers on the political right have gained followings by attacking progressive decay while **simultaneously attacking Principle 1 (Universal Truth), Principle 2 (Checks on Flawed Rulers), Principle 3 (Excellence and Individual Success), and Principle 5 (Scoped Procedural Symmetry)**:
+In recent years, two clusters of "anti-liberal" thinkers on the political right have gained followings by attacking progressive decay while **also attacking universal truth (Principle 1), the checks that limited rulers need (Principle 2), keeping and building (Principle 3), and scoped procedural symmetry (Principle 5)**:
 
 #### A. Western Right-Wing Anti-Proceduralists (Wolfe, Yarvin, Haywood, MacIntyre)
 
@@ -2101,7 +2048,7 @@ Four contemporary Western writers urge conservatives to discard constitutional p
 
 1. **Stephen Wolfe** (*The Case for Christian Nationalism*, 2022): Rightly notes that human beings are particular and need cultural continuity (**Principle 4**), but then proposes to replace constitutional procedural symmetry (**Principle 5**) with a semi-theocratic **"Christian Prince"** empowered to enforce sectarian religious orthodoxy by state coercion and reduce citizens outside his favored confessional circle to second-class subjects. European history from 1524 to 1648 (the Wars of Religion, which killed a third of Central Europe's population) demonstrates why British and American Christians established constitutional separation of church and state: **under Principle 2, whenever a mortal magistrate is given the sword to enforce sectarian theology, he corrupts the church and persecutes his fellow Christians over which doctrinal confession is orthodox.**
 2. **Curtis Yarvin** ("Neo-Reaction" / *Patchwork*): Rightly diagnoses how unaccountable administrative bureaucracies and media-academic complexes ("the Cathedral") subvert democratic accountability, **but then prescribes a remedy more destructive than the malady**: abolishing constitutional separation of powers, representative legislatures, and independent courts entirely in favor of an **unchecked absolute monarch or "CEO-Dictator"** who owns the country like a private joint-stock corporation. Yarvin overlooks the most basic lesson of **Principle 2**: a mortal dictator with no procedural checks who rules well on Monday can become irrational, senile, or corrupt on Tuesday, or bequeath the throne to a Caligula or Commodus on Wednesday; and once the courts and constitutional checks have been demolished, the citizens possess no peaceful mechanism to prevent him from plundering their enterprises and subjugating their children.
-3. **Charles Haywood** ("Foundationalism" / Warlordism): Advocates replacing constitutional order with personalist rule by a strongman warlord and a fraternal military caste, explicitly scorning the universal rule of law. Anyone who has studied warlord rule in historical practice, where a merchant cannot ship a load of flour ten miles without paying bribes at three checkpoints and where the warlord's lieutenants can seize a family's property or workshop at gunpoint without courtroom recourse, knows that warlordism destroys **Principle 3 (Keeping and Building)** and **Principle 5 (Procedural Symmetry)**.
+3. **Charles Haywood** ("Foundationalism" / Warlordism): Advocates replacing constitutional order with personalist rule by a strongman warlord and a fraternal military caste, explicitly scorning the universal rule of law. Anyone who has studied warlord rule in historical practice, where a merchant cannot ship a load of flour ten miles without paying bribes at three checkpoints and where the warlord's lieutenants can seize a family's property or workshop at gunpoint without courtroom recourse, knows that warlordism destroys **keeping and building (Principle 3)** and **procedural symmetry (Principle 5)**.
 4. **Auron MacIntyre** (Friend and Enemy): Follows Carl Schmitt in calling the friend/enemy distinction "the true essence of the political" (post on X, 4 August 2025). Taken as the rule of domestic government, that view makes politics a matter of rewarding friends and punishing enemies through state power, and treats impartial principle, procedural fairness, and constitutional rules as weaknesses. **The structure of that claim is identical to its progressive counterpart.** It rests upon the same premise as **Michel Foucault** and **Herbert Marcuse's *Repressive Tolerance***, merely advanced from the political right rather than the political left. If both factions within a republic conclude that courts, statutes, and elections are merely instruments for plundering their political opponents, constitutional government ceases to exist and civil war becomes the only remaining procedure.
 
 #### B. Alexander Dugin and *The Fourth Political Theory*: The Collectivist Leveler in Traditionalist Robes
@@ -2124,15 +2071,15 @@ Dugin's actual writings and speeches state his core premises directly, allowing 
     - Where has that philosophy appeared before? It is the destructive pathology of the old Russian peasant commune (*mir*) and Soviet collectivization: the envious leveling mentality illustrated in the old Russian proverb in which a peasant, offered any wish on condition that his neighbor receive double, asks to have one of his own eyes put out.
     - There is a direct structural parallel between **radical outcome-egalitarianism** in the West and **Dugin's Eurasianist Collectivism** in the East: both look upon a human being who achieves excellence (**Virtue 3**) and builds a flourishing life (**Principle 3**), and both declare that unequal achievement is evil and that all persons must be compelled to *"suffer together"* in shared deprivation.
 
-2. **Dugin Against Principle 1 (Denying Universal Correspondence Truth):**
+2. **Dugin denies universal correspondence truth (Principle 1):**
 
     In *The Fourth Political Theory*, Dugin explicitly rejects the existence of universal objective truth, universal natural science, and universal human nature. Drawing directly on **Martin Heidegger** and **postmodern constructivism**, Dugin declares that what the West calls empirical truth and logic is merely a local "Atlanticist / Anglo-Saxon episteme," and that Russia/Eurasia possesses its own separate "archaic truth" in which state myth overrides factual correspondence. Under Principle 1, truth has one frame, which is reality, and a state myth is a narrative. That is **postmodern constructivism restated in the vocabulary of Russian imperial nationalism.**
 
-3. **Dugin Against Principle 2 and Principle 4 (Erasing the Individual and the Self-Anchored Household Into *Dasein*):**
+3. **Dugin erases the individual and the self-anchored household into *Dasein* (Principles 2 and 4):**
 
     Dugin explicitly names the **individual human person** as the primary enemy to be abolished. Whereas the First Political Theory (liberalism) took the individual as its subject, the Second (communism) took class, and the Third (fascism) took race or state, Dugin proposes that his "Fourth Political Theory" takes Heidegger's collective ***Dasein*** ("being-there") and the undifferentiated mass (*Narod*) as the only real actor, explicitly declaring that the individual possesses no intrinsic boundary, no inviolable property, and no self-anchored standing apart from the collective empire.
 
-4. **Dugin Against Principle 5 (Abolishing Procedural Symmetry in Favor of Eternal Imperial War):**
+4. **Dugin abolishes procedural symmetry in favor of eternal imperial war (Principle 5):**
 
     Because Dugin rejects legal symmetry, individual property rights, and constitutional checks inside the state, and views international politics through Carl Schmitt's doctrine of total existential war between "Land Power" (Eurasia) and "Sea Power" (the constitutional West), his system cannot build high-trust domestic courts or peaceful prosperity. Instead, it requires **permanent external conquest and internal secret-police mobilization** to justify domestic poverty and coercion.
 
@@ -2140,12 +2087,10 @@ The verdict under the Five Principles is clear: **Alexander Dugin is not a defen
 
 ## Chapter 13: Historical Cases from Singapore, Russia, and Iran
 
-Let us now move from the examination of philosophical systems to the **historical record of nations**.
-
 When we evaluate modern history under the Five Principles, we must apply **Three Long-Horizon Criteria**:
 
 1. **The Generational Criterion (70–100 Years):** Never evaluate a policy by its immediate sentiment during the first eighteen months of borrowed expenditure or revolutionary enthusiasm. Evaluate it by the condition of the country when the grandchildren inherit the resulting institutions and balance sheet seventy years later.
-2. **The Scale Criterion (Why a Monastery Cannot Be Scaled Linearly to a Nation of Fifty Million):** A voluntary commune, monastery, or early kibbutz of eighty selected members can sometimes operate for a few decades on informal communal sharing (Tier 2/3 *kindness*), because every member dines in the same hall and idlers can be corrected or expelled in person. If one attempts to scale that communal arrangement linearly to a nation of fifty million strangers without **Principle 5 (Scoped Procedural Symmetry)** and private property (**Principle 4**), it collapses into bureaucratic coercion and mass deprivation.
+2. **The Scale Criterion (Why a Monastery Cannot Be Scaled Linearly to a Nation of Fifty Million):** A voluntary commune, monastery, or early kibbutz of eighty selected members can sometimes operate for a few decades on informal communal sharing (Tier 2/3 *kindness*), because every member dines in the same hall and idlers can be corrected or expelled in person. If one attempts to scale that communal arrangement linearly to a nation of fifty million strangers without **scoped procedural symmetry (Principle 5)** and private property (**Principle 4**), it collapses into bureaucratic coercion and mass deprivation.
 3. **The Interconnect Criterion:** The Five Principles are not an arbitrary collection from which one may retain two principles and discard three. Truth (Principle 1), realist human nature (Principle 2), keeping and building (Principle 3), tiered family and defense (Principle 4), and symmetrical courts (Principle 5) depend structurally upon one another like the stones of a masonry arch.
 
 Three twentieth-century historical cases demonstrate how these principles operate in practice: **Singapore (1965–1990)**, **Russia (1907–1933)**, and **Iran (1978–1983)**.
@@ -2169,7 +2114,7 @@ Instead, within a single generation, Singapore rose from poverty to achieve one 
 
 **How was this achieved?** Lee Kuan Yew and his founding cabinet (Goh Keng Swee, S. Rajaratnam, Hon Sui Sen) rejected prevailing ideological illusions and structured their policies around the **Five Common Principles of Reality**:
 
-#### 1. Alignment With Principle 1 (Reality Is Real and Consequential) and Virtue 2 (Ownership)
+#### 1. Consequential Reality and Ownership (Principle 1, Virtue 2)
 
 Days after independence in 1965, Lee Kuan Yew stated the foundational premise of Singapore's existence to its citizens:
 
@@ -2177,45 +2122,45 @@ Days after independence in 1965, Lee Kuan Yew stated the foundational premise of
 
 Lee refused to indulge in political excuses: he devoted **no time** to lamenting British colonial rule, demanding foreign reparations, or blaming external structural forces. He addressed physical reality directly: two million people on a resource-poor island had to produce goods and services so reliable, sound, and economical that the rest of the world would choose to trade, bank, and manufacture in Singapore rather than elsewhere.
 
-#### 2. Alignment With Principle 2 (Particularity and Limits) and Virtue 3 (Excellence)
+#### 2. Particularity, Limits, and Excellence (Principle 2, Virtue 3)
 
 While Western universities in the late 1960s increasingly embraced egalitarian leveling, Lee Kuan Yew spoke directly about human particularity and the necessity of cultivating high character and technical excellence. In 1966–1967, addressing school principals and students, Lee compared civic character to metallurgy:
 
 * One cannot construct a durable edifice out of soft pig-iron; a society must temper its citizens, both in physical stamina and moral character, into ***"steel."***
 * Addressing the reality of human cognitive and executive variation (**Principle 2**), Lee noted that in any population, the most capable, disciplined, and public-spirited five to ten percent of citizens act as ***"the yeast, the ferment, the catalyst"*** that enables the entire society to advance. If a nation persecutes, drives out, or levels down its most capable engineers, administrators, and entrepreneurs in the name of envy, the remaining ninety percent do not become wealthier; they sink into unemployment and poverty. Therefore, Singapore established rigorously meritocratic schools, technical institutes, and civil service examinations in which the son of a manual laborer who scored at the top of the mathematics examination received a scholarship alongside the son of a banker.
 
-#### 3. Alignment With Principle 3 and Principle 4 (Self-Anchored Ownership Over Unconditional Welfare Subsidies)
+#### 3. Self-Anchored Ownership Over Unconditional Welfare (Principles 3 and 4)
 
 How did Singapore provide for housing, healthcare, and retirement without adopting unconditional welfare transfer systems that subsidize family breakdown and idleness?
 
 * Through the **Central Provident Fund (CPF)** and the **Housing and Development Board (HDB) Home-Ownership Scheme**. Instead of taxing working citizens to fund an anonymous pool from which free riders could draw benefits without working, Singapore required every working citizen and his employer to contribute into **that citizen's own self-anchored, individual account** for housing, medical care, and retirement.
 * Furthermore, Lee insisted that families **own** their apartments rather than renting them as state tenants, because he wanted every citizen to have a stake in the country (**Principle 2 and Principle 4**). He tied it directly to National Service: **a soldier whose family owned its home would be defending that home, not the property of the wealthy** (Lee Kuan Yew, *From Third World to First*, 2000).
 
-#### 4. Alignment With Principle 5 (Scoped Procedural Symmetry Across Ethnic Groups)
+#### 4. Scoped Procedural Symmetry Across Ethnic Groups (Principle 5)
 
 In a region where neighboring states enacted ethnic quota systems that restricted minority Chinese and Indians' access to universities and civil service posts, or where rulers dismissed judges when a court ruled against the government, Lee Kuan Yew enforced **Scoped Procedural Symmetry**:
 
 * Although ethnic Chinese comprised three-quarters of Singapore's electorate, Lee refused to make Mandarin the sole dominant state language over the Malay and Indian minorities. Instead, he made **English** the neutral, symmetrical working language of the courts, universities, and commerce, placing every citizen under the same procedural standard while connecting Singapore directly to international science and trade, while each child also studied his mother tongue (Mandarin, Malay, or Tamil) in school.
 * Within the courtroom and marketplace, English common-law contract and property rules were enforced with strict impartiality, and the **Corrupt Practices Investigation Bureau (CPIB)** pursued even ministers: a Minister of State, Wee Toon Boon, was convicted of corruption in 1975, and the Minister for National Development, Teh Cheang Wan, died in 1986 while under investigation, making Singapore one of the least corrupt jurisdictions in the world.
 
-#### 5. Alignment With Principle 4's Final Clause ("Enemies Are Real")
+#### 5. Enemies Are Real (Principle 4)
 
 When Britain announced its military withdrawal, Lee did not rely upon diplomatic appeals to the United Nations for security. Requesting military advisors from Israel (the only country willing to train Singapore's nascent armed forces in 1965), Singapore built a universal male conscription defense force (**National Service**) on what Lee termed the **"Poisonous Shrimp" doctrine** (and later the "Dolphin" doctrine): a small island cannot conquer a large neighbor, **but it can make itself so well-armed, disciplined, and formidable that any aggressor attempting to conquer it will suffer prohibitive losses, remaining, in Lee's phrase, *"not a digestible morsel."***
 
 #### The Analytical Caveat on Singapore: Adopt the Principles, Guard Against Demographic Decline
 
-When we study Singapore under the Five Principles, we must apply the same impartial judgment we apply elsewhere:
+Singapore's record carries two cautions:
 
 1. **Adopt the Foundational Principles, Not Every Emergency Regulation:** A large continental republic does not need, and should not copy, every municipal regulation or restriction that a small island city-state adopted during a 1960s communist insurgency. What any nation *can* and *should* adopt are Singapore's alignment with reality, meritocratic standards, self-anchored ownership accounts, public order, swift punishment of violent crime and corruption, and symmetrical commercial courts.
-2. **Where Modern Singapore Is Vulnerable:** This vulnerability appears in **Virtue 6 (Have children)** in twenty-first-century Singapore. Because modern Singapore became a high-cost, high-density urban economy in which young adults delay marriage and childbearing for corporate careers, its resident Total Fertility Rate has fallen below **1.0 child per woman** (0.97 in 2023 and again in 2024; Singapore Department of Statistics). Even Lee Kuan Yew in his final years warned that this demographic decline was the single greatest threat to Singapore's survival, demonstrating once again that **The Interconnect Criterion** admits no exceptions: a civilization must maintain **all** Five Principles and **all** Seven Virtues, or the seventy-year replacement horizon overtakes even the most capable material builders.
+2. **Where Modern Singapore Is Vulnerable:** In twenty-first-century Singapore the weakness is in **having children (Virtue 6)**. Because modern Singapore became a high-cost, high-density urban economy in which young adults delay marriage and childbearing for corporate careers, its resident Total Fertility Rate has fallen below **1.0 child per woman** (0.97 in 2023 and again in 2024; Singapore Department of Statistics). Even Lee Kuan Yew in his final years warned that this demographic decline was the single greatest threat to Singapore's survival, demonstrating once again that **The Interconnect Criterion** admits no exceptions: a civilization must maintain **all** Five Principles and **all** Seven Virtues, or the seventy-year replacement horizon overtakes even the most capable material builders.
 
 ---
 
 ### 2. Russia (1907–1933): From Stolypin's Farms and Durnovo's Warning to Lenin's Ruin
 
-Now turn from an island that rose by embracing the Five Principles to a vast empire that destroyed itself by repudiating them: **Russia between 1907 and 1933**.
+**Russia between 1907 and 1933** is the case of a vast empire that destroyed itself by repudiating the Five Principles.
 
-It is frequently assumed that Imperial Russia before 1917 was a static, backward society destined inevitably for Bolshevik communism. The actual historical record presents a far more instructive account regarding **Principle 3 (Keeping and Building)**, **Principle 4 (Self-Anchored Family Property)**, and the consequences when a state disregards strategic reality.
+It is frequently assumed that Imperial Russia before 1917 was a static, backward society destined inevitably for Bolshevik communism. The actual historical record presents a far more instructive account regarding **keeping and building (Principle 3)**, **self-anchored family property (Principle 4)**, and the consequences when a state disregards strategic reality.
 
 #### 1. Pyotr Stolypin's Property Reforms (1906–1911): Relying Upon "The Sturdy and the Strong"
 
@@ -2254,7 +2199,7 @@ When **Vladimir Lenin** arrived at Petrograd's Finland Station in April 1917 and
 
 ### 3. Iran (1978–1983) and the Mechanics of Modern Red-Green Tactical Alliances
 
-A third historical case study, **Iran between 1978 and 1983**, illuminates one of the most instructive phenomena in modern politics: **How can two movements whose positive doctrines directly contradict each other cooperate closely to overthrow an existing civilization?**
+**Iran between 1978 and 1983** illuminates one of the most instructive phenomena in modern politics: **How can two movements whose positive doctrines directly contradict each other cooperate closely to overthrow an existing civilization?**
 
 #### 1. The Shah's Warning: "The Unholy Alliance of Red and Black"
 
@@ -2297,7 +2242,7 @@ This Red-Green alliance operates within an open society through **five operation
 4. **Speech Sacralization and Blasphemy Shields:** Conditioning a free society to accept that while its own heritage, constitution, and majority religion may be disparaged daily at public expense, criticizing the allied faction's dogma constitutes "hate speech" or "incitement" that must be censored by the state or punished by street violence.
 5. **Institutional Entryism:** Using the host society's own "diversity and inclusion" mandates to place factional activists inside school boards, police oversight panels, human-rights commissions, and prosecutor offices, where they enforce **procedural asymmetry** (Marcuse's *Repressive Tolerance* in action).
 
-**How does a healthy civilization defeat this coordination?** Not by abandoning its own principles or adopting right-wing authoritarianism, **but by enforcing Principle 5 (Scoped Procedural Symmetry) with unwavering consistency**:
+**How does a healthy civilization defeat this coordination?** Not by abandoning its own principles or adopting right-wing authoritarianism, **but by enforcing scoped procedural symmetry (Principle 5) with unwavering consistency**:
 
 * No tolerance for highway blockades, street intimidation, or political violence, regardless of which banner the offender carries.
 * No blasphemy shields or speech codes: one symmetrical rule of free speech and public order for every citizen.
@@ -2317,7 +2262,7 @@ As we established in Chapter 1, civilization is a **technology**, an actionable 
 
 ### 1. Diagnostic Tools for Public Debate and Intellectual Defense
 
-When you enter a public debate, a school board meeting, a university seminar, or a civic discussion, how does one identify a defective argument readily and refute it systematically? Apply four diagnostic tests:
+In a public debate, a school board meeting, a university seminar, or a civic discussion, four diagnostic tests identify a defective argument and refute it systematically:
 
 #### Tool 1: Refuting the Unfalsifiable Argument (Asymmetrical Accounting vs. the Single Ledger)
 
@@ -2341,23 +2286,23 @@ In sound accounting, **an enterprise maintains a Single Ledger**: if one claims 
 
 Related to asymmetrical accounting is the familiar **"That was not authentic doctrine"** evasion (*"The Soviet Union was not real Communism,"* *"The Inquisition was not real Christianity,"* *"Al-Qaeda is not real Islam"*).
 
-How do we apply **Principle 5 (Scoped Procedural Symmetry)** to distinguish when *"That was not authentic doctrine"* is a **valid boundary distinction** versus when it is a **fallacious evasion**?
+How does **scoped procedural symmetry (Principle 5)** distinguish when *"That was not authentic doctrine"* is a **valid boundary distinction** versus when it is a **fallacious evasion**?
 
-Apply this symmetrical rule:
+The symmetrical rule is this:
 
 * **Legitimate Use:** A defender of a doctrine may legitimately state, *"That actor was not practicing authentic doctrine,"* **if and only if he can cite a specific, foundational, pre-existing rule of that doctrine which explicitly forbade what the actor did.** For example, if a corrupt judge accepts a ten-thousand-dollar bribe to alter a verdict in an American courtroom, an American constitutionalist may legitimately state, *"That judge was violating American constitutional law,"* because Article II, the federal bribery statutes, and the judicial oath explicitly forbid accepting bribes in explicit statutory text.
 * **Fallacious Use:** By contrast, if an actor **faithfully and systematically executed the explicit instructions written in the foundational texts of that doctrine**, as Lenin, Stalin, Mao, and Pol Pot executed Karl Marx's explicit instruction in the *Communist Manifesto* to *"abolish private property"* and concentrate all credit, transport, agriculture, and manufacturing in the hands of a central state monopoly, and the predictable result was tyranny and famine, **one cannot legitimately claim, "That was not authentic Marxism."** The famine was not a departure from the doctrine; the famine was the direct consequence of executing those instructions in the physical world.
 
 #### Tool 3: Identifying Selective Logic and Tier Confusion
 
-Whenever someone advances a moral or political claim, apply two verification checks:
+Two verification checks apply whenever someone advances a moral or political claim:
 
 * **The Label-Swap Test (Against Selective Logic):** Take the speaker's exact proposition, exchange the political, racial, or religious labels of the two parties, and restate the proposition to him. If he immediately objects when his own procedural rule is applied to his own faction, he has demonstrated that he rejects **Principle 5** and seeks a partial tribunal.
 * **The Tier-Scope Check (Against Principle 4 Violations):** Ask whether the speaker is demanding **Tier 2 household intimacy and unconditional generosity** within **Tier 4/5 public borders and anonymous bureaucracies**, or conversely, demanding **Tier 5 impersonal contractual calculation** within **Tier 2 marriage and parenting**. Maintain every obligation within its proper tier and scope.
 
 #### Tool 4: Free Speech as an Error-Correction Mechanism (The Walker in the Marsh)
 
-A civilization must defend free speech and open scientific inquiry against censors who claim that censorship "protects the public from dangerous errors" because of **Principle 1** (*Reality is real, knowable, and consequential*) and **Principle 2** (*Humans are limited*):
+A civilization must defend free speech and open scientific inquiry against censors who claim that censorship "protects the public from dangerous errors" because **reality is real, knowable, and consequential (Principle 1)** and **humans are limited (Principle 2)**:
 
 > **The Walker in the Marsh:** Ten travelers are walking in single file through a fog-covered marsh at dusk. The lead walker steps onto what appears to be solid ground, and immediately sinks to his waist in quicksand.
 >
@@ -2373,7 +2318,7 @@ A civilization must defend free speech and open scientific inquiry against censo
 
 ### 2. The Seven-Filter Decision Checklist and Worked Scenarios
 
-Whenever you face a serious decision, in your household, your enterprise, your school board, or your vote as a citizen, evaluate the proposal through the **Seven-Filter Decision Checklist**:
+The **Seven-Filter Decision Checklist** applies to any serious decision, in your household, your enterprise, your school board, or your vote as a citizen:
 
 1. **Reality and Truth**
     * **Question to Ask:** What are the verifiable physical and historical facts, stripped of wishful thinking and spin? What will happen in reality if we do this?
@@ -2389,7 +2334,7 @@ Whenever you face a serious decision, in your household, your enterprise, your s
     * **Root Principle or Virtue:** **Principle 4**
 5. **Enemy and Exploit Check**
     * **Question to Ask:** How will a bad actor, free rider, fraudster, or active enemy manipulate or attack this arrangement? Are the perimeter boundaries and protective reserves properly guarded?
-    * **Root Principle or Virtue:** **Principle 4 ("Enemies are real")**
+    * **Root Principle or Virtue:** **Enemies are real (Principle 4)**
 6. **Scoped Procedural Symmetry**
     * **Question to Ask:** Is the rule stated in advance and applied identically to everyone in the same position inside this scope? Would I accept this identical rule if the labels were swapped?
     * **Root Principle or Virtue:** **Principle 5**
@@ -2402,22 +2347,22 @@ Five concrete scenarios illustrate how this Seven-Filter Checklist operates in p
 #### Scenario 1: The Household Kitchen Budget vs. Consumer Debt
 
 * **The Question:** A young married couple with one child has four hundred dollars a month remaining after basic expenses. Should they finance a luxury vacation and a new automobile on consumer credit to display outward affluence to their peers, or retain their paid-off eight-year-old sedan, stock a three-month rotated pantry in the basement, and place three hundred dollars a month into tools and savings toward a second child?
-* **The Filter Verdict:** Under **Filter 1 (Reality)** and **Filter 4 (Self-Anchored Tiers)**, borrowing at 22 percent interest to purchase status appearances renders the household vulnerable to the slightest interruption of income and places the household head in debt servitude. Building the rotated pantry and financial reserve (**Chapter 11**) secures Tier 1 and Tier 2, preserves agency, and provides the material foundation for **Filter 7 (Virtue 6: having their next child)**.
+* **The Filter Verdict:** Under **reality and truth (Filter 1)** and **self-anchored tiers (Filter 4)**, borrowing at 22 percent interest to purchase status appearances renders the household vulnerable to the slightest interruption of income and places the household head in debt servitude. Building the rotated pantry and financial reserve (**Chapter 11**) secures Tier 1 and Tier 2, preserves agency, and provides the material foundation for **having their next child (Virtue 6, Filter 7)**.
 
 #### Scenario 2: School Classroom Discipline and Merit Tracks
 
 * **The Question:** A local school board is pressured to abolish honors mathematics classes (because group outcomes are unequal) and forbid suspending violent, disruptive students (in the name of "restorative inclusion").
-* **The Filter Verdict:** Under **Filter 2 (Human Particularity)** and **Filter 6 (Procedural Symmetry)**, unequal scores under an identical mathematics examination reflect real differences in preparation and aptitude; abolishing advanced mathematics violates **Virtue 3 (Excellence)**. Under **Filter 5 (Enemy/Exploit Check)** and **The Hill Town Grain Storehouse and the Rats** (Chapter 11), retaining a chronically violent student in the classroom to indulge the disruptor deprives twenty-nine law-abiding students of their education. Enforce uniform classroom conduct rules, place disruptive students in structured corrective settings, and keep merit tracks open by objective examination to every student who masters the material.
+* **The Filter Verdict:** Under **human limits and incentives (Filter 2)** and **scoped procedural symmetry (Filter 6)**, unequal scores under an identical mathematics examination reflect real differences in preparation and aptitude; abolishing advanced mathematics abandons **seeking excellence (Virtue 3)**. Under the **enemy and exploit check (Filter 5)** and **The Hill Town Grain Storehouse and the Rats** (Chapter 11), retaining a chronically violent student in the classroom to indulge the disruptor deprives twenty-nine law-abiding students of their education. Enforce uniform classroom conduct rules, place disruptive students in structured corrective settings, and keep merit tracks open by objective examination to every student who masters the material.
 
 #### Scenario 3: Career Travel Promotion vs. Young Family at Home
 
 * **The Question:** A thirty-four-year-old father who already earns enough to house, feed, and educate his three young children comfortably is offered a regional executive promotion that will increase his salary by 25 percent, but requires him to live in airports and hotels Monday through Friday for the next six years while his marriage is already strained and his ten-year-old son is struggling in school.
-* **The Filter Verdict:** Apply **Filter 4 (Tiered Action-Based Love)** and **Filter 7 (The Generational Horizon)**. If the family were in material want, traveling to feed them would fulfill Tier 2 duty. When the family is already solvent, trading away daily physical presence in the household during the decade when one's children's character is being formed in order to purchase luxury goods is an unsound exchange: no one at the corporation will remember a quarterly report in thirty years, whereas a broken marriage or a neglected son produces consequences across generations. Decline or renegotiate the travel post; fulfill the primary obligation at home.
+* **The Filter Verdict:** The deciding filters are **self-anchored tiers (Filter 4)** and **the generational horizon (Filter 7)**. If the family were in material want, traveling to feed them would fulfill Tier 2 duty. When the family is already solvent, trading away daily physical presence in the household during the decade when one's children's character is being formed in order to purchase luxury goods is an unsound exchange: no one at the corporation will remember a quarterly report in thirty years, whereas a broken marriage or a neglected son produces consequences across generations. Decline or renegotiate the travel post; fulfill the primary obligation at home.
 
 #### Scenario 4: Answering the Slogan *"This Land Is Stolen, So You Have No Right to Enforce Borders or Laws"*
 
 * **The Question:** In public debates in North America, Australia, or Europe, activists frequently advance the "Stolen Land" argument: *"Because borders shifted by conquest two hundred or five hundred years ago, the current constitutional nation is illegitimate and has no moral right to enforce property deeds, criminal laws, or national borders today."*
-* **The Filter Verdict:** Apply **Filter 1 (Historical Reality)**, **Filter 6 (Symmetrical Procedure)**, and **Filter 7 (Projecting the Principle Across Time)**:
+* **The Filter Verdict:** The deciding filters are **reality and truth (Filter 1)**, **scoped procedural symmetry (Filter 6)**, and **the generational horizon (Filter 7)**:
 
     1. **Historical Reality (Filter 1):** Migration and conquest have repeatedly put one people on land that another people already held, and later arrivals have in turn been displaced. The pattern is ordinary in the record, including among indigenous tribes prior to European arrival (just as the Taranaki Māori conquered the Moriori in 1835, the Lakota displaced the Cheyenne and Crow from the Black Hills in 1776, the Aztecs and Incas conquered their neighbors, and Bantu, Turkic, Arab, Celtic, Germanic, and Slavic migrations reshaped continents).
     2. **The Symmetrical Projection Test (Filters 6 and 7):** If one adopts the premise that *"no law, property deed, or border is valid if the land ever changed hands by force in centuries past,"* then **not a single valid deed, courtroom, or border exists anywhere in the world**, and the only remaining rule is for every faction to take up arms and resume an endless war of blood feuds (**Counterfeit 2 of Principle 5**).
@@ -2427,7 +2372,7 @@ Five concrete scenarios illustrate how this Seven-Filter Checklist operates in p
 #### Scenario 5: Founding a Durable Local Institution (School, Workshop, or Civic Association)
 
 * **The Question:** Five families in a municipality wish to establish a classical charter school, a trade apprenticeship guild, or a civic association that will not be captured and inverted by ideological activists ten years hence.
-* **The Filter Verdict:** Apply **Filters 2, 5, 6, and 7** to the founding charter from the outset:
+* **The Filter Verdict:** **Filters 2, 5, 6, and 7** govern the founding charter from the outset:
 
     - Write the foundational premises (alignment with objective truth, meritocratic standards, parental authority, financial solvency) into the **charter and property trust in explicit, non-negotiable language** before any funds are expended.
     - Require **direct material and personal stake** (parents and masters who contribute actual labor and tuition or dues, rather than distant grant bureaucracies with ideological conditions attached).
@@ -2436,8 +2381,6 @@ Five concrete scenarios illustrate how this Seven-Filter Checklist operates in p
 ---
 
 ### 3. Individuals as Vectors of Civilization: One Ordinary Day
-
-We may now survey the complete structure derived across these fourteen chapters.
 
 We began with a newborn infant, naked, ignorant, and helpless against the elements, and a three-hundred-ton airliner crossing the ocean at thirty-five thousand feet. We asked how human beings bridge the distance between that helpless infant and a flourishing, multi-generational world.
 
@@ -2474,7 +2417,7 @@ Although every citizen's station, trade, and season of life differs, we may see 
 * **7:00 a.m. (Tier 2 and Virtues 6 and 7: The Household Table):** In the kitchen, you prepare breakfast with your spouse and sit down with your children. The room reflects order: it is not a palace, but the floor is swept clean, the cabinet hinges are tight, and in the basement below stands the rotated winter pantry (**Principle 3: Kept**). Over breakfast, you review your ten-year-old's spelling words and listen to your seven-year-old's account, expending costly **Action-Based Love** where it belongs, in the inner tier entrusted to your care.
 * **8:30 a.m. to 5:00 p.m. (Tiers 3 and 4, Principles 1 and 5, Virtues 1, 3, 4, and 5: The Workplace and Public Square):** You step out your front door into the wider community. As you pass strangers on the sidewalk and travel to work, you extend **Dispositional Love** and **Politeness**, obeying traffic laws, dealing fairly, and wishing your fellow citizens well.
 
-    - At your workplace, whether you are an aircraft mechanic, an engineer, a carpenter, a surgeon, a teacher, or a magistrate, you practice **Virtue 1 (Align with truth)** and **Virtue 3 (Seek excellence)**. When a test gauge indicates a crack in a fitting or an error in a calculation, you do not falsify the report to please a superior; you report the physical truth as it is (**Principle 1**) and you verify your work with checklists because you recognize that you are a fallible mortal (**Principle 2 and Virtue 5: Humility**).
+    - At your workplace, whether you are an aircraft mechanic, an engineer, a carpenter, a surgeon, a teacher, or a magistrate, you **align with truth (Virtue 1)** and **seek excellence (Virtue 3)**. When a test gauge indicates a crack in a fitting or an error in a calculation, you do not falsify the report to please a superior; you report the physical truth as it is (**Principle 1**) and you verify your work with checklists because you recognize that you are a fallible mortal (**Principle 2 and Virtue 5: Humility**).
     - When you complete the task, you leave the workspace cleaner, more orderly, and more functional than you found it (**Virtue 4: Beauty as Vitality, Order, and Truth**), and when you evaluate two applicants or two contracts in the afternoon, you apply the same written standard to both without regard to their faction or personal connections (**Principle 5: Scoped Procedural Symmetry**).
 
 * **6:00 p.m. (Principle 3 and Virtue 7: Form and Listen):** At home before supper, you spend forty-five minutes with your son and daughter by the shed replacing a decayed fence post or splitting firewood, teaching them the proper use of a level and a wrench and the discipline of sustained labor. They listen. They test the method by using it, and they are permitted to practice, err, and master the tool (**Direct Authority Followed by Progressive Autonomy**, Chapter 10). You do not require them to agree with every word. You repay the grandfather who instructed you by forming the grandchildren who will inhabit this community seventy years hence.
