@@ -1023,6 +1023,7 @@ The work of a single family over one year illustrates how self-anchored, tiered 
 Whenever one states that what you keep and build is self-anchored and tiered (Principle 4), and that you owe your spouse and children far more than you owe a stranger, critics immediately object: *"Does not morality command us to love our neighbor, and even to love all mankind? How can one ration love by tiers?"*
 
 The confusion vanishes as soon as we recognize that the single English word **love** is used to denote two distinct operations with opposite economic properties: **Dispositional Love** and **Action-Based Love**.
+
 #### 1. Dispositional Love: General Goodwill That Scales Widely
 
 **Dispositional love** is an internal disposition of general goodwill, non-malice, and basic human decency toward other human beings.
