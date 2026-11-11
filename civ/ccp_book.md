@@ -1183,6 +1183,8 @@ The lesson of the Chatham Islands is direct. Reality does not maintain an extern
 
 When a person or a nation stands before a public audience and pleads that it has a **"right to exist,"** the grammatical structure of that phrase reveals its error. A "right to exist" has the form of a petitioner appealing before a higher tribunal for permission to remain alive. **In international and physical reality, there is no such tribunal.** Existence is not a privilege granted by a committee; existence is a condition maintained by alignment with truth, internal order, economic competence, children raised to maturity, and the armed strength and will to make aggression fatal to the aggressor.
 
+Weakness is a condition, not a virtue. An infant, a sick neighbor, and an aged parent are weak, and a sound household carries them; carrying them is much of what its strength is for. But no person or people becomes better by being weak, and a people that lays down its defenses has not risen to a higher morality, as the Moriori found. Strength is not a virtue either. It is a capacity that ownership, excellence, children, and formation produce, and it is good when it keeps and builds life and defends it under known law.
+
 ## Chapter 9: Justice Among Cooperating Households (Principle 5)
 
 Placing Principle 4 next to Principle 2 creates a direct institutional problem.
