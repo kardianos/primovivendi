@@ -1535,8 +1535,7 @@ That is **the seventy-year replacement horizon**.
 
 And it demonstrates why no list of personal virtues can be complete until it bridges the interval from one mortal lifespan to the next. From Principles 1, 2, 3, and 4, we derive the sixth and seventh Virtues of Civilization:
 
-> **6. Have children**
->
+> **6. Have children**\
 > **7. Form and listen**
 
 Both virtues require detailed analysis.
@@ -1677,23 +1676,17 @@ Analyzing each of these failure modes enables a society to identify them in thei
 
 No one who holds that goodness must include *human life continuing, and that life kept and built* (Principle 3) desires a state of unmitigated natural hazard where every broken ankle is a death sentence and every crop blight starves half the county. A primary reason human beings build families, communities, insurance pools, and nations is to absorb sudden, catastrophic shocks so that a productive citizen who suffers a severe reversal can recover his footing and return to keeping and building life.
 
-Four examples illustrate **sound civilizational reserves**:
+Three examples illustrate **sound civilizational reserves**:
 
 1. **The Rotated Three-Month Winter Pantry:** A household stocks three months of preserved food, dry beans, rice, and medical supplies in the cellar, rotating the oldest containers to the kitchen table each month and replacing them with fresh provisions. If a blizzard blocks the roads for two weeks or the father loses his employment for a month, the family does not starve or panic; the pantry absorbs the shock while the father secures new work.
 2. **The Brother's Seed Loan and the Neighborly Barn-Raising:** When a lightning strike burns down a hardworking farmer's barn in July, his neighbors and brothers spend Saturday raising new rafters and lending him seed grain so his family is not ruined by a single bolt of lightning, knowing he works alongside them and will do the same when a storm damages their roofs.
 3. **The Trauma Emergency Room and Short-Term Disability Reserve:** When a carpenter falls from a scaffold and fractures his femur, a trauma surgeon sets the bone with a titanium rod, and a temporary disability reserve keeps his family housed for the twelve weeks required for his leg to heal so he can return to his trade.
-4. **The Plank Bridge Across a Flooded Stream:**
 
-    > Between the village homes and the hillside pastures runs a rocky stream that floods every spring with snowmelt. To prevent herdsmen and children from drowning during the spring runoff, the village men bolt a sturdy wooden plank bridge across the gorge.
-    >
-    > What is the purpose of that plank bridge? **To be walked across, from the bank of crisis back to the firm ground of productive work on the other side.**
+In each case **the reserve holds a family through a sudden shock until the person struck by it can return to his work.** The plank bridge in a hill village serves the same purpose, and its story shows how a protective reserve is **corrupted**:
 
-A society **corrupts a protective reserve** when it permits the reserve to overload the institution that supports it:
-
-Suppose someone walks onto the middle of that narrow plank bridge over the flooded creek, sets down his pack, **and begins nailing up walls, hanging curtains, and demanding that the villagers carry three meals a day out onto the bridge for him and his relatives permanently.**
-
-* First, the bridge was never engineered to support permanent dwellings; under the dead weight of twenty cabins nailed to its center, the timbers sag and fracture.
-* Second, nobody else can cross the bridge when an actual spring flood occurs, because the walkway is blocked by permanent occupants.
+> **The Plank Bridge Across a Flooded Stream:** Between the village homes and the hillside pastures runs a rocky stream that floods every spring with snowmelt. To prevent herdsmen and children from drowning during the spring runoff, the village men bolt a sturdy wooden plank bridge across the gorge. The bridge is there to be walked across. A herdsman crosses it while the water is high and goes on to his work in the pastures on the other side.
+>
+> One spring, a man walks onto the middle of the narrow bridge, sets down his pack, **and begins nailing up walls, hanging curtains, and demanding that the villagers carry three meals a day out onto the bridge for him and his relatives permanently.** Others follow, until twenty cabins stand on the center of the bridge. The bridge was never engineered to support permanent dwellings; under their dead weight the timbers sag and fracture. When the next spring flood comes, nobody else can cross, because the walkway is blocked by permanent occupants.
 
 That is what occurs when a society transforms **temporary reserves against catastrophe** into **an unconditional entitlement to a painless, risk-free, effort-free existence.**
 
@@ -1702,8 +1695,9 @@ The corrupted reserve degrades both **material welfare** and **human agency (wil
 * **In Material Welfare:** A temporary emergency provision designed to help a displaced worker or a widowed mother regain self-sufficiency is converted by politicians and bureaucracies into an open-ended, multi-generational subsidy that **penalizes marriage and work**, paying a household more if no working father resides in the home and withdrawing benefits if the recipient accepts entry-level employment. Within two generations, what was enacted in the name of "compassion" has undermined family formation in entire neighborhoods and habituated millions of capable human beings to permanent dependency.
 * **In Human Agency (The Locked Shop Door):** Even more damaging is what the demand for exemption from risk does to **human will**. Suppose a twenty-two-year-old apprentice potter saves his wages for three years and wishes to rent a small storefront to open his own kiln and pottery shop. There is a real probability, perhaps forty percent, that his shop will fail within the first two years and that he will lose his savings and have to return to wage employment wiser and more experienced.
 
-    - Now suppose a paternalistic regulatory bureaucracy intervenes and declares: *"Forty percent of new shops fail, and business failure causes financial loss and emotional distress. To protect citizens from harm, no one may open a workshop without first paying eighty thousand dollars for five years of environmental impact studies, compliance attorneys, and licensing permits that only large established corporations can afford."*
-    - In the name of "preventing harm," the regulator **barred entry to the trade and suppressed the young man's initiative to build.** As we saw with the Daughter and the Chalked Footrace in Chapter 7, insulating people from every risk of failure does not make them secure; it renders them dependent.
+    Now suppose a paternalistic regulatory bureaucracy intervenes and declares: *"Forty percent of new shops fail, and business failure causes financial loss and emotional distress. To protect citizens from harm, no one may open a workshop without first paying eighty thousand dollars for five years of environmental impact studies, compliance attorneys, and licensing permits that only large established corporations can afford."*
+
+    In the name of "preventing harm," the regulator **barred entry to the trade and suppressed the young man's initiative to build.** As we saw with the Daughter and the Chalked Footrace in Chapter 7, insulating people from every risk of failure does not make them secure; it renders them dependent.
 
 #### Rejecting the Callous Reactionary Error: Four Design Criteria for Protective Reserves
 
@@ -1728,17 +1722,17 @@ Instead, civilizations are dismantled from within by **turning the host society'
 
 This subversion operates through a **five-step mechanism**:
 
-1. **Step 1 (Detach a Secondary Virtue From Its Scope):** The subversive takes a genuine, salutary secondary disposition that belongs within an orderly household or polite community (such as *compassion, empathy, tolerance, forbearance, inclusion,* or *harm reduction*) and detaches it from the Five Principles of Reality.
-2. **Step 2 (Elevate the Secondary Virtue to the Supreme Moral Law):** He declares that this single sentiment (*"Never allow anyone to feel judged, excluded, or uncomfortable"*) is now the **sole, supreme definition of goodness**, overriding truth (Principle 1), keeping and building (Principle 3), tiered family and national loyalty (Principle 4), and procedural symmetry (Principle 5).
-3. **Step 3 (Condemn Every Boundary and Standard as "Cruel"):** Once "never allowing anyone to feel uncomfortable or excluded" is installed as the supreme moral law, four essential practices immediately become "immoral":
+1. **Detach a Secondary Virtue From Its Scope:** The subversive takes a genuine, salutary secondary disposition that belongs within an orderly household or polite community (such as *compassion, empathy, tolerance, forbearance, inclusion,* or *harm reduction*) and detaches it from the Five Principles of Reality.
+2. **Elevate the Secondary Virtue to the Supreme Moral Law:** He declares that this single sentiment (*"Never allow anyone to feel judged, excluded, or uncomfortable"*) is now the **sole, supreme definition of goodness**, overriding truth (Principle 1), keeping and building (Principle 3), tiered family and national loyalty (Principle 4), and procedural symmetry (Principle 5).
+3. **Condemn Every Boundary and Standard as "Cruel":** Once "never allowing anyone to feel uncomfortable or excluded" is installed as the supreme moral law, four essential practices immediately become "immoral":
 
     - Stating a biological or mathematical truth that offends someone's feelings is condemned as *"cruel and harmful."*
     - Failing an unprepared student on an engineering examination is condemned as *"inequitable and exclusionary."*
     - Imprisoning a habitual burglar or enforcing a national border is condemned as *"lacking empathy."*
     - Prioritizing one's own children and fellow citizens over distant strangers is condemned as *"selfish privilege."*
 
-4. **Step 4 (Moral Intimidation of the Conscientious):** Conscientious citizens, particularly agreeable mothers, fathers, and churchgoers who genuinely wish to be kind, hesitate when an activist accuses them of being *"bigoted, heartless, and cruel."* Rather than be called unkind in public, they fall silent and surrender control of the school board, the courtroom, and the church to the accuser.
-5. **Step 5 (Selective Enforcement and Abandonment of Principle):** The instant the subversives capture the institution in the name of "tolerance and compassion," do they practice tolerance and compassion toward the conscientious builders they have just displaced? **Never.** They enforce a strict orthodoxy, dismiss anyone who dissents, and use the institution's budget and authority to reward their own faction.
+4. **Moral Intimidation of the Conscientious:** Conscientious citizens, particularly agreeable mothers, fathers, and churchgoers who genuinely wish to be kind, hesitate when an activist accuses them of being *"bigoted, heartless, and cruel."* Rather than be called unkind in public, they fall silent and surrender control of the school board, the courtroom, and the church to the accuser.
+5. **Selective Enforcement and Abandonment of Principle:** The instant the subversives capture the institution in the name of "tolerance and compassion," do they practice tolerance and compassion toward the conscientious builders they have just displaced? **Never.** They enforce a strict orthodoxy, dismiss anyone who dissents, and use the institution's budget and authority to reward their own faction.
 
 #### Herbert Marcuse's *Repressive Tolerance* (1965): The Subversion Stated Explicitly
 
@@ -1786,35 +1780,33 @@ In biology, a **parasite** is an organism that draws its nourishment from the ti
 
 In human civilization, parasitism appears in **three distinct forms**:
 
-#### 1. Ideological Parasitism (Non-Reproducing Movements Capturing Host Institutions)
+#### 1. Ideological Parasitism: Non-Reproducing Movements Capturing Host Institutions
 
 The clearest illustration is a rule that forbids the children on whom continuance depends. The Shakers required celibacy of the full member. A Shaker village could continue only by taking in converts and children raised in households that did not keep that rule. When recruitment thinned, the village did not replace itself. The same pattern appears wherever an ideal requires its holders not to bear and form the next generation. The ideal then lives on people who do not hold it.
 
-* If those movements had to populate their own island by raising their own children from infancy, they would become extinct in a single generation.
-* Such movements continue only by drawing upon outsiders. Households that do not hold the ideal bear, feed, and form the children, and the movement recruits those children at school age.
-* The capture runs through **the teacher-training colleges, the school curricula, the youth media, and the universities**, so that the builders' children are formed against the household that raised them.
-* **The Defense:** Builders must never surrender the moral and intellectual formation of their children to ideological strangers. Guard the schools, boards, and curricula with the same vigilance with which one guards the household.
+If the movements that hold such an ideal had to populate their own island by raising their own children from infancy, they would become extinct in a single generation. Such movements continue only by drawing upon outsiders. Households that do not hold the ideal bear, feed, and form the children, and the movement recruits those children at school age. The capture runs through **the teacher-training colleges, the school curricula, the youth media, and the universities**, so that the builders' children are formed against the household that raised them.
 
-#### 2. Social and Economic Parasitism (The Able *Will-Not* Hiding Behind the *Cannot*)
+**The Defense:** Builders must never surrender the moral and intellectual formation of their children to ideological strangers. Guard the schools, boards, and curricula with the same vigilance with which one guards the household.
+
+#### 2. Social and Economic Parasitism: The Able *Will-Not* Hiding Behind the *Cannot*
 
 In every society, there is a small number of people who **genuinely cannot** support themselves through no fault of their own, including the severely disabled from birth, the gravely injured, and the frail elderly without kin. A sound society willingly supports those genuine *cannots* through family, charity, and scoped reserves.
 
-**Social parasitism** occurs when able-bodied adults who **will not** work, or corporate interests that **will not** compete fairly in the market, conceal themselves behind the genuine *cannots* in order to live upon the taxed labor of productive citizens:
+**Social parasitism** occurs when able-bodied adults who **will not** work, or corporate interests that **will not** compete fairly in the market, conceal themselves behind the genuine *cannots* in order to live upon the taxed labor of productive citizens. At the lower end of the social scale, it is the able-bodied man who refuses available employment, vandalizes public parks and transit vehicles built by others' taxes, and treats public assistance as a permanent livelihood. At the upper end of the social scale, it is the **crony rent-seeker** or bureaucratic sinecure-holder who produces no goods or services that voluntary customers would purchase, but lobbies the legislature to compel taxpayers to subsidize his enterprise or mandate his administrative services.
 
-* At the lower end of the social scale, it is the able-bodied man who refuses available employment, vandalizes public parks and transit vehicles built by others' taxes, and treats public assistance as a permanent livelihood.
-* At the upper end of the social scale, it is the **crony rent-seeker** or bureaucratic sinecure-holder who produces no goods or services that voluntary customers would purchase, but lobbies the legislature to compel taxpayers to subsidize his enterprise or mandate his administrative services.
-* **The Defense:** Strictly separate the *cannot* from the *will-not*, and terminate subsidies to both the able-bodied dependent and the corporate rent-seeker.
+**The Defense:** Strictly separate the *cannot* from the *will-not*, and terminate subsidies to both the able-bodied dependent and the corporate rent-seeker.
 
-#### 3. Technological and Civilizational Parasitism (Consuming the Fruit While Destroying the Foundation)
+#### 3. Technological and Civilizational Parasitism: Consuming the Fruit While Destroying the Foundation
 
 A clear instance is the postmodern professor who flies at thirty-five thousand feet in a commercial jetliner, takes antibiotics when he contracts an infection, drinks purified municipal water, and collects a salary paid by industrial taxpayers, while spending his afternoon lecture teaching twenty-year-olds that objective scientific truth, merit, engineering standards, and property rights are "oppressive Western constructs" that must be dismantled.
 
-* Another instance is an extremist movement that imports satellite telephones, modern rifles, antibiotics, and electrical generators designed by empirical scientific societies while enforcing a regime of religious or ideological dogma that forbids free scientific inquiry at home.
-* Both are **technological parasites**: they consume the technical achievements of correspondence truth (Principle 1) and of seeking excellence (Virtue 3) while actively undermining the intellectual and institutional foundation that produces those capabilities.
+Another instance is an extremist movement that imports satellite telephones, modern rifles, antibiotics, and electrical generators designed by empirical scientific societies while enforcing a regime of religious or ideological dogma that forbids free scientific inquiry at home.
+
+Both are **technological parasites**: they consume the technical achievements of correspondence truth (Principle 1) and of seeking excellence (Virtue 3) while actively undermining the intellectual and institutional foundation that produces those capabilities.
 
 ---
 
-### 4. Fatalism as a Justification for Inaction (And Why Assigned Action Is the Remedy)
+### 4. Fatalism as a Justification for Inaction, and Assigned Action as Its Remedy
 
 Finally, an internal failure tempts even those who recognize the truth about reality: **fatalism**, the posture of surveying the real problems of one's society or the world and declaring: *"Everything is already lost. The culture is too corrupt, the institutions are too captured, and the demographics, the environment, or the public debt are beyond recovery; therefore, there is no point in marrying, no point in having children, no point in mastering a difficult trade, and no point in maintaining my neighborhood or serving on a local board."*
 
@@ -1864,21 +1856,46 @@ When an institution, such as a manufacturing company, a railroad, a hospital sys
 
 **The Engineering Mode** and **The Managerial Mode** differ across all Five Common Principles and Seven Virtues:
 
-| Dimension | **The Engineering Mode (Civilizational Builder)** | **The Managerial Mode (Bureaucratic Decay)** |
-| :--- | :--- | :--- |
-| **1. Ultimate Auditor (Principle 1 and Virtue 1)** | **Physical Reality.** Gravity, metallurgy, thermodynamics, biology, and the cash ledger. If the bridge collapses or the patient dies, no presentation saves the engineer. | **Consensus, Public Appearances, and Paper Compliance.** If the school fails to teach reading or the bridge corrodes, the manager redefines the metric, lowers the passing threshold, and issues a favorable press release. |
-| **2. Accountability (Principle 3 and Virtue 2)** | **Single-Point Ownership.** One chief engineer or master craftsman stamps his name on the inspection plate and answers for the outcome. | **Committee Diffusion.** Decisions are routed through fifteen sign-off committees and administrative manuals so that when failure occurs, **nobody is responsible** because *"all standard procedures were followed."* |
-| **3. Selection and Competence (Principle 2 and Virtue 3)** | **Demonstrated Craft Excellence.** Graded by objective performance on the test bench, cockpit simulator, or battlefield. | **Credentialism and Ideological Loyalty.** Graded by certificates, fluency in bureaucratic and ideological terminology, demographic quotas ("Equity"), and avoiding controversy in committee. |
-| **4. Human Limits and Error (Principle 2 and Virtue 5)** | **Humility Before Reality.** Uses concrete error-checkers (pre-flight checklists, stress tests, replication) and listens when a junior mechanic spots a cracked O-ring. | **Arrogance Toward Reality, Timidity Toward Peers.** Suppresses frontline engineers who bring "negative news" that threatens the management schedule or narrative (as at Chernobyl or NASA's *Challenger* launch). |
-| **5. Risk and Agency (Principle 3 and Section 1 Above)** | **Margin of Safety and the Open Workshop.** Builds stout physical margins against catastrophe while allowing iterative testing and instructive failure so technology advances. | **Administrative Paralysis ("The Locked Shop Door").** Fearing any visible incident during his tenure, the regulator demands eighty thousand dollars and five years of documentation before anyone may operate a workshop, suppressing new enterprise. |
-| **6. Justice and Rules (Principle 5)** | **Scoped Procedural Symmetry.** Clear, brief specifications written in advance and applied identically to every beam and every applicant. | **Discretionary Administrative Rule.** Ten thousand pages of vague, contradictory compliance rules enforced selectively by administrative officials and boards depending on whom they wish to penalize. |
-| **7. Aesthetic Signature (Virtue 4)** | **Vitality, Order, and Truth (Hangar A).** Clean floors, maintained tools, durable materials, and undisguised function. | **Sterile Ugliness (Hangar B and Compliance Posters).** Peeling paint, rusted machinery, and potholed streets concealed behind glossy mission statements and ideological banners. |
+1. **Ultimate Auditor** (Principle 1 and Virtue 1)
+
+    * *Engineering mode:* **Physical Reality.** Gravity, metallurgy, thermodynamics, biology, and the cash ledger. If the bridge collapses or the patient dies, no presentation saves the engineer.
+    * *Managerial mode:* **Consensus, Public Appearances, and Paper Compliance.** If the school fails to teach reading or the bridge corrodes, the manager redefines the metric, lowers the passing threshold, and issues a favorable press release.
+
+2. **Accountability** (Principle 3 and Virtue 2)
+
+    * *Engineering mode:* **Single-Point Ownership.** One chief engineer or master craftsman stamps his name on the inspection plate and answers for the outcome.
+    * *Managerial mode:* **Committee Diffusion.** Decisions are routed through fifteen sign-off committees and administrative manuals so that when failure occurs, **nobody is responsible** because *"all standard procedures were followed."*
+
+3. **Selection and Competence** (Principle 2 and Virtue 3)
+
+    * *Engineering mode:* **Demonstrated Craft Excellence.** Graded by objective performance on the test bench, cockpit simulator, or battlefield.
+    * *Managerial mode:* **Credentialism and Ideological Loyalty.** Graded by certificates, fluency in bureaucratic and ideological terminology, demographic quotas ("Equity"), and avoiding controversy in committee.
+
+4. **Human Limits and Error** (Principle 2 and Virtue 5)
+
+    * *Engineering mode:* **Humility Before Reality.** Uses concrete error-checkers (pre-flight checklists, stress tests, replication) and listens when a junior mechanic spots a cracked O-ring.
+    * *Managerial mode:* **Arrogance Toward Reality, Timidity Toward Peers.** Suppresses frontline engineers who bring "negative news" that threatens the management schedule or narrative, as at Chernobyl or before NASA's *Challenger* launch.
+
+5. **Risk and Agency** (Principle 3)
+
+    * *Engineering mode:* **Margin of Safety and the Open Workshop.** Builds stout physical margins against catastrophe while allowing iterative testing and instructive failure so technology advances.
+    * *Managerial mode:* **Administrative Paralysis.** Fearing any visible incident during his tenure, the regulator demands eighty thousand dollars and five years of documentation before anyone may operate a workshop, suppressing new enterprise. This is the locked shop door of section 1.
+
+6. **Justice and Rules** (Principle 5)
+
+    * *Engineering mode:* **Scoped Procedural Symmetry.** Clear, brief specifications written in advance and applied identically to every beam and every applicant.
+    * *Managerial mode:* **Discretionary Administrative Rule.** Ten thousand pages of vague, contradictory compliance rules enforced selectively by administrative officials and boards depending on whom they wish to penalize.
+
+7. **Aesthetic Signature** (Virtue 4)
+
+    * *Engineering mode:* **Vitality, Order, and Truth.** Clean floors, maintained tools, durable materials, and undisguised function, as in Hangar A of Chapter 7.
+    * *Managerial mode:* **Sterile Ugliness.** Peeling paint, rusted machinery, and potholed streets concealed behind glossy mission statements, compliance posters, and ideological banners, as in Hangar B of Chapter 7.
 
 #### Managerialism vs. Engineering in Practice: From the Launchpad to the Hospital
 
 In three familiar domains, the shift from Engineering to Managerialism has had physical consequences:
 
-1. **In Aerospace and Industrial Safety (The *Challenger* O-Ring Lesson):** On the night of January 27, 1986, the frontline rocket engineers at Morton Thiokol, led by Roger Boisjoly and Allan McDonald, reviewed the physical data showing that rubber O-ring seals in the solid rocket boosters stiffened and failed to seal at freezing temperatures (twenty-nine degrees Fahrenheit forecast at Cape Canaveral). They urged management not to launch. Instead of halting the flight, because NASA and corporate managers were under schedule and public-relations pressure, a senior executive told a fellow manager to **"take off your engineering hat and put on your management hat,"** overruling the engineers' physical data by administrative vote. Seventy-three seconds after liftoff the next morning, physical reality enforced its laws and killed all seven astronauts.
+1. **In Aerospace and Industrial Safety:** On the night of January 27, 1986, the frontline rocket engineers at Morton Thiokol, led by Roger Boisjoly and Allan McDonald, reviewed the physical data showing that rubber O-ring seals in the solid rocket boosters stiffened and failed to seal at freezing temperatures (twenty-nine degrees Fahrenheit forecast at Cape Canaveral). They urged management not to launch. Instead of halting the flight, because NASA and corporate managers were under schedule and public-relations pressure, a senior executive told a fellow manager to **"take off your engineering hat and put on your management hat,"** overruling the engineers' physical data by administrative vote. Seventy-three seconds after liftoff the next morning, physical reality enforced its laws and killed all seven astronauts.
 2. **In Medicine and Education:** Fifty years ago, a community hospital was directed by chief surgeons and head nurses (**Engineers of health**), and a school was directed by a headmaster who taught mathematics and Latin (**Engineers of formation**). Today, in hospital and university systems across the West, administrative and compliance staff have grown faster than the frontline physicians and teaching faculty they exist to support. The surgeon spends half his day completing administrative and billing forms designed by personnel who have never held a scalpel, while the teacher attends mandatory ideological training sessions while more than a third of American fourth-grade pupils read below the basic level (National Assessment of Educational Progress, 2022).
 3. **In Statecraft and Defense:** An engineering state builds ships in eighteen months, stockpiles artillery shells in the warehouse, maintains its electrical grid, and evaluates military commanders by whether they win battles. A managerial state takes years to approve the environmental impact statement for a single munitions factory (the average federal environmental impact statement took four and a half years from notice to decision; Council on Environmental Quality, 2020), promotes officers for preparing presentations on climate and inclusion, and imagines that statistical tables of service-sector activity can deter hypersonic missiles.
 
@@ -1920,7 +1937,7 @@ As we saw in Chapter 2, the eighteenth-century Scottish Common Sense Realists, l
 
 The architects of classical Anglo-American constitutionalism combined Scottish Realism and English common-law procedure to solve the central problem of **Principle 2** and **Principle 5**: how to establish a strong government administered by flawed, self-interested mortals without permitting the rulers to plunder the citizens.
 
-* **John Locke** (*Second Treatise of Government*, 1689) rightly recognized that life, liberty, and property (the fruit of a person's labor mixed with the earth) exist prior to the state, and that people form governments to act as an impartial procedural magistrate (**Principle 5**) rather than remaining in a state of private blood feuds. (Where Locke's epistemology was defective, namely in his *tabula rasa* or "blank slate" hypothesis and his indirect theory of perception, Thomas Reid and **James Wilson**, one of the primary drafters of the U.S. Constitution and a fellow Scot trained in Common Sense Realism, supplied the needed corrective.)
+* **John Locke** (*Second Treatise of Government*, 1689) rightly recognized that life, liberty, and property (the fruit of a person's labor mixed with the earth) exist prior to the state, and that people form governments to act as an impartial procedural magistrate (**Principle 5**) rather than remaining in a state of private blood feuds. Locke's theory of knowledge was weaker: his *tabula rasa*, or "blank slate," and his indirect theory of perception. Thomas Reid supplied the corrective, and **James Wilson**, a Scot trained in Common Sense Realism and one of the primary drafters of the U.S. Constitution, carried it into his *Lectures on Law*.
 * **James Madison** (*Federalist* Nos. 10 and 51) is the foremost political engineer of **Principle 2**: instead of assuming that elections would fill Congress with selfless angels, Madison designed separated branches, bicameral checks, federalism, and enumerated scopes of jurisdiction so that *"ambition must be made to counteract ambition."*
 
 #### C. Burkean Conservatism (Edmund Burke, Russell Kirk)
@@ -2000,20 +2017,27 @@ Even more specifically, the **teachings of Jesus of Nazareth** in the Gospels ar
 * **Failure Mode 1: Scripturalism (Clark / Crampton).** As we examined in depth in Chapter 3, extreme Scripturalism denies the Book of Nature and correspondence truth (**Principle 1**), claiming that empirical observation can never discover truth and confining inquiry within an unfalsifiable textual system.
 * **Failure Mode 2: Progressive Church Inversion.** Across the twentieth and twenty-first centuries, many historic mainline denominations retained their historic stone buildings, stained-glass windows, clerical vestments, and traditional vocabulary on the signboard outside, while completely hollowing out and inverting the internal premises inside. They replaced correspondence truth (**Principle 1**) with therapeutic sentiment, replaced keeping and building family life (**Principle 3** and **Virtue 6**) with ideological activism, erased the distinction between inner-tier duty and borderless universalism (**Principle 4**), and replaced symmetrical judgment and repentance (**Principle 5**) with unconditional permissiveness. The result, predictably, has been institutional decline within two generations.
 
-#### B. Islam: Distinguishing Persons and the *Falsafa* Heritage From the Classical Political-Theological System
+#### B. Islam: A Political Law Scoped by the Confession
 
-In evaluating Islam under the Five Principles, **truth (Principle 1)** and **scoped procedural symmetry (Principle 5)** require a clear distinction between:
+Islam rests on three sources: the Qur'an, which it holds to be the word of God; the Hadith, the reports of what Muhammad said, did, and approved; and the Sira, the account of his life. The Qur'an binds the three together: *"Whoever obeys the Messenger has obeyed God"* (4:80). A person enters Islam by the confession (*shahada*), *"There is no god but God, and Muhammad is the Messenger of God."* It is the first of the five on which, in the hadith, *"Islam is built"*, followed by prayer, the alms tax (*zakat*), the pilgrimage, and the fast of Ramadan (Bukhari 8). The Qur'an describes itself as sent down from the Lord of the worlds (26:192), free of doubt (2:2), and an explanation of all things (16:89), and it makes judging by what God has sent down a mark of belief (5:44). In the Sira, Muhammad at Medina is prophet, lawgiver, judge, and commander at once, and the Qur'an holds him up as the example to follow (33:21).
 
-1. **Individual Muslim human beings** (who, like any other human beings, vary across every degree of personal honesty, family devotion, craftsmanship, and goodwill) and the historical **rationalist scientific heritage** of the Islamic world (such as the Mu'tazilite thinkers and the *falsafa* tradition of **Ibn al-Haytham** in optics, **Ibn Sina / Avicenna** in medicine, and **Ibn Rushd / Averroes** in defense of natural causation and Aristotelian reason); and
-2. **The classical orthodox political-theological system of Islam (*fiqh* and *sharia* statecraft)** when implemented as a comprehensive legal and political order.
+Islam is therefore a political order as well as a faith: its law claims the polity. Evaluated against the Five Principles, that order shows three structural conflicts in its foundational texts and legal codes.
 
-When that classical political-theological system, together with its modern Islamist revivals, is evaluated against the Five Principles, four structural conflicts appear directly in the foundational texts and legal codes:
+**On causation and public truth (Principle 1).** As we saw in Chapter 3, **Al-Ghazali's** Ash'arite occasionalism holds that created things have no action of their own and that the regularity of nature is a habit of God's creating, and al-Azhar's secondary creed textbook still classifies the belief that fire burns by its nature as unbelief. Furthermore, classical jurisprudence developed explicit doctrines of **boundary speech**. ***Taqiyya***, developed chiefly in Shi'a jurisprudence as a dispensation under persecution and recognized in Sunni treatises for believers under coercion (on the basis of Qur'an 3:28 and 16:106), permits a believer to conceal his faith or his intentions from outsiders, and the jurists' law of war permitted deceiving the enemy in battle. Where truth-telling is scoped by religious boundary rather than owed symmetrically in the public square, cross-community trust erodes.
 
-* **On causation and public truth (Principle 1):** As we saw in Chapter 3, **Al-Ghazali's** Ash'arite occasionalism holds that created things have no action of their own and that the regularity of nature is a habit of God's creating, and al-Azhar's secondary creed textbook still classifies the belief that fire burns by its nature as unbelief. Furthermore, classical jurisprudence developed explicit doctrines of **boundary speech**. ***Taqiyya***, developed chiefly in Shi'a jurisprudence as a dispensation under persecution and recognized in Sunni treatises for believers under coercion (on the basis of Qur'an 3:28 and 16:106), permits a believer to conceal his faith or his intentions from outsiders, and the jurists' law of war permitted deceiving the enemy in battle. Where truth-telling is scoped by religious boundary rather than owed symmetrically in the public square, cross-community trust erodes.
-* **On the scope of the polity and *jizya* subordination (Principles 4 and 5):** Classical Islamic statecraft was founded not as a private spiritual church alongside a civil state, but as an all-encompassing military-political jurisdiction dividing the world into ***Dar al-Islam*** (the House of Submission, governed by Islamic law) and ***Dar al-Harb*** (the House of War, not yet brought under Islamic rule). Inside *Dar al-Islam*, as we noted in Chapter 9, legal procedure is explicitly **asymmetrical by religion**: under **Qur'an 9:29** (*"Fight those who do not believe in Allah or in the Last Day... among the People of the Book, until they give the jizya willingly while they are humbled/subdued"*), conquered Jews and Christians (*dhimmis*) are placed in a permanent subordinate legal tier and barred from equal courtroom testimony against Muslims, while Muslims who leave the faith (**apostasy**, *riddah*) face the death penalty under classical jurisprudence across all four major Sunni schools (*madhhabs*) and Ja'fari Shi'a law.
-* **On Modern Revolutionary Islamism (*Velayat-e Faqih* and Muslim Brotherhood Doctrine):** In the twentieth century, thinkers such as **Sayyid Qutb** in Egypt and **Ayatollah Ruhollah Khomeini** in Iran (*Islamic Government: Governance of the Jurist*, 1970) removed even the traditional quietist accommodations of earlier centuries and turned Islam into a totalizing revolutionary state ideology, explicitly rejecting secular constitutional symmetry, national sovereignty, and freedom of conscience as idolatrous (*jahiliyyah* or *taghut*).
+**On the scope of the polity, *jizya*, and apostasy (Principles 4 and 5).** Read at its strongest, classical Islamic law is a **scoped procedure**: its rules were set down in advance by the legal schools, administered by trained judges (*qadis*), and applied alike to every person in the same position. The scope it chose is the confession. The jurists divided the world into ***Dar al-Islam***, the House of Islam, governed by Islamic law, and ***Dar al-Harb***, the House of War, not yet brought under it. Inside *Dar al-Islam*, full symmetry held among Muslims. Jews and Christians who kept their religion lived in a second, lower scope on the terms of **Qur'an 9:29**: *"Fight those who do not believe in God or in the Last Day… among those who were given the Book, until they pay the jizya by hand, brought low."* A man who left Islam met the rule of the hadith *"Whoever changes his religion, kill him"* (Bukhari 6922), which all four Sunni schools and Ja'fari Shi'a law apply; Hanafi and Ja'fari law imprison an apostate woman instead. A Muslim who insults the Prophet is counted an unbeliever and killed in all four schools, and in three of them a non-Muslim who insults him breaks his covenant and loses its protection; the Hanafis dissent.
 
-Any free constitutional society that wishes to preserve **scoped procedural symmetry (Principle 5)** must understand this distinction clearly: individual citizens of Muslim background who embrace constitutional citizenship under a single symmetrical secular law are welcome participants in civic life, **while the political-legal system of supremacist *sharia* jurisdiction, blasphemy coercion, apostasy penalties, and sectarian legal tiers is fundamentally incompatible with a constitutional republic and must be granted no legal jurisdiction within its borders.**
+The defect is not a lack of procedure but where the scope is drawn. The positions of Chapter 9, citizen and visitor, are open to anyone who meets their stated conditions, and anyone may leave them. The scope of the confession opens one way: a non-Muslim enters the upper tier by converting, and a man who leaves it forfeits his life. Drawn through one land, it divides neighbors into a ruling tier and a subordinate tier, which Chapter 9 found cannot make one polity.
+
+The rule is not only historical. In Pakistan, insulting the Prophet has carried death and no lesser penalty since a 1991 ruling of the Federal Shariat Court (Penal Code s. 295-C). Its courts sentenced at least eight people to death for blasphemy in 2023, and at least 104 people were killed outside the courts after blasphemy accusations between 1994 and 2024. Pakistan's constitution requires the president to be a Muslim and classes Ahmadis as non-Muslims, and its penal code punishes Ahmadis who present themselves as Muslims (ss. 298-B and 298-C). Iran's penal code sets death for insulting the Prophet (art. 262) and reaches apostasy through the constitution's reference to Islamic sources (art. 220 and constitution art. 167). On 8 May 2023 Iran hanged Yousef Mehrdad and Sadrollah Fazeli Zare for crimes including blasphemy. The same code writes the confession into the law of homicide: a Muslim who kills a non-Muslim outside the three recognized religions, such as a Baha'i, faces no retaliation (art. 310), and Iran's civil code bars a non-Muslim from inheriting from a Muslim (art. 881 bis).
+
+Saudi Arabia punishes apostasy with death; Ahmad al-Shamri was sentenced to death for it in 2015, and the Supreme Court upheld the sentence in 2017. Its 2022 Family Law bars a Muslim woman from marrying a non-Muslim man. Mauritania made death mandatory for blasphemy in 2018. Brunei's Syariah Penal Code, in force since 2019, sets death for apostasy and for insulting the Prophet, though an execution moratorium applies. A Sharia court in Kano, Nigeria, sentenced Yahaya Sharif-Aminu to death for blasphemy in 2020, and the Taliban's decree of January 2026 sets death for a Muslim who insults the Prophet and does not repent.
+
+In Egypt, 88 percent of Muslims surveyed by Pew in late 2011 favored the death penalty for those who leave Islam. The same direction appears among Muslims in Western Europe, where no such law applies. In France, an IFOP survey of 1,005 Muslims in 2025 found that 46 percent want Muslim law applied in full or in part, rising to 59 percent of those aged 15 to 24; that 44 percent would follow the rules of their religion over French law on marriage or inheritance; and that 20 percent hold that a Muslim has no right to leave Islam. In Britain, a 2026 survey of 1,006 Muslims for *The Economist* found that 29 percent want sharia to be the main basis of British law or one influence on it; that 20 percent would put Islamic teaching ahead of an act of Parliament, rising to 27 percent of those aged 18 to 24; and that 22 percent hold that violence against a person who insults the Prophet can be justified, rising to 37 percent of those aged 18 to 24.
+
+**On modern revolutionary Islamism (*Velayat-e Faqih* and Muslim Brotherhood doctrine).** In the twentieth century, thinkers such as **Sayyid Qutb** in Egypt and **Ayatollah Ruhollah Khomeini** in Iran (*Islamic Government: Governance of the Jurist*, 1970) removed even the traditional quietist accommodations of earlier centuries and turned Islam into a totalizing revolutionary state ideology, explicitly rejecting secular constitutional symmetry, national sovereignty, and freedom of conscience as idolatrous (*jahiliyyah* or *taghut*).
+
+A constitutional republic draws one scope for everyone inside its borders: the citizen before the law, whatever his religion. A law whose scope is the confession, guarded by *jizya* at its boundary and by death at its exit, cannot share a polity with that rule. **The political-legal system of supremacist *sharia* jurisdiction, blasphemy coercion, apostasy penalties, and sectarian legal tiers is fundamentally incompatible with a constitutional republic and must be granted no legal jurisdiction within its borders.**
 
 #### C. Buddhism: Valuable Tier-1 Mental Discipline, Insufficient Civilizational Root
 
@@ -2022,7 +2046,6 @@ This assessment covers all three branches of **Buddhism**: Theravada, Mahayana, 
 * **Where Buddhism provides genuine value:** As a **personal psychological and attentional discipline (Tier 1)**, Buddhist mindfulness, meditation, and the analysis of how craving (*tanha*) and undisciplined emotional reactivity cloud human judgment offer practical methods for self-command, composure under pressure, and humility (**Virtue 5**).
 * **Why Buddhism cannot serve as a standalone root for civilization:** The foundational metaphysical premise of Buddhism is stated in the **Four Noble Truths**. Buddhism begins with the premise that all conditioned biological and material existence is fundamentally **unsatisfactory suffering (*dukkha*)**, that desire for life and attachment to the world is the cause of that suffering, and that the supreme spiritual goal is **Nirvana**, literally the extinguishing of the flame of desire and the termination of the cycle of biological rebirth (*samsara*). Consequently, the highest ideal of classical Buddhism is the **celibate monk (*bhikkhu*)** who leaves behind wife, children, farm, workshop, and army to live on alms offered by lay households.
 * Judged on its own terms, an ideal that is the root of a civilization has to be able to sustain itself when people actually attain it. If every member attains the highest Buddhist ideal of celibate monastic non-attachment, no one cultivates the fields, no one manufactures tools, no one defends the frontier, and no children are born. The society ends within one generation. Continuance then depends on people who do not attain the ideal, or who set it aside. Jain mendicants meet the same test: the highest form does not pick the fruit or till the soil, and lay households do that work so the mendicant can keep the rule. A root that survives only by being broken is not a root.
-* **The same test applied to Christianity.** The Christian heritage examined above gives a different result, because its highest good is not a state of life or of mind, such as the extinguishing of desire, but obedience to God and salvation, which are open to the married and the unmarried alike. Celibacy is a particular gift for some: *"Not everyone can accept this statement, except those to whom it has been given"* (Matthew 19:11); *"each has his own gift from God, one this way, another that"* (1 Corinthians 7:7). Paul gives his own counsel on it *"as a concession, not as a command"* (1 Corinthians 7:6). Even where a church honors consecrated celibacy as a high calling, it is not required of all and is not the condition of salvation. The blessing given to the first man and woman, *"Be fruitful and multiply"* (Genesis 1:28), was repeated to Noah and his sons after the flood (Genesis 9:1). If every Christian attained the highest Christian good, households would still marry and bear children, and the society would continue. The Shakers, who made celibacy the rule for every full member, departed from that teaching, and Chapter 11 records the result.
 
 #### D. Shinto: Strong on Continuity and Beauty, Vulnerable When Bound to Blood Mysticism
 
@@ -2043,14 +2066,13 @@ When an intelligent young man or woman realizes that postmodern constructivism, 
 
 In recent years, two clusters of "anti-liberal" thinkers on the political right have gained followings by attacking progressive decay while **also attacking universal truth (Principle 1), the checks that limited rulers need (Principle 2), keeping and building (Principle 3), and scoped procedural symmetry (Principle 5)**:
 
-#### A. Western Right-Wing Anti-Proceduralists (Wolfe, Yarvin, Haywood, MacIntyre)
+#### A. Western Right-Wing Anti-Proceduralists (Wolfe, Yarvin, Haywood)
 
-Four contemporary Western writers urge conservatives to discard constitutional procedural symmetry in favor of unchecked authoritarian or sectarian rule:
+Three contemporary Western writers urge conservatives to discard constitutional procedural symmetry in favor of unchecked authoritarian or sectarian rule:
 
 1. **Stephen Wolfe** (*The Case for Christian Nationalism*, 2022): Rightly notes that human beings are particular and need cultural continuity (**Principle 4**), but then proposes to replace constitutional procedural symmetry (**Principle 5**) with a semi-theocratic **"Christian Prince"** empowered to enforce sectarian religious orthodoxy by state coercion and reduce citizens outside his favored confessional circle to second-class subjects. European history from 1524 to 1648 (the Wars of Religion, which killed a third of Central Europe's population) demonstrates why British and American Christians established constitutional separation of church and state: **under Principle 2, whenever a mortal magistrate is given the sword to enforce sectarian theology, he corrupts the church and persecutes his fellow Christians over which doctrinal confession is orthodox.**
 2. **Curtis Yarvin** ("Neo-Reaction" / *Patchwork*): Rightly diagnoses how unaccountable administrative bureaucracies and media-academic complexes ("the Cathedral") subvert democratic accountability, **but then prescribes a remedy more destructive than the malady**: abolishing constitutional separation of powers, representative legislatures, and independent courts entirely in favor of an **unchecked absolute monarch or "CEO-Dictator"** who owns the country like a private joint-stock corporation. Yarvin overlooks the most basic lesson of **Principle 2**: a mortal dictator with no procedural checks who rules well on Monday can become irrational, senile, or corrupt on Tuesday, or bequeath the throne to a Caligula or Commodus on Wednesday; and once the courts and constitutional checks have been demolished, the citizens possess no peaceful mechanism to prevent him from plundering their enterprises and subjugating their children.
 3. **Charles Haywood** ("Foundationalism" / Warlordism): Advocates replacing constitutional order with personalist rule by a strongman warlord and a fraternal military caste, explicitly scorning the universal rule of law. Anyone who has studied warlord rule in historical practice, where a merchant cannot ship a load of flour ten miles without paying bribes at three checkpoints and where the warlord's lieutenants can seize a family's property or workshop at gunpoint without courtroom recourse, knows that warlordism destroys **keeping and building (Principle 3)** and **procedural symmetry (Principle 5)**.
-4. **Auron MacIntyre** (Friend and Enemy): Follows Carl Schmitt in calling the friend/enemy distinction "the true essence of the political" (post on X, 4 August 2025). Taken as the rule of domestic government, that view makes politics a matter of rewarding friends and punishing enemies through state power, and treats impartial principle, procedural fairness, and constitutional rules as weaknesses. **The structure of that claim is identical to its progressive counterpart.** It rests upon the same premise as **Michel Foucault** and **Herbert Marcuse's *Repressive Tolerance***, merely advanced from the political right rather than the political left. If both factions within a republic conclude that courts, statutes, and elections are merely instruments for plundering their political opponents, constitutional government ceases to exist and civil war becomes the only remaining procedure.
 
 #### B. Alexander Dugin and *The Fourth Political Theory*: The Collectivist Leveler in Traditionalist Robes
 
@@ -2082,7 +2104,7 @@ Dugin's actual writings and speeches state his core premises directly, allowing 
 
 4. **Dugin abolishes procedural symmetry in favor of eternal imperial war (Principle 5):**
 
-    Because Dugin rejects legal symmetry, individual property rights, and constitutional checks inside the state, and views international politics through Carl Schmitt's doctrine of total existential war between "Land Power" (Eurasia) and "Sea Power" (the constitutional West), his system cannot build high-trust domestic courts or peaceful prosperity. Instead, it requires **permanent external conquest and internal secret-police mobilization** to justify domestic poverty and coercion.
+    Because Dugin rejects legal symmetry, individual property rights, and constitutional checks inside the state, and views international politics as a permanent war between "Land Power" (Eurasia) and "Sea Power" (the constitutional West), his system cannot build high-trust domestic courts or peaceful prosperity. Instead, it requires **permanent external conquest and internal secret-police mobilization** to justify domestic poverty and coercion.
 
 The verdict under the Five Principles is clear: **Alexander Dugin is not a defender of civilization against postmodernism; he is a collectivist leveler and postmodern anti-realist whose program leads to serfdom and imperial warfare.**
 
@@ -2233,7 +2255,7 @@ When two anti-procedural factions combine to overthrow a constitutional order, t
 
 Today, in the streets, universities, municipal councils, and non-governmental organizations of Western constitutional democracies, the same **Red-Green Tactical Alliance** operates (radical progressive and Marxist activists cooperating with political Islamist organizations):
 
-* Radical progressive activists who denounce traditional Christians over social doctrines simultaneously march alongside Islamist groups whose classical legal doctrine prescribes severe punishment for homosexuality and legal subordination for women and religious minorities because **both share the immediate tactical goal of subverting and paralyzing the host Western constitutional order.**
+> Radical progressive activists who denounce traditional Christians over social doctrines simultaneously march alongside Islamist groups whose classical legal doctrine prescribes severe punishment for homosexuality and legal subordination for women and religious minorities because **both share the immediate tactical goal of subverting and paralyzing the host Western constitutional order.**
 
 This Red-Green alliance operates within an open society through **five operational mechanics**:
 
@@ -2251,9 +2273,9 @@ This Red-Green alliance operates within an open society through **five operation
 
 ## Chapter 14: The Daily Practice of Civilization
 
-A treatise of principles that remains unused on a shelf fails its own standard.
+A treatise of principles left unused on a shelf fails its own standard.
 
-As we established in Chapter 1, civilization is a **technology**, an actionable answer of **Will** and **Method** to the question of how human life continues and flourishes across generations. Therefore, in this final chapter, let us set forth three practical instruments:
+Chapter 1 described civilization as a **technology**. It has two parts, **Will** and **Method**, and together they answer how human life continues and flourishes across generations. A technology is judged by use. This chapter gives three instruments for using it:
 
 1. **Diagnostic Tools for Public Debate and Intellectual Defense;**
 2. **The Seven-Filter Decision Checklist Applied to Practical Scenarios;** and
