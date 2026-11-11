@@ -327,13 +327,21 @@ with open(out_path, "w") as f:
 
   # LaTeX book preamble:
   # - Each chapter starts on a new page (\chapter in book class with openany).
-  # - TOC lists chapters (--toc --toc-depth=1).
+  # - TOC lists chapters (--toc --toc-depth=1). chapter_toc.lua turns each
+  #   "Chapter N: Title" heading into a contents entry with a number column
+  #   ("N  Title"); tocloft sets the entries ragged right with room for
+  #   three-digit page numbers.
   # - Two-sided even/odd headers and footers:
   #     Even page header (LE): Book Title
   #     Odd page header  (RO): Chapter Name (\leftmark)
   #     Even/Odd footer  (LE,RO): Page number on outer corners
   set PDFHDR (mktemp --suffix=.tex)
   printf '%s\n' \
+    '\usepackage[titles]{tocloft}' \
+    '\renewcommand{\cftchappagefont}{\normalfont\bfseries}' \
+    '\setlength{\cftbeforechapskip}{0.55em}' \
+    '\setlength{\cftchapnumwidth}{1.8em}' \
+    '\makeatletter\renewcommand{\@pnumwidth}{2.2em}\renewcommand{\@tocrmarg}{3.2em plus 1fil}\makeatother' \
     '\usepackage{titlesec}' \
     '\usepackage{emptypage}' \
     '\newcommand{\nohyph}{\hyphenpenalty=10000\exhyphenpenalty=10000}' \
@@ -363,6 +371,7 @@ with open(out_path, "w") as f:
   echo -n "pdf ... "
   command pandoc $BODY \
     -o $OUT.pdf \
+    --lua-filter=chapter_toc.lua \
     --shift-heading-level-by=-1 \
     --top-level-division=chapter \
     --pdf-engine=xelatex \
@@ -465,9 +474,10 @@ with open(out_path, "w") as f:
     > $EPUBCSS
 
   echo -n "html ... "
+  # HTML keeps the markdown levels, so the chapters are h2: depth 2 lists them.
   command pandoc -s $BODY \
     -o $OUT.html \
-    --toc --toc-depth=1 \
+    --toc --toc-depth=2 \
     --embed-resources \
     --css $HTMLCSS \
     -M title="$TITLE" \

@@ -787,7 +787,7 @@ Because living well is measured by the **rate of improvement** rather than the i
 
 We now see what goodness must include: human life continuing, and that life kept and built. Next, we turn to the individual builder and identify the personal virtues required to keep and build in daily life.
 
-## Chapter 7: Ownership, Excellence, Beauty, and Humility in Keeping and Building
+## Chapter 7: The Virtues of Keeping and Building
 
 ### How Principles Are Practiced by the Individual
 
@@ -1546,7 +1546,7 @@ The reason is that **justice is scoped procedural symmetry (Principle 5)** and *
 
     **The Engineering Rule for Sovereign States:** Act in good faith in reciprocal treaties where verification operates; never subordinate your constitution, your courts, or your self-defense to supranational committees; and never forget that beyond your national border, **scope has ended, enemies are real, and your nation's survival rests on your own industrial competence, trusted allies with shared interests, and armed strength.**
 
-## Chapter 10: Children, Inherited Debt, and the Seventy-Year Replacement Horizon
+## Chapter 10: Children, Inherited Debt, and Replacement
 
 Up to this chapter, suppose a society orders almost everything properly.
 
@@ -1943,7 +1943,7 @@ In three familiar domains, the shift from Engineering to Managerialism has had p
 * **Authority and liability must never be separated (Virtue 2).** No committee or administrator who is insulated from the physical consequences of a decision may hold veto power over the engineer, surgeon, commander, or parent who bears the actual consequence.
 * **Audit by physical output, never by process volume (Principles 1 and 3).** Evaluate the school by whether twelve-year-olds can read and compute fractions on an anonymous examination; evaluate the transit authority by whether the trains run clean and on schedule; evaluate the shipyard by how many seaworthy vessels are launched within budget. Eliminate every layer of administrative bureaucracy that cannot demonstrate that it adds more value to the operation than its cost imposes upon the enterprise.
 
-## Chapter 12: Philosophies, Religions, and Political Systems Under the Five Principles
+## Chapter 12: Philosophies, Religions, and Political Systems
 
 We now possess a complete, self-consistent analytical framework: the **Five Common Principles of Reality** and the **Seven Virtues of Civilization**.
 
