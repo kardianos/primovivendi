@@ -11,5 +11,6 @@ Rule for new material: own work and public-domain texts go here. Any copy of a t
 * `azhar_curriculum/README.md`: al-Azhar's secondary creed textbook (2019–2020), including the four-way ruling on causes, translated.
 * `salafi_causes/README.md`: Ibn Taymiyya, Ibn al-Qayyim, and IslamQA answer 238544 on causes, translated.
 * `islam_sunni_salafi/00_summary.md`: the comparison of mainstream Sunni and Salafi positions against the five principles, and on apostates, heretics, and non-Muslims.
+* `islam_sunni_salafi/p1_knowledge_causation.md`, `p2345_nonmuslims_tiers_goods.md`, `p5_apostasy_heresy.md`: the three research reports behind the summary, with Arabic texts, translations, locations, and verification labels. Moved from `ext-ref/` on 2026-11-11; their downloads remain in `ext-ref/islam_sunni_salafi/`.
 
 Arabic quotations are set in block quotes so that right-to-left text lays out correctly.

@@ -1,12 +1,12 @@
 # Mainstream Sunni and Salafi positions, compared against the five principles
 
-Compiled 2026-11-10 from three research reports in `ext-ref/islam_sunni_salafi/` (repo root; not committed). Each claim below is cited in full in the report named in brackets, with Arabic text, translation, location, and a verification label:
+Compiled 2026-11-10 from the three research reports in this folder. Each claim below is cited in full in the report named in brackets, with Arabic text, translation, location, and a verification label:
 
 * `[K]` `p1_knowledge_causation.md`: reason against text, causes, cosmology, evolution, contagion.
 * `[N]` `p2345_nonmuslims_tiers_goods.md`: the good, the tiers of obligation, non-Muslims, human nature.
 * `[A]` `p5_apostasy_heresy.md`: apostasy and heresy, classical and modern.
 
-The downloaded sources are in `dl_p1/`, `dl_p345/`, and `dl_apostasy/` in the same `ext-ref` folder.
+The downloaded sources are in `ext-ref/islam_sunni_salafi/` (repo root; not committed): `dl_p1/`, `dl_p345/`, and `dl_apostasy/`.
 
 "Mainstream Sunni" means the Ash'ari and Maturidi creeds, the four legal schools, and institutions such as al-Azhar and Egypt's Dar al-Ifta. "Salafi" means Ibn Taymiyya, Ibn al-Qayyim, Muhammad ibn 'Abd al-Wahhab, and the Saudi religious establishment (Ibn Baz, Ibn Uthaymeen, al-Fawzan, the Permanent Committee for Research and Fatwa), together with IslamQA.
 
