@@ -2,8 +2,8 @@
 
 # Build each stem in STEMS as pdf, html, and epub.
 # Same pipeline as book1-4/essay_build.fish.
-# build_stem appends .md. It rebuilds when that file is newer than a
-# product, or when a product is missing.
+# build_stem appends .md. It rebuilds when that file or build.fish is newer
+# than a product, or when a product is missing.
 #   build/<stem>.pdf  - print, via LaTeX, 6in x 9in, TeX Gyre Pagella,
 #                       then an optional ghostscript print pass
 #   build/<stem>.html - single-file web edition, book typography embedded
@@ -19,6 +19,9 @@
 # chapter (h1) so the book splits on the three top sections and does not
 # add an empty title chapter. HTML keeps the markdown levels, so ## is an
 # h2 under the title, matching the essay stylesheet.
+#
+# Every product carries AUTHOR as its author. The book (build_book) also
+# carries the date it was built, as its revision date.
 #
 # Required: pandoc, texlive-xetex
 # Optional: ghostscript (print PDF pass)
@@ -45,6 +48,7 @@ set BODYFONT "TeX Gyre Pagella"
 set SANSFONT "TeX Gyre Heros"
 set MONOFONT "TeX Gyre Cursor"
 set PDFX     "on"
+set AUTHOR   "Daniel Theophanes"
 
 function build_stem --argument-names stem
   set -l IN "$stem.md"
@@ -55,10 +59,10 @@ function build_stem --argument-names stem
     exit 1
   end
 
-  # Rebuild when any product is missing or older than the markdown.
+  # Rebuild when any product is missing or older than the markdown or build.fish.
   set -l rebuild 0
   for ext in pdf html epub
-    if not test -f "$OUT.$ext"; or test "$IN" -nt "$OUT.$ext"
+    if not test -f "$OUT.$ext"; or test "$IN" -nt "$OUT.$ext"; or test "build.fish" -nt "$OUT.$ext"
       set rebuild 1
       break
     end
@@ -117,6 +121,7 @@ function build_stem --argument-names stem
     --pdf-engine=xelatex \
     --include-in-header=$PDFHDR \
     -M title="$TITLE" \
+    -M author="$AUTHOR" \
     -V geometry:"paperwidth=$TRIM_W" \
     -V geometry:"paperheight=$TRIM_H" \
     -V geometry:"left=$MARGIN_X" \
@@ -227,6 +232,7 @@ function build_stem --argument-names stem
     --embed-resources \
     --css $HTMLCSS \
     -M title="$TITLE" \
+    -M author="$AUTHOR" \
     --metadata lang=en-US
   if test $status -ne 0
     echo "FAIL"
@@ -243,6 +249,7 @@ function build_stem --argument-names stem
     --split-level=1 \
     --css $EPUBCSS \
     -M title="$TITLE" \
+    -M author="$AUTHOR" \
     --metadata lang=en-US
   if test $status -ne 0
     echo "FAIL"
@@ -314,6 +321,8 @@ with open(out_path, "w") as f:
   end
 
   echo "build book $stem"
+  # Revision date: the day this build runs.
+  set -l BUILD_DATE (date +%Y-%m-%d)
   set TITLE (string trim (string replace -r '^# ' '' (grep -m1 -e '^# ' $IN)))
   if test -z "$TITLE"
     echo "no title: $IN has no H1"
@@ -379,6 +388,8 @@ with open(out_path, "w") as f:
     -V classoption=openany \
     --include-in-header=$PDFHDR \
     -M title="$TITLE" \
+    -M author="$AUTHOR" \
+    -M date="$BUILD_DATE" \
     -V geometry:"paperwidth=$TRIM_W" \
     -V geometry:"paperheight=$TRIM_H" \
     -V geometry:"inner=0.875in" \
@@ -481,6 +492,8 @@ with open(out_path, "w") as f:
     --embed-resources \
     --css $HTMLCSS \
     -M title="$TITLE" \
+    -M author="$AUTHOR" \
+    -M date="$BUILD_DATE" \
     --metadata lang=en-US
   if test $status -ne 0
     echo "FAIL"
@@ -497,6 +510,8 @@ with open(out_path, "w") as f:
     --split-level=1 \
     --css $EPUBCSS \
     -M title="$TITLE" \
+    -M author="$AUTHOR" \
+    -M date="$BUILD_DATE" \
     --metadata lang=en-US
   if test $status -ne 0
     echo "FAIL"
