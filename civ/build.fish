@@ -5,7 +5,7 @@
 # build_stem appends .md. It rebuilds when that file or build.fish is newer
 # than a product, or when a product is missing.
 #   build/<stem>.pdf  - print, via LaTeX, 6in x 9in, TeX Gyre Pagella,
-#                       then an optional ghostscript print pass
+#                       then an optional ghostscript print pass (PDFX)
 #   build/<stem>.html - single-file web edition, book typography embedded
 #   build/<stem>.epub - reflowable ebook, split at the top sections
 #
@@ -22,6 +22,11 @@
 #
 # Every product carries AUTHOR as its author. The book (build_book) also
 # carries the date it was built, as its revision date.
+#
+# The book's PDF opens with COVER, a one-page vector PDF, in front of the
+# title page; its EPUB takes COVER_PNG as the cover image. cover/main.go
+# writes both: `go run .` in cover/. The build only reads them, so it does
+# not need Go.
 #
 # Required: pandoc, texlive-xetex
 # Optional: ghostscript (print PDF pass)
@@ -47,8 +52,14 @@ set LEADING  "1.05"
 set BODYFONT "TeX Gyre Pagella"
 set SANSFONT "TeX Gyre Heros"
 set MONOFONT "TeX Gyre Cursor"
-set PDFX     "on"
+# PDFX "on" runs the ghostscript print pass after xelatex. It is off:
+# xelatex already embeds subset fonts and these PDFs carry no color or
+# images, so the pass had nothing to convert and only grew the files
+# (measured 2026-11-12: book +30%, essays +22-24%).
+set PDFX     "off"
 set AUTHOR   "Daniel Theophanes"
+set COVER    "cover/cover.pdf"
+set COVER_PNG "cover/cover.png"
 
 function build_stem --argument-names stem
   set -l IN "$stem.md"
@@ -93,8 +104,6 @@ function build_stem --argument-names stem
   # display text), centered page number in the footer, no widows/orphans. The
   # title runs centered in the header; the title page uses the plain pagestyle
   # (via \maketitle) so the header appears on every page but the first.
-  # PassOptionsToPackage{draft}{hyperref}: strip link annotations so gs can
-  # reprocess the PDF in the print pass below.
   set PDFHDR (mktemp --suffix=.tex)
   printf '%s\n' \
     '\usepackage{titlesec}' \
@@ -111,8 +120,14 @@ function build_stem --argument-names stem
     '\clubpenalty=10000' \
     '\widowpenalty=10000' \
     '\displaywidowpenalty=10000' \
-    '\PassOptionsToPackage{draft}{hyperref}' \
     > $PDFHDR
+
+  # hyperref gives the PDF its title, author, section bookmarks, and links.
+  # With PDFX on it runs in draft mode instead, which leaves out the link
+  # annotations, so gs can reprocess the PDF in the print pass below.
+  if test "$PDFX" = "on"
+    echo '\PassOptionsToPackage{draft}{hyperref}' >> $PDFHDR
+  end
 
   echo -n "pdf ... "
   command pandoc $BODY \
@@ -307,10 +322,11 @@ with open(out_path, "w") as f:
     exit 1
   end
 
-  # Rebuild when any product is missing or older than the markdown or build.fish.
+  # Rebuild when any product is missing or older than the markdown, build.fish,
+  # or the cover.
   set -l rebuild 0
   for ext in pdf html epub
-    if not test -f "$OUT.$ext"; or test "$IN" -nt "$OUT.$ext"; or test "build.fish" -nt "$OUT.$ext"
+    if not test -f "$OUT.$ext"; or test "$IN" -nt "$OUT.$ext"; or test "build.fish" -nt "$OUT.$ext"; or test "$COVER" -nt "$OUT.$ext"; or test "$COVER_PNG" -nt "$OUT.$ext"
       set rebuild 1
       break
     end
@@ -369,13 +385,35 @@ with open(out_path, "w") as f:
     '\renewcommand{\chaptermark}[1]{\markboth{#1}{}}' \
     '\renewcommand{\sectionmark}[1]{}' \
     '\renewcommand{\headrulewidth}{0pt}' \
-    '\makeatletter\renewcommand\tableofcontents{\chapter*{\contentsname\@mkboth{\contentsname}{\contentsname}}\@starttoc{toc}}\makeatother' \
+    '\makeatletter\renewcommand\tableofcontents{\chapter*{\contentsname\@mkboth{\contentsname}{\contentsname}}\pdfbookmark[0]{\contentsname}{contents}\@starttoc{toc}}\makeatother' \
     '\clubpenalty=10000' \
     '\widowpenalty=10000' \
     '\displaywidowpenalty=10000' \
     '\AtBeginDocument{\addtocontents{toc}{\protect\nohyph}}' \
-    '\PassOptionsToPackage{draft}{hyperref}' \
     > $PDFHDR
+
+  # hyperref gives the PDF its title, author, and links, and turns the
+  # contents into bookmarks: Contents, then one per chapter, from each
+  # chapter's \addcontentsline in chapter_toc.lua. With PDFX on it runs in
+  # draft mode instead, which leaves out links and bookmarks, so gs can
+  # reprocess the PDF in the print pass.
+  if test "$PDFX" = "on"
+    echo '\PassOptionsToPackage{draft}{hyperref}' >> $PDFHDR
+  end
+
+  # Cover: its own first page, ahead of \maketitle. begindocument/end runs
+  # after every package's \begin{document} setup. \frontmatter's
+  # \cleardoublepage then leaves the inside of the cover blank, so the title
+  # page and every odd page stay on the right. The path is absolute so
+  # xelatex finds the file wherever pandoc runs it.
+  if test -f $COVER
+    printf '%s\n' \
+      '\usepackage{pdfpages}' \
+      '\AddToHook{begindocument/end}{\includepdf{'(realpath $COVER)'}}' \
+      >> $PDFHDR
+  else
+    echo "no cover: $COVER missing, building without it"
+  end
 
   echo -n "pdf ... "
   command pandoc $BODY \
@@ -502,6 +540,13 @@ with open(out_path, "w") as f:
   end
   echo "Done"
 
+  set -l epub_cover
+  if test -f $COVER_PNG
+    set epub_cover --epub-cover-image=$COVER_PNG
+  else
+    echo "no EPUB cover: $COVER_PNG missing, building without it"
+  end
+
   echo -n "epub ... "
   command pandoc -s $BODY \
     -o $OUT.epub \
@@ -509,6 +554,7 @@ with open(out_path, "w") as f:
     --toc --toc-depth=1 \
     --split-level=1 \
     --css $EPUBCSS \
+    $epub_cover \
     -M title="$TITLE" \
     -M author="$AUTHOR" \
     -M date="$BUILD_DATE" \

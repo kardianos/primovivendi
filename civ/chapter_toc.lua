@@ -4,6 +4,7 @@
 -- heading and the running head keep that text. The table of contents
 -- gets a number column instead: "N  Title", with wrapped lines aligned
 -- under the title (\numberline, laid out by tocloft in the preamble).
+-- The PDF bookmark, which would drop the \numberline, reads "N. Title".
 -- "(Principle N)" keeps its number on the same line as the word.
 -- Other formats and other headings pass through unchanged.
 
@@ -23,8 +24,10 @@ function Header(h)
     return nil
   end
   local full = tex(text)
+  local entry = '\\protect\\numberline{' .. n .. '}' .. tex(title)
+  local bookmark = n .. '. ' .. tex(title)
   return pandoc.RawBlock('latex',
     '\\chapter*{' .. full .. '}' ..
-    '\\addcontentsline{toc}{chapter}{\\protect\\numberline{' .. n .. '}' .. tex(title) .. '}' ..
+    '\\addcontentsline{toc}{chapter}{\\texorpdfstring{' .. entry .. '}{' .. bookmark .. '}}' ..
     '\\markboth{' .. full .. '}{}')
 end
