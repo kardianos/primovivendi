@@ -104,6 +104,17 @@ The following two lists are the foundational axioms and derived virtues of the w
 ### Rule 9: Substantive Titles and Headings
 - Avoid repetitive colon formulas in chapter and section titles (`Chapter N: Topic: Subtitle`) and avoid abstract conversational pairings (`Why X Needs Y`). Give every chapter and section a distinct, substantive title that states its specific subject matter.
 
+### Rule 10: Linear Sentences
+- Each sentence reads forward. It starts from something the reader already has and ends on the new point, and the next sentence starts from that point.
+- Put the subject and main verb early. Do not hold the verb behind a long opening clause or a list.
+- One claim per sentence. Split a sentence that carries a parenthetical aside, a nested clause, or a second claim after a colon.
+- A pronoun ("he," "it," "this") refers to something in the same or the previous sentence. Otherwise, name it.
+- Follow the order of the events or the argument: cause before effect, rule before case.
+
+*Before:* "From conception onward he belongs to the first of the two horizons named at the start of this section: he is one of the living human beings who must stay alive today, and not only a member of the next generation."
+
+*After:* "From conception the child belongs to the present, the first of the two horizons named at the start of this section, and not only to the next generation."
+
 ---
 
 ## 5. Automated N-Gram & Pattern Verification Method
