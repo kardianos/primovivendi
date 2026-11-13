@@ -200,7 +200,7 @@ How a society defines its scope and positions determines its character. Men and 
 
 A Muslim who wants a country that distinguishes Muslim from non-Muslim in law, as written in the Quran, gives one answer to that question. A non-Muslim will not naturally want to live in that country. A person who truly holds that distinction to be morally right is not compatible with a country that refuses to draw it. Those two answers do not make one polity.
 
-A secular constitutional state does not use religion to place citizens in different legal positions. Age, competence, office, and the difference between citizen and non-citizen remain positions where the difference is real and relevant. Symmetry runs between persons who occupy the same position.
+A secular state does not use religion to place citizens in different legal positions. Age, competence, office, and the difference between citizen and non-citizen remain positions where the difference is real and relevant. Symmetry runs between persons who occupy the same position.
 
 **Range of views:** Societies debate where national borders should sit, how immigrants may be admitted to citizenship without overwhelming the existing population, and which differences (such as age, competence, or citizenship) justify separate legal positions.
 
