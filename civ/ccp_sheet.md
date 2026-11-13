@@ -53,7 +53,7 @@ Virtue is that technology in a person. The individual's virtues of civilization 
 ### 1. Reality is real, knowable, and consequential. Truth is what corresponds to reality.
 
 #### Reality is real
-**Why it is important:** Reality is what exists. There is one reality, and it is not an illusion. It operates independently of human wishes, opinions, or votes. A book or a story does not create a new reality; it creates a narrative. If reality were not objective, and if its behavior changed whenever a person preferred a different result, no reliable tool, law, or plan could be made, because the foundation would shift with preference.
+**Why it is important:** Reality is what exists. There is one reality, and it is not an illusion. It operates independently of human wishes, opinions, or votes, so a tool, a law, or a plan can be relied on. A book or a story does not create a new reality; it creates a narrative.
 
 **Range of views:** People may include different things within the total scope of reality. Some hold that reality consists strictly of the physical universe of matter and energy, and that natural laws describe how matter and energy behave. Others hold that God and spiritual laws are also real and act within the world. Both views remain within this principle so long as they agree that we inhabit a single, shared physical world in which things have objective properties of their own and act by them, and those properties do not change when our descriptions change.
 
@@ -74,7 +74,7 @@ Virtue is that technology in a person. The individual's virtues of civilization 
 **What it cannot accept:** It cannot accept the belief that good intentions excuse or erase destructive outcomes. It cannot accept the belief that renaming a failure changes the physical or social result of that failure. It cannot accept the belief that doing nothing escapes consequence.
 
 #### Truth is what corresponds to reality
-**Why it is important:** This sentence states the direction of fit between the mind and the world. Reality comes first; our statements, models, and beliefs are true only to the extent that they accurately match reality. What corresponds only to a narrative is not truth. When men debate, they must not merely adjudicate differing personal opinions. They must point to something outside of themselves, make predictions about common observations, and verify the results in the external world. Correspondence is what makes a belief true. Justification is having a reason to think it corresponds. A belief is justified in so much as it has been tested against reality and holds up, and the more independent tests converge, the stronger the justification.
+**Why it is important:** This sentence states the direction of fit between the mind and the world. Reality comes first; our statements, models, and beliefs are true only to the extent that they accurately match reality. What corresponds only to a narrative is not truth. When men debate, they must not merely adjudicate differing personal opinions. They must point to something outside of themselves, make predictions about common observations, and verify the results in the external world. Correspondence is what makes a belief true. Justification is having a reason to think it corresponds. A belief is justified in so much as it has been tested against reality and holds up, and the more independent tests converge, the stronger the justification. A claim that no possible observation could prove false cannot be trusted. It fits every state of reality, so it corresponds to none in particular.
 
 **Range of views:** Correspondence may be exact or approximate depending on the task. A machinist cutting a steel cylinder requires correspondence within thousandths of an inch; a historian describing a war requires correspondence to the surviving records and physical evidence. Scientific models, such as Newtonian mechanics, remain true and useful within the specific range of conditions where their predictions match reality, even if a broader model is required for extreme conditions.
 
@@ -94,7 +94,7 @@ Virtue is that technology in a person. The individual's virtues of civilization 
 #### Self-interested
 **Why it is important:** A human being is naturally concerned with his own survival and well-being. Valuing his own life is what makes ownership possible. He answers for the life he values. Ownership is responsibility. Being self-interested is not a moral defect. It is the ordinary condition from which he takes that responsibility and ceases to be a burden on the people who are doing their own work.
 
-**Range of views:** There is legitimate debate over where the boundary of self-interest ends and obligation to others begins. Some draw that boundary at the man himself. Some extend it to his spouse and his own children, because those particular people continue him and his parental lineage. That lineage is real. None of the views inside this perimeter treats him as having a generic responsibility to Humanity, and none treats ordinary self-preservation as a moral defect. All of them value human life both broadly and in particular.
+**Range of views:** There is legitimate debate over where the boundary of self-interest ends and obligation to others begins. None of the views inside this perimeter treats a person as having a generic responsibility to Humanity, and none treats ordinary self-preservation as a moral defect. All of them value human life both broadly and in particular.
 
 **What it cannot accept:** It cannot accept moral systems that condemn basic self-preservation and personal ambition as evil. Conversely, it cannot accept defining self-interest as the pursuit of short-term whims, hedonism, or the right to harm and defraud others for personal gain.
 
@@ -223,7 +223,7 @@ Because humans are particular and unequal in talent and effort (Point 2), a fair
 **What it cannot accept:** It cannot accept two false definitions of symmetry:
 
 1. *Equal outcomes (disparate impact):* The claim that if different individuals or groups achieve different results under the same rule, the rule itself is unjust and must be rigged until the results are equal.
-2. *Value symmetry:* Treating a wrong as a debt between two sides, paid by an equal loss: a brother killed for a brother, a daughter for a daughter, or a price set by the victim's rank, tribe, or religion.
+2. *Value symmetry:* Holding the losses of two sides equal, so that a wrong is a debt between them, paid by an equal loss: a brother killed for a brother, a daughter for a daughter, or a price set by the victim's rank, tribe, or religion.
 
 ---
 
