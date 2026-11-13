@@ -1,0 +1,39 @@
+# Reference corpus: English expository prose, 1852 to 1928, all in the US public domain.
+# Columns: Project Gutenberg number, year of first publication, country, field, author, title.
+# The texts are downloaded to ext-ref/ngram/ref/ (not committed). Each is capped at 100,000 words.
+4351	1867	UK	government	Walter Bagehot	The English Constitution
+22910	1861	UK	law	Henry Sumner Maine	Ancient Law
+2449	1881	US	law	Oliver Wendell Holmes Jr.	The Common Law
+34901	1859	UK	government	John Stuart Mill	On Liberty
+5669	1861	UK	government	John Stuart Mill	Considerations on Representative Government
+35861	1885	US	government	Woodrow Wilson	Congressional Government
+64882	1912	UK	government	Hilaire Belloc	The Servile State
+6456	1922	US	government	Walter Lippmann	Public Opinion
+73150	1926	US	government	H. L. Mencken	Notes on Democracy
+5036	1928	US	government	Calvin Coolidge	State of the Union Addresses (1923 to 1928)
+55308	1879	US	economics	Henry George	Progress and Poverty
+18603	1883	US	economics	William Graham Sumner	What Social Classes Owe to Each Other
+833	1899	US	economics	Thorstein Veblen	The Theory of the Leisure Class
+15776	1919	UK	economics	John Maynard Keynes	The Economic Consequences of the Peace
+6435	1911	US	industry	Frederick Winslow Taylor	The Principles of Scientific Management
+7213	1922	US	industry	Henry Ford and Samuel Crowther	My Life and Work
+35916	1878	US	engineering	Robert H. Thurston	A History of the Growth of the Steam-Engine
+46229	1857	UK	engineering	Samuel Smiles	The Life of George Stephenson
+1228	1859	UK	science	Charles Darwin	On the Origin of Species (first edition)
+14474	1861	UK	science	Michael Faraday	The Chemical History of a Candle
+2931	1863	UK	science	Thomas Henry Huxley	Evidence as to Man's Place in Nature
+14000	1873	UK	science	John Tyndall	Six Lectures on Light
+74864	1874	UK	science	William Stanley Jevons	The Principles of Science
+33178	1915	US	agriculture	Liberty Hyde Bailey	The Holy Earth
+13529	1890	US	history	Alfred Thayer Mahan	The Influence of Sea Power upon History, 1660 to 1783
+4367	1885	US	history	Ulysses S. Grant	Personal Memoirs
+9104	1882	US	history	Theodore Roosevelt	The Naval War of 1812
+14517	1884	US	history	Francis Parkman	Montcalm and Wolfe
+27430	1888	US	history	John Fiske	The Critical Period of American History
+22994	1920	US	history	Frederick Jackson Turner	The Frontier in American History
+935	1859	UK	conduct	Samuel Smiles	Self-Help
+2376	1901	US	conduct	Booker T. Washington	Up from Slavery
+26334	1899	UK	conduct	W. E. H. Lecky	The Map of Life
+46129	1879	UK	ethics	Herbert Spencer	The Data of Ethics
+130	1908	UK	essays	G. K. Chesterton	Orthodoxy
+24526	1852	UK	essays	John Henry Newman	The Idea of a University

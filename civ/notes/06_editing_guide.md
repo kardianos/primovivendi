@@ -241,6 +241,20 @@ done; echo "Part D done"
 
 After a build, the same `grep` can be run on `civ/build/*.html`.
 
+### Part E: Period Comparison (Google Books and a Reference Corpus)
+
+`civ/ngram` compares the chapters with English prose of 1850 to 1950 and writes `civ/notes/17_ngram_comparison.md`. The report lists words and phrases that were rare or absent in Google Books for those years, the keyness of words and phrases against a corpus of 36 public-domain treatises (`civ/ngram/reference.tsv`), Burrows's Delta, and sentence statistics. Downloads are kept in `ext-ref/ngram/`, which is not committed.
+
+```bash
+cd civ/ngram
+go run . fetch-ref         # once: the reference works
+go run . google-unigrams   # once: Google's unigram counts (about 10 GB streamed, about 20 minutes)
+go run . google-phrases    # after edits: looks up new recurring phrases only; earlier lookups are cached
+go run . report
+```
+
+The results are signals for a reader, not rules. A phrase absent from the period is a reason to read the phrase again, not proof that it is wrong. The book's subject dominates the keyness lists, so the function-word tables and the sentence tables say the most about register.
+
 ---
 
 ## 6. Bottom-Up Editing Workflow
