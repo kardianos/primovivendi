@@ -37,7 +37,7 @@ Virtue 7 was "Generational obligation." The author authorized a shorter name tha
 
 **20. Drop the neglect argument.** Sensory contact with reality and reason are linked. For a paper this short, the neglect argument cannot be made correctly. Applied: the neglect cases are gone. The knowable paragraph states that sensing reality and reasoning on what is sensed are linked.
 
-**21. Particular children, in order.** People are particular. The author does not want just any children. First, care for his own. Lacking that, his kin, broadly defined. Lacking that, his general heredity, the people likely to share his dispositions and tendencies. Applied in "Have children." The "capable, virtuous" and "replaced or conquered" sentence is gone.
+**21. Particular children, in order.** People are particular. The author does not want just any children. First, care for his own. Lacking that, his kin, broadly defined. Lacking that, his general heredity, the people likely to share his dispositions and tendencies. Applied in "Have children." The "capable, virtuous" and "replaced or conquered" sentence is gone. Superseded 2026-11-13 (notes/16, call 7): the order is narrowed to the tiers, immediate family first, then kin; the "general heredity" step is gone.
 
 **22. Defensive violence stays required.** Refusing to do violence to protect yourself and your own stands against these principles. Do not soften that into a permission to refuse to kill while still naming the enemy. Applied: the draft rejects a refusal to use violence to protect oneself and one's own, and says that refusal stands against these principles.
 

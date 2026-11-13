@@ -281,7 +281,7 @@ Because humans are particular and unequal in talent and effort (Point 2), a fair
 **What it cannot accept:** It cannot accept arrogance: refusing to check one's beliefs against conflicting evidence, or tearing down inherited institutions and customs without understanding why they were built. Conversely, it cannot accept false humility, which is weak self-deprecation used as an excuse to avoid taking ownership and acting.
 
 #### 6. Have children
-**Why it is important:** This is the direct personal application of Point 3 (*human life continuing*). Human life is the floor of goodness. A man is here to continue his own line, and the children he cares for are particular. He cares first for his own. Lacking children of his own, he cares for his kin, broadly understood. Lacking those, he cares for the people who share his general heredity and are likely to share his dispositions and tendencies. He has no generic responsibility for children as such.
+**Why it is important:** This is the direct personal application of *human life continuing* (Point 3). Human life is the floor of goodness, and having children continues it. A person's care for children follows the tiers of Point 4: his immediate family first, then his kin.
 
 **Range of views:** Family size will vary according to health, biological fertility, and the particular hardships of a household. Not every individual is biologically able to have children, or able to marry. For those who are able, having their own children is the normal course of an adult life.
 
