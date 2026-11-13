@@ -255,6 +255,18 @@ go run . report
 
 The results are signals for a reader, not rules. A phrase absent from the period is a reason to read the phrase again, not proof that it is wrong. The book's subject dominates the keyness lists, so the function-word tables and the sentence tables say the most about register.
 
+### Part F: Rule 10 Aid (Linear Sentences)
+
+`civ/linear` parses the chapters with Stanford CoreNLP (unpacked in `ext-ref/corenlp/`; Java is required) and scores each sentence against the five parts of Rule 10: words before the main verb, long subjects and opening phrases, a second clause after a colon or semicolon, parenthetical asides, nested clauses, pronouns with no noun of their kind nearby, bare "this," new material before old, and a cause stated after its effect. It compares the book with a sample of period prose parsed the same way, and it drafts a rewrite where the move is mechanical: pull back a long opening phrase, pull forward a short cause, split at a colon or semicolon, move out an aside, or name a pronoun. It writes `civ/notes/18_linearity_review.md`.
+
+```bash
+cd civ/linear
+go run . parse    # parses new or changed chapters only (a few minutes for the whole book)
+go run . report
+```
+
+The drafts are offered for the editor to judge. The parser misreads some sentences, and a moved phrase can need a new connective.
+
 ---
 
 ## 6. Bottom-Up Editing Workflow
