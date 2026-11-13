@@ -5,7 +5,7 @@ All concepts and phrasing in `civ/ccp_sheet.md`, `civ/ccp_derive.md`, and `civ/c
 ## Core Framing
 - **Initial State & Reality:** We come into this world naked. Beneath us stands reality.
 - **Technology:** Anything we build is technology. A stable life, a stable farm, a stable house, and tools are technology.
-- **Civilization:** Continuing life from generation to generation, and the ability to build and keep, is civilization. Civilizations are not just mechanical tools, but also comprise the social customs and individual values within that civilization. Civilization is not an entity and not a collective. It is the technology that lets other technologies stand (the prerequisite/root technology).
+- **Civilization:** Continuing life from generation to generation, and the ability to build and keep, is civilization. A civilization includes its mechanical tools, and also the social customs and individual values of the people within it. Civilization is not an entity and not a collective. It is the technology that lets other technologies stand (the prerequisite/root technology).
 - **Will and Method:** Technology requires a **will** (the active decision by living individuals to keep the system running and continue into the future) and a **method** (the accumulated customs, laws, crafts, and knowledge passed down across generations) that answer reality's constraints in conduct.
 - **Virtue:** That answer, in a person, is **virtue**. That answer, held across people and generations, is **civilization**.
 
