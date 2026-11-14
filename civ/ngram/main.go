@@ -16,6 +16,7 @@
 //	go run . google-phrases    # look up the book's recurring phrases
 //	go run . summary           # word and phrase counts for the book and corpus
 //	go run . report            # write the report
+//	go run . section -chapter 1  # check one section for editing (first "###" by default)
 package main
 
 import (
@@ -31,7 +32,7 @@ import (
 func main() {
 	log.SetFlags(log.Ltime)
 	if len(os.Args) < 2 {
-		fmt.Fprintln(os.Stderr, "usage: go run . fetch-ref | google-unigrams | google-phrases | summary | report")
+		fmt.Fprintln(os.Stderr, "usage: go run . fetch-ref | google-unigrams | google-phrases | summary | report | section")
 		os.Exit(2)
 	}
 	cmd := os.Args[1]
@@ -39,8 +40,11 @@ func main() {
 	workers := fs.Int("workers", 4, "google-unigrams: parallel downloads")
 	minCount := fs.Int("min", 3, "google-phrases, report: minimum uses in the book for a phrase lookup")
 	delay := fs.Duration("delay", 1500*time.Millisecond, "google-phrases: pause between requests")
-	out := fs.String("out", "", "report: output path (default civ/notes/17_ngram_comparison.md)")
+	out := fs.String("out", "", "report: output path (default civ/notes/17_ngram_comparison.md); section: output path (default standard output)")
 	retryZero := fs.Bool("retry-zero", false, "google-phrases: query again the phrases cached as absent")
+	chapter := fs.Int("chapter", 1, "section: chapter number")
+	heading := fs.String("heading", "", "section: text of the section heading (default: the first ### section)")
+	noQuery := fs.Bool("noquery", false, "section: do not look up uncached phrases in Google")
 	fs.Parse(os.Args[2:])
 
 	root, err := repoRoot()
@@ -63,6 +67,8 @@ func main() {
 			path = filepath.Join(root, "civ", "notes", "17_ngram_comparison.md")
 		}
 		err = cmdReport(root, data, path, *minCount)
+	case "section":
+		err = cmdSection(root, data, *chapter, *heading, *out, *noQuery, *delay)
 	default:
 		err = fmt.Errorf("unknown command %q", cmd)
 	}
