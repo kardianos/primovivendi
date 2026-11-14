@@ -696,7 +696,7 @@ func init() {
 	for _, w := range strings.Fields(`man woman person child boy girl son daughter father mother parent husband wife brother sister
 	uncle aunt grandfather grandmother king queen prince ruler judge magistrate officer soldier citizen neighbor stranger
 	builder farmer worker workman craftsman engineer pilot mechanic carpenter merchant owner tenant heir master apprentice
-	student teacher elder adult infant baby friend enemy offender thief criminal victim defendant plaintiff priest pastor
+	student teacher elder adult infant baby newborn toddler youth friend enemy offender thief criminal victim defendant plaintiff priest pastor
 	bishop imam scholar jurist philosopher author writer reader individual human being someone anyone everyone no-one nobody
 	everybody somebody whoever each one member leader founder president emperor tyrant dictator general captain
 	physician doctor surgeon nurse scientist inventor prophet apostle saint skeptic critic speaker listener voter
@@ -725,10 +725,19 @@ func personLike(s *sentInfo, i int) bool {
 	if t.NER == "PERSON" {
 		return true
 	}
+	l := strings.ToLower(t.Lemma)
 	if !strings.HasPrefix(t.POS, "NN") {
+		// The parser sometimes tags a noun such as "newborn" as an
+		// adjective. A listed word that takes an article is a noun.
+		if personNouns[l] {
+			for _, k := range s.kids[i] {
+				if s.rel[k] == "det" {
+					return true
+				}
+			}
+		}
 		return false
 	}
-	l := strings.ToLower(t.Lemma)
 	if personNouns[l] {
 		return true
 	}

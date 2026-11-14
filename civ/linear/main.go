@@ -14,6 +14,7 @@
 //
 //	go run . parse     # run CoreNLP on new or changed chapters (minutes)
 //	go run . report    # score the sentences and write the report
+//	go run . lines -chapter ch01 -from 5 -to 21   # every sentence in a line range, scored
 package main
 
 import (
@@ -28,7 +29,7 @@ import (
 func main() {
 	log.SetFlags(log.Ltime)
 	if len(os.Args) < 2 {
-		fmt.Fprintln(os.Stderr, "usage: go run . parse | report")
+		fmt.Fprintln(os.Stderr, "usage: go run . parse | report | lines")
 		os.Exit(2)
 	}
 	cmd := os.Args[1]
@@ -37,6 +38,9 @@ func main() {
 	mem := fs.String("mem", "16g", "parse: Java heap")
 	out := fs.String("out", "", "report: output path (default civ/notes/18_linearity_review.md)")
 	perChapter := fs.Int("n", 12, "report: sentences listed per chapter")
+	chapter := fs.String("chapter", "ch01", "lines: chapter name")
+	from := fs.Int("from", 1, "lines: first line")
+	to := fs.Int("to", 0, "lines: last line (0 for the end)")
 	fs.Parse(os.Args[2:])
 
 	root, err := repoRoot()
@@ -53,6 +57,8 @@ func main() {
 			path = filepath.Join(root, "civ", "notes", "18_linearity_review.md")
 		}
 		err = cmdReport(root, data, path, *perChapter)
+	case "lines":
+		err = cmdLines(root, data, *chapter, *from, *to)
 	default:
 		err = fmt.Errorf("unknown command %q", cmd)
 	}
