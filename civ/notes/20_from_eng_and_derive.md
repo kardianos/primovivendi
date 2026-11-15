@@ -1,6 +1,6 @@
 # From `ccp_eng.md` and `ccp_derive.md`, kept at their removal
 
-Recorded 2026-11-15. The author removed `ccp_eng.md` and `ccp_derive.md`. Both restated the sheet and the book, and both had drifted from them. This note keeps what neither the sheet nor the book carries, for later evaluation. Nothing here has been applied.
+Recorded 2026-11-15. The author removed `ccp_eng.md` and `ccp_derive.md`. Both restated the sheet and the book, and both had drifted from them. This note keeps what neither the sheet nor the book carries, for later evaluation. Nothing here has been applied. The author reviewed every item on 2026-11-15 and left all of them out. The note remains as a record of what was weighed.
 
 Both files can still be read from git: `git show c19de61:civ/ccp_eng.md` and `git show c19de61:civ/ccp_derive.md`. In this note, "eng" and "derive" line numbers refer to that commit, and chapter line numbers refer to the chapters on this date.
 
@@ -37,6 +37,8 @@ Eng gave every term four parts: Derivation, Detractors and Failure Modes, Operat
 
 **Question:** whether chapter 1 should state the map in one paragraph, near "The Architecture in Full" (01:73).
 
+**Decided 2026-11-15: left out.** A drafted paragraph after the five bullets at 01:83–89 went over the same five principles a second time. Its opening claim, "Each of the five rests on the ones before it," was also stronger than the chapters show.
+
 ## 2. Will without method, and method without will (eng)
 
 The book defines will and method (01:44–49). It does not name the two ways the pair fails. Eng 6.2 (eng:521–524):
@@ -54,6 +56,8 @@ The bridge sentence pulls against the new opening of chapter 1, "Nothing we buil
 
 **Question:** whether the two failures belong in chapter 1 after 01:49, or in chapter 11 with the mechanisms of decline.
 
+**Decided 2026-11-15: left out.** The book shows both failures at length. "The Master's Cold Forge" and the Roman collapse show method lost (07:69–84). The Year 75 city shows will lost (10:3–15). The opening of chapter 1 already says books and machines "pass nothing on by themselves" (01:7). A drafted paragraph after 01:49 would only have named the pair.
+
 ## 3. The starting premise (derive)
 
 Derive §1 (derive:9) named one assumed priority and defended it:
@@ -70,10 +74,14 @@ Points for evaluation:
 
 **Question:** whether chapter 1 or 06:9 should state the assumed priority, and with which defense, if any.
 
+**Decided 2026-11-15: left out.** 06:9 already says every moral system begins by affirming a standard of goodness. 06:22 already makes the point that a code that destroys its people eliminates itself. Derive's added defense was the weak part.
+
 ## 4. Examples not in the book (derive)
 
 - **Constructivism and turbine blades** (derive:48). "The gas temperature inside the combustion chamber reaches 1,500 degrees Celsius. The melting point of an uncooled nickel-based superalloy is approximately 1,350 degrees Celsius." Asking whether a change of language keeps the blades from melting gives constructivism a physical test. Chapter 3 treats constructivism at 03:49 without a case of this kind. Verify both temperatures from primary or manufacturer sources before use.
 - **Equal outcomes in an ice storm** (derive:237–240). A crew selected by quota, an ice storm, and a failed hydraulic pump: "Neither the atmospheric ice nor gravity adjusts its force to respect the demographic quota of the hiring committee." Chapter 9 treats outcome symmetry from 09:237 without this case.
+
+**Decided 2026-11-15: both left out.** Chapter 3 already makes the constructivism point in general terms: power "cannot rewrite the harvest, the bridge, or the crime" (03:57). The turbine temperatures were unverified. Chapter 9 already has a sourced case of outcome symmetry, Culver City (09:237).
 
 Already in the book, so not carried here:
 
@@ -103,6 +111,17 @@ The three documents named the sources differently.
 The sheet names some links in its virtue entries: Virtue 1 from Point 1, Virtue 2 from Points 2 and 4, Virtue 3 from Points 1 and 3, Virtue 5 from Point 2, and Virtue 6 from Point 3. The book derives Virtues 1 and 5 in chapter 3 (03:76), humility from limitation in chapter 4 (04:75), Virtues 2 to 5 in chapter 7, and Virtues 6 and 7 "From Principles 1, 2, 3, and 4" (10:21).
 
 **Question:** whether one table of these links should be settled and stated once, in the sheet or in chapter 1.
+
+**Decided 2026-11-15: no table.** The book already derives each virtue where it first appears:
+
+- Virtue 1 from Principle 1 (03:76–90).
+- Virtue 5 from Principle 1 (03:92–96) and from limitation (04:75).
+- Virtue 2 from Principle 2 (07:13).
+- Virtue 3 from Principles 1 and 3 (07:59).
+- Virtue 4 from keeping and building in a consequential world (07:9). This is the only virtue whose own section (07:115) names no principle.
+- Virtues 6 and 7 from Principles 1 to 4 (10:21, 10:85).
+
+The eng and derive maps left with those files.
 
 ## 6. Derive's order of presentation
 
