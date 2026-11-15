@@ -38,7 +38,7 @@ set BUILD_DIR "build"
 command mkdir -p $BUILD_DIR
 
 # Basenames in this directory. build_stem appends .md.
-set STEMS ccp_sheet ccp_derive ccp_eng
+set STEMS ccp_sheet
 
 # ---- print PDF (xelatex): book typography, essay layout ----
 # Same fonts and heading treatment as book1-4/essay_build.fish, as an

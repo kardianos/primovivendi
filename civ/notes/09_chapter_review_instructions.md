@@ -1,6 +1,6 @@
 # Chapter review instructions
 
-Point a new session at this file when reviewing `civ/chapters/`. The method is the same one used on `ccp_sheet.md`, then on `ccp_eng.md` and `ccp_derive.md`.
+Point a new session at this file when reviewing `civ/chapters/`. The method is the same one used on `ccp_sheet.md`, then on `ccp_eng.md` and `ccp_derive.md`, which were removed on 2026-11-15.
 
 The author will not accept unsolicited AI prose as the book. A suggested replacement is a proposal. It enters a chapter only after the author accepts it, or when it restates a decision the author has already accepted.
 
@@ -36,7 +36,7 @@ Edit `civ/chapters/*.md` only.
 
 `civ/build.fish` assembles `ccp_book.md` by concatenating `civ/chapters/*.md` in filename order, then builds the pdf, html, and epub, and may run a release script. Edit the chapters. Leave `ccp_book.md` and `civ/build/` alone. Run `build.fish` only when the author asks.
 
-Leave `ccp_sheet.md`, `ccp_derive.md`, and `ccp_eng.md` alone. Those reviews are finished. If a chapter seems to expose an error in the short sheet, write a call. Do not change the sheet in the chapter review.
+Leave `ccp_sheet.md` alone. That review is finished. If a chapter seems to expose an error in the short sheet, write a call. Do not change the sheet in the chapter review.
 
 Leave the historical proposal sections of notes 07 and 08 alone. When the author decides a new call, record that decision in the author's terms at the top of `notes/10_chapter_calls.md`, the way notes 07 and 08 record theirs, and apply only what the author has accepted.
 
