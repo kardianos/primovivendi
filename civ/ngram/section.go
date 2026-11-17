@@ -75,21 +75,11 @@ func cmdSection(root, data string, chapter int, heading, out string, noQuery boo
 	for w := range s1 {
 		want[w] = true
 	}
-	uni, err := loadUnigrams(data, want)
+	uni, err := loadGoogleUni(data, want)
 	if err != nil {
 		return fmt.Errorf("%w (run: go run . google-unigrams)", err)
 	}
-	totals, err := loadTotals(data)
-	if err != nil {
-		return err
-	}
-	gpm := func(w string) float64 {
-		c := uni[googleForm(w)]
-		if w == "cannot" {
-			c = uni["can"]
-		}
-		return float64(c[0]+c[1]) / float64(totals.first+totals.second) * 1e6
-	}
+	gpm := uni.perMillion
 	b1, r1 := book.Counts(1), ref.Counts(1)
 	cu1 := docFreq(chapters, 1)
 	bookPM := func(w string) float64 { return float64(b1[w]) / float64(book.Words) * 1e6 }

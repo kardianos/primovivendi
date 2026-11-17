@@ -17,6 +17,8 @@
 //	go run . summary           # word and phrase counts for the book and corpus
 //	go run . report            # write the report
 //	go run . section -chapter 1  # check one section for editing (first "###" by default)
+//	go run . lookup "cannot be" honest   # Google's rate for phrases or words (cached phrases first)
+//	go run . lookup -contains bridge     # cached phrases holding a word or phrase
 package main
 
 import (
@@ -32,7 +34,7 @@ import (
 func main() {
 	log.SetFlags(log.Ltime)
 	if len(os.Args) < 2 {
-		fmt.Fprintln(os.Stderr, "usage: go run . fetch-ref | google-unigrams | google-phrases | summary | report | section")
+		fmt.Fprintln(os.Stderr, "usage: go run . fetch-ref | google-unigrams | google-phrases | summary | report | section | lookup")
 		os.Exit(2)
 	}
 	cmd := os.Args[1]
@@ -44,7 +46,8 @@ func main() {
 	retryZero := fs.Bool("retry-zero", false, "google-phrases: query again the phrases cached as absent")
 	chapter := fs.Int("chapter", 1, "section: chapter number")
 	heading := fs.String("heading", "", "section: text of the section heading (default: the first ### section)")
-	noQuery := fs.Bool("noquery", false, "section: do not look up uncached phrases in Google")
+	noQuery := fs.Bool("noquery", false, "section, lookup: do not look up uncached phrases in Google")
+	contains := fs.Bool("contains", false, "lookup: list the cached phrases that hold each argument")
 	fs.Parse(os.Args[2:])
 
 	root, err := repoRoot()
@@ -69,6 +72,8 @@ func main() {
 		err = cmdReport(root, data, path, *minCount)
 	case "section":
 		err = cmdSection(root, data, *chapter, *heading, *out, *noQuery, *delay)
+	case "lookup":
+		err = cmdLookup(root, data, fs.Args(), *contains, *noQuery, *delay)
 	default:
 		err = fmt.Errorf("unknown command %q", cmd)
 	}

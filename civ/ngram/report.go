@@ -36,6 +36,53 @@ func pm(x float64) string {
 
 func pct(x float64) string { return fmt.Sprintf("%.1f%%", 100*x) }
 
+// googleWord is the unigram Google counts a word under. Google splits
+// "cannot" into "can not", so its own count for "cannot" is a small residue,
+// and "cannot" is counted under "can".
+func googleWord(w string) string {
+	if w == "cannot" {
+		return "can"
+	}
+	return w
+}
+
+// googleUni holds Google's unigram counts for a set of words and the totals
+// of the period.
+type googleUni struct {
+	counts map[string][2]int64
+	totals googleTotals
+}
+
+// loadGoogleUni reads Google's counts for the given words.
+func loadGoogleUni(data string, words map[string]bool) (googleUni, error) {
+	want := map[string]bool{}
+	for w := range words {
+		want[googleWord(w)] = true
+	}
+	c, err := loadUnigrams(data, want)
+	if err != nil {
+		return googleUni{}, err
+	}
+	t, err := loadTotals(data)
+	if err != nil {
+		return googleUni{}, err
+	}
+	return googleUni{c, t}, nil
+}
+
+// perMillion is the word's rate per million words in 1850 to 1950.
+func (g googleUni) perMillion(w string) float64 {
+	c := g.counts[googleWord(w)]
+	return float64(c[0]+c[1]) / float64(g.totals.first+g.totals.second) * 1e6
+}
+
+// halves are the word's rates per million words in 1850 to 1899 and in 1900
+// to 1950.
+func (g googleUni) halves(w string) (float64, float64) {
+	c := g.counts[googleWord(w)]
+	return float64(c[0]) / float64(g.totals.first) * 1e6, float64(c[1]) / float64(g.totals.second) * 1e6
+}
+
 // loadUnigrams reads Google counts for the given words only.
 func loadUnigrams(data string, want map[string]bool) (map[string][2]int64, error) {
 	f, err := os.Open(filepath.Join(data, "google", "unigrams_1850_1950.tsv.gz"))
@@ -161,17 +208,18 @@ func cmdReport(root, data, path string, minCount int) error {
 	}
 
 	// Google data, if present.
+	// The reference works' words are looked up too, to set the scale for
+	// words the book uses once (section 2b).
 	vocab := map[string]bool{}
-	for w := range book.Counts(1) {
-		vocab[w] = true
+	for _, d := range []*Doc{book, ref} {
+		for w := range d.Counts(1) {
+			vocab[w] = true
+		}
 	}
-	uni, uniErr := loadUnigrams(data, vocab)
-	totals, totErr := loadTotals(data)
-	haveUni := uniErr == nil && totErr == nil && len(uni) > 0
-	gpm := func(w string) float64 { // Google per million, 1850 to 1950
-		c := uni[w]
-		return float64(c[0]+c[1]) / float64(totals.first+totals.second) * 1e6
-	}
+	uni, uniErr := loadGoogleUni(data, vocab)
+	haveUni := uniErr == nil && len(uni.counts) > 0
+	totals := uni.totals
+	gpm := uni.perMillion // Google per million, 1850 to 1950
 	phrases, _ := loadPhraseCache(data)
 
 	chapUse := func(n int) map[string]int { return docFreq(chapters, n) }
@@ -188,7 +236,7 @@ func cmdReport(root, data, path string, minCount int) error {
 	// 1. Corpora
 	r.p("## 1. What was compared")
 	r.blank()
-	r.p("- **The book:** chapters 1 to 14, %d words in %d sentences. Headings, block quotations, tables, and quotations set as *\"...\"* are left out, so the counts are of the book's own prose.", book.Words, len(book.Sents))
+	r.p("- **The book:** chapters 1 to 14, %d words in %d sentences. Headings, tables, and quotations (set as *\"...\"*, or 80 characters or more inside quotation marks) are left out, so the counts are of the book's own prose. Block quotations are kept, because the book sets its own examples in them; a block quotation that is itself a quotation drops out with the quotations.", book.Words, len(book.Sents))
 	if haveUni {
 		r.p("- **Google Books:** %.1f billion words dated 1850 to 1899 and %.1f billion dated 1900 to 1950. Words are folded to lower case.", float64(totals.first)/1e9, float64(totals.second)/1e9)
 	} else {
@@ -229,8 +277,8 @@ func cmdReport(root, data, path string, minCount int) error {
 				continue
 			}
 			if gpm(w) < 0.1 {
-				c := uni[w]
-				rare = append(rare, rw{w, n, cu1[w], float64(c[0]) / float64(totals.first) * 1e6, float64(c[1]) / float64(totals.second) * 1e6})
+				f1, f2 := uni.halves(w)
+				rare = append(rare, rw{w, n, cu1[w], f1, f2})
 			}
 		}
 		sort.Slice(rare, func(i, j int) bool {
@@ -239,6 +287,8 @@ func cmdReport(root, data, path string, minCount int) error {
 			}
 			return rare[i].w < rare[j].w
 		})
+		r.p("### 2a. Words used twice or more")
+		r.blank()
 		r.p("Words the book uses at least twice, not names, printed fewer than 0.1 times per million words in 1850 to 1950. %d words qualify; the table lists up to 120, most used first.", len(rare))
 		r.blank()
 		r.p("| Word | Uses | Chapters | Per million, 1850 to 1899 | Per million, 1900 to 1950 |")
@@ -248,6 +298,55 @@ func cmdReport(root, data, path string, minCount int) error {
 				break
 			}
 			r.p("| %s | %d | %d | %s | %s |", x.w, x.n, x.ch, pm(x.f1), pm(x.f2))
+		}
+		r.blank()
+
+		// Words used once, against the words the period writers used once.
+		var refOnce []float64
+		for _, d := range refs {
+			for w, n := range d.Counts(1) {
+				if n == 1 && w != "-" && !isName(w) {
+					refOnce = append(refOnce, gpm(w))
+				}
+			}
+		}
+		sort.Float64s(refOnce)
+		line := refOnce[len(refOnce)/100]
+		type once struct {
+			w, ch string
+			g     float64
+		}
+		var bookOnce int
+		var ones []once
+		for w, n := range c1 {
+			if n != 1 || w == "-" || isName(w) {
+				continue
+			}
+			bookOnce++
+			if g := gpm(w); g < line {
+				ch := ""
+				for _, d := range chapters {
+					if d.Counts(1)[w] > 0 {
+						ch = d.Name
+					}
+				}
+				ones = append(ones, once{w, ch, g})
+			}
+		}
+		sort.Slice(ones, func(i, j int) bool {
+			if ones[i].g != ones[j].g {
+				return ones[i].g < ones[j].g
+			}
+			return ones[i].w < ones[j].w
+		})
+		r.p("### 2b. Words used once")
+		r.blank()
+		r.p("A word used once is measured against the words each reference work uses once (%d in all, names left out): one in a hundred of those was printed fewer than %s times per million words in 1850 to 1950. Of the book's %d words used once, %d fall below that line, where one in a hundred would be about %d. They are listed rarest first.", len(refOnce), pm(line), bookOnce, len(ones), (bookOnce+50)/100)
+		r.blank()
+		r.p("| Word | Chapter | Per million, 1850 to 1950 |")
+		r.p("|---|---|---|")
+		for _, x := range ones {
+			r.p("| %s | %s | %s |", x.w, x.ch, pm(x.g))
 		}
 		r.blank()
 	}
@@ -278,7 +377,7 @@ func cmdReport(root, data, path string, minCount int) error {
 		words := strings.Fields(g)
 		plain := haveUni
 		for _, w := range words {
-			if w != "-" && w != "cannot" && haveUni && gpm(w) < 20 {
+			if w != "-" && haveUni && gpm(w) < 20 {
 				plain = false
 			}
 		}
@@ -476,44 +575,58 @@ func cmdReport(root, data, path string, minCount int) error {
 	zBook := model.z(book)
 	type dist struct {
 		name string
-		d    float64
+		d, c float64 // Delta, cosine Delta
+	}
+	win := newPeriodWindows(refs, mfw)
+	var zRefs [][]float64
+	for _, d := range refs {
+		zRefs = append(zRefs, model.z(d))
 	}
 	var loo []dist
 	for i := range refs {
-		others := append(append([]*Doc{}, refs[:i]...), refs[i+1:]...)
-		m := newDeltaModel(mfw, others)
-		loo = append(loo, dist{works[i].Author + ", *" + works[i].Title + "*", deltaCentroid(m.z(refs[i]))})
+		z := win.loo[i].z(refs[i])
+		loo = append(loo, dist{works[i].Author + ", *" + works[i].Title + "*", deltaCentroid(z), nearestCosine(z, win.others[i])})
 	}
-	sort.Slice(loo, func(i, j int) bool { return loo[i].d < loo[j].d })
-	bookD := deltaCentroid(zBook)
-	beyond := 0
+	bookD, bookC := deltaCentroid(zBook), nearestCosine(zBook, zRefs)
+	beyond, beyondC := 0, 0
+	var cs []float64
 	for _, x := range loo {
 		if x.d < bookD {
 			beyond++
 		}
+		if x.c < bookC {
+			beyondC++
+		}
+		cs = append(cs, x.c)
 	}
+	sort.Float64s(cs)
+	sort.Slice(loo, func(i, j int) bool { return loo[i].d < loo[j].d })
 	r.p("Delta measures how far a text's rates for the %d most frequent words of the reference corpus lie from the corpus mean, in standard deviations, averaged over the words. It reflects habits of grammar and connection more than topic. For scale, each reference work is measured against the mean of the other %d.", len(mfw), len(refs)-1)
 	r.blank()
-	r.p("- **The book:** %.2f. %d of the %d reference works lie closer to the mean.", bookD, beyond, len(refs))
-	r.p("- **Reference works:** nearest %.2f (%s), median %.2f, farthest %.2f (%s).", loo[0].d, loo[0].name, loo[len(loo)/2].d, loo[len(loo)-1].d, loo[len(loo)-1].name)
+	r.p("Cosine Delta compares the pattern of those standard deviations, word by word, with the pattern of one reference work, and ignores how large they are, so one or two extreme words move it less. It is 0 for the same pattern and 1 for an unrelated one. In tests of authorship it is the most reliable of the Delta measures (Evert and others, 2017). Works by different authors point in unrelated directions from the mean, so the measure here is the distance to the nearest reference work: how close the text comes to some writer of the period. For scale, each reference work is measured against the nearest of the other %d.", len(refs)-1)
+	r.blank()
+	r.p("- **The book:** Delta %.2f; %d of the %d reference works lie closer to the mean. Cosine Delta to the nearest work %.2f; %d of the %d works have a nearer neighbor.", bookD, beyond, len(refs), bookC, beyondC, len(refs))
+	r.p("- **Reference works, Delta:** nearest %.2f (%s), median %.2f, farthest %.2f (%s).", loo[0].d, loo[0].name, loo[len(loo)/2].d, loo[len(loo)-1].d, loo[len(loo)-1].name)
+	r.p("- **Reference works, cosine Delta to the nearest other work:** least %.2f, median %.2f, greatest %.2f.", cs[0], cs[len(cs)/2], cs[len(cs)-1])
 	r.blank()
 	var near []dist
 	for i := range refs {
-		near = append(near, dist{works[i].Author + ", *" + works[i].Title + "* (" + strconv.Itoa(works[i].Year) + ")", deltaTo(zBook, model.z(refs[i]))})
+		near = append(near, dist{works[i].Author + ", *" + works[i].Title + "* (" + strconv.Itoa(works[i].Year) + ")", deltaTo(zBook, zRefs[i]), cosineDelta(zBook, zRefs[i])})
 	}
 	sort.Slice(near, func(i, j int) bool { return near[i].d < near[j].d })
-	r.p("The reference works nearest the book: ")
+	r.p("The reference works nearest the book (Delta, then cosine Delta):")
 	r.blank()
 	for i := 0; i < 5 && i < len(near); i++ {
-		r.p("%d. %s, %.2f", i+1, near[i].name, near[i].d)
+		r.p("%d. %s, %.2f, %.2f", i+1, near[i].name, near[i].d, near[i].c)
 	}
 	r.blank()
-	r.p("By chapter (short chapters vary more):")
+	r.p("By chapter (short chapters vary more; section 7 measures sections against stretches of period prose of the same length):")
 	r.blank()
-	r.p("| Chapter | Words | Delta |")
-	r.p("|---|---|---|")
+	r.p("| Chapter | Words | Delta | Cosine Delta to the nearest work |")
+	r.p("|---|---|---|---|")
 	for _, d := range chapters {
-		r.p("| %s | %d | %.2f |", d.Name, d.Words, deltaCentroid(model.z(d)))
+		z := model.z(d)
+		r.p("| %s | %d | %.2f | %.2f |", d.Name, d.Words, deltaCentroid(z), nearestCosine(z, zRefs))
 	}
 	r.blank()
 	type drv struct {
@@ -592,8 +705,71 @@ func cmdReport(root, data, path string, minCount int) error {
 	}
 	r.blank()
 
-	// 7. Method
-	r.p("## 7. Method and limits")
+	// 7. By section
+	const draws = 500
+	secs, err := loadSections(root)
+	if err != nil {
+		return err
+	}
+	type secRow struct {
+		s         bookSection
+		words     int
+		d, c      float64
+		pd, pc    float64
+		mk        markupCount
+		boldShare float64
+		listShare float64
+	}
+	var rows []secRow
+	for _, s := range secs {
+		d := buildDoc(s.Chapter, bookParagraphs(s.Body), 0)
+		if d.Words == 0 {
+			continue
+		}
+		z := model.z(d)
+		x := secRow{s: s, words: d.Words, d: deltaCentroid(z), c: nearestCosine(z, zRefs), mk: countMarkup(s.Body)}
+		x.pd, x.pc = win.windowsCloser(d.Words, x.d, x.c, draws)
+		if x.mk.Words > 0 {
+			x.boldShare = float64(x.mk.Bold) / float64(x.mk.Words)
+			x.listShare = float64(x.mk.List) / float64(x.mk.Words)
+		}
+		rows = append(rows, x)
+	}
+	median := func(f func(secRow) float64) float64 {
+		v := make([]float64, len(rows))
+		for i, x := range rows {
+			v[i] = f(x)
+		}
+		sort.Float64s(v)
+		return v[len(v)/2]
+	}
+	r.p("## 7. By section")
+	r.blank()
+	far := 0
+	for _, x := range rows {
+		if x.pc > 0.95 {
+			far++
+		}
+	}
+	r.p("Each section runs from its heading to the next heading of any level. A section of a few hundred words gives a noisy Delta, and a shorter text lies farther from the period by chance alone, so each section is set beside %d stretches of the same length drawn at random from the reference works, each scored as its own work was in section 5. **Nearer** is the share of those stretches that come nearer to some period writer (by cosine Delta to the nearest work) than the section does: about half for a section written like the period's prose, and close to all for a section unlike it.", draws)
+	r.blank()
+	r.p("Across the %d sections, the median section is farther from the nearest period writer than %.0f%% of period stretches of its length, and %d sections are farther than 95%% of them, where chance alone would give about %d. Burrows's Delta does not separate sections from the period at this length (the median section lies farther from the period mean than only %.0f%% of stretches), so it is not listed by section.", len(rows), 100*median(func(x secRow) float64 { return x.pc }), far, (len(rows)+10)/20, 100*median(func(x secRow) float64 { return x.pd }))
+	r.blank()
+	r.p("**Bold** and **lists** are the shares of the section's words, quotations included, set in bold type or in list items; Gutenberg's plain texts keep neither, and treatises of the period seldom used them. **Tags** counts parenthetical cross-references such as \"(Principle 2)\" or \"(Virtue 5: Humility)\". The line is the heading's line in the chapter file.")
+	r.blank()
+	r.p("| Section | Words | Cosine Delta to the nearest work | Nearer | Bold | Lists | Tags |")
+	r.p("|---|---|---|---|---|---|---|")
+	for _, x := range rows {
+		title := x.s.Title
+		if title == "" {
+			title = "(opening)"
+		}
+		r.p("| %s:%d %s | %d | %.2f | %.0f%% | %.0f%% | %.0f%% | %d |", strings.TrimPrefix(x.s.Chapter, "ch"), x.s.Line, cell(title, 60), x.words, x.c, 100*x.pc, 100*x.boldShare, 100*x.listShare, x.mk.Tags)
+	}
+	r.blank()
+
+	// 8. Method
+	r.p("## 8. Method and limits")
 	r.blank()
 	r.p("- **Tokens.** Words are folded to lower case. Numbers are dropped. Phrases never cross punctuation, because Google counts punctuation marks as tokens. A hyphen stays in a phrase as its own token, as in Google (\"self - interest\"). An apostrophe ends a phrase and its suffix is dropped, because the Ngram Viewer does not look up possessives reliably.")
 	r.p("- **Google Books.** Dates and OCR are imperfect, and the collection's mix shifts toward scientific and technical books across the period (Pechenick, Danforth, and Dodds, 2015). Every book counts once, however widely it was read. A phrase absent from the period is a reason to look at the phrase, not proof that nobody wrote it.")
@@ -601,7 +777,7 @@ func cmdReport(root, data, path string, minCount int) error {
 	r.p("- **Delta** measures distance in common-word habits. It does not measure quality, and a distance from the period mean is not by itself a fault.")
 	r.p("- **Not measured.** Sentence order and linearity (editing guide, Rule 10) are read, not counted.")
 	r.blank()
-	r.p("Sources: J.-B. Michel and others, \"Quantitative Analysis of Culture Using Millions of Digitized Books,\" *Science* 331 (2011); Y. Lin and others, \"Syntactic Annotations for the Google Books Ngram Corpus,\" ACL 2012; Google Books Ngram data, version 3 (2020), CC BY 3.0; E. Pechenick, C. Danforth, and P. Dodds, \"Characterizing the Google Books Corpus,\" *PLoS ONE* 10 (2015); T. Dunning, \"Accurate Methods for the Statistics of Surprise and Coincidence,\" *Computational Linguistics* 19 (1993); J. Burrows, \"'Delta': a Measure of Stylistic Difference,\" *Literary and Linguistic Computing* 17 (2002); Project Gutenberg texts listed in section 1.")
+	r.p("Sources: J.-B. Michel and others, \"Quantitative Analysis of Culture Using Millions of Digitized Books,\" *Science* 331 (2011); Y. Lin and others, \"Syntactic Annotations for the Google Books Ngram Corpus,\" ACL 2012; Google Books Ngram data, version 3 (2020), CC BY 3.0; E. Pechenick, C. Danforth, and P. Dodds, \"Characterizing the Google Books Corpus,\" *PLoS ONE* 10 (2015); T. Dunning, \"Accurate Methods for the Statistics of Surprise and Coincidence,\" *Computational Linguistics* 19 (1993); J. Burrows, \"'Delta': a Measure of Stylistic Difference,\" *Literary and Linguistic Computing* 17 (2002); P. Smith and W. Aldridge, \"Improving Authorship Attribution: Optimizing Burrows' Delta Method,\" *Journal of Quantitative Linguistics* 18 (2011); S. Evert and others, \"Understanding and Explaining Delta Measures for Authorship Attribution,\" *Digital Scholarship in the Humanities* 32, supplement 2 (2017); Project Gutenberg texts listed in section 1.")
 
 	if err := os.WriteFile(path, []byte(r.sb.String()), 0o644); err != nil {
 		return err

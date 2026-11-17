@@ -132,8 +132,10 @@ func newDeltaModel(words []string, docs []*Doc) deltaModel {
 	return m
 }
 
-func (m deltaModel) z(d *Doc) []float64 {
-	f := relFreq(d, m.Words)
+func (m deltaModel) z(d *Doc) []float64 { return m.zFreq(relFreq(d, m.Words)) }
+
+// zFreq turns relative frequencies of the model's words into z-scores.
+func (m deltaModel) zFreq(f []float64) []float64 {
 	z := make([]float64, len(f))
 	for j := range f {
 		if m.SD[j] > 0 {
@@ -143,6 +145,7 @@ func (m deltaModel) z(d *Doc) []float64 {
 	return z
 }
 
+// deltaTo is Burrows's Delta: the mean absolute difference of z-scores.
 func deltaTo(z1, z2 []float64) float64 {
 	s := 0.0
 	for j := range z1 {
@@ -153,6 +156,66 @@ func deltaTo(z1, z2 []float64) float64 {
 
 func deltaCentroid(z []float64) float64 {
 	return deltaTo(z, make([]float64, len(z)))
+}
+
+// cosineDelta is one minus the cosine of the angle between two z-score
+// profiles (Smith and Aldridge 2011). It compares the pattern of the
+// profiles and ignores their size, so one or two extreme z-scores move it
+// less than they move Burrows's Delta. It is 0 for the same pattern and 1 for
+// unrelated ones.
+func cosineDelta(z1, z2 []float64) float64 {
+	var dot, n1, n2 float64
+	for j := range z1 {
+		dot += z1[j] * z2[j]
+		n1 += z1[j] * z1[j]
+		n2 += z2[j] * z2[j]
+	}
+	if n1 == 0 || n2 == 0 {
+		return 1
+	}
+	return 1 - dot/math.Sqrt(n1*n2)
+}
+
+// nearestCosine is the cosine Delta from z to the nearest of the profiles.
+// Profiles of different authors point in unrelated directions, so the
+// distance to the nearest one says more than the mean distance, which is
+// close to 1 for every text.
+func nearestCosine(z []float64, others [][]float64) float64 {
+	b := math.Inf(1)
+	for _, o := range others {
+		b = min(b, cosineDelta(z, o))
+	}
+	return b
+}
+
+// tokens returns a doc's words in order, without the hyphen token.
+func tokens(d *Doc) []string {
+	var out []string
+	for _, s := range d.Sents {
+		for _, seg := range s.Segs {
+			for _, w := range seg {
+				if w != "-" {
+					out = append(out, w)
+				}
+			}
+		}
+	}
+	return out
+}
+
+// relFreqTokens is relFreq for a run of tokens; idx maps each of the
+// model's k words to its position.
+func relFreqTokens(toks []string, idx map[string]int, k int) []float64 {
+	v := make([]float64, k)
+	for _, w := range toks {
+		if j, ok := idx[w]; ok {
+			v[j]++
+		}
+	}
+	for j := range v {
+		v[j] /= float64(len(toks))
+	}
+	return v
 }
 
 // mostFrequent returns the k most frequent words of d that pass keep.

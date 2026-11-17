@@ -12,9 +12,10 @@ import (
 )
 
 // A source is one input to the parser: a chapter or a reference sample. Its
-// plain text is written for CoreNLP. For a chapter, paraLines maps the start
-// offset (in UTF-16 units, as CoreNLP counts) of each paragraph to the
-// paragraph's first line in the Markdown file.
+// plain text is written for CoreNLP. For a chapter, ParaStart holds the start
+// offset (in UTF-16 units, as CoreNLP counts) of each paragraph, ParaLine the
+// paragraph's first line in the Markdown file, and ParaSec the heading it
+// falls under (an index into SecTitle and SecLine; -1 before any heading).
 type source struct {
 	Name      string // "ch02" or "pg4351"
 	File      string // chapter file name, for line references
@@ -22,6 +23,9 @@ type source struct {
 	Text      string
 	ParaStart []int
 	ParaLine  []int
+	ParaSec   []int
+	SecTitle  []string
+	SecLine   []int
 	Ref       bool
 }
 
@@ -33,10 +37,34 @@ var (
 	reBlank    = regexp.MustCompile(`\n[ \t]*\n`)
 	reBracket  = regexp.MustCompile(`\[[^\]]*\]`)
 	reSpaces   = regexp.MustCompile(`[ \t]+`)
+	// Quotations set as *"..."*, and any quoted span of 80 characters or
+	// more, as in civ/ngram.
+	reItalicQuote = regexp.MustCompile(`\*+["“][^"”\n]*["”]\*+`)
+	reLongQuote   = regexp.MustCompile(`["“][^"”\n]{80,}["”]`)
 )
 
+// unquote removes the block-quotation marks (">", "> >") from the start of a
+// trimmed line and reports whether there were any.
+func unquote(t string) (string, bool) {
+	q := false
+	for strings.HasPrefix(t, ">") {
+		t = strings.TrimSpace(t[1:])
+		q = true
+	}
+	return t, q
+}
+
+// wholeQuotation reports whether a paragraph's Markdown is nothing but
+// quotations.
+func wholeQuotation(t string) bool {
+	t = reLongQuote.ReplaceAllString(reItalicQuote.ReplaceAllString(t, ""), "")
+	return !strings.ContainsFunc(t, unicode.IsLetter)
+}
+
 // chapterSource keeps the chapter's own prose, quotations included, and drops
-// headings, block quotations, tables, rules, and code. Markup is removed.
+// headings, tables, rules, and code. Markup is removed. Block quotations are
+// kept, because the book sets its own examples in them, except a block that
+// is nothing but a quotation of another writer.
 func chapterSource(path string) (source, error) {
 	b, err := os.ReadFile(path)
 	if err != nil {
@@ -49,9 +77,11 @@ func chapterSource(path string) (source, error) {
 		name = fmt.Sprintf("ch%02d", n)
 	}
 	type para struct {
-		line int
-		text []string
+		line, sec int
+		quote     bool
+		text      []string
 	}
+	src := source{Name: name, File: base, Label: name}
 	var paras []para
 	var cur *para
 	flush := func() {
@@ -60,7 +90,7 @@ func chapterSource(path string) (source, error) {
 			cur = nil
 		}
 	}
-	fence := false
+	fence, quote := false, false
 	for i, line := range strings.Split(string(b), "\n") {
 		t := strings.TrimSpace(line)
 		if strings.HasPrefix(t, "```") {
@@ -71,7 +101,18 @@ func chapterSource(path string) (source, error) {
 		if fence {
 			continue
 		}
-		if t == "" || strings.HasPrefix(t, "#") || strings.HasPrefix(t, ">") || strings.HasPrefix(t, "|") ||
+		t, q := unquote(t)
+		if q != quote {
+			flush()
+			quote = q
+		}
+		if q {
+			line = t
+		} else if strings.HasPrefix(t, "#") {
+			src.SecTitle = append(src.SecTitle, strings.TrimSpace(strings.TrimLeft(t, "#")))
+			src.SecLine = append(src.SecLine, i+1)
+		}
+		if t == "" || strings.HasPrefix(t, "#") || strings.HasPrefix(t, "|") ||
 			strings.HasPrefix(t, "---") || strings.HasPrefix(t, "<!--") || strings.HasPrefix(t, ":::") {
 			flush()
 			continue
@@ -81,17 +122,19 @@ func chapterSource(path string) (source, error) {
 			line = reListMark.ReplaceAllString(line, "")
 		}
 		if cur == nil {
-			cur = &para{line: i + 1}
+			cur = &para{line: i + 1, sec: len(src.SecTitle) - 1, quote: q}
 		}
 		cur.text = append(cur.text, strings.TrimSpace(line))
 	}
 	flush()
 	rep := strings.NewReplacer("**", "", "*", "", "`", "", "\\", "")
-	src := source{Name: name, File: base, Label: name}
 	var sb strings.Builder
 	units := 0
 	for _, p := range paras {
 		t := strings.Join(p.text, " ")
+		if p.quote && wholeQuotation(t) {
+			continue
+		}
 		t = reLink.ReplaceAllString(t, "$1")
 		t = reFootRef.ReplaceAllString(t, "")
 		t = reHTML.ReplaceAllString(t, " ")
@@ -101,6 +144,7 @@ func chapterSource(path string) (source, error) {
 		}
 		src.ParaStart = append(src.ParaStart, units)
 		src.ParaLine = append(src.ParaLine, p.line)
+		src.ParaSec = append(src.ParaSec, p.sec)
 		sb.WriteString(t)
 		sb.WriteString("\n\n")
 		units += utf16Len(t) + 2

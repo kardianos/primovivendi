@@ -245,13 +245,24 @@ var (
 	reBracket     = regexp.MustCompile(`\[[^\]]*\]`)
 )
 
-// bookParagraphs turns a chapter's Markdown into plain paragraphs. It drops
-// headings, block quotations, tables, rules, and code, and it replaces
-// quotations set as *"..."* (and any quoted span of 80 characters or more)
-// with a break, so that quoted sources are not counted as the book's prose.
-func bookParagraphs(md string) []string {
+// unquote removes the block-quotation marks (">", "> >") from the start of a
+// trimmed line and reports whether there were any.
+func unquote(t string) (string, bool) {
+	q := false
+	for strings.HasPrefix(t, ">") {
+		t = strings.TrimSpace(t[1:])
+		q = true
+	}
+	return t, q
+}
+
+// markdownParagraphs returns the paragraphs and list items of a chapter's
+// Markdown, with lines joined and list marks removed. It drops headings,
+// tables, rules, and code. Block quotations are kept as paragraphs of their
+// own, because the book sets its own examples in them.
+func markdownParagraphs(md string) []string {
 	var paras, cur []string
-	fence := false
+	fence, quote := false, false
 	flush := func() {
 		if len(cur) > 0 {
 			paras = append(paras, strings.Join(cur, " "))
@@ -268,7 +279,15 @@ func bookParagraphs(md string) []string {
 		if fence {
 			continue
 		}
-		if t == "" || strings.HasPrefix(t, "#") || strings.HasPrefix(t, ">") || strings.HasPrefix(t, "|") ||
+		t, q := unquote(t)
+		if q != quote {
+			flush()
+			quote = q
+		}
+		if q {
+			line = t
+		}
+		if t == "" || strings.HasPrefix(t, "#") || strings.HasPrefix(t, "|") ||
 			strings.HasPrefix(t, "---") || strings.HasPrefix(t, "<!--") || strings.HasPrefix(t, ":::") {
 			flush()
 			continue
@@ -280,6 +299,16 @@ func bookParagraphs(md string) []string {
 		cur = append(cur, strings.TrimSpace(line))
 	}
 	flush()
+	return paras
+}
+
+// bookParagraphs turns a chapter's Markdown into plain paragraphs (see
+// markdownParagraphs), and it replaces quotations set as *"..."* (and any
+// quoted span of 80 characters or more) with a break, so that quoted sources
+// are not counted as the book's prose. A block quotation that is itself a
+// quotation drops out by the same rule.
+func bookParagraphs(md string) []string {
+	paras := markdownParagraphs(md)
 	rep := strings.NewReplacer("**", "", "*", "", "`", "", "\\", "")
 	for i, p := range paras {
 		p = reItalicQuote.ReplaceAllString(p, " ; ")

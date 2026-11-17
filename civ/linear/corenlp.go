@@ -14,8 +14,10 @@ import (
 // Stanford CoreNLP 4.6.0 with the English models jar, unpacked in
 // ext-ref/corenlp/stanford-corenlp-4.6.0. The pipeline uses the shift-reduce
 // constituency parser; its dependencies are converted from the tree. (In
-// 4.6.0, running depparse together with parse gives some wrong token indices
-// in the JSON, and neural coreference needs the constituency parse.)
+// 4.6.0, running depparse together with parse gives more wrong token indices
+// in the JSON, and neural coreference needs the constituency parse.) Even
+// without depparse, about one sentence in eight comes back with wrong token
+// "index" values, so newSentInfo places tokens by their order in the list.
 var corenlpArgs = []string{
 	"edu.stanford.nlp.pipeline.StanfordCoreNLP",
 	"-annotators", "tokenize,ssplit,pos,lemma,ner,parse,coref",

@@ -5,13 +5,18 @@
 // opening phrase to the end, splitting at a colon or semicolon, moving a
 // parenthetical aside out, naming a distant pronoun, and putting a short
 // cause before its effect. The suggestions are drafts for a reader to judge.
+// It also measures the texture of paragraphs (sentence lengths and repeated
+// sentence shapes) and the concreteness of the nouns, against the period
+// sample.
 //
-// CoreNLP is unpacked in ext-ref/corenlp/ and the parses are cached in
-// ext-ref/linear/ (neither is committed). The report is written to
+// CoreNLP is unpacked in ext-ref/corenlp/, the parses are cached in
+// ext-ref/linear/, and the concreteness ratings are kept in
+// ext-ref/concreteness/ (none is committed). The report is written to
 // civ/notes/18_linearity_review.md.
 //
 // Usage, from civ/linear:
 //
+//	go run . fetch-concreteness   # download the concreteness ratings (once)
 //	go run . parse     # run CoreNLP on new or changed chapters (minutes)
 //	go run . report    # score the sentences and write the report
 //	go run . lines -chapter ch01 -from 5 -to 21   # every sentence in a line range, scored
@@ -29,7 +34,7 @@ import (
 func main() {
 	log.SetFlags(log.Ltime)
 	if len(os.Args) < 2 {
-		fmt.Fprintln(os.Stderr, "usage: go run . parse | report | lines")
+		fmt.Fprintln(os.Stderr, "usage: go run . fetch-concreteness | parse | report | lines")
 		os.Exit(2)
 	}
 	cmd := os.Args[1]
@@ -49,6 +54,8 @@ func main() {
 	}
 	data := filepath.Join(root, "ext-ref")
 	switch cmd {
+	case "fetch-concreteness":
+		err = cmdFetchConcreteness(data)
 	case "parse":
 		err = cmdParse(root, data, *threads, *mem)
 	case "report":

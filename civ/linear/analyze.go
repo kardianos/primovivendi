@@ -32,6 +32,10 @@ type sentence struct {
 	Depth     int     // deepest nesting of clauses
 	Findings  []finding
 	Score     float64
+	Para      int      // paragraph within the source
+	Sec       int      // heading within a chapter (source.SecTitle); -1 for none
+	Spine     string   // the main clause's top-level shape (see spine)
+	Nouns     []string // lemmas of the common nouns, in order
 }
 
 type parsedDoc struct {
@@ -81,11 +85,12 @@ var clausalRels = map[string]bool{"advcl": true, "acl": true, "acl:relcl": true,
 func newSentInfo(cs cnSent) (*sentInfo, bool) {
 	n := len(cs.Toks)
 	s := &sentInfo{toks: make([]cnTok, n+1), head: make([]int, n+1), rel: make([]string, n+1), kids: make([][]int, n+1), lo: make([]int, n+1), hi: make([]int, n+1)}
-	for _, t := range cs.Toks {
-		if t.Index < 1 || t.Index > n {
-			return nil, false
-		}
-		s.toks[t.Index] = t
+	// Tokens are placed by their order in the list. CoreNLP 4.6.0 sometimes
+	// writes wrong "index" values ("The" 3, "Peasant" 4, "'s" 3) while the
+	// order and the dependencies stay right; the gloss check below confirms
+	// that the dependencies match the tokens.
+	for i, t := range cs.Toks {
+		s.toks[i+1] = t
 	}
 	for _, d := range cs.Deps {
 		if d.Dependent < 1 || d.Dependent > n || d.Governor < 0 || d.Governor > n || s.toks[d.Dependent].Word != d.DepGloss {
@@ -253,6 +258,7 @@ func analyzeDoc(src *source, doc *cnDoc, text string) []*sentence {
 	}
 
 	var out []*sentence
+	para := -1
 	for idx, s := range p.sents {
 		if s == nil {
 			continue
@@ -264,7 +270,20 @@ func analyzeDoc(src *source, doc *cnDoc, text string) []*sentence {
 		}
 		st.ParaFirst = idx == 0 || p.sents[idx-1] == nil || p.sents[idx-1].paraIdx != s.paraIdx
 		if src.Ref {
-			st.ParaFirst = idx == 0 || p.sents[idx-1] == nil || !strings.Contains(p.sub(p.sents[idx-1].end, s.begin), "\n\n")
+			st.ParaFirst = idx == 0 || p.sents[idx-1] == nil || strings.Contains(p.sub(p.sents[idx-1].end, s.begin), "\n\n")
+		}
+		if st.ParaFirst {
+			para++
+		}
+		st.Para, st.Sec = para, -1
+		if !src.Ref && s.paraIdx >= 0 && s.paraIdx < len(src.ParaSec) {
+			st.Para, st.Sec = s.paraIdx, src.ParaSec[s.paraIdx]
+		}
+		st.Spine = spine(s)
+		for i := 1; i <= s.n(); i++ {
+			if t := s.toks[i]; t.POS == "NN" || t.POS == "NNS" {
+				st.Nouns = append(st.Nouns, strings.ToLower(t.Lemma))
+			}
 		}
 		st.Words = s.wordsIn(1, s.n())
 		r := s.root
@@ -348,7 +367,7 @@ func analyzeDoc(src *source, doc *cnDoc, text string) []*sentence {
 		case st.PreVerb > 10:
 			add(finding{Part: 2, Kind: "late verb", Weight: 1, Note: fmt.Sprintf("%d words come before the main verb (%q).", st.PreVerb, s.toks[mv].Orig)})
 		}
-		if st.SubjLen > 8 {
+		if st.SubjLen > 8 && !clauseAsSubject(s, subj) {
 			w := 1.0
 			if st.SubjLen > 14 {
 				w = 2
@@ -359,10 +378,6 @@ func analyzeDoc(src *source, doc *cnDoc, text string) []*sentence {
 			fw := s.wordsIn(s.lo[k], s.hi[k])
 			if fw < 8 {
 				continue
-			}
-			w := 1.0
-			if fw < 8 {
-				w = 0.5
 			}
 			a, b := s.lo[k], s.hi[k]
 			lead := ""
@@ -387,14 +402,11 @@ func analyzeDoc(src *source, doc *cnDoc, text string) []*sentence {
 			if orderWords[opener] {
 				// A condition, a time, or a cause that comes first keeps the
 				// order of the argument (part 5), so it is not moved.
-				f := finding{Part: 2, Kind: "opening phrase", Weight: 0.5,
-					Note: fmt.Sprintf("%s %d-word %q clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.", article(fw), fw, s.toks[a].Orig)}
-				if fw >= 8 {
-					add(f)
-				}
+				add(finding{Part: 2, Kind: "opening phrase", Weight: 0.5,
+					Note: fmt.Sprintf("%s %d-word %q clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.", article(fw), fw, s.toks[a].Orig)})
 				continue
 			}
-			f := finding{Part: 2, Kind: "opening phrase", Weight: w, Move: "pull back",
+			f := finding{Part: 2, Kind: "opening phrase", Weight: 1, Move: "pull back",
 				Note: fmt.Sprintf("%s %d-word opening phrase stands before the subject: %q.", article(fw), fw, tidy(p.sub(s.toks[s.lo[k]].Begin, s.toks[s.hi[k]].End)))}
 			startsSentence := s.wordsIn(1, s.lo[k]-1) == 0
 			endsInQuote := s.toks[s.n()].POS == "''" || (s.n() > 1 && s.toks[s.n()-1].POS == "''")
@@ -451,11 +463,14 @@ func analyzeDoc(src *source, doc *cnDoc, text string) []*sentence {
 			}
 			left := strings.TrimSpace(p.sub(s.begin, s.toks[i].Begin))
 			right := strings.TrimSpace(p.sub(s.toks[i].End, s.end))
-			mark := "colon"
+			// Rule 10 asks for a split after a colon; the typography rules
+			// join independent clauses with a semicolon, so a semicolon
+			// counts half.
+			mark, weight := "colon", 1.0
 			if w == ";" {
-				mark = "semicolon"
+				mark, weight = "semicolon", 0.5
 			}
-			add(finding{Part: 3, Kind: "second claim", Weight: 1, Move: "split",
+			add(finding{Part: 3, Kind: "second claim", Weight: weight, Move: "split",
 				Note:    fmt.Sprintf("A second clause with its own subject follows the %s.", mark),
 				Suggest: tidy(left + ". " + capFirst(right))})
 		}
@@ -878,4 +893,51 @@ func article(n int) string {
 		return "An"
 	}
 	return "A"
+}
+
+// subordinators open a clause that cannot be a subject. ("Whether" and
+// "that" can open one: "Whether it holds is the question.")
+var subordinators = map[string]bool{"if": true, "when": true, "whenever": true, "where": true, "wherever": true, "unless": true,
+	"once": true, "after": true, "before": true, "because": true, "since": true, "as": true, "while": true, "until": true,
+	"although": true, "though": true}
+
+// clauseAsSubject reports the parse error in which an opening clause ("If
+// the roads close for two weeks, the family...") is read as part of the
+// subject: the subject's span begins with a subordinating word.
+func clauseAsSubject(s *sentInfo, subj int) bool {
+	a := s.lo[subj]
+	return s.rel[a] == "mark" && subordinators[strings.ToLower(s.toks[a].Word)]
+}
+
+// spineRels are the relations that make up a sentence's spine.
+var spineRels = map[string]bool{"nsubj": true, "csubj": true, "expl": true, "obj": true, "iobj": true, "ccomp": true, "xcomp": true, "advcl": true, "cop": true}
+
+// spine is the shape of the main clause: in order, the subjects, objects,
+// complements, adverbial clauses, and copula attached to the root, with the
+// root marked by its part of speech ("advcl nsubj ROOT:V obj"). Relation
+// subtypes are dropped ("nsubj:pass" is "nsubj").
+func spine(s *sentInfo) string {
+	var parts []string
+	ks := append(append([]int(nil), s.kids[s.root]...), s.root)
+	sort.Ints(ks)
+	for _, k := range ks {
+		if k == s.root {
+			c := "X"
+			switch p := s.toks[k].POS; {
+			case strings.HasPrefix(p, "VB"):
+				c = "V"
+			case strings.HasPrefix(p, "NN"):
+				c = "N"
+			case strings.HasPrefix(p, "JJ"):
+				c = "A"
+			}
+			parts = append(parts, "ROOT:"+c)
+			continue
+		}
+		r, _, _ := strings.Cut(s.rel[k], ":")
+		if spineRels[r] && (len(parts) == 0 || parts[len(parts)-1] != r) {
+			parts = append(parts, r)
+		}
+	}
+	return strings.Join(parts, " ")
 }

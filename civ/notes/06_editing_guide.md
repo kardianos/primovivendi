@@ -237,7 +237,7 @@ After a build, the same `grep` can be run on `civ/build/*.html`.
 
 ### Part E: Period Comparison (Google Books and a Reference Corpus)
 
-`civ/ngram` compares the chapters with English prose of 1850 to 1950 and writes `civ/notes/17_ngram_comparison.md`. The report lists words and phrases that were rare or absent in Google Books for those years, the keyness of words and phrases against a corpus of 36 public-domain treatises (`civ/ngram/reference.tsv`), Burrows's Delta, and sentence statistics. Downloads are kept in `ext-ref/ngram/`, which is not committed.
+`civ/ngram` compares the chapters with English prose of 1850 to 1950 and writes `civ/notes/17_ngram_comparison.md`. The report lists words and phrases that were rare or absent in Google Books for those years (a word used once is measured against the words the period writers used once), the keyness of words and phrases against a corpus of 36 public-domain treatises (`civ/ngram/reference.tsv`), Burrows's Delta and cosine Delta, sentence statistics, and a table by section: distance from the nearest period writer, judged against stretches of the reference works of the same length, and the shares of bold type, lists, and "(Principle N)" cross-references. Block quotations are counted with the prose, because the book sets its own examples in them; quotations of other writers are left out. Downloads are kept in `ext-ref/ngram/`, which is not committed.
 
 ```bash
 cd civ/ngram
@@ -245,16 +245,19 @@ go run . fetch-ref         # once: the reference works
 go run . google-unigrams   # once: Google's unigram counts (about 10 GB streamed, about 20 minutes)
 go run . google-phrases    # after edits: looks up new recurring phrases only; earlier lookups are cached
 go run . report
+go run . lookup "cannot be" honest   # one phrase or word: the cached rate, looked up if new
+go run . lookup -contains bridge     # every cached phrase that holds a word
 ```
 
 The results are signals for a reader, not rules. A phrase absent from the period is a reason to read the phrase again, not proof that it is wrong. The book's subject dominates the keyness lists, so the function-word tables and the sentence tables say the most about register.
 
 ### Part F: Rule 10 Aid (Linear Sentences)
 
-`civ/linear` parses the chapters with Stanford CoreNLP (unpacked in `ext-ref/corenlp/`; Java is required) and scores each sentence against the five parts of Rule 10: words before the main verb, long subjects and opening phrases, a second clause after a colon or semicolon, parenthetical asides, nested clauses, pronouns with no noun of their kind nearby, bare "this," new material before old, and a cause stated after its effect. It compares the book with a sample of period prose parsed the same way, and it drafts a rewrite where the move is mechanical: pull back a long opening phrase, pull forward a short cause, split at a colon or semicolon, move out an aside, or name a pronoun. It writes `civ/notes/18_linearity_review.md`.
+`civ/linear` parses the chapters with Stanford CoreNLP (unpacked in `ext-ref/corenlp/`; Java is required) and scores each sentence against the five parts of Rule 10: words before the main verb, long subjects and opening phrases, a second clause after a colon or semicolon, parenthetical asides, nested clauses, pronouns with no noun of their kind nearby, bare "this," new material before old, and a cause stated after its effect. It compares the book with a sample of period prose parsed the same way, and it drafts a rewrite where the move is mechanical: pull back a long opening phrase, pull forward a short cause, split at a colon or semicolon, move out an aside, or name a pronoun. It also measures paragraph texture (paragraphs whose sentences are all of one length, and runs of sentences built on the same frame) and the concreteness of the nouns (Brysbaert concreteness ratings, by section, and runs of sentences with no concrete noun), each set against stretches of the period sample of the same size. It writes `civ/notes/18_linearity_review.md`.
 
 ```bash
 cd civ/linear
+go run . fetch-concreteness   # once: the concreteness ratings, to ext-ref/concreteness/
 go run . parse    # parses new or changed chapters only (a few minutes for the whole book)
 go run . report
 ```

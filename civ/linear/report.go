@@ -100,6 +100,10 @@ func cmdReport(root, data, path string, perChapter int) error {
 		chapters = append(chapters, s.Name)
 	}
 	bs, rs := summarize(book), summarize(ref)
+	rate, err := loadConcreteness(data)
+	if err != nil {
+		return err
+	}
 
 	var sb strings.Builder
 	p := func(format string, a ...any) { fmt.Fprintf(&sb, format+"\n", a...) }
@@ -115,7 +119,7 @@ func cmdReport(root, data, path string, perChapter int) error {
 	p("|---|---|---|---|")
 	p("| 1. Reads forward | The sentence opens on material absent from the sentence before and ends on words from it (\"new before old\"). | 1 | Names the words to open from. |")
 	p("| 2. Subject and main verb early | Words before the main verb (over 10, 15, 22); a subject over 8 or 14 words; an opening phrase of 8 or more words before the subject (half weight when it states a condition, a time, or a cause, which part 5 keeps in front). | 1 to 3; 1 or 2; 0.5 or 1 | Pull back, for an opening of 10 or more words that does not point back to the previous sentence. |")
-	p("| 3. One claim per sentence | A clause with its own subject, attached to the main clause, after a colon or semicolon; a parenthetical aside with a verb; clauses nested three or more deep (infinitives not counted); over 40 or 55 words. | 1; 1; 1 per level past two; 1 or 2 | Split at the colon or semicolon; move out an aside that is a sentence by itself. |")
+	p("| 3. One claim per sentence | A clause with its own subject, attached to the main clause, after a colon or semicolon (half weight after a semicolon, which the typography rules use to join independent clauses); a parenthetical aside with a verb; clauses nested three or more deep (infinitives not counted); over 40 or 55 words. | 1 or 0.5; 1; 1 per level past two; 1 or 2 | Split at the colon or semicolon; move out an aside that is a sentence by itself. |")
 	p("| 4. Pronoun near its noun | \"He,\" \"she,\" \"it,\" or \"they\" with no person, singular noun, or plural noun (or earlier pronoun of the same kind) in its sentence before it or in the sentence before; \"this,\" \"these,\" or \"those\" standing alone as a noun. Quotations, reflexives, and the \"it\" of \"it is clear that\" are skipped. | 2; 1 | Name it, when the parser links the pronoun to a noun of the right kind. |")
 	p("| 5. Cause before effect | A \"because\" clause after the main clause. | 0.5 | Pull forward when the cause is 12 words or fewer. |")
 	p("")
@@ -226,14 +230,19 @@ func cmdReport(root, data, path string, perChapter int) error {
 		p("")
 	}
 
-	p("## 6. Method and limits")
+	writeTexture(p, book, ref, chapters, byChapter, concreteness{rate})
+
+	p("## 8. Method and limits")
 	p("")
 	p("- **Parser.** Stanford CoreNLP 4.6.0: tokens, parts of speech, lemmas, named entities, the shift-reduce constituency parser with Universal Dependencies converted from it, and neural coreference (C. Manning and others, \"The Stanford CoreNLP Natural Language Processing Toolkit,\" ACL 2014; K. Clark and C. Manning, \"Deep Reinforcement Learning for Mention-Ranking Coreference Models,\" EMNLP 2016). Attachment is right for most words of edited prose, and coreference is right for roughly four pronouns in five, so a flag about a pronoun deserves the most care.")
-	p("- **Text.** Headings, block quotations, and tables are left out. Markup is removed. Inline quotations stay, because they are part of the sentence a reader meets.")
+	p("- **Text.** Headings and tables are left out. Markup is removed. Block quotations are kept, because the book sets its own examples in them, unless the whole block is a quotation of another writer. Inline quotations stay, because they are part of the sentence a reader meets.")
 	p("- **\"New before old\"** compares the words before the main verb and the last five words with the content words (nouns, verbs, adjectives) of the previous sentence in the same paragraph. A pronoun, a connective, or a shared word at the start counts as a link. The first sentence of a paragraph is not checked.")
 	p("- **Draft rewrites** are made by moving the parsed phrase and fixing the capital letter. They do not change wording, so a moved phrase can need a new connective, and a named pronoun can repeat a noun too often. A draft is offered only where the parse passes several checks: one main clause, the rest of the sentence starting with its subject, no pronoun left ahead of its noun, no quotation split, and no colon at the end. The other findings name the problem and leave the rewrite to the editor.")
-	p("- **Parser errors.** The parser sometimes misreads a sentence, for example taking a whole clause for the subject (02:13). A finding that does not match the sentence is a parse error and can be ignored.")
+	p("- **Parser errors.** The parser sometimes misreads a sentence, for example taking a whole clause for the subject. When the subject it finds begins with \"if,\" \"when,\" \"because,\" or a like word, it has read an opening clause as the subject, and no long-subject finding is made. Other misreadings remain: a finding that does not match the sentence is a parse error and can be ignored.")
+	p("- **Texture and concreteness** (sections 6 and 7) set each paragraph, run, or section of the book beside stretches of the period sample of the same size, so a short stretch is not judged by a limit meant for a long one. The period sample is %d words from 8 works; a figure that rests on few period stretches is a reason to read the passage, not a finding about it.", int(sumF(rs.words)))
 	p("- **Not measured.** Whether a sentence ends on its new point, beyond the overlap test above, and whether the argument follows the order of events, beyond \"because.\"")
+	p("")
+	p("Concreteness ratings: M. Brysbaert, A. B. Warriner, and V. Kuperman, \"Concreteness Ratings for 40 Thousand Generally Known English Word Lemmas,\" *Behavior Research Methods* 46 (2014), supplementary material.")
 
 	if err := os.WriteFile(path, []byte(sb.String()), 0o644); err != nil {
 		return err
