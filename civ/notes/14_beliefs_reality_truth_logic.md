@@ -184,6 +184,7 @@ These are questions raised by the position, or likely to come from Brad, that th
 - Principle 1.4 cannot accept altering a hypothesis after the fact to claim that a failed prediction was correct. That is the ground of the objections to reclassifying Genesis and to "God intervened."
 - Principle 1.2 says revelation may add a claim but may not cancel a measurement, and the obligation to test it remains. The reasons in section 11 apply that test.
 - Principle 1.2 says sensory contact with reality and reason are linked. The account of proxies and convergence in section 7 spells out how.
+  - Superseded 2026-11-17 (notes/23). Principle 1.2 now says that what a man knows of the shared world is what has survived contact with it, and that logic and reason are shortcuts to a test. Revelation is a separate category from knowledge.
 
 ## 15. Where these points were applied (2026-11-04)
 

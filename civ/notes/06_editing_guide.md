@@ -98,7 +98,7 @@ The following two lists are the foundational axioms and derived virtues of the w
 ### Rule 8: No Rhetorical Question-Fragment Transitions ("Why? Because...")
 - **Prohibited:** Never use standalone `"Why? Because..."` transitions or inline `"Why does...? Because..."` question-and-fragment pairs.
 - **Also prohibited:** A question answered by a one-word fragment (`"...? No."`, `"...? Never."`) or a stock prompt such as `"What happened?"` / `"What occurred...?"` followed by the answer.
-- **Permitted (author's decision, 2026-10-27):** A question answered by a word may stay when it forms a deliberate contrast (two questions with opposite answers) or completes a series of parallel questions. The audit still flags these for review. Kept cases: `02_ch02.md` (practice versus explanation), `07_ch07.md` (fault versus responsibility), `09_ch09.md` (the international-law series), `11_ch11.md` (Step 5), and `14_ch14.md` (the stolen-land professor).
+- **Permitted (author's decision, 2026-10-27):** A question answered by a word may stay when it forms a deliberate contrast (two questions with opposite answers) or completes a series of parallel questions. The audit still flags these for review. Kept cases: `02_ch02.md` (practice versus explanation), `07_ch07.md` (fault versus responsibility), `09_ch09.md` (the international-law series), and `11_ch11.md` (Step 5).
 - **Replacement:** Combine the cause and effect into a single declarative sentence (`"This occurs because..."`, `"A bridge stands only because..."`) or answer a section's framing question with a complete independent sentence rather than a `"Because..."` fragment.
 
 ### Rule 9: Substantive Titles and Headings
