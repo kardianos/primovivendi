@@ -20,26 +20,26 @@ The score of a sentence is the sum of its weights. The comparison sample is 4946
 
 | Measure | Book | Period sample |
 |---|---|---|
-| Sentences | 2425 | 1786 |
+| Sentences | 2446 | 1786 |
 | Sentence length, median and 90th percentile | 21, 44 | 24, 50 |
 | Words before the main verb, median and 90th percentile | 3, 13 | 3, 13 |
-| Sentences with more than 10 words before the main verb | 14.7% | 14.0% |
+| Sentences with more than 10 words before the main verb | 14.6% | 14.0% |
 | Subject length, median and 90th percentile | 2, 8 | 2, 8 |
-| Mean dependency distance, median and 90th percentile | 2.71, 3.77 | 2.79, 3.88 |
-| Sentences with clauses nested three deep | 9.6% | 11.2% |
-| Mean score | 0.83 | 1.04 |
-| Sentences scoring 3 or more | 10.8% | 13.6% |
+| Mean dependency distance, median and 90th percentile | 2.71, 3.76 | 2.79, 3.88 |
+| Sentences with clauses nested three deep | 9.7% | 11.2% |
+| Mean score | 0.82 | 1.04 |
+| Sentences scoring 3 or more | 10.7% | 13.6% |
 
 Findings per 100 sentences:
 
 | Finding | Part | Book | Period sample |
 |---|---|---|---|
-| late verb | 2 | 14.7 | 14.0 |
-| long subject | 2 | 7.8 | 8.4 |
+| late verb | 2 | 14.6 | 14.0 |
+| long subject | 2 | 7.7 | 8.4 |
 | opening phrase | 2 | 8.5 | 7.7 |
-| second claim | 3 | 7.7 | 10.4 |
+| second claim | 3 | 7.6 | 10.4 |
 | aside | 3 | 1.4 | 0.7 |
-| nested clauses | 3 | 9.6 | 11.2 |
+| nested clauses | 3 | 9.7 | 11.2 |
 | long sentence | 3 | 12.6 | 19.6 |
 | distant pronoun | 4 | 0.4 | 2.0 |
 | bare this | 4 | 1.5 | 6.3 |
@@ -60,7 +60,7 @@ Mean dependency distance is the average number of words between a word and the w
 | ch06 | 176 | 0.69 | 7.4% | 3 | 22 | 13 | 14 | 3 | 1 | 2 | 0 | 3 |
 | ch07 | 172 | 0.94 | 12.2% | 3 | 32 | 18 | 16 | 7 | 0 | 1 | 3 | 1 |
 | ch08 | 200 | 0.86 | 13.5% | 3 | 33 | 16 | 14 | 2 | 1 | 2 | 1 | 3 |
-| ch09 | 350 | 0.66 | 8.0% | 3 | 33 | 20 | 36 | 5 | 1 | 4 | 2 | 12 |
+| ch09 | 371 | 0.64 | 7.5% | 3 | 34 | 20 | 36 | 5 | 1 | 4 | 2 | 12 |
 | ch10 | 141 | 0.95 | 12.8% | 2 | 17 | 9 | 5 | 4 | 1 | 5 | 3 | 3 |
 | ch11 | 204 | 0.62 | 7.4% | 3 | 22 | 11 | 9 | 0 | 1 | 2 | 2 | 1 |
 | ch12 | 220 | 0.97 | 13.6% | 3 | 35 | 19 | 15 | 4 | 0 | 6 | 1 | 2 |
@@ -1874,7 +1874,7 @@ Two habits that a sentence-by-sentence score cannot see: a paragraph whose sente
 
 For a paragraph of three or more sentences, the spread of sentence lengths is the standard deviation over the mean. Each book paragraph is set beside every run of the same number of consecutive sentences inside a paragraph of the period sample; **period flatter** is the share of those runs whose lengths vary less than the paragraph's. A paragraph written like the period's sits near half; one flatter than the period's prose sits near none.
 
-The book has 311 such paragraphs; 0 longer ones have too few period runs to compare. In the median paragraph, 61% of period runs are flatter, where the period's own median is 50%. 27 paragraphs (8.7%) are flatter than nine in ten period runs, where the period's own share is 10%.
+The book has 315 such paragraphs; 0 longer ones have too few period runs to compare. In the median paragraph, 60% of period runs are flatter, where the period's own median is 50%. 29 paragraphs (9.2%) are flatter than nine in ten period runs, where the period's own share is 10%.
 
 The flattest paragraphs:
 
@@ -1887,6 +1887,7 @@ The flattest paragraphs:
 | 14:84 | 4 | 23, 24, 28, 23 | 0.08 | 1% | The second, fifth, sixth, and seventh questions govern... |
 | 03:72 | 4 | 17, 18, 14, 17 | 0.09 | 1% | Which side of that boundary a claim stands... |
 | 08:202 | 3 | 19, 19, 21 | 0.05 | 1% | The Moriori and Nunuku's Law: Roughly five hundred... |
+| 09:311 | 6 | 16, 16, 14, 21, 16, 25 | 0.21 | 2% | The cost of such a rule falls on... |
 | 09:70 | 3 | 26, 24, 28 | 0.06 | 3% | If conscientious, self-governed citizens refuse to exercise magistracy... |
 | 03:82 | 3 | 26, 26, 22 | 0.08 | 3% | Suppose an aircraft structural engineer runs a fatigue... |
 | 06:166 | 3 | 38, 32, 33 | 0.08 | 3% | Although a burned building can be rebuilt by... |
@@ -1894,7 +1895,6 @@ The flattest paragraphs:
 | 11:148 | 3 | 39, 37, 45 | 0.08 | 3% | Social parasitism occurs when able-bodied adults who will... |
 | 07:134 | 8 | 12, 27, 16, 23, 32, 18, 28, 28 | 0.28 | 4% | Truth in a made thing means correspondence to... |
 | 03:61 | 3 | 16, 19, 20 | 0.09 | 4% | Language ceases to serve as a medium of... |
-| 02:119 | 4 | 22, 31, 34, 27 | 0.16 | 4% | Second, the progression from Aristotle to Kepler and... |
 
 ### 6b. Sentences built on the same frame
 
@@ -1902,7 +1902,7 @@ A sentence's frame is the order of the parts attached to its main verb: subject,
 
 | Measure | Book | Period sample |
 |---|---|---|
-| Sentence with the same frame as the one before it, in the same paragraph | 12.9% | 9.8% |
+| Sentence with the same frame as the one before it, in the same paragraph | 13.2% | 9.8% |
 | Runs of three or more, per 100 sentences | 0.7 | 0.8 |
 
 The book's runs of three or more, longest first:
@@ -1918,6 +1918,8 @@ The book's runs of three or more, longest first:
 | 08:101 | 3 | nsubj ROOT:V obj | You cannot sit at the... / You cannot pay the college... / If you divide your monthly... |
 | 08:214 | 3 | nsubj ROOT:V | Carthage was destroyed in 146... / Constantinople fell in 1453. / The Inca Empire collapsed within... |
 | 09:289 | 3 | nsubj ROOT:V ccomp | Modern human-rights ideology erases the... / It declares that any human... / It ignores that obligation is... |
+| 09:311 | 3 | nsubj ROOT:V obj | Haiti rejected three requests to... / While on release he killed... / Victor Martinez-Hernandez entered the United... |
+| 09:313 | 3 | nsubj ROOT:V obj | The rule counts the danger... / It therefore gives the persons... / Justice applies one procedure to... |
 | 10:54 | 3 | nsubj cop ROOT:A | An extra bedroom would be... / More food would be welcome. / The means to pay a... |
 | 10:91 | 3 | nsubj ROOT:V obj | Every human infant enters the... / Civilization therefore requires this virtue. / Every living adult receives the... |
 | 10:103 | 3 | nsubj ROOT:V obj | Can you repay the dead... / You cannot write a check... / You cannot repay the Roman... |
@@ -1932,7 +1934,7 @@ Each common noun is rated from 1 (abstract, known through words: *justice*, *pri
 
 | Text | Rated nouns | Mean rating |
 |---|---|---|
-| The book | 14819 | 3.41 |
+| The book | 14919 | 3.41 |
 | Period sample | 9747 | 3.32 |
 | Bagehot, The English Constitution (1867) | 1170 | 3.06 |
 | Mill, On Liberty (1859) | 1157 | 2.78 |
@@ -1957,7 +1959,7 @@ A section's nouns are set beside 1000 stretches of the period sample with the sa
 | ch06 | 1100 | 3.36 |
 | ch07 | 1225 | 3.53 |
 | ch08 | 1244 | 3.56 |
-| ch09 | 2110 | 3.40 |
+| ch09 | 2210 | 3.40 |
 | ch10 | 854 | 3.62 |
 | ch11 | 1234 | 3.45 |
 | ch12 | 1284 | 3.10 |
@@ -2065,8 +2067,8 @@ Across the 160 sections, the median section is less concrete than 50% of period 
 | 09:255 Counterfeit 2: Value Symmetry, Justice as a Debt Between Sid... | 276 | 3.34 | 57% |
 | 09:271 4. Human Rights Under the Five Principles: Scoped Constituti... | 20 | 2.93 | 73% |
 | 09:275 1. What Classical Constitutional Rights Actually Are: Scoped... | 54 | 3.56 | 33% |
-| 09:283 2. The Four Structural Flaws of Modern "Human Rights" Ideolo... | 111 | 3.33 | 52% |
-| 09:307 5. International Law: Why Scope Runs Out at the Border and M... | 175 | 3.35 | 51% |
+| 09:283 2. The Five Structural Flaws of Modern "Human Rights" Ideolo... | 211 | 3.37 | 51% |
+| 09:317 5. International Law: Why Scope Runs Out at the Border and M... | 175 | 3.35 | 51% |
 | 10:1 Chapter 10: Children, Inherited Debt, and Replacement | 159 | 3.66 | 26% |
 | 10:30 1. Virtue 6: Have Children | 42 | 3.48 | 42% |
 | 10:38 Aiming at Full Life, Not Grim Demographic Duty | 83 | 3.60 | 30% |
@@ -2135,9 +2137,9 @@ A sentence counts as abstract here when its most concrete noun is rated below 4.
 
 | Sentences in a run of | Book | Period sample |
 |---|---|---|
-| 1 or more | 46.4% | 49.6% |
-| 3 or more | 21.7% | 27.7% |
-| 5 or more | 9.0% | 12.3% |
+| 1 or more | 46.3% | 49.6% |
+| 3 or more | 21.5% | 27.7% |
+| 5 or more | 9.1% | 12.3% |
 | 8 or more | 2.0% | 4.9% |
 
 The book's ten longest runs; the longest in the period sample is 18 sentences.

@@ -283,7 +283,7 @@ The "In Practice" heading and its lead sentence went, because *Challenger* now o
   - Flaw 1 is unchanged.
   - Flaw 2 keeps its article citations. Its question about houses and cables is answered directly, and "by mathematical necessity" became "necessarily."
   - Flaws 3 and 4 are now two short sentences each. Flaw 4 points to chapter 8, and flaw 3's bridge is gone.
-  - **Flaw 5 is cut.** It was an unsourced generalization, an invented case, and a "Where were …? Nowhere" (Rule 8). The heading and lead now say four flaws. If the argument is wanted back, the candidate source is a European Court of Human Rights judgment refusing a foreign offender's expulsion under article 8, for example *Maslov v. Austria* (Grand Chamber, 2008). That case is not yet read from the judgment.
+  - **Flaw 5 is cut** (restored in sourced form on 2026-11-18; see "Flaw 5 restored" at the end of this note). It was an unsourced generalization, an invented case, and a "Where were …? Nowhere" (Rule 8). The heading and lead now say four flaws. If the argument is wanted back, the candidate source is a European Court of Human Rights judgment refusing a foreign offender's expulsion under article 8, for example *Maslov v. Austria* (Grand Chamber, 2008). That case is not yet read from the judgment.
 - **Section 5:**
   - Items 1 and 2 are merged.
   - Item 3 keeps conditions A and B, the Kellogg-Briand Pact, the Budapest Memorandum, and the *Pax* paragraph, which is tightened. The rhetorical question and the imperative "Mistake the security …" are gone.
@@ -327,3 +327,28 @@ If this is used:
 - 11:57 becomes "… and that the fund should be closed and anyone who falls left to perish."
 - 11:59 becomes "Closing the fund leaves the carpenter's family without a roof while his femur heals."
 - Criterion 2 (11:62) becomes "The fund keeps the carpenter's family housed until his leg heals, not for good."
+
+## Flaw 5 restored (2026-11-18)
+
+The author asked first for research on how courts, governments, parties, and judges in the United States and the United Kingdom treat foreign offenders and illegal entry, judged by actions above words. Two reports and their notes are in `ext-ref/` (git-ignored): `ext-ref/reports/Foreign offender deportation US and UK.md` and `ext-ref/reports/Border enforcement politics US and UK.md`, with notes under `ext-ref/research_notes/`. Findings gathered through the Grok CLI were checked against their cited sources (`grok_verification.md`: 309 claims, 270 verified).
+
+The author then restated the point of the original flaw: the rule protects the offender and the cost falls on the innocent, and the pattern is defended, not a one-off. The restored item (09:305 to 313), accepted as drafted, keeps the original title, "Asymmetric Application to Protect Offenders Over Builders (Violating Principle 5)". The heading at 09:283 and the lead at 09:285 now say five flaws and "five counts."
+
+**Sources, each quotation matched by machine against a downloaded copy** (copies in `ext-ref/research_notes/Border enforcement politics US and UK/src_verification/flaw5/` and `src_verification/dnc/`):
+
+- *Saadi v. Italy* [GC], no. 37201/06, 28 February 2008, paragraphs 138 and 139.
+- *Sufi and Elmi v. the United Kingdom*, nos. 8319/07 and 11449/07, 28 June 2011, paragraphs 14 and 21 (the convictions) and 213 (the conduct rule).
+- *Matter of Jean*, 23 I&N Dec. 373, 376 n.7 (A.G. 2002), from the first report's notes.
+- Chicago, mayor's press release of 27 January 2021 (archived copy), on removing the four exceptions to the Welcoming City Ordinance.
+- Democratic National Committee, August 2026 resolutions packet, item 27.
+- DHS Office of Inspector General, "Jean Jacques," 16 June 2016.
+- DHS release of 11 August 2025 on Rachel Morin.
+
+**Departures from the accepted draft:**
+
+- "entered the United States unlawfully" became "entered the United States illegally," at the author's instruction ("Don't use undocumented, ensure you use illegal as that is the fact, not the sentiment"). It matches the DHS release ("illegally entered the U.S."). No chapter uses "undocumented" or "unlawfully."
+- The judgment sentence had seventeen words before its verb (Rule 10, part 2; `linear` score 4.0). It became two sentences in cause-then-effect order: "The rule counts the danger to the offender and declines to count the danger from him. It therefore gives the persons he may harm next no standing in the decision." Both score 0.
+
+**Left out, with reasons:** the Kate Steinle killing (the jury acquitted Garcia-Zarate of murder and manslaughter); the Laken Riley killing (the conviction rests on news reports here, and the NYPD disputes ICE's account of the 2023 release); a Danish case of refusal because the home country punishes more severely (none found; the nearest is the Supreme Court order of 13 June 2022, sag 82/2020, revoking expulsion for psychiatric treatment, and the Folketing figure of 110 criminally expelled persons on tolerated stay on 21 November 2025, whose page blocked download); *Trabelsi v. Belgium* (2014), which concerned extradition to the United States.
+
+**Checks:** Parts A, C, and D show no change. Part B: "in the same" rises from 19 to 20 uses (the sentence "sets aside the offender's record in the same way"); no stock phrase. On `linear lines` the item's sentences score 0 except the *Saadi* quotation sentence (2.0; the long subject is inside the Court's words), the Chicago exceptions sentence (2.0; forty-five words), and two at 1.0, all below the 2.5 at which note 18 lists a sentence. Notes 17 and 18 were regenerated and `ccp_book.md` reassembled from chapters 00 to 14. In note 17 the flaws subsection (9:283) grows from 396 to 713 words and moves from 94 to 98 percent on the period-distance measure (a signal to read, not a rule; it is 96 percent list text with court citations).
