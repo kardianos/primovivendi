@@ -275,11 +275,31 @@ The "In Practice" heading and its lead sentence went, because *Challenger* now o
   - 11:196 moved nearer the period writers (69 to 57 percent).
 - Words rare in the period, carried from the old checklist into the accepted draft: "fraudster" (period rate 0.0001 per million), "selfless," "verifiable," "wishful," "swapped."
 
-**Item 8: deferred.** The author will re-read chapter 9 before deciding.
+**Item 8: first deferred, then applied as suggested the same day (sections condensed, no split).** Section 4 fell from 1,139 to 765 words and section 5 from 977 to 769, so chapter 9 went from 8,779 to 8,197 words. Section 5 fell less than planned because it gained a sourced example.
+
+- **Section 4:**
+  - The two introductory paragraphs are now one.
+  - The three characteristics of classical rights are tightened.
+  - Flaw 1 is unchanged.
+  - Flaw 2 keeps its article citations. Its question about houses and cables is answered directly, and "by mathematical necessity" became "necessarily."
+  - Flaws 3 and 4 are now two short sentences each. Flaw 4 points to chapter 8, and flaw 3's bridge is gone.
+  - **Flaw 5 is cut.** It was an unsourced generalization, an invented case, and a "Where were …? Nowhere" (Rule 8). The heading and lead now say four flaws. If the argument is wanted back, the candidate source is a European Court of Human Rights judgment refusing a foreign offender's expulsion under article 8, for example *Maslov v. Austria* (Grand Chamber, 2008). That case is not yet read from the judgment.
+- **Section 5:**
+  - Items 1 and 2 are merged.
+  - Item 3 keeps conditions A and B, the Kellogg-Briand Pact, the Budapest Memorandum, and the *Pax* paragraph, which is tightened. The rhetorical question and the imperative "Mistake the security …" are gone.
+  - The tribunal item keeps its structural point, with a sourced member. The General Assembly elected China, Cuba, and Russia to the Human Rights Council "for a three-year term of office beginning on 1 January 2021" (A/75/PV.16, 13 October 2020; press release GA/12277). Liu Xiaobo was sentenced to "a fixed-term imprisonment of eleven years" for "inciting subversion of state power" (Beijing No. 1 Intermediate People's Court, 25 December 2009, translated by Human Rights in China). The verdict cites his essays and Charter 08. The Nobel Committee's statement of 13 July 2017 says he was "still under guard" in hospital when he died; hence "died under guard," not "in custody." Russia's membership was suspended on 7 April 2022 (A/RES/ES-11/3), and the text claims only the election. Copies are in `ext-ref/intl_bodies/`.
+  - "Predatory regimes systematically employ …" and "issuing politicized warrants" are cut. No case was cited for either.
+  - The Engineering Rule is unchanged.
+- **Lints and checks:**
+  - Parts A, C, and D show no hits. Part B shows no new repeated phrase.
+  - On `linear lines`, five new sentences were reordered: two late verbs, a long opening phrase, clauses nested five deep, and a bare "this."
+  - World War II's "seventy million" became "about seventy million," and the sentence now says the war began eleven years later.
+  - Notes 17 and 18 were regenerated. Section 5 stays mostly list (86 to 87 percent; it is still a numbered list), and its distance from the period writers improves (farther than 90 percent of reference stretches before, 65 percent after). The four flaws (9:283) move the other way, from 54 to 94 percent. That is a signal to read, not a rule.
+- **Chapter 12:** the author asked for a recommendation on the two open points above before any edit. The recommendation is to split 12:169's charge by group and to remove 12:29's second sentence. Not applied.
 
 **Item 9.**
 
-- *Eight billion*: applied as suggested at 08:9, 08:62, and 09:294 (formerly 09:288; twice). 04:7, 08:9's first use, and 08:101 keep the number.
+- *Eight billion*: applied as suggested at 08:9, 08:62, and 09:289 (formerly 09:288; twice). 04:7, 08:9's first use, and 08:101 keep the number.
 - *Aircraft*: left as they are.
 - *Grain stores*: the sick club is not modern usage. The answer to the author's question is below, as a proposal, and it is not applied.
 - *Bridges*: parked for future investigation and rework (46 uses; 22 in chapters 2 and 3; chapter 9's flaw 3 is the other repeat).

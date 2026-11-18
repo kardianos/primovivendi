@@ -20,29 +20,29 @@ The score of a sentence is the sum of its weights. The comparison sample is 4946
 
 | Measure | Book | Period sample |
 |---|---|---|
-| Sentences | 2434 | 1786 |
+| Sentences | 2424 | 1786 |
 | Sentence length, median and 90th percentile | 21, 44 | 24, 50 |
 | Words before the main verb, median and 90th percentile | 3, 13 | 3, 13 |
-| Sentences with more than 10 words before the main verb | 15.0% | 14.0% |
-| Subject length, median and 90th percentile | 2, 9 | 2, 8 |
-| Mean dependency distance, median and 90th percentile | 2.72, 3.80 | 2.79, 3.88 |
-| Sentences with clauses nested three deep | 10.0% | 11.2% |
-| Mean score | 0.85 | 1.04 |
-| Sentences scoring 3 or more | 11.3% | 13.6% |
+| Sentences with more than 10 words before the main verb | 14.7% | 14.0% |
+| Subject length, median and 90th percentile | 2, 8 | 2, 8 |
+| Mean dependency distance, median and 90th percentile | 2.71, 3.78 | 2.79, 3.88 |
+| Sentences with clauses nested three deep | 9.7% | 11.2% |
+| Mean score | 0.83 | 1.04 |
+| Sentences scoring 3 or more | 10.8% | 13.6% |
 
 Findings per 100 sentences:
 
 | Finding | Part | Book | Period sample |
 |---|---|---|---|
-| late verb | 2 | 15.0 | 14.0 |
-| long subject | 2 | 8.0 | 8.4 |
-| opening phrase | 2 | 8.8 | 7.7 |
-| second claim | 3 | 7.8 | 10.4 |
-| aside | 3 | 1.5 | 0.7 |
-| nested clauses | 3 | 10.0 | 11.2 |
-| long sentence | 3 | 12.9 | 19.6 |
+| late verb | 2 | 14.7 | 14.0 |
+| long subject | 2 | 7.8 | 8.4 |
+| opening phrase | 2 | 8.6 | 7.7 |
+| second claim | 3 | 7.7 | 10.4 |
+| aside | 3 | 1.4 | 0.7 |
+| nested clauses | 3 | 9.7 | 11.2 |
+| long sentence | 3 | 12.6 | 19.6 |
 | distant pronoun | 4 | 0.4 | 2.0 |
-| bare this | 4 | 1.6 | 6.3 |
+| bare this | 4 | 1.5 | 6.3 |
 | new before old | 1 | 0.7 | 0.2 |
 | effect before cause | 5 | 1.7 | 0.3 |
 
@@ -60,7 +60,7 @@ Mean dependency distance is the average number of words between a word and the w
 | ch06 | 176 | 0.69 | 7.4% | 3 | 22 | 13 | 14 | 3 | 1 | 2 | 0 | 3 |
 | ch07 | 172 | 0.94 | 12.2% | 3 | 32 | 18 | 16 | 7 | 0 | 1 | 3 | 1 |
 | ch08 | 200 | 0.86 | 13.5% | 3 | 33 | 16 | 14 | 2 | 1 | 2 | 1 | 3 |
-| ch09 | 360 | 0.84 | 11.7% | 3 | 42 | 25 | 40 | 7 | 1 | 5 | 2 | 12 |
+| ch09 | 350 | 0.66 | 8.0% | 3 | 33 | 20 | 36 | 5 | 1 | 4 | 2 | 12 |
 | ch10 | 141 | 0.95 | 12.8% | 2 | 17 | 9 | 5 | 4 | 1 | 5 | 3 | 3 |
 | ch11 | 204 | 0.63 | 7.4% | 3 | 23 | 12 | 9 | 0 | 1 | 2 | 2 | 1 |
 | ch12 | 219 | 0.98 | 14.2% | 3 | 35 | 19 | 15 | 4 | 0 | 6 | 1 | 2 |
@@ -819,6 +819,13 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* Clauses nest 4 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 68 words.
 
+**09:56**, score 4.0
+
+> Constitutional Civic Citizenship: By contrast, Western constitutional law, as it worked out the British and American settlements through the nineteenth-century removal of religious tests and oath disabilities, defined the public scope of the courtroom by a single law in which religion is not a legal position.
+
+- *Part 2, subject and verb early.* 28 words come before the main verb ("defined").
+- *Part 3, one claim per sentence.* 47 words.
+
 **09:56**, score 5.5
 
 > Inside the courtroom of a modern constitutional state, whether the plaintiff and defendant are Protestant, Catholic, Jewish, Muslim, or atheist, wealthy merchant or poor laborer, they occupy the single position of citizen before the law, and the court applies the same rules of contract, property, and evidence to both.
@@ -854,6 +861,13 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* 26 words come before the main verb ("recognizes").
 - *Part 2, subject and verb early.* The subject is 26 words: "A rival state (such as the Chinese Communist Party under its explicit \"Military-Civil Fusion\" and \"United Front\" doctrines, or the Russian or Iranian security states)".
 
+**09:108**, score 4.0
+
+> To a total-mobilization regime, its corporations, sovereign wealth funds, diaspora cultural centers, student associations, and state-backed land purchasers operating inside your country are all coordinated instruments of state strategic warfare.
+
+- *Part 2, subject and verb early.* 24 words come before the main verb ("are").
+- *Part 2, subject and verb early.* A 24-word opening phrase stands before the subject: "To a total-mobilization regime, its corporations, sovereign wealth funds, diaspora cultural centers, student associations, and state-backed land purchasers operating inside your country".
+
 **09:134**, score 4.5
 
 > Within five minutes, the contest disintegrates, because when rules are invented after the action or altered according to which party is before the tribunal, skill, preparation, and diligent effort become pointless, and lobbying or intimidating the referee becomes the dominant strategy.
@@ -861,6 +875,15 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* Clauses nest 5 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 41 words.
 - *Part 5, order of cause and effect.* The effect comes first and the 35-word cause follows. Consider stating the cause first, in its own sentence.
+
+**09:138**, score 4.5
+
+> When Solon reformed the laws of Athens in 594 BCE, he had the statutes inscribed onto rotating wooden and stone tablets (axones and kyrbeis) erected in the public marketplace where every citizen could read them in advance, binding magistrate and poor farmer to the same procedure.
+
+- *Part 2, subject and verb early.* 11 words come before the main verb ("had").
+- *Part 2, subject and verb early.* A 10-word "When" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
+- *Part 3, one claim per sentence.* Clauses nest 4 deep (a clause inside a clause inside a clause).
+- *Part 3, one claim per sentence.* 46 words.
 
 **09:185**, score 5.5
 
@@ -887,29 +910,6 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* An 11-word opening phrase stands before the subject: "In blood-feud societies (from medieval vendetta clans to highland feuds)".
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 78 words.
-
-**09:279**, score 7.0
-
-> When the English Bill of Rights (1689), the American Declaration of Independence (1776), and the United States Constitution and Bill of Rights (1787–1791) spoke of unalienable rights, such as life, liberty, property, freedom of speech and conscience, the right to keep and bear arms, and trial by jury, those rights had three specific characteristics in institutional practice:
-
-- *Part 2, subject and verb early.* 25 words come before the main verb ("spoke").
-- *Part 2, subject and verb early.* The subject is 24 words: "the English Bill of Rights (1689), the American Declaration of Independence (1776), and the United States Constitution and Bill of Rights (1787–1791)".
-- *Part 3, one claim per sentence.* 59 words.
-
-**09:367**, score 7.0
-
-> Even the historical eras that appeared most peaceful and "law-governed" across the oceans (such as the Roman Mediterranean under Pax Romana, nineteenth-century maritime trade under the British Royal Navy's Pax Britannica, or the post-1945 global shipping order under the United States Navy) appeared law-governed only because a dominant military power was securing the sea lanes with naval force.
-
-- *Part 2, subject and verb early.* 45 words come before the main verb ("appeared").
-- *Part 2, subject and verb early.* The subject is 45 words: "Even the historical eras that appeared most peaceful and \"law-governed\" across the oceans (such as the Roman Mediterranean under Pax Romana, nineteenth-century maritime trade under the British Royal Navy's Pax Britannica, or the post-1945 global shipping order under the United States Navy)".
-- *Part 3, one claim per sentence.* 62 words.
-
-**09:375**, score 6.0
-
-> Yet because Western nations have been habituated by their own domestic legal culture to defer to anything bearing the title "Court" or "Law," predatory regimes systematically employ supranational tribunals as instruments of asymmetric legal warfare against free nations, issuing politicized warrants and resolutions to restrain a free nation from defending its borders or defeating insurgents who shield themselves behind civilians, while the insurgent group and its state sponsors obey no rules whatsoever.
-
-- *Part 3, one claim per sentence.* Clauses nest 6 deep (a clause inside a clause inside a clause).
-- *Part 3, one claim per sentence.* 72 words.
 
 ### ch10 (`10_ch10.md`)
 
@@ -1447,7 +1447,7 @@ A short cause stated after its effect moves to the front.
 - **12:127.** Apostasy and blasphemy law also fall under Principle 1, because a revealed claim must still be tested.
   - Draft: Because a revealed claim must still be tested, apostasy and blasphemy law also fall under Principle 1.
 
-### Split (206)
+### Split (201)
 
 A colon or semicolon that joins two clauses becomes a full stop.
 
@@ -1741,26 +1741,16 @@ A colon or semicolon that joins two clauses becomes a full stop.
   - Draft: An example is Singapore's judicial caning for violent robbery, vandalism, or extortion. The statute is written in advance in plain language; it applies identically to a wealthy foreign banker's son and a local dockworker convicted of the same offense; it is administered under strict medical supervision; and the penalty is fixed by the offense, not by the rank of the offender or the victim.
 - **09:267.** Severity is not injustice; arbitrary asymmetry is injustice.
   - Draft: Severity is not injustice. Arbitrary asymmetry is injustice.
-- **09:281.** They were Scoped to a Specific Polity: The American Bill of Rights was written as the supreme procedural law of the United States of America, enforced by American courts, defended by American soldiers, and maintained by the tax-paying, law-abiding citizens of that republic.
-  - Draft: They were Scoped to a Specific Polity. The American Bill of Rights was written as the supreme procedural law of the United States of America, enforced by American courts, defended by American soldiers, and maintained by the tax-paying, law-abiding citizens of that republic.
-- **09:282.** They were Negative Procedural Boundaries Against Arbitrary State Power: The phrasing of the First, Second, Fourth, and Fifth Amendments states these limits explicitly: "Congress shall make no law..." "shall not be infringed..." "shall not be violated..." "nor be deprived of life, liberty, or property, without due process of law."
-  - Draft: They were Negative Procedural Boundaries Against Arbitrary State Power. The phrasing of the First, Second, Fourth, and Fifth Amendments states these limits explicitly: "Congress shall make no law..." "shall not be infringed..." "shall not be violated..." "nor be deprived of life, liberty, or property, without due process of law."
-- **09:284.** For the magistrate to refrain from suppressing your speech, confiscating your rifle, or seizing your farm without a jury trial does not require a carpenter to build you a free house or a farmer to give you free wheat; it simply requires the state's officers to respect the same symmetrical boundary toward every citizen.
-  - Draft: For the magistrate to refrain from suppressing your speech, confiscating your rifle, or seizing your farm without a jury trial does not require a carpenter to build you a free house or a farmer to give you free wheat. It simply requires the state's officers to respect the same symmetrical boundary toward every citizen.
-- **09:286.** They were Joined to Civic Upkeep and Ownership: In the countries that wrote these documents, the citizen whose property and speech were protected by the court was the same citizen who stood in the militia muster with his own rifle to defend the town, sat in the jury box to enforce the law against thieves, and supported his own household without depending upon his neighbors.
-  - Draft: They were Joined to Civic Upkeep and Ownership. In the countries that wrote these documents, the citizen whose property and speech were protected by the court was the same citizen who stood in the militia muster with his own rifle to defend the town, sat in the jury box to enforce the law against thieves, and supported his own household without depending upon his neighbors.
-- **09:294.** A functional right cannot exist in a vacuum; it operates in reality only inside a defined jurisdiction (scope) where citizens bear the cost of enforcing it.
+- **09:279.** They were Scoped to a Specific Polity: The American Bill of Rights was the supreme law of the United States, enforced by American courts, defended by American soldiers, and maintained by the citizens of that republic.
+  - Draft: They were Scoped to a Specific Polity. The American Bill of Rights was the supreme law of the United States, enforced by American courts, defended by American soldiers, and maintained by the citizens of that republic.
+- **09:280.** They were Negative Procedural Boundaries Against Arbitrary State Power: The First, Second, Fourth, and Fifth Amendments state the limits: "Congress shall make no law..." "shall not be infringed..." "shall not be violated..." "nor be deprived of life, liberty, or property, without due process of law."
+  - Draft: They were Negative Procedural Boundaries Against Arbitrary State Power. The First, Second, Fourth, and Fifth Amendments state the limits: "Congress shall make no law..." "shall not be infringed..." "shall not be violated..." "nor be deprived of life, liberty, or property, without due process of law."
+- **09:281.** They were Joined to Civic Upkeep and Ownership: The citizen whose property and speech the court protected was the same citizen who mustered with the militia to defend the town, sat in the jury box, and supported his own household.
+  - Draft: They were Joined to Civic Upkeep and Ownership. The citizen whose property and speech the court protected was the same citizen who mustered with the militia to defend the town, sat in the jury box, and supported his own household.
+- **09:289.** A functional right cannot exist in a vacuum; it operates in reality only inside a defined jurisdiction (scope) where citizens bear the cost of enforcing it.
   - Draft: A functional right cannot exist in a vacuum. It operates in reality only inside a defined jurisdiction (scope) where citizens bear the cost of enforcing it.
-- **09:294.** It ignores that obligation is tiered and that justice is scoped: an unscoped claim for every stranger is a prescription for insolvency and dissolution for the host nation.
+- **09:289.** It ignores that obligation is tiered and that justice is scoped: an unscoped claim for every stranger is a prescription for insolvency and dissolution for the host nation.
   - Draft: It ignores that obligation is tiered and that justice is scoped. An unscoped claim for every stranger is a prescription for insolvency and dissolution for the host nation.
-- **09:302.** Every house must be framed by a carpenter's labor; every loaf of bread must be harvested by a farmer; every surgical operation must be performed by a trained surgeon.
-  - Draft: Every house must be framed by a carpenter's labor. Every loaf of bread must be harvested by a farmer; every surgical operation must be performed by a trained surgeon.
-- **09:302.** Every house must be framed by a carpenter's labor; every loaf of bread must be harvested by a farmer; every surgical operation must be performed by a trained surgeon.
-  - Draft: Every house must be framed by a carpenter's labor; every loaf of bread must be harvested by a farmer. Every surgical operation must be performed by a trained surgeon.
-- **09:314.** Rights have no autonomous physical force; they exist only where armed, organized, virtuous human beings maintain the perimeter that enforces them.
-  - Draft: Rights have no autonomous physical force. They exist only where armed, organized, virtuous human beings maintain the perimeter that enforces them.
-- **09:365.** The memorandum was an assurance, not a guarantee: no signatory undertook to fight for those borders, so Condition B never existed, and Condition A lasted only as long as Russia's interest matched the text.
-  - Draft: The memorandum was an assurance, not a guarantee. No signatory undertook to fight for those borders, so Condition B never existed, and Condition A lasted only as long as Russia's interest matched the text.
 - **10:16.** Money is only a claim upon the current labor of young, working hands; if nobody raised and trained those young working hands thirty years ago, there is nobody in the bakery or the hospital to honor the claim at any price.
   - Draft: Money is only a claim upon the current labor of young, working hands. If nobody raised and trained those young working hands thirty years ago, there is nobody in the bakery or the hospital to honor the claim at any price.
 - **10:62.** On survival, every maternal race and age group in the 2024 report stands below the national rate of 1950; on plumbing, the share of homes without it fell from more than a third to about one in a hundred.
@@ -1884,7 +1874,7 @@ Two habits that a sentence-by-sentence score cannot see: a paragraph whose sente
 
 For a paragraph of three or more sentences, the spread of sentence lengths is the standard deviation over the mean. Each book paragraph is set beside every run of the same number of consecutive sentences inside a paragraph of the period sample; **period flatter** is the share of those runs whose lengths vary less than the paragraph's. A paragraph written like the period's sits near half; one flatter than the period's prose sits near none.
 
-The book has 307 such paragraphs; 0 longer ones have too few period runs to compare. In the median paragraph, 61% of period runs are flatter, where the period's own median is 50%. 24 paragraphs (7.8%) are flatter than nine in ten period runs, where the period's own share is 10%.
+The book has 310 such paragraphs; 0 longer ones have too few period runs to compare. In the median paragraph, 61% of period runs are flatter, where the period's own median is 50%. 26 paragraphs (8.4%) are flatter than nine in ten period runs, where the period's own share is 10%.
 
 The flattest paragraphs:
 
@@ -1912,14 +1902,13 @@ A sentence's frame is the order of the parts attached to its main verb: subject,
 
 | Measure | Book | Period sample |
 |---|---|---|
-| Sentence with the same frame as the one before it, in the same paragraph | 13.1% | 9.8% |
+| Sentence with the same frame as the one before it, in the same paragraph | 12.9% | 9.8% |
 | Runs of three or more, per 100 sentences | 0.7 | 0.8 |
 
 The book's runs of three or more, longest first:
 
 | Paragraph | Sentences | Frame | Openings |
 |---|---|---|---|
-| 09:348 | 4 | expl ROOT:V nsubj | There is no global constitution... / There is no global legislature... / There is no global court... / There is no global sheriff... |
 | 01:38 | 3 | nsubj cop ROOT:A | Moreover, the builders themselves are... / Every human engineer, farmer, mason,... / Within seventy or eighty years,... |
 | 02:35 | 3 | nsubj ROOT:V obj | Modern engineering proves this principle... / A digital camera sensor paired... / Instead, an array of photodiodes... |
 | 03:30 | 3 | nsubj ROOT:V obj | Al-Ghazali denied it. / His Seventeenth Discussion opens: "The... / God creates the two together,... |
@@ -1928,7 +1917,7 @@ The book's runs of three or more, longest first:
 | 06:65 | 3 | nsubj ROOT:V obj | When a predatory lender or... / When two twenty-year-olds consent to... / Consent cannot convert poison into... |
 | 08:101 | 3 | nsubj ROOT:V obj | You cannot sit at the... / You cannot pay the college... / If you divide your monthly... |
 | 08:214 | 3 | nsubj ROOT:V | Carthage was destroyed in 146... / Constantinople fell in 1453. / The Inca Empire collapsed within... |
-| 09:294 | 3 | nsubj ROOT:V ccomp | Modern human-rights ideology erases the... / It declares that any human... / It ignores that obligation is... |
+| 09:289 | 3 | nsubj ROOT:V ccomp | Modern human-rights ideology erases the... / It declares that any human... / It ignores that obligation is... |
 | 10:54 | 3 | nsubj cop ROOT:A | An extra bedroom would be... / More food would be welcome. / The means to pay a... |
 | 10:91 | 3 | nsubj ROOT:V obj | Every human infant enters the... / Civilization therefore requires this virtue. / Every living adult receives the... |
 | 10:103 | 3 | nsubj ROOT:V obj | Can you repay the dead... / You cannot write a check... / You cannot repay the Roman... |
@@ -1943,7 +1932,7 @@ Each common noun is rated from 1 (abstract, known through words: *justice*, *pri
 
 | Text | Rated nouns | Mean rating |
 |---|---|---|
-| The book | 14982 | 3.41 |
+| The book | 14813 | 3.41 |
 | Period sample | 9747 | 3.32 |
 | Bagehot, The English Constitution (1867) | 1170 | 3.06 |
 | Mill, On Liberty (1859) | 1157 | 2.78 |
@@ -1968,7 +1957,7 @@ A section's nouns are set beside 1000 stretches of the period sample with the sa
 | ch06 | 1100 | 3.36 |
 | ch07 | 1225 | 3.53 |
 | ch08 | 1244 | 3.56 |
-| ch09 | 2279 | 3.40 |
+| ch09 | 2110 | 3.40 |
 | ch10 | 854 | 3.62 |
 | ch11 | 1225 | 3.45 |
 | ch12 | 1287 | 3.10 |
@@ -2074,10 +2063,10 @@ Across the 160 sections, the median section is less concrete than 50% of period 
 | 09:241 Refuting the Two Counterfeits of Symmetry | 6 | 3.14 | 62% |
 | 09:245 Counterfeit 1: Outcome Symmetry ("Equity") and the Equalizer... | 104 | 3.33 | 54% |
 | 09:255 Counterfeit 2: Value Symmetry, Justice as a Debt Between Sid... | 276 | 3.34 | 57% |
-| 09:271 4. Human Rights Under the Five Principles: Scoped Constituti... | 22 | 2.78 | 86% |
-| 09:277 1. What Classical Constitutional Rights Actually Are: Scoped... | 67 | 3.61 | 31% |
-| 09:288 2. The Five Structural Flaws of Modern "Human Rights" Ideolo... | 204 | 3.41 | 51% |
-| 09:328 5. International Law: Why Scope Runs Out at the Border and M... | 236 | 3.33 | 55% |
+| 09:271 4. Human Rights Under the Five Principles: Scoped Constituti... | 20 | 2.93 | 73% |
+| 09:275 1. What Classical Constitutional Rights Actually Are: Scoped... | 54 | 3.56 | 33% |
+| 09:283 2. The Four Structural Flaws of Modern "Human Rights" Ideolo... | 111 | 3.33 | 52% |
+| 09:307 5. International Law: Why Scope Runs Out at the Border and M... | 175 | 3.35 | 51% |
 | 10:1 Chapter 10: Children, Inherited Debt, and Replacement | 159 | 3.66 | 26% |
 | 10:30 1. Virtue 6: Have Children | 42 | 3.48 | 42% |
 | 10:38 Aiming at Full Life, Not Grim Demographic Duty | 83 | 3.60 | 30% |
@@ -2146,9 +2135,9 @@ A sentence counts as abstract here when its most concrete noun is rated below 4.
 
 | Sentences in a run of | Book | Period sample |
 |---|---|---|
-| 1 or more | 46.1% | 49.6% |
-| 3 or more | 21.1% | 27.7% |
-| 5 or more | 8.5% | 12.3% |
+| 1 or more | 46.2% | 49.6% |
+| 3 or more | 21.5% | 27.7% |
+| 5 or more | 8.8% | 12.3% |
 | 8 or more | 2.0% | 4.9% |
 
 The book's ten longest runs; the longest in the period sample is 18 sentences.

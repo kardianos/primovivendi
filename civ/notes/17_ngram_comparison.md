@@ -6,9 +6,9 @@ The book is compared in two ways. Google Books counts (English, 2020 release, bo
 
 ## 1. What was compared
 
-- **The book:** chapters 1 to 14, 54145 words in 2338 sentences. Headings, tables, and quotations (set as *"..."*, or 80 characters or more inside quotation marks) are left out, so the counts are of the book's own prose. Block quotations are kept, because the book sets its own examples in them; a block quotation that is itself a quotation drops out with the quotations.
+- **The book:** chapters 1 to 14, 53647 words in 2329 sentences. Headings, tables, and quotations (set as *"..."*, or 80 characters or more inside quotation marks) are left out, so the counts are of the book's own prose. Block quotations are kept, because the book sets its own examples in them; a block quotation that is itself a quotation drops out with the quotations.
 - **Google Books:** 195.6 billion words dated 1850 to 1899 and 390.2 billion dated 1900 to 1950. Words are folded to lower case.
-- **Phrases looked up in Google:** 6462 (every 2- to 5-word phrase the book uses 3 or more times without punctuation inside it, and every hyphenated compound).
+- **Phrases looked up in Google:** 6481 (every 2- to 5-word phrase the book uses 3 or more times without punctuation inside it, and every hyphenated compound).
 - **Reference corpus:** 36 works, 2856044 words; each work is capped at 100000 words.
 
 | Year | Author | Title | Field | Country | Words |
@@ -58,22 +58,21 @@ Words the book uses at least twice, not names, printed fewer than 0.1 times per 
 
 | Word | Uses | Chapters | Per million, 1850 to 1899 | Per million, 1900 to 1950 |
 |---|---|---|---|---|
-| scoped | 34 | 7 | 0.0021 | 0.0040 |
-| foundational | 27 | 10 | 0.013 | 0.101 |
+| scoped | 33 | 7 | 0.0021 | 0.0040 |
+| foundational | 28 | 10 | 0.013 | 0.101 |
 | tiered | 17 | 8 | 0.038 | 0.096 |
 | dispositional | 10 | 2 | 0.0037 | 0.029 |
 | generational | 8 | 6 | 0.0034 | 0.014 |
 | constructivism | 7 | 2 | 0.0003 | 0.015 |
 | postmodern | 6 | 3 | 0.0009 | 0.0050 |
 | unscoped | 6 | 2 | 0 | 0.0000 |
-| activist | 5 | 3 | 0.0030 | 0.039 |
 | activists | 5 | 3 | 0.0033 | 0.041 |
 | airliner | 5 | 4 | 0.0012 | 0.119 |
 | bureaucracies | 5 | 5 | 0.0082 | 0.054 |
 | egalitarian | 5 | 2 | 0.0033 | 0.039 |
 | permissiveness | 5 | 2 | 0.0024 | 0.011 |
 | scopes | 5 | 3 | 0.049 | 0.119 |
-| civilizational | 4 | 4 | 0.0012 | 0.010 |
+| activist | 4 | 3 | 0.0030 | 0.039 |
 | constructivist | 4 | 1 | 0.0003 | 0.013 |
 | fraudster | 4 | 3 | 0.0000 | 0.0001 |
 | infrastructure | 4 | 3 | 0.013 | 0.100 |
@@ -86,6 +85,7 @@ Words the book uses at least twice, not names, printed fewer than 0.1 times per 
 | unmaintained | 4 | 3 | 0.0005 | 0.0017 |
 | cartographer | 3 | 1 | 0.039 | 0.113 |
 | childlessness | 3 | 2 | 0.035 | 0.059 |
+| civilizational | 3 | 3 | 0.0012 | 0.010 |
 | collectivization | 3 | 3 | 0.0007 | 0.126 |
 | erases | 3 | 3 | 0.053 | 0.057 |
 | falsifies | 3 | 3 | 0.092 | 0.082 |
@@ -93,7 +93,6 @@ Words the book uses at least twice, not names, printed fewer than 0.1 times per 
 | hadith | 3 | 1 | 0.0087 | 0.050 |
 | intergenerational | 3 | 3 | 0.0013 | 0.0042 |
 | sharia | 3 | 1 | 0.0063 | 0.057 |
-| supranational | 3 | 1 | 0.0008 | 0.032 |
 | unfalsifiable | 3 | 3 | 0.0000 | 0.0003 |
 | cannots | 2 | 1 | 0.0028 | 0.0017 |
 | checklists | 2 | 2 | 0.0031 | 0.036 |
@@ -119,12 +118,13 @@ Words the book uses at least twice, not names, printed fewer than 0.1 times per 
 | sensor | 2 | 1 | 0.058 | 0.062 |
 | stopwatch | 2 | 1 | 0.0070 | 0.053 |
 | structured | 2 | 2 | 0.026 | 0.124 |
+| supranational | 2 | 1 | 0.0008 | 0.032 |
 | testable | 2 | 2 | 0.018 | 0.021 |
 | unrepaired | 2 | 2 | 0.057 | 0.062 |
 
 ### 2b. Words used once
 
-A word used once is measured against the words each reference work uses once (94704 in all, names left out): one in a hundred of those was printed fewer than 0.0078 times per million words in 1850 to 1950. Of the book's 3254 words used once, 87 fall below that line, where one in a hundred would be about 33. They are listed rarest first.
+A word used once is measured against the words each reference work uses once (94704 in all, names left out): one in a hundred of those was printed fewer than 0.0078 times per million words in 1850 to 1950. Of the book's 3234 words used once, 86 fall below that line, where one in a hundred would be about 32. They are listed rarest first.
 
 | Word | Chapter | Per million, 1850 to 1950 |
 |---|---|---|
@@ -185,7 +185,6 @@ A word used once is measured against the words each reference work uses once (94
 | uncheckable | ch1 | 0.0024 |
 | radicalized | ch13 | 0.0025 |
 | episteme | ch12 | 0.0025 |
-| politicized | ch9 | 0.0028 |
 | hyperinflation | ch5 | 0.0029 |
 | microprocessor | ch1 | 0.0029 |
 | reinvent | ch5 | 0.0030 |
@@ -222,7 +221,7 @@ Each phrase is looked up case-insensitively in Google's English books, 1850 to 1
 
 ### 3a. Absent from Google, made of common words
 
-Not found in Google's books of 1850 to 1950, though every word in them is common. 7 phrases; up to 80 listed.
+Not found in Google's books of 1850 to 1950, though every word in them is common. 6 phrases; up to 80 listed.
 
 | Phrase | Uses | Chapters |
 |---|---|---|
@@ -230,7 +229,6 @@ Not found in Google's books of 1850 to 1950, though every word in them is common
 | failure under principle | 4 | 1 |
 | is discovered substance | 4 | 1 |
 | form those younger than themselves | 3 | 2 |
-| modern human-rights | 3 | 1 |
 | sets death for | 3 | 1 |
 | the stone seed | 3 | 1 |
 
@@ -252,132 +250,131 @@ Not found in Google's books of 1850 to 1950; at least one word is itself uncommo
 
 ### 3c. Far more frequent in the book, made of common words
 
-Found in Google, but the book uses them at least 100 times as often. 323 phrases; up to 60 listed.
+Found in Google, but the book uses them at least 100 times as often. 315 phrases; up to 60 listed.
 
 | Phrase | Uses | Chapters | Google per million | Book rate over Google rate |
 |---|---|---|---|---|
-| you control whether | 4 | 1 | 0.0000 | 9405107 |
-| correspondence truth | 7 | 3 | 0.0000 | 7972034 |
-| the two-books | 3 | 2 | 0.0000 | 2810829 |
-| tested against reality | 3 | 3 | 0.0000 | 1500880 |
-| the public scope | 3 | 2 | 0.0000 | 1498363 |
-| is constructed form | 4 | 1 | 0.0001 | 1089092 |
-| fourth political theory | 3 | 1 | 0.0001 | 474564 |
-| field spirits | 3 | 1 | 0.0001 | 432957 |
-| taking ownership | 6 | 4 | 0.0003 | 326769 |
-| sets death | 3 | 1 | 0.0002 | 281181 |
-| will and method | 3 | 2 | 0.0002 | 233897 |
-| every person in the same | 3 | 2 | 0.0003 | 185754 |
-| human limits and | 3 | 3 | 0.0003 | 183859 |
-| virtue must be cultivated | 3 | 3 | 0.0004 | 141534 |
-| and applied alike | 6 | 5 | 0.0008 | 136238 |
-| reality answers | 3 | 2 | 0.0004 | 128043 |
-| across history | 4 | 3 | 0.0007 | 106371 |
-| western constitutional | 3 | 3 | 0.0005 | 101663 |
-| under principle | 23 | 9 | 0.0043 | 99486 |
-| percent of those aged | 3 | 1 | 0.0006 | 93842 |
-| a civilization must | 3 | 3 | 0.0006 | 92115 |
-| the national border | 4 | 2 | 0.0008 | 89827 |
-| capable adult | 3 | 3 | 0.0007 | 82881 |
-| and applied alike to | 3 | 3 | 0.0008 | 73783 |
-| stone seed | 3 | 1 | 0.0008 | 70542 |
-| engineering failure | 3 | 1 | 0.0008 | 67776 |
-| because reality | 5 | 3 | 0.0014 | 67220 |
-| discovered substance | 9 | 1 | 0.0026 | 64414 |
-| those younger than themselves | 3 | 2 | 0.0010 | 56692 |
-| against reality | 8 | 7 | 0.0033 | 44536 |
-| national border | 7 | 3 | 0.0030 | 43481 |
-| constructed form | 7 | 1 | 0.0030 | 42963 |
-| person in the same position | 3 | 2 | 0.0013 | 41786 |
-| standard of the good | 3 | 3 | 0.0016 | 33759 |
-| fire and cotton | 3 | 1 | 0.0019 | 29436 |
-| into a capable | 3 | 3 | 0.0020 | 27437 |
-| a story does | 3 | 3 | 0.0022 | 24794 |
-| across time | 4 | 2 | 0.0036 | 20719 |
-| a debt between | 4 | 1 | 0.0037 | 20036 |
-| human limits | 4 | 4 | 0.0039 | 19069 |
-| national center for health statistics | 3 | 1 | 0.0030 | 18538 |
-| on another continent | 4 | 3 | 0.0040 | 18271 |
-| the court applies the | 3 | 1 | 0.0032 | 17117 |
-| train station | 3 | 2 | 0.0034 | 16147 |
-| as we saw in chapter | 4 | 1 | 0.0050 | 14839 |
-| whatever anyone | 3 | 3 | 0.0046 | 12059 |
-| those younger than | 4 | 2 | 0.0061 | 12043 |
-| consent is the | 5 | 1 | 0.0079 | 11684 |
-| limited human | 4 | 4 | 0.0063 | 11649 |
-| open society | 3 | 2 | 0.0048 | 11560 |
-| physical reality | 14 | 9 | 0.024 | 10579 |
-| minimum condition | 3 | 1 | 0.0053 | 10508 |
-| of physical reality | 3 | 3 | 0.0056 | 9900 |
-| against principle | 4 | 2 | 0.0079 | 9398 |
-| feed his own | 3 | 3 | 0.0064 | 8678 |
-| younger than themselves | 4 | 2 | 0.0092 | 8028 |
-| within a single generation | 3 | 3 | 0.0071 | 7754 |
-| condition b | 3 | 1 | 0.0089 | 6251 |
-| per woman | 4 | 2 | 0.012 | 5918 |
-| look like in | 3 | 2 | 0.0094 | 5874 |
+| you control whether | 4 | 1 | 0.0000 | 9492414 |
+| correspondence truth | 7 | 3 | 0.0000 | 8046038 |
+| the two-books | 3 | 2 | 0.0000 | 2836922 |
+| tested against reality | 3 | 3 | 0.0000 | 1514812 |
+| the public scope | 3 | 2 | 0.0000 | 1512272 |
+| is constructed form | 4 | 1 | 0.0001 | 1099202 |
+| fourth political theory | 3 | 1 | 0.0001 | 478969 |
+| field spirits | 3 | 1 | 0.0001 | 436976 |
+| taking ownership | 6 | 4 | 0.0003 | 329802 |
+| sets death | 3 | 1 | 0.0002 | 283791 |
+| will and method | 3 | 2 | 0.0002 | 236069 |
+| every person in the same | 3 | 2 | 0.0003 | 187479 |
+| human limits and | 3 | 3 | 0.0003 | 185566 |
+| virtue must be cultivated | 3 | 3 | 0.0004 | 142848 |
+| and applied alike | 6 | 5 | 0.0008 | 137503 |
+| reality answers | 3 | 2 | 0.0004 | 129232 |
+| across history | 4 | 3 | 0.0007 | 107359 |
+| western constitutional | 3 | 3 | 0.0005 | 102607 |
+| under principle | 23 | 9 | 0.0043 | 100410 |
+| percent of those aged | 3 | 1 | 0.0006 | 94713 |
+| a civilization must | 3 | 3 | 0.0006 | 92970 |
+| capable adult | 3 | 3 | 0.0007 | 83651 |
+| and applied alike to | 3 | 3 | 0.0008 | 74468 |
+| stone seed | 3 | 1 | 0.0008 | 71197 |
+| engineering failure | 3 | 1 | 0.0008 | 68406 |
+| the national border | 3 | 2 | 0.0008 | 67995 |
+| because reality | 5 | 3 | 0.0014 | 67844 |
+| discovered substance | 9 | 1 | 0.0026 | 65012 |
+| those younger than themselves | 3 | 2 | 0.0010 | 57218 |
+| against reality | 8 | 7 | 0.0033 | 44949 |
+| constructed form | 7 | 1 | 0.0030 | 43361 |
+| person in the same position | 3 | 2 | 0.0013 | 42173 |
+| national border | 6 | 3 | 0.0030 | 37615 |
+| standard of the good | 3 | 3 | 0.0016 | 34072 |
+| fire and cotton | 3 | 1 | 0.0019 | 29709 |
+| into a capable | 3 | 3 | 0.0020 | 27691 |
+| a story does | 3 | 3 | 0.0022 | 25024 |
+| across time | 4 | 2 | 0.0036 | 20912 |
+| a debt between | 4 | 1 | 0.0037 | 20222 |
+| human limits | 4 | 4 | 0.0039 | 19246 |
+| national center for health statistics | 3 | 1 | 0.0030 | 18710 |
+| on another continent | 4 | 3 | 0.0040 | 18441 |
+| the court applies the | 3 | 1 | 0.0032 | 17276 |
+| train station | 3 | 2 | 0.0034 | 16297 |
+| as we saw in chapter | 4 | 1 | 0.0050 | 14977 |
+| whatever anyone | 3 | 3 | 0.0046 | 12171 |
+| those younger than | 4 | 2 | 0.0061 | 12155 |
+| consent is the | 5 | 1 | 0.0079 | 11792 |
+| limited human | 4 | 4 | 0.0063 | 11757 |
+| open society | 3 | 2 | 0.0048 | 11668 |
+| minimum condition | 3 | 1 | 0.0053 | 10605 |
+| of physical reality | 3 | 3 | 0.0056 | 9992 |
+| physical reality | 13 | 8 | 0.024 | 9914 |
+| against principle | 4 | 2 | 0.0079 | 9486 |
+| feed his own | 3 | 3 | 0.0064 | 8758 |
+| younger than themselves | 4 | 2 | 0.0092 | 8103 |
+| within a single generation | 3 | 3 | 0.0071 | 7826 |
+| per woman | 4 | 2 | 0.012 | 5973 |
+| look like in | 3 | 2 | 0.0094 | 5929 |
+| raising children | 3 | 3 | 0.0098 | 5686 |
 
 ### 3d. Far more frequent in the book, other
 
-Found in Google, but the book uses them at least 100 times as often; at least one word is itself uncommon. 249 phrases; up to 40 listed.
+Found in Google, but the book uses them at least 100 times as often; at least one word is itself uncommon. 246 phrases; up to 40 listed.
 
 | Phrase | Uses | Chapters | Google per million | Book rate over Google rate |
 |---|---|---|---|---|
-| negative procedural | 3 | 1 | 0.0000 | 22135794 |
-| usable confidence | 3 | 2 | 0.0000 | 21004761 |
-| who insults the prophet | 3 | 1 | 0.0000 | 18003125 |
-| reality pushes back | 3 | 2 | 0.0000 | 13516321 |
-| forming and listening | 4 | 3 | 0.0000 | 12441951 |
-| for insulting the prophet | 3 | 1 | 0.0000 | 8322435 |
-| the shared world | 3 | 2 | 0.0000 | 8026978 |
-| value symmetry | 13 | 2 | 0.0001 | 4609971 |
-| a fraudster | 3 | 3 | 0.0000 | 3352480 |
-| foundational premises | 3 | 2 | 0.0000 | 3277596 |
-| consequential world | 3 | 3 | 0.0000 | 1964173 |
-| seed granary | 5 | 1 | 0.0001 | 1458270 |
-| human particularity | 3 | 2 | 0.0000 | 1339668 |
-| your spouse and children | 3 | 2 | 0.0000 | 1199699 |
-| there is no global | 4 | 1 | 0.0001 | 1088373 |
-| equal outcomes | 4 | 3 | 0.0001 | 1058871 |
-| insulting the prophet | 4 | 1 | 0.0001 | 1009556 |
-| lottery of birth | 3 | 3 | 0.0001 | 670902 |
-| incomplete models | 3 | 1 | 0.0001 | 525312 |
-| a social construct | 3 | 2 | 0.0001 | 504230 |
-| does not push back | 3 | 3 | 0.0001 | 461270 |
-| across generations | 9 | 5 | 0.0005 | 328423 |
-| shared world | 4 | 3 | 0.0003 | 281277 |
-| scoped to | 4 | 2 | 0.0003 | 272202 |
-| violating principle | 9 | 3 | 0.0006 | 269568 |
-| legal symmetry | 4 | 2 | 0.0003 | 240138 |
-| incomplete model | 3 | 1 | 0.0002 | 231767 |
-| seeking excellence | 4 | 2 | 0.0003 | 222352 |
-| procedural justice | 3 | 1 | 0.0003 | 209791 |
-| common sense realism | 3 | 2 | 0.0003 | 196691 |
-| clan b | 3 | 1 | 0.0003 | 171234 |
-| and generational | 3 | 2 | 0.0003 | 168995 |
-| protective reserves | 6 | 1 | 0.0007 | 163554 |
-| symmetrical law | 3 | 3 | 0.0004 | 154750 |
-| its foundational | 4 | 3 | 0.0005 | 137911 |
-| sensory observation | 4 | 2 | 0.0006 | 131797 |
-| courting ruin | 3 | 1 | 0.0004 | 124422 |
-| elders form | 3 | 2 | 0.0005 | 109505 |
-| and activist | 3 | 1 | 0.0005 | 103515 |
-| widespread modern | 3 | 2 | 0.0006 | 97571 |
+| usable confidence | 3 | 2 | 0.0000 | 21199746 |
+| who insults the prophet | 3 | 1 | 0.0000 | 18170246 |
+| reality pushes back | 3 | 2 | 0.0000 | 13641792 |
+| forming and listening | 4 | 3 | 0.0000 | 12557449 |
+| for insulting the prophet | 3 | 1 | 0.0000 | 8399691 |
+| the shared world | 3 | 2 | 0.0000 | 8101492 |
+| value symmetry | 13 | 2 | 0.0001 | 4652765 |
+| a fraudster | 3 | 3 | 0.0000 | 3383601 |
+| foundational premises | 3 | 2 | 0.0000 | 3308022 |
+| consequential world | 3 | 3 | 0.0000 | 1982407 |
+| seed granary | 5 | 1 | 0.0001 | 1471807 |
+| human particularity | 3 | 2 | 0.0000 | 1352104 |
+| your spouse and children | 3 | 2 | 0.0000 | 1210836 |
+| equal outcomes | 4 | 3 | 0.0001 | 1068700 |
+| insulting the prophet | 4 | 1 | 0.0001 | 1018928 |
+| lottery of birth | 3 | 3 | 0.0001 | 677130 |
+| incomplete models | 3 | 1 | 0.0001 | 530189 |
+| a social construct | 3 | 2 | 0.0001 | 508910 |
+| does not push back | 3 | 3 | 0.0001 | 465551 |
+| across generations | 9 | 5 | 0.0005 | 331472 |
+| shared world | 4 | 3 | 0.0003 | 283888 |
+| scoped to | 4 | 2 | 0.0003 | 274729 |
+| legal symmetry | 4 | 2 | 0.0003 | 242367 |
+| violating principle | 8 | 3 | 0.0006 | 241840 |
+| incomplete model | 3 | 1 | 0.0002 | 233919 |
+| seeking excellence | 4 | 2 | 0.0003 | 224417 |
+| procedural justice | 3 | 1 | 0.0003 | 211738 |
+| common sense realism | 3 | 2 | 0.0003 | 198517 |
+| clan b | 3 | 1 | 0.0003 | 172824 |
+| and generational | 3 | 2 | 0.0003 | 170563 |
+| protective reserves | 6 | 1 | 0.0007 | 165072 |
+| no global | 4 | 1 | 0.0005 | 163963 |
+| symmetrical law | 3 | 3 | 0.0004 | 156186 |
+| its foundational | 4 | 3 | 0.0005 | 139191 |
+| sensory observation | 4 | 2 | 0.0006 | 133020 |
+| courting ruin | 3 | 1 | 0.0004 | 125577 |
+| elders form | 3 | 2 | 0.0005 | 110522 |
+| widespread modern | 3 | 2 | 0.0006 | 98477 |
+| men of clan | 3 | 1 | 0.0006 | 94169 |
+| your spouse and | 4 | 3 | 0.0008 | 91574 |
 
 ### 3e. The book's own terms
 
-Phrases from the five principles and seven virtues (editing guide, section 1), or containing a part of one, that are absent from the period or at least 100 times as frequent in the book. These are the book's terminology and are expected to be new. 115 phrases.
+Phrases from the five principles and seven virtues (editing guide, section 1), or containing a part of one, that are absent from the period or at least 100 times as frequent in the book. These are the book's terminology and are expected to be new. 114 phrases.
 
-procedural symmetry (33); human life (30); self-interested (29); reality is (25); and building (23); of reality (23); and build (22); keeping and building (22); self-anchored (20); is real (18); and built (17); to reality (17); five principles (16); scoped procedural symmetry (15); human life continuing (13); keep and (13); and particular (12); keep and build (12); self-interest (12); the five principles (12); corresponds to reality (11); kept and built (11); that life (11); and consequential (10); are real (10); are self-interested (10); common principles (10); humans are (10); must include (10); with truth (10); enemies are real (9); goodness must include (9); principles of reality (9); align with truth (8); is scoped (8); life kept and built (8); reality is real (8); what corresponds (8); and that life kept and (7); self-command (7); take ownership (7); that life kept and built (7); to keep and (7); truth is what corresponds to (7); common principles of (6); five common principles (6); include human life continuing (6); is what corresponds to reality (6); justice is scoped (6); reality is consequential (6); seek excellence (6); seven virtues (6); to keep and build (6); because reality is (5); build is (5); five common principles of reality (5); form and listen (5); goodness must include human life (5); humans are self-interested (5); limited and self-interested (5); must include human life continuing (5); the five common principles (5); virtues of civilization (5); you keep and build (5); admire beauty (4); and outward (4); be humble (4); build is self-anchored (4); five principles of reality (4); have children (4); human life and (4); justice is scoped procedural symmetry (4); self-interested human (4); that reality is (4); the five common principles of (4); the seven virtues of civilization (4); what you keep and build (4); which is responsibility (4); you keep and build is (4); against the five principles (3); and self-interest (3); and truth is what corresponds (3); be kept and built (3); because reality is consequential (3); beings are self-interested (3); correspondence to reality (3); procedural symmetry in (3); scoped procedural symmetry and (3); self-anchored ownership (3); self-anchored tiers (3); self-destruction (3); self-interested human beings (3); take ownership of (3); that human life (3); the five principles of reality (3); to align with truth (3); to reality and (3); to take ownership (3); under procedural symmetry (3); under the five principles (3); virtue of civilization (3); with truth and (3); work of keeping and building (3); world is real (3); self-coherence (1); self-coherent (1); self-consistent (1); self-created (1); self-deception (1); self-deprecation (1); self-deprivation (1); self-governed (1); self-interests (1); self-sealing (1); self-serving (1).
+procedural symmetry (33); human life (30); self-interested (29); reality is (25); and building (23); of reality (23); and build (22); keeping and building (22); self-anchored (20); is real (17); to reality (17); and built (16); five principles (15); scoped procedural symmetry (15); human life continuing (13); keep and (13); and particular (12); keep and build (12); self-interest (12); common principles (11); corresponds to reality (11); that life (11); the five principles (11); and consequential (10); are real (10); are self-interested (10); enemies are (10); humans are (10); kept and built (10); with truth (10); enemies are real (9); must include (9); principles of reality (9); align with truth (8); goodness must include (8); is scoped (8); reality is real (8); what corresponds (8); and that life kept and (7); common principles of (7); five common principles (7); self-command (7); take ownership (7); that life kept and built (7); to keep and (7); truth is what corresponds to (7); five common principles of reality (6); include human life continuing (6); is what corresponds to reality (6); justice is scoped (6); reality is consequential (6); seek excellence (6); seven virtues (6); the five common principles (6); to keep and build (6); because reality is (5); build is (5); form and listen (5); goodness must include human life (5); humans are self-interested (5); limited and self-interested (5); must include human life continuing (5); the five common principles of (5); virtues of civilization (5); you keep and build (5); admire beauty (4); and outward (4); be humble (4); build is self-anchored (4); have children (4); human life and (4); justice is scoped procedural symmetry (4); self-interested human (4); that reality is (4); the seven virtues of civilization (4); what you keep and build (4); you keep and build is (4); against the five common principles (3); and self-interest (3); and truth is what corresponds (3); be kept and built (3); because reality is consequential (3); beings are self-interested (3); correspondence to reality (3); five principles of reality (3); procedural symmetry in (3); scoped procedural symmetry and (3); self-anchored ownership (3); self-anchored tiers (3); self-destruction (3); self-interested human beings (3); take ownership of (3); that human life (3); to align with truth (3); to reality and (3); to take ownership (3); under procedural symmetry (3); under the five principles (3); virtue of civilization (3); which is responsibility (3); with truth and (3); work of keeping and building (3); world is real (3); self-coherence (1); self-coherent (1); self-consistent (1); self-created (1); self-deception (1); self-deprecation (1); self-deprivation (1); self-governed (1); self-interests (1); self-sealing (1); self-serving (1).
 
 ### 3f. Hyphenated compounds
 
-Every hyphenated compound in the book, rarest in the period first. 220 compounds; up to 80 listed.
+Every hyphenated compound in the book, rarest in the period first. 216 compounds; up to 80 listed.
 
 | Compound | Uses | Google per million, 1850 to 1899 | 1900 to 1950 |
 |---|---|---|---|
 | anti-procedural | 2 | 0 | 0 |
-| border-violators | 1 | 0 | 0 |
 | disorder-ridden | 1 | 0 | 0 |
 | dual-code | 1 | 0 | 0 |
 | inner-tier | 3 | 0 | 0 |
@@ -395,7 +392,6 @@ Every hyphenated compound in the book, rarest in the period first. 220 compounds
 | family-loyal | 2 | 0 | 0.0000 |
 | rent-seeker | 2 | 0 | 0.0000 |
 | long-horizon | 1 | 0 | 0.0000 |
-| anti-civilizational | 1 | 0 | 0.0000 |
 | person-affecting | 1 | 0.0000 | 0 |
 | generic-drug | 1 | 0 | 0.0000 |
 | harm-reduction | 3 | 0 | 0.0000 |
@@ -432,7 +428,6 @@ Every hyphenated compound in the book, rarest in the period first. 220 compounds
 | anti-realist | 2 | 0.0001 | 0.0006 |
 | power-knowledge | 1 | 0.0005 | 0.0004 |
 | two-books | 4 | 0.0002 | 0.0009 |
-| fiber-optic | 1 | 0.0002 | 0.0009 |
 | tenth-floor | 1 | 0.0000 | 0.0010 |
 | low-mortality | 1 | 0.0001 | 0.0010 |
 | strip-farming | 1 | 0 | 0.0011 |
@@ -446,7 +441,7 @@ Every hyphenated compound in the book, rarest in the period first. 220 compounds
 | dirt-floored | 1 | 0.0002 | 0.0022 |
 | entry-level | 1 | 0.0001 | 0.0023 |
 | philosopher-kings | 1 | 0.0003 | 0.0027 |
-| human-rights | 5 | 0.0003 | 0.0028 |
+| human-rights | 3 | 0.0003 | 0.0028 |
 | creek-bridge | 2 | 0.0020 | 0.0016 |
 | third-largest | 1 | 0.0001 | 0.0035 |
 | flat-earth | 1 | 0.0016 | 0.0020 |
@@ -456,6 +451,9 @@ Every hyphenated compound in the book, rarest in the period first. 220 compounds
 | arch-heretics | 1 | 0.0040 | 0.0010 |
 | dry-rotted | 1 | 0.0019 | 0.0032 |
 | risk-free | 2 | 0.0003 | 0.0049 |
+| double-checking | 1 | 0.0002 | 0.0051 |
+| wheel-turned | 1 | 0.0010 | 0.0044 |
+| freeze-thaw | 1 | 0.0003 | 0.0058 |
 
 ## 4. Keyness against the reference corpus
 
@@ -465,374 +463,374 @@ Keyness compares each word or phrase's rate in the book with its rate in the ref
 
 | Item | Book uses | Book per million | Corpus per million | Ratio | G2 | Chapters | Works |
 |---|---|---|---|---|---|---|---|
-| your | 194 | 3583 | 228 | 16 | 659 | 12 | 31 |
-| a | 1760 | 32505 | 20835 | 1.56 | 295 | 14 | 36 |
-| and | 2240 | 41370 | 29972 | 1.38 | 205 | 14 | 36 |
-| every | 192 | 3546 | 996 | 3.56 | 205 | 14 | 35 |
-| because | 152 | 2807 | 766 | 3.66 | 168 | 14 | 36 |
-| does | 139 | 2567 | 727 | 3.53 | 147 | 14 | 36 |
-| or | 520 | 9604 | 5633 | 1.70 | 122 | 14 | 36 |
-| own | 149 | 2752 | 1022 | 2.69 | 105 | 14 | 36 |
-| within | 83 | 1533 | 381 | 4.03 | 103 | 14 | 36 |
-| you | 149 | 2752 | 1125 | 2.45 | 88 | 13 | 34 |
-| who | 236 | 4359 | 2407 | 1.81 | 67 | 14 | 36 |
-| what | 180 | 3324 | 1754 | 1.90 | 59 | 14 | 36 |
-| an | 329 | 6076 | 3869 | 1.57 | 57 | 14 | 36 |
-| cannot | 79 | 1459 | 604 | 2.42 | 46 | 14 | 33 |
-| against | 86 | 1588 | 713 | 2.23 | 42 | 13 | 36 |
-| when | 203 | 3749 | 2324 | 1.61 | 39 | 14 | 36 |
-| how | 84 | 1551 | 723 | 2.15 | 38 | 14 | 36 |
-| whenever | 20 | 369 | 66.5 | 5.55 | 34 | 6 | 35 |
-| never | 72 | 1330 | 603 | 2.21 | 34 | 13 | 36 |
-| same | 124 | 2290 | 1340 | 1.71 | 29 | 14 | 36 |
-| toward | 27 | 499 | 144 | 3.47 | 28 | 8 | 23 |
-| can | 159 | 2937 | 1879 | 1.56 | 27 | 14 | 36 |
-| whether | 56 | 1034 | 473 | 2.18 | 26 | 11 | 36 |
-| whose | 41 | 757 | 344 | 2.20 | 19 | 11 | 36 |
-| no | 193 | 3565 | 2601 | 1.37 | 17 | 14 | 36 |
-| why | 29 | 536 | 225 | 2.38 | 16 | 12 | 35 |
-| under | 100 | 1847 | 1204 | 1.53 | 16 | 14 | 36 |
-| while | 73 | 1348 | 849 | 1.59 | 13 | 13 | 36 |
-| rather | 31 | 573 | 326 | 1.75 | 8 | 11 | 36 |
-| around | 13 | 240 | 99.1 | 2.42 | 8 | 6 | 32 |
+| your | 191 | 3560 | 228 | 16 | 648 | 12 | 31 |
+| a | 1749 | 32602 | 20835 | 1.56 | 297 | 14 | 36 |
+| and | 2228 | 41531 | 29972 | 1.39 | 209 | 14 | 36 |
+| every | 192 | 3579 | 996 | 3.59 | 207 | 14 | 35 |
+| because | 151 | 2815 | 766 | 3.67 | 168 | 14 | 36 |
+| does | 137 | 2554 | 727 | 3.51 | 144 | 14 | 36 |
+| or | 511 | 9525 | 5633 | 1.69 | 117 | 14 | 36 |
+| within | 83 | 1547 | 381 | 4.07 | 104 | 14 | 36 |
+| own | 146 | 2721 | 1022 | 2.66 | 101 | 14 | 36 |
+| you | 146 | 2721 | 1125 | 2.42 | 84 | 13 | 34 |
+| who | 235 | 4380 | 2407 | 1.82 | 68 | 14 | 36 |
+| what | 181 | 3374 | 1754 | 1.92 | 62 | 14 | 36 |
+| an | 324 | 6039 | 3869 | 1.56 | 54 | 14 | 36 |
+| cannot | 80 | 1491 | 604 | 2.47 | 48 | 14 | 33 |
+| against | 84 | 1566 | 713 | 2.20 | 40 | 13 | 36 |
+| when | 202 | 3765 | 2324 | 1.62 | 39 | 14 | 36 |
+| how | 83 | 1547 | 723 | 2.14 | 37 | 14 | 36 |
+| never | 72 | 1342 | 603 | 2.23 | 35 | 13 | 36 |
+| same | 124 | 2311 | 1340 | 1.72 | 30 | 14 | 36 |
+| can | 160 | 2982 | 1879 | 1.59 | 29 | 14 | 36 |
+| toward | 27 | 503 | 144 | 3.51 | 28 | 8 | 23 |
+| whether | 57 | 1063 | 473 | 2.24 | 28 | 11 | 36 |
+| whenever | 17 | 317 | 66.5 | 4.76 | 25 | 6 | 35 |
+| no | 194 | 3616 | 2601 | 1.39 | 19 | 14 | 36 |
+| whose | 40 | 746 | 344 | 2.17 | 18 | 11 | 36 |
+| under | 100 | 1864 | 1204 | 1.55 | 16 | 14 | 36 |
+| why | 28 | 522 | 225 | 2.32 | 15 | 12 | 35 |
+| while | 70 | 1305 | 849 | 1.54 | 11 | 13 | 36 |
+| around | 14 | 261 | 99.1 | 2.63 | 9 | 7 | 32 |
+| rather | 31 | 578 | 326 | 1.77 | 8 | 11 | 36 |
 
 ### 4b. Function words the book uses less
 
 | Item | Book uses | Book per million | Corpus per million | Ratio | G2 | Chapters | Works |
 |---|---|---|---|---|---|---|---|
-| of | 1216 | 22458 | 49557 | 0.45 | 995 | 14 | 36 |
-| which | 86 | 1588 | 8273 | 0.19 | 435 | 14 | 36 |
-| but | 38 | 702 | 5689 | 0.12 | 377 | 12 | 36 |
-| was | 128 | 2364 | 7883 | 0.30 | 285 | 14 | 36 |
-| be | 170 | 3140 | 8489 | 0.37 | 238 | 14 | 36 |
-| to | 1015 | 18746 | 28538 | 0.66 | 204 | 14 | 36 |
-| been | 21 | 388 | 3033 | 0.13 | 198 | 10 | 36 |
-| the | 3393 | 62665 | 79044 | 0.79 | 195 | 14 | 36 |
-| have | 85 | 1570 | 5031 | 0.31 | 174 | 14 | 36 |
-| had | 45 | 831 | 3680 | 0.23 | 172 | 9 | 36 |
-| this | 105 | 1939 | 5260 | 0.37 | 148 | 14 | 36 |
-| as | 252 | 4654 | 9089 | 0.51 | 141 | 14 | 36 |
-| very | 4 | 73.9 | 1481 | 0.05 | 127 | 3 | 36 |
-| some | 12 | 222 | 1843 | 0.12 | 123 | 7 | 36 |
-| there | 38 | 702 | 2793 | 0.25 | 120 | 11 | 36 |
-| it | 390 | 7203 | 12008 | 0.60 | 120 | 14 | 36 |
-| other | 25 | 462 | 2247 | 0.21 | 113 | 11 | 36 |
-| were | 66 | 1219 | 3518 | 0.35 | 108 | 12 | 36 |
-| much | 4 | 73.9 | 1247 | 0.06 | 103 | 2 | 36 |
-| all | 75 | 1385 | 3688 | 0.38 | 101 | 14 | 36 |
-| would | 47 | 868 | 2702 | 0.32 | 91 | 11 | 36 |
-| these | 27 | 499 | 2029 | 0.25 | 89 | 12 | 36 |
-| thus | 0 | 0 | 802 | 0.01 | 86 | 0 | 36 |
-| in | 897 | 16567 | 22061 | 0.75 | 80 | 14 | 36 |
-| more | 51 | 942 | 2656 | 0.35 | 79 | 13 | 36 |
-| my | 3 | 55.4 | 939 | 0.06 | 78 | 3 | 35 |
-| many | 9 | 166 | 1141 | 0.15 | 70 | 5 | 36 |
-| with | 197 | 3638 | 6211 | 0.59 | 67 | 14 | 36 |
-| so | 68 | 1256 | 2901 | 0.43 | 63 | 14 | 36 |
-| we | 110 | 2032 | 3924 | 0.52 | 59 | 14 | 36 |
-| shall | 0 | 0 | 531 | 0.02 | 57 | 0 | 35 |
-| may | 45 | 831 | 2154 | 0.39 | 57 | 13 | 36 |
-| me | 1 | 18.5 | 601 | 0.03 | 56 | 1 | 35 |
-| most | 27 | 499 | 1570 | 0.32 | 53 | 10 | 36 |
-| our | 38 | 702 | 1873 | 0.37 | 51 | 8 | 36 |
-| should | 20 | 369 | 1294 | 0.29 | 49 | 10 | 36 |
-| he | 192 | 3546 | 5659 | 0.63 | 49 | 14 | 36 |
-| whole | 4 | 73.9 | 675 | 0.11 | 47 | 4 | 36 |
-| upon | 31 | 573 | 1598 | 0.36 | 47 | 13 | 36 |
-| for | 284 | 5245 | 7612 | 0.69 | 44 | 14 | 36 |
+| of | 1203 | 22424 | 49557 | 0.45 | 989 | 14 | 36 |
+| which | 85 | 1584 | 8273 | 0.19 | 431 | 14 | 36 |
+| but | 38 | 708 | 5689 | 0.12 | 372 | 12 | 36 |
+| was | 127 | 2367 | 7883 | 0.30 | 282 | 14 | 36 |
+| be | 166 | 3094 | 8489 | 0.36 | 240 | 14 | 36 |
+| to | 1006 | 18752 | 28538 | 0.66 | 202 | 14 | 36 |
+| been | 21 | 391 | 3033 | 0.13 | 195 | 10 | 36 |
+| the | 3361 | 62650 | 79044 | 0.79 | 193 | 14 | 36 |
+| have | 83 | 1547 | 5031 | 0.31 | 176 | 14 | 36 |
+| had | 46 | 857 | 3680 | 0.23 | 167 | 9 | 36 |
+| this | 104 | 1939 | 5260 | 0.37 | 147 | 14 | 36 |
+| as | 249 | 4641 | 9089 | 0.51 | 140 | 14 | 36 |
+| there | 35 | 652 | 2793 | 0.23 | 126 | 11 | 36 |
+| very | 4 | 74.6 | 1481 | 0.05 | 126 | 3 | 36 |
+| some | 12 | 224 | 1843 | 0.12 | 122 | 7 | 36 |
+| it | 394 | 7344 | 12008 | 0.61 | 111 | 14 | 36 |
+| other | 25 | 466 | 2247 | 0.21 | 111 | 11 | 36 |
+| were | 64 | 1193 | 3518 | 0.34 | 109 | 12 | 36 |
+| much | 4 | 74.6 | 1247 | 0.06 | 102 | 2 | 36 |
+| all | 75 | 1398 | 3688 | 0.38 | 99 | 14 | 36 |
+| would | 46 | 857 | 2702 | 0.32 | 91 | 11 | 36 |
+| these | 27 | 503 | 2029 | 0.25 | 87 | 12 | 36 |
+| thus | 0 | 0 | 802 | 0.01 | 85 | 0 | 36 |
+| in | 892 | 16627 | 22061 | 0.75 | 77 | 14 | 36 |
+| more | 51 | 951 | 2656 | 0.36 | 77 | 13 | 36 |
+| my | 3 | 55.9 | 939 | 0.06 | 77 | 3 | 35 |
+| many | 9 | 168 | 1141 | 0.15 | 69 | 5 | 36 |
+| with | 197 | 3672 | 6211 | 0.59 | 64 | 14 | 36 |
+| so | 70 | 1305 | 2901 | 0.45 | 59 | 14 | 36 |
+| we | 110 | 2050 | 3924 | 0.52 | 57 | 14 | 36 |
+| most | 25 | 466 | 1570 | 0.30 | 57 | 10 | 36 |
+| shall | 0 | 0 | 531 | 0.02 | 56 | 0 | 35 |
+| may | 45 | 839 | 2154 | 0.39 | 55 | 13 | 36 |
+| me | 1 | 18.6 | 601 | 0.03 | 55 | 1 | 35 |
+| our | 38 | 708 | 1873 | 0.38 | 50 | 8 | 36 |
+| upon | 29 | 541 | 1598 | 0.34 | 50 | 13 | 36 |
+| should | 20 | 373 | 1294 | 0.29 | 48 | 10 | 36 |
+| he | 191 | 3560 | 5659 | 0.63 | 47 | 14 | 36 |
+| whole | 4 | 74.6 | 675 | 0.11 | 46 | 4 | 36 |
+| might | 5 | 93.2 | 717 | 0.13 | 46 | 5 | 36 |
 
 ### 4c. Other words the book uses more (twice the rate or higher)
 
 | Item | Book uses | Book per million | Corpus per million | Ratio | G2 | Chapters | Works |
 |---|---|---|---|---|---|---|---|
-| reality | 174 | 3214 | 64.1 | 50 | 899 | 14 | 30 |
-| human | 245 | 4525 | 514 | 8.81 | 602 | 14 | 34 |
-| procedural | 64 | 1182 | 0 | 6752 | 510 | 10 | 0 |
-| symmetry | 67 | 1237 | 5.3 | 236 | 456 | 7 | 6 |
-| tier | 53 | 979 | 2.8 | 349 | 375 | 8 | 3 |
-| principle | 152 | 2807 | 343 | 8.19 | 355 | 14 | 35 |
-| children | 117 | 2161 | 175 | 12 | 352 | 14 | 33 |
-| child | 85 | 1570 | 65.8 | 24 | 346 | 11 | 34 |
-| household | 75 | 1385 | 44.5 | 31 | 336 | 14 | 20 |
-| inside | 64 | 1182 | 30.1 | 39 | 309 | 11 | 20 |
-| scoped | 34 | 628 | 0 | 3587 | 271 | 7 | 0 |
-| civilization | 80 | 1478 | 103 | 14 | 260 | 14 | 24 |
-| physical | 95 | 1755 | 173 | 10 | 255 | 14 | 34 |
-| scope | 59 | 1090 | 41.3 | 26 | 249 | 10 | 23 |
-| foundational | 27 | 499 | 0 | 2848 | 215 | 10 | 0 |
-| build | 58 | 1071 | 57.4 | 19 | 213 | 14 | 33 |
-| across | 65 | 1200 | 87.5 | 14 | 207 | 14 | 30 |
-| biological | 37 | 683 | 11.2 | 61 | 201 | 11 | 7 |
-| truth | 107 | 1976 | 328 | 6.03 | 198 | 14 | 36 |
-| technology | 29 | 536 | 2.5 | 219 | 196 | 7 | 1 |
-| beings | 57 | 1053 | 72.8 | 14 | 186 | 14 | 23 |
-| family | 83 | 1533 | 224 | 6.84 | 170 | 12 | 29 |
-| percent | 28 | 517 | 6.3 | 82 | 162 | 7 | 3 |
-| consequential | 22 | 406 | 1.1 | 387 | 157 | 10 | 3 |
-| procedure | 39 | 720 | 34.0 | 21 | 151 | 9 | 14 |
-| humans | 19 | 351 | 0 | 2004 | 151 | 8 | 0 |
-| claim | 59 | 1090 | 117 | 9.32 | 150 | 13 | 35 |
-| tiers | 21 | 388 | 1.1 | 369 | 149 | 6 | 2 |
-| bridge | 36 | 665 | 28.0 | 24 | 146 | 7 | 20 |
-| self | 100 | 1847 | 395 | 4.68 | 146 | 13 | 34 |
-| engineering | 32 | 591 | 18.2 | 32 | 145 | 11 | 8 |
-| civic | 24 | 443 | 6.0 | 74 | 136 | 7 | 8 |
-| outcomes | 18 | 332 | 0.350 | 949 | 136 | 7 | 1 |
-| ideological | 17 | 314 | 0 | 1793 | 135 | 12 | 0 |
-| tiered | 17 | 314 | 0 | 1793 | 135 | 8 | 0 |
-| grain | 31 | 573 | 22.1 | 26 | 130 | 9 | 22 |
-| virtue | 48 | 887 | 90.0 | 9.85 | 127 | 12 | 28 |
-| anchored | 25 | 462 | 13.0 | 36 | 117 | 7 | 5 |
-| strangers | 25 | 462 | 13.0 | 36 | 117 | 8 | 14 |
-| households | 18 | 332 | 2.1 | 158 | 117 | 9 | 3 |
-| test | 43 | 794 | 91.0 | 8.72 | 105 | 12 | 34 |
-| ownership | 42 | 776 | 86.1 | 9.01 | 105 | 12 | 18 |
-| ledger | 16 | 296 | 1.8 | 169 | 105 | 8 | 2 |
-| aircraft | 17 | 314 | 2.8 | 112 | 104 | 9 | 1 |
-| five | 71 | 1311 | 280 | 4.69 | 104 | 13 | 34 |
-| citizen | 38 | 702 | 67.2 | 10 | 104 | 11 | 26 |
-| institutional | 19 | 351 | 5.6 | 63 | 104 | 11 | 5 |
-| operational | 13 | 240 | 0 | 1371 | 104 | 8 | 0 |
-| shared | 26 | 480 | 22.1 | 22 | 102 | 9 | 24 |
-| error | 37 | 683 | 66.2 | 10 | 100 | 9 | 26 |
+| reality | 170 | 3169 | 64.1 | 49 | 876 | 14 | 30 |
+| human | 237 | 4418 | 514 | 8.60 | 573 | 14 | 34 |
+| procedural | 61 | 1137 | 0 | 6495 | 487 | 10 | 0 |
+| symmetry | 66 | 1230 | 5.3 | 234 | 450 | 7 | 6 |
+| tier | 53 | 988 | 2.8 | 353 | 376 | 8 | 3 |
+| principle | 152 | 2833 | 343 | 8.27 | 358 | 14 | 35 |
+| children | 117 | 2181 | 175 | 12 | 354 | 14 | 33 |
+| child | 85 | 1584 | 65.8 | 24 | 347 | 11 | 34 |
+| household | 75 | 1398 | 44.5 | 31 | 337 | 14 | 20 |
+| inside | 63 | 1174 | 30.1 | 39 | 303 | 11 | 20 |
+| scoped | 33 | 615 | 0 | 3514 | 264 | 7 | 0 |
+| civilization | 79 | 1473 | 103 | 14 | 256 | 14 | 24 |
+| scope | 59 | 1100 | 41.3 | 27 | 250 | 10 | 23 |
+| physical | 90 | 1678 | 173 | 9.72 | 236 | 14 | 34 |
+| foundational | 28 | 522 | 0 | 2981 | 224 | 10 | 0 |
+| build | 57 | 1063 | 57.4 | 19 | 209 | 14 | 33 |
+| biological | 37 | 690 | 11.2 | 62 | 201 | 11 | 7 |
+| across | 63 | 1174 | 87.5 | 13 | 198 | 14 | 30 |
+| technology | 29 | 541 | 2.5 | 221 | 196 | 7 | 1 |
+| truth | 106 | 1976 | 328 | 6.03 | 196 | 14 | 36 |
+| beings | 57 | 1063 | 72.8 | 15 | 187 | 14 | 23 |
+| family | 81 | 1510 | 224 | 6.74 | 164 | 12 | 29 |
+| percent | 28 | 522 | 6.3 | 83 | 163 | 7 | 3 |
+| consequential | 22 | 410 | 1.1 | 390 | 157 | 10 | 3 |
+| procedure | 39 | 727 | 34.0 | 21 | 152 | 9 | 14 |
+| humans | 19 | 354 | 0 | 2023 | 152 | 8 | 0 |
+| claim | 59 | 1100 | 117 | 9.40 | 151 | 13 | 35 |
+| tiers | 21 | 391 | 1.1 | 373 | 150 | 6 | 2 |
+| self | 100 | 1864 | 395 | 4.72 | 147 | 13 | 34 |
+| engineering | 32 | 596 | 18.2 | 33 | 146 | 11 | 8 |
+| bridge | 35 | 652 | 28.0 | 23 | 141 | 7 | 20 |
+| outcomes | 18 | 336 | 0.350 | 958 | 136 | 7 | 1 |
+| ideological | 17 | 317 | 0 | 1810 | 136 | 12 | 0 |
+| tiered | 17 | 317 | 0 | 1810 | 136 | 8 | 0 |
+| grain | 31 | 578 | 22.1 | 26 | 131 | 9 | 22 |
+| civic | 23 | 429 | 6.0 | 72 | 130 | 7 | 8 |
+| virtue | 48 | 895 | 90.0 | 9.94 | 127 | 12 | 28 |
+| anchored | 25 | 466 | 13.0 | 36 | 117 | 7 | 5 |
+| strangers | 25 | 466 | 13.0 | 36 | 117 | 8 | 14 |
+| households | 18 | 336 | 2.1 | 160 | 117 | 9 | 3 |
+| test | 43 | 802 | 91.0 | 8.80 | 106 | 12 | 34 |
+| ownership | 42 | 783 | 86.1 | 9.09 | 105 | 12 | 18 |
+| ledger | 16 | 298 | 1.8 | 170 | 105 | 8 | 2 |
+| aircraft | 17 | 317 | 2.8 | 113 | 105 | 9 | 1 |
+| citizen | 38 | 708 | 67.2 | 11 | 104 | 11 | 26 |
+| five | 70 | 1305 | 280 | 4.66 | 102 | 13 | 34 |
+| generation | 42 | 783 | 92.4 | 8.47 | 101 | 10 | 34 |
+| parents | 33 | 615 | 49.7 | 12 | 99 | 10 | 25 |
+| limited | 44 | 820 | 105 | 7.78 | 99 | 12 | 34 |
+| person | 71 | 1323 | 297 | 4.46 | 99 | 12 | 33 |
 
 ### 4d. Other words the book uses less (half the rate or lower)
 
 | Item | Book uses | Book per million | Corpus per million | Ratio | G2 | Chapters | Works |
 |---|---|---|---|---|---|---|---|
-| great | 8 | 148 | 1746 | 0.08 | 132 | 6 | 36 |
-| men | 24 | 443 | 1772 | 0.25 | 76 | 11 | 36 |
-| made | 14 | 259 | 1366 | 0.19 | 72 | 7 | 36 |
-| little | 1 | 18.5 | 712 | 0.03 | 67 | 1 | 36 |
-| general | 8 | 148 | 940 | 0.16 | 56 | 7 | 36 |
-| certain | 1 | 18.5 | 593 | 0.03 | 55 | 1 | 36 |
-| engine | 1 | 18.5 | 539 | 0.03 | 49 | 1 | 19 |
-| said | 5 | 92.3 | 677 | 0.14 | 43 | 4 | 36 |
-| opinion | 0 | 0 | 372 | 0.02 | 40 | 0 | 35 |
-| far | 8 | 148 | 756 | 0.20 | 39 | 5 | 36 |
-| came | 0 | 0 | 360 | 0.03 | 39 | 0 | 36 |
-| course | 2 | 36.9 | 478 | 0.08 | 37 | 1 | 36 |
-| steam | 2 | 36.9 | 476 | 0.08 | 37 | 2 | 24 |
-| time | 40 | 739 | 1688 | 0.44 | 36 | 12 | 36 |
-| say | 5 | 92.3 | 591 | 0.16 | 35 | 5 | 36 |
-| government | 17 | 314 | 998 | 0.31 | 34 | 8 | 33 |
-| thought | 3 | 55.4 | 484 | 0.11 | 33 | 3 | 36 |
-| degree | 0 | 0 | 305 | 0.03 | 33 | 0 | 35 |
-| number | 5 | 92.3 | 560 | 0.17 | 32 | 5 | 36 |
+| great | 8 | 149 | 1746 | 0.09 | 131 | 6 | 36 |
+| men | 24 | 447 | 1772 | 0.25 | 75 | 11 | 36 |
+| made | 14 | 261 | 1366 | 0.19 | 71 | 7 | 36 |
+| little | 1 | 18.6 | 712 | 0.03 | 66 | 1 | 36 |
+| certain | 1 | 18.6 | 593 | 0.03 | 54 | 1 | 36 |
+| general | 9 | 168 | 940 | 0.18 | 51 | 8 | 36 |
+| engine | 1 | 18.6 | 539 | 0.03 | 49 | 1 | 19 |
+| said | 5 | 93.2 | 677 | 0.14 | 42 | 4 | 36 |
+| opinion | 0 | 0 | 372 | 0.03 | 40 | 0 | 35 |
+| far | 8 | 149 | 756 | 0.20 | 39 | 5 | 36 |
+| came | 0 | 0 | 360 | 0.03 | 38 | 0 | 36 |
+| course | 2 | 37.3 | 478 | 0.08 | 37 | 1 | 36 |
+| steam | 2 | 37.3 | 476 | 0.08 | 36 | 2 | 24 |
+| time | 40 | 746 | 1688 | 0.44 | 35 | 12 | 36 |
+| say | 5 | 93.2 | 591 | 0.16 | 35 | 5 | 36 |
+| government | 17 | 317 | 998 | 0.32 | 34 | 8 | 33 |
+| thought | 3 | 55.9 | 484 | 0.12 | 33 | 3 | 36 |
+| degree | 0 | 0 | 305 | 0.03 | 32 | 0 | 35 |
+| number | 5 | 93.2 | 560 | 0.17 | 32 | 5 | 36 |
 | increase | 0 | 0 | 290 | 0.03 | 31 | 0 | 33 |
 | probably | 0 | 0 | 290 | 0.03 | 31 | 0 | 36 |
-| generally | 0 | 0 | 286 | 0.03 | 31 | 0 | 35 |
-| best | 4 | 73.9 | 502 | 0.15 | 31 | 2 | 36 |
-| species | 2 | 36.9 | 410 | 0.09 | 30 | 1 | 27 |
+| generally | 0 | 0 | 286 | 0.03 | 30 | 0 | 35 |
+| best | 4 | 74.6 | 502 | 0.15 | 30 | 2 | 36 |
+| species | 2 | 37.3 | 410 | 0.09 | 30 | 1 | 27 |
 | seems | 0 | 0 | 279 | 0.03 | 30 | 0 | 36 |
-| things | 7 | 129 | 605 | 0.21 | 30 | 5 | 36 |
-| found | 8 | 148 | 640 | 0.23 | 29 | 5 | 36 |
-| better | 3 | 55.4 | 434 | 0.13 | 28 | 2 | 36 |
-| cases | 3 | 55.4 | 426 | 0.13 | 28 | 3 | 36 |
-| greater | 3 | 55.4 | 408 | 0.14 | 26 | 3 | 36 |
-| get | 2 | 36.9 | 361 | 0.10 | 26 | 2 | 35 |
+| better | 3 | 55.9 | 434 | 0.13 | 28 | 2 | 36 |
+| cases | 3 | 55.9 | 426 | 0.13 | 27 | 3 | 36 |
+| found | 9 | 168 | 640 | 0.26 | 26 | 6 | 36 |
+| things | 8 | 149 | 605 | 0.25 | 26 | 6 | 36 |
+| greater | 3 | 55.9 | 408 | 0.14 | 26 | 3 | 36 |
+| get | 2 | 37.3 | 361 | 0.10 | 25 | 2 | 35 |
 | latter | 0 | 0 | 234 | 0.04 | 25 | 0 | 34 |
 | importance | 0 | 0 | 232 | 0.04 | 25 | 0 | 34 |
 | various | 0 | 0 | 232 | 0.04 | 25 | 0 | 35 |
-| possible | 4 | 73.9 | 437 | 0.17 | 25 | 4 | 36 |
+| possible | 4 | 74.6 | 437 | 0.17 | 24 | 4 | 36 |
 | de | 0 | 0 | 224 | 0.04 | 24 | 0 | 30 |
 | especially | 0 | 0 | 224 | 0.04 | 24 | 0 | 35 |
 | seem | 0 | 0 | 218 | 0.04 | 23 | 0 | 36 |
-| necessary | 5 | 92.3 | 460 | 0.20 | 23 | 5 | 36 |
-| business | 6 | 111 | 494 | 0.22 | 23 | 5 | 33 |
+| necessary | 5 | 93.2 | 460 | 0.20 | 23 | 5 | 36 |
 | troops | 0 | 0 | 216 | 0.04 | 23 | 0 | 17 |
-| seen | 2 | 36.9 | 334 | 0.11 | 23 | 2 | 36 |
-| taken | 4 | 73.9 | 411 | 0.18 | 23 | 3 | 36 |
+| business | 6 | 112 | 494 | 0.23 | 23 | 5 | 33 |
+| seen | 2 | 37.3 | 334 | 0.11 | 23 | 2 | 36 |
 | due | 0 | 0 | 210 | 0.04 | 22 | 0 | 36 |
-| south | 1 | 18.5 | 278 | 0.07 | 22 | 1 | 30 |
-| new | 31 | 573 | 1210 | 0.47 | 22 | 12 | 36 |
-| called | 7 | 129 | 516 | 0.25 | 22 | 4 | 36 |
-| possession | 0 | 0 | 206 | 0.04 | 22 | 0 | 35 |
-| process | 1 | 18.5 | 273 | 0.07 | 22 | 1 | 35 |
-| think | 4 | 73.9 | 402 | 0.18 | 22 | 2 | 36 |
+| south | 1 | 18.6 | 278 | 0.07 | 22 | 1 | 30 |
+| taken | 4 | 74.6 | 411 | 0.18 | 22 | 3 | 36 |
+| possession | 0 | 0 | 206 | 0.05 | 22 | 0 | 35 |
+| process | 1 | 18.6 | 273 | 0.07 | 22 | 1 | 35 |
+| new | 31 | 578 | 1210 | 0.48 | 22 | 12 | 36 |
+| period | 1 | 18.6 | 270 | 0.07 | 21 | 1 | 34 |
+| think | 4 | 74.6 | 402 | 0.19 | 21 | 2 | 36 |
 
 ### 4e. Two-word phrases the book uses more
 
 | Item | Book uses | Book per million | Corpus per million | Ratio | G2 | Chapters | Works |
 |---|---|---|---|---|---|---|---|
-| procedural symmetry | 33 | 609 | 0 | 3481 | 263 | 7 | 0 |
-| human beings | 54 | 997 | 30.8 | 32 | 245 | 14 | 17 |
-| under principle | 23 | 425 | 0 | 2426 | 183 | 9 | 0 |
-| reality is | 25 | 462 | 1.1 | 440 | 180 | 10 | 3 |
-| keeping and | 22 | 406 | 0.350 | 1160 | 167 | 9 | 1 |
-| or a | 69 | 1274 | 163 | 7.83 | 156 | 13 | 36 |
-| human being | 36 | 665 | 24.9 | 27 | 153 | 13 | 20 |
-| and building | 23 | 425 | 2.5 | 173 | 151 | 9 | 6 |
-| of reality | 23 | 425 | 4.2 | 101 | 139 | 12 | 5 |
-| and build | 22 | 406 | 4.2 | 97 | 132 | 11 | 9 |
-| to reality | 17 | 314 | 0.350 | 897 | 128 | 9 | 1 |
-| five principles | 16 | 296 | 0 | 1688 | 127 | 5 | 0 |
-| inside the | 21 | 388 | 4.6 | 85 | 123 | 8 | 8 |
-| every human | 21 | 388 | 4.9 | 79 | 121 | 9 | 8 |
-| scoped procedural | 15 | 277 | 0 | 1582 | 120 | 6 | 0 |
-| a child | 27 | 499 | 18.9 | 26 | 114 | 6 | 26 |
-| inside a | 14 | 259 | 0 | 1477 | 112 | 5 | 0 |
-| physical reality | 14 | 259 | 0 | 1477 | 112 | 9 | 0 |
-| human life | 30 | 554 | 31.2 | 18 | 108 | 8 | 17 |
-| your own | 21 | 388 | 8.1 | 48 | 107 | 9 | 15 |
-| is real | 18 | 332 | 3.9 | 86 | 105 | 9 | 10 |
-| life continuing | 13 | 240 | 0 | 1371 | 104 | 7 | 0 |
-| claim that | 18 | 332 | 6.7 | 50 | 93 | 10 | 11 |
-| the bridge | 16 | 296 | 4.6 | 65 | 88 | 5 | 5 |
-| the foundational | 11 | 203 | 0 | 1160 | 88 | 5 | 0 |
-| and built | 17 | 314 | 6.7 | 47 | 86 | 9 | 9 |
-| the child | 22 | 406 | 19.3 | 21 | 85 | 6 | 20 |
-| keep and | 13 | 240 | 1.4 | 171 | 85 | 6 | 3 |
-| own children | 13 | 240 | 1.4 | 171 | 85 | 5 | 3 |
-| percent of | 12 | 222 | 0.700 | 316 | 84 | 6 | 1 |
-| does not | 82 | 1514 | 446 | 3.40 | 82 | 14 | 36 |
-| and your | 17 | 314 | 8.1 | 39 | 82 | 8 | 11 |
-| when a | 39 | 720 | 103 | 7.02 | 82 | 11 | 35 |
-| a civilization | 13 | 240 | 2.1 | 114 | 80 | 8 | 5 |
-| and consequential | 10 | 185 | 0 | 1055 | 80 | 7 | 0 |
-| humans are | 10 | 185 | 0 | 1055 | 80 | 6 | 0 |
-| the scope | 20 | 369 | 16.5 | 22 | 79 | 7 | 15 |
-| the household | 19 | 351 | 15.1 | 23 | 77 | 8 | 7 |
-| reality and | 13 | 240 | 2.8 | 86 | 76 | 8 | 7 |
-| scope of | 19 | 351 | 15.4 | 23 | 76 | 6 | 12 |
-| the five | 21 | 388 | 22.4 | 17 | 75 | 7 | 16 |
-| what happens | 16 | 296 | 8.4 | 35 | 75 | 8 | 9 |
-| kept and | 11 | 203 | 1.1 | 193 | 73 | 6 | 3 |
-| across generations | 9 | 166 | 0 | 949 | 72 | 5 | 0 |
-| goodness must | 9 | 166 | 0 | 949 | 72 | 6 | 0 |
-| a household | 12 | 222 | 2.5 | 90 | 71 | 7 | 4 |
-| and particular | 12 | 222 | 2.5 | 90 | 71 | 9 | 6 |
-| child is | 11 | 203 | 1.4 | 145 | 70 | 5 | 4 |
-| refuses to | 15 | 277 | 7.7 | 36 | 70 | 5 | 16 |
-| common principles | 10 | 185 | 0.700 | 264 | 69 | 8 | 1 |
+| procedural symmetry | 33 | 615 | 0 | 3514 | 264 | 7 | 0 |
+| human beings | 54 | 1007 | 30.8 | 33 | 246 | 14 | 17 |
+| under principle | 23 | 429 | 0 | 2449 | 184 | 9 | 0 |
+| reality is | 25 | 466 | 1.1 | 444 | 181 | 10 | 3 |
+| keeping and | 22 | 410 | 0.350 | 1171 | 168 | 9 | 1 |
+| human being | 36 | 671 | 24.9 | 27 | 153 | 13 | 20 |
+| and building | 23 | 429 | 2.5 | 175 | 151 | 9 | 6 |
+| or a | 67 | 1249 | 163 | 7.67 | 150 | 13 | 36 |
+| of reality | 23 | 429 | 4.2 | 102 | 139 | 12 | 5 |
+| and build | 22 | 410 | 4.2 | 98 | 132 | 11 | 9 |
+| to reality | 17 | 317 | 0.350 | 905 | 128 | 9 | 1 |
+| inside the | 21 | 391 | 4.6 | 86 | 123 | 8 | 8 |
+| every human | 21 | 391 | 4.9 | 80 | 121 | 9 | 8 |
+| five principles | 15 | 280 | 0 | 1597 | 120 | 5 | 0 |
+| scoped procedural | 15 | 280 | 0 | 1597 | 120 | 6 | 0 |
+| a child | 27 | 503 | 18.9 | 27 | 115 | 6 | 26 |
+| inside a | 14 | 261 | 0 | 1491 | 112 | 5 | 0 |
+| human life | 30 | 559 | 31.2 | 18 | 109 | 8 | 17 |
+| your own | 21 | 391 | 8.1 | 49 | 108 | 9 | 15 |
+| life continuing | 13 | 242 | 0 | 1384 | 104 | 7 | 0 |
+| physical reality | 13 | 242 | 0 | 1384 | 104 | 8 | 0 |
+| is real | 17 | 317 | 3.9 | 82 | 99 | 8 | 10 |
+| the foundational | 12 | 224 | 0 | 1278 | 96 | 5 | 0 |
+| claim that | 18 | 336 | 6.7 | 50 | 93 | 10 | 11 |
+| the bridge | 16 | 298 | 4.6 | 66 | 88 | 5 | 5 |
+| the child | 22 | 410 | 19.3 | 21 | 86 | 6 | 20 |
+| keep and | 13 | 242 | 1.4 | 173 | 85 | 6 | 3 |
+| own children | 13 | 242 | 1.4 | 173 | 85 | 5 | 3 |
+| percent of | 12 | 224 | 0.700 | 319 | 84 | 6 | 1 |
+| and your | 17 | 317 | 8.1 | 39 | 82 | 8 | 11 |
+| does not | 81 | 1510 | 446 | 3.39 | 81 | 14 | 36 |
+| a civilization | 13 | 242 | 2.1 | 115 | 80 | 8 | 5 |
+| and built | 16 | 298 | 6.7 | 45 | 80 | 9 | 9 |
+| and consequential | 10 | 186 | 0 | 1065 | 80 | 7 | 0 |
+| humans are | 10 | 186 | 0 | 1065 | 80 | 6 | 0 |
+| the scope | 20 | 373 | 16.5 | 23 | 80 | 7 | 15 |
+| when a | 38 | 708 | 103 | 6.90 | 78 | 11 | 35 |
+| the household | 19 | 354 | 15.1 | 24 | 77 | 8 | 7 |
+| common principles | 11 | 205 | 0.700 | 293 | 77 | 9 | 1 |
+| scope of | 19 | 354 | 15.4 | 23 | 76 | 6 | 12 |
+| reality and | 13 | 242 | 2.8 | 87 | 76 | 8 | 7 |
+| the five | 21 | 391 | 22.4 | 17 | 75 | 7 | 16 |
+| what happens | 16 | 298 | 8.4 | 35 | 75 | 8 | 9 |
+| across generations | 9 | 168 | 0 | 958 | 72 | 5 | 0 |
+| a household | 12 | 224 | 2.5 | 91 | 71 | 7 | 4 |
+| and particular | 12 | 224 | 2.5 | 91 | 71 | 9 | 6 |
+| refuses to | 15 | 280 | 7.7 | 36 | 71 | 5 | 16 |
+| child is | 11 | 205 | 1.4 | 146 | 71 | 5 | 4 |
+| enemies are | 10 | 186 | 0.700 | 266 | 69 | 5 | 2 |
+| the physical | 23 | 429 | 36.4 | 12 | 67 | 8 | 26 |
 
 ### 4f. Two-word phrases the book uses less
 
 | Item | Book uses | Book per million | Corpus per million | Ratio | G2 | Chapters | Works |
 |---|---|---|---|---|---|---|---|
-| of the | 215 | 3971 | 13427 | 0.30 | 493 | 14 | 36 |
-| to be | 30 | 554 | 2406 | 0.23 | 111 | 12 | 36 |
-| to the | 111 | 2050 | 4396 | 0.47 | 83 | 14 | 36 |
-| have been | 5 | 92.3 | 1000 | 0.09 | 74 | 3 | 36 |
-| all the | 1 | 18.5 | 734 | 0.03 | 69 | 1 | 36 |
-| it is | 75 | 1385 | 3036 | 0.46 | 60 | 14 | 36 |
-| by the | 42 | 776 | 2096 | 0.37 | 59 | 14 | 36 |
-| it was | 14 | 259 | 1196 | 0.22 | 58 | 9 | 36 |
-| which the | 4 | 73.9 | 757 | 0.10 | 55 | 4 | 36 |
-| with the | 29 | 536 | 1597 | 0.34 | 51 | 12 | 36 |
-| as to | 1 | 18.5 | 541 | 0.03 | 49 | 1 | 36 |
-| he was | 2 | 36.9 | 590 | 0.06 | 48 | 2 | 34 |
-| had been | 3 | 55.4 | 634 | 0.09 | 47 | 2 | 36 |
-| but the | 4 | 73.9 | 678 | 0.11 | 47 | 4 | 36 |
-| for the | 42 | 776 | 1866 | 0.42 | 44 | 13 | 36 |
-| that of | 0 | 0 | 399 | 0.02 | 43 | 0 | 36 |
-| the whole | 2 | 36.9 | 502 | 0.07 | 39 | 2 | 36 |
-| a great | 0 | 0 | 361 | 0.03 | 39 | 0 | 36 |
-| may be | 12 | 222 | 866 | 0.26 | 37 | 5 | 36 |
-| number of | 1 | 18.5 | 406 | 0.05 | 35 | 1 | 36 |
-| it would | 1 | 18.5 | 401 | 0.05 | 35 | 1 | 36 |
+| of the | 210 | 3914 | 13427 | 0.29 | 496 | 14 | 36 |
+| to be | 30 | 559 | 2406 | 0.23 | 109 | 12 | 36 |
+| to the | 113 | 2106 | 4396 | 0.48 | 78 | 14 | 36 |
+| have been | 4 | 74.6 | 1000 | 0.07 | 78 | 3 | 36 |
+| all the | 1 | 18.6 | 734 | 0.03 | 69 | 1 | 36 |
+| by the | 41 | 764 | 2096 | 0.36 | 59 | 14 | 36 |
+| it is | 75 | 1398 | 3036 | 0.46 | 59 | 14 | 36 |
+| it was | 14 | 261 | 1196 | 0.22 | 57 | 9 | 36 |
+| which the | 4 | 74.6 | 757 | 0.10 | 54 | 4 | 36 |
+| as to | 1 | 18.6 | 541 | 0.03 | 49 | 1 | 36 |
+| for the | 39 | 727 | 1866 | 0.39 | 48 | 13 | 36 |
+| he was | 2 | 37.3 | 590 | 0.06 | 48 | 2 | 34 |
+| with the | 30 | 559 | 1597 | 0.35 | 48 | 12 | 36 |
+| had been | 3 | 55.9 | 634 | 0.09 | 47 | 2 | 36 |
+| but the | 4 | 74.6 | 678 | 0.11 | 47 | 4 | 36 |
+| that of | 0 | 0 | 399 | 0.02 | 42 | 0 | 36 |
+| the whole | 2 | 37.3 | 502 | 0.07 | 39 | 2 | 36 |
+| a great | 0 | 0 | 361 | 0.03 | 38 | 0 | 36 |
+| may be | 12 | 224 | 866 | 0.26 | 36 | 5 | 36 |
+| number of | 1 | 18.6 | 406 | 0.05 | 35 | 1 | 36 |
+| it would | 1 | 18.6 | 401 | 0.05 | 34 | 1 | 36 |
 | which they | 0 | 0 | 319 | 0.03 | 34 | 0 | 36 |
-| we have | 4 | 73.9 | 537 | 0.14 | 34 | 3 | 36 |
-| has been | 10 | 185 | 758 | 0.24 | 33 | 7 | 36 |
-| of this | 8 | 148 | 687 | 0.21 | 33 | 8 | 36 |
-| that he | 4 | 73.9 | 527 | 0.14 | 33 | 4 | 36 |
-| of his | 16 | 296 | 939 | 0.31 | 32 | 8 | 35 |
-| would be | 9 | 166 | 701 | 0.24 | 32 | 4 | 36 |
-| which he | 2 | 36.9 | 422 | 0.09 | 32 | 1 | 36 |
-| but it | 2 | 36.9 | 418 | 0.09 | 31 | 2 | 36 |
+| we have | 4 | 74.6 | 537 | 0.14 | 33 | 3 | 36 |
+| of this | 8 | 149 | 687 | 0.22 | 33 | 8 | 36 |
+| of his | 16 | 298 | 939 | 0.32 | 32 | 8 | 35 |
+| which he | 2 | 37.3 | 422 | 0.09 | 31 | 1 | 36 |
+| would be | 9 | 168 | 701 | 0.24 | 31 | 4 | 36 |
+| but it | 2 | 37.3 | 418 | 0.09 | 31 | 2 | 36 |
+| has been | 11 | 205 | 758 | 0.27 | 30 | 7 | 36 |
 | a very | 0 | 0 | 280 | 0.03 | 30 | 0 | 36 |
-| the great | 3 | 55.4 | 444 | 0.12 | 29 | 2 | 36 |
-| to have | 5 | 92.3 | 525 | 0.18 | 29 | 5 | 36 |
-| such a | 2 | 36.9 | 389 | 0.10 | 28 | 2 | 36 |
+| the great | 3 | 55.9 | 444 | 0.13 | 29 | 2 | 36 |
+| that he | 5 | 93.2 | 527 | 0.18 | 29 | 4 | 36 |
+| to have | 5 | 93.2 | 525 | 0.18 | 29 | 5 | 36 |
+| such a | 2 | 37.3 | 389 | 0.10 | 28 | 2 | 36 |
 | that there | 0 | 0 | 261 | 0.04 | 28 | 0 | 36 |
-| and in | 8 | 148 | 618 | 0.24 | 28 | 7 | 36 |
-| power of | 0 | 0 | 257 | 0.04 | 28 | 0 | 34 |
-| which it | 1 | 18.5 | 314 | 0.06 | 26 | 1 | 36 |
-| of which | 3 | 55.4 | 408 | 0.14 | 26 | 3 | 36 |
-| far as | 0 | 0 | 240 | 0.04 | 26 | 0 | 36 |
+| power of | 0 | 0 | 257 | 0.04 | 27 | 0 | 34 |
+| and in | 8 | 149 | 618 | 0.24 | 27 | 7 | 36 |
+| which it | 1 | 18.6 | 314 | 0.06 | 26 | 1 | 36 |
+| of which | 3 | 55.9 | 408 | 0.14 | 26 | 3 | 36 |
+| far as | 0 | 0 | 240 | 0.04 | 25 | 0 | 36 |
 | so far | 0 | 0 | 237 | 0.04 | 25 | 0 | 36 |
 | in some | 0 | 0 | 235 | 0.04 | 25 | 0 | 36 |
-| should be | 5 | 92.3 | 479 | 0.19 | 25 | 4 | 36 |
-| which was | 0 | 0 | 230 | 0.04 | 25 | 0 | 35 |
-| was a | 5 | 92.3 | 474 | 0.19 | 25 | 4 | 34 |
-| which are | 1 | 18.5 | 299 | 0.06 | 25 | 1 | 34 |
+| should be | 5 | 93.2 | 479 | 0.19 | 25 | 4 | 36 |
+| which was | 0 | 0 | 230 | 0.04 | 24 | 0 | 35 |
+| was a | 5 | 93.2 | 474 | 0.20 | 24 | 4 | 34 |
+| which are | 1 | 18.6 | 299 | 0.06 | 24 | 1 | 34 |
 | might be | 0 | 0 | 224 | 0.04 | 24 | 0 | 35 |
+| in this | 7 | 130 | 540 | 0.24 | 24 | 5 | 36 |
 | but in | 0 | 0 | 223 | 0.04 | 24 | 0 | 36 |
 | as in | 0 | 0 | 222 | 0.04 | 24 | 0 | 36 |
-| and of | 3 | 55.4 | 383 | 0.14 | 24 | 3 | 36 |
 
 ### 4g. Three-word phrases the book uses more
 
 | Item | Book uses | Book per million | Corpus per million | Ratio | G2 | Chapters | Works |
 |---|---|---|---|---|---|---|---|
-| keeping and building | 22 | 406 | 0 | 2321 | 175 | 9 | 0 |
-| scoped procedural symmetry | 15 | 277 | 0 | 1582 | 120 | 6 | 0 |
-| human life continuing | 13 | 240 | 0 | 1371 | 104 | 7 | 0 |
-| keep and build | 12 | 222 | 0 | 1266 | 96 | 5 | 0 |
-| corresponds to reality | 11 | 203 | 0 | 1160 | 88 | 6 | 0 |
-| kept and built | 11 | 203 | 0 | 1160 | 88 | 6 | 0 |
-| enemies are real | 9 | 166 | 0 | 949 | 72 | 5 | 0 |
-| goodness must include | 9 | 166 | 0 | 949 | 72 | 6 | 0 |
-| principles of reality | 9 | 166 | 0 | 949 | 72 | 6 | 0 |
-| align with truth | 8 | 148 | 0 | 844 | 64 | 5 | 0 |
-| life kept and | 8 | 148 | 0 | 844 | 64 | 5 | 0 |
-| reality is real | 8 | 148 | 0 | 844 | 64 | 6 | 0 |
-| the scope of | 15 | 277 | 13.0 | 21 | 58 | 5 | 11 |
-| human beings are | 9 | 166 | 1.4 | 119 | 56 | 6 | 2 |
-| is what corresponds | 7 | 129 | 0 | 738 | 56 | 5 | 0 |
-| truth is what | 7 | 129 | 0 | 738 | 56 | 5 | 0 |
-| what corresponds to | 7 | 129 | 0 | 738 | 56 | 5 | 0 |
-| a single generation | 6 | 111 | 0 | 633 | 48 | 6 | 0 |
-| and applied alike | 6 | 111 | 0 | 633 | 48 | 5 | 0 |
-| five common principles | 6 | 111 | 0 | 633 | 48 | 5 | 0 |
-| include human life | 6 | 111 | 0 | 633 | 48 | 5 | 0 |
-| the claim that | 8 | 148 | 1.8 | 84 | 47 | 5 | 5 |
-| every human being | 8 | 148 | 2.1 | 70 | 45 | 6 | 5 |
-| to keep and | 7 | 129 | 1.1 | 123 | 44 | 6 | 2 |
-| must include human | 5 | 92.3 | 0 | 527 | 40 | 5 | 0 |
-| virtues of civilization | 5 | 92.3 | 0 | 527 | 40 | 5 | 0 |
-| within a single | 5 | 92.3 | 0.350 | 264 | 34 | 5 | 1 |
-| the people who | 10 | 185 | 15.8 | 12 | 29 | 6 | 16 |
-| is not a | 20 | 369 | 84.4 | 4.38 | 27 | 9 | 33 |
-| in the world | 19 | 351 | 78.8 | 4.45 | 26 | 7 | 33 |
-| does not make | 5 | 92.3 | 5.3 | 18 | 18 | 5 | 6 |
-| into the world | 7 | 129 | 14.0 | 9.23 | 18 | 5 | 14 |
-| a person who | 6 | 111 | 10.2 | 11 | 17 | 5 | 12 |
-| men and women | 9 | 166 | 29.4 | 5.65 | 16 | 6 | 16 |
-| in a single | 5 | 92.3 | 12.6 | 7.33 | 11 | 5 | 17 |
-| the name of | 10 | 185 | 61.3 | 3.01 | 8 | 5 | 31 |
-| a man who | 9 | 166 | 58.5 | 2.84 | 7 | 7 | 30 |
-| they are not | 6 | 111 | 49.7 | 2.23 | 3 | 6 | 32 |
+| keeping and building | 22 | 410 | 0 | 2342 | 176 | 9 | 0 |
+| scoped procedural symmetry | 15 | 280 | 0 | 1597 | 120 | 6 | 0 |
+| human life continuing | 13 | 242 | 0 | 1384 | 104 | 7 | 0 |
+| keep and build | 12 | 224 | 0 | 1278 | 96 | 5 | 0 |
+| corresponds to reality | 11 | 205 | 0 | 1171 | 88 | 6 | 0 |
+| kept and built | 10 | 186 | 0 | 1065 | 80 | 6 | 0 |
+| enemies are real | 9 | 168 | 0 | 958 | 72 | 5 | 0 |
+| principles of reality | 9 | 168 | 0 | 958 | 72 | 6 | 0 |
+| align with truth | 8 | 149 | 0 | 852 | 64 | 5 | 0 |
+| goodness must include | 8 | 149 | 0 | 852 | 64 | 5 | 0 |
+| reality is real | 8 | 149 | 0 | 852 | 64 | 6 | 0 |
+| the scope of | 15 | 280 | 13.0 | 22 | 59 | 5 | 11 |
+| human beings are | 9 | 168 | 1.4 | 120 | 56 | 6 | 2 |
+| common principles of | 7 | 130 | 0 | 745 | 56 | 5 | 0 |
+| five common principles | 7 | 130 | 0 | 745 | 56 | 6 | 0 |
+| is what corresponds | 7 | 130 | 0 | 745 | 56 | 5 | 0 |
+| truth is what | 7 | 130 | 0 | 745 | 56 | 5 | 0 |
+| what corresponds to | 7 | 130 | 0 | 745 | 56 | 5 | 0 |
+| a single generation | 6 | 112 | 0 | 639 | 48 | 6 | 0 |
+| and applied alike | 6 | 112 | 0 | 639 | 48 | 5 | 0 |
+| include human life | 6 | 112 | 0 | 639 | 48 | 5 | 0 |
+| the five common | 6 | 112 | 0 | 639 | 48 | 5 | 0 |
+| the claim that | 8 | 149 | 1.8 | 85 | 47 | 5 | 5 |
+| every human being | 8 | 149 | 2.1 | 71 | 45 | 6 | 5 |
+| to keep and | 7 | 130 | 1.1 | 124 | 44 | 6 | 2 |
+| must include human | 5 | 93.2 | 0 | 532 | 40 | 5 | 0 |
+| virtues of civilization | 5 | 93.2 | 0 | 532 | 40 | 5 | 0 |
+| within a single | 5 | 93.2 | 0.350 | 266 | 35 | 5 | 1 |
+| the people who | 10 | 186 | 15.8 | 12 | 29 | 6 | 16 |
+| is not a | 20 | 373 | 84.4 | 4.42 | 28 | 9 | 33 |
+| in the world | 19 | 354 | 78.8 | 4.50 | 27 | 7 | 33 |
+| does not make | 5 | 93.2 | 5.3 | 18 | 18 | 5 | 6 |
+| into the world | 7 | 130 | 14.0 | 9.32 | 18 | 5 | 14 |
+| a person who | 6 | 112 | 10.2 | 11 | 17 | 5 | 12 |
+| men and women | 9 | 168 | 29.4 | 5.70 | 16 | 6 | 16 |
+| in a single | 5 | 93.2 | 12.6 | 7.39 | 11 | 5 | 17 |
+| the name of | 10 | 186 | 61.3 | 3.04 | 9 | 5 | 31 |
+| a man who | 9 | 168 | 58.5 | 2.87 | 7 | 7 | 30 |
+| they are not | 6 | 112 | 49.7 | 2.25 | 3 | 6 | 32 |
 
 ### 4h. Three-word phrases the book uses less
 
 | Item | Book uses | Book per million | Corpus per million | Ratio | G2 | Chapters | Works |
 |---|---|---|---|---|---|---|---|
-| part of the | 2 | 36.9 | 307 | 0.12 | 21 | 2 | 36 |
+| part of the | 2 | 37.3 | 307 | 0.12 | 20 | 2 | 36 |
 | it would be | 0 | 0 | 169 | 0.05 | 18 | 0 | 35 |
-| as well as | 2 | 36.9 | 278 | 0.13 | 18 | 1 | 36 |
+| as well as | 2 | 37.3 | 278 | 0.13 | 18 | 1 | 36 |
 | so far as | 0 | 0 | 160 | 0.06 | 17 | 0 | 36 |
 | some of the | 0 | 0 | 156 | 0.06 | 17 | 0 | 36 |
 | is to be | 0 | 0 | 153 | 0.06 | 16 | 0 | 34 |
-| that of the | 0 | 0 | 145 | 0.06 | 16 | 0 | 36 |
+| that of the | 0 | 0 | 145 | 0.06 | 15 | 0 | 36 |
 | the other hand | 0 | 0 | 141 | 0.07 | 15 | 0 | 32 |
-| as to the | 0 | 0 | 136 | 0.07 | 15 | 0 | 35 |
-| would have been | 0 | 0 | 136 | 0.07 | 15 | 0 | 35 |
-| the number of | 0 | 0 | 136 | 0.07 | 15 | 0 | 34 |
+| as to the | 0 | 0 | 136 | 0.07 | 14 | 0 | 35 |
+| would have been | 0 | 0 | 136 | 0.07 | 14 | 0 | 35 |
+| the number of | 0 | 0 | 136 | 0.07 | 14 | 0 | 34 |
 | it will be | 0 | 0 | 133 | 0.07 | 14 | 0 | 36 |
 | the power of | 0 | 0 | 132 | 0.07 | 14 | 0 | 30 |
-| it has been | 0 | 0 | 130 | 0.07 | 14 | 0 | 35 |
 | in the case | 0 | 0 | 126 | 0.07 | 13 | 0 | 34 |
 | the use of | 0 | 0 | 125 | 0.07 | 13 | 0 | 33 |
 | to have been | 0 | 0 | 122 | 0.08 | 13 | 0 | 31 |
 | ought to be | 0 | 0 | 114 | 0.08 | 12 | 0 | 31 |
-| but it is | 1 | 18.5 | 170 | 0.11 | 12 | 1 | 35 |
+| but it is | 1 | 18.6 | 170 | 0.11 | 12 | 1 | 35 |
 | more or less | 0 | 0 | 103 | 0.09 | 11 | 0 | 33 |
-| that it is | 2 | 36.9 | 202 | 0.18 | 11 | 2 | 35 |
-| out of the | 1 | 18.5 | 158 | 0.12 | 11 | 1 | 36 |
+| that it is | 2 | 37.3 | 202 | 0.18 | 11 | 2 | 35 |
+| out of the | 1 | 18.6 | 158 | 0.12 | 11 | 1 | 36 |
 | that there is | 0 | 0 | 99.4 | 0.09 | 11 | 0 | 31 |
-| on the other | 2 | 36.9 | 198 | 0.19 | 11 | 2 | 36 |
-| the course of | 0 | 0 | 98.0 | 0.09 | 11 | 0 | 35 |
+| on the other | 2 | 37.3 | 198 | 0.19 | 10 | 2 | 36 |
+| the course of | 0 | 0 | 98.0 | 0.10 | 10 | 0 | 35 |
 | of the great | 0 | 0 | 95.9 | 0.10 | 10 | 0 | 35 |
 | the part of | 0 | 0 | 95.9 | 0.10 | 10 | 0 | 33 |
 | as in the | 0 | 0 | 87.5 | 0.11 | 9 | 0 | 33 |
@@ -840,14 +838,15 @@ Keyness compares each word or phrase's rate in the book with its rate in the ref
 | to say that | 0 | 0 | 86.1 | 0.11 | 9 | 0 | 34 |
 | a matter of | 0 | 0 | 85.4 | 0.11 | 9 | 0 | 33 |
 | of the war | 0 | 0 | 85.4 | 0.11 | 9 | 0 | 17 |
-| the fact that | 2 | 36.9 | 179 | 0.21 | 9 | 2 | 35 |
 | by means of | 0 | 0 | 83.0 | 0.11 | 9 | 0 | 27 |
 | it must be | 0 | 0 | 82.6 | 0.11 | 9 | 0 | 33 |
+| the fact that | 2 | 37.3 | 179 | 0.21 | 9 | 2 | 35 |
 | it was not | 0 | 0 | 81.9 | 0.11 | 9 | 0 | 32 |
 | it is to | 0 | 0 | 81.2 | 0.11 | 9 | 0 | 36 |
 | of the state | 0 | 0 | 80.2 | 0.12 | 9 | 0 | 25 |
-| as far as | 0 | 0 | 79.5 | 0.12 | 9 | 0 | 33 |
-| on the part | 0 | 0 | 79.5 | 0.12 | 9 | 0 | 33 |
+| as far as | 0 | 0 | 79.5 | 0.12 | 8 | 0 | 33 |
+| on the part | 0 | 0 | 79.5 | 0.12 | 8 | 0 | 33 |
+| of the community | 0 | 0 | 78.4 | 0.12 | 8 | 0 | 22 |
 
 ## 5. Distance in common-word habits (Burrows's Delta)
 
@@ -879,7 +878,7 @@ By chapter (short chapters vary more; section 7 measures sections against stretc
 | ch6 | 3933 | 1.39 | 0.85 |
 | ch7 | 4015 | 1.29 | 0.79 |
 | ch8 | 4560 | 1.30 | 0.70 |
-| ch9 | 8081 | 1.38 | 0.76 |
+| ch9 | 7583 | 1.37 | 0.76 |
 | ch10 | 3269 | 1.27 | 0.81 |
 | ch11 | 4244 | 1.34 | 0.78 |
 | ch12 | 5237 | 1.15 | 0.76 |
@@ -890,36 +889,36 @@ The words that move the book furthest from the mean (z is the distance in standa
 
 | Word | z | Book per million | Corpus mean per million |
 |---|---|---|---|
-| every | +4.9 | 3546 | 1005 |
-| does | +3.5 | 2567 | 763 |
-| a | +3.3 | 32505 | 20937 |
-| because | +3.2 | 2807 | 819 |
-| but | -3.1 | 702 | 5636 |
-| of | -3.0 | 22458 | 49126 |
-| own | +3.0 | 2752 | 1040 |
-| an | +2.6 | 6076 | 3744 |
-| to | -2.5 | 18746 | 28539 |
-| more | -2.4 | 942 | 2689 |
-| far | -2.4 | 148 | 753 |
-| some | -2.3 | 222 | 1847 |
-| much | -2.2 | 73.9 | 1252 |
-| as | -2.2 | 4654 | 8918 |
-| and | +2.2 | 41370 | 30221 |
-| so | -2.2 | 1256 | 2983 |
-| all | -2.1 | 1385 | 3835 |
-| great | -2.1 | 148 | 1762 |
-| other | -2.1 | 462 | 2322 |
-| which | -2.1 | 1588 | 8244 |
-| whole | -2.1 | 73.9 | 682 |
-| been | -2.1 | 388 | 2936 |
-| with | -2.0 | 3638 | 6138 |
-| world | +2.0 | 1810 | 647 |
-| there | -2.0 | 702 | 2807 |
-| in | -1.9 | 16567 | 21885 |
-| when | +1.9 | 3749 | 2372 |
-| these | -1.9 | 499 | 2116 |
-| many | -1.8 | 166 | 1144 |
-| have | -1.8 | 1570 | 5194 |
+| every | +5.0 | 3579 | 1005 |
+| does | +3.5 | 2554 | 763 |
+| a | +3.3 | 32602 | 20937 |
+| because | +3.2 | 2815 | 819 |
+| but | -3.1 | 708 | 5636 |
+| of | -3.0 | 22424 | 49126 |
+| own | +3.0 | 2721 | 1040 |
+| an | +2.5 | 6039 | 3744 |
+| to | -2.5 | 18752 | 28539 |
+| more | -2.4 | 951 | 2689 |
+| far | -2.4 | 149 | 753 |
+| some | -2.3 | 224 | 1847 |
+| much | -2.2 | 74.6 | 1252 |
+| as | -2.2 | 4641 | 8918 |
+| and | +2.2 | 41531 | 30221 |
+| great | -2.1 | 149 | 1762 |
+| all | -2.1 | 1398 | 3835 |
+| other | -2.1 | 466 | 2322 |
+| which | -2.1 | 1584 | 8244 |
+| so | -2.1 | 1305 | 2983 |
+| whole | -2.1 | 74.6 | 682 |
+| been | -2.1 | 391 | 2936 |
+| world | +2.0 | 1827 | 647 |
+| there | -2.0 | 652 | 2807 |
+| with | -2.0 | 3672 | 6138 |
+| in | -1.9 | 16627 | 21885 |
+| when | +1.9 | 3765 | 2372 |
+| these | -1.9 | 503 | 2116 |
+| many | -1.8 | 168 | 1144 |
+| years | +1.8 | 1659 | 747 |
 
 ## 6. Sentences
 
@@ -927,10 +926,10 @@ Sentence length is counted in words. A segment is a stretch of words between pun
 
 | Measure | Book | Reference corpus |
 |---|---|---|
-| Sentences | 2338 | 99271 |
-| Mean length | 23.2 | 28.8 (works range 19.0 to 40.1) |
+| Sentences | 2329 | 99271 |
+| Mean length | 23.0 | 28.8 (works range 19.0 to 40.1) |
 | Median length | 21 | 25 |
-| Over 40 words | 11.3% | 20.4% |
+| Over 40 words | 11.1% | 20.4% |
 | Under 10 words | 16.9% | 9.2% |
 | Mean segment | 6.5 | 8.1 |
 
@@ -946,7 +945,7 @@ By chapter:
 | ch6 | 176 | 22.3 | 20 | 6.8% | 11.9% |
 | ch7 | 164 | 24.5 | 23 | 12.2% | 17.1% |
 | ch8 | 198 | 23.0 | 21 | 7.6% | 15.7% |
-| ch9 | 349 | 23.2 | 21 | 12.0% | 17.8% |
+| ch9 | 340 | 22.3 | 20 | 10.3% | 17.9% |
 | ch10 | 140 | 23.4 | 19 | 15.0% | 23.6% |
 | ch11 | 194 | 21.9 | 21 | 9.8% | 19.6% |
 | ch12 | 197 | 26.6 | 22 | 14.7% | 11.2% |
@@ -957,19 +956,19 @@ The first word of the sentence, the book's 25 most common:
 
 | First word | Book sentences | Book share | Corpus share |
 |---|---|---|---|
-| the | 307 | 13.1% | 17.2% |
-| a | 167 | 7.1% | 2.1% |
-| in | 120 | 5.1% | 4.7% |
-| when | 75 | 3.2% | 1.3% |
-| it | 61 | 2.6% | 6.9% |
+| the | 308 | 13.2% | 17.2% |
+| a | 169 | 7.3% | 2.1% |
+| in | 121 | 5.2% | 4.7% |
+| when | 72 | 3.1% | 1.3% |
+| it | 62 | 2.7% | 6.9% |
 | if | 57 | 2.4% | 2.2% |
 | what | 45 | 1.9% | 0.6% |
-| they | 44 | 1.9% | 2.1% |
 | that | 43 | 1.8% | 0.8% |
-| every | 31 | 1.3% | 0.3% |
+| they | 43 | 1.8% | 2.1% |
+| every | 30 | 1.3% | 0.3% |
 | because | 27 | 1.2% | 0.1% |
+| one | 23 | 1.0% | 0.6% |
 | we | 23 | 1.0% | 2.2% |
-| one | 22 | 0.9% | 0.6% |
 | under | 22 | 0.9% | 0.2% |
 | you | 22 | 0.9% | 0.4% |
 | does | 20 | 0.9% | 0.0% |
@@ -977,11 +976,11 @@ The first word of the sentence, the book's 25 most common:
 | two | 20 | 0.9% | 0.1% |
 | at | 19 | 0.8% | 1.1% |
 | he | 19 | 0.8% | 3.0% |
+| no | 19 | 0.8% | 0.6% |
 | suppose | 19 | 0.8% | 0.1% |
+| an | 18 | 0.8% | 0.3% |
 | within | 18 | 0.8% | 0.1% |
-| an | 17 | 0.7% | 0.3% |
 | instead | 17 | 0.7% | 0.1% |
-| no | 17 | 0.7% | 0.6% |
 
 ## 7. By section
 
@@ -1088,10 +1087,10 @@ Across the 160 sections, the median section is farther from the nearest period w
 | 9:241 Refuting the Two Counterfeits of Symmetry | 29 | 0.79 | 49% | 10% | 0% | 0 |
 | 9:245 Counterfeit 1: Outcome Symmetry ("Equity") and the Equalizer... | 422 | 0.67 | 16% | 7% | 89% | 0 |
 | 9:255 Counterfeit 2: Value Symmetry, Justice as a Debt Between Sid... | 878 | 0.78 | 74% | 3% | 56% | 0 |
-| 9:271 4. Human Rights Under the Five Principles: Scoped Constituti... | 35 | 0.75 | 26% | 6% | 0% | 2 |
-| 9:277 1. What Classical Constitutional Rights Actually Are: Scoped... | 256 | 0.70 | 16% | 9% | 81% | 0 |
-| 9:288 2. The Five Structural Flaws of Modern "Human Rights" Ideolo... | 646 | 0.75 | 54% | 9% | 94% | 5 |
-| 9:328 5. International Law: Why Scope Runs Out at the Border and M... | 951 | 0.81 | 90% | 13% | 86% | 2 |
+| 9:271 4. Human Rights Under the Five Principles: Scoped Constituti... | 60 | 0.81 | 61% | 8% | 0% | 0 |
+| 9:275 1. What Classical Constitutional Rights Actually Are: Scoped... | 194 | 0.72 | 15% | 4% | 77% | 0 |
+| 9:283 2. The Four Structural Flaws of Modern "Human Rights" Ideolo... | 396 | 0.84 | 94% | 10% | 91% | 4 |
+| 9:307 5. International Law: Why Scope Runs Out at the Border and M... | 740 | 0.76 | 65% | 16% | 87% | 2 |
 | 10:1 Chapter 10: Children, Inherited Debt, and Replacement | 474 | 0.86 | 99% | 4% | 64% | 0 |
 | 10:30 1. Virtue 6: Have Children | 154 | 0.85 | 93% | 23% | 82% | 2 |
 | 10:38 Aiming at Full Life, Not Grim Demographic Duty | 271 | 0.82 | 85% | 1% | 0% | 0 |
