@@ -253,7 +253,7 @@ The "In Practice" heading and its lead sentence went, because *Challenger* now o
   - **Haywood.** "Warlordism" is not his program. The word appears only in a forecast of collapse, which he later renamed an "armed patronage network." No "fraternal military caste" was found in his writing. "Explicitly scorning the universal rule of law" is contradicted: he praises the rule of law often. The chapter now quotes the manifesto ("will not be democratic," "a limited dictatorship (and almost certainly will be to begin)," "unlimited means") and the Caesar essays (2021-09-10, 2021-10-12). It judges the "proscription and extra-legal action" he expects under Caesar by Principle 5. The checkpoint illustration of warlord rule went with the charge.
   - The lead-in at 12:173 now reads: "… set aside procedural symmetry or the checks that bind rulers, in favor of rule by one man or by one confession." It previously said "unchecked."
 
-**Left for the author (not changed):**
+**Left for the author (not changed at the time; both resolved on 2026-11-18, under "Chapter 12" in item 8 below):**
 
 - 12:169 says the two clusters attack "universal truth, the checks that limited rulers need, keeping and building, and scoped procedural symmetry." For the three writers of 3A, nothing found supports the charge of attacking "keeping and building." The sentence also covers Dugin.
 - 12:29 keeps "and that is no accident" from "It is no accident that …". It asserts that the Scottish curriculum caused, or coincided with, the founding and the Industrial Revolution, and it gives no source.
@@ -295,16 +295,28 @@ The "In Practice" heading and its lead sentence went, because *Challenger* now o
   - On `linear lines`, five new sentences were reordered: two late verbs, a long opening phrase, clauses nested five deep, and a bare "this."
   - World War II's "seventy million" became "about seventy million," and the sentence now says the war began eleven years later.
   - Notes 17 and 18 were regenerated. Section 5 stays mostly list (86 to 87 percent; it is still a numbered list), and its distance from the period writers improves (farther than 90 percent of reference stretches before, 65 percent after). The four flaws (9:283) move the other way, from 54 to 94 percent. That is a signal to read, not a rule.
-- **Chapter 12:** the author asked for a recommendation on the two open points above before any edit. The recommendation is to split 12:169's charge by group and to remove 12:29's second sentence. Not applied.
+- **Chapter 12:** the author asked for a recommendation on the two open points above before any edit. The recommendation is to split 12:169's charge by group and to remove 12:29's second sentence. **Accepted and applied 2026-11-18:**
+  - 12:169 now reads: "In recent years, two clusters of "anti-liberal" thinkers on the political right have gained followings by attacking progressive decay. Both would set aside procedural symmetry or the checks that bind rulers. Alexander Dugin, the theorist of the second cluster, attacks universal truth and keeping and building as well." The charges of attacking universal truth and keeping and building now rest on the Dugin section alone, where his own words are quoted.
+  - 12:173, the lead-in to 3A, became "Three contemporary Western writers urge conservatives toward rule by one man or by one confession:" so the clause about procedural symmetry and the checks on rulers is not repeated four lines after 12:169.
+  - 12:29 lost its second sentence ("It held that place in the decades when … and that is no accident"), which made an unsourced causal claim and also dated the start of the Industrial Revolution to the American founding.
+  - Checks: Parts A, C, and D show no change, and Part B shows no new repeated phrase ("scoped procedural symmetry" falls by one). On `linear lines` the new sentences score 0. The unchanged opening of 12:169 scores 2.0 (twelve words before the verb), below the 2.5 at which note 18 lists a sentence. In note 17, section A (12:23) moves nearer the period writers (farther than 76 percent of reference stretches, from 93), and 3A (12:171) moves from 57 to 53 percent.
 
 **Item 9.**
 
 - *Eight billion*: applied as suggested at 08:9, 08:62, and 09:289 (formerly 09:288; twice). 04:7, 08:9's first use, and 08:101 keep the number.
 - *Aircraft*: left as they are.
-- *Grain stores*: the sick club is not modern usage. The answer to the author's question is below, as a proposal, and it is not applied.
+- *Grain stores*: the sick club is not modern usage. The answer to the author's question is below, as a proposal, and it is not applied. **Decided 2026-11-18:** the author kept the sick-club draft (above, under "Grain stores") and asked that it be called an insurance group, because "sick club" reads as too period. Applied at 11:38 to 42, 11:57, 11:59, and criterion 2 (11:62). The proposal below is superseded. Departures from the draft:
+  - "The Workmen's Sick Club" became "The Tradesmen's Insurance Group," and "sick club" became "insurance group" throughout. The lead-in now names it: "A tradesmen's insurance group serves the same purpose …"
+  - "A few pence a week" became "a few dollars a week," because the chapter prices in dollars (11:51).
+  - "Falls from a scaffold" became "breaks an arm," because 11:36 already has the carpenter's fall from a scaffold.
+  - "A steward visits each sick member" became "Its stewards visit each member who claims," which agrees with "the stewards" in the next paragraph.
+  - "When a mason breaks his back in a fall the next winter, the club has closed" became "The next winter a mason falls from a ladder and breaks his leg. By then the group has closed …" A broken back can end a working life, and the reserve pays only "until he can work again." Two sentences also keep the verb early (Rule 10).
+  - 11:57 says the group "should be dissolved," the verb for a society, rather than "closed." 11:59 reads "Dissolving the insurance group leaves the injured mason's family with nothing." Criterion 2 reads "The insurance group pays a man until he can work again, not for good."
+  - Grain stores fall back to three: 09:98, 10:120, and 11:102.
+  - Checks: Parts A, C, and D show no change; Part B lost one opener ("A man who," 6 uses). On `linear lines` every new sentence scores 0, except a "When" clause (1.5) that states the condition before its effect, as part 5 of Rule 10 asks. The section (11:26) stays as near the period writers as before (farther than 71 percent of reference stretches of its length; 72 before).
 - *Bridges*: parked for future investigation and rework (46 uses; 22 in chapters 2 and 3; chapter 9's flaw 3 is the other repeat).
 
-### Proposal, item 9: the corrupted reserve without a new prop (not applied)
+### Proposal, item 9: the corrupted reserve without a new prop (not applied; superseded 2026-11-18 by the insurance group)
 
 The section does not need a separate parable. The list just above already holds the modern form of the sick club: "a temporary disability reserve keeps his family housed for the twelve weeks required for his leg to heal" (11:36). Its corruption can be told on that same example, with no new object for the reader to meet. Grain stores then fall back to three, one each in chapters 9, 10, and 11. Replace 11:38 to 42 (the lead-in sentence and the Village Relief Granary) with:
 

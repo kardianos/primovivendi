@@ -1692,11 +1692,11 @@ Three examples illustrate **sound civilizational reserves**:
 2. **The Brother's Seed Loan and the Neighborly Barn-Raising:** When a lightning strike burns down a hardworking farmer's barn in July, his neighbors and brothers spend Saturday raising new rafters and lending him seed grain so his family is not ruined by a single bolt of lightning, knowing he works alongside them and will do the same when a storm damages their roofs.
 3. **The Trauma Emergency Room and Short-Term Disability Reserve:** When a carpenter falls from a scaffold and fractures his femur, a trauma surgeon sets the bone with a titanium rod, and a temporary disability reserve keeps his family housed for the twelve weeks required for his leg to heal so he can return to his trade.
 
-In each case the reserve holds a family through a sudden shock until the person struck by it can return to his work. A village relief granary serves the same purpose, and its story shows how a protective reserve is **corrupted**:
+In each case the reserve holds a family through a sudden shock until the person struck by it can return to his work. A tradesmen's insurance group serves the same purpose, and its story shows how a protective reserve is **corrupted**:
 
-> **The Village Relief Granary:** A hill village keeps a granary for the hungry months. Each household pays a share of its harvest into it in the autumn. When hail flattens a man's barley, or a fever keeps him from his fields through planting, the granary feeds his family until his next harvest comes in. A man who draws grain from it in March plants his own field in April.
+> **The Tradesmen's Insurance Group:** The carpenters and masons of a market town each pay a few dollars a week into an insurance group. When a man breaks an arm or lies in bed with a fever, the group pays him a weekly sum until he can work again. Its stewards visit each member who claims, and a man who has recovered goes back to his trade.
 >
-> In time, the stewards stop asking who draws grain and why. A few able-bodied men find that the granary feeds them whether or not they plant, and they leave their fields unsown. Their neighbors see it and do the same. The autumn shares shrink as the draws grow. When a late frost kills the seedlings across the valley, the granary is already empty, and the families it was built for go hungry.
+> In time, the stewards stop visiting. A few members find that the group pays them whether or not they can work, and they stay home. Their fellows see it and do the same. The weekly dues no longer cover the claims, and the group raises the dues until the men who still work cannot pay them. The next winter a mason falls from a ladder and breaks his leg. By then the group has closed, and his family has nothing.
 
 That is what occurs when a society transforms **temporary reserves against catastrophe** into an unconditional entitlement to a painless, risk-free, effort-free existence.
 
@@ -1711,12 +1711,12 @@ The corrupted reserve degrades both **material welfare** and **human agency (wil
 
 #### Rejecting the Callous Reactionary Error: Four Design Criteria for Protective Reserves
 
-When citizens finally see that a welfare program or regulatory bureaucracy has been corrupted into permanent dependency, a callous reactionary sometimes answers that all assistance makes people idle, and that the granary should be torn down and anyone who falls left to perish.
+When citizens finally see that a welfare program or regulatory bureaucracy has been corrupted into permanent dependency, a callous reactionary sometimes answers that all assistance makes people idle, and that the insurance group should be dissolved and anyone who falls left to perish.
 
-**That reactionary response is as erroneous as the entitlement state.** Tearing down the granary starves the family whose barley the hail flattened. The engineering solution is not to abolish protective reserves, but to design and maintain them according to **Four Strict Engineering Criteria**:
+**That reactionary response is as erroneous as the entitlement state.** Dissolving the insurance group leaves the injured mason's family with nothing. The engineering solution is not to abolish protective reserves, but to design and maintain them according to **Four Strict Engineering Criteria**:
 
 1. **Does It Preserve and Require Agency?** Any assistance given to an able-bodied adult must require active work, lawful conduct, and progress toward self-sufficiency, never subsidizing idleness or rewarding the refusal to work.
-2. **Is It Time-Bounded and Rotated Like a Pantry?** Emergency support has a defined end. The granary feeds a family until its next harvest, not for good.
+2. **Is It Time-Bounded and Rotated Like a Pantry?** Emergency support has a defined end. The insurance group pays a man until he can work again, not for good.
 3. **Is It Scoped to Genuine Shock and Nearest Capable Tier?** Begin with personal reserves, family, and local community before resorting to anonymous public funds. In those tiers, people know the recipient personally and can distinguish immediately between a fractured leg and voluntary indolence.
 4. **Does It Leave Accurate Feedback Intact?** Never insulate careless or destructive behavior from its natural consequences; absorb catastrophic shocks while allowing ordinary mistakes to instruct the agent.
 
@@ -1899,7 +1899,7 @@ As we saw in Chapter 2, the eighteenth-century Scottish Common Sense Realists, l
 
 Reid answered speculative philosophers such as René Descartes, John Locke (in his theory of "ideas" as mental representations), Bishop Berkeley, and **David Hume**. They claimed that humans never perceive the physical world directly and cannot know causation or external reality, and Reid saw clearly that they were undermining the foundation on which all human inquiry depends. Reid showed that every skeptic relies in practice on his senses, memory, and reason the moment he leaves his study to cross the street or take a meal. He also grounded active moral agency (Will) and practical duty in the real constitution of human nature.
 
-Scottish Common Sense Realism became the foundational curriculum of early American colleges, such as Princeton under John Witherspoon, who taught James Madison. It held that place in the decades when the American constitutional republic was founded and the Industrial Revolution began, and that is no accident.
+Scottish Common Sense Realism became the foundational curriculum of early American colleges, such as Princeton under John Witherspoon, who taught James Madison.
 
 #### B. Classical Constitutionalism (John Locke, James Madison, James Wilson)
 
@@ -2039,11 +2039,11 @@ When an intelligent young man or woman realizes that postmodern constructivism, 
 
 **The enemy of a bad idea is not automatically a good idea.** If a house has termites in the floorboards, setting the house on fire will certainly destroy the termites, yet it will also destroy the house and its inhabitants.
 
-In recent years, two clusters of "anti-liberal" thinkers on the political right have gained followings by attacking progressive decay while also attacking universal truth, the checks that limited rulers need, keeping and building, and scoped procedural symmetry:
+In recent years, two clusters of "anti-liberal" thinkers on the political right have gained followings by attacking progressive decay. Both would set aside procedural symmetry or the checks that bind rulers. Alexander Dugin, the theorist of the second cluster, attacks universal truth and keeping and building as well.
 
 #### A. Western Right-Wing Anti-Proceduralists (Wolfe, Yarvin, Haywood)
 
-Three contemporary Western writers urge conservatives to set aside procedural symmetry or the checks that bind rulers, in favor of rule by one man or by one confession:
+Three contemporary Western writers urge conservatives toward rule by one man or by one confession:
 
 1. **Stephen Wolfe** (*The Case for Christian Nationalism*, 2022): Rightly notes that human beings are particular and need cultural continuity (Principle 4). He then proposes a Christian prince, envisioning "a measured and theocratic Caesarism." He writes that the civil magistrate "can punish external religion," naming "heretical teaching, false rites, blasphemy, and Sabbath-breaking," though not belief itself. Non-Christians, he writes, "are entitled to justice, peace, and safety, but they are not entitled to political equality." In a 2023 interview he held it "permissible in principle to execute arch-heretics." A magistrate who holds the sword against heretical teaching must decide which teaching is heretical, and under Principle 2 he decides as a limited and self-interested man. European history from 1524 to 1648 shows where that leads. The Thirty Years' War (1618 to 1648) alone cost the Holy Roman Empire about five million lives, counting deaths from disease, a fifth of its population before the war (Peter H. Wilson, *The Thirty Years War: Europe's Tragedy*, 2009). That history is why American Christians established the constitutional separation of church and state. A magistrate given the sword to enforce theology corrupts the church and persecutes his fellow Christians over which confession is orthodox.
 2. **Curtis Yarvin** (*Patchwork*, 2008, and later essays): Rightly diagnoses how unaccountable administrative bureaucracies and media-academic complexes ("the Cathedral") subvert democratic accountability. His remedy is a realm "governed by its own joint-stock corporation without regard to the residents' opinions." He calls himself "an absolute monarchist," calls the separation of powers a "bogus political panacea," and holds that "no sovereign can be subject to law." In 2024 he wrote that an American executive will not work until the President "considers both the judicial and legislative branches purely ceremonial and advisory." He grants the danger that Principle 2 names: "even the best king can develop a brain tumor, go insane, and order the extermination of the Irish." His answer is that the shareholders may dismiss the chief executive. That check is held by the owners, whose interest is the return on the realm. The residents, who bear the ruler's errors, hold no check at all: "The design is all 'exit,' no 'voice.'" Under Principle 2 the owners are as limited and self-interested as the ruler they appoint.
