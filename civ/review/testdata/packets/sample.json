@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "fixture:offset-household",
+      "source": "fixture",
+      "kind": "call",
+      "path": "civ/review/testdata/passage.md",
+      "byte_offset": 0,
+      "byte_end": 37,
+      "quote": "The household keeps its own children.",
+      "after": " A code",
+      "problem": "The sentence is sound. The alternate only shows a word diff.",
+      "rule": "fixture/offset",
+      "alternates": [
+        {"id": "a", "label": "rears", "text": "The household rears its own children."}
+      ]
+    },
+    {
+      "id": "fixture:moved-household",
+      "source": "fixture",
+      "kind": "call",
+      "path": "civ/review/testdata/passage.md",
+      "byte_offset": 5,
+      "quote": "The household keeps its own children.",
+      "before": "\n\n",
+      "problem": "The recorded offset is wrong. The blank line before the quote selects the later occurrence.",
+      "rule": "fixture/moved",
+      "alternates": [
+        {"id": "a", "label": "later", "text": "The household keeps its own children the second time."}
+      ]
+    },
+    {
+      "id": "fixture:ambiguous-household",
+      "source": "fixture",
+      "kind": "call",
+      "path": "civ/review/testdata/passage.md",
+      "byte_offset": 3,
+      "quote": "The household keeps its own children.",
+      "problem": "The sentence occurs twice and no surrounding bytes were recorded.",
+      "rule": "fixture/ambiguous",
+      "alternates": [
+        {"id": "a", "label": "either", "text": "The household keeps its own children, in both places."}
+      ]
+    },
+    {
+      "id": "fixture:missing",
+      "source": "fixture",
+      "kind": "call",
+      "path": "civ/review/testdata/passage.md",
+      "quote": "This sentence is not in the passage.",
+      "problem": "The quote is not in the file.",
+      "rule": "fixture/missing",
+      "alternates": [
+        {"id": "a", "label": "drop", "text": "The work is keeping what was built."}
+      ]
+    },
+    {
+      "id": "fixture:fire-rewrite",
+      "source": "fixture",
+      "kind": "rewrite",
+      "path": "civ/review/testdata/passage.md",
+      "byte_offset": 99,
+      "byte_end": 153,
+      "quote": "Fire burns cotton because of what fire and cotton are.",
+      "before": "\n\n",
+      "after": " Steel",
+      "problem": "Two drafts of the same sentence.",
+      "rule": "fixture/rewrite",
+      "alternates": [
+        {"id": "a", "label": "plain", "text": "Fire burns cotton because fire and cotton are what they are."},
+        {"id": "b", "label": "shorter", "text": "Cotton burns in fire because of what each is."}
+      ]
+    },
+    {
+      "id": "fixture:emdash",
+      "source": "fixture",
+      "kind": "lint",
+      "path": "civ/review/testdata/passage.md",
+      "byte_offset": 318,
+      "byte_end": 375,
+      "quote": "The work — the real work — is keeping what was built.",
+      "before": "\n\n",
+      "after": "\n",
+      "problem": "An em dash. The editing guide does not use them.",
+      "rule": "em-dash",
+      "alternates": [
+        {"id": "a", "label": "commas", "text": "The work, the real work, is keeping what was built."},
+        {"id": "b", "label": "shorter", "text": "Keeping what was built is the work."}
+      ]
+    }
+  ]
+}

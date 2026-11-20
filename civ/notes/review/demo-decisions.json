@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "items": {
+    "demo:ch01-naked": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-20T19:25:06Z"
+    },
+    "demo:ch01-newborn": {
+      "disposition": "accept",
+      "alternate": "a",
+      "at": "2026-11-20T19:21:14Z"
+    }
+  }
+}

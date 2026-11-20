@@ -120,19 +120,18 @@ The following two lists are the foundational axioms and derived virtues of the w
 
 ## 5. Automated N-Gram & Pattern Verification Method
 
-Before finalizing any document in `civ/`, run the checks below from `/home/d/code/po`. Parts A, C, and D are one command. Part B checks stock phrases. Part F scores sentence shape. A finding is a place to read again.
+Before finalizing any document in `civ/`, run the checks below from `/home/d/code/po`. Build all helper binaries once with `fish civ/tools/build-bin.fish` (writes gitignored binaries to `civ/bin/{lint,linear,ngram,review,readback}`). Parts A, C, and D are one command. Part B checks stock phrases. Part F scores sentence shape. A finding is a place to read again.
 
 ### Part A: Deterministic Rule, Spelling, and Locked-Line Audit
 
-`civ/lint` scans `civ/chapters/*.md` and `civ/ccp_sheet.md`. It applies the pattern list below, flags a double hyphen (a line that is only dashes, or a table rule, is left alone), flags British spellings outside quotation marks, and checks the capitalization and the verbatim wording of the Principles and Virtues in Section 1. American spelling is the standard of the chapters: neighbor, honor, labor, favor, defense, civilization. The British forms it flags are `-our` and its inflections, `-ise` / `-isation` where American uses `-ize` (promise, precise, exercise, and the other shared `-ise` words are kept), `-re` (centre, metre, theatre, and the rest of that short list), programme, judgement, and the verb practise. `Principle N` and `Virtue N` keep those capitals. A numbered list of the five Principles or the seven Virtues, and a block quotation that states one of them (`> **Principle N of Reality:** ...`, `> **Virtue N:** ...`), must match Section 1. A virtue line may end with a period. Pass `-notes` to include `civ/notes/*.md`; the notes quote the forbidden patterns in order to describe them, so they are not the default. Extra arguments are file paths.
+`civ/bin/lint` scans `civ/chapters/*.md` and `civ/ccp_sheet.md`. It applies the pattern list below, flags a double hyphen (a line that is only dashes, or a table rule, is left alone), flags British spellings outside quotation marks, and checks the capitalization and the verbatim wording of the Principles and Virtues in Section 1. American spelling is the standard of the chapters: neighbor, honor, labor, favor, defense, civilization. The British forms it flags are `-our` and its inflections, `-ise` / `-isation` where American uses `-ize` (promise, precise, exercise, and the other shared `-ise` words are kept), `-re` (centre, metre, theatre, and the rest of that short list), programme, judgement, and the verb practise. `Principle N` and `Virtue N` keep those capitals. A numbered list of the five Principles or the seven Virtues, and a block quotation that states one of them (`> **Principle N of Reality:** ...`, `> **Virtue N:** ...`), must match Section 1. A virtue line may end with a period. Pass `-notes` to include `civ/notes/*.md`; the notes quote the forbidden patterns in order to describe them, so they are not the default. Extra arguments are file paths.
 
 The patterns are: an em dash or an exclamation mark; math or symbols (`$...$`, a LaTeX command, a spaced `+ = ≈ × ÷ &`, or `A = B`); "exact same" and "every single"; "zero"; an imperative opener (Look at, Look closely, Look back, Step back, Notice, Watch, Observe, Examine, Consider, Imagine, Picture) at the start of a line or a sentence; "on earth"; "raw", "real-world", "rot", "rotted", "rotting", "rots"; "honest" and words built on it; "load-bearing"; "Why ...? Because"; and a question followed by No, Yes, Never, or Nothing, or "What happened / occurred ...?".
 
 ```bash
-cd civ/lint
-go run .            # this part, plus Parts C and D
-go run . prose      # this part only
-go run . -notes     # also civ/notes/*.md
+civ/bin/lint            # this part, plus Parts C and D
+civ/bin/lint prose      # this part only
+civ/bin/lint -notes     # also civ/notes/*.md
 ```
 
 ### Part B: N-Gram & Sentence-Opener Frequency Scanner
@@ -178,80 +177,75 @@ for op, c in openers.most_common(25):
 The build uses pandoc's default Markdown reader. A list that follows a paragraph line with no blank line between them is printed as run-in text inside that paragraph, in the PDF, HTML, and EPUB alike. The same holds inside a blockquote, where the separating line must be a bare `>`. `civ/lint` finds every such list in `civ/chapters/*.md` and `civ/ccp_sheet.md`. `go run .` runs this with Parts A and D.
 
 ```bash
-cd civ/lint
-go run . structure
+civ/bin/lint structure
 ```
 
 Fix each hit by inserting a blank line (or a bare `>` line inside a blockquote) before the list.
 
 ### Part D: Rendered-Output Check
 
-Render each source with pandoc and look for a list that ended up inside a paragraph. `civ/lint` renders into memory only, so it does not run `build.fish` and does not publish. After a build, the same pattern (`:\s+(1\.|\*) `) can be grepped in `civ/build/*.html`.
+Render each source with pandoc and look for a list that ended up inside a paragraph. `civ/bin/lint` renders into memory only, so it does not run `build.fish` and does not publish. After a build, the same pattern (`:\s+(1\.|\*) `) can be grepped in `civ/build/*.html`.
 
 ```bash
-cd civ/lint
-go run . render
+civ/bin/lint render
 ```
 
 ### Part E: Period Comparison (Google Books and a Reference Corpus)
 
-`civ/ngram` compares the chapters with English prose of 1850 to 1950 and writes `civ/notes/17_ngram_comparison.md`. The report lists words and phrases that were rare or absent in Google Books for those years (a word used once is measured against the words the period writers used once), the keyness of words and phrases against a corpus of 36 public-domain treatises (`civ/ngram/reference.tsv`), Burrows's Delta and cosine Delta, sentence statistics, and a table by section: distance from the nearest period writer, judged against stretches of the reference works of the same length, and the shares of bold type, lists, and "(Principle N)" cross-references. Block quotations are counted with the prose, because the book sets its own examples in them; quotations of other writers are left out. Downloads are kept in `ext-ref/ngram/`, which is not committed.
+`civ/bin/ngram` compares the chapters with English prose of 1850 to 1950 and writes `civ/notes/17_ngram_comparison.md`. The report lists words and phrases that were rare or absent in Google Books for those years (a word used once is measured against the words the period writers used once), the keyness of words and phrases against a corpus of 36 public-domain treatises (`civ/ngram/reference.tsv`), Burrows's Delta and cosine Delta, sentence statistics, and a table by section: distance from the nearest period writer, judged against stretches of the reference works of the same length, and the shares of bold type, lists, and "(Principle N)" cross-references. Block quotations are counted with the prose, because the book sets its own examples in them; quotations of other writers are left out. Downloads are kept in `ext-ref/ngram/`, which is not committed.
 
 ```bash
-cd civ/ngram
-go run . fetch-ref         # once: the reference works
-go run . google-unigrams   # once: Google's unigram counts (about 10 GB streamed, about 20 minutes)
-go run . google-phrases    # after edits: looks up new recurring phrases only; earlier lookups are cached
-go run . report
-go run . lookup "cannot be" honest   # one phrase or word: the cached rate, looked up if new
-go run . lookup -contains bridge     # every cached phrase that holds a word
+civ/bin/ngram fetch-ref         # once: the reference works
+civ/bin/ngram google-unigrams   # once: Google's unigram counts (about 10 GB streamed, about 20 minutes)
+civ/bin/ngram google-phrases    # after edits: looks up new recurring phrases only; earlier lookups are cached
+civ/bin/ngram report
+civ/bin/ngram lookup "cannot be" honest   # one phrase or word: the cached rate, looked up if new
+civ/bin/ngram lookup -contains bridge     # every cached phrase that holds a word
 ```
 
 The results are signals for a reader, not rules. A phrase absent from the period is a reason to read the phrase again, not proof that it is wrong. The book's subject dominates the keyness lists, so the function-word tables and the sentence tables say the most about register.
 
 ### Part F: Rule 10 Aid (Linear Sentences)
 
-`civ/linear` parses the chapters with Stanford CoreNLP (unpacked in `ext-ref/corenlp/`; Java is required) and scores each sentence against the five parts of Rule 10: words before the main verb, long subjects and opening phrases, a second clause after a colon or semicolon, parenthetical asides, nested clauses, pronouns with no noun of their kind nearby, bare "this," new material before old, and a cause stated after its effect. Part 4 also flags two consecutive sentences in one paragraph that each open on, or take as their subject, a real "it" (a dummy "it", as in "it is clear that", is skipped), and an "it" with two or more singular inanimate nouns between it and the noun it points back to. It compares the book with a sample of period prose parsed the same way, and it drafts a rewrite where the move is mechanical: pull back a long opening phrase, pull forward a short cause, split at a colon or semicolon, move out an aside, or name a pronoun. It also measures paragraph texture (paragraphs whose sentences are all of one length, and runs of sentences built on the same frame) and the concreteness of the nouns (Brysbaert concreteness ratings, by section, and runs of sentences with no concrete noun), each set against stretches of the period sample of the same size.
+`civ/bin/linear` parses the chapters with Stanford CoreNLP (unpacked in `ext-ref/corenlp/`; Java is required) and scores each sentence against the five parts of Rule 10: words before the main verb, long subjects and opening phrases, a second clause after a colon or semicolon, parenthetical asides, nested clauses, pronouns with no noun of their kind nearby, bare "this," new material before old, and a cause stated after its effect. Part 4 also flags two consecutive sentences in one paragraph that each open on, or take as their subject, a real "it" (a dummy "it", as in "it is clear that", is skipped), and an "it" with two or more singular inanimate nouns between it and the noun it points back to. It compares the book with a sample of period prose parsed the same way, and it drafts a rewrite where the move is mechanical: pull back a long opening phrase, pull forward a short cause, split at a colon or semicolon, move out an aside, or name a pronoun. It also measures paragraph texture (paragraphs whose sentences are all of one length, and runs of sentences built on the same frame) and the concreteness of the nouns (Brysbaert concreteness ratings, by section, and runs of sentences with no concrete noun), each set against stretches of the period sample of the same size.
 
-Three further counts are printed in the same report and are not added to the Rule 10 score. A close-range echo is a content word used twice inside a 25-word window of one paragraph, or in three consecutive sentences of that paragraph. A repeat that stays inside one sentence is kept at half weight and left off the printed list. An abstract subject is an inanimate or abstract noun (or "it" standing for one) as the subject of a verb of will or thought, such as seek, decide, or pretend; a person, and a concrete noun that is not on the short list of textual nouns (book, chapter, account, creed, and the like), is left alone. A stiff clause is a finite main clause that is passive, an expletive ("there is", "it is ... that"), or a copula whose predicate is a nominalization (`-tion`, `-sion`, `-ment`, `-ity`, `-ness`). Each rate is set beside the period sample. The report writes `civ/notes/18_linearity_review.md`. Do not edit that file by hand; `go run . report` rewrites it.
+Three further counts are printed in the same report and are not added to the Rule 10 score. A close-range echo is a content word used twice inside a 25-word window of one paragraph, or in three consecutive sentences of that paragraph. A repeat that stays inside one sentence is kept at half weight and left off the printed list. An abstract subject is an inanimate or abstract noun (or "it" standing for one) as the subject of a verb of will or thought, such as seek, decide, or pretend; a person, and a concrete noun that is not on the short list of textual nouns (book, chapter, account, creed, and the like), is left alone. A stiff clause is a finite main clause that is passive, an expletive ("there is", "it is ... that"), or a copula whose predicate is a nominalization (`-tion`, `-sion`, `-ment`, `-ity`, `-ness`). Each rate is set beside the period sample. The report writes `civ/notes/18_linearity_review.md`. Do not edit that file by hand; `civ/bin/linear report` rewrites it.
 
 `check` runs the same scoring on one Markdown file and does not add it to the book. The parse is cached under `ext-ref/linear/scratch/` by a hash of the plain text, and the default heap for that one file is 6g.
 
 ```bash
-cd civ/linear
-go run . fetch-concreteness   # once: the concreteness ratings, to ext-ref/concreteness/
-go run . parse    # parses new or changed chapters only (a few minutes for the whole book)
-go run . report
-go run . check -file ../notes/28_intro_draft1_rewrite.md
-go run . check -file ../chapters/01_ch01.md -from 17 -to 19
+civ/bin/linear fetch-concreteness   # once: the concreteness ratings, to ext-ref/concreteness/
+civ/bin/linear parse                # parses new or changed chapters only (a few minutes for the whole book)
+civ/bin/linear report
+civ/bin/linear check -file civ/notes/28_intro_draft1_rewrite.md
+civ/bin/linear check -file civ/chapters/01_ch01.md -from 17 -to 19
 ```
 
 The drafts are offered for the editor to judge. The parser misreads some sentences, and a moved phrase can need a new connective.
 
 ### Part G: Suffix and Rhyme Clutter
 
-`civ/lint` can also listen for a pile of heavy suffixes and for an accidental rhyme. On first use it downloads the CMU pronouncing dictionary to `ext-ref/phonetics/`, which is not committed. A sentence is listed when three or more of its words share one of the unstressed suffixes `-tion` / `-sion`, `-ment`, `-ity`, `-ly`, or `-ness`, and when two content words within ten words of each other, and not the same lemma or a prefixed contrast pair, share the dictionary's stressed-vowel-to-end tail.
+`civ/bin/lint` can also listen for a pile of heavy suffixes and for an accidental rhyme. On first use it downloads the CMU pronouncing dictionary to `ext-ref/phonetics/`, which is not committed. A sentence is listed when three or more of its words share one of the unstressed suffixes `-tion` / `-sion`, `-ment`, `-ity`, `-ly`, or `-ness`, and when two content words within ten words of each other, and not the same lemma or a prefixed contrast pair, share the dictionary's stressed-vowel-to-end tail.
 
 ```bash
-cd civ/lint
-go run . phonetics
-go run . all          # Parts A, C, D, then the phonetic pass
+civ/bin/lint phonetics
+civ/bin/lint all          # Parts A, C, D, then the phonetic pass
 ```
 
 ### Part H: Neutral Read-Back
 
-`civ/tools/readback.fish` speaks a line range with Piper, using the Lessac American voice kept in `ext-ref/tts/`. It strips headings, emphasis, links, and tables the way `civ/linear` prepares a chapter, writes a `.wav` under `ext-ref/tts/out/`, and plays it when `--play` is given (`aplay`, `pw-play`, or `mpv`).
+`civ/bin/readback` (symlink to `civ/tools/readback.fish`) speaks a line range with Piper, using the local `en_US-ryan-high` voice kept in `ext-ref/tts/voices/` by default (override with `-voice NAME`, e.g. `en_US-lessac-medium`). It strips headings, emphasis, links, and tables the way `civ/linear` prepares a chapter, writes a `.wav` under `ext-ref/tts/out/`, and plays it when `--play` is given (`aplay`, `pw-play`, or `mpv`).
 
 ```bash
-fish civ/tools/readback.fish -chapter ch01 -from 17 -to 19
-fish civ/tools/readback.fish -file civ/notes/28_intro_draft1_rewrite.md --play
+civ/bin/readback -chapter ch01 -from 17 -to 19
+civ/bin/readback -file civ/notes/28_intro_draft1_rewrite.md --play
 ```
 
 ---
 
 ## 6. Bottom-Up Editing Workflow
 
-1. Run `cd civ/lint && go run .` (Parts A, C, and D) to obtain exact file paths and line numbers for the pattern, spelling, locked-line, and list checks.
+1. Run `civ/bin/lint` (Parts A, C, and D) to obtain exact file paths and line numbers for the pattern, spelling, locked-line, and list checks.
 2. Read the surrounding context of each flagged line.
 3. **Always edit files from the bottom up** (from the highest line number to the lowest line number within each file) so that earlier line numbers do not shift during multi-region edits.
 4. Re-run Parts A and C to verify that no new violations remain, and run Part D to confirm the rendering. Then execute `fish civ/build.fish` to rebuild all targets in `civ/build/`. The script also runs `../push_release`, so building publishes.

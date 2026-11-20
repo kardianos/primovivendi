@@ -1,8 +1,9 @@
 #!/usr/bin/env fish
-# Speak a Markdown range in the local Piper voice (en_US-lessac-medium).
+# Speak a Markdown range in a local Piper voice (default: en_US-ryan-high).
 #
 #   fish civ/tools/readback.fish -file civ/chapters/01_ch01.md -from 17 -to 19
 #   fish civ/tools/readback.fish -chapter ch01 -from 17 -to 19 --play
+#   fish civ/tools/readback.fish -chapter ch01 -from 17 -to 19 -voice en_US-lessac-medium
 #
 # Headings, tables, rules, and markup are stripped the way civ/linear prepares
 # a chapter, so the voice reads prose. The wav is written under ext-ref/tts/out/.
@@ -11,7 +12,7 @@
 set -l script (realpath (status filename))
 set -l repo (dirname (dirname (dirname $script)))
 set -l py $repo/ext-ref/tts/venv/bin/python
-set -l voice $repo/ext-ref/tts/voices/en_US-lessac-medium.onnx
+set -l voice_name en_US-ryan-high
 set -l outdir $repo/ext-ref/tts/out
 
 set -l from 1
@@ -38,15 +39,28 @@ while set -q argv[1]
             set to $argv[2]
             set -e argv[1]
             set -e argv[1]
+        case -voice --voice
+            set voice_name $argv[2]
+            set -e argv[1]
+            set -e argv[1]
         case --play -play
             set play 1
             set -e argv[1]
         case -h --help
-            echo "usage: fish civ/tools/readback.fish (-file PATH | -chapter ch01) [-from N] [-to M] [--play]"
+            echo "usage: fish civ/tools/readback.fish (-file PATH | -chapter ch01) [-from N] [-to M] [-voice NAME] [--play]"
             exit 0
         case '*'
             echo "readback: unknown argument $argv[1]" >&2
             exit 2
+    end
+end
+
+set -l voice $voice_name
+if not string match -q '*.onnx' -- $voice
+    set voice $repo/ext-ref/tts/voices/$voice.onnx
+else if not string match -q '/*' -- $voice
+    if not test -f "$voice"; and test -f "$repo/$voice"
+        set voice $repo/$voice
     end
 end
 

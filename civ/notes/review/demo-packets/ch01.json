@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "demo:ch01-naked",
+      "source": "demo",
+      "kind": "sentence",
+      "path": "civ/chapters/01_ch01.md",
+      "byte_offset": 106,
+      "byte_end": 136,
+      "quote": "We come into this world naked.",
+      "before": "Existence\n\n",
+      "after": " Beneath",
+      "problem": "Demo only. One word differs so the diff is visible. This is the first sentence of the chapter, so Below and Chapter grow and Above is already at the start.",
+      "rule": "demo/word",
+      "alternates": [
+        {"id": "a", "label": "bare", "text": "We come into this world bare."}
+      ]
+    },
+    {
+      "id": "demo:ch01-newborn",
+      "source": "demo",
+      "kind": "rewrite",
+      "path": "civ/chapters/01_ch01.md",
+      "byte_offset": 985,
+      "byte_end": 1043,
+      "quote": "A newborn on the bare ground is wet, naked, and toothless.",
+      "before": "him.\n\n",
+      "after": " He possesses",
+      "problem": "Demo only. Two mechanical variants, for Compare. A few lines down, so both Above and Below have room.",
+      "rule": "demo/compare",
+      "alternates": [
+        {"id": "a", "label": "indeed", "text": "A newborn on the bare ground is wet, naked, and toothless indeed."},
+        {"id": "b", "label": "drop the", "text": "A newborn on bare ground is wet, naked, and toothless."}
+      ]
+    },
+    {
+      "id": "demo:ch01-house",
+      "source": "demo",
+      "kind": "lint",
+      "path": "civ/chapters/01_ch01.md",
+      "byte_offset": 4443,
+      "byte_end": 4472,
+      "quote": "A stable house is technology.",
+      "before": "* **",
+      "after": "**",
+      "problem": "Demo only. Inserts one word. Mid-chapter, so Above and Below both grow. The quote sits inside the bold marks; the marks stay in the file.",
+      "rule": "demo/insert",
+      "alternates": [
+        {"id": "a", "label": "a technology", "text": "A stable house is a technology."}
+      ]
+    },
+    {
+      "id": "demo:ch01-farm",
+      "source": "demo",
+      "kind": "rewrite",
+      "path": "civ/chapters/01_ch01.md",
+      "byte_offset": 6104,
+      "byte_end": 6244,
+      "quote": "Leave a freshly plowed farm untouched for five years, and weeds, brush, and forest reclaim the field while the irrigation ditches silt shut.",
+      "before": "named.\n\n",
+      "after": " Leave a",
+      "problem": "Demo only. A long sentence. One alternate changes a word, the other cuts the sentence short.",
+      "rule": "demo/long",
+      "alternates": [
+        {"id": "a", "label": "several", "text": "Leave a freshly plowed farm untouched for several years, and weeds, brush, and forest reclaim the field while the irrigation ditches silt shut."},
+        {"id": "b", "label": "cut short", "text": "Leave a freshly plowed farm untouched for five years."}
+      ]
+    },
+    {
+      "id": "demo:ch01-virtue",
+      "source": "demo",
+      "kind": "call",
+      "path": "civ/chapters/01_ch01.md",
+      "byte_offset": 8338,
+      "byte_end": 8459,
+      "quote": "When that **will** and that **method** are practiced in the daily conduct of an individual person, we call it **virtue**.",
+      "before": "reality.\n\n",
+      "after": " When that",
+      "problem": "Demo only. The quote includes the markdown emphasis marks. The alternate drops them so the diff shows the marks. Not a proposal to drop the emphasis.",
+      "rule": "demo/marks",
+      "alternates": [
+        {"id": "a", "label": "drop marks", "text": "When that will and that method are practiced in the daily conduct of an individual person, we call it virtue."}
+      ]
+    },
+    {
+      "id": "demo:ch01-five",
+      "source": "demo",
+      "kind": "sentence",
+      "path": "civ/chapters/01_ch01.md",
+      "byte_offset": 15513,
+      "byte_end": 15650,
+      "quote": "These five principles and seven virtues are not a list of optional preferences from which one may select a few and discard the remainder.",
+      "before": "listen**\n\n",
+      "after": " They form",
+      "problem": "Demo only. Near the end of the file, so Above reaches back through the chapter and Below runs out quickly.",
+      "rule": "demo/end",
+      "alternates": [
+        {"id": "a", "label": "cut short", "text": "These five principles and seven virtues are not a list of optional preferences."}
+      ]
+    },
+    {
+      "id": "demo:ch01-justice",
+      "source": "demo",
+      "kind": "call",
+      "path": "civ/chapters/01_ch01.md",
+      "byte_offset": 14745,
+      "byte_end": 14783,
+      "quote": "Justice is scoped procedural symmetry.",
+      "before": "5. **",
+      "after": "**",
+      "problem": "Locked line. Do not accept it and do not write a replacement. Reject, withdraw, or hold. There is no alternate.",
+      "rule": "demo/locked",
+      "locked": true
+    },
+    {
+      "id": "demo:ch01-civilization-moved",
+      "source": "demo",
+      "kind": "call",
+      "path": "civ/chapters/01_ch01.md",
+      "byte_offset": 513,
+      "quote": "Civilization is the technology that lets all other technologies stand.",
+      "before": "**civilization**. ",
+      "problem": "The recorded offset points at the earlier sentence, which uses different words. The bytes before the quote select the later sentence, so the match is moved.",
+      "rule": "demo/moved",
+      "alternates": [
+        {"id": "a", "label": "every", "text": "Civilization is the technology that lets every other technology stand."}
+      ]
+    },
+    {
+      "id": "demo:ch01-civilization-ambiguous",
+      "source": "demo",
+      "kind": "call",
+      "path": "civ/chapters/01_ch01.md",
+      "byte_offset": 0,
+      "quote": "Civilization is the technology",
+      "problem": "The phrase starts two different sentences, and no surrounding bytes were recorded. Accept stays off until the quote is pinned.",
+      "rule": "demo/ambiguous",
+      "alternates": [
+        {"id": "a", "label": "either", "text": "Civilization is the technology, in one of the two places."}
+      ]
+    },
+    {
+      "id": "demo:ch01-missing",
+      "source": "demo",
+      "kind": "call",
+      "path": "civ/chapters/01_ch01.md",
+      "quote": "This sentence was never written in chapter 1.",
+      "problem": "The quote is not in the file. Accept stays off. Reject, withdraw, and hold still work.",
+      "rule": "demo/missing",
+      "alternates": [
+        {"id": "a", "label": "drop", "text": "This sentence was never written in chapter 1."}
+      ]
+    }
+  ]
+}

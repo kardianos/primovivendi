@@ -2,6 +2,8 @@
 
 Point a new session at this file when reviewing `civ/chapters/`. The method is the same one used on `ccp_sheet.md`, then on `ccp_eng.md` and `ccp_derive.md`, which were removed on 2026-11-15.
 
+Questions and decisions for the review viewer are in `notes/31_review_queue.md`. Point a session at that file to add a question or to read a decision. The method below, writing a new issue to `notes/10_chapter_calls.md`, is unchanged.
+
 The author will not accept unsolicited AI prose as the book. A suggested replacement is a proposal. It enters a chapter only after the author accepts it, or when it restates a decision the author has already accepted.
 
 ## What to do
