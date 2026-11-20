@@ -36,6 +36,8 @@ type sentence struct {
 	Sec       int      // heading within a chapter (source.SecTitle); -1 for none
 	Spine     string   // the main clause's top-level shape (see spine)
 	Nouns     []string // lemmas of the common nouns, in order
+	Finite    bool     // the main clause is finite
+	Voice     string   // active, passive, expletive, or nominalization
 }
 
 type parsedDoc struct {
@@ -191,7 +193,7 @@ func contentLemma(t cnTok) (string, bool) {
 	return l, true
 }
 
-func analyzeDoc(src *source, doc *cnDoc, text string) []*sentence {
+func analyzeDoc(src *source, doc *cnDoc, text string, rates map[string]float64) []*sentence {
 	p := &parsedDoc{src: src, units: utf16.Encode([]rune(text)), doc: doc}
 	for _, cs := range doc.Sentences {
 		si, ok := newSentInfo(cs)
@@ -259,6 +261,8 @@ func analyzeDoc(src *source, doc *cnDoc, text string) []*sentence {
 
 	var out []*sentence
 	para := -1
+	var echoHits []echoHit
+	echoPos := 0
 	for idx, s := range p.sents {
 		if s == nil {
 			continue
@@ -684,11 +688,40 @@ func analyzeDoc(src *source, doc *cnDoc, text string) []*sentence {
 			}
 			add(f)
 		}
+
+		// Part 4, continued: do not chain "it", and name it when several
+		// singular nouns sit between it and its antecedent.
+		var prevS *sentInfo
+		if idx > 0 && !st.ParaFirst {
+			prevS = p.sents[idx-1]
+		}
+		if prevS != nil && itCarriesSubject(s) && itCarriesSubject(prevS) {
+			addItChain(st)
+		}
+		addAmbiguousIts(p.doc, num, s, prevS, st)
+		// Literal meaning, not part of the Rule 10 score (Part 0).
+		addAbstractSubjects(s, st, rates)
+		st.Finite, st.Voice = mainClauseVoice(s)
+		if st.ParaFirst {
+			echoPos = 0
+		}
+		for i := 1; i <= s.n(); i++ {
+			if s.isPunct(i) {
+				continue
+			}
+			if l, ok := echoLemmaOf(s, i); ok && !quoted[i] {
+				echoHits = append(echoHits, echoHit{lemma: l, surface: s.toks[i].Orig, pos: echoPos, tok: i, s: s, st: st})
+			}
+			echoPos++
+		}
 		for _, f := range st.Findings {
-			st.Score += f.Weight
+			if f.Part > 0 {
+				st.Score += f.Weight
+			}
 		}
 		out = append(out, st)
 	}
+	addCloseEchoes(echoHits)
 	return out
 }
 

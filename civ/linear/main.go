@@ -20,6 +20,7 @@
 //	go run . parse     # run CoreNLP on new or changed chapters (minutes)
 //	go run . report    # score the sentences and write the report
 //	go run . lines -chapter ch01 -from 5 -to 21   # every sentence in a line range, scored
+//	go run . check -file ../notes/28_intro_draft1_rewrite.md   # one Markdown file
 package main
 
 import (
@@ -29,23 +30,29 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"strings"
 )
 
 func main() {
 	log.SetFlags(log.Ltime)
 	if len(os.Args) < 2 {
-		fmt.Fprintln(os.Stderr, "usage: go run . fetch-concreteness | parse | report | lines")
+		fmt.Fprintln(os.Stderr, "usage: go run . fetch-concreteness | parse | report | lines | check -file PATH")
 		os.Exit(2)
 	}
 	cmd := os.Args[1]
 	fs := flag.NewFlagSet(cmd, flag.ExitOnError)
 	threads := fs.Int("threads", 8, "parse: CoreNLP threads")
-	mem := fs.String("mem", "16g", "parse: Java heap")
+	defaultMem := "16g"
+	if cmd == "check" {
+		defaultMem = "6g"
+	}
+	mem := fs.String("mem", defaultMem, "parse and check: Java heap")
 	out := fs.String("out", "", "report: output path (default civ/notes/18_linearity_review.md)")
 	perChapter := fs.Int("n", 12, "report: sentences listed per chapter")
 	chapter := fs.String("chapter", "ch01", "lines: chapter name")
-	from := fs.Int("from", 1, "lines: first line")
-	to := fs.Int("to", 0, "lines: last line (0 for the end)")
+	file := fs.String("file", "", "check: Markdown file to score")
+	from := fs.Int("from", 1, "lines and check: first line")
+	to := fs.Int("to", 0, "lines and check: last line (0 for the end)")
 	fs.Parse(os.Args[2:])
 
 	root, err := repoRoot()
@@ -66,6 +73,18 @@ func main() {
 		err = cmdReport(root, data, path, *perChapter)
 	case "lines":
 		err = cmdLines(root, data, *chapter, *from, *to)
+	case "check":
+		path := *file
+		if path == "" && fs.NArg() == 1 {
+			path = fs.Arg(0)
+		}
+		if path == "" {
+			err = errors.New("check: pass -file PATH")
+		} else if !strings.HasSuffix(strings.ToLower(path), ".md") {
+			err = fmt.Errorf("check: %s is not a Markdown file", path)
+		} else {
+			err = cmdCheck(root, data, path, *from, *to, *mem, *threads)
+		}
 	default:
 		err = fmt.Errorf("unknown command %q", cmd)
 	}

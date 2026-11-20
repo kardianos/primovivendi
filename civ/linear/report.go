@@ -16,7 +16,7 @@ var partName = map[int]string{
 	5: "order of cause and effect",
 }
 
-var kinds = []string{"late verb", "long subject", "opening phrase", "second claim", "aside", "nested clauses", "long sentence", "distant pronoun", "bare this", "new before old", "effect before cause"}
+var kinds = []string{"late verb", "long subject", "opening phrase", "second claim", "aside", "nested clauses", "long sentence", "distant pronoun", "it chain", "ambiguous it", "bare this", "new before old", "effect before cause"}
 
 type summary struct {
 	n                            int
@@ -81,6 +81,10 @@ func cmdReport(root, data, path string, perChapter int) error {
 	if err != nil {
 		return err
 	}
+	rate, err := loadConcreteness(data)
+	if err != nil {
+		return err
+	}
 	var book, ref []*sentence
 	byChapter := map[string][]*sentence{}
 	var chapters []string
@@ -90,7 +94,7 @@ func cmdReport(root, data, path string, perChapter int) error {
 		if err != nil {
 			return err
 		}
-		ss := analyzeDoc(s, doc, text)
+		ss := analyzeDoc(s, doc, text, rate)
 		if s.Ref {
 			ref = append(ref, ss...)
 			continue
@@ -100,10 +104,6 @@ func cmdReport(root, data, path string, perChapter int) error {
 		chapters = append(chapters, s.Name)
 	}
 	bs, rs := summarize(book), summarize(ref)
-	rate, err := loadConcreteness(data)
-	if err != nil {
-		return err
-	}
 
 	var sb strings.Builder
 	p := func(format string, a ...any) { fmt.Fprintf(&sb, format+"\n", a...) }
@@ -120,10 +120,10 @@ func cmdReport(root, data, path string, perChapter int) error {
 	p("| 1. Reads forward | The sentence opens on material absent from the sentence before and ends on words from it (\"new before old\"). | 1 | Names the words to open from. |")
 	p("| 2. Subject and main verb early | Words before the main verb (over 10, 15, 22); a subject over 8 or 14 words; an opening phrase of 8 or more words before the subject (half weight when it states a condition, a time, or a cause, which part 5 keeps in front). | 1 to 3; 1 or 2; 0.5 or 1 | Pull back, for an opening of 10 or more words that does not point back to the previous sentence. |")
 	p("| 3. One claim per sentence | A clause with its own subject, attached to the main clause, after a colon or semicolon (half weight after a semicolon, which the typography rules use to join independent clauses); a parenthetical aside with a verb; clauses nested three or more deep (infinitives not counted); over 40 or 55 words. | 1 or 0.5; 1; 1 per level past two; 1 or 2 | Split at the colon or semicolon; move out an aside that is a sentence by itself. |")
-	p("| 4. Pronoun near its noun | \"He,\" \"she,\" \"it,\" or \"they\" with no person, singular noun, or plural noun (or earlier pronoun of the same kind) in its sentence before it or in the sentence before; \"this,\" \"these,\" or \"those\" standing alone as a noun. Quotations, reflexives, and the \"it\" of \"it is clear that\" are skipped. | 2; 1 | Name it, when the parser links the pronoun to a noun of the right kind. |")
+	p("| 4. Pronoun near its noun | \"He,\" \"she,\" \"it,\" or \"they\" with no person, singular noun, or plural noun (or earlier pronoun of the same kind) in its sentence before it or in the sentence before; \"this,\" \"these,\" or \"those\" standing alone as a noun; \"it\" as the subject or the opening word of two sentences in a row; \"it\" with two or more singular nouns between it and its antecedent in the same or previous sentence. Quotations, reflexives, and the \"it\" of \"it is clear that\" are skipped. | 2; 1; 2; 2 | Name it, when the parser links the pronoun to a noun of the right kind. |")
 	p("| 5. Cause before effect | A \"because\" clause after the main clause. | 0.5 | Pull forward when the cause is 12 words or fewer. |")
 	p("")
-	p("The score of a sentence is the sum of its weights. The comparison sample is %d words of running prose from 8 works of 1859 to 1911, parsed the same way: %s.", int(sumF(rs.words)), refList())
+	p("The score of a sentence is the sum of its Rule 10 weights. Close-range word echoes and abstract subjects of human verbs (sections 8 and 9) are reported beside the period sample and are not added to the score. The comparison sample is %d words of running prose from 8 works of 1859 to 1911, parsed the same way: %s.", int(sumF(rs.words)), refList())
 	p("")
 
 	p("## 2. The book against the period sample")
@@ -144,7 +144,7 @@ func cmdReport(root, data, path string, perChapter int) error {
 	p("")
 	p("| Finding | Part | Book | Period sample |")
 	p("|---|---|---|---|")
-	kindPart := map[string]int{"late verb": 2, "long subject": 2, "opening phrase": 2, "second claim": 3, "aside": 3, "nested clauses": 3, "long sentence": 3, "distant pronoun": 4, "bare this": 4, "new before old": 1, "effect before cause": 5}
+	kindPart := map[string]int{"late verb": 2, "long subject": 2, "opening phrase": 2, "second claim": 3, "aside": 3, "nested clauses": 3, "long sentence": 3, "distant pronoun": 4, "it chain": 4, "ambiguous it": 4, "bare this": 4, "new before old": 1, "effect before cause": 5}
 	for _, k := range kinds {
 		p("| %s | %d | %s | %s |", k, kindPart[k], per100(bs.kind[k], bs.n), per100(rs.kind[k], rs.n))
 	}
@@ -189,6 +189,9 @@ func cmdReport(root, data, path string, perChapter int) error {
 			p("> %s", s.Text)
 			p("")
 			for _, f := range s.Findings {
+				if f.Part == 0 {
+					continue
+				}
 				p("- *Part %d, %s.* %s", f.Part, partName[f.Part], f.Note)
 				if f.Suggest != "" {
 					p("  - Draft (%s): %s", f.Move, f.Suggest)
@@ -231,8 +234,9 @@ func cmdReport(root, data, path string, perChapter int) error {
 	}
 
 	writeTexture(p, book, ref, chapters, byChapter, concreteness{rate})
+	writeStyle(p, book, ref, chapters, byChapter)
 
-	p("## 8. Method and limits")
+	p("## 11. Method and limits")
 	p("")
 	p("- **Parser.** Stanford CoreNLP 4.6.0: tokens, parts of speech, lemmas, named entities, the shift-reduce constituency parser with Universal Dependencies converted from it, and neural coreference (C. Manning and others, \"The Stanford CoreNLP Natural Language Processing Toolkit,\" ACL 2014; K. Clark and C. Manning, \"Deep Reinforcement Learning for Mention-Ranking Coreference Models,\" EMNLP 2016). Attachment is right for most words of edited prose, and coreference is right for roughly four pronouns in five, so a flag about a pronoun deserves the most care.")
 	p("- **Text.** Headings and tables are left out. Markup is removed. Block quotations are kept, because the book sets its own examples in them, unless the whole block is a quotation of another writer. Inline quotations stay, because they are part of the sentence a reader meets.")
@@ -240,6 +244,9 @@ func cmdReport(root, data, path string, perChapter int) error {
 	p("- **Draft rewrites** are made by moving the parsed phrase and fixing the capital letter. They do not change wording, so a moved phrase can need a new connective, and a named pronoun can repeat a noun too often. A draft is offered only where the parse passes several checks: one main clause, the rest of the sentence starting with its subject, no pronoun left ahead of its noun, no quotation split, and no colon at the end. The other findings name the problem and leave the rewrite to the editor.")
 	p("- **Parser errors.** The parser sometimes misreads a sentence, for example taking a whole clause for the subject. When the subject it finds begins with \"if,\" \"when,\" \"because,\" or a like word, it has read an opening clause as the subject, and no long-subject finding is made. Other misreadings remain: a finding that does not match the sentence is a parse error and can be ignored.")
 	p("- **Texture and concreteness** (sections 6 and 7) set each paragraph, run, or section of the book beside stretches of the period sample of the same size, so a short stretch is not judged by a limit meant for a long one. The period sample is %d words from 8 works; a figure that rests on few period stretches is a reason to read the passage, not a finding about it.", int(sumF(rs.words)))
+	p("- **Close-range echoes** (section 8) count a content lemma (noun, verb other than be, have, do, and the modals, adjective, or adverb) twice inside 25 words of one paragraph, or in three sentences of that paragraph in a row. A repeat that stays inside one sentence is kept at half weight and left off the list. A short ignore list drops structural words such as \"not,\" \"only,\" and \"other.\"")
+	p("- **Abstract subjects** (section 9) are a literal-meaning check, kept out of the Rule 10 score. The subject is a common noun rated below 2.5 for concreteness, or one of book, chapter, page, account, argument, creed, doctrine, law, rule, system, and text, and the verb is one of pretend, seek, ask, want, decide, refuse, assume, claim, forget, choose, ignore, demand, insist, prefer, intend, believe, hope, fear, learn, teach, promise, and lie. Names, words for people, and pronouns other than a referential \"it\" are skipped.")
+	p("- **Stiff clauses** (section 10) are finite main clauses that are passive, expletive (\"there is,\" \"it is clear that\"), or a form of \"be\" whose predicate noun ends in -tion, -sion, -ment, -ity, or -ness. A section is set beside stretches of the period sample with the same number of finite clauses.")
 	p("- **Not measured.** Whether a sentence ends on its new point, beyond the overlap test above, and whether the argument follows the order of events, beyond \"because.\"")
 	p("")
 	p("Concreteness ratings: M. Brysbaert, A. B. Warriner, and V. Kuperman, \"Concreteness Ratings for 40 Thousand Generally Known English Word Lemmas,\" *Behavior Research Methods* 46 (2014), supplementary material.")
