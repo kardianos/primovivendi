@@ -108,8 +108,9 @@ The following two lists are the foundational axioms and derived virtues of the w
 - Each sentence reads forward. It starts from something the reader already has and ends on the new point, and the next sentence starts from that point.
 - Put the subject and main verb early. Do not hold the verb behind a long opening clause or a list.
 - One claim per sentence. Split a sentence that carries a parenthetical aside, a nested clause, or a second claim after a colon.
-- A pronoun ("he," "it," "this") refers to something in the same or the previous sentence. Otherwise, name it.
+- A pronoun ("he," "it," "this") refers to something in the same or the previous sentence. Otherwise, name it. Do not chain "it" across consecutive sentences, and re-name the subject when several nouns sit between it and the pronoun.
 - Follow the order of the events or the argument: cause before effect, rule before case.
+- Open directly on the claim or contrast rather than with a generic wind-up sentence, and state an opposing view concretely rather than in abstract paraphrase.
 
 *Before:* "From conception onward he belongs to the first of the two horizons named at the start of this section: he is one of the living human beings who must stay alive today, and not only a member of the next generation."
 

@@ -1,6 +1,8 @@
 # 27. Framing the book: incompatible beliefs, taken at their word
 
-Recorded 2026-11-19. This note records an idea and the strategy for placing it. It gives three drafts: a paragraph for the introduction, a short section for chapter 9, and a section for the conclusion. It ends with a check that the three fit together. The longer treatment of freedom of religion is kept in Appendix A for reference; the book is not meant to argue it. Nothing here is applied to the chapters.
+Recorded 2026-11-19. This note records an idea and the strategy for placing it. It gives three drafts: a paragraph for the introduction, a short section for chapter 9, and a section for the conclusion. It ends with a check that the three fit together. The longer treatment of freedom of religion is kept in Appendix A for reference; the book is not meant to argue it.
+
+**Status (updated 2026-11-19):** The rewritten introduction paragraph (Draft 1, developed in `civ/notes/28_intro_draft1_rewrite.md`) has been added to `civ/chapters/01_ch01.md` (line 19, after `"That shared reality does not make all beliefs equal..."`). Draft 2 (Chapter 9, "Many Creeds Under One Law") and Draft 3 (Chapter 14, "Where We Get Along") are **not planned** and are kept below for reference only.
 
 ## The purpose of this material
 
