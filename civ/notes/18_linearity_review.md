@@ -20,13 +20,13 @@ The score of a sentence is the sum of its Rule 10 weights. Close-range word echo
 
 | Measure | Book | Period sample |
 |---|---|---|
-| Sentences | 2545 | 1786 |
+| Sentences | 2535 | 1786 |
 | Sentence length, median and 90th percentile | 21, 41 | 24, 50 |
 | Words before the main verb, median and 90th percentile | 3, 12 | 3, 13 |
 | Sentences with more than 10 words before the main verb | 13.6% | 14.0% |
 | Subject length, median and 90th percentile | 2, 8 | 2, 8 |
-| Mean dependency distance, median and 90th percentile | 2.69, 3.70 | 2.79, 3.88 |
-| Sentences with clauses nested three deep | 8.8% | 11.2% |
+| Mean dependency distance, median and 90th percentile | 2.69, 3.69 | 2.79, 3.88 |
+| Sentences with clauses nested three deep | 8.7% | 11.2% |
 | Mean score | 0.76 | 1.17 |
 | Sentences scoring 3 or more | 9.4% | 15.5% |
 
@@ -35,18 +35,18 @@ Findings per 100 sentences:
 | Finding | Part | Book | Period sample |
 |---|---|---|---|
 | late verb | 2 | 13.6 | 14.0 |
-| long subject | 2 | 7.3 | 8.4 |
-| opening phrase | 2 | 7.9 | 7.7 |
-| second claim | 3 | 7.0 | 10.4 |
-| aside | 3 | 1.2 | 0.7 |
-| nested clauses | 3 | 8.8 | 11.2 |
+| long subject | 2 | 7.4 | 8.4 |
+| opening phrase | 2 | 8.1 | 7.7 |
+| second claim | 3 | 7.2 | 10.4 |
+| aside | 3 | 1.1 | 0.7 |
+| nested clauses | 3 | 8.7 | 11.2 |
 | long sentence | 3 | 10.3 | 19.6 |
-| distant pronoun | 4 | 0.2 | 2.0 |
-| it chain | 4 | 0.3 | 0.9 |
+| distant pronoun | 4 | 0.3 | 2.0 |
+| it chain | 4 | 0.4 | 0.9 |
 | ambiguous it | 4 | 2.2 | 4.2 |
-| bare this | 4 | 1.5 | 6.3 |
-| new before old | 1 | 0.7 | 0.2 |
-| effect before cause | 5 | 1.5 | 0.3 |
+| bare this | 4 | 1.4 | 6.3 |
+| new before old | 1 | 0.6 | 0.2 |
+| effect before cause | 5 | 1.6 | 0.3 |
 
 Mean dependency distance is the average number of words between a word and the word it attaches to; longer distances ask the reader to hold more in mind (H. Liu, "Dependency Distance as a Metric of Language Comprehension Difficulty," *Journal of Cognitive Science* 9, 2008).
 
@@ -54,20 +54,20 @@ Mean dependency distance is the average number of words between a word and the w
 
 | Chapter | Sentences | Mean score | Scoring 3+ | Words before verb, median | Late verb | Opening phrase | Second claim | Aside | Distant pronoun | Bare this | New before old | Effect before cause |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| ch01 | 137 | 0.41 | 4.4% | 2 | 8 | 2 | 3 | 0 | 0 | 2 | 0 | 2 |
-| ch02 | 245 | 0.87 | 10.6% | 3 | 40 | 22 | 28 | 1 | 1 | 3 | 1 | 5 |
+| ch01 | 136 | 0.42 | 4.4% | 2 | 8 | 2 | 4 | 0 | 0 | 2 | 0 | 2 |
+| ch02 | 245 | 0.86 | 10.6% | 3 | 39 | 22 | 28 | 1 | 1 | 2 | 1 | 5 |
 | ch03 | 130 | 0.87 | 10.0% | 3 | 18 | 11 | 8 | 2 | 1 | 3 | 2 | 1 |
-| ch04 | 159 | 0.94 | 13.2% | 4 | 31 | 17 | 15 | 2 | 0 | 4 | 0 | 4 |
-| ch05 | 85 | 0.87 | 8.2% | 4 | 16 | 11 | 5 | 2 | 0 | 0 | 1 | 3 |
-| ch06 | 179 | 0.72 | 8.4% | 3 | 22 | 13 | 14 | 2 | 1 | 2 | 0 | 3 |
-| ch07 | 177 | 0.90 | 10.2% | 3 | 32 | 18 | 15 | 6 | 0 | 1 | 3 | 1 |
-| ch08 | 210 | 0.79 | 10.5% | 3 | 32 | 17 | 14 | 1 | 1 | 2 | 1 | 4 |
-| ch09 | 386 | 0.60 | 6.7% | 3 | 32 | 20 | 34 | 4 | 1 | 4 | 3 | 11 |
-| ch10 | 149 | 0.76 | 10.7% | 2 | 17 | 6 | 5 | 4 | 0 | 5 | 4 | 1 |
-| ch11 | 208 | 0.52 | 5.8% | 3 | 19 | 12 | 9 | 0 | 0 | 2 | 2 | 1 |
-| ch12 | 233 | 0.84 | 11.6% | 3 | 35 | 20 | 13 | 3 | 0 | 6 | 1 | 2 |
-| ch13 | 116 | 1.07 | 16.4% | 4 | 27 | 16 | 8 | 2 | 0 | 1 | 0 | 0 |
-| ch14 | 131 | 0.71 | 7.6% | 2 | 18 | 15 | 8 | 2 | 1 | 2 | 1 | 1 |
+| ch04 | 158 | 0.94 | 12.7% | 4 | 29 | 17 | 16 | 2 | 0 | 4 | 0 | 4 |
+| ch05 | 85 | 0.82 | 8.2% | 4 | 15 | 11 | 5 | 1 | 0 | 0 | 1 | 3 |
+| ch06 | 176 | 0.77 | 9.1% | 3 | 25 | 13 | 15 | 2 | 1 | 2 | 0 | 3 |
+| ch07 | 173 | 0.92 | 11.0% | 4 | 33 | 19 | 16 | 5 | 0 | 1 | 1 | 1 |
+| ch08 | 209 | 0.79 | 10.5% | 3 | 30 | 16 | 15 | 1 | 1 | 2 | 1 | 4 |
+| ch09 | 381 | 0.62 | 7.9% | 3 | 33 | 22 | 29 | 4 | 1 | 4 | 2 | 11 |
+| ch10 | 146 | 0.77 | 11.0% | 3 | 18 | 8 | 6 | 3 | 0 | 5 | 3 | 2 |
+| ch11 | 213 | 0.53 | 5.6% | 3 | 21 | 14 | 9 | 0 | 1 | 2 | 2 | 1 |
+| ch12 | 232 | 0.80 | 10.8% | 2 | 32 | 18 | 14 | 3 | 0 | 6 | 2 | 2 |
+| ch13 | 120 | 0.97 | 14.2% | 3 | 25 | 15 | 9 | 2 | 0 | 1 | 0 | 1 |
+| ch14 | 131 | 0.74 | 6.9% | 2 | 20 | 17 | 8 | 1 | 1 | 2 | 1 | 1 |
 
 ## 4. Sentences to read again
 
@@ -82,42 +82,42 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 4, pronoun near its noun.* "it" may refer to "book", but account and step sit between them.
 - *Part 4, pronoun near its noun.* "it" may refer to "principle", but shape, history, life, and part sit between them.
 
-**01:40**, score 4.0
+**01:41**, score 4.0
 
 > Every human engineer, farmer, mason, judge, and parent who knows how to build and run these systems is mortal.
 
 - *Part 2, subject and verb early.* 17 words come before the main verb ("is").
 - *Part 2, subject and verb early.* The subject is 17 words: "Every human engineer, farmer, mason, judge, and parent who knows how to build and run these systems".
 
-**01:48**, score 3.0
+**01:47**, score 3.0
 
-> Will: The active decision by living human beings to continue living, to maintain what they have inherited against decay, to build new capacity, to defend their households and polities against enemies, and to bring children into the world and raise them to carry the work forward.
+> Will is the active decision by living human beings to continue living, to maintain what they have inherited against decay, to build new capacity, to defend their households and polities against enemies, and to bring children into the world and raise them to carry the work forward.
 
 - *Part 3, one claim per sentence.* Clauses nest 4 deep (a clause inside a clause inside a clause).
-- *Part 3, one claim per sentence.* 46 words.
+- *Part 3, one claim per sentence.* 47 words.
 
-**01:51**, score 2.5
+**01:49**, score 2.5
 
 > When that will and that method are practiced in the daily conduct of an individual person, we call it virtue.
 
 - *Part 2, subject and verb early.* 17 words come before the main verb ("call").
 - *Part 2, subject and verb early.* A 16-word "When" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 
-**01:51**, score 2.5
+**01:49**, score 2.5
 
 > When that will and that method are held across a population and transmitted across generations, we call it civilization.
 
 - *Part 2, subject and verb early.* 16 words come before the main verb ("call").
 - *Part 2, subject and verb early.* A 15-word "When" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 
-**01:71**, score 4.0
+**01:69**, score 4.0
 
 > A father who saves for his own daughter's tuition before donating to a charity on another continent has answered the fourth question through conduct.
 
 - *Part 2, subject and verb early.* 18 words come before the main verb ("has").
 - *Part 2, subject and verb early.* The subject is 18 words: "A father who saves for his own daughter's tuition before donating to a charity on another continent".
 
-**01:71**, score 5.0
+**01:69**, score 5.0
 
 > A student who dismisses a factual refutation by saying "That may be your truth, but this is my truth" has answered the first.
 
@@ -126,7 +126,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
 - *Part 4, pronoun near its noun.* "this" stands alone as a noun; name what it refers to.
 
-**01:73**, score 3.0
+**01:71**, score 3.0
 
 > Unexamined premises are dangerous because a person who holds a sound habit without knowing why it is sound can be persuaded to abandon it by any rhetorician who appeals to his emotions.
 
@@ -197,22 +197,23 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* The subject is 20 words: "Classical Mendelian genetics, which showed that organisms inherit discrete genetic traits that cannot be arbitrarily rewritten by socialist conditioning,".
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
 
-**02:66**, score 4.0
+**02:67**, score 4.0
 
-> Chernobyl (1986): On April 26, 1986, operators at Reactor No. 4 of the Chernobyl nuclear power plant conducted a scheduled safety test on a steam turbine while deliberately disabling multiple emergency core-cooling and automatic shutdown systems so that a test already delayed for hours would not slip to a later shutdown.
+> Operators at Reactor No. 4 of the Chernobyl nuclear power plant conducted a scheduled safety test on a steam turbine while deliberately disabling multiple emergency core-cooling and automatic shutdown systems so that a test already delayed for hours would not slip to a later shutdown.
 
-- *Part 2, subject and verb early.* 17 words come before the main verb ("conducted").
+- *Part 2, subject and verb early.* 11 words come before the main verb ("conducted").
+- *Part 2, subject and verb early.* The subject is 11 words: "Operators at Reactor No. 4 of the Chernobyl nuclear power plant".
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
-- *Part 3, one claim per sentence.* 52 words.
+- *Part 3, one claim per sentence.* 46 words.
 
-**02:117**, score 5.0
+**02:119**, score 5.0
 
 > First, the ancient and medieval astronomical calculators, from the Babylonian clay tablets to Claudius Ptolemy's geometric system of deferents, epicycles, and equants, were skilled observers.
 
 - *Part 2, subject and verb early.* 23 words come before the main verb ("were").
 - *Part 2, subject and verb early.* The subject is 22 words: "the ancient and medieval astronomical calculators, from the Babylonian clay tablets to Claudius Ptolemy's geometric system of deferents, epicycles, and equants,".
 
-**02:125**, score 4.5
+**02:127**, score 4.5
 
 > A chain of incomplete models expanding from Kepler to Newton to Einstein is not a failure of truth-seeking; it is what real, cumulative truth-seeking looks like among limited human beings.
 
@@ -222,7 +223,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
   - Draft (split): A chain of incomplete models expanding from Kepler to Newton to Einstein is not a failure of truth-seeking. It is what real, cumulative truth-seeking looks like among limited human beings.
 - *Part 4, pronoun near its noun.* "it" may refer to "chain", but failure, truth, and seeking sit between them.
 
-**02:143**, score 5.0
+**02:145**, score 5.0
 
 > Even a fortunate guess arrived at by superstition or faulty reasoning does not validate the faulty reasoning; if a man flips a coin to diagnose an illness and happens to guess correctly once, the proposition matched the patient's disease, but a coin-flipper still cannot be entrusted with a hospital.
 
@@ -249,7 +250,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 41 words.
 
-**03:43**, score 3.0
+**03:44**, score 3.0
 
 > Whoever believes that they act "by a power God created in them" is "a sinner and an innovator."
 
@@ -257,7 +258,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* The subject is 12 words: "Whoever believes that they act \"by a power God created in them".
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
 
-**03:43**, score 5.0
+**03:44**, score 5.0
 
 > Whoever believes that God produces the effect and that the connection is one of custom, "such that the effect can fail to follow," is "the believer who is saved, if God wills."
 
@@ -265,28 +266,28 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* A 15-word opening phrase stands before the subject: "Whoever believes that God produces the effect and that the connection is one of custom".
 - *Part 2, subject and verb early.* An 8-word opening phrase stands before the subject: "such that the effect can fail to follow".
 
-**03:47**, score 4.0
+**03:48**, score 4.0
 
 > If fire has no power to burn cotton and steel has no tensile strength of its own, then investigating the material properties of the world is not a path to truth.
 
 - *Part 2, subject and verb early.* 25 words come before the main verb ("is").
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
 
-**03:62**, score 3.0
+**03:64**, score 3.0
 
 > If a constructivist policy is enacted, such as abolishing advanced mathematics classes or ceasing to prosecute theft, and test scores decline while shops close, those destructive physical results can never falsify the theory.
 
 - *Part 2, subject and verb early.* 19 words come before the main verb ("scores").
 - *Part 2, subject and verb early.* An 11-word opening phrase stands before the subject: "such as abolishing advanced mathematics classes or ceasing to prosecute theft".
 
-**03:62**, score 3.0
+**03:64**, score 3.0
 
 > Instead, any citizen who points to the closed shops or the declining mathematics scores is accused of bad faith, "false consciousness," or bigotry.
 
 - *Part 2, subject and verb early.* 20 words come before the main verb ("consciousness").
 - *Part 2, subject and verb early.* A 19-word opening phrase stands before the subject: "Instead, any citizen who points to the closed shops or the declining mathematics scores is accused of bad faith".
 
-**03:70**, score 3.0
+**03:74**, score 3.0
 
 > For ultimate metaphysical questions that produce no measurable distinction in the observable world, civilization's common principles issue no catechism and no anti-catechism.
 
@@ -294,13 +295,13 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* A 13-word opening phrase stands before the subject: "For ultimate metaphysical questions that produce no measurable distinction in the observable world".
   - Draft (pull back): Civilization's common principles issue no catechism and no anti-catechism, for ultimate metaphysical questions that produce no measurable distinction in the observable world.
 
-**03:74**, score 3.0
+**03:78**, score 3.0
 
 > Suppose the first machinist insists that the shell must be riveted from thin copper plate because his ancient scroll says so, and the second rejects that scroll and demands cast iron from his own.
 
 - *Part 3, one claim per sentence.* Clauses nest 5 deep (a clause inside a clause inside a clause).
 
-**03:74**, score 6.0
+**03:78**, score 6.0
 
 > The moment both machinists agree that steam pressure and the tensile strength of the metal determine whether the vessel holds or bursts, they have stepped onto the common ground of Principle 1.
 
@@ -308,14 +309,14 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* The subject is 22 words: "The moment both machinists agree that steam pressure and the tensile strength of the metal determine whether the vessel holds or bursts".
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
 
-**03:82**, score 4.0
+**03:86**, score 4.0
 
 > In March 1991 the carrier pleaded guilty to conspiracy and six counts of falsifying work records on its fleet, admitting that records had been written to make it appear maintenance had been performed on landing gear, wing flaps, fuel filters, and other parts when the work had not been done (Associated Press, March 21, 1991).
 
 - *Part 3, one claim per sentence.* Clauses nest 5 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 55 words.
 
-**03:94**, score 4.0
+**03:98**, score 4.0
 
 > That readiness to let reality correct our fallible minds, and to learn from the tested methods of those who built before us rather than assuming we know everything already, is the beginning of our fifth virtue of civilization, which we will develop more fully in the next chapter:
 
@@ -382,14 +383,14 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
   - Draft (split): A person who does not care about his own well-being will not guard his health, will not learn a skill, and will not save for winter. He immediately becomes a dependent burden who must be fed, housed, and supported by the labor of others.
 - *Part 3, one claim per sentence.* 45 words.
 
-**04:75**, score 4.0
+**04:73**, score 4.0
 
 > Humility is the active, disciplined habit of knowing your limits: double-checking your calculations against reality, actively looking for evidence that might disprove your preferred hypothesis, listening to a subordinate or an opponent when he points out a flaw in your plan, and learning why an inherited tool or custom was built the way it was before you attempt to improve it.
 
 - *Part 3, one claim per sentence.* Clauses nest 4 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 62 words.
 
-**04:85**, score 5.0
+**04:83**, score 5.0
 
 > Scientific replication and peer review (as a method, rather than a captured guild) send an investigator's claim to rival laboratories whose scientists have a strong self-interested incentive to gain prestige by finding flaws in his experiment.
 
@@ -398,7 +399,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* A parenthetical aside with its own verb sits inside the sentence.
 - *Part 3, one claim per sentence.* Clauses nest 4 deep (a clause inside a clause inside a clause).
 
-**04:104**, score 4.0
+**04:99**, score 4.0
 
 > In an anonymous experiment with 2,568 students in 23 countries, students from countries where corruption, tax evasion, and political fraud were common were more likely to misreport a private die roll to earn more money (Simon Gächter and Jonathan Schulz, Nature, 2016).
 
@@ -406,7 +407,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* A 22-word opening phrase stands before the subject: "In an anonymous experiment with 2,568 students in 23 countries, students from countries where corruption, tax evasion, and political fraud were common".
 - *Part 3, one claim per sentence.* 42 words.
 
-**04:110**, score 5.5
+**04:107**, score 5.5
 
 > Because your birth was merely a random outcome of chance, a lottery ticket you did not earn, all of your advantages are arbitrary and undeserved, and justice requires redistributing those assets as if we were all disembodied souls choosing rules behind a Veil of Ignorance before knowing which body and family we would inhabit.
 
@@ -416,7 +417,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 54 words.
 
-**04:126**, score 4.0
+**04:123**, score 4.0
 
 > The proper moral response to inheriting a sound family, a reputable name, and a functioning country is never paralyzing guilt over an imaginary lottery.
 
@@ -440,7 +441,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* 17 words come before the main verb ("rely").
 - *Part 2, subject and verb early.* A 14-word "whenever" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 
-**05:37**, score 3.5
+**05:36**, score 3.5
 
 > Within five minutes, head-on collisions at closing speeds of 120 miles per hour reduce the highway to a wreckage of steel and fatalities, because two solid two-ton masses cannot occupy the same physical space at the same time (Principle 1), and human reaction times are finite (Principle 2).
 
@@ -449,7 +450,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* 51 words.
 - *Part 5, order of cause and effect.* The effect comes first and the 19-word cause follows. Consider stating the cause first, in its own sentence.
 
-**05:45**, score 5.0
+**05:44**, score 5.0
 
 > When an ideological bureaucracy forcibly redefines essential terms (such as woman, citizen, violence, racism, or truth) faster than courts, clinics, and citizens can coordinate, it has not "liberated" society from the dictionary; it has imposed a severe coordination cost on truth-seeking and trust.
 
@@ -459,7 +460,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
   - Draft (split): When an ideological bureaucracy forcibly redefines essential terms (such as woman, citizen, violence, racism, or truth) faster than courts, clinics, and citizens can coordinate, it has not "liberated" society from the dictionary. It has imposed a severe coordination cost on truth-seeking and trust.
 - *Part 3, one claim per sentence.* 44 words.
 
-**05:68**, score 4.5
+**05:67**, score 4.5
 
 > Most remarkably, when modern economists (such as Barjamovic, Chaney, Coşar, and Hortaçsu) applied mathematical gravity models of trade volume and distance to the 1900 BCE Assyrian tablet data, the Bronze Age trade flows closely matched the relation between trade and distance that the same equations find in modern international trade.
 
@@ -467,7 +468,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* A 30-word "when" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 - *Part 3, one claim per sentence.* 50 words.
 
-**05:80**, score 2.5
+**05:79**, score 2.5
 
 > The Peasant's Cow Stall: An armed party detachment arrives at a Russian or Ukrainian village with a decree from Moscow: all private livestock and private grain markets are abolished; by Friday, every peasant family must hand its cow, its workhorses, and its seed over to the collective farm (kolkhoz).
 
@@ -477,7 +478,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
   - Draft (split): The Peasant's Cow Stall: An armed party detachment arrives at a Russian or Ukrainian village with a decree from Moscow: all private livestock and private grain markets are abolished. By Friday, every peasant family must hand its cow, its workhorses, and its seed over to the collective farm (kolkhoz).
 - *Part 3, one claim per sentence.* 50 words.
 
-**05:89**, score 3.5
+**05:88**, score 3.5
 
 > The tiny garden plot behind the peasant's cottage, representing 3 percent of the land, produces a third of the nation's vegetables because the family keeps what it grows there.
 
@@ -485,31 +486,23 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* The subject is 15 words: "The tiny garden plot behind the peasant's cottage, representing 3 percent of the land".
 - *Part 5, order of cause and effect.* The effect comes first and the 8-word cause follows. Consider stating the cause first, in its own sentence.
 
-**05:95**, score 3.5
+**05:94**, score 3.5
 
 > Whenever revolutionary regimes or utopian communes have tried to abolish the family on paper and raise children on rotating shifts in state nurseries, the children have suffered severe attachment failure and stunted formation.
 
 - *Part 2, subject and verb early.* 25 words come before the main verb ("have").
 - *Part 2, subject and verb early.* A 23-word "Whenever" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 
-**05:103**, score 5.0
+**05:102**, score 3.5
 
-> If the arrangement was merely constructed form (like wearing powdered wigs in court or driving on the left side of the road), the ban holds cleanly and life goes on under the new convention without loss.
+> If instead unrelated peoples across different centuries and cultures reinvent the banned arrangement underground, illegally, and at severe risk to themselves, then you are looking at discovered substance.
 
-- *Part 2, subject and verb early.* 28 words come before the main verb ("goes").
-- *Part 3, one claim per sentence.* A parenthetical aside with its own verb sits inside the sentence.
-- *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
-
-**05:104**, score 2.5
-
-> If unrelated peoples across different centuries and cultures reinvent the banned arrangement underground, illegally, and at severe risk to themselves, then you are looking at discovered substance.
-
-- *Part 2, subject and verb early.* 22 words come before the main verb ("are").
-- *Part 2, subject and verb early.* A 20-word "If" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
+- *Part 2, subject and verb early.* 23 words come before the main verb ("are").
+- *Part 2, subject and verb early.* A 21-word "If" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 
 ### ch06 (`06_ch06.md`)
 
-**06:20**, score 5.0
+**06:17**, score 5.0
 
 > If a group defines goodness in a way that leads to its own physical death, or promotes childlessness so that it fails to replace its retiring adults, or lets its farms, workshops, laws, and defenses fall into ruin, then within a century that code fails because its own commands produced the death or the ruin.
 
@@ -517,36 +510,28 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* 55 words.
 - *Part 4, pronoun near its noun.* "it" may refer to "group", but goodness, way, death, and childlessness sit between them.
 
-**06:32**, score 4.0
+**06:29**, score 4.0
 
 > Any moral code that undermines the preconditions of survival, maintenance, and generational replacement in the name of a "higher" ideal is a prescription for self-destruction disguised as ethics.
 
 - *Part 2, subject and verb early.* 20 words come before the main verb ("is").
 - *Part 2, subject and verb early.* The subject is 20 words: "Any moral code that undermines the preconditions of survival, maintenance, and generational replacement in the name of a \"higher\" ideal".
 
-**06:64**, score 3.5
-
-> If consent is the sole foundation of morality, then either (a) all parental authority and education constitute "unconsented oppression" (paralyzing childhood formation), or (b) ideologues advance the destructive claim that children can "consent" to adult appetites or irreversible medical and ideological procedures.
-
-- *Part 2, subject and verb early.* 16 words come before the main verb ("constitute").
-- *Part 2, subject and verb early.* An 8-word "If" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
-- *Part 3, one claim per sentence.* 42 words.
-
-**06:65**, score 5.0
+**06:51**, score 5.0
 
 > When two twenty-year-olds consent to a lethal duel, or when a disturbed youth consents to mutilate his healthy body or sell himself into degradation, the presence of a signature does not make the act good.
 
 - *Part 2, subject and verb early.* 31 words come before the main verb ("does").
 - *Part 2, subject and verb early.* The subject is 30 words: "two twenty-year-olds consent to a lethal duel, or when a disturbed youth consents to mutilate his healthy body or sell himself into degradation, the presence of a signature".
 
-**06:73**, score 5.0
+**06:53**, score 5.0
 
 > Under that standard, a dead planet of bare rock under a hot sun and a living planet populated by flourishing families, music, science, and cities are morally equivalent.
 
 - *Part 2, subject and verb early.* 25 words come before the main verb ("are").
 - *Part 2, subject and verb early.* The subject is 22 words: "a dead planet of bare rock under a hot sun and a living planet populated by flourishing families, music, science, and cities".
 
-**06:89**, score 3.5
+**06:57**, score 3.5
 
 > Once we set aside the misconception that consent is the foundation of morality, we can see immediately where consent does belong and why it is valuable there.
 
@@ -554,7 +539,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* A 13-word "Once" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 - *Part 4, pronoun near its noun.* "it" may refer to "foundation", but morality and consent sit between them.
 
-**06:101**, score 5.0
+**06:69**, score 5.0
 
 > Working with heavy machinery, building bridges, and sailing ships carry a risk of painful injury; therefore, curtail them.
 
@@ -562,14 +547,14 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* The subject is 15 words: "Working with heavy machinery, building bridges, and sailing ships carry a risk of painful injury".
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
 
-**06:102**, score 4.0
+**06:70**, score 4.0
 
 > Competing in an objective examination, starting a business, or proposing marriage carries a risk of failure, rejection, and emotional distress; therefore, abolish the examinations and discourage the risk.
 
 - *Part 2, subject and verb early.* 21 words come before the main verb ("abolish").
 - *Part 2, subject and verb early.* The subject is 20 words: "Competing in an objective examination, starting a business, or proposing marriage carries a risk of failure, rejection, and emotional distress".
 
-**06:120**, score 3.5
+**06:85**, score 3.5
 
 > If a society adopts customs that despise work, forbid inquiry, and leave its people living in squalor generation after generation, let no one be surprised when an iron-age or industrial civilization that masters metallurgy, law, and logistics overcomes it without difficulty.
 
@@ -577,22 +562,30 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* 42 words.
 - *Part 4, pronoun near its noun.* "it" may refer to "society", but work, inquiry, generation, iron, age, civilization, metallurgy, and law sit between them.
 
-**06:166**, score 4.0
+**06:115**, score 4.0
+
+> Sweeping a floor so that grit, vermin, and filth do not accumulate in the living space is the fundamental act of keeping, and it is the same moral and operational act whether the floor is packed dirt in a poor peasant cottage or polished marble in a wealthy townhouse.
+
+- *Part 2, subject and verb early.* 16 words come before the main verb ("is").
+- *Part 2, subject and verb early.* The subject is 12 words: "that grit, vermin, and filth do not accumulate in the living space".
+- *Part 3, one claim per sentence.* 49 words.
+
+**06:127**, score 4.0
 
 > Although a burned building can be rebuilt by expending another ten thousand hours of human life, and a murdered human being cannot be raised from the grave, there is no separation between "human life" and "built property."
 
 - *Part 2, subject and verb early.* 29 words come before the main verb ("is").
 - *Part 2, subject and verb early.* A 28-word opening phrase stands before the subject: "Although a burned building can be rebuilt by expending another ten thousand hours of human life, and a murdered human being cannot be raised from the grave".
 
-**06:170**, score 3.5
+**06:131**, score 3.5
 
-> When a household or a civilization separates survival from keeping and building, it falls into one of two classic errors:
+> When a household or a civilization separates survival from keeping and building, it falls into one of two classic errors.
 
 - *Part 2, subject and verb early.* 13 words come before the main verb ("falls").
 - *Part 2, subject and verb early.* A 12-word "When" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 - *Part 4, pronoun near its noun.* "it" may refer to "household", but civilization and survival sit between them.
 
-**06:190**, score 3.5
+**06:147**, score 3.5
 
 > Because living well is measured by the rate of improvement rather than the initial stock of wealth, it is as open to a poor man in a dirt-floored cabin or a prisoner in a cell, keeping his body disciplined, his cell clean, and his mind learning, as to a wealthy industrialist.
 
@@ -630,7 +623,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* A 9-word opening phrase stands before the subject: "To take ownership is to say of a definite".
 - *Part 3, one claim per sentence.* A parenthetical aside with its own verb sits inside the sentence.
 
-**07:46**, score 4.5
+**07:45**, score 4.5
 
 > When sacrifice is tethered to ownership within a real tier, such as building a workshop, raising capable children, or defending your country's border, the cost secures a durable foundation for living.
 
@@ -638,21 +631,30 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* A 24-word "When" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
 
-**07:51**, score 4.0
+**07:49**, score 4.0
 
 > Waiting for ideal social conditions before you clean your room, balance your budget, learn a trade, or exercise your body is the most common excuse for permanent inaction.
 
 - *Part 2, subject and verb early.* 20 words come before the main verb ("is").
 - *Part 2, subject and verb early.* The subject is 20 words: "Waiting for ideal social conditions before you clean your room, balance your budget, learn a trade, or exercise your body".
 
-**07:61**, score 4.0
+**07:59**, score 4.0
 
 > Suppose a machinist turning an aircraft landing-gear bolt cuts the steel at the outermost limit of the tolerance band because nobody is inspecting closely, or a mason builds a stone retaining wall using weak, sandy mortar and omits the drainage gravel behind the wall to finish by Friday afternoon.
 
 - *Part 3, one claim per sentence.* Clauses nest 5 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 50 words.
 
-**07:83**, score 5.0
+**07:81**, score 4.0
+
+> During the Late Bronze Age Collapse (c. 1200–1150 BCE), complex palace civilizations across the eastern Mediterranean had maintained long-distance tin-and-copper trade networks, extensive irrigation, monumental stone architecture, and scribal literacy (such as Mycenaean Linear B) for centuries.
+
+- *Part 2, subject and verb early.* 18 words come before the main verb ("had").
+- *Part 2, subject and verb early.* An 11-word opening phrase stands before the subject: "During the Late Bronze Age Collapse (c. 1200–1150 BCE)".
+  - Draft (pull back): Complex palace civilizations across the eastern Mediterranean had maintained long-distance tin-and-copper trade networks, extensive irrigation, monumental stone architecture, and scribal literacy (such as Mycenaean Linear B) for centuries, during the Late Bronze Age Collapse (c. 1200–1150 BCE).
+- *Part 3, one claim per sentence.* 42 words.
+
+**07:81**, score 5.0
 
 > When cascading invasions, rebellions, and institutional failures broke the chain of transmission, the skills did not merely decline; in Greece, writing itself disappeared completely for nearly four hundred years, monumental stone construction ceased, and populations shrank by up to three-quarters into impoverished villages that could no longer replicate the tools resting in the tombs of their own great-grandfathers.
 
@@ -663,21 +665,14 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 60 words.
 
-**07:88**, score 4.0
+**07:87**, score 4.0
 
 > The perfectionist who refuses to start or finish a project because his first draft will not be flawless is using "high standards" as a pretext for timidity and sloth.
 
 - *Part 2, subject and verb early.* 18 words come before the main verb ("is").
 - *Part 2, subject and verb early.* The subject is 18 words: "The perfectionist who refuses to start or finish a project because his first draft will not be flawless".
 
-**07:92**, score 4.0
-
-> Because genuine excellence can only be developed by testing our skills against objective resistance, every parent, teacher, and institution must master the discipline of allowing bounded, instructive failure without courting ruin or engineering failure.
-
-- *Part 2, subject and verb early.* 19 words come before the main verb ("must").
-- *Part 2, subject and verb early.* The subject is 18 words: "genuine excellence can only be developed by testing our skills against objective resistance, every parent, teacher, and institution".
-
-**07:111**, score 4.5
+**07:110**, score 4.5
 
 > When an untrained man wagers his family's rent money at a gambling house or wires a 240-volt electrical panel with wet hands and no instruction, he is not "learning from failure"; he is courting ruin with his family's survival.
 
@@ -703,7 +698,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 
 ### ch08 (`08_ch08.md`)
 
-**08:28**, score 4.0
+**08:29**, score 4.0
 
 > In exact parallel, a man who refuses to keep himself physically healthy, sober, skilled in a trade, and financially solvent cannot support a wife, cannot feed children, cannot assist a sick neighbor, and cannot pay taxes to defend his country.
 
@@ -711,7 +706,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* The subject is 9 words: "a man who refuses to keep himself physically healthy".
 - *Part 3, one claim per sentence.* 44 words.
 
-**08:30**, score 4.0
+**08:31**, score 4.0
 
 > Collectivist ideologies invert this order: they claim that you belong first to the State, the Party, or "Global Humanity," and that you must begin from the globe and reason inward to determine what remnants of time and property the collective permits you to retain for yourself and your family.
 
@@ -720,7 +715,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* Clauses nest 4 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 49 words.
 
-**08:60**, score 5.5
+**08:61**, score 5.5
 
 > Because the egalitarian views every human being as an isolated, detachable individual who arrived from nowhere, he sees only a disparity: this boy has a bearing orchard behind his house, and a boy in the next town does not.
 
@@ -728,7 +723,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* A 21-word "Because" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 - *Part 3, one claim per sentence.* Clauses nest 4 deep (a clause inside a clause inside a clause).
 
-**08:62**, score 4.5
+**08:63**, score 4.5
 
 > If parents across a nation are told that nothing they build may be kept for their own children, and that whatever their labor builds will be seized and divided equally among strangers, the four hundred hours are never worked, the brush is never cleared, the trees are never planted, and everyone is poorer.
 
@@ -736,7 +731,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* A 32-word "If" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 - *Part 3, one claim per sentence.* 53 words.
 
-**08:68**, score 5.5
+**08:69**, score 5.5
 
 > Whenever one states that what you keep and build is self-anchored and tiered, and that you owe your spouse and children far more than you owe a stranger, critics immediately object: "Does not morality command us to love our neighbor, and even to love all mankind?
 
@@ -745,21 +740,14 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 47 words.
 
-**08:102**, score 4.0
-
-> Because you are a limited human being, every hour, every dollar, and every measure of focused attention you expend in one place is physically unavailable to be expended in another place.
-
-- *Part 2, subject and verb early.* 22 words come before the main verb ("is").
-- *Part 2, subject and verb early.* The subject is 15 words: "every hour, every dollar, and every measure of focused attention you expend in one place".
-
-**08:141**, score 5.0
+**08:140**, score 5.0
 
 > Finally, a foreign empire marches across the national border because nobody was willing to fund or staff the army, and the invading soldiers burn your spotless house to the ground and lead your children away in chains.
 
 - *Part 2, subject and verb early.* 23 words come before the main verb ("burn").
 - *Part 2, subject and verb early.* The subject is 22 words: "a foreign empire marches across the national border because nobody was willing to fund or staff the army, and the invading soldiers".
 
-**08:143**, score 6.5
+**08:142**, score 6.5
 
 > Therefore, once a man has anchored himself and his household, his work of keeping and building must extend outward: helping keep the street safe, dealing honestly in local trade, serving on juries and boards, paying lawful taxes for shared infrastructure, and bearing arms at the national border when the country that shelters every family is threatened.
 
@@ -768,14 +756,14 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* Clauses nest 4 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 56 words.
 
-**08:156**, score 5.0
+**08:155**, score 5.0
 
 > A fellow citizen who argues against your tax policy in an election while respecting the constitution, the courts, and your right to live is a political opponent, not an enemy.
 
 - *Part 2, subject and verb early.* 23 words come before the main verb ("is").
 - *Part 2, subject and verb early.* The subject is 23 words: "A fellow citizen who argues against your tax policy in an election while respecting the constitution, the courts, and your right to live".
 
-**08:161**, score 3.5
+**08:160**, score 3.5
 
 > If you hand food, money, weapons, or legal jurisdiction to an agent whose active goal is your destruction, you have not converted him into a friend; you have subsidized your own destruction.
 
@@ -784,19 +772,26 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* A second clause with its own subject follows the semicolon.
   - Draft (split): If you hand food, money, weapons, or legal jurisdiction to an agent whose active goal is your destruction, you have not converted him into a friend. You have subsidized your own destruction.
 
-**08:169**, score 3.5
+**08:168**, score 3.5
 
 > If the father walks downstairs and attempts to practice "unconditional kindness" or waits forty-five minutes for a sociological study of the intruder's childhood, his family may be dead before dawn.
 
 - *Part 2, subject and verb early.* 27 words come before the main verb ("may").
 - *Part 2, subject and verb early.* A 25-word "If" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 
-**08:173**, score 5.0
+**08:172**, score 5.0
 
 > Inside that fence, the newborn lambs rest safely in the cold dawn, the shepherd binds up a bruised hoof with careful hands, and his children drink warm milk at breakfast.
 
 - *Part 2, subject and verb early.* 25 words come before the main verb ("drink").
 - *Part 2, subject and verb early.* The subject is 22 words: "the newborn lambs rest safely in the cold dawn, the shepherd binds up a bruised hoof with careful hands, and his children".
+
+**08:214**, score 3.5
+
+> When a person or a nation stands before a public audience and pleads that it has a "right to exist," the grammatical structure of that phrase reveals its error.
+
+- *Part 2, subject and verb early.* 26 words come before the main verb ("reveals").
+- *Part 2, subject and verb early.* A 20-word "When" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 
 ### ch09 (`09_ch09.md`)
 
@@ -809,22 +804,21 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* Clauses nest 4 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 68 words.
 
-**09:49**, score 3.5
+**09:41**, score 4.0
 
-> When a foreign tourist visits your country lawfully, justice requires that he be protected from robbery and tried fairly if accused of a crime (the scope of basic criminal law); it does not mean that a tourist who arrived at the airport twenty minutes ago is entitled to vote in your national election, draw from your contributory pension fund, or sit on your military intelligence committee (the scope of citizenship).
+> If five master carpenters form a partnership and sign a contract agreeing to divide workshop profits evenly according to hours recorded in the shop ledger, that rule binds the five partners who signed the contract.
 
-- *Part 2, subject and verb early.* A 9-word "When" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
+- *Part 2, subject and verb early.* 27 words come before the main verb ("binds").
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
-- *Part 3, one claim per sentence.* 70 words.
 
-**09:56**, score 4.0
+**09:61**, score 4.0
 
-> Constitutional Civic Citizenship: By contrast, Western constitutional law, as it worked out the British and American settlements through the nineteenth-century removal of religious tests and oath disabilities, defined the public scope of the courtroom by a single law in which religion is not a legal position.
+> By contrast, Western constitutional law, as it worked out the British and American settlements through the nineteenth-century removal of religious tests and oath disabilities, defined the public scope of the courtroom by a single law in which religion is not a legal position.
 
-- *Part 2, subject and verb early.* 28 words come before the main verb ("defined").
-- *Part 3, one claim per sentence.* 47 words.
+- *Part 2, subject and verb early.* 25 words come before the main verb ("defined").
+- *Part 3, one claim per sentence.* 44 words.
 
-**09:68**, score 5.0
+**09:73**, score 5.0
 
 > In every human association larger than a few individuals, governing decisions must be enforced: someone will determine whether thieves are prosecuted or released, whether children are taught sound instruction or partisan dogma, and whether public revenue maintains civic infrastructure or enriches favored factions.
 
@@ -835,21 +829,21 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 43 words.
 
-**09:108**, score 4.0
+**09:113**, score 4.0
 
 > To a total-mobilization regime, its corporations, sovereign wealth funds, diaspora cultural centers, student associations, and state-backed land purchasers operating inside your country are all coordinated instruments of state strategic warfare.
 
 - *Part 2, subject and verb early.* 24 words come before the main verb ("are").
 - *Part 2, subject and verb early.* A 24-word opening phrase stands before the subject: "To a total-mobilization regime, its corporations, sovereign wealth funds, diaspora cultural centers, student associations, and state-backed land purchasers operating inside your country".
 
-**09:114**, score 4.0
+**09:119**, score 4.0
 
 > It adopts selectively, in numbers the family can genuinely feed, care for, and acculturate.
 
 - *Part 4, pronoun near its noun.* "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
 - *Part 4, pronoun near its noun.* "It" may refer to "family", but door and household sit between them.
 
-**09:138**, score 4.5
+**09:143**, score 4.5
 
 > When Solon reformed the laws of Athens in 594 BCE, he had the statutes inscribed onto rotating wooden and stone tablets (axones and kyrbeis) erected in the public marketplace where every citizen could read them in advance, binding magistrate and poor farmer to the same procedure.
 
@@ -858,7 +852,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* Clauses nest 4 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 46 words.
 
-**09:162**, score 6.0
+**09:167**, score 6.0
 
 > Eleven years of crippled technical training forced Deng Xiaoping to restore the examination in 1977; at the National Conference on Education the next spring, he explained that examinations check students' work just as the testing of factory products checks industrial quality.
 
@@ -866,33 +860,34 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* The subject is 15 words: "Eleven years of crippled technical training forced Deng Xiaoping to restore the examination in 1977".
 - *Part 3, one claim per sentence.* 42 words.
 
-**09:232**, score 4.0
+**09:201**, score 5.0
+
+> The second part, social reconciliation and restored trust (between two persons in Tiers 2–4), is never unilateral: restoring the relationship, admitting the person back into your house, lending him your vehicle again, or appointing him treasurer of the company.
+
+- *Part 2, subject and verb early.* 16 words come before the main verb ("is").
+- *Part 2, subject and verb early.* The subject is 16 words: "The second part, social reconciliation and restored trust (between two persons in Tiers 2–4)".
+- *Part 3, one claim per sentence.* 41 words.
+
+**09:223**, score 4.0
 
 > Domestic criminal procedure (search warrants, police cautions, bail hearings, proof beyond a reasonable doubt before twelve jurors) is the proper symmetrical procedure within the scope of domestic civic peace.
 
 - *Part 2, subject and verb early.* 17 words come before the main verb ("is").
 - *Part 2, subject and verb early.* The subject is 17 words: "Domestic criminal procedure (search warrants, police cautions, bail hearings, proof beyond a reasonable doubt before twelve jurors".
 
-**09:232**, score 4.0
+**09:223**, score 4.0
 
 > Treating an active military enemy on the battlefield as if he were a domestic misdemeanor defendant is a fatal confusion of scope.
 
 - *Part 2, subject and verb early.* 16 words come before the main verb ("is").
 - *Part 2, subject and verb early.* The subject is 16 words: "Treating an active military enemy on the battlefield as if he were a domestic misdemeanor defendant".
 
-**09:269**, score 4.0
+**09:259**, score 4.0
 
 > A severe penalty fixed by statute for the act and applied by a court to the offender himself is procedural symmetry, even when the penalty is physical.
 
 - *Part 2, subject and verb early.* 18 words come before the main verb ("is").
 - *Part 2, subject and verb early.* The subject is 18 words: "A severe penalty fixed by statute for the act and applied by a court to the offender himself".
-
-**09:349**, score 4.0
-
-> The Engineering Rule for Sovereign States: Act in good faith in reciprocal treaties where verification operates; never subordinate your constitution, your courts, or your self-defense to supranational committees; and never forget that beyond your national border, scope has ended, enemies are real, and your nation's survival rests on your own industrial competence, trusted allies with shared interests, and armed strength.
-
-- *Part 3, one claim per sentence.* Clauses nest 4 deep (a clause inside a clause inside a clause).
-- *Part 3, one claim per sentence.* 62 words.
 
 ### ch10 (`10_ch10.md`)
 
@@ -904,14 +899,14 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* 57 words.
 - *Part 5, order of cause and effect.* The effect comes first and the 44-word cause follows. Consider stating the cause first, in its own sentence.
 
-**10:15**, score 3.0
+**10:17**, score 3.0
 
 > Across the municipal water plant, the electrical grid substation, and the hospital operating room, no thirty-year-old apprentices exist to replace retiring hands.
 
 - *Part 2, subject and verb early.* 19 words come before the main verb ("exist").
 - *Part 2, subject and verb early.* The subject is 9 words: "the electrical grid substation, and the hospital operating room".
 
-**10:15**, score 5.0
+**10:17**, score 5.0
 
 > The master electrician climbing the ladder to repair a high-voltage transformer in a winter storm is seventy-two years old.
 
@@ -919,43 +914,46 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* The subject is 16 words: "The master electrician climbing the ladder to repair a high-voltage transformer in a winter storm".
 - *Part 1, reads forward.* The sentence opens on new material and ends on words from the sentence before ("is seventy-two years old"); consider opening from them.
 
-**10:17**, score 4.0
+**10:19**, score 4.0
 
 > Finally, by Year 75, a neighboring civilization or migrant population that did raise three or four children per family, and that brings its own laws, language, and religion, simply crosses the unguarded border or purchases the vacant properties at auction.
 
 - *Part 2, subject and verb early.* 21 words come before the main verb ("brings").
 - *Part 2, subject and verb early.* The subject is 15 words: "a neighboring civilization or migrant population that did raise three or four children per family".
 
-**10:34**, score 5.0
+**10:34**, score 9.5
 
-> Within roughly eighty to a hundred years, 100 percent of the human beings currently reading this book, administering the courts, piloting the aircraft, and cultivating the land will be dead.
+> Second, civilization cannot be stored on inanimate storage media or stone monuments (Principle 3): a library of engineering textbooks sitting in an empty city with no living human minds to read, practice, and execute them is merely stacked paper awaiting decay, because civilization exists only within living human beings.
 
-- *Part 2, subject and verb early.* 27 words come before the main verb ("will").
-- *Part 2, subject and verb early.* The subject is 20 words: "100 percent of the human beings currently reading this book, administering the courts, piloting the aircraft, and cultivating the land".
+- *Part 2, subject and verb early.* 36 words come before the main verb ("is").
+- *Part 2, subject and verb early.* The subject is 35 words: "civilization cannot be stored on inanimate storage media or stone monuments (Principle 3): a library of engineering textbooks sitting in an empty city with no living human minds to read, practice, and execute them".
+- *Part 3, one claim per sentence.* Clauses nest 5 deep (a clause inside a clause inside a clause).
+- *Part 3, one claim per sentence.* 50 words.
+- *Part 5, order of cause and effect.* The effect comes first and the 8-word cause follows.
+  - Draft (pull forward): Because civilization exists only within living human beings, second, civilization cannot be stored on inanimate storage media or stone monuments (Principle 3): a library of engineering textbooks sitting in an empty city with no living human minds to read, practice, and execute them is merely stacked paper awaiting decay.
 
-**10:35**, score 6.0
-
-> A library of engineering textbooks sitting in an empty city with no living human minds to read, practice, and execute them is merely stacked paper awaiting decay.
-
-- *Part 2, subject and verb early.* 21 words come before the main verb ("is").
-- *Part 2, subject and verb early.* The subject is 21 words: "A library of engineering textbooks sitting in an empty city with no living human minds to read, practice, and execute them".
-- *Part 3, one claim per sentence.* Clauses nest 4 deep (a clause inside a clause inside a clause).
-
-**10:42**, score 3.5
+**10:40**, score 3.5
 
 > If one frames having children merely as a joyless civic burden ("Endure eighteen years of hardship so the national pension bond does not default in 2075"), few will be moved to undertake it, and the framing itself misrepresents human nature.
 
 - *Part 2, subject and verb early.* 27 words come before the main verb ("will").
 - *Part 2, subject and verb early.* A 26-word "If" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 
-**10:44**, score 3.0
+**10:42**, score 3.0
 
 > Normal men and women across ten thousand years have desired children, labored for them, and regarded their children and grandchildren as the fulfillment of their lives because humans are biological, relational creatures constituted to transmit life, and a household full of children (demanding, exhausting, and costly as it may be on any given evening) is one of the deepest sources of satisfaction, meaning, and enduring affection available to a mortal human being.
 
 - *Part 3, one claim per sentence.* A parenthetical aside with its own verb sits inside the sentence.
 - *Part 3, one claim per sentence.* 72 words.
 
-**10:48**, score 5.0
+**10:44**, score 3.0
+
+> In the Plymouth Colony of Chapter 8, once each household received its own parcel of land, fathers and mothers took their children into the fields.
+
+- *Part 2, subject and verb early.* 19 words come before the main verb ("took").
+- *Part 2, subject and verb early.* The subject is 12 words: "once each household received its own parcel of land, fathers and mothers".
+
+**10:46**, score 5.0
 
 > At eighty, one grandfather and grandmother sit at the head of a holiday table surrounded by four adult children and twelve grandchildren and great-grandchildren; another eighty-year-old sits alone in a silent apartment with a television set and a stack of travel photographs from forty years ago.
 
@@ -963,21 +961,21 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* A 25-word opening phrase stands before the subject: "At eighty, one grandfather and grandmother sit at the head of a holiday table surrounded by four adult children and twelve grandchildren and great-grandchildren".
 - *Part 3, one claim per sentence.* 49 words.
 
-**10:60**, score 4.0
+**10:58**, score 4.0
 
 > In 1950 the median American man married for the first time at 22.8 years of age and the median woman at 20.3; in 2024 the medians were 30.2 and 28.6 (U.S. Census Bureau, Table MS-2).
 
 - *Part 2, subject and verb early.* 26 words come before the main verb ("were").
 - *Part 2, subject and verb early.* A 20-word opening phrase stands before the subject: "the median American man married for the first time at 22.8 years of age and the median woman at 20.3".
 
-**10:128**, score 4.0
+**10:125**, score 4.0
 
 > The Leningrad Seed Bank (1941 to 1944): During the 872-day Siege of Leningrad, staff at the All-Union Institute of Plant Industry, founded by the geneticist Nikolai Vavilov (Chapter 2), guarded tons of edible wheat, rice, peas, and potatoes stored as the nation's breeding collection.
 
 - *Part 2, subject and verb early.* 40 words come before the main verb ("stored").
 - *Part 3, one claim per sentence.* 47 words.
 
-**10:130**, score 4.0
+**10:127**, score 4.0
 
 > Any society that accumulates peacetime deficits so current voters can consume more than they produce, allows its power grids and roads to age without replacement, inflates away savings, or converts its schools into centers of ideological conditioning is repeating Nauru's error.
 
@@ -994,21 +992,25 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* A 9-word opening phrase stands before the subject: "does a society that worked hard, told the truth".
 - *Part 3, one claim per sentence.* 57 words.
 
-**11:35**, score 3.0
+**11:36**, score 4.5
 
-> The Brother's Seed Loan and the Neighborly Barn-Raising: When a lightning strike burns down a hardworking farmer's barn in July, his neighbors and brothers spend Saturday raising new rafters and lending him seed grain so his family is not ruined by a single bolt of lightning, knowing he works alongside them and will do the same when a storm damages their roofs.
+> When a lightning strike burns down a hardworking farmer's barn in July, his neighbors and brothers spend Saturday raising new rafters and lending him seed grain so his family is not ruined by a single bolt of lightning, knowing he works alongside them and will do the same when a storm damages their roofs.
 
+- *Part 2, subject and verb early.* 17 words come before the main verb ("spend").
+- *Part 2, subject and verb early.* A 13-word "When" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
-- *Part 3, one claim per sentence.* 65 words.
+- *Part 3, one claim per sentence.* 55 words.
 
-**11:36**, score 4.0
+**11:38**, score 3.5
 
-> The Trauma Emergency Room and Short-Term Disability Reserve: When a carpenter falls from a scaffold and fractures his femur, a trauma surgeon sets the bone with a titanium rod, and a temporary disability reserve keeps his family housed for the twelve weeks required for his leg to heal so he can return to his trade.
+> When a carpenter falls from a scaffold and fractures his femur, a trauma surgeon sets the bone with a titanium rod, and a temporary disability reserve keeps his family housed for the twelve weeks required for his leg to heal so he can return to his trade.
 
-- *Part 3, one claim per sentence.* Clauses nest 4 deep (a clause inside a clause inside a clause).
-- *Part 3, one claim per sentence.* 56 words.
+- *Part 2, subject and verb early.* 14 words come before the main verb ("sets").
+- *Part 2, subject and verb early.* An 11-word "When" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
+- *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
+- *Part 3, one claim per sentence.* 47 words.
 
-**11:53**, score 3.0
+**11:54**, score 3.0
 
 > As we saw with the Daughter and the Chalked Footrace in Chapter 7, insulating people from every risk of failure does not make them secure; it renders them dependent.
 
@@ -1017,14 +1019,14 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* A second clause with its own subject follows the semicolon.
   - Draft (split): As we saw with the Daughter and the Chalked Footrace in Chapter 7, insulating people from every risk of failure does not make them secure. It renders them dependent.
 
-**11:87**, score 3.0
+**11:81**, score 3.0
 
 > Rather than be called unkind in public, they fall silent and surrender control of the school board, the courtroom, and the church to the accuser.
 
 - *Part 2, subject and verb early.* 18 words come before the main verb ("courtroom").
 - *Part 2, subject and verb early.* A 17-word opening phrase stands before the subject: "Rather than be called unkind in public, they fall silent and surrender control of the school board".
 
-**11:100**, score 3.5
+**11:95**, score 3.5
 
 > When someone appeals to "tolerance" while demanding that you silence yourself and dismantle your own procedural rules, he is executing Marcuse's strategy.
 
@@ -1032,7 +1034,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* A 17-word "When" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
 
-**11:178**, score 6.0
+**11:171**, score 6.0
 
 > Suppose a Christian Roman father living in North Africa or Gaul in 430 CE, watching Vandals and Visigoths cross the imperial frontier, had said, "The Western Empire is falling, so there is no point in raising children, copying manuscripts, keeping our farm tools sharp, or teaching the next generation."
 
@@ -1041,34 +1043,34 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 49 words.
 
-**11:178**, score 3.0
+**11:171**, score 3.0
 
 > Instead, ordinary fathers, mothers, craftsmen, and monastic copyists continued building, teaching, farming, and preserving manuscripts within their own scopes, and out of their labor grew the medieval towns, universities, cathedrals, and scientific revolution.
 
 - *Part 2, subject and verb early.* 24 words come before the main verb ("grew").
 
-**11:192**, score 3.0
+**11:186**, score 3.0
 
 > When a man sets aside global despair and takes up the work assigned to his own hands, fatalism dissipates rapidly, because establishing even one square yard of real order in the world demonstrates that decay does not prevail unless builders cease to labor.
 
 - *Part 3, one claim per sentence.* Clauses nest 4 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 43 words.
 
-**11:206**, score 4.0
+**11:200**, score 4.0
 
 > The managerial mode imports labor or sends the work abroad because it is cheaper this quarter, closes the apprenticeships, and answers falling births with migration targets.
 
 - *Part 2, subject and verb early.* 16 words come before the main verb ("closes").
 - *Part 2, subject and verb early.* The subject is 16 words: "The managerial mode imports labor or sends the work abroad because it is cheaper this quarter".
 
-**11:208**, score 3.0
+**11:202**, score 3.0
 
 > The surgeon spends half his day completing administrative and billing forms designed by personnel who have never held a scalpel, while the teacher attends mandatory ideological training sessions while more than a third of American fourth-grade pupils read below the basic level (National Assessment of Educational Progress, 2022).
 
 - *Part 3, one claim per sentence.* Clauses nest 4 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 49 words.
 
-**11:215**, score 3.0
+**11:210**, score 3.0
 
 > Eliminate every layer of administrative bureaucracy that cannot demonstrate that it adds more value to the operation than its cost imposes upon the enterprise.
 
@@ -1091,7 +1093,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* Clauses nest 5 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 46 words.
 
-**12:62**, score 5.5
+**12:63**, score 5.5
 
 > If a murderer knocks at your door asking whether the friend he is pursuing has taken refuge in your house, Kant argued, you have a categorical duty not to lie to him, even if the truth lets him find and murder your friend.
 
@@ -1100,7 +1102,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 43 words.
 
-**12:64**, score 4.0
+**12:65**, score 4.0
 
 > Under the Five Principles, Kant's answer to the murderer at the door is a failure of scope (Principle 4 and Principle 5): a murderer with a weapon in his hand has stepped outside the scope of peaceful civic procedure and made himself an active enemy.
 
@@ -1110,30 +1112,30 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
   - Draft (split): Under the Five Principles, Kant's answer to the murderer at the door is a failure of scope (Principle 4 and Principle 5). A murderer with a weapon in his hand has stepped outside the scope of peaceful civic procedure and made himself an active enemy.
 - *Part 3, one claim per sentence.* 46 words.
 
-**12:72**, score 4.0
+**12:75**, score 4.0
 
-> Karl Marx (1818–1883): Carried Hegel's dialectic into a history in which truth and morality change by class identity; denied Principle 2 by promising that abolishing private property would remake human nature into the selfless type that later regimes called the "New Socialist Man"; and destroyed Principle 5 by replacing symmetrical law with class liquidation.
+> In the twentieth century, John Rawls (1921–2002), as we saw in Chapter 4 and Chapter 8, used the "Veil of Ignorance" in A Theory of Justice (1971) to strip away human particularity and treat the intergenerational work of parents for their children (Principle 4 and Virtue 7) as an arbitrary "Lottery of Birth" to be equalized away by the state, violating Principle 5.
 
-- *Part 3, one claim per sentence.* Clauses nest 4 deep (a clause inside a clause inside a clause).
-- *Part 3, one claim per sentence.* 57 words.
+- *Part 2, subject and verb early.* 18 words come before the main verb ("used").
+- *Part 3, one claim per sentence.* 65 words.
 
-**12:73**, score 6.0
+**12:75**, score 4.0
 
-> John Rawls (1921–2002): As we saw in Chapter 4 and Chapter 8, Rawls's A Theory of Justice (1971) used the "Veil of Ignorance" to strip away human particularity and treat the intergenerational work of parents for their children (Principle 4 and Virtue 7) as an arbitrary "Lottery of Birth" to be equalized away by the state (violating Principle 5).
+> Michel Foucault (1926–1984) and Jacques Derrida (1930–2004) completed the repudiation of classical realism by attacking Principle 1 directly, teaching generations of university students that language never refers to objective reality ("there is nothing outside the text") and that truth, reason, science, and law are merely instruments of power ("regimes of truth").
 
-- *Part 2, subject and verb early.* 21 words come before the main verb ("used").
-- *Part 2, subject and verb early.* A 21-word opening phrase stands before the subject: "John Rawls (1921–2002): As we saw in Chapter 4 and Chapter 8, Rawls's A Theory of Justice (1971)".
+- *Part 2, subject and verb early.* 11 words come before the main verb ("completed").
+- *Part 2, subject and verb early.* The subject is 11 words: "Michel Foucault (1926–1984) and Jacques Derrida (1930–2004)".
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
-- *Part 3, one claim per sentence.* 62 words.
+- *Part 3, one claim per sentence.* 55 words.
 
-**12:84**, score 4.0
+**12:85**, score 4.0
 
 > It also held that every human being is a moral agent, capable of reason yet prone to sin and self-deception (Principle 2), which explains why unchecked power in human hands seldom stays sound for long.
 
 - *Part 3, one claim per sentence.* Clauses nest 4 deep (a clause inside a clause inside a clause).
 - *Part 4, pronoun near its noun.* "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
 
-**12:121**, score 4.0
+**12:105**, score 4.0
 
 > In the Sira, Muhammad at Medina is prophet, lawgiver, judge, and commander at once, and the Qur'an holds him up as the example to follow (33:21).
 
@@ -1141,7 +1143,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* The subject is 9 words: "lawgiver, judge, and commander at once, and the Qur'an".
 - *Part 2, subject and verb early.* An 8-word opening phrase stands before the subject: "In the Sira, Muhammad at Medina is prophet".
 
-**12:137**, score 8.0
+**12:121**, score 8.0
 
 > In Britain, a 2026 survey of 1,006 Muslims for The Economist found that 29 percent want sharia to be the main basis of British law or one influence on it; that 20 percent would put Islamic teaching ahead of an act of Parliament, rising to 27 percent of those aged 18 to 24; and that 22 percent hold that violence against a person who insults the Prophet can be justified, rising to 37 percent of those aged 18 to 24.
 
@@ -1152,23 +1154,23 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 4, pronoun near its noun.* "those" stands alone as a noun; name what it refers to.
 - *Part 4, pronoun near its noun.* "those" stands alone as a noun; name what it refers to.
 
-**12:139**, score 4.0
+**12:123**, score 4.0
 
 > In the twentieth century, Sayyid Qutb in Egypt and Ayatollah Ruhollah Khomeini in Iran (Islamic Government: Governance of the Jurist, 1970) removed even the traditional quietist accommodations of earlier centuries.
 
 - *Part 2, subject and verb early.* 21 words come before the main verb ("removed").
 - *Part 2, subject and verb early.* The subject is 17 words: "Sayyid Qutb in Egypt and Ayatollah Ruhollah Khomeini in Iran (Islamic Government: Governance of the Jurist, 1970)".
 
-**12:141**, score 4.0
+**12:125**, score 4.0
 
 > A law whose scope is the confession, guarded by jizya at its boundary and by death at its exit, cannot share a polity with that rule.
 
 - *Part 2, subject and verb early.* 19 words come before the main verb ("can").
 - *Part 2, subject and verb early.* The subject is 19 words: "A law whose scope is the confession, guarded by jizya at its boundary and by death at its exit".
 
-**12:211**, score 6.0
+**12:185**, score 6.0
 
-> Because Dugin rejects legal symmetry, individual property rights, and constitutional checks inside the state, and views international politics as a permanent war between "Land Power" (Eurasia) and "Sea Power" (the constitutional West), his system cannot build high-trust domestic courts or peaceful prosperity.
+> Because he rejects legal symmetry, individual property rights, and constitutional checks inside the state, and views international politics as a permanent war between "Land Power" (Eurasia) and "Sea Power" (the constitutional West), his system cannot build high-trust domestic courts or peaceful prosperity.
 
 - *Part 2, subject and verb early.* 34 words come before the main verb ("can").
 - *Part 2, subject and verb early.* The subject is 29 words: "individual property rights, and constitutional checks inside the state, and views international politics as a permanent war between \"Land Power\" (Eurasia) and \"Sea Power\" (the constitutional West), his system".
@@ -1176,35 +1178,44 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 
 ### ch13 (`13_ch13.md`)
 
-**13:6**, score 4.0
+**13:7**, score 3.5
 
-> The Scale Criterion: A voluntary commune, monastery, or early kibbutz of eighty selected members can sometimes operate for a few decades on informal communal sharing (Tier 2/3 kindness), because every member dines in the same hall and idlers can be corrected or expelled in person.
+> A voluntary commune, monastery, or early kibbutz of eighty selected members can sometimes operate for a few decades on informal communal sharing (Tier 2/3 kindness), because every member dines in the same hall and idlers can be corrected or expelled in person.
 
-- *Part 2, subject and verb early.* 38 words come before the main verb ("can").
-- *Part 3, one claim per sentence.* 45 words.
+- *Part 2, subject and verb early.* 11 words come before the main verb ("can").
+- *Part 2, subject and verb early.* The subject is 11 words: "A voluntary commune, monastery, or early kibbutz of eighty selected members".
+- *Part 3, one claim per sentence.* 42 words.
+- *Part 5, order of cause and effect.* The effect comes first and the 10-word cause follows. Consider stating the cause first, in its own sentence.
 
-**13:6**, score 5.0
+**13:7**, score 5.0
 
 > If one attempts to scale that communal arrangement linearly to a nation of fifty million strangers without scoped procedural symmetry and private property (Principle 4), it collapses into bureaucratic coercion and mass deprivation.
 
 - *Part 2, subject and verb early.* 26 words come before the main verb ("collapses").
 - *Part 2, subject and verb early.* The subject is 24 words: "one attempts to scale that communal arrangement linearly to a nation of fifty million strangers without scoped procedural symmetry and private property (Principle 4)".
 
-**13:15**, score 3.5
+**13:17**, score 3.5
 
 > If a fatalist or an ideological determinist had sought one territory in the world in August 1965 that appeared destined for poverty, ethnic warfare, and foreign conquest, he would have selected the island of Singapore.
 
 - *Part 2, subject and verb early.* 28 words come before the main verb ("would").
 - *Part 2, subject and verb early.* A 27-word "If" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 
-**13:17**, score 5.0
+**13:19**, score 5.0
 
-> The physical and political facts on August 9, 1965, the morning Malaysia expelled Singapore from the Federation and Prime Minister Lee Kuan Yew addressed the nation, were severe:
+> The physical and political facts on August 9, 1965, the morning Malaysia expelled Singapore from the Federation and Prime Minister Lee Kuan Yew addressed the nation, were severe.
 
 - *Part 2, subject and verb early.* 26 words come before the main verb ("were").
 - *Part 2, subject and verb early.* The subject is 26 words: "The physical and political facts on August 9, 1965, the morning Malaysia expelled Singapore from the Federation and Prime Minister Lee Kuan Yew addressed the nation,".
 
-**13:44**, score 4.0
+**13:23**, score 3.0
+
+> Every prevailing academic theory of the 1960s, including "Dependency Theory," socialist state ownership, post-colonial grievance politics, and ethnic majoritarianism, predicted that Singapore would become an impoverished, disorderly dependency.
+
+- *Part 2, subject and verb early.* 19 words come before the main verb ("predicted").
+- *Part 2, subject and verb early.* The subject is 10 words: "Every prevailing academic theory of the 1960s, including \"Dependency Theory".
+
+**13:43**, score 4.0
 
 > Addressing the reality of human cognitive and executive variation (Principle 2), Lee noted that in any population, the most capable, disciplined, and public-spirited five to ten percent of citizens act as "the yeast, the ferment, the catalyst" that enables the entire society to advance.
 
@@ -1214,14 +1225,21 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* Clauses nest 3 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 45 words.
 
-**13:54**, score 4.0
+**13:43**, score 3.5
+
+> If a nation persecutes, drives out, or levels down its most capable engineers, administrators, and entrepreneurs in the name of envy, the remaining ninety percent do not become wealthier; they sink into unemployment and poverty.
+
+- *Part 2, subject and verb early.* 30 words come before the main verb ("sink").
+- *Part 2, subject and verb early.* A 29-word "If" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
+
+**13:53**, score 4.0
 
 > Nearby governments enacted ethnic quotas that restricted minority Chinese and Indians from universities and civil service posts, and rulers dismissed judges when a court ruled against the state.
 
 - *Part 2, subject and verb early.* 19 words come before the main verb ("dismissed").
 - *Part 2, subject and verb early.* The subject is 19 words: "Nearby governments enacted ethnic quotas that restricted minority Chinese and Indians from universities and civil service posts, and rulers".
 
-**13:97**, score 5.0
+**13:95**, score 5.0
 
 > In February 1914, four months before the assassination of Archduke Franz Ferdinand triggered the First World War, the former Interior Minister Pyotr Nikolayevich Durnovo submitted to Tsar Nicholas II a confidential thirty-page state memorandum that remains one of the most accurate strategic forecasts in modern history.
 
@@ -1229,7 +1247,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* A 14-word opening phrase stands before the subject: "four months before the assassination of Archduke Franz Ferdinand triggered the First World War".
 - *Part 3, one claim per sentence.* 47 words.
 
-**13:103**, score 5.0
+**13:101**, score 5.0
 
 > In the event of a prolonged, exhausting war accompanied by military reverses at the front, Russia's liberal opposition, the educated parliamentary intelligentsia, would use wartime hardships to overthrow the monarchy, assuming that they could govern Russia as a peaceful parliamentary democracy.
 
@@ -1238,21 +1256,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* Clauses nest 4 deep (a clause inside a clause inside a clause).
 - *Part 3, one claim per sentence.* 42 words.
 
-**13:114**, score 4.0
-
-> Against Principle 3 and Principle 4: Under War Communism (1918–1921) and later Stalin's Forced Collectivization (1929–1933), the Bolsheviks waged war against the very class of competent, industrious family farmers (kulaks) whom Stolypin had enabled.
-
-- *Part 2, subject and verb early.* 23 words come before the main verb ("waged").
-- *Part 2, subject and verb early.* A 15-word opening phrase stands before the subject: "Under War Communism (1918–1921) and later Stalin's Forced Collectivization (1929–1933)".
-
-**13:129**, score 4.0
-
-> The "Black/Green" Faction (Khomeini's Theocratic Islamists): Ayatollah Ruhollah Khomeini and his militant clerical network, whose explicit goal was to abolish secular law, impose strict sharia gender segregation and veiling, execute apostates and those accused of "corruption in the land" (mofsed-e-filarz), and establish absolute rule by Islamic jurists (Velayat-e Faqih).
-
-- *Part 2, subject and verb early.* 24 words come before the main verb ("impose").
-- *Part 3, one claim per sentence.* 53 words.
-
-**13:143**, score 4.0
+**13:137**, score 4.0
 
 > Today, in the streets, universities, municipal councils, and non-governmental organizations of Western countries, the same Red-Green Tactical Alliance operates (radical progressive and Marxist activists cooperating with political Islamist organizations):
 
@@ -1260,7 +1264,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* A 12-word opening phrase stands before the subject: "in the streets, universities, municipal councils, and non-governmental organizations of Western countries".
 - *Part 3, one claim per sentence.* A parenthetical aside with its own verb sits inside the sentence.
 
-**13:145**, score 4.0
+**13:139**, score 4.0
 
 > Radical progressive activists who denounce traditional Christians over social doctrines simultaneously march alongside Islamist groups whose classical legal doctrine prescribes severe punishment for homosexuality and legal subordination for women and religious minorities because both share the immediate tactical goal of subverting and paralyzing the host country's order of law.
 
@@ -1301,7 +1305,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
   - Draft (split): If he cannot state a single falsifying condition, he is not conducting empirical inquiry or policy analysis. He is reciting an unfalsifiable dogma (violating Principle 1).
 - *Part 4, pronoun near its noun.* No person in this sentence or the one before for "he" to refer to.
 
-**14:44**, score 4.5
+**14:42**, score 4.5
 
 > For example, if a corrupt judge accepts a ten-thousand-dollar bribe to alter a verdict in an American courtroom, an American constitutionalist may legitimately state, "That judge was violating American constitutional law," because Article II, the federal bribery statutes, and the judicial oath explicitly forbid accepting bribes in explicit statutory text.
 
@@ -1309,14 +1313,14 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* An 18-word "if" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 - *Part 3, one claim per sentence.* 52 words.
 
-**14:51**, score 2.5
+**14:48**, score 2.5
 
 > If he immediately objects when his own procedural rule is applied to his own faction, he has demonstrated that he rejects Principle 5 and seeks a partial tribunal.
 
 - *Part 2, subject and verb early.* 16 words come before the main verb ("has").
 - *Part 2, subject and verb early.* A 15-word "If" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 
-**14:116**, score 6.5
+**14:114**, score 6.5
 
 > When millions of individuals direct their daily vectors toward falsehood, evasion of responsibility, negligent work, cynicism, childlessness, and the consumption of inherited capital, the resultant vector of the whole society points downward toward decline, and no prime minister or central bank can reverse that trajectory.
 
@@ -1325,7 +1329,7 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 2, subject and verb early.* A 10-word "When" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 - *Part 3, one claim per sentence.* 45 words.
 
-**14:117**, score 5.5
+**14:116**, score 5.5
 
 > When men and women across a nation direct their daily vectors toward correspondence truth, self-anchored ownership, craft excellence, beauty, humility, raising children, and forming the younger while listening to those who formed them, under symmetrical laws, the resultant vector of that civilization points upward toward durability and growth.
 
@@ -1335,30 +1339,29 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 - *Part 3, one claim per sentence.* 49 words.
 - *Part 4, pronoun near its noun.* "those" stands alone as a noun; name what it refers to.
 
-**14:119**, score 4.0
+**14:118**, score 4.0
 
-> Although every citizen's station, trade, and season of life differs, we may see how practical and orderly this technology is by tracing One Ordinary Day in the life of a man or woman who practices it:
+> Although every citizen's station, trade, and season of life differs, we may see how practical and orderly this technology is by tracing One Ordinary Day in the life of a man or woman who practices it.
 
 - *Part 2, subject and verb early.* 12 words come before the main verb ("may").
 - *Part 2, subject and verb early.* An 11-word opening phrase stands before the subject: "Although every citizen's station, trade, and season of life differs".
 - *Part 4, pronoun near its noun.* "it" may refer to "technology", but day and life sit between them.
 
-**14:125**, score 2.5
+**14:124**, score 2.5
 
 > At your workplace, whether you are an aircraft mechanic, an engineer, a carpenter, a surgeon, a teacher, or a magistrate, you align with truth and seek excellence.
 
 - *Part 2, subject and verb early.* 21 words come before the main verb ("align").
 - *Part 2, subject and verb early.* A 17-word "whether" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 
-**14:131**, score 3.0
+**14:124**, score 2.5
 
-> 10:00 p.m. (Securing the Household at Night): Before extinguishing the lights, you inspect the perimeter of your house, verify that the doors are locked (Enemies are real), check on your sleeping children under a dry, sound roof, and converse quietly with your spouse.
+> When a test gauge indicates a crack in a fitting or an error in a calculation, you do not falsify the report to please a superior.
 
-- *Part 2, subject and verb early.* 12 words come before the main verb ("inspect").
-- *Part 3, one claim per sentence.* A parenthetical aside with its own verb sits inside the sentence.
-- *Part 3, one claim per sentence.* 43 words.
+- *Part 2, subject and verb early.* 17 words come before the main verb ("do").
+- *Part 2, subject and verb early.* A 16-word "When" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
 
-**14:133**, score 5.0
+**14:132**, score 5.0
 
 > Yet between six in the morning and ten at night, human life continued, reality was respected, decay was arrested, a household was sheltered, a municipality was strengthened, and the accumulated inheritance of five thousand years of human method was transmitted one day further into the future.
 
@@ -1372,41 +1375,49 @@ Up to 12 per chapter, highest score first, scoring 2.5 or more. The reference is
 
 Every sentence in the book for which the tool drafted a rewrite, whatever its score, in chapter order. Each entry gives the original and the draft.
 
-### Pull back (4)
+### Pull back (6)
 
 A long opening phrase (a comparison, a setting, a source, or a concession) moves after the main clause, so that the sentence opens on its subject. Openings that state a condition, a time, or a cause are left in place.
 
-- **03:70.** For ultimate metaphysical questions that produce no measurable distinction in the observable world, civilization's common principles issue no catechism and no anti-catechism.
+- **03:74.** For ultimate metaphysical questions that produce no measurable distinction in the observable world, civilization's common principles issue no catechism and no anti-catechism.
   - Draft: Civilization's common principles issue no catechism and no anti-catechism, for ultimate metaphysical questions that produce no measurable distinction in the observable world.
-- **06:89.** Within the scope of competent adult peers dealing inside a lawful order, mutual consent is the symmetrical procedural check that prevents one citizen from robbing, enslaving, or defrauding another.
+- **06:57.** Within the scope of competent adult peers dealing inside a lawful order, mutual consent is the symmetrical procedural check that prevents one citizen from robbing, enslaving, or defrauding another.
   - Draft: Mutual consent is the symmetrical procedural check that prevents one citizen from robbing, enslaving, or defrauding another, within the scope of competent adult peers dealing inside a lawful order.
-- **13:44.** Addressing the reality of human cognitive and executive variation (Principle 2), Lee noted that in any population, the most capable, disciplined, and public-spirited five to ten percent of citizens act as "the yeast, the ferment, the catalyst" that enables the entire society to advance.
+- **07:81.** During the Late Bronze Age Collapse (c. 1200–1150 BCE), complex palace civilizations across the eastern Mediterranean had maintained long-distance tin-and-copper trade networks, extensive irrigation, monumental stone architecture, and scribal literacy (such as Mycenaean Linear B) for centuries.
+  - Draft: Complex palace civilizations across the eastern Mediterranean had maintained long-distance tin-and-copper trade networks, extensive irrigation, monumental stone architecture, and scribal literacy (such as Mycenaean Linear B) for centuries, during the Late Bronze Age Collapse (c. 1200–1150 BCE).
+- **13:43.** Addressing the reality of human cognitive and executive variation (Principle 2), Lee noted that in any population, the most capable, disciplined, and public-spirited five to ten percent of citizens act as "the yeast, the ferment, the catalyst" that enables the entire society to advance.
   - Draft: Lee noted that in any population, the most capable, disciplined, and public-spirited five to ten percent of citizens act as "the yeast, the ferment, the catalyst" that enables the entire society to advance, addressing the reality of human cognitive and executive variation (Principle 2).
-- **14:133.** Yet between six in the morning and ten at night, human life continued, reality was respected, decay was arrested, a household was sheltered, a municipality was strengthened, and the accumulated inheritance of five thousand years of human method was transmitted one day further into the future.
+- **13:111.** Against Principles 3 and 4, under War Communism (1918–1921) and later Stalin's Forced Collectivization (1929–1933), the Bolsheviks waged war against the very class of competent, industrious family farmers (kulaks) whom Stolypin had enabled.
+  - Draft: The Bolsheviks waged war against the very class of competent, industrious family farmers (kulaks) whom Stolypin had enabled, against Principles 3 and 4, under War Communism (1918–1921) and later Stalin's Forced Collectivization (1929–1933).
+- **14:132.** Yet between six in the morning and ten at night, human life continued, reality was respected, decay was arrested, a household was sheltered, a municipality was strengthened, and the accumulated inheritance of five thousand years of human method was transmitted one day further into the future.
   - Draft: Yet human life continued, reality was respected, decay was arrested, a household was sheltered, a municipality was strengthened, and the accumulated inheritance of five thousand years of human method was transmitted one day further into the future, between six in the morning and ten at night.
 
-### Pull forward (4)
+### Pull forward (5)
 
 A short cause stated after its effect moves to the front.
 
 - **02:53.** Reality is consequential because there is no way to escape the activity of the physical.
   - Draft: Because there is no way to escape the activity of the physical, reality is consequential.
-- **02:94.** Within thirty seconds, the untested theorist is defeated, because internal coherence unverified by physical reality is mere conjecture.
+- **02:95.** Within thirty seconds, the untested theorist is defeated, because internal coherence unverified by physical reality is mere conjecture.
   - Draft: Because internal coherence unverified by physical reality is mere conjecture, within thirty seconds, the untested theorist is defeated.
-- **09:158.** The examination was not unjust because the two candidates received unequal scores.
+- **09:163.** The examination was not unjust because the two candidates received unequal scores.
   - Draft: Because the two candidates received unequal scores, the examination was not unjust.
-- **12:127.** Apostasy and blasphemy law also fall under Principle 1, because a revealed claim must still be tested.
+- **10:34.** Second, civilization cannot be stored on inanimate storage media or stone monuments (Principle 3): a library of engineering textbooks sitting in an empty city with no living human minds to read, practice, and execute them is merely stacked paper awaiting decay, because civilization exists only within living human beings.
+  - Draft: Because civilization exists only within living human beings, second, civilization cannot be stored on inanimate storage media or stone monuments (Principle 3): a library of engineering textbooks sitting in an empty city with no living human minds to read, practice, and execute them is merely stacked paper awaiting decay.
+- **12:111.** Apostasy and blasphemy law also fall under Principle 1, because a revealed claim must still be tested.
   - Draft: Because a revealed claim must still be tested, apostasy and blasphemy law also fall under Principle 1.
 
-### Split (195)
+### Split (197)
 
 A colon or semicolon that joins two clauses becomes a full stop.
 
 - **01:25.** Nature does not hand us loaves of bread; we clear stones from a field, forge an iron plowshare, hitch draft power, sow selected seed at a known season, and mill the harvested grain.
   - Draft: Nature does not hand us loaves of bread. We clear stones from a field, forge an iron plowshare, hitch draft power, sow selected seed at a known season, and mill the harvested grain.
+- **01:29.** A stable farm is technology as well: an engineered biological system of cleared land, irrigation channels, soil fertility maintained by manure or nitrogen-fixing cover crops, and seed grain dried and protected from vermin over winter, converting sunlight, water, and human labor into a reliable supply of food.
+  - Draft: A stable farm is technology as well. An engineered biological system of cleared land, irrigation channels, soil fertility maintained by manure or nitrogen-fixing cover crops, and seed grain dried and protected from vermin over winter, converting sunlight, water, and human labor into a reliable supply of food.
 - **01:31.** That stable life does not happen by biological default; it has to be constructed and maintained against impulse and sloth just as deliberately as a stone wall is maintained against frost.
   - Draft: That stable life does not happen by biological default. It has to be constructed and maintained against impulse and sloth just as deliberately as a stone wall is maintained against frost.
-- **01:46.** Civilizations are not just mechanical tools; they also comprise the social customs, laws, and individual values within that civilization.
+- **01:47.** Civilizations are not just mechanical tools; they also comprise the social customs, laws, and individual values within that civilization.
   - Draft: Civilizations are not just mechanical tools. They also comprise the social customs, laws, and individual values within that civilization.
 - **02:15.** When the airplane takes off and encounters severe turbulence, the wing spar is unaffected by the statute; it fractures at the exact physical stress limit of aluminum.
   - Draft: When the airplane takes off and encounters severe turbulence, the wing spar is unaffected by the statute. It fractures at the exact physical stress limit of aluminum.
@@ -1430,59 +1441,59 @@ A colon or semicolon that joins two clauses becomes a full stop.
   - Draft: Densely planted seedlings choked each other for water and nutrients. Vernalized grain rotted or froze; and millions of human beings starved to death in preventable famines.
 - **02:65.** Densely planted seedlings choked each other for water and nutrients; vernalized grain rotted or froze; and millions of human beings starved to death in preventable famines.
   - Draft: Densely planted seedlings choked each other for water and nutrients; vernalized grain rotted or froze. And millions of human beings starved to death in preventable famines.
-- **02:76.** If the blueprint specifies that the bridge will carry forty tons and the bridge collapses under twenty tons, reality is not in error; the blueprint is in error.
+- **02:77.** If the blueprint specifies that the bridge will carry forty tons and the bridge collapses under twenty tons, reality is not in error; the blueprint is in error.
   - Draft: If the blueprint specifies that the bridge will carry forty tons and the bridge collapses under twenty tons, reality is not in error. The blueprint is in error.
-- **02:76.** The mind must adjust its map to match the terrain; the terrain never adjusts itself to match the map.
+- **02:77.** The mind must adjust its map to match the terrain; the terrain never adjusts itself to match the map.
   - Draft: The mind must adjust its map to match the terrain. The terrain never adjusts itself to match the map.
-- **02:78.** Justification is having grounds to think it corresponds: the statement has been tested against reality and holds up, and the more independent tests converge, the stronger the justification.
+- **02:79.** Justification is having grounds to think it corresponds: the statement has been tested against reality and holds up, and the more independent tests converge, the stronger the justification.
   - Draft: Justification is having grounds to think it corresponds. The statement has been tested against reality and holds up, and the more independent tests converge, the stronger the justification.
-- **02:78.** A statement can be true without being justified, and a practice can be justified while the explanation given for it is not; the first and third distinctions below show how they come apart.
+- **02:79.** A statement can be true without being justified, and a practice can be justified while the explanation given for it is not; the first and third distinctions below show how they come apart.
   - Draft: A statement can be true without being justified, and a practice can be justified while the explanation given for it is not. The first and third distinctions below show how they come apart.
-- **02:88.** A weather forecast is a model: it tracks barometric pressure, wind velocity, and humidity while leaving out the position of every individual raindrop.
+- **02:89.** A weather forecast is a model: it tracks barometric pressure, wind velocity, and humidity while leaving out the position of every individual raindrop.
   - Draft: A weather forecast is a model. It tracks barometric pressure, wind velocity, and humidity while leaving out the position of every individual raindrop.
-- **02:88.** A household budget is a model: it tracks monthly income, rent, groceries, and savings while leaving room for the furnace that might break in January.
+- **02:89.** A household budget is a model: it tracks monthly income, rent, groceries, and savings while leaving room for the furnace that might break in January.
   - Draft: A household budget is a model. It tracks monthly income, rent, groceries, and savings while leaving room for the furnace that might break in January.
-- **02:90.** The design calculation did not show that hidden flaw, and visual inspection alone could not see inside the assembled joint; only physical testing and inspection of the actual member reveal what is really there.
+- **02:91.** The design calculation did not show that hidden flaw, and visual inspection alone could not see inside the assembled joint; only physical testing and inspection of the actual member reveal what is really there.
   - Draft: The design calculation did not show that hidden flaw, and visual inspection alone could not see inside the assembled joint. Only physical testing and inspection of the actual member reveal what is really there.
-- **02:92.** Logic can tell what is congruent inside a model or a story; it cannot tell whether the story is real.
+- **02:93.** Logic can tell what is congruent inside a model or a story; it cannot tell whether the story is real.
   - Draft: Logic can tell what is congruent inside a model or a story. It cannot tell whether the story is real.
-- **02:104.** The boiling was justified by the lower death rate; the balance theory was not.
+- **02:105.** The boiling was justified by the lower death rate; the balance theory was not.
   - Draft: The boiling was justified by the lower death rate. The balance theory was not.
-- **02:112.** Alchemy is the classic example: for centuries, alchemists claimed that base lead could be transmuted into gold by chemical boiling and astrological incantations.
+- **02:113.** Alchemy is the classic example: for centuries, alchemists claimed that base lead could be transmuted into gold by chemical boiling and astrological incantations.
   - Draft: Alchemy is the classic example. For centuries, alchemists claimed that base lead could be transmuted into gold by chemical boiling and astrological incantations.
-- **02:113.** When the broader successor model arrives, it does not discard the incomplete model as falsehood alongside alchemy; it preserves the earlier model's successes as a special limiting case and explains why the earlier model worked inside its boundary.
+- **02:115.** When the broader successor model arrives, it does not discard the incomplete model as falsehood alongside alchemy; it preserves the earlier model's successes as a special limiting case and explains why the earlier model worked inside its boundary.
   - Draft: When the broader successor model arrives, it does not discard the incomplete model as falsehood alongside alchemy. It preserves the earlier model's successes as a special limiting case and explains why the earlier model worked inside its boundary.
-- **02:117.** Yet Ptolemy's physical hypothesis was erroneous: the Earth did not sit immobile at the center of the universe while planets moved on nested crystalline spheres and secondary circles pinned to primary circles.
+- **02:119.** Yet Ptolemy's physical hypothesis was erroneous: the Earth did not sit immobile at the center of the universe while planets moved on nested crystalline spheres and secondary circles pinned to primary circles.
   - Draft: Yet Ptolemy's physical hypothesis was erroneous. The Earth did not sit immobile at the center of the universe while planets moved on nested crystalline spheres and secondary circles pinned to primary circles.
-- **02:121.** Two centuries later, Einstein showed that at velocities approaching the speed of light, or in intense gravitational fields like that near the Sun's surface, Newtonian mechanics is incomplete: time and space are not absolute, and Mercury's orbit precesses by an extra 43 arcseconds per century that Newton's formula cannot account for.
+- **02:123.** Two centuries later, Einstein showed that at velocities approaching the speed of light, or in intense gravitational fields like that near the Sun's surface, Newtonian mechanics is incomplete: time and space are not absolute, and Mercury's orbit precesses by an extra 43 arcseconds per century that Newton's formula cannot account for.
   - Draft: Two centuries later, Einstein showed that at velocities approaching the speed of light, or in intense gravitational fields like that near the Sun's surface, Newtonian mechanics is incomplete. Time and space are not absolute, and Mercury's orbit precesses by an extra 43 arcseconds per century that Newton's formula cannot account for.
-- **02:123.** Global Positioning System (GPS) satellites operate in a different regime: their atomic clocks move at 14,000 kilometers per hour in weaker gravity twenty thousand kilometers above the Earth.
+- **02:125.** Global Positioning System (GPS) satellites operate in a different regime: their atomic clocks move at 14,000 kilometers per hour in weaker gravity twenty thousand kilometers above the Earth.
   - Draft: Global Positioning System (GPS) satellites operate in a different regime. Their atomic clocks move at 14,000 kilometers per hour in weaker gravity twenty thousand kilometers above the Earth.
-- **02:125.** A chain of incomplete models expanding from Kepler to Newton to Einstein is not a failure of truth-seeking; it is what real, cumulative truth-seeking looks like among limited human beings.
+- **02:127.** A chain of incomplete models expanding from Kepler to Newton to Einstein is not a failure of truth-seeking; it is what real, cumulative truth-seeking looks like among limited human beings.
   - Draft: A chain of incomplete models expanding from Kepler to Newton to Einstein is not a failure of truth-seeking. It is what real, cumulative truth-seeking looks like among limited human beings.
-- **02:151.** The bridge builder does not know the breaking load of each oak beam to the pound; he knows it within a range, sizes the span to carry several times the heaviest wagon expected, and the bridge stands.
+- **02:153.** The bridge builder does not know the breaking load of each oak beam to the pound; he knows it within a range, sizes the span to carry several times the heaviest wagon expected, and the bridge stands.
   - Draft: The bridge builder does not know the breaking load of each oak beam to the pound. He knows it within a range, sizes the span to carry several times the heaviest wagon expected, and the bridge stands.
-- **02:152.** The arithmetic is exact; the answer is not.
+- **02:155.** The arithmetic is exact; the answer is not.
   - Draft: The arithmetic is exact. The answer is not.
-- **02:152.** The errors in the measurements must be carried through to the answer: for each measurement, the builder works out how fast the answer changes as that measurement changes (the derivative of the answer with respect to that measurement), multiplies that rate by the error in the measurement, and adds the results.
+- **02:155.** The errors in the measurements must be carried through to the answer: for each measurement, the builder works out how fast the answer changes as that measurement changes (the derivative of the answer with respect to that measurement), multiplies that rate by the error in the measurement, and adds the results.
   - Draft: The errors in the measurements must be carried through to the answer. For each measurement, the builder works out how fast the answer changes as that measurement changes (the derivative of the answer with respect to that measurement), multiplies that rate by the error in the measurement, and adds the results.
-- **02:152.** The forecaster in the third distinction did this: he gave a range, not a single number, and the range could have failed.
+- **02:155.** The forecaster in the third distinction did this: he gave a range, not a single number, and the range could have failed.
   - Draft: The forecaster in the third distinction did this. He gave a range, not a single number, and the range could have failed.
 - **03:19.** In the strict Scripturalist epistemology, human sensory observation can never yield genuine knowledge of anything; empiricism is dismissed as a total fallacy.
   - Draft: In the strict Scripturalist epistemology, human sensory observation can never yield genuine knowledge of anything. Empiricism is dismissed as a total fallacy.
 - **03:19.** According to Crampton and Clark, truth is not correspondence to an observable physical reality; rather, a proposition is true solely because God thinks it, and human beings possess truth only through the 66 books of the Bible and formal logical deductions drawn directly from biblical sentences.
   - Draft: According to Crampton and Clark, truth is not correspondence to an observable physical reality. Rather, a proposition is true solely because God thinks it, and human beings possess truth only through the 66 books of the Bible and formal logical deductions drawn directly from biblical sentences.
-- **03:45.** Under Principle 1, the question is whether reality is taught as consequential: whether fire burns cotton because of what fire and cotton are, whatever anyone intends.
+- **03:46.** Under Principle 1, the question is whether reality is taught as consequential: whether fire burns cotton because of what fire and cotton are, whatever anyone intends.
   - Draft: Under Principle 1, the question is whether reality is taught as consequential. Whether fire burns cotton because of what fire and cotton are, whatever anyone intends.
-- **03:51.** The third major rival to correspondence requires no theology at all; it dominates large portions of modern Western humanities departments, schools of education, and administrative bureaucracies.
+- **03:52.** The third major rival to correspondence requires no theology at all; it dominates large portions of modern Western humanities departments, schools of education, and administrative bureaucracies.
   - Draft: The third major rival to correspondence requires no theology at all. It dominates large portions of modern Western humanities departments, schools of education, and administrative bureaucracies.
-- **03:53.** The constructivist begins from a partial truth (addressed in Chapter 5): human beings use language to categorize the world, and institutions with political power often influence which categories are favored.
+- **03:54.** The constructivist begins from a partial truth (addressed in Chapter 5): human beings use language to categorize the world, and institutions with political power often influence which categories are favored.
   - Draft: The constructivist begins from a partial truth (addressed in Chapter 5). Human beings use language to categorize the world, and institutions with political power often influence which categories are favored.
-- **03:55.** In this view, scientific method, biological sex, objective merit, and the rule of law are not discoveries about how reality works; they are hegemonic narratives constructed by dominant groups to preserve their privilege.
+- **03:56.** In this view, scientific method, biological sex, objective merit, and the rule of law are not discoveries about how reality works; they are hegemonic narratives constructed by dominant groups to preserve their privilege.
   - Draft: In this view, scientific method, biological sex, objective merit, and the rule of law are not discoveries about how reality works. They are hegemonic narratives constructed by dominant groups to preserve their privilege.
-- **03:57.** A book or a story does not create a new reality; it creates a narrative, and a narrative does not push back, because its author controls it.
+- **03:58.** A book or a story does not create a new reality; it creates a narrative, and a narrative does not push back, because its author controls it.
   - Draft: A book or a story does not create a new reality. It creates a narrative, and a narrative does not push back, because its author controls it.
-- **03:70.** Claims about what lies beyond the universe's beginning, or about all possible worlds, cannot be settled by repeated testing against reality; they are extrapolation from the world we interact with.
+- **03:74.** Claims about what lies beyond the universe's beginning, or about all possible worlds, cannot be settled by repeated testing against reality; they are extrapolation from the world we interact with.
   - Draft: Claims about what lies beyond the universe's beginning, or about all possible worlds, cannot be settled by repeated testing against reality. They are extrapolation from the world we interact with.
 - **04:5.** We have established the nature of the operating environment: reality is real, knowable, and consequential, and truth is what corresponds to reality.
   - Draft: We have established the nature of the operating environment. Reality is real, knowable, and consequential, and truth is what corresponds to reality.
@@ -1500,65 +1511,69 @@ A colon or semicolon that joins two clauses becomes a full stop.
   - Draft: A person who does not care about his own well-being will not guard his health, will not learn a skill, and will not save for winter. He immediately becomes a dependent burden who must be fed, housed, and supported by the labor of others.
 - **04:53.** The baker wakes at four in the morning to knead dough and fire his oven because he wants to feed his own children and prosper; yet under symmetrical market procedure, the only way he can earn the town's coins is by baking good, wholesome bread at a price his neighbors willingly pay.
   - Draft: The baker wakes at four in the morning to knead dough and fire his oven because he wants to feed his own children and prosper. Yet under symmetrical market procedure, the only way he can earn the town's coins is by baking good, wholesome bread at a price his neighbors willingly pay.
-- **04:79.** Principle 1 requires us to find truth and keep complex systems running; Principle 2 tells us that every individual human being is fallible, forgetful, biased toward his own interest, and limited in reach.
+- **04:61.** There are only twenty-four hours in a day; after sixteen hours of focused labor without sleep, an engineer's or a surgeon's error rate climbs precipitously, and an hour spent in one place cannot simultaneously be spent fifty miles away.
+  - Draft: There are only twenty-four hours in a day. After sixteen hours of focused labor without sleep, an engineer's or a surgeon's error rate climbs precipitously, and an hour spent in one place cannot simultaneously be spent fifty miles away.
+- **04:77.** Principle 1 requires us to find truth and keep complex systems running; Principle 2 tells us that every individual human being is fallible, forgetful, biased toward his own interest, and limited in reach.
   - Draft: Principle 1 requires us to find truth and keep complex systems running. Principle 2 tells us that every individual human being is fallible, forgetful, biased toward his own interest, and limited in reach.
-- **04:83.** The checklist does not fatigue at midnight; the pilot verifies every line before takeoff so he does not omit setting the flaps.
+- **04:81.** The checklist does not fatigue at midnight; the pilot verifies every line before takeoff so he does not omit setting the flaps.
   - Draft: The checklist does not fatigue at midnight. The pilot verifies every line before takeoff so he does not omit setting the flaps.
-- **04:99.** Recognizing human particularity does not establish a caste hierarchy of human worth; rather, it establishes that people are distinct, non-interchangeable, and rooted in real chains of descent and formation.
+- **04:93.** Recognizing human particularity does not establish a caste hierarchy of human worth; rather, it establishes that people are distinct, non-interchangeable, and rooted in real chains of descent and formation.
   - Draft: Recognizing human particularity does not establish a caste hierarchy of human worth. Rather, it establishes that people are distinct, non-interchangeable, and rooted in real chains of descent and formation.
-- **04:104.** American plants face frequent unannounced inspections; foreign plants have often had weeks of notice, and the FDA still found serious deficiencies at them more than twice as often (FDA, 6 May 2025).
+- **04:101.** American plants face frequent unannounced inspections; foreign plants have often had weeks of notice, and the FDA still found serious deficiencies at them more than twice as often (FDA, 6 May 2025).
   - Draft: American plants face frequent unannounced inspections. Foreign plants have often had weeks of notice, and the FDA still found serious deficiencies at them more than twice as often (FDA, 6 May 2025).
-- **04:120.** A seagull has seagull DNA, seagull parents, and a seagull nervous system; if a seagull is hatched on a cliff, that bird is a seagull, not you in avian form.
+- **04:117.** A seagull has seagull DNA, seagull parents, and a seagull nervous system; if a seagull is hatched on a cliff, that bird is a seagull, not you in avian form.
   - Draft: A seagull has seagull DNA, seagull parents, and a seagull nervous system. If a seagull is hatched on a cliff, that bird is a seagull, not you in avian form.
-- **04:122.** A human being is not an interchangeable unit drawn from a receptacle of generic lives; he is the specific organism formed by his constitution and heritage.
+- **04:119.** A human being is not an interchangeable unit drawn from a receptacle of generic lives; he is the specific organism formed by his constitution and heritage.
   - Draft: A human being is not an interchangeable unit drawn from a receptacle of generic lives. He is the specific organism formed by his constitution and heritage.
-- **04:126.** Instead, the heir owes gratitude to the ancestors who built that inheritance, together with his own part in forming and listening (Virtue 7): he tests what he was told, keeps what holds, and forms his own children in those same habits.
+- **04:123.** Instead, the heir owes gratitude to the ancestors who built that inheritance, together with his own part in forming and listening (Virtue 7): he tests what he was told, keeps what holds, and forms his own children in those same habits.
   - Draft: Instead, the heir owes gratitude to the ancestors who built that inheritance, together with his own part in forming and listening (Virtue 7). He tests what he was told, keeps what holds, and forms his own children in those same habits.
-- **05:43.** The Englishman makes the sound bread; the Frenchman makes the sound pain; the German says Brot.
+- **05:42.** The Englishman makes the sound bread; the Frenchman makes the sound pain; the German says Brot.
   - Draft: The Englishman makes the sound bread. The Frenchman makes the sound pain; the German says Brot.
-- **05:43.** The Englishman makes the sound bread; the Frenchman makes the sound pain; the German says Brot.
+- **05:42.** The Englishman makes the sound bread; the Frenchman makes the sound pain; the German says Brot.
   - Draft: The Englishman makes the sound bread; the Frenchman makes the sound pain. The German says Brot.
-- **05:45.** When an ideological bureaucracy forcibly redefines essential terms (such as woman, citizen, violence, racism, or truth) faster than courts, clinics, and citizens can coordinate, it has not "liberated" society from the dictionary; it has imposed a severe coordination cost on truth-seeking and trust.
+- **05:44.** When an ideological bureaucracy forcibly redefines essential terms (such as woman, citizen, violence, racism, or truth) faster than courts, clinics, and citizens can coordinate, it has not "liberated" society from the dictionary; it has imposed a severe coordination cost on truth-seeking and trust.
   - Draft: When an ideological bureaucracy forcibly redefines essential terms (such as woman, citizen, violence, racism, or truth) faster than courts, clinics, and citizens can coordinate, it has not "liberated" society from the dictionary. It has imposed a severe coordination cost on truth-seeking and trust.
-- **05:53.** The potter has pots and needs wheat today and boots in December; the wheat farmer does not need a pot today.
+- **05:52.** The potter has pots and needs wheat today and boots in December; the wheat farmer does not need a pot today.
   - Draft: The potter has pots and needs wheat today and boots in December. The wheat farmer does not need a pot today.
-- **05:80.** The Peasant's Cow Stall: An armed party detachment arrives at a Russian or Ukrainian village with a decree from Moscow: all private livestock and private grain markets are abolished; by Friday, every peasant family must hand its cow, its workhorses, and its seed over to the collective farm (kolkhoz).
+- **05:79.** The Peasant's Cow Stall: An armed party detachment arrives at a Russian or Ukrainian village with a decree from Moscow: all private livestock and private grain markets are abolished; by Friday, every peasant family must hand its cow, its workhorses, and its seed over to the collective farm (kolkhoz).
   - Draft: The Peasant's Cow Stall: An armed party detachment arrives at a Russian or Ukrainian village with a decree from Moscow. All private livestock and private grain markets are abolished; by Friday, every peasant family must hand its cow, its workhorses, and its seed over to the collective farm (kolkhoz).
-- **05:80.** The Peasant's Cow Stall: An armed party detachment arrives at a Russian or Ukrainian village with a decree from Moscow: all private livestock and private grain markets are abolished; by Friday, every peasant family must hand its cow, its workhorses, and its seed over to the collective farm (kolkhoz).
+- **05:79.** The Peasant's Cow Stall: An armed party detachment arrives at a Russian or Ukrainian village with a decree from Moscow: all private livestock and private grain markets are abolished; by Friday, every peasant family must hand its cow, its workhorses, and its seed over to the collective farm (kolkhoz).
   - Draft: The Peasant's Cow Stall: An armed party detachment arrives at a Russian or Ukrainian village with a decree from Moscow: all private livestock and private grain markets are abolished. By Friday, every peasant family must hand its cow, its workhorses, and its seed over to the collective farm (kolkhoz).
-- **05:95.** Underneath every one of those forms sits an unyielding biological substance: a human child takes fifteen to twenty years to grow from a helpless infant into a self-supporting, civilized adult, and that decade-and-a-half of sleepless nights, feeding, moral correction, and patient teaching cannot be performed by "society in general."
+- **05:94.** Underneath every one of those forms sits an unyielding biological substance: a human child takes fifteen to twenty years to grow from a helpless infant into a self-supporting, civilized adult, and that decade-and-a-half of sleepless nights, feeding, moral correction, and patient teaching cannot be performed by "society in general."
   - Draft: Underneath every one of those forms sits an unyielding biological substance. A human child takes fifteen to twenty years to grow from a helpless infant into a self-supporting, civilized adult, and that decade-and-a-half of sleepless nights, feeding, moral correction, and patient teaching cannot be performed by "society in general."
 - **06:5.** In Principles 1 and 2, we described what is: we inhabit a real, knowable, consequential world where truth corresponds to reality, and we ourselves are self-interested, limited, particular human beings whose survival and cooperation depend on discovered arrangements and cultivated habits.
   - Draft: In Principles 1 and 2, we described what is. We inhabit a real, knowable, consequential world where truth corresponds to reality, and we ourselves are self-interested, limited, particular human beings whose survival and cooperation depend on discovered arrangements and cultivated habits.
 - **06:7.** Now we reach the third foundational question of every society, the transition from is to ought: What is the standard of the good?
   - Draft: Now we reach the third foundational question of every society, the transition from is to ought. What is the standard of the good?
-- **06:54.** Two pilots in a cockpit can sign a notarized, unanimous contract agreeing to ignore the stall warning and raise the nose of the aircraft in an ice storm; the wing still stalls and the aircraft still crashes.
+- **06:47.** Two pilots in a cockpit can sign a notarized, unanimous contract agreeing to ignore the stall warning and raise the nose of the aircraft in an ice storm; the wing still stalls and the aircraft still crashes.
   - Draft: Two pilots in a cockpit can sign a notarized, unanimous contract agreeing to ignore the stall warning and raise the nose of the aircraft in an ice storm. The wing still stalls and the aircraft still crashes.
-- **06:56.** A legislature and fifty million voters can unanimously consent to print ten trillion dollars of paper currency while producing no new grain, steel, or electricity; the currency still hyperinflates and the markets still empty.
-  - Draft: A legislature and fifty million voters can unanimously consent to print ten trillion dollars of paper currency while producing no new grain, steel, or electricity. The currency still hyperinflates and the markets still empty.
-- **06:58.** Consent is a state of subjective agreement between human minds; it has no power to repeal gravity, thermodynamics, biology, or arithmetic.
+- **06:47.** A legislature and fifty million voters can unanimously consent to print ten trillion dollars of paper currency while producing no new grain, steel, or electricity; the currency still loses its value in runaway inflation and the markets still empty.
+  - Draft: A legislature and fifty million voters can unanimously consent to print ten trillion dollars of paper currency while producing no new grain, steel, or electricity. The currency still loses its value in runaway inflation and the markets still empty.
+- **06:47.** Consent is a state of subjective agreement between human minds; it has no power to repeal gravity, thermodynamics, biology, or arithmetic.
   - Draft: Consent is a state of subjective agreement between human minds. It has no power to repeal gravity, thermodynamics, biology, or arithmetic.
-- **06:64.** In reality, what protects and forms a child is never the fiction of the child's consent; it is objective biological reality and the scoped, unchosen duty of parents and adults to keep and build the child's life.
+- **06:49.** In reality, what protects and forms a child is never the fiction of the child's consent; it is objective biological reality and the scoped, unchosen duty of parents and adults to keep and build the child's life.
   - Draft: In reality, what protects and forms a child is never the fiction of the child's consent. It is objective biological reality and the scoped, unchosen duty of parents and adults to keep and build the child's life.
-- **06:73.** Nobody's consent was violated; no existing person on the ledger was forced against his will; and once the last human dies, there is nobody left on the ledger to object.
+- **06:53.** Nobody's consent was violated; no existing person on the ledger was forced against his will; and once the last human dies, there is nobody left on the ledger to object.
   - Draft: Nobody's consent was violated. No existing person on the ledger was forced against his will; and once the last human dies, there is nobody left on the ledger to object.
-- **06:73.** Nobody's consent was violated; no existing person on the ledger was forced against his will; and once the last human dies, there is nobody left on the ledger to object.
+- **06:53.** Nobody's consent was violated; no existing person on the ledger was forced against his will; and once the last human dies, there is nobody left on the ledger to object.
   - Draft: Nobody's consent was violated; no existing person on the ledger was forced against his will. And once the last human dies, there is nobody left on the ledger to object.
-- **06:75.** Under Principle 3, human life continuing, kept, and built is the objective moral minimum: consensual destruction of life, health, competence, and posterity remains destruction.
+- **06:53.** Under Principle 3, human life continuing, kept, and built is the objective moral minimum: consensual destruction of life, health, competence, and posterity remains destruction.
   - Draft: Under Principle 3, human life continuing, kept, and built is the objective moral minimum. Consensual destruction of life, health, competence, and posterity remains destruction.
-- **06:89.** Consent is not the definition of the good; it is an operational instrument inside scoped procedural symmetry.
+- **06:57.** Consent is not the definition of the good; it is an operational instrument inside scoped procedural symmetry.
   - Draft: Consent is not the definition of the good. It is an operational instrument inside scoped procedural symmetry.
-- **06:124.** Parents pass life on; they are not its origin.
+- **06:89.** Parents pass life on; they are not its origin.
   - Draft: Parents pass life on. They are not its origin.
-- **06:146.** All through a dry July, nothing appears to change; the living room remains warm and dry.
+- **06:111.** All through a dry July, nothing appears to change; the living room remains warm and dry.
   - Draft: All through a dry July, nothing appears to change. The living room remains warm and dry.
-- **06:178.** Meanwhile, beneath the stage, nobody has inspected the foundation pilings in forty years; the young men and women in the choir deem manual trades, policing, and military defense beneath their dignity; and the singers have an average of 0.6 children per couple because children would interrupt their rehearsals.
+- **06:115.** So do a marriage, a law, and a border: trust left unmaintained and laws left unenforced deteriorate as surely as wet oak.
+  - Draft: So do a marriage, a law, and a border. Trust left unmaintained and laws left unenforced deteriorate as surely as wet oak.
+- **06:135.** Meanwhile, beneath the stage, nobody has inspected the foundation pilings in forty years; the young men and women in the choir deem manual trades, policing, and military defense beneath their dignity; and the singers have an average of 0.6 children per couple because children would interrupt their rehearsals.
   - Draft: Meanwhile, beneath the stage, nobody has inspected the foundation pilings in forty years. The young men and women in the choir deem manual trades, policing, and military defense beneath their dignity; and the singers have an average of 0.6 children per couple because children would interrupt their rehearsals.
-- **06:178.** Meanwhile, beneath the stage, nobody has inspected the foundation pilings in forty years; the young men and women in the choir deem manual trades, policing, and military defense beneath their dignity; and the singers have an average of 0.6 children per couple because children would interrupt their rehearsals.
+- **06:135.** Meanwhile, beneath the stage, nobody has inspected the foundation pilings in forty years; the young men and women in the choir deem manual trades, policing, and military defense beneath their dignity; and the singers have an average of 0.6 children per couple because children would interrupt their rehearsals.
   - Draft: Meanwhile, beneath the stage, nobody has inspected the foundation pilings in forty years; the young men and women in the choir deem manual trades, policing, and military defense beneath their dignity. And the singers have an average of 0.6 children per couple because children would interrupt their rehearsals.
-- **06:188.** That positive improvement between 8:00 and 8:30 is keeping and building in microcosm: human will and method imposing order on a small area of disorder.
+- **06:145.** That positive improvement between 8:00 and 8:30 is keeping and building in microcosm: human will and method imposing order on a small area of disorder.
   - Draft: That positive improvement between 8:00 and 8:30 is keeping and building in microcosm. Human will and method imposing order on a small area of disorder.
-- **06:192.** We now see what goodness must include: human life continuing, and that life kept and built.
+- **06:149.** We now see what goodness must include: human life continuing, and that life kept and built.
   - Draft: We now see what goodness must include. Human life continuing, and that life kept and built.
 - **07:25.** A man can hold legal title to a house while letting the gutters choke with wet leaves, the porch steps rot, and the yard fill with weeds; that is paper title without ownership, which is neglect accompanied by formal documentation.
   - Draft: A man can hold legal title to a house while letting the gutters choke with wet leaves, the porch steps rot, and the yard fill with weeds. That is paper title without ownership, which is neglect accompanied by formal documentation.
@@ -1566,67 +1581,71 @@ A colon or semicolon that joins two clauses becomes a full stop.
   - Draft: Likewise, a man can father a biological child and have his name printed on the birth certificate, yet never sit with the child at breakfast or teach him right from wrong. He has stated a biological fact, not taken ownership.
 - **07:27.** If it fails, I will not blame the weather or the government; I will repair it.
   - Draft: If it fails, I will not blame the weather or the government. I will repair it.
-- **07:63.** Behind the careless mason's wall, water accumulates with nowhere to drain; the weak mortar crumbles; and fifty tons of saturated earth burst through the stone and crush the house below.
+- **07:61.** Behind the careless mason's wall, water accumulates with nowhere to drain; the weak mortar crumbles; and fifty tons of saturated earth burst through the stone and crush the house below.
   - Draft: Behind the careless mason's wall, water accumulates with nowhere to drain. The weak mortar crumbles; and fifty tons of saturated earth burst through the stone and crush the house below.
-- **07:63.** Behind the careless mason's wall, water accumulates with nowhere to drain; the weak mortar crumbles; and fifty tons of saturated earth burst through the stone and crush the house below.
+- **07:61.** Behind the careless mason's wall, water accumulates with nowhere to drain; the weak mortar crumbles; and fifty tons of saturated earth burst through the stone and crush the house below.
   - Draft: Behind the careless mason's wall, water accumulates with nowhere to drain; the weak mortar crumbles. And fifty tons of saturated earth burst through the stone and crush the house below.
-- **07:83.** When cascading invasions, rebellions, and institutional failures broke the chain of transmission, the skills did not merely decline; in Greece, writing itself disappeared completely for nearly four hundred years, monumental stone construction ceased, and populations shrank by up to three-quarters into impoverished villages that could no longer replicate the tools resting in the tombs of their own great-grandfathers.
+- **07:81.** When cascading invasions, rebellions, and institutional failures broke the chain of transmission, the skills did not merely decline; in Greece, writing itself disappeared completely for nearly four hundred years, monumental stone construction ceased, and populations shrank by up to three-quarters into impoverished villages that could no longer replicate the tools resting in the tombs of their own great-grandfathers.
   - Draft: When cascading invasions, rebellions, and institutional failures broke the chain of transmission, the skills did not merely decline. In Greece, writing itself disappeared completely for nearly four hundred years, monumental stone construction ceased, and populations shrank by up to three-quarters into impoverished villages that could no longer replicate the tools resting in the tombs of their own great-grandfathers.
-- **07:84.** The physical structures and manuscripts remained on the ground; the trained personnel who possessed the operational method were gone.
+- **07:83.** The physical structures and manuscripts remained on the ground; the trained personnel who possessed the operational method were gone.
   - Draft: The physical structures and manuscripts remained on the ground. The trained personnel who possessed the operational method were gone.
-- **07:98.** That ten-stride defeat is neither "trauma" nor "oppression"; it is direct empirical feedback.
+- **07:97.** That ten-stride defeat is neither "trauma" nor "oppression"; it is direct empirical feedback.
   - Draft: That ten-stride defeat is neither "trauma" nor "oppression". It is direct empirical feedback.
-- **07:121.** In Hangar A, every wrench and torque gauge is wiped clean of grease and hung inside its painted outline on the tool board; the concrete floor is scrubbed clean of oil drips; the overhead lights are bright; the aluminum skin of the aircraft is polished and free of corrosion; and the mechanics wear clean uniforms and work with orderly precision.
+- **07:120.** In Hangar A, every wrench and torque gauge is wiped clean of grease and hung inside its painted outline on the tool board; the concrete floor is scrubbed clean of oil drips; the overhead lights are bright; the aluminum skin of the aircraft is polished and free of corrosion; and the mechanics wear clean uniforms and work with orderly precision.
   - Draft: In Hangar A, every wrench and torque gauge is wiped clean of grease and hung inside its painted outline on the tool board. The concrete floor is scrubbed clean of oil drips; the overhead lights are bright; the aluminum skin of the aircraft is polished and free of corrosion; and the mechanics wear clean uniforms and work with orderly precision.
-- **07:123.** In Hangar B, dark puddles of hydraulic fluid sit on the floor mixed with cigarette butts and loose bolts; broken tools are heaped in rusty buckets; the walls are defaced with graffiti; half the fluorescent tubes flicker in the gloom; and the mechanics move about in soiled clothing.
+- **07:122.** In Hangar B, dark puddles of hydraulic fluid sit on the floor mixed with cigarette butts and loose bolts; broken tools are heaped in rusty buckets; the walls are defaced with graffiti; half the fluorescent tubes flicker in the gloom; and the mechanics move about in soiled clothing.
   - Draft: In Hangar B, dark puddles of hydraulic fluid sit on the floor mixed with cigarette butts and loose bolts. Broken tools are heaped in rusty buckets; the walls are defaced with graffiti; half the fluorescent tubes flicker in the gloom; and the mechanics move about in soiled clothing.
-- **07:123.** In Hangar B, dark puddles of hydraulic fluid sit on the floor mixed with cigarette butts and loose bolts; broken tools are heaped in rusty buckets; the walls are defaced with graffiti; half the fluorescent tubes flicker in the gloom; and the mechanics move about in soiled clothing.
+- **07:122.** In Hangar B, dark puddles of hydraulic fluid sit on the floor mixed with cigarette butts and loose bolts; broken tools are heaped in rusty buckets; the walls are defaced with graffiti; half the fluorescent tubes flicker in the gloom; and the mechanics move about in soiled clothing.
   - Draft: In Hangar B, dark puddles of hydraulic fluid sit on the floor mixed with cigarette butts and loose bolts; broken tools are heaped in rusty buckets. The walls are defaced with graffiti; half the fluorescent tubes flicker in the gloom; and the mechanics move about in soiled clothing.
-- **07:123.** In Hangar B, dark puddles of hydraulic fluid sit on the floor mixed with cigarette butts and loose bolts; broken tools are heaped in rusty buckets; the walls are defaced with graffiti; half the fluorescent tubes flicker in the gloom; and the mechanics move about in soiled clothing.
+- **07:122.** In Hangar B, dark puddles of hydraulic fluid sit on the floor mixed with cigarette butts and loose bolts; broken tools are heaped in rusty buckets; the walls are defaced with graffiti; half the fluorescent tubes flicker in the gloom; and the mechanics move about in soiled clothing.
   - Draft: In Hangar B, dark puddles of hydraulic fluid sit on the floor mixed with cigarette butts and loose bolts; broken tools are heaped in rusty buckets; the walls are defaced with graffiti. Half the fluorescent tubes flicker in the gloom; and the mechanics move about in soiled clothing.
-- **07:123.** In Hangar B, dark puddles of hydraulic fluid sit on the floor mixed with cigarette butts and loose bolts; broken tools are heaped in rusty buckets; the walls are defaced with graffiti; half the fluorescent tubes flicker in the gloom; and the mechanics move about in soiled clothing.
+- **07:122.** In Hangar B, dark puddles of hydraulic fluid sit on the floor mixed with cigarette butts and loose bolts; broken tools are heaped in rusty buckets; the walls are defaced with graffiti; half the fluorescent tubes flicker in the gloom; and the mechanics move about in soiled clothing.
   - Draft: In Hangar B, dark puddles of hydraulic fluid sit on the floor mixed with cigarette butts and loose bolts; broken tools are heaped in rusty buckets; the walls are defaced with graffiti; half the fluorescent tubes flicker in the gloom. And the mechanics move about in soiled clothing.
-- **07:131.** Beauty has an objective three-part structure: it is vitality, order, and truth showing together in a body, a built structure, a machine, a home, or a work of art.
+- **07:130.** Beauty has an objective three-part structure: it is vitality, order, and truth showing together in a body, a built structure, a machine, a home, or a work of art.
   - Draft: Beauty has an objective three-part structure. It is vitality, order, and truth showing together in a body, a built structure, a machine, a home, or a work of art.
 - **07:134.** Inside a story the author decides the consequences; in reality they come whether anyone decides them or not.
   - Draft: Inside a story the author decides the consequences. In reality they come whether anyone decides them or not.
 - **07:134.** The falsehood matters because the story itself is real: its words act on the minds of the people who read it, though its content does not push back.
   - Draft: The falsehood matters because the story itself is real. Its words act on the minds of the people who read it, though its content does not push back.
-- **07:168.** Held together, the rule is sound: work to the highest standard one's capability can reach, and invite empirical testing and candid criticism to check the work before failure occurs.
+- **07:138.** Vitality without order or truth produces chaos and noise: a street riot, an untended patch of noxious weeds choking a garden, or a drunken outburst has abundant biological energy, but without order and truth it is destructive disorder.
+  - Draft: Vitality without order or truth produces chaos and noise. A street riot, an untended patch of noxious weeds choking a garden, or a drunken outburst has abundant biological energy, but without order and truth it is destructive disorder.
+- **07:162.** Held together, the rule is sound: work to the highest standard one's capability can reach, and invite empirical testing and candid criticism to check the work before failure occurs.
   - Draft: Held together, the rule is sound. Work to the highest standard one's capability can reach, and invite empirical testing and candid criticism to check the work before failure occurs.
-- **07:174.** Holding him back to repeat fourth grade feels unpleasant: the boy will weep, his parents will be embarrassed, and the teacher will feel uncomfortable delivering the news.
+- **07:166.** Holding him back to repeat fourth grade feels unpleasant: the boy will weep, his parents will be embarrassed, and the teacher will feel uncomfortable delivering the news.
   - Draft: Holding him back to repeat fourth grade feels unpleasant. The boy will weep, his parents will be embarrassed, and the teacher will feel uncomfortable delivering the news.
-- **07:176.** The decision-makers enjoyed a pleasant sentiment for an afternoon in June; the boy bore the cost in diminished capability for the next fifty years.
+- **07:168.** The decision-makers enjoyed a pleasant sentiment for an afternoon in June; the boy bore the cost in diminished capability for the next fifty years.
   - Draft: The decision-makers enjoyed a pleasant sentiment for an afternoon in June. The boy bore the cost in diminished capability for the next fifty years.
-- **08:26.** A parent who loses consciousness from hypoxia in thirty seconds helps nobody; he becomes a second incapacitated person whom someone else must carry.
+- **08:27.** A parent who loses consciousness from hypoxia in thirty seconds helps nobody; he becomes a second incapacitated person whom someone else must carry.
   - Draft: A parent who loses consciousness from hypoxia in thirty seconds helps nobody. He becomes a second incapacitated person whom someone else must carry.
-- **08:30.** Collectivist ideologies invert this order: they claim that you belong first to the State, the Party, or "Global Humanity," and that you must begin from the globe and reason inward to determine what remnants of time and property the collective permits you to retain for yourself and your family.
+- **08:31.** Collectivist ideologies invert this order: they claim that you belong first to the State, the Party, or "Global Humanity," and that you must begin from the globe and reason inward to determine what remnants of time and property the collective permits you to retain for yourself and your family.
   - Draft: Collectivist ideologies invert this order. They claim that you belong first to the State, the Party, or "Global Humanity," and that you must begin from the globe and reason inward to determine what remnants of time and property the collective permits you to retain for yourself and your family.
-- **08:30.** You do not start from the globe and work inward; you anchor your work in yourself and your household first, so that you have a firm foundation from which to support anything else.
+- **08:31.** You do not start from the globe and work inward; you anchor your work in yourself and your household first, so that you have a firm foundation from which to support anything else.
   - Draft: You do not start from the globe and work inward. You anchor your work in yourself and your household first, so that you have a firm foundation from which to support anything else.
-- **08:58.** The boy tends the young trees every afternoon; the cleared hillside reduces brush-fire and runoff hazards for the adjoining neighbors; and the orchard will still yield fruit and timber for the boy's own children thirty years from now.
+- **08:59.** The boy tends the young trees every afternoon; the cleared hillside reduces brush-fire and runoff hazards for the adjoining neighbors; and the orchard will still yield fruit and timber for the boy's own children thirty years from now.
   - Draft: The boy tends the young trees every afternoon. The cleared hillside reduces brush-fire and runoff hazards for the adjoining neighbors; and the orchard will still yield fruit and timber for the boy's own children thirty years from now.
-- **08:58.** The boy tends the young trees every afternoon; the cleared hillside reduces brush-fire and runoff hazards for the adjoining neighbors; and the orchard will still yield fruit and timber for the boy's own children thirty years from now.
+- **08:59.** The boy tends the young trees every afternoon; the cleared hillside reduces brush-fire and runoff hazards for the adjoining neighbors; and the orchard will still yield fruit and timber for the boy's own children thirty years from now.
   - Draft: The boy tends the young trees every afternoon; the cleared hillside reduces brush-fire and runoff hazards for the adjoining neighbors. And the orchard will still yield fruit and timber for the boy's own children thirty years from now.
-- **08:62.** The family is not a random collection of strangers who happened to win a raffle; the family is an intergenerational building unit bound by mutual obligation.
+- **08:63.** The family is not a random collection of strangers who happened to win a raffle; the family is an intergenerational building unit bound by mutual obligation.
   - Draft: The family is not a random collection of strangers who happened to win a raffle. The family is an intergenerational building unit bound by mutual obligation.
-- **08:116.** That parent has not achieved a "higher, universal love"; he has neglected his primary obligation in Tier 2 to gain effortless approval in Tier 5.
+- **08:99.** It is strictly scarce and rivalrous: because you are a limited human being, every hour, every dollar, and every measure of focused attention you expend in one place is physically unavailable to be expended in another place.
+  - Draft: It is strictly scarce and rivalrous. Because you are a limited human being, every hour, every dollar, and every measure of focused attention you expend in one place is physically unavailable to be expended in another place.
+- **08:113.** That parent has not achieved a "higher, universal love"; he has neglected his primary obligation in Tier 2 to gain effortless approval in Tier 5.
   - Draft: That parent has not achieved a "higher, universal love". He has neglected his primary obligation in Tier 2 to gain effortless approval in Tier 5.
-- **08:123.** If a relative is truly ill, the family supports him; if he is an able-bodied dependent who refuses to work, the family sees it every day and can confront him and enforce a firm boundary.
+- **08:121.** If a relative is truly ill, the family supports him; if he is an able-bodied dependent who refuses to work, the family sees it every day and can confront him and enforce a firm boundary.
   - Draft: If a relative is truly ill, the family supports him. If he is an able-bodied dependent who refuses to work, the family sees it every day and can confront him and enforce a firm boundary.
-- **08:143.** The inner tier sustains the outer tier; the outer tier protects the inner tier.
+- **08:142.** The inner tier sustains the outer tier; the outer tier protects the inner tier.
   - Draft: The inner tier sustains the outer tier. The outer tier protects the inner tier.
-- **08:161.** An invariable operational rule governs enemies: You cannot "keep and build" an enemy.
+- **08:160.** An invariable operational rule governs enemies: You cannot "keep and build" an enemy.
   - Draft: An invariable operational rule governs enemies. You cannot "keep and build" an enemy.
-- **08:161.** If you hand food, money, weapons, or legal jurisdiction to an agent whose active goal is your destruction, you have not converted him into a friend; you have subsidized your own destruction.
+- **08:160.** If you hand food, money, weapons, or legal jurisdiction to an agent whose active goal is your destruction, you have not converted him into a friend; you have subsidized your own destruction.
   - Draft: If you hand food, money, weapons, or legal jurisdiction to an agent whose active goal is your destruction, you have not converted him into a friend. You have subsidized your own destruction.
-- **08:179.** Weakness that refuses to defend the perimeter of life is not a higher form of kindness; it is negligence that surrenders the flock to the predator.
+- **08:178.** Weakness that refuses to defend the perimeter of life is not a higher form of kindness; it is negligence that surrenders the flock to the predator.
   - Draft: Weakness that refuses to defend the perimeter of life is not a higher form of kindness. It is negligence that surrenders the flock to the predator.
-- **08:195.** This is the limit stated under Tier 4: a tax levied to confiscate the household, or to destroy a people, is not a civic duty.
+- **08:192.** This is the limit stated under Tier 4: a tax levied to confiscate the household, or to destroy a people, is not a civic duty.
   - Draft: This is the limit stated under Tier 4. A tax levied to confiscate the household, or to destroy a people, is not a civic duty.
-- **08:218.** Existence is not a privilege granted by a committee; existence is a condition maintained by alignment with truth, internal order, economic competence, children raised to maturity, and the armed strength and will to make aggression fatal to the aggressor.
+- **08:214.** Existence is not a privilege granted by a committee; existence is a condition maintained by alignment with truth, internal order, economic competence, children raised to maturity, and the armed strength and will to make aggression fatal to the aggressor.
   - Draft: Existence is not a privilege granted by a committee. Existence is a condition maintained by alignment with truth, internal order, economic competence, children raised to maturity, and the armed strength and will to make aggression fatal to the aggressor.
-- **08:220.** An infant, a sick neighbor, and an aged parent are weak, and a sound household carries them; carrying them is much of what its strength is for.
+- **08:216.** An infant, a sick neighbor, and an aged parent are weak, and a sound household carries them; carrying them is much of what its strength is for.
   - Draft: An infant, a sick neighbor, and an aged parent are weak, and a sound household carries them. Carrying them is much of what its strength is for.
 - **09:11.** Tomorrow morning, you and your cousins will not resort to the court; you will arm yourselves, march to the judge's house, and recover the truck by force.
   - Draft: Tomorrow morning, you and your cousins will not resort to the court. You will arm yourselves, march to the judge's house, and recover the truck by force.
@@ -1634,145 +1653,139 @@ A colon or semicolon that joins two clauses becomes a full stop.
   - Draft: It is natural to sympathize with a son's distress when his father commits an offense. That is why the rules of evidence in many modern legal systems excuse a spouse from being compelled to testify against the other, while the crime is still prosecuted through independent evidence (in England, the Police and Criminal Evidence Act 1984, section 80; in the United States, Trammel v. United States, 1980).
 - **09:17.** Clan concealment does not preserve families; it destroys the public peace that keeps every family's livestock secure.
   - Draft: Clan concealment does not preserve families. It destroys the public peace that keeps every family's livestock secure.
-- **09:41.** The Municipal and National Scope: The traffic laws, tax statutes, and criminal courts of Ohio apply inside the borders of Ohio; they do not apply in Tokyo or Paris.
-  - Draft: The Municipal and National Scope: The traffic laws, tax statutes, and criminal courts of Ohio apply inside the borders of Ohio. They do not apply in Tokyo or Paris.
-- **09:68.** In every human association larger than a few individuals, governing decisions must be enforced: someone will determine whether thieves are prosecuted or released, whether children are taught sound instruction or partisan dogma, and whether public revenue maintains civic infrastructure or enriches favored factions.
+- **09:43.** The same holds at the municipal and national level: the traffic laws, tax statutes, and criminal courts of Ohio apply inside the borders of Ohio; they do not apply in Tokyo or Paris.
+  - Draft: The same holds at the municipal and national level. The traffic laws, tax statutes, and criminal courts of Ohio apply inside the borders of Ohio; they do not apply in Tokyo or Paris.
+- **09:43.** The same holds at the municipal and national level: the traffic laws, tax statutes, and criminal courts of Ohio apply inside the borders of Ohio; they do not apply in Tokyo or Paris.
+  - Draft: The same holds at the municipal and national level: the traffic laws, tax statutes, and criminal courts of Ohio apply inside the borders of Ohio. They do not apply in Tokyo or Paris.
+- **09:73.** In every human association larger than a few individuals, governing decisions must be enforced: someone will determine whether thieves are prosecuted or released, whether children are taught sound instruction or partisan dogma, and whether public revenue maintains civic infrastructure or enriches favored factions.
   - Draft: In every human association larger than a few individuals, governing decisions must be enforced. Someone will determine whether thieves are prosecuted or released, whether children are taught sound instruction or partisan dogma, and whether public revenue maintains civic infrastructure or enriches favored factions.
-- **09:70.** Refusing to exercise authority within one's proper scope is not humility; it is a dereliction of duty that surrenders governance to the least principled members of society.
+- **09:75.** Refusing to exercise authority within one's proper scope is not humility; it is a dereliction of duty that surrenders governance to the least principled members of society.
   - Draft: Refusing to exercise authority within one's proper scope is not humility. It is a dereliction of duty that surrenders governance to the least principled members of society.
-- **09:80.** That is the test of authority in every scope, from a household to a workshop to an aircraft cockpit to a nation's magistracy: authority is judged by what it does, measured against the five principles.
+- **09:85.** That is the test of authority in every scope, from a household to a workshop to an aircraft cockpit to a nation's magistracy: authority is judged by what it does, measured against the five principles.
   - Draft: That is the test of authority in every scope, from a household to a workshop to an aircraft cockpit to a nation's magistracy. Authority is judged by what it does, measured against the five principles.
-- **09:88.** Strong power is not by itself tyranny; a tyrant is known by what he does with power.
+- **09:93.** Strong power is not by itself tyranny; a tyrant is known by what he does with power.
   - Draft: Strong power is not by itself tyranny. A tyrant is known by what he does with power.
-- **09:94.** A house without walls and a roof is not a "welcoming house"; it is merely an open patch of ground exposed to the wind and rain.
+- **09:99.** A house without walls and a roof is not a "welcoming house"; it is merely an open patch of ground exposed to the wind and rain.
   - Draft: A house without walls and a roof is not a "welcoming house". It is merely an open patch of ground exposed to the wind and rain.
-- **09:94.** In the same way, a country without enforced borders is not a compassionate polity; it is a dissolved jurisdiction where no law, no civic trust, and no shared treasury can survive.
+- **09:99.** In the same way, a country without enforced borders is not a compassionate polity; it is a dissolved jurisdiction where no law, no civic trust, and no shared treasury can survive.
   - Draft: In the same way, a country without enforced borders is not a compassionate polity. It is a dissolved jurisdiction where no law, no civic trust, and no shared treasury can survive.
-- **09:106.** A free country rightly separates private business, charity, education, and state warfare inside its domestic scope: when a domestic baker buys land or opens a school, he is simply a citizen operating a business or a school.
+- **09:111.** A free country rightly separates private business, charity, education, and state warfare inside its domestic scope: when a domestic baker buys land or opens a school, he is simply a citizen operating a business or a school.
   - Draft: A free country rightly separates private business, charity, education, and state warfare inside its domestic scope. When a domestic baker buys land or opens a school, he is simply a citizen operating a business or a school.
-- **09:110.** Justice is scoped: foreign states and their directed organs stand outside the domestic citizen scope and must be met with sovereign boundary defenses.
+- **09:115.** Justice is scoped: foreign states and their directed organs stand outside the domestic citizen scope and must be met with sovereign boundary defenses.
   - Draft: Justice is scoped. Foreign states and their directed organs stand outside the domestic citizen scope and must be met with sovereign boundary defenses.
-- **09:122.** The rule the argument proposes can be applied to everyone alike: no deed, court, or border is valid if the land ever changed hands by force.
+- **09:127.** The rule the argument proposes can be applied to everyone alike: no deed, court, or border is valid if the land ever changed hands by force.
   - Draft: The rule the argument proposes can be applied to everyone alike. No deed, court, or border is valid if the land ever changed hands by force.
-- **09:144.** That practice corrupted the moral formation of the society: it taught from childhood that property and truth have no intrinsic status, and that only stealth, force, and state utility matter.
+- **09:149.** That practice corrupted the moral formation of the society: it taught from childhood that property and truth have no intrinsic status, and that only stealth, force, and state utility matter.
   - Draft: That practice corrupted the moral formation of the society. It taught from childhood that property and truth have no intrinsic status, and that only stealth, force, and state utility matter.
-- **09:156.** One candidate spent twelve hours a week all year studying currents and soundings and has a sharp grasp of seamanship; he scores 98 out of 100.
+- **09:161.** One candidate spent twelve hours a week all year studying currents and soundings and has a sharp grasp of seamanship; he scores 98 out of 100.
   - Draft: One candidate spent twelve hours a week all year studying currents and soundings and has a sharp grasp of seamanship. He scores 98 out of 100.
-- **09:156.** Another spent two hours a week studying and struggles to read a tidal chart; he scores 54 out of 100.
+- **09:161.** Another spent two hours a week studying and struggles to read a tidal chart; he scores 54 out of 100.
   - Draft: Another spent two hours a week studying and struggles to read a tidal chart. He scores 54 out of 100.
-- **09:176.** What Principle 5 forbids is arbitrary prejudice (pre-judging a person by faction or bribe before examining the evidence); what Principle 5 commands is accurate procedural judgment based on conduct and reality.
+- **09:181.** What Principle 5 forbids is arbitrary prejudice (pre-judging a person by faction or bribe before examining the evidence); what Principle 5 commands is accurate procedural judgment based on conduct and reality.
   - Draft: What Principle 5 forbids is arbitrary prejudice (pre-judging a person by faction or bribe before examining the evidence). What Principle 5 commands is accurate procedural judgment based on conduct and reality.
-- **09:189.** The same structural distinction resolves one of the most difficult personal questions in human life: When someone has betrayed, defrauded, or harmed you, what does it mean to forgive him?
+- **09:195.** The same structural distinction resolves one of the most difficult personal questions in human life: When someone has betrayed, defrauded, or harmed you, what does it mean to forgive him?
   - Draft: The same structural distinction resolves one of the most difficult personal questions in human life. When someone has betrayed, defrauded, or harmed you, what does it mean to forgive him?
-- **09:195.** This first part of forgiveness is unilateral: it does not require the offender's permission, apology, or presence.
-  - Draft: This first part of forgiveness is unilateral. It does not require the offender's permission, apology, or presence.
-- **09:209.** A brother who stole from your cash drawer does not receive the safe combination the afternoon he says "I am sorry"; he earns back limited scopes of trust over months and years of verified honesty.
+- **09:205.** A brother who stole from your cash drawer does not receive the safe combination the afternoon he says "I am sorry"; he earns back limited scopes of trust over months and years of verified honesty.
   - Draft: A brother who stole from your cash drawer does not receive the safe combination the afternoon he says "I am sorry". He earns back limited scopes of trust over months and years of verified honesty.
-- **09:213.** Releasing bitterness is charity; entrusting your property to an unrepentant thief is folly.
+- **09:207.** Releasing bitterness is charity; entrusting your property to an unrepentant thief is folly.
   - Draft: Releasing bitterness is charity. Entrusting your property to an unrepentant thief is folly.
-- **09:224.** That is why the classical statue of Lady Justice wears a blindfold: not because she is blind to the facts and evidence of the case, but because she refuses to consider the wealth, political party, skin color, or family connections of the litigants before weighing the evidence on her scale.
+- **09:217.** That is why the classical statue of Lady Justice wears a blindfold: not because she is blind to the facts and evidence of the case, but because she refuses to consider the wealth, political party, skin color, or family connections of the litigants before weighing the evidence on her scale.
   - Draft: That is why the classical statue of Lady Justice wears a blindfold. Not because she is blind to the facts and evidence of the case, but because she refuses to consider the wealth, political party, skin color, or family connections of the litigants before weighing the evidence on her scale.
-- **09:239.** Deliberate Fraud: A merchant secretly hollows out his brass scale weights and fills them with cork; a litigant forges a property deed or bribes a juror; an academic fabricates laboratory data; a voter casts ten fraudulent ballots.
-  - Draft: Deliberate Fraud: A merchant secretly hollows out his brass scale weights and fills them with cork. A litigant forges a property deed or bribes a juror; an academic fabricates laboratory data; a voter casts ten fraudulent ballots.
-- **09:239.** Deliberate Fraud: A merchant secretly hollows out his brass scale weights and fills them with cork; a litigant forges a property deed or bribes a juror; an academic fabricates laboratory data; a voter casts ten fraudulent ballots.
-  - Draft: Deliberate Fraud: A merchant secretly hollows out his brass scale weights and fills them with cork; a litigant forges a property deed or bribes a juror. An academic fabricates laboratory data; a voter casts ten fraudulent ballots.
-- **09:239.** Deliberate Fraud: A merchant secretly hollows out his brass scale weights and fills them with cork; a litigant forges a property deed or bribes a juror; an academic fabricates laboratory data; a voter casts ten fraudulent ballots.
-  - Draft: Deliberate Fraud: A merchant secretly hollows out his brass scale weights and fills them with cork; a litigant forges a property deed or bribes a juror; an academic fabricates laboratory data. A voter casts ten fraudulent ballots.
-- **09:254.** One can never equalize human beings upward to the highest level of performance; one can only equalize them downward to the lowest common denominator.
+- **09:241.** One can never equalize human beings upward to the highest level of performance; one can only equalize them downward to the lowest common denominator.
   - Draft: One can never equalize human beings upward to the highest level of performance. One can only equalize them downward to the lowest common denominator.
-- **09:255.** George Orwell stated the end of that office in Animal Farm: the equalizers become "more equal than others."
+- **09:243.** George Orwell stated the end of that office in Animal Farm: the equalizers become "more equal than others."
   - Draft: George Orwell stated the end of that office in Animal Farm. The equalizers become "more equal than others."
-- **09:259.** Procedural symmetry holds the procedure equal for every person in the same position: a wrong is a breach of the law, answered by a penalty fixed beforehand for the act.
+- **09:247.** Procedural symmetry holds the procedure equal for every person in the same position: a wrong is a breach of the law, answered by a penalty fixed beforehand for the act.
   - Draft: Procedural symmetry holds the procedure equal for every person in the same position. A wrong is a breach of the law, answered by a penalty fixed beforehand for the act.
-- **09:259.** Value symmetry holds the losses of two sides equal: a wrong is a debt between families, tribes, or ranks, paid by an equal loss on the other side.
+- **09:247.** Value symmetry holds the losses of two sides equal: a wrong is a debt between families, tribes, or ranks, paid by an equal loss on the other side.
   - Draft: Value symmetry holds the losses of two sides equal. A wrong is a debt between families, tribes, or ranks, paid by an equal loss on the other side.
-- **09:267.** The one difference is that value symmetry answers a wrong, and outcome symmetry needs none: it treats a difference in results as a debt between groups.
+- **09:257.** The one difference is that value symmetry answers a wrong, and outcome symmetry needs none: it treats a difference in results as a debt between groups.
   - Draft: The one difference is that value symmetry answers a wrong, and outcome symmetry needs none. It treats a difference in results as a debt between groups.
-- **09:269.** Severity is not injustice; arbitrary asymmetry is injustice.
+- **09:259.** Severity is not injustice; arbitrary asymmetry is injustice.
   - Draft: Severity is not injustice. Arbitrary asymmetry is injustice.
-- **09:281.** They were Scoped to a Specific Polity: The American Bill of Rights was the supreme law of the United States, enforced by American courts, defended by American soldiers, and maintained by the citizens of that republic.
-  - Draft: They were Scoped to a Specific Polity. The American Bill of Rights was the supreme law of the United States, enforced by American courts, defended by American soldiers, and maintained by the citizens of that republic.
-- **09:282.** They were Negative Procedural Boundaries Against Arbitrary State Power: The First, Second, Fourth, and Fifth Amendments state the limits: "Congress shall make no law..." "shall not be infringed..." "shall not be violated..." "nor be deprived of life, liberty, or property, without due process of law."
-  - Draft: They were Negative Procedural Boundaries Against Arbitrary State Power. The First, Second, Fourth, and Fifth Amendments state the limits: "Congress shall make no law..." "shall not be infringed..." "shall not be violated..." "nor be deprived of life, liberty, or property, without due process of law."
-- **09:283.** They were Joined to Civic Upkeep and Ownership: The citizen whose property and speech the court protected was the same citizen who mustered with the militia to defend the town, sat in the jury box, and supported his own household.
-  - Draft: They were Joined to Civic Upkeep and Ownership. The citizen whose property and speech the court protected was the same citizen who mustered with the militia to defend the town, sat in the jury box, and supported his own household.
-- **09:291.** A functional right cannot exist in a vacuum; it operates in reality only inside a defined jurisdiction (scope) where citizens bear the cost of enforcing it.
+- **09:281.** A functional right cannot exist in a vacuum; it operates in reality only inside a defined jurisdiction (scope) where citizens bear the cost of enforcing it.
   - Draft: A functional right cannot exist in a vacuum. It operates in reality only inside a defined jurisdiction (scope) where citizens bear the cost of enforcing it.
-- **09:291.** Its advocates ignore that duty is tiered and that justice is scoped: an unscoped claim for every stranger leads the host nation to insolvency and ruin.
+- **09:281.** Its advocates ignore that duty is tiered and that justice is scoped: an unscoped claim for every stranger leads the host nation to insolvency and ruin.
   - Draft: Its advocates ignore that duty is tiered and that justice is scoped. An unscoped claim for every stranger leads the host nation to insolvency and ruin.
-- **10:16.** Money is only a claim upon the current labor of young, working hands; if nobody raised and trained those young working hands thirty years ago, there is nobody in the bakery or the hospital to honor the claim at any price.
+- **10:17.** Money is only a claim upon the current labor of young, working hands; if nobody raised and trained those young working hands thirty years ago, there is nobody in the bakery or the hospital to honor the claim at any price.
   - Draft: Money is only a claim upon the current labor of young, working hands. If nobody raised and trained those young working hands thirty years ago, there is nobody in the bakery or the hospital to honor the claim at any price.
-- **10:64.** The person who says he cannot afford a child often means that he does not want the change: he still wants to experience certain things, and a child would cost him those experiences.
+- **10:34.** First, every human being is mortal (Principles 1 and 2): within roughly eighty to a hundred years, 100 percent of the human beings currently reading this book, administering the courts, piloting the aircraft, and cultivating the land will be dead.
+  - Draft: First, every human being is mortal (Principles 1 and 2). Within roughly eighty to a hundred years, 100 percent of the human beings currently reading this book, administering the courts, piloting the aircraft, and cultivating the land will be dead.
+- **10:62.** The person who says he cannot afford a child often means that he does not want the change: he still wants to experience certain things, and a child would cost him those experiences.
   - Draft: The person who says he cannot afford a child often means that he does not want the change. He still wants to experience certain things, and a child would cost him those experiences.
-- **10:66.** Some people are unable to bear children, and some are unable to marry; the section on Virtue 7 below gives them an honorable place in forming the young.
+- **10:64.** Some people are unable to bear children, and some are unable to marry; the section on Virtue 7 below gives them an honorable place in forming the young.
   - Draft: Some people are unable to bear children, and some are unable to marry. The section on Virtue 7 below gives them an honorable place in forming the young.
-- **10:79.** One supports a young tree with a stake while its roots take hold in the soil; one then removes the stake so the tree can stand in the wind by its own strength.
+- **10:76.** One supports a young tree with a stake while its roots take hold in the soil; one then removes the stake so the tree can stand in the wind by its own strength.
   - Draft: One supports a young tree with a stake while its roots take hold in the soil. One then removes the stake so the tree can stand in the wind by its own strength.
-- **10:89.** No one teaches them to read, calculate, or work metal; no one exemplifies marriage or honesty; no one keeps up the courts or the water mains.
+- **10:86.** No one teaches them to read, calculate, or work metal; no one exemplifies marriage or honesty; no one keeps up the courts or the water mains.
   - Draft: No one teaches them to read, calculate, or work metal. No one exemplifies marriage or honesty; no one keeps up the courts or the water mains.
-- **10:89.** No one teaches them to read, calculate, or work metal; no one exemplifies marriage or honesty; no one keeps up the courts or the water mains.
+- **10:86.** No one teaches them to read, calculate, or work metal; no one exemplifies marriage or honesty; no one keeps up the courts or the water mains.
   - Draft: No one teaches them to read, calculate, or work metal; no one exemplifies marriage or honesty. No one keeps up the courts or the water mains.
 - **11:34.** If a blizzard blocks the roads for two weeks or the father loses his employment for a month, the family does not starve or panic; the pantry absorbs the shock while the father secures new work.
   - Draft: If a blizzard blocks the roads for two weeks or the father loses his employment for a month, the family does not starve or panic. The pantry absorbs the shock while the father secures new work.
-- **11:53.** As we saw with the Daughter and the Chalked Footrace in Chapter 7, insulating people from every risk of failure does not make them secure; it renders them dependent.
+- **11:54.** As we saw with the Daughter and the Chalked Footrace in Chapter 7, insulating people from every risk of failure does not make them secure; it renders them dependent.
   - Draft: As we saw with the Daughter and the Chalked Footrace in Chapter 7, insulating people from every risk of failure does not make them secure. It renders them dependent.
-- **11:112.** Stopping the prosecutions did not stop the thieves from stealing; it only decided whom they robbed.
+- **11:107.** Stopping the prosecutions did not stop the thieves from stealing; it only decided whom they robbed.
   - Draft: Stopping the prosecutions did not stop the thieves from stealing. It only decided whom they robbed.
-- **11:116.** The operational principle on that square applies across society: when a city refuses to restrain repeat thieves, violent offenders, and disorderly students in the name of "compassion," the wealthy can always purchase high walls, gated neighborhoods, private security guards, and private tutors.
+- **11:111.** The operational principle on that square applies across society: when a city refuses to restrain repeat thieves, violent offenders, and disorderly students in the name of "compassion," the wealthy can always purchase high walls, gated neighborhoods, private security guards, and private tutors.
   - Draft: The operational principle on that square applies across society. When a city refuses to restrain repeat thieves, violent offenders, and disorderly students in the name of "compassion," the wealthy can always purchase high walls, gated neighborhoods, private security guards, and private tutors.
-- **11:158.** Both are technological parasites: they consume the technical achievements of correspondence truth and of seeking excellence while actively undermining the intellectual and institutional foundation that produces those capabilities.
+- **11:153.** Both are technological parasites: they consume the technical achievements of correspondence truth and of seeking excellence while actively undermining the intellectual and institutional foundation that produces those capabilities.
   - Draft: Both are technological parasites. They consume the technical achievements of correspondence truth and of seeking excellence while actively undermining the intellectual and institutional foundation that produces those capabilities.
-- **11:164.** The culture is too corrupt, the institutions are too captured, and the demographics, the environment, or the public debt are beyond recovery; therefore, there is no point in marrying, no point in having children, no point in mastering a difficult trade, and no point in maintaining my neighborhood or serving on a local board.
+- **11:159.** The culture is too corrupt, the institutions are too captured, and the demographics, the environment, or the public debt are beyond recovery; therefore, there is no point in marrying, no point in having children, no point in mastering a difficult trade, and no point in maintaining my neighborhood or serving on a local board.
   - Draft: The culture is too corrupt, the institutions are too captured, and the demographics, the environment, or the public debt are beyond recovery. Therefore, there is no point in marrying, no point in having children, no point in mastering a difficult trade, and no point in maintaining my neighborhood or serving on a local board.
-- **11:174.** Civic fatalism is rarely an objective forecast of the future; it is a self-serving excuse for personal abdication in the present.
+- **11:169.** Civic fatalism is rarely an objective forecast of the future; it is a self-serving excuse for personal abdication in the present.
   - Draft: Civic fatalism is rarely an objective forecast of the future. It is a self-serving excuse for personal abdication in the present.
-- **11:185.** You are a limited human being; you are not omnipotent, and you do not control the entire planet's climate or the entire nation's electorate by yourself tonight.
+- **11:179.** You are a limited human being; you are not omnipotent, and you do not control the entire planet's climate or the entire nation's electorate by yourself tonight.
   - Draft: You are a limited human being. You are not omnipotent, and you do not control the entire planet's climate or the entire nation's electorate by yourself tonight.
-- **11:204.** They differ in their rules: brief specifications written in advance and applied alike, against thousands of pages of rules enforced at discretion.
+- **11:198.** They differ in their rules: brief specifications written in advance and applied alike, against thousands of pages of rules enforced at discretion.
   - Draft: They differ in their rules. Brief specifications written in advance and applied alike, against thousands of pages of rules enforced at discretion.
 - **12:9.** We do not judge a doctrine by its outward title; we test its foundational premises directly and ask:
   - Draft: We do not judge a doctrine by its outward title. We test its foundational premises directly and ask:
-- **12:40.** They also stated the discipline of forming and listening: elders form those younger than themselves, and the younger listen and test, inside the partnership of the dead, the living, and the unborn.
+- **12:41.** They also stated the discipline of forming and listening: elders form those younger than themselves, and the younger listen and test, inside the partnership of the dead, the living, and the unborn.
   - Draft: They also stated the discipline of forming and listening. Elders form those younger than themselves, and the younger listen and test, inside the partnership of the dead, the living, and the unborn.
-- **12:60.** David Hume was a penetrating historian and economist outside his study, understanding property, contract, and the danger of political fanaticism; yet inside his philosophical treatise, his premise that we perceive only disconnected mental impressions led him to claim that we possess no rational justification for believing in cause and effect or the permanence of external objects.
+- **12:61.** David Hume was a penetrating historian and economist outside his study, understanding property, contract, and the danger of political fanaticism; yet inside his philosophical treatise, his premise that we perceive only disconnected mental impressions led him to claim that we possess no rational justification for believing in cause and effect or the permanence of external objects.
   - Draft: David Hume was a penetrating historian and economist outside his study, understanding property, contract, and the danger of political fanaticism. Yet inside his philosophical treatise, his premise that we perceive only disconnected mental impressions led him to claim that we possess no rational justification for believing in cause and effect or the permanence of external objects.
-- **12:64.** Under the Five Principles, Kant's answer to the murderer at the door is a failure of scope (Principle 4 and Principle 5): a murderer with a weapon in his hand has stepped outside the scope of peaceful civic procedure and made himself an active enemy.
+- **12:65.** Under the Five Principles, Kant's answer to the murderer at the door is a failure of scope (Principle 4 and Principle 5): a murderer with a weapon in his hand has stepped outside the scope of peaceful civic procedure and made himself an active enemy.
   - Draft: Under the Five Principles, Kant's answer to the murderer at the door is a failure of scope (Principle 4 and Principle 5). A murderer with a weapon in his hand has stepped outside the scope of peaceful civic procedure and made himself an active enemy.
-- **12:64.** One owes truth to reality and to peaceful procedural courts; one does not owe assistance to an armed murderer.
+- **12:65.** One owes truth to reality and to peaceful procedural courts; one does not owe assistance to an armed murderer.
   - Draft: One owes truth to reality and to peaceful procedural courts. One does not owe assistance to an armed murderer.
-- **12:71.** Hegel himself defended private property and the family; what his successors took from him was the historicized truth and the exalted state.
+- **12:73.** Hegel himself defended private property and the family; what his successors took from him was the historicized truth and the exalted state.
   - Draft: Hegel himself defended private property and the family. What his successors took from him was the historicized truth and the exalted state.
-- **12:92.** The structure of that precept is direct: before you act toward another person or judge his case, exchange your position with his and ask whether you would accept the same procedure applied to yourself.
+- **12:89.** The structure of that precept is direct: before you act toward another person or judge his case, exchange your position with his and ask whether you would accept the same procedure applied to yourself.
   - Draft: The structure of that precept is direct. Before you act toward another person or judge his case, exchange your position with his and ask whether you would accept the same procedure applied to yourself.
-- **12:106.** Jesus is not forbidding truthful moral and empirical judgment; he is forbidding hypocritical, asymmetrical judgment (applying one standard of measure to oneself and a different standard to one's neighbor) and commanding his followers to evaluate teachers and doctrines by their observable consequences in reality (Principles 1, 3, and 5).
+- **12:93.** Jesus is not forbidding truthful moral and empirical judgment; he is forbidding hypocritical, asymmetrical judgment (applying one standard of measure to oneself and a different standard to one's neighbor) and commanding his followers to evaluate teachers and doctrines by their observable consequences in reality (Principles 1, 3, and 5).
   - Draft: Jesus is not forbidding truthful moral and empirical judgment. He is forbidding hypocritical, asymmetrical judgment (applying one standard of measure to oneself and a different standard to one's neighbor) and commanding his followers to evaluate teachers and doctrines by their observable consequences in reality (Principles 1, 3, and 5).
-- **12:123.** Islam is therefore a political order as well as a faith: its law claims the polity.
+- **12:107.** Islam is therefore a political order as well as a faith: its law claims the polity.
   - Draft: Islam is therefore a political order as well as a faith. Its law claims the polity.
-- **12:129.** Read at its strongest, classical Islamic law is a scoped procedure: its rules were set down in advance by the legal schools, administered by trained judges (qadis), and applied alike to every person in the same position.
+- **12:113.** Read at its strongest, classical Islamic law is a scoped procedure: its rules were set down in advance by the legal schools, administered by trained judges (qadis), and applied alike to every person in the same position.
   - Draft: Read at its strongest, classical Islamic law is a scoped procedure. Its rules were set down in advance by the legal schools, administered by trained judges (qadis), and applied alike to every person in the same position.
-- **12:135.** Saudi Arabia punishes apostasy with death; Ahmad al-Shamri was sentenced to death for it in 2015, and the Supreme Court upheld the sentence in 2017.
+- **12:119.** Saudi Arabia punishes apostasy with death; Ahmad al-Shamri was sentenced to death for it in 2015, and the Supreme Court upheld the sentence in 2017.
   - Draft: Saudi Arabia punishes apostasy with death. Ahmad al-Shamri was sentenced to death for it in 2015, and the Supreme Court upheld the sentence in 2017.
-- **12:137.** In France, an IFOP survey of 1,005 Muslims in 2025 found that 46 percent want Muslim law applied in full or in part, rising to 59 percent of those aged 15 to 24; that 44 percent would follow the rules of their religion over French law on marriage or inheritance; and that 20 percent hold that a Muslim has no right to leave Islam.
+- **12:121.** In France, an IFOP survey of 1,005 Muslims in 2025 found that 46 percent want Muslim law applied in full or in part, rising to 59 percent of those aged 15 to 24; that 44 percent would follow the rules of their religion over French law on marriage or inheritance; and that 20 percent hold that a Muslim has no right to leave Islam.
   - Draft: In France, an IFOP survey of 1,005 Muslims in 2025 found that 46 percent want Muslim law applied in full or in part, rising to 59 percent of those aged 15 to 24. That 44 percent would follow the rules of their religion over French law on marriage or inheritance; and that 20 percent hold that a Muslim has no right to leave Islam.
-- **12:137.** In France, an IFOP survey of 1,005 Muslims in 2025 found that 46 percent want Muslim law applied in full or in part, rising to 59 percent of those aged 15 to 24; that 44 percent would follow the rules of their religion over French law on marriage or inheritance; and that 20 percent hold that a Muslim has no right to leave Islam.
+- **12:121.** In France, an IFOP survey of 1,005 Muslims in 2025 found that 46 percent want Muslim law applied in full or in part, rising to 59 percent of those aged 15 to 24; that 44 percent would follow the rules of their religion over French law on marriage or inheritance; and that 20 percent hold that a Muslim has no right to leave Islam.
   - Draft: In France, an IFOP survey of 1,005 Muslims in 2025 found that 46 percent want Muslim law applied in full or in part, rising to 59 percent of those aged 15 to 24; that 44 percent would follow the rules of their religion over French law on marriage or inheritance. And that 20 percent hold that a Muslim has no right to leave Islam.
-- **12:213.** The verdict under the Five Principles is clear: Alexander Dugin is not a defender of civilization against postmodernism; he is a collectivist leveler and postmodern anti-realist whose program leads to serfdom and imperial warfare.
+- **12:133.** Its foundational metaphysical premise is stated in the Four Noble Truths: that all conditioned biological and material existence is fundamentally unsatisfactory suffering (dukkha), that desire for life and attachment to the world is the cause of that suffering, and that the supreme spiritual goal is Nirvana, literally the extinguishing of the flame of desire and the termination of the cycle of biological rebirth (samsara).
+  - Draft: Its foundational metaphysical premise is stated in the Four Noble Truths. That all conditioned biological and material existence is fundamentally unsatisfactory suffering (dukkha), that desire for life and attachment to the world is the cause of that suffering, and that the supreme spiritual goal is Nirvana, literally the extinguishing of the flame of desire and the termination of the cycle of biological rebirth (samsara).
+- **12:187.** The verdict under the Five Principles is clear: Alexander Dugin is not a defender of civilization against postmodernism; he is a collectivist leveler and postmodern anti-realist whose program leads to serfdom and imperial warfare.
   - Draft: The verdict under the Five Principles is clear. Alexander Dugin is not a defender of civilization against postmodernism; he is a collectivist leveler and postmodern anti-realist whose program leads to serfdom and imperial warfare.
-- **13:36.** Lee refused to indulge in political excuses: he devoted no time to lamenting British colonial rule, demanding foreign reparations, or blaming external structural forces.
+- **13:19.** Two million people crowded onto a tropical island of 224 square miles of mudflats and marshland, with no oil, no coal, no iron ore, no agricultural hinterland, and an insufficient domestic supply of fresh drinking water; its water arrived through pipelines from Johor in Malaysia, which could sever the supply at will.
+  - Draft: Two million people crowded onto a tropical island of 224 square miles of mudflats and marshland, with no oil, no coal, no iron ore, no agricultural hinterland, and an insufficient domestic supply of fresh drinking water. Its water arrived through pipelines from Johor in Malaysia, which could sever the supply at will.
+- **13:35.** Lee refused to indulge in political excuses: he devoted no time to lamenting British colonial rule, demanding foreign reparations, or blaming external structural forces.
   - Draft: Lee refused to indulge in political excuses. He devoted no time to lamenting British colonial rule, demanding foreign reparations, or blaming external structural forces.
-- **13:36.** He addressed physical reality directly: two million people on a resource-poor island had to produce goods and services so reliable, sound, and economical that the rest of the world would choose to trade, bank, and manufacture in Singapore rather than elsewhere.
+- **13:35.** He addressed physical reality directly: two million people on a resource-poor island had to produce goods and services so reliable, sound, and economical that the rest of the world would choose to trade, bank, and manufacture in Singapore rather than elsewhere.
   - Draft: He addressed physical reality directly. Two million people on a resource-poor island had to produce goods and services so reliable, sound, and economical that the rest of the world would choose to trade, bank, and manufacture in Singapore rather than elsewhere.
-- **13:50.** He tied it directly to National Service: a soldier whose family owned its home would be defending that home, not the property of the wealthy (Lee Kuan Yew, From Third World to First, 2000).
+- **13:49.** He tied it directly to National Service: a soldier whose family owned its home would be defending that home, not the property of the wealthy (Lee Kuan Yew, From Third World to First, 2000).
   - Draft: He tied it directly to National Service. A soldier whose family owned its home would be defending that home, not the property of the wealthy (Lee Kuan Yew, From Third World to First, 2000).
-- **13:85.** Stolypin diagnosed the fundamental problem immediately: Russia's peasants were radicalized and impoverished because they had never been permitted to become self-anchored property owners (Principle 4 and Virtue 2).
+- **13:83.** Stolypin diagnosed the fundamental problem immediately: Russia's peasants were radicalized and impoverished because they had never been permitted to become self-anchored property owners (Principle 4 and Virtue 2).
   - Draft: Stolypin diagnosed the fundamental problem immediately. Russia's peasants were radicalized and impoverished because they had never been permitted to become self-anchored property owners (Principle 4 and Virtue 2).
-- **13:91.** Millions of peasant households applied for private title; grain harvests, railway freight, cooperative banks, and industrial output expanded rapidly.
+- **13:89.** Millions of peasant households applied for private title; grain harvests, railway freight, cooperative banks, and industrial output expanded rapidly.
   - Draft: Millions of peasant households applied for private title. Grain harvests, railway freight, cooperative banks, and industrial output expanded rapidly.
-- **13:91.** Lenin had already seen what the reform threatened: he wrote in 1908 that if Stolypin's agrarian policy were sustained long enough, Marxists might have to give up any agrarian program at all (Lenin, Collected Works, vol. 15).
+- **13:89.** Lenin had already seen what the reform threatened: he wrote in 1908 that if Stolypin's agrarian policy were sustained long enough, Marxists might have to give up any agrarian program at all (Lenin, Collected Works, vol. 15).
   - Draft: Lenin had already seen what the reform threatened. He wrote in 1908 that if Stolypin's agrarian policy were sustained long enough, Marxists might have to give up any agrarian program at all (Lenin, Collected Works, vol. 15).
-- **13:122.** Iran between 1978 and 1983 illuminates one of the most instructive phenomena in modern politics: How can two movements whose positive doctrines directly contradict each other cooperate closely to overthrow an existing civilization?
+- **13:119.** Iran between 1978 and 1983 illuminates one of the most instructive phenomena in modern politics: How can two movements whose positive doctrines directly contradict each other cooperate closely to overthrow an existing civilization?
   - Draft: Iran between 1978 and 1983 illuminates one of the most instructive phenomena in modern politics. How can two movements whose positive doctrines directly contradict each other cooperate closely to overthrow an existing civilization?
-- **13:139.** When two anti-procedural factions combine to overthrow an order of law, they do not coexist peacefully once the common obstacle is removed; the stronger and more ruthless faction immediately destroys the weaker faction.
+- **13:133.** When two anti-procedural factions combine to overthrow an order of law, they do not coexist peacefully once the common obstacle is removed; the stronger and more ruthless faction immediately destroys the weaker faction.
   - Draft: When two anti-procedural factions combine to overthrow an order of law, they do not coexist peacefully once the common obstacle is removed. The stronger and more ruthless faction immediately destroys the weaker faction.
 - **14:25.** The structural defect in that reasoning is evident: it applies asymmetrical accounting to historical outcomes.
   - Draft: The structural defect in that reasoning is evident. It applies asymmetrical accounting to historical outcomes.
@@ -1780,24 +1793,24 @@ A colon or semicolon that joins two clauses becomes a full stop.
   - Draft: In sound accounting, an enterprise maintains a Single Ledger. If one claims credit for the revenues of December, one must also record the expenses, spoilage, and losses of January.
 - **14:34.** If he cannot state a single falsifying condition, he is not conducting empirical inquiry or policy analysis; he is reciting an unfalsifiable dogma (violating Principle 1).
   - Draft: If he cannot state a single falsifying condition, he is not conducting empirical inquiry or policy analysis. He is reciting an unfalsifiable dogma (violating Principle 1).
-- **14:45.** The famine was not a departure from the doctrine; the famine was the direct consequence of executing those instructions in the physical world.
+- **14:44.** The famine was not a departure from the doctrine; the famine was the direct consequence of executing those instructions in the physical world.
   - Draft: The famine was not a departure from the doctrine. The famine was the direct consequence of executing those instructions in the physical world.
-- **14:66.** Free speech is not an indulgence granted merely for personal self-expression; free speech is a civilization's primary mechanism for detecting and correcting error.
+- **14:64.** Free speech is not an indulgence granted merely for personal self-expression; free speech is a civilization's primary mechanism for detecting and correcting error.
   - Draft: Free speech is not an indulgence granted merely for personal self-expression. Free speech is a civilization's primary mechanism for detecting and correcting error.
-- **14:114.** A civilization of fifty million or three hundred million people is not an independent abstraction existing apart from its members; it is the vector sum of millions of individual human lives.
+- **14:112.** A civilization of fifty million or three hundred million people is not an independent abstraction existing apart from its members; it is the vector sum of millions of individual human lives.
   - Draft: A civilization of fifty million or three hundred million people is not an independent abstraction existing apart from its members. It is the vector sum of millions of individual human lives.
 - **14:122.** The room reflects order: it is not a palace, but the floor is swept clean, the cabinet hinges are tight, and in the basement below stands the rotated winter pantry (Principle 3: Kept).
   - Draft: The room reflects order. It is not a palace, but the floor is swept clean, the cabinet hinges are tight, and in the basement below stands the rotated winter pantry (Principle 3: Kept).
-- **14:135.** May you keep a sober mind and a joyful heart through every test; may all that you keep and build be established on a sound foundation; and may your household and your descendants prosper in abundance for generations to come.
+- **14:134.** May you keep a sober mind and a joyful heart through every test; may all that you keep and build be established on a sound foundation; and may your household and your descendants prosper in abundance for generations to come.
   - Draft: May you keep a sober mind and a joyful heart through every test. May all that you keep and build be established on a sound foundation; and may your household and your descendants prosper in abundance for generations to come.
-- **14:135.** May you keep a sober mind and a joyful heart through every test; may all that you keep and build be established on a sound foundation; and may your household and your descendants prosper in abundance for generations to come.
+- **14:134.** May you keep a sober mind and a joyful heart through every test; may all that you keep and build be established on a sound foundation; and may your household and your descendants prosper in abundance for generations to come.
   - Draft: May you keep a sober mind and a joyful heart through every test; may all that you keep and build be established on a sound foundation. And may your household and your descendants prosper in abundance for generations to come.
 
 ### Move out (1)
 
 A parenthetical aside becomes a sentence of its own after the sentence that held it.
 
-- **03:90.** When the check shows that our prediction was wrong (a foundation settles, a business loses money, or an experiment fails), we face a choice.
+- **03:94.** When the check shows that our prediction was wrong (a foundation settles, a business loses money, or an experiment fails), we face a choice.
   - Draft: When the check shows that our prediction was wrong, we face a choice. A foundation settles, a business loses money, or an experiment fails.
 
 ### Name it (0)
@@ -1813,27 +1826,27 @@ Two habits that a sentence-by-sentence score cannot see: a paragraph whose sente
 
 For a paragraph of three or more sentences, the spread of sentence lengths is the standard deviation over the mean. Each book paragraph is set beside every run of the same number of consecutive sentences inside a paragraph of the period sample; **period flatter** is the share of those runs whose lengths vary less than the paragraph's. A paragraph written like the period's sits near half; one flatter than the period's prose sits near none.
 
-The book has 346 such paragraphs; 0 longer ones have too few period runs to compare. In the median paragraph, 52% of period runs are flatter, where the period's own median is 50%. 38 paragraphs (11.0%) are flatter than nine in ten period runs, where the period's own share is 10%.
+The book has 384 such paragraphs; 0 longer ones have too few period runs to compare. In the median paragraph, 54% of period runs are flatter, where the period's own median is 50%. 38 paragraphs (9.9%) are flatter than nine in ten period runs, where the period's own share is 10%.
 
 The flattest paragraphs:
 
 | Paragraph | Sentences | Lengths | Spread | Period flatter | Opens |
 |---|---|---|---|---|---|
-| 12:176 | 9 | 22, 19, 25, 25, 26, 11, 15, 20, 16 | 0.24 | 1% | Curtis Yarvin (Patchwork, 2008, and later essays): Rightly... |
-| 06:130 | 8 | 15, 15, 13, 16, 19, 12, 8, 14 | 0.21 | 1% | To some, a child is something to have... |
-| 10:126 | 4 | 39, 33, 36, 35 | 0.06 | 1% | Nauru's Phosphate Trust (1968 to 2004): Upon independence... |
-| 01:71 | 5 | 20, 25, 20, 23, 18 | 0.12 | 1% | Whether a person has ever heard these five... |
+| 14:124 | 7 | 20, 28, 27, 26, 28, 23, 29 | 0.12 | 0% | From 8:30 a.m. to 5:00 p.m. (Tiers 3... |
+| 12:163 | 9 | 22, 19, 25, 25, 26, 11, 15, 20, 16 | 0.24 | 1% | Curtis Yarvin (Patchwork, 2008, and later essays) rightly... |
+| 06:95 | 8 | 15, 15, 13, 16, 19, 12, 8, 14 | 0.21 | 1% | To some, a child is something to have... |
+| 10:123 | 4 | 39, 33, 36, 35 | 0.06 | 1% | Nauru's Phosphate Trust (1968 to 2004): Upon independence... |
+| 01:69 | 5 | 20, 25, 20, 23, 18 | 0.12 | 1% | Whether a person has ever heard these five... |
 | 01:19 | 8 | 10, 18, 14, 20, 15, 15, 16, 23 | 0.23 | 1% | This book takes each faith and philosophy at... |
-| 03:72 | 4 | 17, 18, 14, 17 | 0.09 | 1% | Which side of that boundary a claim stands... |
-| 08:204 | 3 | 19, 19, 21 | 0.05 | 1% | The Moriori and Nunuku's Law: Roughly five hundred... |
-| 14:84 | 4 | 23, 24, 29, 23 | 0.10 | 2% | The second, fifth, sixth, and seventh questions govern... |
-| 09:313 | 6 | 16, 16, 14, 21, 16, 25 | 0.21 | 2% | The cost of such a rule falls on... |
-| 09:154 | 3 | 20, 21, 23 | 0.06 | 2% | A port authority administers the same Harbor Pilot's... |
-| 14:125 | 3 | 27, 26, 30 | 0.06 | 3% | At your workplace, whether you are an aircraft... |
-| 09:70 | 3 | 26, 24, 28 | 0.06 | 3% | If conscientious, self-governed citizens refuse to exercise magistracy... |
-| 06:166 | 3 | 38, 32, 33 | 0.08 | 3% | Although a burned building can be rebuilt by... |
-| 06:126 | 4 | 16, 21, 16, 15 | 0.14 | 3% | The new individual is particular from the start:... |
-| 03:92 | 4 | 30, 26, 22, 32 | 0.14 | 3% | In June 1978, a year after Manhattan's fifty-nine-story... |
+| 03:76 | 4 | 17, 18, 14, 17 | 0.09 | 1% | Which side of that boundary a claim stands... |
+| 08:200 | 3 | 19, 19, 21 | 0.05 | 1% | The Moriori and Nunuku's Law: Roughly five hundred... |
+| 11:79 | 5 | 11, 17, 14, 14, 16 | 0.14 | 1% | Third, once that rule is installed, every essential... |
+| 14:82 | 4 | 23, 24, 29, 23 | 0.10 | 2% | The second, fifth, sixth, and seventh questions govern... |
+| 09:291 | 6 | 16, 16, 14, 21, 16, 25 | 0.21 | 2% | The cost of such a rule falls on... |
+| 09:159 | 3 | 20, 21, 23 | 0.06 | 2% | A port authority administers the same Harbor Pilot's... |
+| 09:75 | 3 | 26, 24, 28 | 0.06 | 3% | If conscientious, self-governed citizens refuse to exercise magistracy... |
+| 03:62 | 3 | 17, 19, 20 | 0.07 | 3% | First, language ceases to serve as a medium... |
+| 06:127 | 3 | 38, 32, 33 | 0.08 | 3% | Although a burned building can be rebuilt by... |
 
 ### 6b. Sentences built on the same frame
 
@@ -1841,32 +1854,37 @@ A sentence's frame is the order of the parts attached to its main verb: subject,
 
 | Measure | Book | Period sample |
 |---|---|---|
-| Sentence with the same frame as the one before it, in the same paragraph | 13.7% | 9.8% |
-| Runs of three or more, per 100 sentences | 0.7 | 0.8 |
+| Sentence with the same frame as the one before it, in the same paragraph | 13.5% | 9.8% |
+| Runs of three or more, per 100 sentences | 0.9 | 0.8 |
 
 The book's runs of three or more, longest first:
 
 | Paragraph | Sentences | Frame | Openings |
 |---|---|---|---|
-| 01:40 | 3 | nsubj cop ROOT:A | Moreover, the builders themselves are... / Every human engineer, farmer, mason,... / Within seventy or eighty years,... |
+| 01:41 | 3 | nsubj cop ROOT:A | Moreover, the builders themselves are... / Every human engineer, farmer, mason,... / Within seventy or eighty years,... |
 | 02:35 | 3 | nsubj ROOT:V obj | Modern engineering proves this principle... / A digital camera sensor paired... / Instead, an array of photodiodes... |
-| 03:30 | 3 | nsubj ROOT:V obj | Al-Ghazali denied it. / His Seventeenth Discussion opens: "The... / God creates the two together,... |
-| 03:57 | 3 | nsubj ROOT:V obj | Chapter 2 drew the distinction... / A book or a story... / Political power can rewrite a... |
-| 04:103 | 3 | nsubj cop ROOT:N | Gestation and nursing are not... / In the 100 meters, the... / In the 2017 season the... |
-| 06:65 | 3 | nsubj ROOT:V obj | When a predatory lender or... / When two twenty-year-olds consent to... / Consent cannot convert poison into... |
-| 07:142 | 3 | nsubj ROOT:V obj | Order, Truth, and Vitality United... / The Japanese craft of kintsugi... / The mend acknowledges the truth... |
-| 08:103 | 3 | nsubj ROOT:V obj | You cannot sit at the... / You cannot pay the college... / If you divide your monthly... |
-| 08:216 | 3 | nsubj ROOT:V | Carthage was destroyed in 146... / Constantinople fell in 1453. / The Inca Empire collapsed within... |
-| 09:291 | 3 | nsubj ROOT:V ccomp | Modern human-rights ideology erases the... / This ideology declares that any... / Its advocates ignore that duty... |
-| 09:313 | 3 | nsubj ROOT:V obj | Haiti rejected three requests to... / While on release he killed... / Victor Martinez-Hernandez entered the United... |
-| 09:315 | 3 | nsubj ROOT:V obj | The rule counts the danger... / It therefore gives the persons... / Justice applies one procedure to... |
-| 10:54 | 3 | nsubj cop ROOT:A | An extra bedroom would be... / More food would be welcome. / The means to pay a... |
-| 10:91 | 3 | nsubj ROOT:V obj | Every human infant enters the... / Civilization therefore requires this virtue. / Every living adult receives the... |
-| 10:103 | 3 | nsubj ROOT:V obj | Can you repay the dead... / You cannot write a check... / You cannot repay the Roman... |
-| 11:208 | 3 | nsubj ROOT:V | Fifty years ago, a community... / Today, in hospital and university... / The surgeon spends half his... |
+| 03:31 | 3 | nsubj ROOT:V obj | Al-Ghazali denied it. / His Seventeenth Discussion opens: "The... / God creates the two together,... |
+| 03:58 | 3 | nsubj ROOT:V obj | Chapter 2 drew the distinction... / A book or a story... / Political power can rewrite a... |
+| 04:63 | 3 | nsubj ROOT:V obj | Anthropological and cognitive studies of... / Dunbar's primate comparison predicted a... / Later counts of actual networks... |
+| 04:97 | 3 | nsubj cop ROOT:N | Gestation and nursing are not... / In the 100 meters, the... / In the 2017 season the... |
+| 06:51 | 3 | nsubj ROOT:V obj | When a predatory lender or... / When two twenty-year-olds consent to... / Consent cannot convert poison into... |
+| 07:138 | 3 | nsubj ROOT:V obj | Order and truth without vitality... / Vitality without order or truth... / Order and vitality built on... |
+| 07:140 | 3 | nsubj ROOT:V obj | Only when order, truth, and... / The Japanese craft of kintsugi... / The mend acknowledges the truth... |
+| 08:212 | 3 | nsubj ROOT:V | Carthage was destroyed in 146... / Constantinople fell in 1453. / The Inca Empire collapsed within... |
+| 09:281 | 3 | nsubj ROOT:V ccomp | Modern human-rights ideology erases the... / This ideology declares that any... / Its advocates ignore that duty... |
+| 09:291 | 3 | nsubj ROOT:V obj | Haiti rejected three requests to... / While on release he killed... / Victor Martinez-Hernandez entered the United... |
+| 09:293 | 3 | nsubj ROOT:V obj | The rule counts the danger... / It therefore gives the persons... / Justice applies one procedure to... |
+| 10:52 | 3 | nsubj cop ROOT:A | An extra bedroom would be... / More food would be welcome. / The means to pay a... |
+| 10:68 | 3 | nsubj ROOT:V obj | Parents form a helpless newborn... / In the first seven years,... / The parents therefore keep him... |
+| 10:88 | 3 | nsubj ROOT:V obj | Every human infant enters the... / Civilization therefore requires this virtue. / Every living adult receives the... |
+| 10:98 | 3 | nsubj ROOT:V obj | Can you repay the dead... / You cannot write a check... / You cannot repay the Roman... |
+| 11:79 | 3 | csubj ROOT:V advcl | Stating a biological or mathematical... / Failing an unprepared student on... / Imprisoning a habitual burglar or... |
+| 11:202 | 3 | nsubj ROOT:V | Fifty years ago, a community... / Today, in hospital and university... / The surgeon spends half his... |
 | 12:7 | 3 | nsubj ROOT:V obj | Without an explicit set of... / Does he oppose the same... / Does his treatise invoke familiar... |
-| 13:91 | 3 | nsubj ROOT:V | In practice, over the next... / Millions of peasant households applied... / Revolutionaries made repeated attempts on... |
-| 13:105 | 3 | nsubj ROOT:V obj | Russia's educated liberal politicians possessed... / Meanwhile, socialist agitators preached simple... / Within months, ruthless extremists would... |
+| 12:73 | 3 | nsubj ROOT:V obj | G. W. F. Hegel (1770–1831)... / Hegel himself defended private property... / Karl Marx (1818–1883) carried Hegel's... |
+| 13:89 | 3 | nsubj ROOT:V | In practice, over the next... / Millions of peasant households applied... / Revolutionaries made repeated attempts on... |
+| 13:103 | 3 | nsubj ROOT:V obj | Russia's educated liberal politicians possessed... / Meanwhile, socialist agitators preached simple... / Within months, ruthless extremists would... |
+| 13:109 | 3 | nsubj ROOT:V | When Vladimir Lenin arrived at... / Against Principle 1, objective truth... / Against Principle 5, independent courts... |
 
 ## 7. Concreteness
 
@@ -1874,7 +1892,7 @@ Each common noun is rated from 1 (abstract, known through words: *justice*, *pri
 
 | Text | Rated nouns | Mean rating |
 |---|---|---|
-| The book | 15096 | 3.41 |
+| The book | 15136 | 3.40 |
 | Period sample | 9747 | 3.32 |
 | Bagehot, The English Constitution (1867) | 1170 | 3.06 |
 | Mill, On Liberty (1859) | 1157 | 2.78 |
@@ -1891,185 +1909,185 @@ A section's nouns are set beside 1000 stretches of the period sample with the sa
 
 | Chapter | Rated nouns | Mean rating |
 |---|---|---|
-| ch01 | 668 | 3.34 |
-| ch02 | 1352 | 3.46 |
-| ch03 | 707 | 3.25 |
-| ch04 | 983 | 3.36 |
-| ch05 | 671 | 3.65 |
-| ch06 | 1102 | 3.36 |
+| ch01 | 670 | 3.33 |
+| ch02 | 1353 | 3.46 |
+| ch03 | 708 | 3.25 |
+| ch04 | 981 | 3.36 |
+| ch05 | 673 | 3.65 |
+| ch06 | 1094 | 3.36 |
 | ch07 | 1225 | 3.53 |
-| ch08 | 1273 | 3.56 |
-| ch09 | 2271 | 3.40 |
-| ch10 | 846 | 3.58 |
-| ch11 | 1232 | 3.44 |
-| ch12 | 1286 | 3.10 |
-| ch13 | 774 | 3.33 |
-| ch14 | 706 | 3.34 |
+| ch08 | 1277 | 3.56 |
+| ch09 | 2297 | 3.39 |
+| ch10 | 842 | 3.59 |
+| ch11 | 1246 | 3.44 |
+| ch12 | 1291 | 3.10 |
+| ch13 | 782 | 3.33 |
+| ch14 | 697 | 3.34 |
 
-Across the 160 sections, the median section is less concrete than 50% of period stretches of its size.
+Across the 160 sections, the median section is less concrete than 51% of period stretches of its size.
 
 | Section | Rated nouns | Mean rating | Period more concrete |
 |---|---|---|---|
 | 01:3 The Immediate Fact of Our Existence | 148 | 3.34 | 51% |
-| 01:21 Technology as Anything We Build | 135 | 3.71 | 20% |
-| 01:34 Civilization as the Prerequisite Technology | 108 | 3.50 | 37% |
-| 01:53 Hidden Premises Beneath Surface Arguments | 221 | 3.17 | 56% |
-| 01:75 The Architecture in Full: Five Principles and Seven Virtues | 56 | 2.76 | 92% |
+| 01:21 Technology as Anything We Build | 136 | 3.71 | 19% |
+| 01:35 Civilization as the Prerequisite Technology | 109 | 3.49 | 38% |
+| 01:51 Hidden Premises Beneath Surface Arguments | 221 | 3.17 | 56% |
+| 01:73 The Architecture in Full: Five Principles and Seven Virtues | 56 | 2.76 | 92% |
 | 02:3 Building a Bridge and an Airplane | 20 | 3.81 | 17% |
 | 02:9 1. Reality Is Real | 109 | 3.45 | 43% |
 | 02:21 2. Reality Is Knowable | 251 | 3.51 | 41% |
-| 02:47 3. Reality Is Consequential | 225 | 3.66 | 26% |
-| 02:70 4. Truth Is What Corresponds to Reality | 66 | 3.21 | 58% |
-| 02:84 Reason Guides, Reality Vetoes: Models, Practices, and Precis... | 130 | 3.42 | 50% |
-| 02:98 1. Separate the Practice from the Explanation Given for the ... | 90 | 3.40 | 49% |
-| 02:106 2. Distinguish a Wrong Model from an Incomplete Model | 218 | 3.42 | 50% |
-| 02:127 3. Evaluate Every Claim as Stated: Specificity and Falsifiab... | 108 | 3.52 | 35% |
-| 02:145 4. Know in Part: Bounded Error Versus Ignorance | 135 | 3.18 | 57% |
+| 02:47 3. Reality Is Consequential | 226 | 3.66 | 28% |
+| 02:71 4. Truth Is What Corresponds to Reality | 66 | 3.21 | 58% |
+| 02:85 Reason Guides, Reality Vetoes: Models, Practices, and Precis... | 130 | 3.42 | 50% |
+| 02:99 1. Separate the Practice from the Explanation Given for the ... | 90 | 3.40 | 49% |
+| 02:107 2. Distinguish a Wrong Model from an Incomplete Model | 218 | 3.42 | 50% |
+| 02:129 3. Evaluate Every Claim as Stated: Specificity and Falsifiab... | 108 | 3.52 | 35% |
+| 02:147 4. Know in Part: Bounded Error Versus Ignorance | 135 | 3.18 | 57% |
 | 03:3 Defending Correspondence from First Principles | 35 | 2.92 | 80% |
 | 03:11 1. Scripturalism Versus the Two-Books Tradition | 117 | 3.30 | 57% |
-| 03:26 2. Ash'arite Occasionalism Versus Secondary Causes | 152 | 3.29 | 54% |
-| 03:49 3. Postmodern Constructivism: Truth Reduced to Political Pow... | 142 | 2.86 | 85% |
-| 03:65 The Jurisdictional Boundary: Empirical Verification and Meta... | 117 | 3.49 | 44% |
-| 03:76 Deriving Two Virtues: Align with Truth (Virtue 1) and Be Hum... | 144 | 3.43 | 50% |
+| 03:27 2. Ash'arite Occasionalism Versus Secondary Causes | 152 | 3.29 | 54% |
+| 03:50 3. Postmodern Constructivism: Truth Reduced to Political Pow... | 143 | 2.85 | 82% |
+| 03:68 The Jurisdictional Boundary: Empirical Verification and Meta... | 117 | 3.49 | 44% |
+| 03:80 Deriving Two Virtues: Align with Truth (Virtue 1) and Be Hum... | 144 | 3.43 | 50% |
 | 04:3 The Nature of the Human Agent | 43 | 3.15 | 61% |
 | 04:15 1. Humans: Why Virtue Is Cultivated Rather Than Innate | 213 | 3.37 | 51% |
 | 04:39 2. Self-Interested: The Engine of Survival and Channeling Am... | 178 | 3.30 | 55% |
-| 04:58 3. Limited: Finite Reach, Cognitive Circles, and the Need fo... | 71 | 3.21 | 56% |
-| 04:69 First Consequence of Human Limits: The Virtue of Humility | 48 | 2.96 | 74% |
-| 04:77 Second Consequence of Human Limits: External Systems That Ch... | 96 | 3.30 | 52% |
-| 04:91 4. Particular: Why Humans Are Not Interchangeable Units | 139 | 3.52 | 38% |
-| 04:106 Refuting Detachable Identity and the "Lottery of Birth" Fall... | 195 | 3.51 | 41% |
+| 04:59 3. Limited: Finite Reach, Cognitive Circles, and the Need fo... | 69 | 3.21 | 55% |
+| 04:67 First Consequence of Human Limits: The Virtue of Humility | 48 | 2.96 | 74% |
+| 04:75 Second Consequence of Human Limits: External Systems That Ch... | 96 | 3.30 | 52% |
+| 04:89 4. Particular: Why Humans Are Not Interchangeable Units | 140 | 3.51 | 39% |
+| 04:103 Refuting Detachable Identity and the "Lottery of Birth" Fall... | 194 | 3.52 | 36% |
 | 05:3 How Limited Humans Solve Recurrent Problems in Reality | 101 | 3.71 | 17% |
-| 05:22 The Engineering Distinction: Constructed in Form Versus Disc... | 34 | 2.93 | 76% |
-| 05:31 1. Traffic Laws: Left Versus Right Is Form; Separate Lanes A... | 51 | 3.86 | 8% |
-| 05:39 2. Language: Vocabulary Is Form; Stable Shared Meaning Is Su... | 57 | 3.50 | 40% |
-| 05:47 3. Money and Markets: Shells and Paper Are Form; Mediums of ... | 200 | 3.68 | 24% |
-| 05:72 4. Property and Ownership: Title Deeds Are Form; Linking Con... | 139 | 3.86 | 8% |
-| 05:91 5. The Family Household: Wedding Ceremonies Are Form; Childh... | 43 | 3.64 | 26% |
-| 05:97 The Reinvention Test | 46 | 3.19 | 58% |
-| 06:3 From What Is to What Ought to Be: Evaluating Moral Systems A... | 115 | 3.17 | 59% |
-| 06:28 1. "Goodness Must Include": A Necessary Minimum Condition, N... | 39 | 2.80 | 89% |
-| 06:36 Consent: A Procedural Rule Among Peers, Not the Definition o... | 319 | 3.18 | 63% |
-| 06:93 Harm-Reduction: A Subordinate Consideration, Not the Supreme... | 88 | 3.00 | 70% |
-| 06:109 2. "Human Life Continuing": Revealed Preference and Cultural... | 79 | 3.05 | 67% |
-| 06:122 Continuous Life and the New Individual | 96 | 3.40 | 45% |
-| 06:132 3. "And That Life Kept and Built": Entropy, Property, and th... | 7 | 2.92 | 73% |
-| 06:136 Kept: Maintaining Order Against Physical and Social Decay | 115 | 3.94 | 3% |
-| 06:156 Built: Why Destroying Property Is Destroying Human Life | 85 | 3.68 | 22% |
-| 06:168 The Two Partial Failures: Consuming Inherited Capital Versus... | 98 | 3.95 | 4% |
-| 06:180 Living Well Is a Rate of Improvement, Not a Static Condition | 61 | 3.47 | 43% |
+| 05:22 The Engineering Distinction: Constructed in Form Versus Disc... | 36 | 2.95 | 78% |
+| 05:30 1. Traffic Laws: Left Versus Right Is Form; Separate Lanes A... | 51 | 3.86 | 8% |
+| 05:38 2. Language: Vocabulary Is Form; Stable Shared Meaning Is Su... | 57 | 3.50 | 40% |
+| 05:46 3. Money and Markets: Shells and Paper Are Form; Mediums of ... | 200 | 3.68 | 24% |
+| 05:71 4. Property and Ownership: Title Deeds Are Form; Linking Con... | 139 | 3.86 | 8% |
+| 05:90 5. The Family Household: Wedding Ceremonies Are Form; Childh... | 43 | 3.64 | 26% |
+| 05:96 The Reinvention Test | 46 | 3.19 | 58% |
+| 06:3 From What Is to What Ought to Be: Evaluating Moral Systems A... | 116 | 3.18 | 59% |
+| 06:25 1. "Goodness Must Include": A Necessary Minimum Condition, N... | 39 | 2.80 | 89% |
+| 06:33 Consent: A Procedural Rule Among Peers, Not the Definition o... | 309 | 3.18 | 58% |
+| 06:61 Harm-Reduction: A Subordinate Consideration, Not the Supreme... | 88 | 3.00 | 70% |
+| 06:77 2. "Human Life Continuing": Revealed Preference and Cultural... | 78 | 3.05 | 64% |
+| 06:87 Continuous Life and the New Individual | 96 | 3.40 | 45% |
+| 06:97 3. "And That Life Kept and Built": Entropy, Property, and th... | 7 | 2.92 | 73% |
+| 06:101 Kept: Maintaining Order Against Physical and Social Decay | 114 | 3.89 | 6% |
+| 06:117 Built: Why Destroying Property Is Destroying Human Life | 85 | 3.68 | 22% |
+| 06:129 The Two Partial Failures: Consuming Inherited Capital Versus... | 101 | 3.92 | 5% |
+| 06:137 Living Well Is a Rate of Improvement, Not a Static Condition | 61 | 3.47 | 43% |
 | 07:3 How Principles Are Practiced by the Individual | 32 | 3.01 | 69% |
 | 07:11 Virtue 2: Take Ownership, Which Is Responsibility | 77 | 3.78 | 14% |
 | 07:23 1. Ownership Is a Practice Before It Is a Piece of Paper | 48 | 3.76 | 18% |
-| 07:29 2. Forward-Looking Responsibility Versus Backward-Looking Bl... | 74 | 3.54 | 35% |
-| 07:40 3. Responsibility Versus Untethered Sacrifice | 54 | 3.15 | 59% |
-| 07:49 4. Action Begins With You: The Internal Locus of Control | 23 | 3.31 | 51% |
-| 07:55 Virtue 3: Seek Excellence | 88 | 3.67 | 21% |
-| 07:69 1. The Master's Cold Forge: How Skills Die in One Untaught G... | 156 | 3.89 | 5% |
-| 07:86 2. Perfectionism Versus Excellence | 14 | 2.65 | 91% |
-| 07:90 3. Allow Failure; Do Not Court Failure; Do Not Engineer Fail... | 158 | 3.57 | 34% |
-| 07:115 Virtue 4: Admire Beauty | 68 | 3.93 | 5% |
-| 07:129 The Triadic Structure of Beauty: Vitality, Order, and Truth | 178 | 3.39 | 52% |
-| 07:144 The Inversion of Standards in Making | 131 | 3.40 | 49% |
-| 07:158 Virtue 5: Be Humble | 124 | 3.25 | 58% |
+| 07:29 2. Forward-Looking Responsibility Versus Backward-Looking Bl... | 75 | 3.53 | 38% |
+| 07:39 3. Responsibility Versus Untethered Sacrifice | 54 | 3.15 | 59% |
+| 07:47 4. Action Begins With You: The Internal Locus of Control | 23 | 3.31 | 51% |
+| 07:53 Virtue 3: Seek Excellence | 88 | 3.67 | 21% |
+| 07:67 1. The Master's Cold Forge: How Skills Die in One Untaught G... | 157 | 3.89 | 5% |
+| 07:85 2. Perfectionism Versus Excellence | 14 | 2.65 | 91% |
+| 07:89 3. Allow Failure; Do Not Court Failure; Do Not Engineer Fail... | 158 | 3.57 | 34% |
+| 07:114 Virtue 4: Admire Beauty | 68 | 3.93 | 5% |
+| 07:128 The Triadic Structure of Beauty: Vitality, Order, and Truth | 181 | 3.38 | 52% |
+| 07:142 The Inversion of Standards in Making | 128 | 3.39 | 48% |
+| 07:158 Virtue 5: Be Humble | 122 | 3.27 | 56% |
 | 08:3 The Resource-Allocation Problem of Finite Builders | 52 | 3.28 | 54% |
 | 08:17 1. "What You Keep and Build": Moral Duty Is Measured in Tang... | 14 | 2.97 | 72% |
-| 08:21 2. "Self-Anchored": Why You Start From the Center, Never Fro... | 67 | 3.49 | 42% |
-| 08:32 3. "Tiered": The Concentric Rings of Proximity and Bond | 129 | 3.56 | 34% |
-| 08:50 The Family Orchard: How Tiered Priority Builds Durable Capit... | 153 | 3.83 | 10% |
-| 08:66 4. Dispositional Love Versus Action-Based Love, and When to ... | 16 | 3.28 | 52% |
-| 08:72 1. Dispositional Love: General Goodwill That Scales Widely | 63 | 3.35 | 49% |
-| 08:89 2. Action-Based Love: Costly Investment That Must Be Budgete... | 108 | 3.53 | 33% |
-| 08:110 The Ruin Caused by Confusing the Two Loves | 57 | 3.57 | 35% |
-| 08:119 Kindness Versus Politeness: The Same Law Applied to Civic Ma... | 81 | 3.15 | 61% |
-| 08:130 5. "Outward": Why Duty Does Not Stop at the Front Door | 86 | 4.05 | 1% |
-| 08:145 6. "Enemies Are Real": Force, Predation, and the Futility of... | 87 | 3.38 | 48% |
-| 08:165 1. At the Household Scale: The Midnight Intruder and the She... | 101 | 4.07 | 0% |
-| 08:181 2. At the National Scale: When the State Makes Itself the En... | 118 | 3.39 | 48% |
-| 08:198 3. At the Civilizational Scale: The Fate of the Moriori of t... | 141 | 3.44 | 46% |
+| 08:21 2. "Self-Anchored": Why You Start From the Center, Never Fro... | 70 | 3.47 | 41% |
+| 08:33 3. "Tiered": The Concentric Rings of Proximity and Bond | 129 | 3.56 | 34% |
+| 08:51 The Family Orchard: How Tiered Priority Builds Durable Capit... | 153 | 3.83 | 10% |
+| 08:67 4. Dispositional Love Versus Action-Based Love, and When to ... | 16 | 3.28 | 52% |
+| 08:73 1. Dispositional Love: General Goodwill That Scales Widely | 63 | 3.35 | 50% |
+| 08:88 2. Action-Based Love: Costly Investment That Must Be Budgete... | 108 | 3.53 | 33% |
+| 08:107 The Ruin Caused by Confusing the Two Loves | 58 | 3.57 | 34% |
+| 08:117 Kindness Versus Politeness: The Same Law Applied to Civic Ma... | 81 | 3.15 | 61% |
+| 08:129 5. "Outward": Why Duty Does Not Stop at the Front Door | 86 | 4.05 | 1% |
+| 08:144 6. "Enemies Are Real": Force, Predation, and the Futility of... | 87 | 3.38 | 48% |
+| 08:164 1. At the Household Scale: The Midnight Intruder and the She... | 101 | 4.07 | 0% |
+| 08:180 2. At the National Scale: When the State Makes Itself the En... | 118 | 3.39 | 48% |
+| 08:194 3. At the Civilizational Scale: The Fate of the Moriori of t... | 141 | 3.44 | 46% |
 | 09:1 Chapter 9: Justice Among Cooperating Households (Principle 5... | 186 | 3.62 | 30% |
 | 09:29 1. "Scoped": Boundaries, Roles, Authority, and Borders | 18 | 3.43 | 40% |
-| 09:35 Layer A: Jurisdictional Boundaries | 53 | 3.73 | 21% |
-| 09:43 Layer B: Positional Scope | 69 | 3.63 | 27% |
-| 09:51 Layer C: How Scope Defines the Nature of a Polity | 82 | 3.36 | 53% |
-| 09:60 Judging Authority: The Parent-Child Model and the Vacancy of... | 148 | 3.28 | 52% |
-| 09:90 Borders, the Desert Cistern, and Naturalization as Civic Ado... | 184 | 3.66 | 29% |
-| 09:118 Conquest and Present Jurisdiction | 46 | 3.50 | 41% |
-| 09:126 2. "Procedural": Known Rules, Unequal Outcomes, Judgment, an... | 13 | 3.28 | 53% |
-| 09:130 Rule of Law Versus Rule by Man, and Why Impartial Rules Cann... | 103 | 3.25 | 58% |
-| 09:146 Fair Procedure and Unequal Outcomes Among Particular Humans | 129 | 3.50 | 38% |
-| 09:164 The Necessity of Judgment: Why "Non-Judgmentalism" Is Self-D... | 65 | 3.26 | 52% |
-| 09:178 Mercy Versus Permissiveness, and the Structure of Two-Part F... | 179 | 3.04 | 66% |
-| 09:217 3. "Symmetry": The Blindfolded Scale, Boundary Conditions, a... | 34 | 3.65 | 28% |
-| 09:226 Two Crucial Boundary Conditions of Symmetry | 103 | 3.40 | 50% |
-| 09:243 Refuting the Two Counterfeits of Symmetry | 6 | 3.14 | 62% |
-| 09:247 Counterfeit 1: Outcome Symmetry ("Equity") and the Equalizer... | 104 | 3.33 | 54% |
-| 09:257 Counterfeit 2: Value Symmetry, Justice as a Debt Between Sid... | 289 | 3.38 | 53% |
-| 09:273 4. Human Rights Under the Five Principles: Scoped Constituti... | 20 | 2.93 | 73% |
-| 09:277 1. What Classical Constitutional Rights Actually Are: Scoped... | 54 | 3.56 | 33% |
-| 09:285 2. The Five Structural Flaws of Modern "Human Rights" Ideolo... | 211 | 3.36 | 51% |
-| 09:319 5. International Law: Why Scope Runs Out at the Border and M... | 175 | 3.35 | 51% |
+| 09:35 Layer A: Jurisdictional Boundaries | 55 | 3.65 | 25% |
+| 09:45 Layer B: Positional Scope | 69 | 3.63 | 27% |
+| 09:55 Layer C: How Scope Defines the Nature of a Polity | 83 | 3.35 | 52% |
+| 09:65 Judging Authority: The Parent-Child Model and the Vacancy of... | 148 | 3.28 | 52% |
+| 09:95 Borders, the Desert Cistern, and Naturalization as Civic Ado... | 184 | 3.66 | 29% |
+| 09:123 Conquest and Present Jurisdiction | 46 | 3.50 | 41% |
+| 09:131 2. "Procedural": Known Rules, Unequal Outcomes, Judgment, an... | 13 | 3.28 | 53% |
+| 09:135 Rule of Law Versus Rule by Man, and Why Impartial Rules Cann... | 103 | 3.25 | 58% |
+| 09:151 Fair Procedure and Unequal Outcomes Among Particular Humans | 129 | 3.50 | 38% |
+| 09:169 The Necessity of Judgment: Why "Non-Judgmentalism" Is Self-D... | 65 | 3.26 | 52% |
+| 09:183 Mercy Versus Permissiveness, and the Structure of Two-Part F... | 182 | 3.03 | 70% |
+| 09:211 3. "Symmetry": The Blindfolded Scale, Boundary Conditions, a... | 34 | 3.65 | 28% |
+| 09:219 Two Crucial Boundary Conditions of Symmetry | 110 | 3.36 | 52% |
+| 09:229 Refuting the Two Counterfeits of Symmetry | 6 | 3.14 | 62% |
+| 09:233 Counterfeit 1: Outcome Symmetry ("Equity") and the Equalizer... | 104 | 3.33 | 54% |
+| 09:245 Counterfeit 2: Value Symmetry, Justice as a Debt Between Sid... | 289 | 3.38 | 53% |
+| 09:263 4. Human Rights Under the Five Principles: Scoped Constituti... | 20 | 2.93 | 73% |
+| 09:267 1. What Classical Constitutional Rights Actually Are: Scoped... | 58 | 3.49 | 39% |
+| 09:277 2. The Five Structural Flaws of Modern "Human Rights" Ideolo... | 215 | 3.34 | 53% |
+| 09:297 5. International Law: Why Scope Runs Out at the Border and M... | 180 | 3.32 | 54% |
 | 10:1 Chapter 10: Children, Inherited Debt, and Replacement | 160 | 3.67 | 25% |
-| 10:30 1. Virtue 6: Have Children | 42 | 3.48 | 42% |
-| 10:38 Aiming at Full Life, Not Grim Demographic Duty | 85 | 3.58 | 32% |
-| 10:52 Testing "Not Ready" and "Cannot Afford" Against the Record | 194 | 3.63 | 25% |
-| 10:68 Direct Authority and Progressive Autonomy: The Twenty-Year P... | 94 | 3.48 | 39% |
-| 10:83 2. Virtue 7: Form and Listen | 41 | 3.57 | 31% |
-| 10:93 Edmund Burke's Partnership Across Time | 79 | 3.47 | 41% |
-| 10:107 How Every Adult, Including the Unmarried and Childless, Fulf... | 59 | 3.75 | 15% |
-| 10:120 Refusing Generational Theft: Nauru and the Leningrad Seed Ba... | 92 | 3.49 | 41% |
+| 10:32 1. Virtue 6: Have Children | 43 | 3.51 | 37% |
+| 10:36 Aiming at Full Life, Not Grim Demographic Duty | 85 | 3.58 | 32% |
+| 10:50 Testing "Not Ready" and "Cannot Afford" Against the Record | 194 | 3.63 | 25% |
+| 10:66 Direct Authority and Progressive Autonomy: The Twenty-Year P... | 90 | 3.47 | 43% |
+| 10:80 2. Virtue 7: Form and Listen | 41 | 3.57 | 31% |
+| 10:90 Edmund Burke's Partnership Across Time | 78 | 3.48 | 40% |
+| 10:104 How Every Adult, Including the Unmarried and Childless, Fulf... | 59 | 3.75 | 15% |
+| 10:117 Refusing Generational Theft: Nauru and the Leningrad Seed Ba... | 92 | 3.49 | 41% |
 | 11:1 Chapter 11: Mechanisms of Civilizational Decline | 62 | 3.02 | 69% |
-| 11:26 1. Protective Reserves Versus the Demand for Exemption from ... | 221 | 3.60 | 31% |
-| 11:55 Rejecting the Callous Reactionary Error: Four Design Criteri... | 53 | 3.18 | 60% |
-| 11:68 2. The Compassionate Delusion and the Strategic Subversion o... | 84 | 3.03 | 70% |
-| 11:90 Herbert Marcuse's *Repressive Tolerance* (1965): The Subvers... | 51 | 2.91 | 81% |
-| 11:102 The Market Square and the Night Watch: Why False Compassion ... | 125 | 3.91 | 5% |
-| 11:118 How to Answer the Misuse of Compassion Without Apology | 38 | 3.15 | 62% |
-| 11:128 3. The Three Forms of Parasitism | 23 | 3.58 | 33% |
-| 11:136 1. Ideological Parasitism: Non-Reproducing Movements Capturi... | 54 | 3.74 | 17% |
-| 11:144 2. Social and Economic Parasitism: The Able *Will-Not* Hidin... | 47 | 3.33 | 48% |
-| 11:152 3. Technological and Civilizational Parasitism: Consuming th... | 40 | 3.38 | 44% |
-| 11:162 4. Fatalism as a Justification for Inaction, and Assigned Ac... | 155 | 3.37 | 51% |
-| 11:196 5. Managerialism Versus Engineering | 279 | 3.52 | 38% |
+| 11:26 1. Protective Reserves Versus the Demand for Exemption from ... | 234 | 3.59 | 32% |
+| 11:56 Rejecting the Callous Reactionary Error: Four Design Criteri... | 53 | 3.18 | 60% |
+| 11:69 2. The Compassionate Delusion and the Strategic Subversion o... | 79 | 3.00 | 71% |
+| 11:85 Herbert Marcuse's *Repressive Tolerance* (1965): The Subvers... | 51 | 2.91 | 81% |
+| 11:97 The Market Square and the Night Watch: Why False Compassion ... | 125 | 3.91 | 5% |
+| 11:113 How to Answer the Misuse of Compassion Without Apology | 43 | 3.10 | 64% |
+| 11:123 3. The Three Forms of Parasitism | 23 | 3.58 | 33% |
+| 11:131 1. Ideological Parasitism: Non-Reproducing Movements Capturi... | 54 | 3.74 | 17% |
+| 11:139 2. Social and Economic Parasitism: The Able *Will-Not* Hidin... | 47 | 3.33 | 48% |
+| 11:147 3. Technological and Civilizational Parasitism: Consuming th... | 40 | 3.38 | 44% |
+| 11:157 4. Fatalism as a Justification for Inaction, and Assigned Ac... | 155 | 3.37 | 51% |
+| 11:190 5. Managerialism Versus Engineering | 280 | 3.51 | 42% |
 | 12:1 Chapter 12: Philosophies, Religions, and Political Systems | 65 | 2.82 | 87% |
 | 12:23 A. Scottish Common Sense Realism (Thomas Reid, James Beattie... | 38 | 2.83 | 87% |
 | 12:31 B. Classical Constitutionalism (John Locke, James Madison, J... | 44 | 3.13 | 61% |
-| 12:38 C. Burkean Conservatism (Edmund Burke, Russell Kirk) | 34 | 2.84 | 84% |
-| 12:44 D. Classical Stoicism (Hierocles, Epictetus, Marcus Aurelius... | 61 | 3.45 | 44% |
-| 12:50 E. Confucianism (Confucius / Kongzi, Mencius) | 35 | 3.04 | 70% |
-| 12:56 F. Immanuel Kant and David Hume: The Separation of Speculati... | 73 | 2.87 | 83% |
-| 12:66 G. The Modern Collectivist and Anti-Realist Line (Rousseau, ... | 87 | 3.02 | 69% |
-| 12:78 2. Specific Religions and Theological Systems Graded by the ... | 8 | 3.01 | 70% |
-| 12:82 A. Two-Books Christianity and the Teachings of Jesus | 192 | 3.31 | 52% |
-| 12:119 B. Islam: A Political Law Scoped by the Confession | 236 | 3.03 | 72% |
-| 12:143 C. Buddhism: Valuable Tier-1 Mental Discipline, Insufficient... | 74 | 3.16 | 59% |
-| 12:152 D. Shinto: Strong on Continuity and Beauty, Vulnerable When ... | 38 | 3.10 | 66% |
-| 12:159 3. Right-Wing Anti-Proceduralists and Surface-Aligned False ... | 46 | 3.39 | 47% |
-| 12:171 A. Western Right-Wing Anti-Proceduralists (Wolfe, Yarvin, Ha... | 124 | 3.20 | 60% |
-| 12:179 B. Alexander Dugin and *The Fourth Political Theory*: The Co... | 131 | 2.99 | 73% |
-| 13:1 Chapter 13: Historical Cases from Singapore, Russia, and Ira... | 49 | 3.15 | 60% |
-| 13:13 1. Singapore (1965–1990): Statecraft Under Resource Scarcity | 74 | 3.27 | 54% |
-| 13:30 1. Consequential Reality and Ownership (Principle 1, Virtue ... | 20 | 3.15 | 58% |
-| 13:38 2. Particularity, Limits, and Excellence (Principle 2, Virtu... | 49 | 3.39 | 46% |
-| 13:46 3. Self-Anchored Ownership Over Unconditional Welfare (Princ... | 34 | 3.72 | 22% |
-| 13:52 4. Scoped Procedural Symmetry Across Ethnic Groups (Principl... | 42 | 3.50 | 39% |
-| 13:60 5. Enemies Are Real (Principle 4) | 17 | 3.21 | 56% |
-| 13:64 The Analytical Caveat on Singapore: Adopt the Principles, Gu... | 52 | 3.01 | 70% |
-| 13:73 2. Russia (1907–1933): From Stolypin's Farms and Durnovo's W... | 16 | 3.09 | 65% |
-| 13:79 1. Pyotr Stolypin's Property Reforms (1906–1911): Relying Up... | 98 | 3.54 | 37% |
-| 13:93 2. Pyotr Durnovo's Memorandum (February 1914) | 53 | 3.26 | 56% |
-| 13:109 3. Lenin's April Theses (1917), War Communism, and the War A... | 67 | 3.40 | 48% |
-| 13:120 3. Iran (1978–1983) and the Mechanics of Modern Red-Green Ta... | 5 | 2.74 | 83% |
-| 13:124 1. The Shah's Warning: "The Unholy Alliance of Red and Black... | 62 | 3.45 | 41% |
-| 13:141 2. The Five Mechanics of Modern Red-Green Coordination in th... | 136 | 3.26 | 56% |
+| 12:39 C. Burkean Conservatism (Edmund Burke, Russell Kirk) | 34 | 2.84 | 84% |
+| 12:45 D. Classical Stoicism (Hierocles, Epictetus, Marcus Aurelius... | 61 | 3.45 | 44% |
+| 12:51 E. Confucianism (Confucius / Kongzi, Mencius) | 35 | 3.04 | 70% |
+| 12:57 F. Immanuel Kant and David Hume: The Separation of Speculati... | 73 | 2.87 | 83% |
+| 12:67 G. The Modern Collectivist and Anti-Realist Line (Rousseau, ... | 87 | 3.03 | 68% |
+| 12:79 2. Specific Religions and Theological Systems Graded by the ... | 8 | 3.01 | 70% |
+| 12:83 A. Two-Books Christianity and the Teachings of Jesus | 196 | 3.33 | 54% |
+| 12:103 B. Islam: A Political Law Scoped by the Confession | 236 | 3.03 | 72% |
+| 12:127 C. Buddhism: Valuable Tier-1 Mental Discipline, Insufficient... | 73 | 3.17 | 58% |
+| 12:137 D. Shinto: Strong on Continuity and Beauty, Vulnerable When ... | 40 | 3.04 | 68% |
+| 12:145 3. Right-Wing Anti-Proceduralists and Surface-Aligned False ... | 46 | 3.39 | 47% |
+| 12:157 A. Western Right-Wing Anti-Proceduralists (Wolfe, Yarvin, Ha... | 123 | 3.19 | 59% |
+| 12:167 B. Alexander Dugin and *The Fourth Political Theory*: The Co... | 132 | 2.99 | 70% |
+| 13:1 Chapter 13: Historical Cases from Singapore, Russia, and Ira... | 51 | 3.17 | 60% |
+| 13:15 1. Singapore (1965–1990): Statecraft Under Resource Scarcity | 75 | 3.27 | 55% |
+| 13:29 1. Consequential Reality and Ownership (Principle 1, Virtue ... | 20 | 3.15 | 58% |
+| 13:37 2. Particularity, Limits, and Excellence (Principle 2, Virtu... | 49 | 3.39 | 46% |
+| 13:45 3. Self-Anchored Ownership Over Unconditional Welfare (Princ... | 34 | 3.72 | 22% |
+| 13:51 4. Scoped Procedural Symmetry Across Ethnic Groups (Principl... | 42 | 3.50 | 39% |
+| 13:59 5. Enemies Are Real (Principle 4) | 17 | 3.21 | 56% |
+| 13:63 The Analytical Caveat on Singapore: Adopt the Principles, Gu... | 51 | 3.01 | 72% |
+| 13:71 2. Russia (1907–1933): From Stolypin's Farms and Durnovo's W... | 16 | 3.09 | 65% |
+| 13:77 1. Pyotr Stolypin's Property Reforms (1906–1911): Relying Up... | 98 | 3.54 | 37% |
+| 13:91 2. Pyotr Durnovo's Memorandum (February 1914) | 53 | 3.26 | 56% |
+| 13:107 3. Lenin's April Theses (1917), War Communism, and the War A... | 69 | 3.39 | 45% |
+| 13:117 3. Iran (1978–1983) and the Mechanics of Modern Red-Green Ta... | 5 | 2.74 | 83% |
+| 13:121 1. The Shah's Warning: "The Unholy Alliance of Red and Black... | 66 | 3.43 | 46% |
+| 13:135 2. The Five Mechanics of Modern Red-Green Coordination in th... | 136 | 3.26 | 56% |
 | 14:1 Chapter 14: The Daily Practice of Civilization | 17 | 3.19 | 57% |
 | 14:13 1. Diagnostic Tools for Public Debate and Intellectual Defen... | 9 | 3.76 | 22% |
 | 14:17 Tool 1: Refuting the Unfalsifiable Argument | 115 | 3.10 | 65% |
-| 14:36 Tool 2: The Narrow "Not Authentic Doctrine" Test | 55 | 3.17 | 60% |
-| 14:47 Tool 3: Identifying Selective Logic and Tier Confusion | 34 | 3.29 | 54% |
-| 14:54 Tool 4: Free Speech as an Error-Correction Mechanism | 63 | 3.62 | 26% |
-| 14:70 2. Seven Questions Before a Decision | 126 | 3.26 | 55% |
-| 14:88 3. Individuals as Vectors of Civilization: One Ordinary Day | 287 | 3.43 | 50% |
+| 14:36 Tool 2: The Narrow "Not Authentic Doctrine" Test | 53 | 3.19 | 59% |
+| 14:46 Tool 3: Identifying Selective Logic and Tier Confusion | 34 | 3.29 | 54% |
+| 14:52 Tool 4: Free Speech as an Error-Correction Mechanism | 63 | 3.62 | 26% |
+| 14:68 2. Seven Questions Before a Decision | 126 | 3.26 | 55% |
+| 14:86 3. Individuals as Vectors of Civilization: One Ordinary Day | 280 | 3.45 | 50% |
 
 ### 7b. Runs without a concrete noun
 
@@ -2077,25 +2095,25 @@ A sentence counts as abstract here when its most concrete noun is rated below 4.
 
 | Sentences in a run of | Book | Period sample |
 |---|---|---|
-| 1 or more | 46.7% | 49.6% |
-| 3 or more | 21.8% | 27.7% |
-| 5 or more | 8.8% | 12.3% |
+| 1 or more | 46.6% | 49.6% |
+| 3 or more | 21.7% | 27.7% |
+| 5 or more | 8.5% | 12.3% |
 | 8 or more | 1.9% | 4.9% |
 
 The book's ten longest runs; the longest in the period sample is 18 sentences.
 
 | From | To | Sentences | Opens |
 |---|---|---|---|
-| 14:75 | 14:80 | 13 | Have I checked my own oversights? |
-| 02:152 | 02:156 | 11 | A result presented as though it had no error claims... |
+| 14:73 | 14:78 | 13 | Have I checked my own oversights? |
+| 02:155 | 02:159 | 11 | A result presented as though it had no error claims... |
 | 02:25 | 02:27 | 8 | It may add a claim about what the senses do... |
-| 09:166 | 09:170 | 8 | A procedure is useless unless human beings have the courage... |
-| 12:58 | 12:62 | 8 | Two of the most influential figures of eighteenth-century academic philosophy... |
-| 02:78 | 02:82 | 7 | Truth does not have different frames, just one: reality. |
-| 02:92 | 02:94 | 7 | Logic defines the relationships between things. |
-| 03:51 | 03:57 | 7 | This is Postmodern Social Constructivism, associated with theorists such as... |
-| 10:105 | 10:105 | 7 | What do the younger owe the elders? |
-| 11:94 | 11:100 | 7 | Marcuse concluded that impartial, symmetrical free speech and procedural tolerance... |
+| 09:171 | 09:175 | 8 | A procedure is useless unless human beings have the courage... |
+| 12:59 | 12:63 | 8 | Two of the most influential figures of eighteenth-century academic philosophy... |
+| 02:79 | 02:83 | 7 | Truth does not have different frames, just one: reality. |
+| 02:93 | 02:95 | 7 | Logic defines the relationships between things. |
+| 03:52 | 03:58 | 7 | This is Postmodern Social Constructivism, associated with theorists such as... |
+| 10:102 | 10:102 | 7 | And what do the younger owe the elders? |
+| 11:89 | 11:95 | 7 | Marcuse concluded that impartial, symmetrical free speech and procedural tolerance... |
 
 ## 8. Close-range word echoes
 
@@ -2103,52 +2121,52 @@ A content word that repeats inside one paragraph, where the corpus-wide phrase l
 
 | Measure | Book | Period sample |
 |---|---|---|
-| Close-range echoes per 100 sentences | 47.9 | 55.1 |
+| Close-range echoes per 100 sentences | 49.4 | 55.1 |
 
-665 of the book's echoes stay inside one sentence (half weight) and are left off the list below. 554 cross a sentence or run through three sentences.
+656 of the book's echoes stay inside one sentence (half weight) and are left off the list below. 596 cross a sentence or run through three sentences.
 
 Up to 40. A run of three sentences is listed before a two-sentence repeat.
 
 - **01:7.** The content word "keep" repeats within 5 words ("keep", then "keeps"). The content word "keep" appears in 3 consecutive sentences.
 - **01:17.** The content word "group" repeats within 2 words ("groups", then "group"). The content word "group" appears in 4 consecutive sentences.
-- **01:38.** The content word "leave" repeats within 23 words ("Leave", then "Leave"). The content word "leave" appears in 3 consecutive sentences.
-- **01:57.** The content word "neighbor" repeats within 20 words ("neighbors", then "neighbor"). The content word "neighbor" appears in 3 consecutive sentences.
-- **01:59.** The content word "premise" appears in 3 consecutive sentences.
-- **01:59.** The content word "human" appears in 3 consecutive sentences.
-- **01:61.** The content word "parent" repeats within 6 words ("parents", then "parent"). The content word "parent" appears in 3 consecutive sentences.
-- **01:63.** The content word "person" repeats within 11 words ("people", then "people"). The content word "person" appears in 3 consecutive sentences.
-- **01:71.** The content word "answer" repeats within 20 words ("answers", then "answered"). The content word "answer" appears in 5 consecutive sentences.
+- **01:39.** The content word "leave" repeats within 23 words ("Leave", then "Leave"). The content word "leave" appears in 3 consecutive sentences.
+- **01:55.** The content word "neighbor" repeats within 20 words ("neighbors", then "neighbor"). The content word "neighbor" appears in 3 consecutive sentences.
+- **01:57.** The content word "premise" appears in 3 consecutive sentences.
+- **01:57.** The content word "human" appears in 3 consecutive sentences.
+- **01:59.** The content word "parent" repeats within 6 words ("parents", then "parent"). The content word "parent" appears in 3 consecutive sentences.
+- **01:61.** The content word "person" repeats within 11 words ("people", then "people"). The content word "person" appears in 3 consecutive sentences.
+- **01:69.** The content word "answer" repeats within 20 words ("answers", then "answered"). The content word "answer" appears in 5 consecutive sentences.
 - **02:17.** The content word "reality" repeats within 12 words ("Reality", then "reality"). The content word "reality" appears in 5 consecutive sentences.
 - **02:19.** The content word "builder" repeats within 21 words ("builder", then "builder"). The content word "builder" appears in 3 consecutive sentences.
 - **02:43.** The content word "argument" repeats within 12 words ("argument", then "arguments"). The content word "argument" appears in 3 consecutive sentences.
 - **02:51.** The content word "story" repeats within 20 words ("story", then "story"). The content word "story" appears in 3 consecutive sentences.
-- **02:66.** The content word "core" repeats within 24 words ("core", then "core"). The content word "core" appears in 3 consecutive sentences.
-- **02:76.** The content word "reality" repeats within 19 words ("reality", then "reality"). The content word "reality" appears in 3 consecutive sentences.
-- **02:78.** The content word "statement" repeats within 11 words ("statement", then "statement"). The content word "statement" appears in 3 consecutive sentences.
-- **02:102.** The content word "water" repeats within 11 words ("water", then "water"). The content word "water" appears in 3 consecutive sentences.
-- **02:119.** The content word "motion" repeats within 18 words ("motion", then "motion"). The content word "motion" appears in 3 consecutive sentences.
-- **02:141.** The content word "man" repeats within 11 words ("men", then "man"). The content word "man" appears in 4 consecutive sentences.
-- **02:152.** The content word "exact" repeats within 20 words ("exact", then "exact"). The content word "exact" appears in 3 consecutive sentences.
-- **02:152.** The content word "error" repeats within 19 words ("errors", then "error"). The content word "error" appears in 4 consecutive sentences.
+- **02:67.** The content word "core" repeats within 24 words ("core", then "core"). The content word "core" appears in 3 consecutive sentences.
+- **02:77.** The content word "reality" repeats within 19 words ("reality", then "reality"). The content word "reality" appears in 3 consecutive sentences.
+- **02:79.** The content word "statement" repeats within 11 words ("statement", then "statement"). The content word "statement" appears in 3 consecutive sentences.
+- **02:103.** The content word "water" repeats within 11 words ("water", then "water"). The content word "water" appears in 3 consecutive sentences.
+- **02:121.** The content word "motion" repeats within 18 words ("motion", then "motion"). The content word "motion" appears in 3 consecutive sentences.
+- **02:143.** The content word "man" repeats within 11 words ("men", then "man"). The content word "man" appears in 4 consecutive sentences.
+- **02:155.** The content word "exact" repeats within 20 words ("exact", then "exact"). The content word "exact" appears in 3 consecutive sentences.
+- **02:155.** The content word "error" repeats within 19 words ("errors", then "error"). The content word "error" appears in 4 consecutive sentences.
 - **03:15.** The content word "book" repeats within 11 words ("Books", then "books"). The content word "book" appears in 3 consecutive sentences.
-- **03:43.** The content word "believe" repeats within 18 words ("believes", then "believes"). The content word "believe" appears in 4 consecutive sentences.
-- **03:72.** The content word "claim" repeats within 12 words ("claim", then "claim"). The content word "claim" appears in 4 consecutive sentences.
-- **03:72.** The content word "test" repeats within 11 words ("tested", then "tested"). The content word "test" appears in 4 consecutive sentences.
-- **03:82.** The content word "maintenance" repeats within 6 words ("maintenance", then "maintenance"). The content word "maintenance" appears in 3 consecutive sentences.
-- **03:88.** The content word "mean" repeats within 15 words ("means", then "means"). The content word "mean" appears in 3 consecutive sentences.
-- **04:56.** The content word "design" repeats within 14 words ("design", then "design"). The content word "design" appears in 3 consecutive sentences.
-- **04:63.** The content word "hour" repeats within 6 words ("hours", then "hours"). The content word "hour" appears in 3 consecutive sentences.
-- **04:65.** The content word "network" repeats within 23 words ("network", then "networks"). The content word "network" appears in 3 consecutive sentences.
-- **05:43.** The content word "sound" repeats within 15 words ("sound", then "sound"). The content word "sound" appears in 3 consecutive sentences.
-- **05:87.** The content word "slaughter" repeats within 12 words ("slaughters", then "slaughters"). The content word "slaughter" appears in 3 consecutive sentences.
-- **05:95.** The content word "child" repeats within 24 words ("children", then "child"). The content word "child" appears in 3 consecutive sentences.
-- **06:64.** The content word "consent" repeats within 8 words ("consent", then "consent"). The content word "consent" appears in 4 consecutive sentences.
-- **06:85.** The content word "owe" repeats within 16 words ("owe", then "owe"). The content word "owe" appears in 3 consecutive sentences.
-- **06:85.** The content word "consent" repeats within 24 words ("consenting", then "consenting"). The content word "consent" appears in 4 consecutive sentences.
-- **06:89.** The content word "consent" repeats within 20 words ("consent", then "Consent"). The content word "consent" appears in 3 consecutive sentences.
-- **06:116.** The content word "human" repeats within 14 words ("human", then "human"). The content word "human" appears in 3 consecutive sentences.
-- **06:124.** The content word "life" repeats within 22 words ("life", then "life"). The content word "life" appears in 5 consecutive sentences.
-- **06:128.** The content word "child" repeats within 11 words ("child", then "child"). The content word "child" appears in 4 consecutive sentences.
+- **03:44.** The content word "believe" repeats within 18 words ("believes", then "believes"). The content word "believe" appears in 4 consecutive sentences.
+- **03:76.** The content word "claim" repeats within 12 words ("claim", then "claim"). The content word "claim" appears in 4 consecutive sentences.
+- **03:76.** The content word "test" repeats within 11 words ("tested", then "tested"). The content word "test" appears in 4 consecutive sentences.
+- **03:86.** The content word "maintenance" repeats within 6 words ("maintenance", then "maintenance"). The content word "maintenance" appears in 3 consecutive sentences.
+- **03:92.** The content word "mean" repeats within 15 words ("means", then "means"). The content word "mean" appears in 3 consecutive sentences.
+- **04:57.** The content word "design" repeats within 14 words ("design", then "design"). The content word "design" appears in 3 consecutive sentences.
+- **04:63.** The content word "network" repeats within 23 words ("network", then "networks"). The content word "network" appears in 3 consecutive sentences.
+- **04:91.** The content word "human" appears in 4 consecutive sentences.
+- **04:91.** The content word "specific" repeats within 24 words ("specific", then "specific"). The content word "specific" appears in 3 consecutive sentences.
+- **05:42.** The content word "sound" repeats within 15 words ("sound", then "sound"). The content word "sound" appears in 3 consecutive sentences.
+- **05:86.** The content word "slaughter" repeats within 12 words ("slaughters", then "slaughters"). The content word "slaughter" appears in 3 consecutive sentences.
+- **05:94.** The content word "child" repeats within 24 words ("children", then "child"). The content word "child" appears in 3 consecutive sentences.
+- **05:102.** The content word "ban" repeats within 24 words ("ban", then "banned"). The content word "ban" appears in 3 consecutive sentences.
+- **06:49.** The content word "year" repeats within 8 words ("years", then "year"). The content word "year" appears in 3 consecutive sentences.
+- **06:49.** The content word "consent" repeats within 8 words ("consent", then "consent"). The content word "consent" appears in 4 consecutive sentences.
+- **06:53.** The content word "consent" repeats within 22 words ("consent", then "consent"). The content word "consent" appears in 4 consecutive sentences.
+- **06:55.** The content word "owe" repeats within 16 words ("owe", then "owe"). The content word "owe" appears in 3 consecutive sentences.
+- **06:55.** The content word "consent" repeats within 24 words ("consenting", then "consenting"). The content word "consent" appears in 4 consecutive sentences.
 
 ## 9. Abstract subjects
 
@@ -2168,59 +2186,55 @@ Up to 40, in chapter order:
 
   > The book asks only what follows from living in one reality with people who believe otherwise.
 
-- **03:45.** "doctrine" (concreteness 2.12; a textual or institutional noun) is the subject of "teaches".
+- **03:46.** "doctrine" (concreteness 2.12; a textual or institutional noun) is the subject of "teaches".
 
   > The doctrine Al-Ghazali defended, and al-Azhar teaches, answers that it does not, and it classifies the contrary belief as unbelief.
 
-- **03:69.** "method" (concreteness 2.41) is the subject of "teaches".
+- **03:72.** "method" (concreteness 2.41) is the subject of "teaches".
 
   > Claims about whether a bridge design will carry a load, whether a medicine cures an infection, whether a defendant committed a burglary, or whether an educational method teaches children to read are empirical claims in the shared physical world.
 
-- **04:56.** "arrangements" (concreteness 2.30) is the subject of "decide".
+- **04:57.** "arrangements" (concreteness 2.30) is the subject of "decide".
 
   > Do not design arrangements that require people to be full-time philosophers; most people, most of the time, decide locally, quickly, and under the pressure of daily work.
 
-- **06:50.** "Reality" (concreteness 1.72) is the subject of "Ask".
+- **06:47.** "reality" (concreteness 1.72) is the subject of "ask".
 
-  > Failure Under Principle 1: Reality Does Not Ask Your Consent.
+  > First, reality does not ask your consent (Principle 1).
 
-- **06:71.** "generation" (concreteness 1.96) is the subject of "decides".
+- **06:53.** "generation" (concreteness 1.96) is the subject of "decides".
 
   > Suppose the currently living generation of human beings decides, by wholly peaceful, unanimous consent, to sterilize itself, burn the great libraries for winter heat, consume the remaining stores of food and fuel in comfort for fifty years, bear no children, and let the human race go completely extinct when the last eighty-year-old dies.
 
-- **06:75.** "morality" (concreteness 1.47) is the subject of "chosen".
+- **06:53.** "morality" (concreteness 1.47) is the subject of "chosen".
 
   > That conclusion offends every sound human conscience because a morality that cannot distinguish between a living civilization and a lifeless rock has already chosen indifference to life.
 
-- **07:38.** "Ownership" (concreteness 2.42) is the subject of "asks".
+- **07:37.** "Ownership" (concreteness 2.42) is the subject of "asks".
 
   > Ownership asks two forward-looking questions: "Who will take charge of the repair, and what is the most immediate concrete action that moves this from disorder to order today?"
 
-- **09:144.** "it", standing for a thing, is the subject of "taught".
+- **09:149.** "it", standing for a thing, is the subject of "taught".
 
   > That practice corrupted the moral formation of the society: it taught from childhood that property and truth have no intrinsic status, and that only stealth, force, and state utility matter.
 
-- **09:187.** "Mercy" (concreteness 1.57) is the subject of "refuses".
+- **09:193.** "Permissiveness" (concreteness 1.81) is the subject of "refuses".
 
-  > Permissiveness (Counterfeit Mercy), by contrast, refuses to enforce the law or identify the wrong as a wrong.
-
-- **09:301.** "rhetoric" (concreteness 1.50) is the subject of "teaches".
-
-  > Modern human-rights rhetoric teaches people to ask what they are owed and seldom what they owe.
+  > Permissiveness (counterfeit mercy), by contrast, refuses to enforce the law or identify the wrong as a wrong.
 
 - **10:7.** "omission" (concreteness 1.89) is the subject of "decide".
 
   > There is only one omission: the adults of this prosperous city decide that raising children is too costly, too disruptive, and too inconvenient for their personal leisure and career schedules, so they have an average of 0.8 children per woman.
 
-- **11:112.** "it", standing for a thing, is the subject of "decided".
+- **11:107.** "it", standing for a thing, is the subject of "decided".
 
   > Stopping the prosecutions did not stop the thieves from stealing; it only decided whom they robbed.
 
-- **12:123.** "law" (a textual or institutional noun) is the subject of "claims".
+- **12:107.** "law" (a textual or institutional noun) is the subject of "claims".
 
   > Islam is therefore a political order as well as a faith: its law claims the polity.
 
-- **12:129.** "it", standing for a thing, is the subject of "chose".
+- **12:113.** "it", standing for a thing, is the subject of "chose".
 
   > The scope it chose is the confession.
 
@@ -2230,31 +2244,31 @@ The share of finite main clauses that are passive, expletive ("there is," "it is
 
 | Measure | Book | Period sample |
 |---|---|---|
-| Finite main clauses | 2142 | 1560 |
-| Passive, expletive, or nominalized | 10.1% | 26.6% |
-| Passive | 6.7% | 17.6% |
+| Finite main clauses | 2209 | 1560 |
+| Passive, expletive, or nominalized | 10.0% | 26.6% |
+| Passive | 6.5% | 17.6% |
 | Expletive | 1.4% | 7.1% |
-| Copula plus a nominalization | 2.0% | 1.9% |
+| Copula plus a nominalization | 2.1% | 1.9% |
 
-2 of 103 compared sections are stiffer than the period median for a stretch of the same length. **Gap** is the section's stiff share minus that median.
+2 of 108 compared sections are stiffer than the period median for a stretch of the same length. **Gap** is the section's stiff share minus that median.
 
 | Section | Finite | Stiff | Passive | Expletive | Nominalized | Period median | Gap |
 |---|---|---|---|---|---|---|---|
-| 11:68 2. The Compassionate Delusion and the Strategic Subversion... | 13 | 38% | 5 | 0 | 0 | 23% | +15 |
-| 06:93 Harm-Reduction: A Subordinate Consideration, Not the Supre... | 8 | 38% | 0 | 0 | 3 | 25% | +12 |
-| 08:32 3. "Tiered": The Concentric Rings of Proximity and Bond | 15 | 27% | 3 | 0 | 1 | 27% | +0 |
+| 06:61 Harm-Reduction: A Subordinate Consideration, Not the Supre... | 8 | 38% | 0 | 0 | 3 | 25% | +12 |
+| 11:69 2. The Compassionate Delusion and the Strategic Subversion... | 15 | 33% | 5 | 0 | 0 | 27% | +7 |
+| 13:107 3. Lenin's April Theses (1917), War Communism, and the Wa... | 11 | 27% | 3 | 0 | 0 | 27% | +0 |
+| 08:33 3. "Tiered": The Concentric Rings of Proximity and Bond | 15 | 27% | 3 | 0 | 1 | 27% | +0 |
 | 08:3 The Resource-Allocation Problem of Finite Builders | 8 | 25% | 1 | 1 | 0 | 25% | +0 |
-| 13:109 3. Lenin's April Theses (1917), War Communism, and the Wa... | 8 | 25% | 2 | 0 | 0 | 25% | +0 |
-| 03:65 The Jurisdictional Boundary: Empirical Verification and Me... | 17 | 24% | 4 | 0 | 0 | 24% | +0 |
-| 04:58 3. Limited: Finite Reach, Cognitive Circles, and the Need ... | 13 | 23% | 1 | 1 | 1 | 23% | +0 |
-| 06:156 Built: Why Destroying Property Is Destroying Human Life | 9 | 22% | 1 | 1 | 0 | 22% | +0 |
+| 03:68 The Jurisdictional Boundary: Empirical Verification and Me... | 17 | 24% | 4 | 0 | 0 | 24% | +0 |
+| 06:117 Built: Why Destroying Property Is Destroying Human Life | 9 | 22% | 1 | 1 | 0 | 22% | +0 |
 | 07:11 Virtue 2: Take Ownership, Which Is Responsibility | 9 | 22% | 2 | 0 | 0 | 22% | +0 |
-| 09:60 Judging Authority: The Parent-Child Model and the Vacancy ... | 25 | 20% | 3 | 1 | 1 | 24% | -4 |
-| 09:178 Mercy Versus Permissiveness, and the Structure of Two-Par... | 25 | 20% | 2 | 2 | 1 | 24% | -4 |
-| 14:70 2. Seven Questions Before a Decision | 22 | 23% | 5 | 0 | 0 | 27% | -5 |
-| 09:90 Borders, the Desert Cistern, and Naturalization as Civic A... | 20 | 20% | 3 | 0 | 1 | 25% | -5 |
-| 05:72 4. Property and Ownership: Title Deeds Are Form; Linking C... | 18 | 22% | 3 | 1 | 0 | 28% | -6 |
-| 09:51 Layer C: How Scope Defines the Nature of a Polity | 16 | 19% | 3 | 0 | 0 | 25% | -6 |
+| 09:267 1. What Classical Constitutional Rights Actually Are: Sco... | 9 | 22% | 2 | 0 | 0 | 22% | +0 |
+| 13:15 1. Singapore (1965–1990): Statecraft Under Resource Scarci... | 9 | 22% | 2 | 0 | 0 | 22% | +0 |
+| 09:65 Judging Authority: The Parent-Child Model and the Vacancy ... | 25 | 20% | 3 | 1 | 1 | 24% | -4 |
+| 09:183 Mercy Versus Permissiveness, and the Structure of Two-Par... | 25 | 20% | 2 | 2 | 1 | 24% | -4 |
+| 14:68 2. Seven Questions Before a Decision | 22 | 23% | 5 | 0 | 0 | 27% | -5 |
+| 09:95 Borders, the Desert Cistern, and Naturalization as Civic A... | 20 | 20% | 3 | 0 | 1 | 25% | -5 |
+| 05:71 4. Property and Ownership: Title Deeds Are Form; Linking C... | 18 | 22% | 3 | 1 | 0 | 28% | -6 |
 
 ## 11. Method and limits
 

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/chapters/11_ch11.md:ad44ee94:lint/imperative-opener",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 2537,
+      "byte_end": 2590,
+      "quote": "Consider first the rotated three-month winter pantry.",
+      "problem": "Post-apply lint catch (Part A, Imperative openers): 'Consider first...' triggered the imperative-opener rule. Refreshed with two non-abrupt declarative openers.",
+      "rule": "lint/imperative-opener",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "explicit 'The first example'",
+          "text": "The first example is the rotated three-month winter pantry."
+        },
+        {
+          "id": "b",
+          "label": "lead directly with the pantry",
+          "text": "A rotated three-month winter pantry shows how a sound reserve works."
+        }
+      ]
+    }
+  ],
+  "responds_to": [
+    "call:civ/chapters/11_ch11.md:ad44ee94:lint/imperative-opener"
+  ],
+  "answers": [
+    {
+      "id": "call:civ/chapters/11_ch11.md:ad44ee94:lint/imperative-opener",
+      "text": "Good catch — 'The first is...' was too abrupt across the paragraph break. Added two clearer non-imperative openers: 'a' names 'The first example', and 'b' opens directly on the pantry itself."
+    }
+  ]
+}

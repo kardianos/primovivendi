@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/11_ch11.md:ad44ee94:lint/imperative-opener"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/chapters/11_ch11.md:ad44ee94:lint/imperative-opener",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-22T21:02:03Z"
+    }
+  ]
+}

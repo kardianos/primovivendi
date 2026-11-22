@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/06_ch06.md:e51d4910:prose/bullets-to-prose"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/chapters/06_ch06.md:e51d4910:prose/bullets-to-prose",
+      "path": "civ/chapters/06_ch06.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:45:03Z"
+    }
+  ]
+}

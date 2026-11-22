@@ -1,0 +1,511 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/01_ch01.md:aabb59e5:prose/bullets-to-prose",
+    "call:civ/chapters/01_ch01.md:7b47c7ff:prose/bullets-to-prose",
+    "call:civ/chapters/02_ch02.md:12e8b68e:prose/bullets-to-prose",
+    "call:civ/chapters/02_ch02.md:7417272c:prose/bullets-to-prose",
+    "call:civ/chapters/02_ch02.md:d8414d45:prose/bullets-to-prose",
+    "call:civ/chapters/03_ch03.md:88b730ac:prose/bullets-to-prose",
+    "call:civ/chapters/03_ch03.md:cc6c958c:prose/bullets-to-prose",
+    "call:civ/chapters/03_ch03.md:b624587f:prose/bullets-to-prose",
+    "call:civ/chapters/04_ch04.md:551782c0:prose/bullets-to-prose",
+    "call:civ/chapters/04_ch04.md:006174ac:prose/bullets-to-prose",
+    "call:civ/chapters/04_ch04.md:9b17abaa:prose/bullets-to-prose",
+    "call:civ/chapters/04_ch04.md:1082fc1d:prose/bullets-to-prose",
+    "call:civ/chapters/04_ch04.md:21908e38:prose/bullets-to-prose",
+    "call:civ/chapters/05_ch05.md:a627dce1:prose/bullets-to-prose",
+    "call:civ/chapters/05_ch05.md:f855fde6:prose/bullets-to-prose",
+    "call:civ/chapters/06_ch06.md:642126fd:prose/bullets-to-prose",
+    "call:civ/chapters/06_ch06.md:f2fa64b5:prose/bullets-to-prose",
+    "call:civ/chapters/06_ch06.md:86df56a6:prose/bullets-to-prose",
+    "call:civ/chapters/06_ch06.md:d47892cd:prose/bullets-to-prose",
+    "call:civ/chapters/07_ch07.md:0ab51e3f:prose/bullets-to-prose",
+    "call:civ/chapters/07_ch07.md:6917a955:prose/bullets-to-prose",
+    "call:civ/chapters/07_ch07.md:409d9d67:prose/bullets-to-prose",
+    "call:civ/chapters/07_ch07.md:328b1dfd:prose/bullets-to-prose",
+    "call:civ/chapters/07_ch07.md:24cb51e1:prose/bullets-to-prose",
+    "call:civ/chapters/07_ch07.md:685a8101:prose/bullets-to-prose",
+    "call:civ/chapters/07_ch07.md:58af797b:prose/bullets-to-prose",
+    "call:civ/chapters/08_ch08.md:664b5266:prose/bullets-to-prose",
+    "call:civ/chapters/08_ch08.md:a1b4c9ac:prose/bullets-to-prose",
+    "call:civ/chapters/08_ch08.md:2dc695ad:prose/bullets-to-prose",
+    "call:civ/chapters/08_ch08.md:0dd4b08b:prose/bullets-to-prose",
+    "call:civ/chapters/08_ch08.md:bc7c6d9b:prose/bullets-to-prose",
+    "call:civ/chapters/08_ch08.md:afd28808:prose/bullets-to-prose",
+    "call:civ/chapters/09_ch09.md:5608ced9:prose/bullets-to-prose",
+    "call:civ/chapters/09_ch09.md:88240c10:prose/bullets-to-prose",
+    "call:civ/chapters/09_ch09.md:5bf36a4a:prose/bullets-to-prose",
+    "call:civ/chapters/09_ch09.md:197e5761:prose/bullets-to-prose",
+    "call:civ/chapters/09_ch09.md:658941d9:prose/bullets-to-prose",
+    "call:civ/chapters/09_ch09.md:201c3d37:prose/bullets-to-prose",
+    "call:civ/chapters/09_ch09.md:4fa604b3:prose/bullets-to-prose",
+    "call:civ/chapters/09_ch09.md:6ea79652:prose/bullets-to-prose",
+    "call:civ/chapters/09_ch09.md:d686f32d:prose/bullets-to-prose",
+    "call:civ/chapters/09_ch09.md:fe70291f:prose/bullets-to-prose",
+    "call:civ/chapters/09_ch09.md:c47f05e1:prose/bullets-to-prose",
+    "call:civ/chapters/09_ch09.md:b25d1269:prose/bullets-to-prose",
+    "call:civ/chapters/10_ch10.md:e1f36410:prose/bullets-to-prose",
+    "call:civ/chapters/10_ch10.md:5b345c85:prose/bullets-to-prose",
+    "call:civ/chapters/10_ch10.md:dee78a46:prose/bullets-to-prose",
+    "call:civ/chapters/10_ch10.md:5f6e36c9:prose/bullets-to-prose",
+    "call:civ/chapters/10_ch10.md:aa46f28a:prose/bullets-to-prose",
+    "call:civ/chapters/11_ch11.md:b558db19:prose/bullets-to-prose",
+    "call:civ/chapters/11_ch11.md:e9563836:prose/bullets-to-prose",
+    "call:civ/chapters/11_ch11.md:a141be59:prose/bullets-to-prose",
+    "call:civ/chapters/11_ch11.md:753777e2:prose/bullets-to-prose",
+    "call:civ/chapters/11_ch11.md:eae94ecd:prose/bullets-to-prose",
+    "call:civ/chapters/11_ch11.md:06a618ee:prose/bullets-to-prose",
+    "call:civ/chapters/12_ch12.md:ddf9e153:prose/bullets-to-prose",
+    "call:civ/chapters/12_ch12.md:20176585:prose/bullets-to-prose",
+    "call:civ/chapters/12_ch12.md:8762464a:prose/bullets-to-prose",
+    "call:civ/chapters/12_ch12.md:e5945532:prose/bullets-to-prose",
+    "call:civ/chapters/12_ch12.md:a4cf96fc:prose/bullets-to-prose",
+    "call:civ/chapters/12_ch12.md:6435572f:prose/bullets-to-prose",
+    "call:civ/chapters/12_ch12.md:0d45bdf4:prose/bullets-to-prose",
+    "call:civ/chapters/12_ch12.md:13afa8f5:prose/bullets-to-prose",
+    "call:civ/chapters/13_ch13.md:e6cd0c9c:prose/bullets-to-prose",
+    "call:civ/chapters/13_ch13.md:8b071581:prose/bullets-to-prose",
+    "call:civ/chapters/13_ch13.md:16b51201:prose/bullets-to-prose",
+    "call:civ/chapters/13_ch13.md:7d333427:prose/bullets-to-prose",
+    "call:civ/chapters/13_ch13.md:cba7a6ee:prose/bullets-to-prose",
+    "call:civ/chapters/14_ch14.md:d73c5e6e:prose/bullets-to-prose",
+    "call:civ/chapters/14_ch14.md:38f5b80f:prose/bullets-to-prose",
+    "call:civ/chapters/14_ch14.md:ea7a5329:prose/bullets-to-prose",
+    "call:civ/chapters/14_ch14.md:feff0f27:prose/bullets-to-prose"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/chapters/01_ch01.md:aabb59e5:prose/bullets-to-prose",
+      "path": "civ/chapters/01_ch01.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:41:20Z"
+    },
+    {
+      "id": "call:civ/chapters/01_ch01.md:7b47c7ff:prose/bullets-to-prose",
+      "path": "civ/chapters/01_ch01.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:41:03Z"
+    },
+    {
+      "id": "call:civ/chapters/02_ch02.md:12e8b68e:prose/bullets-to-prose",
+      "path": "civ/chapters/02_ch02.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:41:59Z"
+    },
+    {
+      "id": "call:civ/chapters/02_ch02.md:7417272c:prose/bullets-to-prose",
+      "path": "civ/chapters/02_ch02.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:41:55Z"
+    },
+    {
+      "id": "call:civ/chapters/02_ch02.md:d8414d45:prose/bullets-to-prose",
+      "path": "civ/chapters/02_ch02.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:41:45Z"
+    },
+    {
+      "id": "call:civ/chapters/03_ch03.md:88b730ac:prose/bullets-to-prose",
+      "path": "civ/chapters/03_ch03.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:43:50Z"
+    },
+    {
+      "id": "call:civ/chapters/03_ch03.md:cc6c958c:prose/bullets-to-prose",
+      "path": "civ/chapters/03_ch03.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:43:47Z"
+    },
+    {
+      "id": "call:civ/chapters/03_ch03.md:b624587f:prose/bullets-to-prose",
+      "path": "civ/chapters/03_ch03.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:43:40Z"
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:551782c0:prose/bullets-to-prose",
+      "path": "civ/chapters/04_ch04.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:44:15Z"
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:006174ac:prose/bullets-to-prose",
+      "path": "civ/chapters/04_ch04.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:44:09Z"
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:9b17abaa:prose/bullets-to-prose",
+      "path": "civ/chapters/04_ch04.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:44:09Z"
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:1082fc1d:prose/bullets-to-prose",
+      "path": "civ/chapters/04_ch04.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:43:58Z"
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:21908e38:prose/bullets-to-prose",
+      "path": "civ/chapters/04_ch04.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:43:53Z"
+    },
+    {
+      "id": "call:civ/chapters/05_ch05.md:a627dce1:prose/bullets-to-prose",
+      "path": "civ/chapters/05_ch05.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:44:20Z"
+    },
+    {
+      "id": "call:civ/chapters/05_ch05.md:f855fde6:prose/bullets-to-prose",
+      "path": "civ/chapters/05_ch05.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:44:18Z"
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:642126fd:prose/bullets-to-prose",
+      "path": "civ/chapters/06_ch06.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:45:46Z"
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:f2fa64b5:prose/bullets-to-prose",
+      "path": "civ/chapters/06_ch06.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:45:42Z"
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:86df56a6:prose/bullets-to-prose",
+      "path": "civ/chapters/06_ch06.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:45:34Z"
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:d47892cd:prose/bullets-to-prose",
+      "path": "civ/chapters/06_ch06.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:45:26Z"
+    },
+    {
+      "id": "call:civ/chapters/07_ch07.md:0ab51e3f:prose/bullets-to-prose",
+      "path": "civ/chapters/07_ch07.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:46:29Z"
+    },
+    {
+      "id": "call:civ/chapters/07_ch07.md:6917a955:prose/bullets-to-prose",
+      "path": "civ/chapters/07_ch07.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:46:14Z"
+    },
+    {
+      "id": "call:civ/chapters/07_ch07.md:409d9d67:prose/bullets-to-prose",
+      "path": "civ/chapters/07_ch07.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:46:03Z"
+    },
+    {
+      "id": "call:civ/chapters/07_ch07.md:328b1dfd:prose/bullets-to-prose",
+      "path": "civ/chapters/07_ch07.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:45:59Z"
+    },
+    {
+      "id": "call:civ/chapters/07_ch07.md:24cb51e1:prose/bullets-to-prose",
+      "path": "civ/chapters/07_ch07.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:45:54Z"
+    },
+    {
+      "id": "call:civ/chapters/07_ch07.md:685a8101:prose/bullets-to-prose",
+      "path": "civ/chapters/07_ch07.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:45:54Z"
+    },
+    {
+      "id": "call:civ/chapters/07_ch07.md:58af797b:prose/bullets-to-prose",
+      "path": "civ/chapters/07_ch07.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:45:50Z"
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:664b5266:prose/bullets-to-prose",
+      "path": "civ/chapters/08_ch08.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:48:02Z"
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:a1b4c9ac:prose/bullets-to-prose",
+      "path": "civ/chapters/08_ch08.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:48:00Z"
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:2dc695ad:prose/bullets-to-prose",
+      "path": "civ/chapters/08_ch08.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:47:50Z"
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:0dd4b08b:prose/bullets-to-prose",
+      "path": "civ/chapters/08_ch08.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:47:44Z"
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:bc7c6d9b:prose/bullets-to-prose",
+      "path": "civ/chapters/08_ch08.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:47:24Z"
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:afd28808:prose/bullets-to-prose",
+      "path": "civ/chapters/08_ch08.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:46:40Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:5608ced9:prose/bullets-to-prose",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:49:44Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:88240c10:prose/bullets-to-prose",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:49:37Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:5bf36a4a:prose/bullets-to-prose",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:49:20Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:197e5761:prose/bullets-to-prose",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:49:11Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:658941d9:prose/bullets-to-prose",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:49:05Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:201c3d37:prose/bullets-to-prose",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:49:03Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:4fa604b3:prose/bullets-to-prose",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:48:50Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:6ea79652:prose/bullets-to-prose",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:48:48Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:d686f32d:prose/bullets-to-prose",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:48:41Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:fe70291f:prose/bullets-to-prose",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:48:34Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:c47f05e1:prose/bullets-to-prose",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:48:12Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:b25d1269:prose/bullets-to-prose",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:48:07Z"
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:e1f36410:prose/bullets-to-prose",
+      "path": "civ/chapters/10_ch10.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:50:39Z"
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:5b345c85:prose/bullets-to-prose",
+      "path": "civ/chapters/10_ch10.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:50:18Z"
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:dee78a46:prose/bullets-to-prose",
+      "path": "civ/chapters/10_ch10.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:49:58Z"
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:5f6e36c9:prose/bullets-to-prose",
+      "path": "civ/chapters/10_ch10.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:49:51Z"
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:aa46f28a:prose/bullets-to-prose",
+      "path": "civ/chapters/10_ch10.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:49:49Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:b558db19:prose/bullets-to-prose",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:52:40Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:e9563836:prose/bullets-to-prose",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:52:38Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:a141be59:prose/bullets-to-prose",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:52:34Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:753777e2:prose/bullets-to-prose",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:52:28Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:eae94ecd:prose/bullets-to-prose",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:51:17Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:06a618ee:prose/bullets-to-prose",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:50:51Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:ddf9e153:prose/bullets-to-prose",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:53:37Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:20176585:prose/bullets-to-prose",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:53:25Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:8762464a:prose/bullets-to-prose",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:53:11Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:e5945532:prose/bullets-to-prose",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:53:07Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:a4cf96fc:prose/bullets-to-prose",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:52:54Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:6435572f:prose/bullets-to-prose",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:52:52Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:0d45bdf4:prose/bullets-to-prose",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:52:41Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:13afa8f5:prose/bullets-to-prose",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:52:40Z"
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:e6cd0c9c:prose/bullets-to-prose",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:53:53Z"
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:8b071581:prose/bullets-to-prose",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:53:51Z"
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:16b51201:prose/bullets-to-prose",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:53:46Z"
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:7d333427:prose/bullets-to-prose",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:53:43Z"
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:cba7a6ee:prose/bullets-to-prose",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:53:40Z"
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:d73c5e6e:prose/bullets-to-prose",
+      "path": "civ/chapters/14_ch14.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:54:19Z"
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:38f5b80f:prose/bullets-to-prose",
+      "path": "civ/chapters/14_ch14.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:53:57Z"
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:ea7a5329:prose/bullets-to-prose",
+      "path": "civ/chapters/14_ch14.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:53:56Z"
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:feff0f27:prose/bullets-to-prose",
+      "path": "civ/chapters/14_ch14.md",
+      "ok": true,
+      "decision_at": "2026-11-22T20:53:55Z"
+    }
+  ]
+}

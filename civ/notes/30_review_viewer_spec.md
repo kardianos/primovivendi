@@ -141,7 +141,7 @@ Dispositions, in the words the calls notes already use:
 
 `hold` / `explain` is "explain the objection" in note 10. `hold` / `research` is "Research. Passage unchanged." `hold` / `later` is "suggestions are allowed, no change until the queue is done." `revise` is "accepted in reduced form" and the `DT:` sentences in note 15. `withdraw` is "Withdrawn."
 
-Empty disposition means the item is still open. The viewer opens on the first open item.
+Empty disposition means the item is still open. The viewer opens on the first open item. An empty open list selects nothing.
 
 ## The batch an agent answers
 
@@ -167,7 +167,7 @@ The viewer marks an applied item only when `ok` is true and the file now contain
 
 ## Window
 
-One window, three regions. The prototype opens on the first open item.
+One window, three regions. The prototype opens on the first open item. An empty open list leaves the passage and the actions blank.
 
 - **Left.** Filters: open, all, hold, decided, stale. Then the items. A row shows the id, the match (`offset`, `moved`, `ambiguous`, `missing`), the kind, the disposition, and the item `from` when it is set.
 - **Center.** The path, the item `from` when it is set, the recorded offset against the offset that was found, and the problem. Under that, the source around the quote, with the quote marked, and a word diff of the quote against the focused alternate. The diff title names that alternate's `from` (its own, or the item `from` when the alternate's slot is blank). The passage starts at two lines above the quote and two below. Above, Below, `[`, and `]` open that side further (8 lines, then 24, then 80, then the rest of the file). Chapter shows the whole file. Tight returns to two lines. Moving to another item returns to two lines. Compare replaces the passage with columns: the current quote, each alternate, and Mine when it has text. Each alternate column shows its `from`.
@@ -179,7 +179,7 @@ Keys, and the same actions as buttons. A focused Mine or Note field takes the pl
 - `[` / `]` open more of the chapter above and below the quote. The same actions are the Above and Below buttons. Chapter and Tight are buttons.
 - `a` accepts the focused alternate. `r` rejects. `h` holds for later. `w` withdraws. `c` toggles compare.
 
-Accept, Use my wording, Reject, the three holds, and Withdraw save the decision and show the next item in the current filter. The last item stays. Reaffirm stays on the same item.
+Accept, Use my wording, Reject, the three holds, and Withdraw save the decision and show the next item in the current filter. When that filter has nothing left, the passage and the actions clear. A last item that remains in the filter stays selected. Reaffirm stays on the same item.
 - The three hold buttons set `hold_for` to `research`, `explain`, or `later`. Reaffirm sets `reaffirm` and leaves the disposition as it is.
 
 The author's text is stored as typed, including a rough sentence. The viewer does not correct it. Accept and Use my wording write nothing when the quote is ambiguous or missing, unless `reaffirm` is set. Reject, withdraw, and hold write anyway.

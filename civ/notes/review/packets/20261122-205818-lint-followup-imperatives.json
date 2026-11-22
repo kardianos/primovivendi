@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/chapters/11_ch11.md:ad44ee94:lint/imperative-opener",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 2537,
+      "byte_end": 2590,
+      "quote": "Consider first the rotated three-month winter pantry.",
+      "problem": "Post-apply lint catch (Part A, Imperative openers): 'Consider first...' triggered the imperative-opener rule.",
+      "rule": "lint/imperative-opener",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "declarative opener",
+          "text": "The first is the rotated three-month winter pantry."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:f7a0b5f5:lint/imperative-opener",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 14258,
+      "byte_end": 14308,
+      "quote": "Consider first **the Golden Rule** (Matthew 7:12):",
+      "problem": "Post-apply lint catch (Part A, Imperative openers): 'Consider first...' triggered the imperative-opener rule.",
+      "rule": "lint/imperative-opener",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "declarative opener",
+          "text": "The first is **the Golden Rule** (Matthew 7:12):"
+        }
+      ]
+    }
+  ]
+}
