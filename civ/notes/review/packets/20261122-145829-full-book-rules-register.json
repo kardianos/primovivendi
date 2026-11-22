@@ -1,0 +1,738 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/chapters/02_ch02.md:83711a1c:register/conflates",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/02_ch02.md",
+      "byte_offset": 22280,
+      "byte_end": 22410,
+      "quote": "That argument relies on a logical equivocation that conflates two distinct categories: **wrong models** and **incomplete models**.",
+      "problem": "Period-register outlier (17_ngram_comparison.md): 'conflates' is modern academic usage (post-1950 surge). Plain 'confuses' or 'runs together' fits the 1860s/1950s register.",
+      "rule": "register/conflates",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "confuses",
+          "text": "That argument relies on a logical equivocation that confuses two distinct categories: **wrong models** and **incomplete models**."
+        },
+        {
+          "id": "b",
+          "label": "runs together",
+          "text": "That argument relies on a logical equivocation that runs together two distinct categories: **wrong models** and **incomplete models**."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/02_ch02.md:30f93d88:register-linear/dataset-ptolemy",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/02_ch02.md",
+      "byte_offset": 24039,
+      "byte_end": 25040,
+      "quote": "Yet Ptolemy's *physical hypothesis*, that the Earth sat immobile at the center of the universe while planets moved on nested crystalline spheres and secondary circles pinned to primary circles, was erroneous. When **Nicolaus Copernicus** proposed placing the Sun at the center, and **Johannes Kepler**, working from **Tycho Brahe's** painstaking naked-eye measurements of Mars, discovered his three laws of planetary motion, Kepler matched the observations with far greater accuracy and without the artificial apparatus of epicycles. Those laws state that planets move in ellipses with the Sun at one focus, sweep out equal areas in equal times, and obey a precise mathematical ratio between orbital period and distance. That first transition demonstrates that **accurate numerical output within a limited dataset does not automatically validate the underlying physical explanation; when a simpler, more comprehensive model corresponds to reality more accurately, the earlier explanation must yield.**",
+      "problem": "Combined register + Rule 10 cluster (02:117): 'dataset' (modern computing term) is applied to Ptolemy's naked-eye astronomy, and three consecutive sentences score 5.0-5.5 in linear (29 and 32 words before main verbs, plus semicolon clause).",
+      "rule": "register-linear/dataset-ptolemy",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "replace dataset and unpack sentences",
+          "text": "Yet Ptolemy's *physical hypothesis* was erroneous: the Earth did not sit immobile at the center of the universe while planets moved on nested crystalline spheres and secondary circles pinned to primary circles. **Nicolaus Copernicus** proposed placing the Sun at the center. Working from **Tycho Brahe's** painstaking naked-eye measurements of Mars, **Johannes Kepler** then discovered his three laws of planetary motion, matching the observations with far greater accuracy and without the artificial apparatus of epicycles. Those laws state that planets move in ellipses with the Sun at one focus, sweep out equal areas in equal times, and obey a precise mathematical ratio between orbital period and distance. That first transition demonstrates a clear rule: **accurate numerical output within a limited set of observations does not validate the underlying physical explanation. When a simpler, more comprehensive model corresponds to reality more accurately, the earlier explanation must yield.**"
+        },
+        {
+          "id": "b",
+          "label": "minimal (dataset only)",
+          "text": "Yet Ptolemy's *physical hypothesis*, that the Earth sat immobile at the center of the universe while planets moved on nested crystalline spheres and secondary circles pinned to primary circles, was erroneous. When **Nicolaus Copernicus** proposed placing the Sun at the center, and **Johannes Kepler**, working from **Tycho Brahe's** painstaking naked-eye measurements of Mars, discovered his three laws of planetary motion, Kepler matched the observations with far greater accuracy and without the artificial apparatus of epicycles. Those laws state that planets move in ellipses with the Sun at one focus, sweep out equal areas in equal times, and obey a precise mathematical ratio between orbital period and distance. That first transition demonstrates that **accurate numerical output within a limited body of observations does not automatically validate the underlying physical explanation; when a simpler, more comprehensive model corresponds to reality more accurately, the earlier explanation must yield.**"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/03_ch03.md:2034f809:register/power-warfare",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/03_ch03.md",
+      "byte_offset": 12564,
+      "byte_end": 12833,
+      "quote": "A free, productive civilization lets believers of different faiths and non-believers live and build together, without falling into Scripturalist blindness, Occasionalist fatalism, or Constructivist power-warfare, by holding a strict boundary between two kinds of claim:",
+      "problem": "Period-register outlier (17_ngram_comparison.md): 'power-warfare' is a modern coined hyphenation.",
+      "rule": "register/power-warfare",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "power politics",
+          "text": "A free, productive civilization lets believers of different faiths and non-believers live and build together, without falling into Scripturalist blindness, Occasionalist fatalism, or Constructivist power politics, by holding a strict boundary between two kinds of claim:"
+        },
+        {
+          "id": "b",
+          "label": "struggles for power",
+          "text": "A free, productive civilization lets believers of different faiths and non-believers live and build together, without falling into Scripturalist blindness, Occasionalist fatalism, or Constructivist struggles for power, by holding a strict boundary between two kinds of claim:"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/03_ch03.md:35be140d:grammar/claim-number",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/03_ch03.md",
+      "byte_offset": 14557,
+      "byte_end": 14659,
+      "quote": "If every claim that fails a test is reclassified, the system that reclassifies them is itself suspect.",
+      "problem": "Grammar agreement mismatch (03:72, flagged by linear): singular 'every claim' is followed by plural 'reclassifies them'.",
+      "rule": "grammar/claim-number",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "singular (it)",
+          "text": "If every claim that fails a test is reclassified, the system that reclassifies it is itself suspect."
+        },
+        {
+          "id": "b",
+          "label": "plural (claims... them)",
+          "text": "If claims that fail a test are always reclassified, the system that reclassifies them is itself suspect."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/03_ch03.md:4f1ef827:precision/citicorp-reporting",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "call",
+      "path": "civ/chapters/03_ch03.md",
+      "byte_offset": 18249,
+      "byte_end": 18548,
+      "quote": "Rather than conceal the defect to protect his reputation, LeMessurier reported the calculation at once to Citicorp executives, city building officials, and emergency planners, and welders worked nightly to weld two-inch steel plates over more than two hundred joints before hurricane season arrived.",
+      "problem": "Primary-source precision (Joe Morgenstern, The New Yorker, 1995): LeMessurier reported directly to Citicorp executives (John Reed, Walter Wriston) and NYC building officials; bank officers then met the Red Cross and municipal emergency planners on August 7.",
+      "rule": "precision/citicorp-reporting",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "distinguish bank coordination",
+          "text": "Rather than conceal the defect to protect his reputation, LeMessurier reported the calculation at once to Citicorp executives and city building officials. Bank officers coordinated emergency plans with the city and the Red Cross, while welders worked nightly to weld two-inch steel plates over more than two hundred joints before hurricane season arrived."
+        },
+        {
+          "id": "b",
+          "label": "concise single sentence",
+          "text": "Rather than conceal the defect to protect his reputation, LeMessurier reported the calculation at once to Citicorp executives and city building officials, who brought in emergency planners while welders worked nightly to weld two-inch steel plates over more than two hundred joints before hurricane season arrived."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:f5a8ac8c:grammar-linear/fragment-habits",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/04_ch04.md",
+      "byte_offset": 3660,
+      "byte_end": 3983,
+      "quote": "Only through thousands of hours of patient, deliberate cultivation, by a mother and father who tell him *no* when he bites, who teach him to say *please* and *thank you*, who require him to put away the blocks he scattered, and by teachers, masters, and laws that reinforce those habits until self-command becomes habitual.",
+      "problem": "52-word sentence fragment with 6-deep clause nesting (linear score 5.0) plus close echo 'habits... habitual'. Turning it into two crisp sentences keeps the punch while clearing the syntax.",
+      "rule": "grammar-linear/fragment-habits",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "complete sentences",
+          "text": "He does so only through thousands of hours of patient, deliberate cultivation. A mother and father tell him *no* when he bites, teach him to say *please* and *thank you*, and require him to put away the blocks he scattered; teachers, masters, and laws then reinforce those habits until self-command becomes second nature."
+        },
+        {
+          "id": "b",
+          "label": "short punchy answer + unpack",
+          "text": "Only through thousands of hours of patient, deliberate cultivation. A mother and father tell him *no* when he bites, teach him to say *please* and *thank you*, and require him to put away the blocks he scattered. Teachers, masters, and laws then reinforce those habits until self-command becomes second nature."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/05_ch05.md:5e8cc044:style/heading-versus",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/05_ch05.md",
+      "byte_offset": 2128,
+      "byte_end": 2208,
+      "quote": "### The Engineering Distinction: Constructed in Form vs. Discovered in Substance",
+      "problem": "Heading consistency: 11 headings across Ch 2, 3, 5 (chapter title), 8, 9, and 11 spell out 'Versus', while 6 subheadings in Ch 5-7 abbreviate 'vs.'.",
+      "rule": "style/heading-versus",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "spell out Versus",
+          "text": "### The Engineering Distinction: Constructed in Form Versus Discovered in Substance"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/05_ch05.md:4c92e8cf:style/heading-versus",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/05_ch05.md",
+      "byte_offset": 3126,
+      "byte_end": 3200,
+      "quote": "#### 1. Traffic Laws: Left vs. Right Is Form; Separate Lanes Are Substance",
+      "problem": "Heading consistency: spell out 'Versus' to match the chapter title and Ch 2, 3, 8, 9, 11 headings.",
+      "rule": "style/heading-versus",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "spell out Versus",
+          "text": "#### 1. Traffic Laws: Left Versus Right Is Form; Separate Lanes Are Substance"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:2a1d685c:style/heading-versus",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/06_ch06.md",
+      "byte_offset": 22129,
+      "byte_end": 22223,
+      "quote": "#### The Two Partial Failures: Consuming Inherited Capital vs. Neglecting Material Foundations",
+      "problem": "Heading consistency: spell out 'Versus' to match Ch 2, 3, 5, 8, 9, 11 headings.",
+      "rule": "style/heading-versus",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "spell out Versus",
+          "text": "#### The Two Partial Failures: Consuming Inherited Capital Versus Neglecting Material Foundations"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:8d4c8a4e:rule/algebraic-time-ab",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/06_ch06.md",
+      "byte_offset": 24676,
+      "byte_end": 25185,
+      "quote": "Instead, living well is a **directed effort** measured by the positive rate of improvement between Time A and Time B.\n\nAt Time A (8:00 a.m.), the cottage floor is covered in tracked mud and the sink is full of encrusted dishes. You pick up the broom and the washcloth. At Time B (8:30 a.m.), the floor is clean and the dishes are stacked dry on the shelf. That positive improvement between 8:00 and 8:30 *is* keeping and building in microcosm: human will and method imposing order on a small area of disorder.",
+      "problem": "Editing Guide §3.3 (Algebraic Placeholders): 'Time A' and 'Time B' are algebraic letter placeholders; the passage already names concrete clock times (8:00 a.m. and 8:30 a.m.).",
+      "rule": "rule/algebraic-time-ab",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "plain clock times",
+          "text": "Instead, living well is a **directed effort** measured by the positive rate of improvement from one hour to the next.\n\nAt 8:00 a.m., the cottage floor is covered in tracked mud and the sink is full of encrusted dishes. You pick up the broom and the washcloth. At 8:30 a.m., the floor is clean and the dishes are stacked dry on the shelf. That positive improvement between 8:00 and 8:30 *is* keeping and building in microcosm: human will and method imposing order on a small area of disorder."
+        },
+        {
+          "id": "b",
+          "label": "earlier and later state",
+          "text": "Instead, living well is a **directed effort** measured by the positive rate of improvement between an earlier state and a later one.\n\nAt eight in the morning, the cottage floor is covered in tracked mud and the sink is full of encrusted dishes. You pick up the broom and the washcloth. Half an hour later, the floor is clean and the dishes are stacked dry on the shelf. That positive improvement between 8:00 and 8:30 *is* keeping and building in microcosm: human will and method imposing order on a small area of disorder."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/07_ch07.md:c0873d27:spelling-register/grey-breakroom",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/07_ch07.md",
+      "byte_offset": 1387,
+      "byte_end": 1952,
+      "quote": "In the shared breakroom kitchen of almost any large office building or factory where fifty employees eat lunch and no single person is assigned ownership of the sink, the scene by Thursday afternoon is predictable: a sour, grey sponge sitting in a puddle at the bottom of the basin; coffee grounds encrusted on the counter; a refrigerator holding plastic containers of spoiling food from three months ago; and a hot-water tap that has dripped steadily for a year because each of the fifty workers assumes that one of the other forty-nine reported it to maintenance.",
+      "problem": "British spelling 'grey' (missed by lint; Editing Guide §2 requires American 'gray') + modern word 'breakroom' (17_ngram_comparison.md). Option b also splits the 97-word sentence at the colon.",
+      "rule": "spelling-register/grey-breakroom",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "fix gray + lunchroom",
+          "text": "In the shared lunchroom kitchen of almost any large office building or factory where fifty employees eat and no single person is assigned ownership of the sink, the scene by Thursday afternoon is predictable: a sour, gray sponge sitting in a puddle at the bottom of the basin; coffee grounds encrusted on the counter; a refrigerator holding plastic containers of spoiling food from three months ago; and a hot-water tap that has dripped steadily for a year because each of the fifty workers assumes that one of the other forty-nine reported it to maintenance."
+        },
+        {
+          "id": "b",
+          "label": "fix gray + lunchroom and split",
+          "text": "In the shared lunchroom kitchen of almost any large office building or factory where fifty employees eat and no single person owns the sink, the scene by Thursday afternoon is predictable. A sour, gray sponge sits in a puddle at the bottom of the basin; coffee grounds crust the counter; a refrigerator holds plastic containers of spoiling food from three months ago; and a hot-water tap has dripped steadily for a year because each of the fifty workers assumes that one of the other forty-nine reported it to maintenance."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/07_ch07.md:c14c2c2e:style/heading-versus",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/07_ch07.md",
+      "byte_offset": 3589,
+      "byte_end": 3654,
+      "quote": "#### 2. Forward-Looking Responsibility vs. Backward-Looking Blame",
+      "problem": "Heading consistency: spell out 'Versus' to match Ch 2, 3, 5, 8, 9, 11 headings.",
+      "rule": "style/heading-versus",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "spell out Versus",
+          "text": "#### 2. Forward-Looking Responsibility Versus Backward-Looking Blame"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/07_ch07.md:725b5c7d:style/heading-versus",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/07_ch07.md",
+      "byte_offset": 5343,
+      "byte_end": 5390,
+      "quote": "#### 3. Responsibility vs. Untethered Sacrifice",
+      "problem": "Heading consistency: spell out 'Versus' to match Ch 2, 3, 5, 8, 9, 11 headings.",
+      "rule": "style/heading-versus",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "spell out Versus",
+          "text": "#### 3. Responsibility Versus Untethered Sacrifice"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/07_ch07.md:a07e4c68:style/heading-versus",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/07_ch07.md",
+      "byte_offset": 11995,
+      "byte_end": 12031,
+      "quote": "#### 2. Perfectionism vs. Excellence",
+      "problem": "Heading consistency: spell out 'Versus' to match Ch 2, 3, 5, 8, 9, 11 headings.",
+      "rule": "style/heading-versus",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "spell out Versus",
+          "text": "#### 2. Perfectionism Versus Excellence"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:ea1e72b3:register/fraudster",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/08_ch08.md",
+      "byte_offset": 11549,
+      "byte_end": 11774,
+      "quote": "Dispositional love is the proper default disposition toward all peaceful human beings across every tier (Tiers 1 through 5), until and unless a specific person or group proves by conduct to be a fraudster, criminal, or enemy.",
+      "problem": "Period-register outlier (17_ngram_comparison.md, 1 of 4 uses in the book): 'fraudster' is late-20th-century journalese. 'swindler' or 'cheat' fits the period register.",
+      "rule": "register/fraudster",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "swindler",
+          "text": "Dispositional love is the proper default disposition toward all peaceful human beings across every tier (Tiers 1 through 5), until and unless a specific person or group proves by conduct to be a swindler, criminal, or enemy."
+        },
+        {
+          "id": "b",
+          "label": "cheat",
+          "text": "Dispositional love is the proper default disposition toward all peaceful human beings across every tier (Tiers 1 through 5), until and unless a specific person or group proves by conduct to be a cheat, criminal, or enemy."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:54df0fcb:register/rulebook",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 18970,
+      "byte_end": 19057,
+      "quote": "Suppose an athletic contest is held in which no rulebook is written before play begins.",
+      "problem": "Period-register outlier (17_ngram_comparison.md): 'rulebook' (solid compound) is modern; 'code of rules' or 'set of rules' fits the period register.",
+      "rule": "register/rulebook",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "code of rules",
+          "text": "Suppose an athletic contest is held with no code of rules written before play begins."
+        },
+        {
+          "id": "b",
+          "label": "set of rules",
+          "text": "Suppose an athletic contest is held with no set of rules written before play begins."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:7cc6e2b2:register-phonetics/unsurprisingly-ly",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 21654,
+      "byte_end": 22060,
+      "quote": "Unsurprisingly, historical accounts repeatedly noted that whenever Spartan commanders went abroad away from domestic surveillance, they were notoriously susceptible to bribery; and when Thebes finally defeated the Spartan phalanx at the Battle of Leuctra in 371 BCE and liberated the Messenian helots, Sparta never recovered its former standing, and it left behind no notable work of science or philosophy.",
+      "problem": "Triple hit (09:144): modern editorial adverb 'Unsurprisingly' (17_ngram_comparison.md), four '-ly' adverbs in one sentence (lint phonetics: Unsurprisingly, repeatedly, notoriously, finally), and a 64-word semicolon compound sentence.",
+      "rule": "register-phonetics/unsurprisingly-ly",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "drop -ly stack and split",
+          "text": "Historical accounts noted again and again that whenever Spartan commanders went abroad beyond domestic surveillance, they proved easy to bribe. When Thebes defeated the Spartan phalanx at the Battle of Leuctra in 371 BCE and liberated the Messenian helots, Sparta never recovered its former standing, and it left behind no notable work of science or philosophy."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:f7c73046:precision-linear/soviet-deng-dates",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "call",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 23934,
+      "byte_end": 24766,
+      "quote": "During the First Five-Year Plan (1928 to 1932), the Soviet Union bypassed individual entrance examinations in technical institutes to fill engineering seats by class quotas and graded students collectively in brigades; when graduates proved unable to keep industrial plants running, the Central Executive Committee issued its decree of September 19, 1932 abolishing collective grading and restoring individual examinations and theses. China repeated the experiment during the Cultural Revolution, abolishing the national university entrance examination (*gaokao*) in 1966 in favor of class-background recommendations; eleven years of crippled technical training forced Deng Xiaoping to restore the examination in 1977, stating that examinations check students' work just as the testing of factory products checks industrial quality.",
+      "problem": "Primary-source precision + Rule 10 splits (09:162, score 4.5, 61 words + 64 words): (1) The Sept. 19, 1932 CEC decree declared the brigade-laboratory method inexpedient in its current form and banned collective grading/tests while restoring compulsory individual examinations and graduation theses; (2) Deng restored the gaokao in 1977 (Aug. 8), while the exact 'testing of factory products' remark was delivered the next spring (April 22, 1978, National Conference on Education, ext-ref/deng/deng_1978_04_22.html).",
+      "rule": "precision-linear/soviet-deng-dates",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "clarify dates and split semicolons",
+          "text": "During the First Five-Year Plan (1928 to 1932), the Soviet Union bypassed individual entrance examinations in technical institutes to fill engineering seats by class quotas and graded students collectively in brigades. When graduates proved unable to keep industrial plants running, the Central Executive Committee issued its decree of September 19, 1932 banning collective tests and grading and restoring compulsory individual examinations and graduation theses. China repeated the experiment during the Cultural Revolution, abolishing the national university entrance examination (*gaokao*) in 1966 in favor of class-background recommendations. Eleven years of crippled technical training forced Deng Xiaoping to restore the examination in 1977; at the National Conference on Education the next spring, he explained that examinations check students' work just as the testing of factory products checks industrial quality."
+        },
+        {
+          "id": "b",
+          "label": "minimal date precision only",
+          "text": "During the First Five-Year Plan (1928 to 1932), the Soviet Union bypassed individual entrance examinations in technical institutes to fill engineering seats by class quotas and graded students collectively in brigades; when graduates proved unable to keep industrial plants running, the Central Executive Committee issued its decree of September 19, 1932 banning collective tests and grading and restoring compulsory individual examinations and theses. China repeated the experiment during the Cultural Revolution, abolishing the national university entrance examination (*gaokao*) in 1966 in favor of class-background recommendations; eleven years of crippled technical training forced Deng Xiaoping to restore the examination in 1977, explaining the following spring that examinations check students' work just as the testing of factory products checks industrial quality."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:22811b7f:register/fraudster",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 24845,
+      "byte_end": 25040,
+      "quote": "A procedure is useless unless human beings have the courage to render a **verdict** at the end of the procedure: *True or false. Pass or fail. Honest merchant or fraudster. Guilty or not guilty.*",
+      "problem": "Period-register outlier (17_ngram_comparison.md, 2 of 4 uses): 'fraudster' -\u003e 'swindler' or 'cheat'.",
+      "rule": "register/fraudster",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "swindler",
+          "text": "A procedure is useless unless human beings have the courage to render a **verdict** at the end of the procedure: *True or false. Pass or fail. Honest merchant or swindler. Guilty or not guilty.*"
+        },
+        {
+          "id": "b",
+          "label": "cheat",
+          "text": "A procedure is useless unless human beings have the courage to render a **verdict** at the end of the procedure: *True or false. Pass or fail. Honest merchant or cheat. Guilty or not guilty.*"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:3ab0a2fa:register/fraudster",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 33689,
+      "byte_end": 33806,
+      "quote": "A fraudster exploits that shared trust and forces the entire society to slow down and bear a permanent security cost.",
+      "problem": "Period-register outlier (17_ngram_comparison.md, 3 of 4 uses): 'fraudster' -\u003e 'swindler' or 'cheat'.",
+      "rule": "register/fraudster",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "swindler",
+          "text": "A swindler exploits that shared trust and forces the entire society to slow down and bear a permanent security cost."
+        },
+        {
+          "id": "b",
+          "label": "cheat",
+          "text": "A cheat exploits that shared trust and forces the entire society to slow down and bear a permanent security cost."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:ae8dfbbf:rule/algebraic-clan-ab",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 39148,
+      "byte_end": 39569,
+      "quote": "In blood-feud societies (from medieval vendetta clans to highland feuds), Clan A accidentally kills a herdsman from Clan B. Clan B calculates that *their* dead man was worth two ordinary men of Clan A, so they ride over and kill two men of Clan A. Clan A, viewing its own sons through the natural partiality of inner-tier affection, regards the killing of two of its men as an unprovoked outrage worth four men of Clan B.",
+      "problem": "Editing Guide §3.3 (Algebraic Placeholders): 'Clan A' and 'Clan B' are algebraic letter placeholders (plus linear score 5.0). Also resolves 'Clan B... their' vs 'Clan A... its' number shift.",
+      "rule": "rule/algebraic-clan-ab",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "valley clan / hill clan",
+          "text": "In blood-feud societies, from medieval vendetta houses to highland clans, a man from the valley clan accidentally kills a herdsman from the hill clan. The hill clan calculates that *its* dead man was worth two ordinary men of the valley, so its kinsmen ride down and kill two valley men. Viewing its own sons through the natural partiality of inner-tier affection, the valley clan regards those two deaths as an unprovoked outrage worth four men of the hills."
+        },
+        {
+          "id": "b",
+          "label": "one clan / neighboring clan",
+          "text": "In blood-feud societies, from medieval vendetta houses to highland clans, a member of one clan accidentally kills a herdsman from a neighboring clan. The injured clan calculates that *its* dead man was worth two ordinary men of the first, so its kinsmen ride over and kill two of them. Viewing its own sons through the natural partiality of inner-tier affection, the first clan regards those two deaths as an unprovoked outrage worth four men of its rival."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:9abee3c0:register/effort-free",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 4677,
+      "byte_end": 4848,
+      "quote": "That is what occurs when a society transforms **temporary reserves against catastrophe** into an unconditional entitlement to a painless, risk-free, effort-free existence.",
+      "problem": "Period-register outlier (17_ngram_comparison.md): 'effort-free' is modern advertising/corporate diction ('effortless' is standard).",
+      "rule": "register/effort-free",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "effortless existence free of risk",
+          "text": "That is what occurs when a society transforms **temporary reserves against catastrophe** into an unconditional entitlement to a painless, effortless existence free of risk."
+        },
+        {
+          "id": "b",
+          "label": "effortless life free of pain and risk",
+          "text": "That is what occurs when a society transforms **temporary reserves against catastrophe** into an unconditional entitlement to an effortless life free of pain and risk."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:73de0d25:register/outcome-leveling",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 1719,
+      "byte_end": 1877,
+      "quote": "5. Does it govern multi-household life by scoped procedural symmetry rather than arbitrary decree, tribal privilege, or forced outcome-leveling (Principle 5)?",
+      "problem": "Period-register outlier (17_ngram_comparison.md): 'outcome-leveling' is a modern hyphenated compound (appears twice in Ch 12: lines 15 and 163).",
+      "rule": "register/outcome-leveling",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "forced leveling of outcomes",
+          "text": "5. Does it govern multi-household life by scoped procedural symmetry rather than arbitrary decree, tribal privilege, or forced leveling of outcomes (Principle 5)?"
+        },
+        {
+          "id": "b",
+          "label": "forced equality of outcome",
+          "text": "5. Does it govern multi-household life by scoped procedural symmetry rather than arbitrary decree, tribal privilege, or forced equality of outcome (Principle 5)?"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:72799513:register/standalone",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 27279,
+      "byte_end": 27349,
+      "quote": "* **Why Buddhism cannot serve as a standalone root for civilization:**",
+      "problem": "Period-register outlier (17_ngram_comparison.md): 'standalone' is modern computing/business diction; 'self-sufficient' or 'sole' fits the period register.",
+      "rule": "register/standalone",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "self-sufficient",
+          "text": "* **Why Buddhism cannot serve as a self-sufficient root for civilization:**"
+        },
+        {
+          "id": "b",
+          "label": "sole",
+          "text": "* **Why Buddhism cannot serve as a sole root for civilization:**"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:287aa1e9:register/outcome-leveling",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 30171,
+      "byte_end": 30433,
+      "quote": "When an intelligent young man or woman realizes that postmodern constructivism, \"equity\" outcome-leveling, open borders, and family breakdown are destroying their country, their first impulse is often to embrace any writer who loudly denounces modern liberalism.",
+      "problem": "Period-register outlier (17_ngram_comparison.md): 'outcome-leveling' (2nd occurrence in Ch 12). Also resolves singular 'young man or woman' -\u003e 'his or her' if desired (option a keeps original pronouns).",
+      "rule": "register/outcome-leveling",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "forced leveling of outcomes",
+          "text": "When an intelligent young man or woman realizes that postmodern constructivism, forced leveling of outcomes under \"equity,\" open borders, and family breakdown are destroying their country, their first impulse is often to embrace any writer who loudly denounces modern liberalism."
+        },
+        {
+          "id": "b",
+          "label": "concise (\"equity\" leveling)",
+          "text": "When an intelligent young man or woman realizes that postmodern constructivism, \"equity\" leveling, open borders, and family breakdown are destroying their country, their first impulse is often to embrace any writer who loudly denounces modern liberalism."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:4efa6505:register/conservative-sounding",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 35148,
+      "byte_end": 35390,
+      "quote": "Because Dugin uses conservative-sounding terms, praising \"Tradition,\" the Orthodox Church, multipolarity, and resistance to Western progressive decadence, some Western right-wing commentators have naively treated him as a civilizational ally.",
+      "problem": "Period-register outlier (17_ngram_comparison.md): 'conservative-sounding' is modern journalistic hyphenation.",
+      "rule": "register/conservative-sounding",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "borrows the language of conservatism",
+          "text": "Because Dugin borrows the language of conservatism, praising \"Tradition,\" the Orthodox Church, multipolarity, and resistance to Western progressive decadence, some Western right-wing commentators have naively treated him as a civilizational ally."
+        },
+        {
+          "id": "b",
+          "label": "uses the vocabulary of conservatism",
+          "text": "Because Dugin uses the vocabulary of conservatism, praising \"Tradition,\" the Orthodox Church, multipolarity, and resistance to Western progressive decadence, some Western right-wing commentators have naively treated him as a civilizational ally."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:5193485b:register/disorder-ridden",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/13_ch13.md",
+      "byte_offset": 3080,
+      "byte_end": 3329,
+      "quote": "Every prevailing academic theory of the 1960s, including \"Dependency Theory,\" socialist state ownership, post-colonial grievance politics, and ethnic majoritarianism, predicted that Singapore would become an impoverished, disorder-ridden dependency.",
+      "problem": "Period-register outlier (17_ngram_comparison.md): 'disorder-ridden' is a modern hyphenated coinage.",
+      "rule": "register/disorder-ridden",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "impoverished, disorderly dependency",
+          "text": "Every prevailing academic theory of the 1960s, including \"Dependency Theory,\" socialist state ownership, post-colonial grievance politics, and ethnic majoritarianism, predicted that Singapore would become an impoverished, disorderly dependency."
+        },
+        {
+          "id": "b",
+          "label": "impoverished dependency plagued by disorder",
+          "text": "Every prevailing academic theory of the 1960s, including \"Dependency Theory,\" socialist state ownership, post-colonial grievance politics, and ethnic majoritarianism, predicted that Singapore would become an impoverished dependency plagued by disorder."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:9a86d0a0:register-linear/headcount",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/13_ch13.md",
+      "byte_offset": 11116,
+      "byte_end": 11444,
+      "quote": "Instead, land was held collectively by the village commune (the *mir* or *obshchina*), which periodically **redistributed strips of land** among households by headcount and forbade any peasant farmer from consolidating his strips, fencing his field, or adopting modern crop rotation without the approval of the village assembly.",
+      "problem": "Period-register outlier (17_ngram_comparison.md): 'headcount' is modern corporate HR diction applied to 1861 Russian peasant communes. Option a also splits the 55-word sentence cleanly.",
+      "rule": "register-linear/headcount",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "family size + split",
+          "text": "Instead, the village commune (the *mir* or *obshchina*) held the land collectively and periodically **redistributed strips of land** among households by family size. It forbade any peasant farmer from consolidating his strips, fencing his field, or adopting modern crop rotation without the approval of the village assembly."
+        },
+        {
+          "id": "b",
+          "label": "minimal (household size only)",
+          "text": "Instead, land was held collectively by the village commune (the *mir* or *obshchina*), which periodically **redistributed strips of land** among households by household size and forbade any peasant farmer from consolidating his strips, fencing his field, or adopting modern crop rotation without the approval of the village assembly."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:ccf84abf:register/counterproductive",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/13_ch13.md",
+      "byte_offset": 11446,
+      "byte_end": 11771,
+      "quote": "The incentives of the communal *mir* under Principle 2 were counterproductive: why would an industrious peasant spend three years draining a marsh, hauling manure, and planting fruit trees on his fourth strip if the village commune would confiscate that strip at the next redistribution and assign it to a negligent neighbor?",
+      "problem": "Period-register outlier (17_ngram_comparison.md): 'counterproductive' is a post-1950 management term. 'self-defeating' or 'perverse' fits the period register, and a full stop before 'Why' cleans up the colon.",
+      "rule": "register/counterproductive",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "self-defeating + period",
+          "text": "The incentives of the communal *mir* under Principle 2 were self-defeating. Why would an industrious peasant spend three years draining a marsh, hauling manure, and planting fruit trees on his fourth strip if the village commune would confiscate that strip at the next redistribution and assign it to a negligent neighbor?"
+        },
+        {
+          "id": "b",
+          "label": "perverse + period",
+          "text": "The incentives of the communal *mir* under Principle 2 were perverse. Why would an industrious peasant spend three years draining a marsh, hauling manure, and planting fruit trees on his fourth strip if the village commune would confiscate that strip at the next redistribution and assign it to a negligent neighbor?"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:4b082eb1:register/hyperinflates",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/14_ch14.md",
+      "byte_offset": 1205,
+      "byte_end": 1567,
+      "quote": "Three years later, when the unmaintained oil equipment fails, the currency hyperinflates, and families suffer severe food shortages, one points to the same country and the same government, and the partisan replies: *\"That is not the fault of Socialism; it resulted from foreign sabotage, hoarders, adverse weather, and an imperfect implementation of Socialism.\"*",
+      "problem": "Period-register outlier (17_ngram_comparison.md): 'hyperinflates' as an intransitive verb is late-20th-century jargon.",
+      "rule": "register/hyperinflates",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "collapses in runaway inflation",
+          "text": "Three years later, when the unmaintained oil equipment fails, the currency collapses in runaway inflation, and families suffer severe food shortages, one points to the same country and the same government, and the partisan replies: *\"That is not the fault of Socialism; it resulted from foreign sabotage, hoarders, adverse weather, and an imperfect implementation of Socialism.\"*"
+        },
+        {
+          "id": "b",
+          "label": "loses its value in hyperinflation",
+          "text": "Three years later, when the unmaintained oil equipment fails, the currency loses its value in hyperinflation, and families suffer severe food shortages, one points to the same country and the same government, and the partisan replies: *\"That is not the fault of Socialism; it resulted from foreign sabotage, hoarders, adverse weather, and an imperfect implementation of Socialism.\"*"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:b032e542:register/fraudster",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/14_ch14.md",
+      "byte_offset": 8610,
+      "byte_end": 8747,
+      "quote": "5. **Enemies.** How would a fraudster, a free rider, or an enemy use or attack this arrangement? Are its boundaries and reserves guarded?",
+      "problem": "Period-register outlier (17_ngram_comparison.md, 4 of 4 uses): 'fraudster' -\u003e 'swindler' or 'cheat'.",
+      "rule": "register/fraudster",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "swindler",
+          "text": "5. **Enemies.** How would a swindler, a free rider, or an enemy use or attack this arrangement? Are its boundaries and reserves guarded?"
+        },
+        {
+          "id": "b",
+          "label": "cheat",
+          "text": "5. **Enemies.** How would a cheat, a free rider, or an enemy use or attack this arrangement? Are its boundaries and reserves guarded?"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:f041c83b:register-linear/workspace-split",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/14_ch14.md",
+      "byte_offset": 14776,
+      "byte_end": 15157,
+      "quote": "    When you complete the task, you leave the workspace cleaner, more orderly, and more functional than you found it (Virtue 4: Beauty as Vitality, Order, and Truth), and when you evaluate two applicants or two contracts in the afternoon, you apply the same written standard to both without regard to their faction or personal connections (Principle 5: Scoped Procedural Symmetry).",
+      "problem": "Combined register + Rule 10 (14:127): 'workspace' is modern office jargon (17_ngram_comparison.md; paragraph 125 just above already uses 'workplace'), and the 60-word sentence joins two distinct actions with ', and when'.",
+      "rule": "register-linear/workspace-split",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "workbench or desk + split",
+          "text": "    When you complete the task, you leave the workbench or desk cleaner, more orderly, and more functional than you found it (Virtue 4: Beauty as Vitality, Order, and Truth). When you evaluate two applicants or two contracts in the afternoon, you apply the same written standard to both without regard to their faction or personal connections (Principle 5: Scoped Procedural Symmetry)."
+        },
+        {
+          "id": "b",
+          "label": "work area + split",
+          "text": "    When you complete the task, you leave the work area cleaner, more orderly, and more functional than you found it (Virtue 4: Beauty as Vitality, Order, and Truth). When you evaluate two applicants or two contracts in the afternoon, you apply the same written standard to both without regard to their faction or personal connections (Principle 5: Scoped Procedural Symmetry)."
+        }
+      ]
+    }
+  ]
+}

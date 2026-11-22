@@ -1,6 +1,18 @@
 {
   "version": 1,
   "items": {
+    "call:civ/chapters/01_ch01.md:8fe31426:phonetics/single-shingle": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Leave a well-built house unmaintained for ten winters, and one lifted shingle lets autumn rain rot the roof beam until the ceiling collapses.",
+      "at": "2026-11-22T15:15:20Z"
+    },
+    "call:civ/chapters/02_ch02.md:30f93d88:register-linear/dataset-ptolemy": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Yet Ptolemy's *physical hypothesis* was erroneous: the Earth did not sit immobile at the center of the universe while planets moved on nested crystalline spheres and secondary circles pinned to primary circles. **Nicolaus Copernicus** proposed placing the Sun at the center. Working from **Tycho Brahe's** painstaking naked-eye measurements of Mars, **Johannes Kepler** then discovered his three laws of planetary motion, matching the observations with far greater accuracy and without the artificial apparatus of epicycles. Those laws state that planets move in ellipses with the Sun at one focus, sweep out equal areas in equal times, and obey a precise mathematical ratio between orbital period and distance. That first transition demonstrates a clear rule: **accurate numerical output within a limited set of observations does not validate the underlying physical explanation. When a simpler, more comprehensive model corresponds to reality more accurately, the earlier explanation must yield.**",
+      "at": "2026-11-22T18:12:41Z"
+    },
     "call:civ/chapters/02_ch02.md:34246c58:prop/bridge-real": {
       "disposition": "accept",
       "alternate": "a",
@@ -18,6 +30,12 @@
       "alternate": "keep",
       "note": "Keep: already real engineering and part of Chapter 2's bridge thread.",
       "at": "2026-11-22T13:44:55Z"
+    },
+    "call:civ/chapters/02_ch02.md:83711a1c:register/conflates": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "That argument relies on a logical equivocation that confuses two distinct categories: **wrong models** and **incomplete models**.",
+      "at": "2026-11-22T18:11:28Z"
     },
     "call:civ/chapters/02_ch02.md:857225a4:prop/bridge-keep": {
       "disposition": "reject",
@@ -64,6 +82,24 @@
       "note": "I like it, but I might quibble with the last word \"elegant\" and perhaps be more explicit here. Are we talking about our model calcuations?",
       "at": "2026-11-22T04:27:17Z"
     },
+    "call:civ/chapters/03_ch03.md:2034f809:register/power-warfare": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "A free, productive civilization lets believers of different faiths and non-believers live and build together, without falling into Scripturalist blindness, Occasionalist fatalism, or Constructivist power politics, by holding a strict boundary between two kinds of claim:",
+      "at": "2026-11-22T18:13:00Z"
+    },
+    "call:civ/chapters/03_ch03.md:35be140d:grammar/claim-number": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "If every claim that fails a test is reclassified, the system that reclassifies it is itself suspect.",
+      "at": "2026-11-22T18:13:12Z"
+    },
+    "call:civ/chapters/03_ch03.md:4f1ef827:precision/citicorp-reporting": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Rather than conceal the defect to protect his reputation, LeMessurier reported the calculation at once to Citicorp executives and city building officials. Bank officers coordinated emergency plans with the city and the Red Cross, while welders worked nightly to weld two-inch steel plates over more than two hundred joints before hurricane season arrived.",
+      "at": "2026-11-22T18:13:36Z"
+    },
     "call:civ/chapters/03_ch03.md:53a1a094:prop/bridge-vary": {
       "disposition": "accept",
       "alternate": "a",
@@ -89,11 +125,77 @@
       "accepted_text": "In July 1990 a federal grand jury indicted Eastern Air Lines and several of its maintenance managers for altering safety and maintenance records. In March 1991 the carrier pleaded guilty to conspiracy and six counts of falsifying work records on its fleet, admitting that records had been written to make it appear maintenance had been performed on landing gear, wing flaps, fuel filters, and other parts when the work had not been done (Associated Press, March 21, 1991). No accident was traced to those omissions, yet the offense against civilization is plain: falsified paper satisfies a schedule and a regulator while leaving the physical machinery uninspected, and reality collects on unperformed maintenance regardless of what the logbook says.",
       "at": "2026-11-22T13:21:38Z"
     },
+    "call:civ/chapters/04_ch04.md:f5a8ac8c:grammar-linear/fragment-habits": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "He does so only through thousands of hours of patient, deliberate cultivation. A mother and father tell him *no* when he bites, teach him to say *please* and *thank you*, and require him to put away the blocks he scattered; teachers, masters, and laws then reinforce those habits until self-command becomes second nature.",
+      "at": "2026-11-22T18:21:09Z"
+    },
+    "call:civ/chapters/05_ch05.md:4c92e8cf:style/heading-versus": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "#### 1. Traffic Laws: Left Versus Right Is Form; Separate Lanes Are Substance",
+      "at": "2026-11-22T18:22:33Z"
+    },
+    "call:civ/chapters/05_ch05.md:5e8cc044:style/heading-versus": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "### The Engineering Distinction: Constructed in Form Versus Discovered in Substance",
+      "at": "2026-11-22T18:22:30Z"
+    },
+    "call:civ/chapters/06_ch06.md:04d9e0e5:phonetics/single-shingle": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "To see how quickly an unmaintained structure negates the work of its construction, trace the effect of one displaced shingle on the roof of a house:",
+      "at": "2026-11-22T15:39:38Z"
+    },
+    "call:civ/chapters/06_ch06.md:1027de36:phonetics/single-shingle": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "\u003e Five years later, a winter wind lifts one shingle near the ridge and leaves a gap the size of a man's hand.",
+      "at": "2026-11-22T15:39:41Z"
+    },
+    "call:civ/chapters/06_ch06.md:2a1d685c:style/heading-versus": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "#### The Two Partial Failures: Consuming Inherited Capital Versus Neglecting Material Foundations",
+      "at": "2026-11-22T18:22:35Z"
+    },
     "call:civ/chapters/06_ch06.md:64cfac75:prop/granary-vary": {
       "disposition": "accept",
       "alternate": "a",
       "accepted_text": "Suppose three generations inhabit one farmhouse. The grandfather cleared the forest, built the stone house, dug the well, and filled the barn with tools and seed grain. The father kept the ledger accurate, repointed the stone walls when frost cracked the mortar, and repaired the tools. Then comes the son. The son finds fieldwork tedious. Every year, he eats from the cellar, sells off one more parcel of pasture and one more chest of his grandfather's tools (which he never learned how to sharpen) to buy wine and ease, lets the roof leak in the back wing, and teaches his one child nothing of soil, accounts, or carpentry. If you visit that farmhouse in year fifteen of the son's tenure, everyone at the dinner table is still breathing and still eating well. They are \"surviving\" by consuming capital they did not build and cannot repair. Ten years later, the barn is empty, the roof collapses, and the family is ruined.",
       "at": "2026-11-22T04:17:58Z"
+    },
+    "call:civ/chapters/06_ch06.md:8d4c8a4e:rule/algebraic-time-ab": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Instead, living well is a **directed effort** measured by the positive rate of improvement from one hour to the next.\n\nAt 8:00 a.m., the cottage floor is covered in tracked mud and the sink is full of encrusted dishes. You pick up the broom and the washcloth. At 8:30 a.m., the floor is clean and the dishes are stacked dry on the shelf. That positive improvement between 8:00 and 8:30 *is* keeping and building in microcosm: human will and method imposing order on a small area of disorder.",
+      "at": "2026-11-22T18:22:48Z"
+    },
+    "call:civ/chapters/07_ch07.md:725b5c7d:style/heading-versus": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "#### 3. Responsibility Versus Untethered Sacrifice",
+      "at": "2026-11-22T18:23:10Z"
+    },
+    "call:civ/chapters/07_ch07.md:a07e4c68:style/heading-versus": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "#### 2. Perfectionism Versus Excellence",
+      "at": "2026-11-22T18:23:11Z"
+    },
+    "call:civ/chapters/07_ch07.md:c0873d27:spelling-register/grey-breakroom": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "In the shared lunchroom kitchen of almost any large office building or factory where fifty employees eat and no single person is assigned ownership of the sink, the scene by Thursday afternoon is predictable: a sour, gray sponge sitting in a puddle at the bottom of the basin; coffee grounds encrusted on the counter; a refrigerator holding plastic containers of spoiling food from three months ago; and a hot-water tap that has dripped steadily for a year because each of the fifty workers assumes that one of the other forty-nine reported it to maintenance.",
+      "at": "2026-11-22T18:23:05Z"
+    },
+    "call:civ/chapters/07_ch07.md:c14c2c2e:style/heading-versus": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "#### 2. Forward-Looking Responsibility Versus Backward-Looking Blame",
+      "at": "2026-11-22T18:23:09Z"
     },
     "call:civ/chapters/08_ch08.md:2fc4dfe7:prop/orchard-history": {
       "disposition": "accept",
@@ -108,12 +210,36 @@
       "note": "The current example was originally an adaptation from an X thread of someone's own work of clearing land for their family. What you adapted is also fine, but I'd also love to see an approach that referenced referenceable history.",
       "at": "2026-11-22T13:33:06Z"
     },
+    "call:civ/chapters/08_ch08.md:ea1e72b3:register/fraudster": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Dispositional love is the proper default disposition toward all peaceful human beings across every tier (Tiers 1 through 5), until and unless a specific person or group proves by conduct to be a swindler, criminal, or enemy.",
+      "at": "2026-11-22T18:23:12Z"
+    },
+    "call:civ/chapters/09_ch09.md:22811b7f:register/fraudster": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "A procedure is useless unless human beings have the courage to render a **verdict** at the end of the procedure: *True or false. Pass or fail. Honest merchant or swindler. Guilty or not guilty.*",
+      "at": "2026-11-22T18:24:30Z"
+    },
     "call:civ/chapters/09_ch09.md:2f046826:prop/granary-vary": {
       "disposition": "accept",
       "alternate": "a",
       "accepted_text": "#### Borders, the Desert Cistern, and Naturalization as Civic Adoption\n\nThe same law of scope governs the **national border**.\n\nA house without walls and a roof is not a \"welcoming house\"; it is merely an open patch of ground exposed to the wind and rain. In the same way, a country without enforced borders is not a compassionate polity; it is a dissolved jurisdiction where no law, no civic trust, and no shared treasury can survive.\n\nThe necessity of this boundary is illustrated by an arid-basin settlement preparing for the dry season:\n\n\u003e **The Desert Cistern:** During the spring rains, forty farming families in an arid valley quarry stone to line a deep cistern, clear silt from the catch-channels, and ration every bucket against the six-month dry season from May through October. Every gallon inside that stone cistern is **accumulated collective labor** stored against the summer drought.\n\u003e\n\u003e In July, when the creek beds are cracked dust, suppose a theorist stands at the cistern gate and argues that boundaries are arbitrary lines, and that everyone in the region has an equal human right to the water inside, whether or not he belongs to the settlement, helped quarry the stone, or will help clear the channels next spring.\n\u003e\n\u003e If the settlement unbolts the gate to five hundred strangers who never dug a channel and acknowledge no obligation to the settlement's rules, the cistern is drained in three weeks, the orchard trees wither, and both the settlers and the newcomers perish of thirst together.",
       "note": "I like it as written. I'm wondering if callbacks to actual sucesses or failures of this principles would add or detract from this.",
       "at": "2026-11-22T13:37:43Z"
+    },
+    "call:civ/chapters/09_ch09.md:3ab0a2fa:register/fraudster": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "A swindler exploits that shared trust and forces the entire society to slow down and bear a permanent security cost.",
+      "at": "2026-11-22T18:24:31Z"
+    },
+    "call:civ/chapters/09_ch09.md:54df0fcb:register/rulebook": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Suppose an athletic contest is held with no code of rules written before play begins.",
+      "at": "2026-11-22T18:23:16Z"
     },
     "call:civ/chapters/09_ch09.md:71f5446f:prop/exam-real": {
       "disposition": "hold",
@@ -128,6 +254,12 @@
       "accepted_text": "A port authority administers the same **Harbor Pilot's Examination** on tides, shoals, and channel charts to a hundred candidates. Every candidate had access to the same charts, the same training cruises, and the same two hours in a quiet room. The examinations are graded anonymously by candidate number so the board cannot see any candidate's name, race, sex, or family background.\n\nOne candidate spent twelve hours a week all year studying currents and soundings and has a sharp grasp of seamanship; he scores **98 out of 100**. Another spent two hours a week studying and struggles to read a tidal chart; he scores **54 out of 100**.\n\n**The examination was not unjust because the two candidates received unequal scores.** The unequal outcome is the **truthful measurement** of different preparation and competence under an identical procedure.\n\nIf the port commissioner intervenes, declares the unequal scores proof of systemic injustice, discards the examination, and grants both men the same harbor pilot's license, two failures occur at once: first, the port confiscates the reward of diligent labor and teaches the next class of apprentices that study is pointless; second, **it falsifies reality** and puts an incompetent pilot onto the deck of a forty-thousand-ton ship entering a rocky channel.\n\nTwentieth-century history tested that error at national scale twice, and physical reality forced both regimes to reverse course. During the First Five-Year Plan (1928 to 1932), the Soviet Union bypassed individual entrance examinations in technical institutes to fill engineering seats by class quotas and graded students collectively in brigades; when graduates proved unable to keep industrial plants running, the Central Executive Committee issued its decree of September 19, 1932 abolishing collective grading and restoring individual examinations and theses. China repeated the experiment during the Cultural Revolution, abolishing the national university entrance examination (*gaokao*) in 1966 in favor of class-background recommendations; eleven years of crippled technical training forced Deng Xiaoping to restore the examination in 1977, stating that examinations check students' work just as the testing of factory products checks industrial quality.",
       "at": "2026-11-22T14:25:38Z"
     },
+    "call:civ/chapters/09_ch09.md:7cc6e2b2:register-phonetics/unsurprisingly-ly": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Historical accounts noted again and again that whenever Spartan commanders went abroad beyond domestic surveillance, they proved easy to bribe. When Thebes defeated the Spartan phalanx at the Battle of Leuctra in 371 BCE and liberated the Messenian helots, Sparta never recovered its former standing, and it left behind no notable work of science or philosophy.",
+      "at": "2026-11-22T18:23:20Z"
+    },
     "call:civ/chapters/09_ch09.md:a8285261:prop/bridge-vary": {
       "disposition": "accept",
       "alternate": "a",
@@ -135,10 +267,22 @@
       "note": "I like it but I think it would be stronger with either an added real life example(s) of this (or people advocating for this) or replacing it with a real life example. But I like this as is as well.",
       "at": "2026-11-22T13:40:00Z"
     },
+    "call:civ/chapters/09_ch09.md:ae8dfbbf:rule/algebraic-clan-ab": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "In blood-feud societies, from medieval vendetta houses to highland clans, a man from the valley clan accidentally kills a herdsman from the hill clan. The hill clan calculates that *its* dead man was worth two ordinary men of the valley, so its kinsmen ride down and kill two valley men. Viewing its own sons through the natural partiality of inner-tier affection, the valley clan regards those two deaths as an unprovoked outrage worth four men of the hills.",
+      "at": "2026-11-22T18:24:59Z"
+    },
     "call:civ/chapters/09_ch09.md:b9776fa2:prop/cistern-real-anchor": {
       "disposition": "withdraw",
       "alternate": "a",
       "at": "2026-11-22T14:09:43Z"
+    },
+    "call:civ/chapters/09_ch09.md:f7c73046:precision-linear/soviet-deng-dates": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "During the First Five-Year Plan (1928 to 1932), the Soviet Union bypassed individual entrance examinations in technical institutes to fill engineering seats by class quotas and graded students collectively in brigades. When graduates proved unable to keep industrial plants running, the Central Executive Committee issued its decree of September 19, 1932 banning collective tests and grading and restoring compulsory individual examinations and graduation theses. China repeated the experiment during the Cultural Revolution, abolishing the national university entrance examination (*gaokao*) in 1966 in favor of class-background recommendations. Eleven years of crippled technical training forced Deng Xiaoping to restore the examination in 1977; at the National Conference on Education the next spring, he explained that examinations check students' work just as the testing of factory products checks industrial quality.",
+      "at": "2026-11-22T18:24:24Z"
     },
     "call:civ/chapters/09_ch09.md:fe73be61:prop/callback-ch09": {
       "disposition": "accept",
@@ -151,6 +295,12 @@
       "alternate": "a",
       "accepted_text": "In **The Family Orchard** of Chapter 8, the father and mother who spent six months clearing brambles and setting apple and walnut trees on the hillside did not experience those Saturdays as a penal sentence; building a world for their eight-year-old son gave their own strength and skill a clear, daily purpose.",
       "at": "2026-11-22T13:33:20Z"
+    },
+    "call:civ/chapters/10_ch10.md:9fa78706:phonetics-linear/six-tion-51w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "In 1790, France's revolutionary National Assembly abolished the old provinces, courts, and titles, confiscated the lands of the Church, and placed the clergy under a civil constitution. Its members acted on the error that living theorists alone held the right to dismantle their country and build society anew. In response, the Anglo-Irish statesman **Edmund Burke** wrote a passage in *Reflections on the Revolution in France* that states Virtue 7 clearly.",
+      "at": "2026-11-22T17:16:11Z"
     },
     "call:civ/chapters/10_ch10.md:bd82d886:prop/granary-real": {
       "disposition": "accept",
@@ -197,17 +347,457 @@
       "accepted_text": "An engineer, in the sense this book uses, is a person whose work is bound to physical reality. The hull floats or sinks, the patient lives or dies, and the ledger balances or does not. Whether he designs a steam turbine, farms wheat, performs surgery, writes software, or drafts a constitutional check, reality is his final auditor. An institution that grows large through its builders hires clerks to schedule work, keep accounts, and keep personnel records, and in that subordinate place administration is useful. **Managerialism** is the disorder in which that apparatus detaches itself from physical reality, takes command over the engineers and the frontline builders, and turns the institution toward its own continuance, status, and protection from blame.\n\nThe two differ first in what they answer to. The engineer answers to physical results, and no presentation saves him if the boiler bursts. The manager answers to consensus and paper compliance. When the school fails to teach reading, he redefines the measure. The two differ also in who answers. In engineering, one chief engineer or master stamps his name on the work. In management, a decision passes through enough committees that when it fails, every standard procedure was followed and no one is responsible. They differ in how people are chosen: by demonstrated performance on the test bench, or by credentials, fluency in the approved terms, and quotas. They differ in how error is treated. The engineer keeps checklists and stress tests and listens when a junior mechanic finds a cracked seal. The manager treats the bearer of bad news as a threat to the schedule, as at Thiokol and at Chernobyl. They differ in their rules: brief specifications written in advance and applied alike, against thousands of pages of rules enforced at discretion. The locked shop door of section 1 is the managerial treatment of risk.",
       "at": "2026-11-22T13:44:20Z"
     },
+    "call:civ/chapters/11_ch11.md:9abee3c0:register/effort-free": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "That is what occurs when a society transforms **temporary reserves against catastrophe** into an unconditional entitlement to a painless, effortless existence free of risk.",
+      "at": "2026-11-22T18:25:17Z"
+    },
     "call:civ/chapters/11_ch11.md:e86f5819:prop/callback-ch11-market": {
       "disposition": "accept",
       "alternate": "a",
       "accepted_text": "2. **Ask \"What Happens in Year Ten if Everyone Does This?\"** A policy that sounds benevolent in a brief slogan but leaves the shops boarded up and the street ruined in ten years is not compassion; it is delayed-action cruelty.",
       "at": "2026-11-22T14:30:35Z"
     },
+    "call:civ/chapters/12_ch12.md:287aa1e9:register/outcome-leveling": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "When an intelligent young man or woman realizes that postmodern constructivism, forced leveling of outcomes under \"equity,\" open borders, and family breakdown are destroying their country, their first impulse is often to embrace any writer who loudly denounces modern liberalism.",
+      "at": "2026-11-22T18:25:44Z"
+    },
+    "call:civ/chapters/12_ch12.md:4efa6505:register/conservative-sounding": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Because Dugin borrows the language of conservatism, praising \"Tradition,\" the Orthodox Church, multipolarity, and resistance to Western progressive decadence, some Western right-wing commentators have naively treated him as a civilizational ally.",
+      "at": "2026-11-22T18:25:50Z"
+    },
+    "call:civ/chapters/12_ch12.md:72799513:register/standalone": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "* **Why Buddhism cannot serve as a self-sufficient root for civilization:**",
+      "at": "2026-11-22T18:25:25Z"
+    },
+    "call:civ/chapters/12_ch12.md:73de0d25:register/outcome-leveling": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "5. Does it govern multi-household life by scoped procedural symmetry rather than arbitrary decree, tribal privilege, or forced leveling of outcomes (Principle 5)?",
+      "at": "2026-11-22T18:25:17Z"
+    },
+    "call:civ/chapters/13_ch13.md:5193485b:register/disorder-ridden": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Every prevailing academic theory of the 1960s, including \"Dependency Theory,\" socialist state ownership, post-colonial grievance politics, and ethnic majoritarianism, predicted that Singapore would become an impoverished, disorderly dependency.",
+      "at": "2026-11-22T18:25:53Z"
+    },
+    "call:civ/chapters/13_ch13.md:9a86d0a0:register-linear/headcount": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Instead, the village commune (the *mir* or *obshchina*) held the land collectively and periodically **redistributed strips of land** among households by family size. It forbade any peasant farmer from consolidating his strips, fencing his field, or adopting modern crop rotation without the approval of the village assembly.",
+      "at": "2026-11-22T18:25:56Z"
+    },
+    "call:civ/chapters/13_ch13.md:ccf84abf:register/counterproductive": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "The incentives of the communal *mir* under Principle 2 were self-defeating. Why would an industrious peasant spend three years draining a marsh, hauling manure, and planting fruit trees on his fourth strip if the village commune would confiscate that strip at the next redistribution and assign it to a negligent neighbor?",
+      "at": "2026-11-22T18:25:58Z"
+    },
+    "call:civ/chapters/14_ch14.md:4b082eb1:register/hyperinflates": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Three years later, when the unmaintained oil equipment fails, the currency collapses in runaway inflation, and families suffer severe food shortages, one points to the same country and the same government, and the partisan replies: *\"That is not the fault of Socialism; it resulted from foreign sabotage, hoarders, adverse weather, and an imperfect implementation of Socialism.\"*",
+      "at": "2026-11-22T18:26:00Z"
+    },
+    "call:civ/chapters/14_ch14.md:b032e542:register/fraudster": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "5. **Enemies.** How would a swindler, a free rider, or an enemy use or attack this arrangement? Are its boundaries and reserves guarded?",
+      "at": "2026-11-22T18:26:02Z"
+    },
     "call:civ/chapters/14_ch14.md:dee3eb82:prop/bridge-keep": {
       "disposition": "reject",
       "alternate": "keep",
       "note": "Keep: sharp closing aphorism echoing Chapter 2's bridge example.",
       "at": "2026-11-22T13:45:02Z"
+    },
+    "call:civ/chapters/14_ch14.md:f041c83b:register-linear/workspace-split": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "    When you complete the task, you leave the workbench or desk cleaner, more orderly, and more functional than you found it (Virtue 4: Beauty as Vitality, Order, and Truth). When you evaluate two applicants or two contracts in the afternoon, you apply the same written standard to both without regard to their faction or personal connections (Principle 5: Scoped Procedural Symmetry).",
+      "at": "2026-11-22T18:26:03Z"
+    },
+    "civ/linear:civ/chapters/02_ch02.md:0b50b09f:linear/verb-late-61w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "In the eighteenth century, David Hume pushed philosophical skepticism to the point of arguing that we can never rationally prove cause and effect or the independent existence of the external world. The philosophers of the **Scottish Common Sense Realism** school, led by **Thomas Reid** (1710–1796), together with **James Beattie** and **James Oswald**, answered him with this exact observation.",
+      "at": "2026-11-22T15:16:01Z"
+    },
+    "civ/linear:civ/chapters/02_ch02.md:40aac415:linear/split-59w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Global Positioning System (GPS) satellites operate in a different regime: their atomic clocks move at 14,000 kilometers per hour in weaker gravity twenty thousand kilometers above the Earth. Engineers *must* include Einstein's special and general relativistic corrections (about 38 microseconds per day), or a receiver's calculated position drifts by roughly ten kilometers per day.",
+      "at": "2026-11-22T15:21:03Z"
+    },
+    "civ/linear:civ/chapters/02_ch02.md:eb005140:linear/subject-38w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Each of these workers knows something true about the world, and each knows it in part: a machinist who holds a piston within thousandths of an inch, a surveyor who fixes a boundary within a fraction of a foot, and a historian who matches his account to the surviving orders, letters, and graves.",
+      "at": "2026-11-22T15:21:49Z"
+    },
+    "civ/linear:civ/chapters/03_ch03.md:2827f5d1:linear/split-68w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "If fire has no power to burn cotton and steel has no tensile strength of its own, then investigating the material properties of the world is not a path to truth. Every outcome, whether a plague, a lost war, a collapsed economy, or a failed harvest, is attributed to will rather than traced to physical and institutional causes that human beings must take ownership of and repair.",
+      "at": "2026-11-22T15:22:46Z"
+    },
+    "civ/linear:civ/chapters/03_ch03.md:4f4dbdae:linear/verb-late-32w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "In the twentieth century, however, a narrow philosophical school known as **Scripturalism** rejected the Two-Books settlement and empirical correspondence altogether. The school was developed by the American philosopher **Gordon H. Clark** (1902–1985) and popularized by writers such as **W. Gary Crampton**.",
+      "at": "2026-11-22T15:22:20Z"
+    },
+    "civ/linear:civ/chapters/03_ch03.md:7d97600d:linear-phonetics/colon-submit-admit": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "When the check shows that our prediction was wrong (a foundation settles, a business loses money, or an experiment fails), we face a choice. We can protect our pride by hiding the failure and rewriting what we claimed, or we can yield to the evidence, admit the error openly to the people it affected, and correct our model.",
+      "note": "I think we can remove \"openly\". The people it affected is usually sufficnet.",
+      "at": "2026-11-22T15:33:45Z"
+    },
+    "civ/linear:civ/chapters/03_ch03.md:c3193ec2:linear/if-clause-35w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Suppose the first machinist insists that the shell must be riveted from thin copper plate because his ancient scroll says so, and the second rejects that scroll and demands cast iron from his own. They are not arguing about engineering at all, and they cannot agree until one overpowers the other.",
+      "at": "2026-11-22T15:22:55Z"
+    },
+    "civ/linear:civ/chapters/04_ch04.md:5db12df1:linear/ranbaxy-60w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "In 2013 the U.S. arm of Ranbaxy, an Indian generic-drug maker, pleaded guilty to felonies that included false statements to the FDA (Justice Department, 13 May 2013). At its Dewas plant, the company reported stability tests that set drug expiration dates as completed on days when no test had been run, performing them weeks or months later.",
+      "at": "2026-11-22T15:34:50Z"
+    },
+    "civ/linear:civ/chapters/04_ch04.md:865f286e:linear/if-clause-echo": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "He may look at a pressure-relief valve or a traditional family rule whose purpose he does not yet grasp and say, *\"I am wiser than my ancestors; remove this at once.\"* When he does, he acts as if his finite mind were omniscient.",
+      "at": "2026-11-22T15:34:14Z"
+    },
+    "civ/linear:civ/chapters/04_ch04.md:c7a5cfbf:linear/pronoun-three-its": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Instead, the heir owes **gratitude** to the ancestors who built that inheritance, together with his own part in **forming and listening (Virtue 7)**: he tests what he was told, keeps what holds, and forms his own children in those same habits.",
+      "at": "2026-11-22T15:35:29Z"
+    },
+    "civ/linear:civ/chapters/05_ch05.md:314ea358:linear/split-77w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Even where collective ownership is maintained on paper without immediate famine, informal private ownership reappears underground. The watchman of the \"common\" orchard eats the best apples first. The tiny garden plot behind the peasant's cottage, representing 3 percent of the land, produces a third of the nation's vegetables because the family keeps what it grows there. And the tools that belong to \"everybody\" belong in practice to whichever foreman holds the padlock to the shed.",
+      "at": "2026-11-22T15:36:09Z"
+    },
+    "civ/linear:civ/chapters/05_ch05.md:4a24efc7:linear/split-66w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Whenever revolutionary regimes or utopian communes have tried to abolish the family on paper and raise children on rotating shifts in state nurseries, the children have suffered severe attachment failure and stunted formation. Whenever the state nursery breaks down, the child is raised again by the biological mother, the grandmother, or the aunt, the specific kin adult operating under whatever administrative title the regime permits.",
+      "at": "2026-11-22T15:36:20Z"
+    },
+    "civ/linear:civ/chapters/05_ch05.md:85685989:linear/if-clause-37w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "* If unrelated peoples across different centuries and cultures **reinvent the banned arrangement underground, illegally, and at severe risk to themselves**, then you are looking at **discovered substance**. Black-market money, underground trade, informal property, and kin households always reappear when banned.",
+      "at": "2026-11-22T15:39:05Z"
+    },
+    "civ/linear:civ/chapters/06_ch06.md:2bc71b87:linear/appositive-60w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "A mortal human being has a finite allotment of roughly twenty-five thousand days in his lifespan. This shopkeeper spent ten thousand irreplaceable hours of his one life waking before dawn, saving coin by coin, laying bricks, wiring electrical circuits, bolting down shelves, and stocking food and tools so that the structure could feed his children and serve the neighborhood.",
+      "at": "2026-11-22T15:39:49Z"
+    },
+    "civ/linear:civ/chapters/06_ch06.md:3cedd79b:linear/split-83w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Because living well is measured by the **rate of improvement** rather than the initial stock of wealth, it is as open to a poor man in a dirt-floored cabin or a prisoner in a cell, keeping his body disciplined, his cell clean, and his mind learning, as to a wealthy industrialist. By contrast, a wealthy heir who lets his health, his family, and his inherited enterprise deteriorate into addiction and disorder moves downward despite his financial balance.",
+      "at": "2026-11-22T15:40:01Z"
+    },
+    "civ/linear:civ/chapters/06_ch06.md:ed437505:linear/verb-late-45w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Within the scope of competent adult peers dealing inside a lawful order, mutual consent is the **symmetrical procedural check** that prevents one citizen from robbing, enslaving, or defrauding another. It governs buying and selling a workshop, signing an employment contract, taking marriage vows, and electing representatives under a constitution (*\"the consent of the governed\"*).",
+      "at": "2026-11-22T15:39:31Z"
+    },
+    "civ/linear:civ/chapters/07_ch07.md:4c2f15fb:linear/pronoun-three-its": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Such a spectacle possesses geometric order and staged emotional vitality, but because it rests on a falsehood, it is counterfeit beauty designed to deceive.",
+      "at": "2026-11-22T15:41:31Z"
+    },
+    "civ/linear:civ/chapters/07_ch07.md:61ca92f9:linear/pronoun-two-its": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "* **Responsibility (Ownership)** faces forward in time. It is the commitment and the work of bringing something good into being and keeping that good intact under real limits.",
+      "at": "2026-11-22T15:40:14Z"
+    },
+    "civ/linear:civ/chapters/07_ch07.md:aca07252:linear/subject-26w-paren": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "The Japanese craft of *kintsugi* illustrates this union: a broken ceramic vase is mended visibly with lacquer dusted in gold and filled with fresh cut flowers. The mend acknowledges the truth of the fracture and restores structural order, while the living blossoms supply vitality.",
+      "at": "2026-11-22T15:41:43Z"
+    },
+    "civ/linear:civ/chapters/07_ch07.md:cc350a50:linear/split-71w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Take a shared neighborhood park where a citizen sees a broken bottle on the playground used by his children and his neighbors' children. He did not drop the bottle, and it is not his *fault*. Yet picking it up and placing it in the refuse bin is the mark of a man who takes ownership of his portion of the common life rather than acting like a transient boarder.",
+      "at": "2026-11-22T15:40:56Z"
+    },
+    "civ/linear:civ/chapters/07_ch07.md:e2b20f74:linear/nesting-6deep": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "\u003e Yet neither son can forge a serviceable axe head without cracking the steel or burning the edge. Learning the *words* took a season, whereas training the eye and the hammer-hand required ten years of daily repetition under strict correction, and the sons found ten years at the hot anvil too demanding.",
+      "at": "2026-11-22T15:41:14Z"
+    },
+    "civ/linear:civ/chapters/08_ch08.md:004fb5ab:linear/split-68w-paren": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "    3. Third, extend action-based assistance to distant strangers (Tier 5) **only from genuine surplus** that does not deprive or neglect Tiers 1 through 4. The sole exception is an immediate, low-cost emergency directly before you, such as pulling a stranger's child from a shallow pond as you walk past, which costs two minutes and wet shoes without impoverishing your household.",
+      "at": "2026-11-22T15:42:41Z"
+    },
+    "civ/linear:civ/chapters/08_ch08.md:6643e1c5:linear-phonetics/four-ly-58w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Kindness holds up inside a household, church, or close neighborhood because the members know one another face to face and can restrain abuse. If a relative is truly ill, the family supports him; if he is an able-bodied dependent who refuses to work, the family sees it every day and can confront him and enforce a firm boundary.",
+      "at": "2026-11-22T15:44:26Z"
+    },
+    "civ/linear:civ/chapters/08_ch08.md:777aa930:linear-phonetics/split-85w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Civilization's common principles dedicate a separate sentence to the reality of enemies because comfortable people in peaceful, prosperous eras fall easily into a fatal misconception. They imagine that every human being outside their front door is a friendly neighbor in Tier 3 or a harmless stranger in Tier 5 who wants the same peaceful life they want, and that all violent conflict is only a misunderstanding caused by poor communication or lack of generosity.",
+      "at": "2026-11-22T15:44:35Z"
+    },
+    "civ/linear:civ/chapters/08_ch08.md:e5fddf3f:linear/verb-late-34w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "\u003e Then, in **November 1835**, two mainland New Zealand Māori warrior tribes, **Ngāti Mutunga** and **Ngāti Tama**, chartered a European brig, the *Lord Rodney*, and landed nine hundred invaders on the beaches of the Chatham Islands. Recently displaced from Taranaki, they arrived armed with muskets, clubs, and axes.",
+      "at": "2026-11-22T15:45:01Z"
+    },
+    "civ/linear:civ/chapters/08_ch08.md:fb08599f:linear/split-56w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "2. **The Oxygen Mask Principle:** When cabin pressure drops on an aircraft, the safety instructions direct every parent to secure his own oxygen mask *before* assisting his child or his neighbor. A parent who loses consciousness from hypoxia in thirty seconds helps nobody; he becomes a second incapacitated person whom someone else must carry.",
+      "at": "2026-11-22T15:41:56Z"
+    },
+    "civ/linear:civ/chapters/09_ch09.md:300901b5:linear/verb-late-26w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Inside the courtroom of a modern constitutional state, plaintiff and defendant occupy the single position of **citizen before the law**, whether they are Protestant, Catholic, Jewish, Muslim, or atheist, wealthy merchant or poor laborer. The court applies the same rules of contract, property, and evidence to both.",
+      "at": "2026-11-22T15:45:37Z"
+    },
+    "civ/linear:civ/chapters/09_ch09.md:43eca2f9:linear-phonetics/it-chain-tion": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "This ideology declares that any human being in the world, simply by existing biologically, possesses an immediate \"human right\" to cross your national border uninvited, draw from the **Desert Cistern** (Section 1 above) that your parents and grandparents built and filled, and demand housing, schooling, medical care, legal counsel, and political power on the same terms as the citizens who maintain the cistern. Its advocates ignore that duty is tiered and that justice is scoped: an unscoped claim for every stranger leads the host nation to insolvency and ruin.",
+      "at": "2026-11-22T17:12:54Z"
+    },
+    "civ/linear:civ/chapters/09_ch09.md:6d49671c:linear/subject-25w-paren": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "    The second part is **never unilateral**: restoring the relationship, admitting the person back into your house, lending him your vehicle again, or appointing him treasurer of the company.",
+      "at": "2026-11-22T15:48:52Z"
+    },
+    "civ/linear:civ/chapters/09_ch09.md:79190e10:linear/split-66w-pronoun": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "An example is **Singapore's judicial caning** for violent robbery, vandalism, or extortion. The statute is written in advance in plain language and applies identically to a wealthy foreign banker's son and a local dockworker convicted of the same offense. The sentence is administered under strict medical supervision, and the penalty is fixed by the offense, not by the rank of the offender or the victim.",
+      "at": "2026-11-22T15:49:14Z"
+    },
+    "civ/linear:civ/chapters/09_ch09.md:86936230:linear/cause-first-5deep": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "When rules are invented after the action or altered according to which party stands before the tribunal, skill, preparation, and diligent effort become pointless. Lobbying or intimidating the referee becomes the dominant strategy, and within five minutes the contest disintegrates.",
+      "at": "2026-11-22T15:46:19Z"
+    },
+    "civ/linear:civ/chapters/09_ch09.md:ac86ca9a:linear/verb-late-45w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Suppose a prosecutor or judge sees a habitual thief steal from a neighborhood grocery store for the twentieth time and releases him onto the street an hour later with no restitution and no penalty, while lecturing the shopkeeper about \"compassion for the marginalized.\" That judge has not shown mercy.",
+      "at": "2026-11-22T15:48:34Z"
+    },
+    "civ/linear:civ/chapters/09_ch09.md:bbeb9dce:linear/subject-26w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "A rival state **recognizes no such separation**, whether it is the Chinese Communist Party under its explicit \"Military-Civil Fusion\" and \"United Front\" doctrines, or the Russian or Iranian security states.",
+      "at": "2026-11-22T15:46:19Z"
+    },
+    "civ/linear:civ/chapters/09_ch09.md:e4610a35:linear/split-73w-it": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Suppose the port commissioner intervenes, declares the unequal scores proof of systemic injustice, discards the examination, and grants both men the same harbor pilot's license. Two failures occur at once. First, the port confiscates the reward of diligent labor and teaches the next class of apprentices that study is pointless. Second, the port **falsifies reality** and puts an incompetent pilot onto the deck of a forty-thousand-ton ship entering a rocky channel.",
+      "at": "2026-11-22T15:48:17Z"
+    },
+    "civ/linear:civ/chapters/10_ch10.md:1d4b37cb:linear/split-pronoun-it": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "On survival, every maternal race and age group in the 2024 report stands below the national rate of 1950. On plumbing, the share of homes lacking complete plumbing fell from more than a third to about one in a hundred.",
+      "at": "2026-11-22T17:15:04Z"
+    },
+    "civ/linear:civ/chapters/10_ch10.md:21778e99:linear/verb-late-32w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Yet the total fertility rate rose from 3.09 births per woman in 1950 to 3.77 in 1957, on less than half of the present median income and in a country where more than a third of homes lacked complete plumbing at the start of the decade (National Center for Health Statistics, *Vital Statistics of the United States, 1999*, Table 1-7).",
+      "at": "2026-11-22T17:14:23Z"
+    },
+    "civ/linear:civ/chapters/10_ch10.md:39ac4307:linear-phonetics/72w-maintains-mains": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Suppose a million infants are born this year, and their parents feed them until they reach eighteen, yet withhold everything else. No one teaches them to read, calculate, or work metal; no one exemplifies marriage or honesty; no one keeps up the courts or the water mains. Meanwhile, the older generation runs up fifty trillion dollars of public debt to fund its own retirement and leaves the bill to the young.",
+      "at": "2026-11-22T17:15:25Z"
+    },
+    "civ/linear:civ/chapters/10_ch10.md:40a0aa39:linear/verb-late-51w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "In the **Plymouth Colony** of Chapter 8, once each household received its own parcel of land, fathers and mothers took their children into the fields. They did not experience that labor as a penal sentence. Building a livelihood for their own children gave their strength and skill a clear, daily purpose.",
+      "at": "2026-11-22T17:13:52Z"
+    },
+    "civ/linear:civ/chapters/10_ch10.md:8bdc08f3:linear/verb-late-scene": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Across the municipal water plant, the electrical grid substation, and the hospital operating room, no thirty-year-old apprentices exist to replace retiring hands. The master electrician climbing the ladder to repair a high-voltage transformer in a winter storm is seventy-two years old.",
+      "at": "2026-11-22T17:13:22Z"
+    },
+    "civ/linear:civ/chapters/10_ch10.md:a387a0a6:linear/verb-late-41w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Some parents continue to treat their twenty-two-year-old son or daughter as a fragile four-year-old. They contact an employer to complain when the young adult is corrected at work, shield him from every consequence, and forbid him to take physical or enterprising risks. By doing so, they prevent the capacity for independent adulthood from developing.",
+      "at": "2026-11-22T17:15:25Z"
+    },
+    "civ/linear:civ/chapters/11_ch11.md:1d6bd04d:linear/split-64w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "A clear instance is the postmodern professor who flies at thirty-five thousand feet in a commercial jetliner, takes antibiotics for an infection, drinks purified municipal water, and collects a salary paid by industrial taxpayers. That same afternoon, he stands before twenty-year-olds and teaches that objective scientific truth, merit, engineering standards, and property rights are \"oppressive Western constructs\" that must be dismantled.",
+      "at": "2026-11-22T17:43:07Z"
+    },
+    "civ/linear:civ/chapters/11_ch11.md:48a7c353:linear-phonetics/release-cease": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "The next morning, a sentimental committee from the walled quarter visits the magistrate. Its members argue that the thieves came from hard backgrounds, declare jail harsh and unfeeling, and demand that a compassionate town free them without bail and stop prosecuting property crime.",
+      "at": "2026-11-22T17:38:39Z"
+    },
+    "civ/linear:civ/chapters/11_ch11.md:8fd6bfe1:linear/name-it-they": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Never. The subversives enforce a strict orthodoxy, dismiss anyone who dissents, and use the institution's budget and authority to reward their own faction.",
+      "at": "2026-11-22T17:36:32Z"
+    },
+    "civ/linear:civ/chapters/11_ch11.md:aa21d1af:linear/active-split-59w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "* **In Material Welfare:** Politicians and bureaucracies convert a temporary emergency provision, designed to help a displaced worker or a widowed mother regain self-sufficiency, into an open-ended, multi-generational subsidy that **penalizes marriage and work**. It pays a household more if no working father resides in the home and withdraws benefits if the recipient accepts entry-level employment.",
+      "at": "2026-11-22T17:16:23Z"
+    },
+    "civ/linear:civ/chapters/11_ch11.md:c8eebc13:linear/concession-split": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Often the person advocating \"compassion over rules\" is not a calculating Marcusean strategist, but merely a sentimental citizen who dislikes seeing anyone punished. Even so, the following case illustrates who actually bears the cost when a community adopts the Compassionate Delusion:",
+      "at": "2026-11-22T17:36:58Z"
+    },
+    "civ/linear:civ/chapters/12_ch12.md:151ba1de:linear-phonetics/117w-longest": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Historically, the mainstream Christian synthesis rested on the **Two-Books Doctrine**. That synthesis built the universities of Bologna, Paris, Oxford, and Cambridge, fostered the Scientific Revolution (Copernicus, Kepler, Galileo, Pascal, Boyle, Newton) and the science that followed it (Faraday, Maxwell, Mendel), and shaped Western constitutional law. It held that a rational Creator authored both the **Book of Scripture** and the **Book of Nature**, so Creation obeys consistent laws rather than capricious magic (Principle 1). It also held that every human being is a moral agent, capable of reason yet prone to sin and self-deception (Principle 2), which explains why unchecked power in human hands seldom stays sound for long.",
+      "at": "2026-11-22T18:08:52Z"
+    },
+    "civ/linear:civ/chapters/12_ch12.md:61abc6f7:linear/split-58w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "In the twentieth century, **Sayyid Qutb** in Egypt and **Ayatollah Ruhollah Khomeini** in Iran (*Islamic Government: Governance of the Jurist*, 1970) removed even the traditional quietist accommodations of earlier centuries. They turned Islam into a totalizing revolutionary state ideology, rejecting secular constitutional symmetry, national sovereignty, and freedom of conscience as idolatrous (*jahiliyyah* or *taghut*).",
+      "at": "2026-11-22T18:09:10Z"
+    },
+    "civ/linear:civ/chapters/12_ch12.md:697a4917:linear/split-88w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "As we saw in Chapter 10, **Edmund Burke** and twentieth-century successors such as **Russell Kirk** articulated several of these core truths: humility before the limits of human knowledge, the difficulty of building an institution compared with the ease of destroying one, and attachment to country beginning in what Burke called the *\"little platoons\"* of family and neighborhood (Principle 4). They also stated the discipline of forming and listening: elders form those younger than themselves, and the younger listen and test, inside the partnership of the dead, the living, and the unborn.",
+      "at": "2026-11-22T17:50:11Z"
+    },
+    "civ/linear:civ/chapters/12_ch12.md:73a0177c:linear/split-90w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Kant's formulation fails where it detaches procedure from reality. Because he severed moral duty from keeping and building real human life, from tiered obligation, and from the reality of enemies, he reached a notorious conclusion in his 1797 essay *On a Supposed Right to Lie Because of Philanthropic Concerns*. If a murderer knocks at your door asking whether the friend he is pursuing has taken refuge in your house, Kant argued, you have a categorical duty not to lie to him, even if the truth lets him find and murder your friend.",
+      "note": "mechanically it is better, but the \". Because\" feels choppy.",
+      "at": "2026-11-22T18:08:23Z"
+    },
+    "civ/linear:civ/chapters/12_ch12.md:a4617cde:linear/split-85w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "* **Jean-Jacques Rousseau** (1712–1778): Denied that virtue must be cultivated in human beings (Principle 2), claiming they are naturally good and corrupted only by property and civilization. He attacked keeping and building by calling the first man who fenced a plot of ground to establish a farm an impostor. He also opposed the mediating tiers of family, church, and local guild, demanding in *The Social Contract* that every citizen surrender himself unconditionally to the unitary state's **\"General Will\"** and be *\"forced to be free.\"*",
+      "at": "2026-11-22T18:08:36Z"
+    },
+    "civ/linear:civ/chapters/12_ch12.md:b3d02447:linear/verb-late-71w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "* **Where Shinto failed when detached from Principle 1 and Principle 5:** Traditional Shinto is a particularist folk religion without a universal doctrine of correspondence truth or universal human nature. Between 1890 and 1945, the Meiji and Showa militarists fused it into **State Shinto**, teaching as state dogma that the Japanese Emperor was a living descendant of the sun goddess and that non-Japanese peoples occupied an inferior ontological tier. That state creed silenced internal rational dissent (violating Principle 1) and licensed atrocities against conquered neighbors (violating Principle 5), culminating in the catastrophe of 1945.",
+      "at": "2026-11-22T18:09:24Z"
+    },
+    "civ/linear:civ/chapters/12_ch12.md:c32a79fc:linear/split-84w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "    When Jesus says in the Sermon on the Mount, *\"whoever strikes you on the right cheek, turn the other to him as well,\"* the concrete physical detail defines the scope. For a right-handed person facing you to strike your *right* cheek, he must use the **back of his hand**. In first-century Jewish and Roman law, that blow was not a lethal assault, but a formal gesture of **personal insult** intended to provoke a private brawl or duel.",
+      "at": "2026-11-22T18:08:55Z"
+    },
+    "civ/linear:civ/chapters/13_ch13.md:1fc6ef0a:linear/split-81w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Singapore requested military advisors from Israel, the only country willing to train its nascent armed forces in 1965, and built a universal male conscription force (**National Service**) on what Lee termed the **\"Poisonous Shrimp\" doctrine** (and later the \"Dolphin\" doctrine). A small island cannot conquer a large neighbor, **but it can make itself so well-armed, disciplined, and formidable that any aggressor will suffer prohibitive losses, remaining, in Lee's phrase, *\"not a digestible morsel.\"***",
+      "at": "2026-11-22T18:09:30Z"
+    },
+    "civ/linear:civ/chapters/13_ch13.md:253cbe2b:linear/active-split-58w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "The application of the term *kulak* was systematically destructive. In practice, authorities branded as a \"class enemy\" any peasant who kept his barn roof repaired, owned two cows or a metal plow, and harvested more grain per acre than his negligent neighbor. They stripped him of his home and tools, and shot him or deported him in unheated railcars to the Arctic wilderness.",
+      "at": "2026-11-22T18:10:18Z"
+    },
+    "civ/linear:civ/chapters/13_ch13.md:3fe36bc0:linear/split-78w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "**Durnovo then stated precisely what would follow.** Russia's educated liberal politicians possessed no executive experience and no support among the peasantry. Meanwhile, socialist agitators preached simple slogans of total land and factory seizure to a population in which Stolypin's property reforms were still only halfway complete. Within months, ruthless extremists would overthrow the liberal government, and *\"Russia will be flung into hopeless anarchy, the issue of which cannot be even foreseen.\"*",
+      "at": "2026-11-22T18:10:01Z"
+    },
+    "civ/linear:civ/chapters/13_ch13.md:4b9ac2be:linear/split-70w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Instead, between **1979 and 1983**, Khomeini's clerics used their control of the mosques, the street militias (*Komitehs*), and the new Islamic Revolutionary Guard Corps to crush every rival. They closed every independent newspaper, purged the universities in the \"Islamic Cultural Revolution,\" forced women back under the mandatory veil on pain of flogging, outlawed the Tudeh Party and leftist organizations, and arrested, tortured, and executed thousands of their former Marxist and student allies inside Evin Prison.",
+      "at": "2026-11-22T18:10:32Z"
+    },
+    "civ/linear:civ/chapters/13_ch13.md:635e416a:linear/verb-late-39w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Lee Kuan Yew enforced **Scoped Procedural Symmetry** in a region where neighboring states took the opposite path. Nearby governments enacted ethnic quotas that restricted minority Chinese and Indians from universities and civil service posts, and rulers dismissed judges when a court ruled against the state.",
+      "at": "2026-11-22T18:09:24Z"
+    },
+    "civ/linear:civ/chapters/13_ch13.md:f6addd7b:linear/verb-late-62w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "On **December 5, 1908**, Stolypin defended his land law before the State Duma against socialist levelers who demanded that the state confiscate all land. The government, he explained, had wagered not upon *\"the wretched and the drunken,\"* but upon *\"the sturdy and the strong,\"* because the strong personal owner was the barrier to revolution.",
+      "at": "2026-11-22T18:09:56Z"
+    },
+    "civ/linear:civ/chapters/14_ch14.md:14916188:linear/split-70w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "* When men and women across a nation direct their daily vectors toward correspondence truth, self-anchored ownership, craft excellence, beauty, humility, raising children, and forming the younger while listening to those who formed them, under symmetrical laws, the resultant vector of that civilization points upward toward durability and growth. Even a resource-poor island or a damaged town after a storm can then become a productive center of human life.",
+      "at": "2026-11-22T18:11:08Z"
+    },
+    "civ/linear:civ/chapters/14_ch14.md:479d6e85:linear/split-56w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "When a test gauge indicates a crack in a fitting or an error in a calculation, you do not falsify the report to please a superior. You report the physical truth as it is, and you verify your work with checklists because you recognize that you are a fallible mortal (Principle 2 and Virtue 5: Humility).",
+      "at": "2026-11-22T18:11:12Z"
+    },
+    "civ/linear:civ/chapters/14_ch14.md:7b50893c:linear/pronoun-two-its": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "They place governance in the hands of people with a stake in the institution, parents and masters who contribute labor and dues, not distant grant offices with conditions attached.",
+      "at": "2026-11-22T18:10:53Z"
+    },
+    "civ/linear:civ/chapters/14_ch14.md:800c9261:linear-phonetics/if-clause-62w": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "* **Fallacious Use:** By contrast, suppose an actor carries out the explicit instructions written in the foundational texts of a doctrine, and the predictable result is tyranny and famine. Lenin, Stalin, Mao, and Pol Pot followed Karl Marx's explicit command in the *Communist Manifesto* to *\"abolish private property\"* and concentrate all credit, transport, agriculture, and manufacturing in a central state monopoly. One cannot rightly claim afterward, \"That was not authentic Marxism.\"",
+      "at": "2026-11-22T18:10:47Z"
     }
   }
 }

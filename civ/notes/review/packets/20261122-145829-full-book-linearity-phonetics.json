@@ -1,0 +1,1274 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/chapters/01_ch01.md:8fe31426:phonetics/single-shingle",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/01_ch01.md",
+      "byte_offset": 6245,
+      "byte_end": 6391,
+      "quote": "Leave a well-built house unmaintained for ten winters, and a single lifted shingle lets autumn rain rot the roof beam until the ceiling collapses.",
+      "problem": "Phonetics (lint phonetics): close internal rhyme 'single... shingle' (also recurs at 06:140 and 06:144).",
+      "rule": "phonetics/single-shingle",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "one lifted shingle",
+          "text": "Leave a well-built house unmaintained for ten winters, and one lifted shingle lets autumn rain rot the roof beam until the ceiling collapses."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/02_ch02.md:0b50b09f:linear/verb-late-61w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/02_ch02.md",
+      "byte_offset": 8098,
+      "byte_end": 8500,
+      "quote": "In the eighteenth century, when David Hume pushed philosophical skepticism to the point of arguing that we can never rationally prove cause and effect or the independent existence of the external world, the philosophers of the **Scottish Common Sense Realism** school, led by **Thomas Reid** (1710–1796), together with **James Beattie** and **James Oswald**, answered him with this exact observation.",
+      "problem": "Rule 10 (02:41, score 8.5): 61 words with 55 words before the main verb 'answered'. Splitting Hume's premise from the Scottish Realists' reply lets both subject and verb land immediately.",
+      "rule": "linear/verb-late-61w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split into two sentences",
+          "text": "In the eighteenth century, David Hume pushed philosophical skepticism to the point of arguing that we can never rationally prove cause and effect or the independent existence of the external world. The philosophers of the **Scottish Common Sense Realism** school, led by **Thomas Reid** (1710–1796), together with **James Beattie** and **James Oswald**, answered him with this exact observation."
+        },
+        {
+          "id": "b",
+          "label": "tighter second sentence",
+          "text": "In the eighteenth century, David Hume pushed philosophical skepticism to the claim that we can never rationally prove cause and effect or the independent existence of the external world. **Thomas Reid** (1710–1796), together with **James Beattie** and **James Oswald** of the **Scottish Common Sense Realism** school, answered him with this exact observation."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/02_ch02.md:40aac415:linear/split-59w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/02_ch02.md",
+      "byte_offset": 26769,
+      "byte_end": 27174,
+      "quote": "Meanwhile, when we launch Global Positioning System (GPS) satellites into orbit, where atomic clocks move at 14,000 kilometers per hour in weaker gravity twenty thousand kilometers above the Earth, engineers *must* include Einstein's special and general relativistic corrections (about 38 microseconds per day), or else a receiver's calculated position would drift by approximately ten kilometers per day.",
+      "problem": "Rule 10 (02:123, score 5.5): 59 words with 30 words before the main verb 'must'. Splitting the orbital regime from the engineering requirement reads cleanly left-to-right.",
+      "rule": "linear/split-59w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "two crisp sentences",
+          "text": "Global Positioning System (GPS) satellites operate in a different regime: their atomic clocks move at 14,000 kilometers per hour in weaker gravity twenty thousand kilometers above the Earth. Engineers *must* include Einstein's special and general relativistic corrections (about 38 microseconds per day), or a receiver's calculated position drifts by roughly ten kilometers per day."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/02_ch02.md:eb005140:linear/subject-38w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/02_ch02.md",
+      "byte_offset": 30369,
+      "byte_end": 30645,
+      "quote": "A machinist who holds a piston within thousandths of an inch, a surveyor who fixes a boundary within a fraction of a foot, and a historian who matches his account to the surviving orders, letters, and graves each know something true about the world, and each knows it in part.",
+      "problem": "Rule 10 (02:147, score 6.0): 38-word subject before the verb, plus subtle number mismatch ('each know' vs. 'each knows' in the same sentence).",
+      "rule": "linear/subject-38w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "lead with claim, then examples",
+          "text": "Each of these workers knows something true about the world, and each knows it in part: a machinist who holds a piston within thousandths of an inch, a surveyor who fixes a boundary within a fraction of a foot, and a historian who matches his account to the surviving orders, letters, and graves."
+        },
+        {
+          "id": "b",
+          "label": "keep order, fix each knows",
+          "text": "A machinist who holds a piston within thousandths of an inch, a surveyor who fixes a boundary within a fraction of a foot, and a historian who matches his account to the surviving orders, letters, and graves each knows something true about the world, and each knows it in part."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/03_ch03.md:4f4dbdae:linear/verb-late-32w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/03_ch03.md",
+      "byte_offset": 2725,
+      "byte_end": 3030,
+      "quote": "In the twentieth century, however, a narrow philosophical school known as **Scripturalism**, developed by the American philosopher **Gordon H. Clark** (1902–1985) and popularized by writers such as **W. Gary Crampton**, rejected the Two-Books settlement and rejected empirical correspondence altogether.",
+      "problem": "Rule 10 (03:17, score 6.0): 32 words before the main verb 'rejected' because the attribution sits between subject and verb.",
+      "rule": "linear/verb-late-32w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "move attribution to second sentence",
+          "text": "In the twentieth century, however, a narrow philosophical school known as **Scripturalism** rejected the Two-Books settlement and empirical correspondence altogether. The school was developed by the American philosopher **Gordon H. Clark** (1902–1985) and popularized by writers such as **W. Gary Crampton**."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/03_ch03.md:2827f5d1:linear/split-68w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/03_ch03.md",
+      "byte_offset": 8590,
+      "byte_end": 8973,
+      "quote": "If fire has no power to burn cotton and steel has no tensile strength of its own, then investigating the material properties of the world is not a path to truth, and every outcome, whether a plague, a lost war, a collapsed economy, or a failed harvest, is attributed to will rather than traced to physical and institutional causes that human beings must take ownership of and repair.",
+      "problem": "Rule 10 (03:47, score 6.0): 68-word compound sentence with 3-deep nesting; splitting after 'path to truth' gives each claim its own frame.",
+      "rule": "linear/split-68w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split into two sentences",
+          "text": "If fire has no power to burn cotton and steel has no tensile strength of its own, then investigating the material properties of the world is not a path to truth. Every outcome, whether a plague, a lost war, a collapsed economy, or a failed harvest, is attributed to will rather than traced to physical and institutional causes that human beings must take ownership of and repair."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/03_ch03.md:c3193ec2:linear/if-clause-35w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/03_ch03.md",
+      "byte_offset": 14788,
+      "byte_end": 15087,
+      "quote": "If the first machinist insists that the shell must be riveted from thin copper plate because his ancient scroll says so, and the second rejects that scroll and demands cast iron from his own scroll, they are not arguing about engineering at all, and they cannot agree until one overpowers the other.",
+      "problem": "Rule 10 (03:74, score 6.5): 50 words with 35 words in the opening 'If' clause before the main verb 'are'.",
+      "rule": "linear/if-clause-35w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "Suppose + second sentence",
+          "text": "Suppose the first machinist insists that the shell must be riveted from thin copper plate because his ancient scroll says so, and the second rejects that scroll and demands cast iron from his own. They are not arguing about engineering at all, and they cannot agree until one overpowers the other."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/03_ch03.md:7d97600d:linear-phonetics/colon-submit-admit",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/03_ch03.md",
+      "byte_offset": 17546,
+      "byte_end": 17878,
+      "quote": "When the check shows that our prediction was wrong, when a foundation settles, the business loses money, or the experiment fails, we face a choice: we can protect our pride by hiding the failure and rewriting what we claimed, or we can submit to the evidence, admit the error openly to the people it affected, and correct our model.",
+      "problem": "Rule 10 + Phonetics (03:90, score 6.5): 59-word sentence with colon split and close rhyme 'submit... admit' (lint phonetics).",
+      "rule": "linear-phonetics/colon-submit-admit",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split + yield/admit",
+          "text": "When the check shows that our prediction was wrong (a foundation settles, a business loses money, or an experiment fails), we face a choice. We can protect our pride by hiding the failure and rewriting what we claimed, or we can yield to the evidence, admit the error openly to the people it affected, and correct our model."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/04_ch04.md:865f286e:linear/if-clause-echo",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/04_ch04.md",
+      "byte_offset": 12797,
+      "byte_end": 13034,
+      "quote": "If he looks at a pressure-relief valve or a traditional family rule whose purpose he does not immediately understand and says, *\"I am wiser than my ancestors; remove this immediately,\"* he is acting as if his finite mind were omniscient.",
+      "problem": "Rule 10 (04:73, score 7.5): 32 words before the main verb 'is', plus close echo 'immediately... immediately' within 13 words.",
+      "rule": "linear/if-clause-echo",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split and remove echo",
+          "text": "He may look at a pressure-relief valve or a traditional family rule whose purpose he does not yet grasp and say, *\"I am wiser than my ancestors; remove this at once.\"* When he does, he acts as if his finite mind were omniscient."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/04_ch04.md:5db12df1:linear/ranbaxy-60w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/04_ch04.md",
+      "byte_offset": 19273,
+      "byte_end": 19606,
+      "quote": "In 2013 the U.S. arm of Ranbaxy, an Indian generic-drug maker, pleaded guilty to felonies that included false statements to the FDA: it had reported running the tests that set the expiration dates of drugs from its Dewas plant on dates when they had not been run, and ran them weeks or months later (Justice Department, 13 May 2013).",
+      "problem": "Rule 10 (04:104, score 6.0): 60-word colon compound with close echoes 'dates... on dates' and 'running... run... ran'.",
+      "rule": "linear/ranbaxy-60w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split and clear echoes",
+          "text": "In 2013 the U.S. arm of Ranbaxy, an Indian generic-drug maker, pleaded guilty to felonies that included false statements to the FDA (Justice Department, 13 May 2013). At its Dewas plant, the company reported stability tests that set drug expiration dates as completed on days when no test had been run, performing them weeks or months later."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/04_ch04.md:c7a5cfbf:linear/pronoun-three-its",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/04_ch04.md",
+      "byte_offset": 23837,
+      "byte_end": 24027,
+      "quote": "It is **gratitude** to the ancestors who built it, and the heir's part in **forming and listening (Virtue 7)**: he tests what he was told, keeps what holds, and forms his own children in it.",
+      "problem": "Rule 10 Part 4 (04:126, score 6.0): three occurrences of 'it' in one sentence refer to three different nouns (moral response, inheritance, what holds).",
+      "rule": "linear/pronoun-three-its",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "name antecedents",
+          "text": "Instead, the heir owes **gratitude** to the ancestors who built that inheritance, together with his own part in **forming and listening (Virtue 7)**: he tests what he was told, keeps what holds, and forms his own children in those same habits."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/05_ch05.md:314ea358:linear/split-77w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/05_ch05.md",
+      "byte_offset": 11792,
+      "byte_end": 12276,
+      "quote": "Even where collective ownership is maintained on paper without immediate famine, informal private ownership reappears underground: the watchman of the \"common\" orchard eats the best apples first, the tiny garden plot behind the peasant's cottage (representing 3 percent of the land) produces a third of the nation's vegetables because the family keeps what it grows there, and the tools that belong to \"everybody\" belong in practice to whichever foreman holds the padlock to the shed.",
+      "problem": "Rule 10 (05:89, score 7.5): 77-word sentence with 4-deep nesting joining three full independent examples behind a colon.",
+      "rule": "linear/split-77w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "four crisp sentences",
+          "text": "Even where collective ownership is maintained on paper without immediate famine, informal private ownership reappears underground. The watchman of the \"common\" orchard eats the best apples first. The tiny garden plot behind the peasant's cottage, representing 3 percent of the land, produces a third of the nation's vegetables because the family keeps what it grows there. And the tools that belong to \"everybody\" belong in practice to whichever foreman holds the padlock to the shed."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/05_ch05.md:4a24efc7:linear/split-66w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/05_ch05.md",
+      "byte_offset": 12824,
+      "byte_end": 13266,
+      "quote": "Whenever revolutionary regimes or utopian communes have tried to abolish the family on paper and raise children on rotating shifts in state nurseries, the children have suffered severe attachment failure and stunted formation; and whenever the state nursery breaks down, the child is raised again by the biological mother, the grandmother, or the aunt: the specific kin adult, operating under whatever administrative title the regime permits.",
+      "problem": "Rule 10 (05:95, score 6.0): 66-word sentence combining both a semicolon and a colon.",
+      "rule": "linear/split-66w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split at semicolon",
+          "text": "Whenever revolutionary regimes or utopian communes have tried to abolish the family on paper and raise children on rotating shifts in state nurseries, the children have suffered severe attachment failure and stunted formation. Whenever the state nursery breaks down, the child is raised again by the biological mother, the grandmother, or the aunt, the specific kin adult operating under whatever administrative title the regime permits."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/05_ch05.md:85685989:linear/if-clause-37w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/05_ch05.md",
+      "byte_offset": 13805,
+      "byte_end": 14120,
+      "quote": "* If unrelated peoples across different centuries and cultures **reinvent the banned arrangement underground, illegally, and at severe risk to themselves**, as black-market money, underground trade, informal property, and kin households always reappear when banned, then you are looking at **discovered substance**.",
+      "problem": "Rule 10 (05:104, score 5.5): 37 words before the main clause because four examples interrupt the 'If... then' frame.",
+      "rule": "linear/if-clause-37w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "move examples to second sentence",
+          "text": "* If unrelated peoples across different centuries and cultures **reinvent the banned arrangement underground, illegally, and at severe risk to themselves**, then you are looking at **discovered substance**. Black-market money, underground trade, informal property, and kin households always reappear when banned."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/06_ch06.md:ed437505:linear/verb-late-45w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/06_ch06.md",
+      "byte_offset": 11113,
+      "byte_end": 11518,
+      "quote": "Within the scope of competent adult peers dealing with one another inside a lawful order, such as buying and selling a workshop, signing an employment contract, taking marriage vows, or electing representatives under a constitution (*\"the consent of the governed\"*), requiring mutual consent is the **symmetrical procedural check** that prevents one citizen from robbing, enslaving, or defrauding another.",
+      "problem": "Rule 10 (06:89, score 6.0): 60 words with 45 words before the main verb 'is'.",
+      "rule": "linear/verb-late-45w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "claim first, examples second",
+          "text": "Within the scope of competent adult peers dealing inside a lawful order, mutual consent is the **symmetrical procedural check** that prevents one citizen from robbing, enslaving, or defrauding another. It governs buying and selling a workshop, signing an employment contract, taking marriage vows, and electing representatives under a constitution (*\"the consent of the governed\"*)."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:04d9e0e5:phonetics/single-shingle",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/06_ch06.md",
+      "byte_offset": 18154,
+      "byte_end": 18307,
+      "quote": "To see how quickly an unmaintained structure negates the work of its construction, trace the effect of a single displaced shingle on the roof of a house:",
+      "problem": "Phonetics (lint phonetics): close internal rhyme 'single displaced shingle' (matches 01:38 and 06:144).",
+      "rule": "phonetics/single-shingle",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "one displaced shingle",
+          "text": "To see how quickly an unmaintained structure negates the work of its construction, trace the effect of one displaced shingle on the roof of a house:"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:1027de36:phonetics/single-shingle",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "lint",
+      "path": "civ/chapters/06_ch06.md",
+      "byte_offset": 18610,
+      "byte_end": 18724,
+      "quote": "\u003e Five years later, a winter wind lifts a single shingle near the ridge and leaves a gap the size of a man's hand.",
+      "problem": "Phonetics (lint phonetics): adjacent rhyme 'single shingle'.",
+      "rule": "phonetics/single-shingle",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "one shingle",
+          "text": "\u003e Five years later, a winter wind lifts one shingle near the ridge and leaves a gap the size of a man's hand."
+        },
+        {
+          "id": "b",
+          "label": "a lone shingle",
+          "text": "\u003e Five years later, a winter wind lifts a lone shingle near the ridge and leaves a gap the size of a man's hand."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/06_ch06.md:2bc71b87:linear/appositive-60w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/06_ch06.md",
+      "byte_offset": 21155,
+      "byte_end": 21532,
+      "quote": "The shopkeeper, a mortal human being with a finite allotment of roughly twenty-five thousand days in his lifespan, spent ten thousand irreplaceable hours of his one life waking before dawn, saving coin by coin, laying bricks, wiring electrical circuits, bolting down shelves, and stocking food and tools so that the structure could feed his children and serve the neighborhood.",
+      "problem": "Rule 10 (06:164, score 6.0): 60 words with a 19-word appositive between subject and verb.",
+      "rule": "linear/appositive-60w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "open with lifespan, then shopkeeper",
+          "text": "A mortal human being has a finite allotment of roughly twenty-five thousand days in his lifespan. This shopkeeper spent ten thousand irreplaceable hours of his one life waking before dawn, saving coin by coin, laying bricks, wiring electrical circuits, bolting down shelves, and stocking food and tools so that the structure could feed his children and serve the neighborhood."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/06_ch06.md:3cedd79b:linear/split-83w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/06_ch06.md",
+      "byte_offset": 25187,
+      "byte_end": 25684,
+      "quote": "Because living well is measured by the **rate of improvement** rather than the initial stock of wealth, this orientation is available to a poor man in a dirt-floored cabin or a prisoner in a cell (who keeps his body disciplined, his cell clean, and his mind learning) just as fully as to a wealthy industrialist, while a wealthy heir who lets his health, his family, and his inherited enterprise deteriorate into addiction and disorder exhibits a negative trajectory despite his financial balance.",
+      "problem": "Rule 10 (06:190, score 5.5): 83-word sentence with an embedded parenthetical clause and a long 'while' contrast.",
+      "rule": "linear/split-83w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split contrast cleanly",
+          "text": "Because living well is measured by the **rate of improvement** rather than the initial stock of wealth, it is as open to a poor man in a dirt-floored cabin or a prisoner in a cell, keeping his body disciplined, his cell clean, and his mind learning, as to a wealthy industrialist. By contrast, a wealthy heir who lets his health, his family, and his inherited enterprise deteriorate into addiction and disorder moves downward despite his financial balance."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/07_ch07.md:61ca92f9:linear/pronoun-two-its",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/07_ch07.md",
+      "byte_offset": 4083,
+      "byte_end": 4253,
+      "quote": "* **Responsibility (Ownership)** faces forward in time: it is the commitment and the work of bringing something good into being and keeping it in being under real limits.",
+      "problem": "Rule 10 Part 4 (07:34, score 7.0): colon split plus two 'it's referring to different nouns ('Responsibility' and 'something good').",
+      "rule": "linear/pronoun-two-its",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split and name second it",
+          "text": "* **Responsibility (Ownership)** faces forward in time. It is the commitment and the work of bringing something good into being and keeping that good intact under real limits."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/07_ch07.md:cc350a50:linear/split-71w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/07_ch07.md",
+      "byte_offset": 4973,
+      "byte_end": 5341,
+      "quote": "Even in a shared neighborhood park, when a citizen sees a broken bottle on the playground where his children and his neighbors' children play, he did not drop the bottle, and it is not his *fault*, but picking it up and placing it in the refuse bin is the mark of a man who takes ownership of his portion of the common life rather than acting like a transient boarder.",
+      "problem": "Rule 10 (07:38, score 6.0): 71 words with 27 words before the main verb 'did'.",
+      "rule": "linear/split-71w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "three crisp sentences",
+          "text": "Take a shared neighborhood park where a citizen sees a broken bottle on the playground used by his children and his neighbors' children. He did not drop the bottle, and it is not his *fault*. Yet picking it up and placing it in the refuse bin is the mark of a man who takes ownership of his portion of the common life rather than acting like a transient boarder."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/07_ch07.md:e2b20f74:linear/nesting-6deep",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/07_ch07.md",
+      "byte_offset": 9794,
+      "byte_end": 10106,
+      "quote": "\u003e Yet neither son can forge a serviceable axe head without cracking the steel or burning the edge, because learning the *words* took a season, whereas training the eye and the hammer-hand required ten years of daily repetition under strict correction, and the sons found ten years at the hot anvil too demanding.",
+      "problem": "Rule 10 (07:79, score 5.0): 52 words with 6-deep clause nesting.",
+      "rule": "linear/nesting-6deep",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split before explanation",
+          "text": "\u003e Yet neither son can forge a serviceable axe head without cracking the steel or burning the edge. Learning the *words* took a season, whereas training the eye and the hammer-hand required ten years of daily repetition under strict correction, and the sons found ten years at the hot anvil too demanding."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/07_ch07.md:4c2f15fb:linear/pronoun-three-its",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/07_ch07.md",
+      "byte_offset": 20577,
+      "byte_end": 20724,
+      "quote": "It possesses geometric order and staged emotional vitality, but because it is built upon a falsehood, it is counterfeit beauty designed to deceive.",
+      "problem": "Rule 10 Part 4 (07:141, score 6.0): three 'it's after a dual antecedent ('torchlight parade or... propaganda production').",
+      "rule": "linear/pronoun-three-its",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "name the spectacle",
+          "text": "Such a spectacle possesses geometric order and staged emotional vitality, but because it rests on a falsehood, it is counterfeit beauty designed to deceive."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/07_ch07.md:aca07252:linear/subject-26w-paren",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/07_ch07.md",
+      "byte_offset": 20786,
+      "byte_end": 21093,
+      "quote": "A broken ceramic vase repaired by the Japanese craft of *kintsugi* (where the fractures are mended visibly with lacquer dusted in gold) holding fresh cut flowers illustrates this union: the mend acknowledges the truth of the fracture and restores structural order, while the living blossoms supply vitality.",
+      "problem": "Rule 10 (07:142, score 8.0): 26-word subject interrupted by a parenthetical clause before 'illustrates'.",
+      "rule": "linear/subject-26w-paren",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "front-load kintsugi",
+          "text": "The Japanese craft of *kintsugi* illustrates this union: a broken ceramic vase is mended visibly with lacquer dusted in gold and filled with fresh cut flowers. The mend acknowledges the truth of the fracture and restores structural order, while the living blossoms supply vitality."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/08_ch08.md:fb08599f:linear/split-56w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/08_ch08.md",
+      "byte_offset": 2560,
+      "byte_end": 2922,
+      "quote": "2. **The Oxygen Mask Principle:** On an aircraft, if cabin pressure drops, the safety instructions direct every parent to secure his own oxygen mask *before* attempting to assist his child or his neighbor, because a parent who loses consciousness from hypoxia in thirty seconds helps nobody; he becomes a second incapacitated person whom someone else must carry.",
+      "problem": "Rule 10 (08:26, score 5.5): 56 words combining a long 'because' clause and a semicolon.",
+      "rule": "linear/split-56w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split before reason",
+          "text": "2. **The Oxygen Mask Principle:** When cabin pressure drops on an aircraft, the safety instructions direct every parent to secure his own oxygen mask *before* assisting his child or his neighbor. A parent who loses consciousness from hypoxia in thirty seconds helps nobody; he becomes a second incapacitated person whom someone else must carry."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/08_ch08.md:004fb5ab:linear/split-68w-paren",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/08_ch08.md",
+      "byte_offset": 13904,
+      "byte_end": 14309,
+      "quote": "    3. Third, extend action-based assistance to distant strangers (Tier 5) **only from genuine surplus** that does not deprive or neglect Tiers 1 through 4, or in the special case of an immediate, low-cost emergency directly before you (such as reaching down to pull a stranger's child out of a shallow pond as you walk past, which requires two minutes and wet shoes without impoverishing your household).",
+      "problem": "Rule 10 (08:108, score 5.0): 68 words with a 29-word parenthetical trailing the clause.",
+      "rule": "linear/split-68w-paren",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "separate the emergency exception",
+          "text": "    3. Third, extend action-based assistance to distant strangers (Tier 5) **only from genuine surplus** that does not deprive or neglect Tiers 1 through 4. The sole exception is an immediate, low-cost emergency directly before you, such as pulling a stranger's child from a shallow pond as you walk past, which costs two minutes and wet shoes without impoverishing your household."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/08_ch08.md:6643e1c5:linear-phonetics/four-ly-58w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/08_ch08.md",
+      "byte_offset": 16171,
+      "byte_end": 16519,
+      "quote": "Crucially, kindness is sustainable inside a household or close church or neighborhood because the members know one another personally and can restrain abuse: if a relative is genuinely ill, the family supports him; if he is an able-bodied dependent who refuses to work, the family observes it daily and can confront him and enforce a firm boundary.",
+      "problem": "Rule 10 + Phonetics (08:123, score 5.5): 58 words with colon + semicolon and four '-ly' adverbs (Crucially, personally, genuinely, daily).",
+      "rule": "linear-phonetics/four-ly-58w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "clear -ly stack and split",
+          "text": "Kindness holds up inside a household, church, or close neighborhood because the members know one another face to face and can restrain abuse. If a relative is truly ill, the family supports him; if he is an able-bodied dependent who refuses to work, the family sees it every day and can confront him and enforce a firm boundary."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/08_ch08.md:777aa930:linear-phonetics/split-85w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/08_ch08.md",
+      "byte_offset": 19715,
+      "byte_end": 20251,
+      "quote": "A foundational statement of civilization's common principles dedicates a separate sentence to the reality of enemies because in peaceful, prosperous eras, comfortable people are constantly tempted by a fatal misconception: they imagine that every human being outside their front door is simply a friendly neighbor in Tier 3 or a harmless distant stranger in Tier 5 who desires the same peaceful life they desire, and that all violent conflict in the world is merely a misunderstanding caused by poor communication or lack of generosity.",
+      "problem": "Rule 10 + Phonetics (08:147, score 5.0): 85-word sentence with colon split and three trailing '-ly' adverbs (constantly, simply, merely).",
+      "rule": "linear-phonetics/split-85w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "two direct sentences",
+          "text": "Civilization's common principles dedicate a separate sentence to the reality of enemies because comfortable people in peaceful, prosperous eras fall easily into a fatal misconception. They imagine that every human being outside their front door is a friendly neighbor in Tier 3 or a harmless stranger in Tier 5 who wants the same peaceful life they want, and that all violent conflict is only a misunderstanding caused by poor communication or lack of generosity."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/08_ch08.md:e5fddf3f:linear/verb-late-34w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/08_ch08.md",
+      "byte_offset": 28066,
+      "byte_end": 28378,
+      "quote": "\u003e Then, in **November 1835**, two warrior tribes of mainland New Zealand Māori (**Ngāti Mutunga** and **Ngāti Tama**, recently displaced from Taranaki and armed with muskets, clubs, and axes) chartered a European brig, the *Lord Rodney*, and landed nine hundred invaders on the beaches of the Chatham Islands.",
+      "problem": "Rule 10 (08:210, score 6.0): 34 words before the main verb 'chartered' due to the parenthetical clause inside the subject.",
+      "rule": "linear/verb-late-34w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "move background to second sentence",
+          "text": "\u003e Then, in **November 1835**, two mainland New Zealand Māori warrior tribes, **Ngāti Mutunga** and **Ngāti Tama**, chartered a European brig, the *Lord Rodney*, and landed nine hundred invaders on the beaches of the Chatham Islands. Recently displaced from Taranaki, they arrived armed with muskets, clubs, and axes."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/09_ch09.md:300901b5:linear/verb-late-26w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 9017,
+      "byte_end": 9340,
+      "quote": "Inside the courtroom of a modern constitutional state, whether the plaintiff and defendant are Protestant, Catholic, Jewish, Muslim, or atheist, wealthy merchant or poor laborer, they occupy the single position of **citizen before the law**, and the court applies the same rules of contract, property, and evidence to both.",
+      "problem": "Rule 10 (09:56, score 5.5): 49 words with 26 words before the main verb 'occupy'.",
+      "rule": "linear/verb-late-26w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "subject and verb early",
+          "text": "Inside the courtroom of a modern constitutional state, plaintiff and defendant occupy the single position of **citizen before the law**, whether they are Protestant, Catholic, Jewish, Muslim, or atheist, wealthy merchant or poor laborer. The court applies the same rules of contract, property, and evidence to both."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/09_ch09.md:bbeb9dce:linear/subject-26w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 15094,
+      "byte_end": 15295,
+      "quote": "A rival state (such as the Chinese Communist Party under its explicit \"Military-Civil Fusion\" and \"United Front\" doctrines, or the Russian or Iranian security states) **recognizes no such separation**.",
+      "problem": "Rule 10 (09:108, score 5.0): 26-word subject interrupted by a parenthetical list before 'recognizes'.",
+      "rule": "linear/subject-26w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "verb before examples",
+          "text": "A rival state **recognizes no such separation**, whether it is the Chinese Communist Party under its explicit \"Military-Civil Fusion\" and \"United Front\" doctrines, or the Russian or Iranian security states."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/09_ch09.md:86936230:linear/cause-first-5deep",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 19321,
+      "byte_end": 19607,
+      "quote": "Within five minutes, the contest disintegrates, because when rules are invented after the action or altered according to which party is before the tribunal, skill, preparation, and diligent effort become pointless, and lobbying or intimidating the referee becomes the dominant strategy.",
+      "problem": "Rule 10 Part 5 (09:134, score 4.5): 5-deep nesting with a 35-word cause trailing the effect.",
+      "rule": "linear/cause-first-5deep",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "cause before effect",
+          "text": "When rules are invented after the action or altered according to which party stands before the tribunal, skill, preparation, and diligent effort become pointless. Lobbying or intimidating the referee becomes the dominant strategy, and within five minutes the contest disintegrates."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/09_ch09.md:e4610a35:linear/split-73w-it",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 23347,
+      "byte_end": 23803,
+      "quote": "If the port commissioner intervenes, declares the unequal scores proof of systemic injustice, discards the examination, and grants both men the same harbor pilot's license, two failures occur at once: first, the port confiscates the reward of diligent labor and teaches the next class of apprentices that study is pointless; second, **it falsifies reality** and puts an incompetent pilot onto the deck of a forty-thousand-ton ship entering a rocky channel.",
+      "problem": "Rule 10 (09:160, score 5.0): 73-word sentence with ambiguous 'it' separated from 'port' by 'reward' and 'class'.",
+      "rule": "linear/split-73w-it",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "break into clean steps",
+          "text": "Suppose the port commissioner intervenes, declares the unequal scores proof of systemic injustice, discards the examination, and grants both men the same harbor pilot's license. Two failures occur at once. First, the port confiscates the reward of diligent labor and teaches the next class of apprentices that study is pointless. Second, the port **falsifies reality** and puts an incompetent pilot onto the deck of a forty-thousand-ton ship entering a rocky channel."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/09_ch09.md:ac86ca9a:linear/verb-late-45w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 27638,
+      "byte_end": 27935,
+      "quote": "When a prosecutor or judge sees a habitual thief steal from a neighborhood grocery store for the twentieth time and releases him onto the street an hour later with no restitution and no penalty while lecturing the shopkeeper about \"compassion for the marginalized,\" that judge has not shown mercy.",
+      "problem": "Rule 10 (09:187, score 5.5): 45 words before the main verb 'has'.",
+      "rule": "linear/verb-late-45w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split scenario from verdict",
+          "text": "Suppose a prosecutor or judge sees a habitual thief steal from a neighborhood grocery store for the twentieth time and releases him onto the street an hour later with no restitution and no penalty, while lecturing the shopkeeper about \"compassion for the marginalized.\" That judge has not shown mercy."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/09_ch09.md:6d49671c:linear/subject-25w-paren",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 29390,
+      "byte_end": 29582,
+      "quote": "    The second part (restoring the relationship, admitting the person back into your house, lending him your vehicle again, or appointing him treasurer of the company) is **never unilateral**.",
+      "problem": "Rule 10 (09:203, score 6.0): 25-word subject interrupted by a parenthetical clause before 'is'.",
+      "rule": "linear/subject-25w-paren",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "claim before examples",
+          "text": "    The second part is **never unilateral**: restoring the relationship, admitting the person back into your house, lending him your vehicle again, or appointing him treasurer of the company."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/09_ch09.md:79190e10:linear/split-66w-pronoun",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 41948,
+      "byte_end": 42344,
+      "quote": "An example is **Singapore's judicial caning** for violent robbery, vandalism, or extortion: the statute is written in advance in plain language; it applies identically to a wealthy foreign banker's son and a local dockworker convicted of the same offense; it is administered under strict medical supervision; and the penalty is fixed by the offense, not by the rank of the offender or the victim.",
+      "problem": "Rule 10 (09:269, score 7.0): 66-word colon/semicolon chain plus pronoun slip ('it applies' = statute, while 'it is administered' = the caning sentence).",
+      "rule": "linear/split-66w-pronoun",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split and distinguish statute vs sentence",
+          "text": "An example is **Singapore's judicial caning** for violent robbery, vandalism, or extortion. The statute is written in advance in plain language and applies identically to a wealthy foreign banker's son and a local dockworker convicted of the same offense. The sentence is administered under strict medical supervision, and the penalty is fixed by the offense, not by the rank of the offender or the victim."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/09_ch09.md:43eca2f9:linear-phonetics/it-chain-tion",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 45284,
+      "byte_end": 45855,
+      "quote": "It declares that any human being in the world, simply by existing biologically, possesses an immediate \"human right\" to cross your national border uninvited, draw from the **Desert Cistern** (Section 1 above) that your parents and grandparents built and filled, and demand housing, schooling, medical care, legal representation, and political power on the same terms as the citizens who maintain it. It ignores that obligation is tiered and that justice is scoped: an unscoped claim for every stranger is a prescription for insolvency and dissolution for the host nation.",
+      "problem": "Rule 10 + Phonetics (09:291): 'It... It' pronoun chain, ambiguous 'maintain it' (cistern), abstract subject 'It ignores', and four '-tion' nouns (representation, obligation, prescription, dissolution).",
+      "rule": "linear-phonetics/it-chain-tion",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "name agents and trim -tion stack",
+          "text": "This ideology declares that any human being in the world, simply by existing biologically, possesses an immediate \"human right\" to cross your national border uninvited, draw from the **Desert Cistern** (Section 1 above) that your parents and grandparents built and filled, and demand housing, schooling, medical care, legal counsel, and political power on the same terms as the citizens who maintain the cistern. Its advocates ignore that duty is tiered and that justice is scoped: an unscoped claim for every stranger leads the host nation to insolvency and ruin."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/10_ch10.md:8bdc08f3:linear/verb-late-scene",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/10_ch10.md",
+      "byte_offset": 1689,
+      "byte_end": 1975,
+      "quote": "In the municipal water plant, the electrical grid substation, and the hospital operating room, the master electrician climbing the ladder to repair the high-voltage transformer in a winter storm is seventy-two years old, because there is no thirty-year-old apprentice to take his place.",
+      "problem": "Rule 10 (10:15, score 6.5): 30 words before main verb 'is', cause after effect, and a slight scene mismatch placing a master electrician on a transformer ladder inside 'the hospital operating room'.",
+      "rule": "linear/verb-late-scene",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "cause first + fix scene",
+          "text": "Across the municipal water plant, the electrical grid substation, and the hospital operating room, no thirty-year-old apprentices exist to replace retiring hands. The master electrician climbing the ladder to repair a high-voltage transformer in a winter storm is seventy-two years old."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/10_ch10.md:40a0aa39:linear/verb-late-51w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/10_ch10.md",
+      "byte_offset": 5200,
+      "byte_end": 5502,
+      "quote": "In **Plymouth Colony** of Chapter 8, the fathers and mothers who took their children into the fields once each household received its own parcel of land did not experience that labor as a penal sentence; building a livelihood for their own children gave their strength and skill a clear, daily purpose.",
+      "problem": "Rule 10 (10:46, score 7.0): 51 words with 26 words before main verb 'did' plus semicolon split.",
+      "rule": "linear/verb-late-51w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "order events cleanly",
+          "text": "In the **Plymouth Colony** of Chapter 8, once each household received its own parcel of land, fathers and mothers took their children into the fields. They did not experience that labor as a penal sentence. Building a livelihood for their own children gave their strength and skill a clear, daily purpose."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/10_ch10.md:21778e99:linear/verb-late-32w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/10_ch10.md",
+      "byte_offset": 7513,
+      "byte_end": 7839,
+      "quote": "On less than half of the present median income, in a country where more than a third of homes lacked complete plumbing at the start of the decade, the total fertility rate rose from 3.09 births per woman in 1950 to 3.77 in 1957 (National Center for Health Statistics, *Vital Statistics of the United States, 1999*, Table 1-7).",
+      "problem": "Rule 10 (10:56, score 7.0): 32 words of stacked prepositional openers before the main verb 'rose'.",
+      "rule": "linear/verb-late-32w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "front-load fertility rise",
+          "text": "Yet the total fertility rate rose from 3.09 births per woman in 1950 to 3.77 in 1957, on less than half of the present median income and in a country where more than a third of homes lacked complete plumbing at the start of the decade (National Center for Health Statistics, *Vital Statistics of the United States, 1999*, Table 1-7)."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/10_ch10.md:1d4b37cb:linear/split-pronoun-it",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/10_ch10.md",
+      "byte_offset": 9650,
+      "byte_end": 9853,
+      "quote": "On survival, every maternal race and age group in the 2024 report stands below the national rate of 1950; on plumbing, the share of homes without it fell from more than a third to about one in a hundred.",
+      "problem": "Rule 10 (10:62, score 4.5): semicolon split plus 'without it' separated from 'plumbing' by 'the share of homes'.",
+      "rule": "linear/split-pronoun-it",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split and name plumbing",
+          "text": "On survival, every maternal race and age group in the 2024 report stands below the national rate of 1950. On plumbing, the share of homes lacking complete plumbing fell from more than a third to about one in a hundred."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/10_ch10.md:a387a0a6:linear/verb-late-41w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/10_ch10.md",
+      "byte_offset": 13187,
+      "byte_end": 13525,
+      "quote": "Parents who continue to treat their twenty-two-year-old son or daughter as a fragile four-year-old, contacting an employer to complain when the young adult is corrected at work, shielding him from every consequence, and forbidding him to take physical or enterprising risks, prevent the capacity for independent adulthood from developing.",
+      "problem": "Rule 10 (10:79, score 5.0): 5-deep nesting with 41 words before the main verb 'prevent'.",
+      "rule": "linear/verb-late-41w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "unpack into three sentences",
+          "text": "Some parents continue to treat their twenty-two-year-old son or daughter as a fragile four-year-old. They contact an employer to complain when the young adult is corrected at work, shield him from every consequence, and forbid him to take physical or enterprising risks. By doing so, they prevent the capacity for independent adulthood from developing."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/10_ch10.md:39ac4307:linear-phonetics/72w-maintains-mains",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/10_ch10.md",
+      "byte_offset": 14116,
+      "byte_end": 14549,
+      "quote": "Suppose a million infants are born this year, and their parents supply them with food until they reach eighteen, but no one teaches them to read, no one teaches them arithmetic or metallurgy, no one exemplifies marriage or honesty, no one maintains the courts or the water mains, and the older generation accumulates fifty trillion dollars of public debt to fund its own retirement consumption and leaves the obligation to the young.",
+      "problem": "Rule 10 + Phonetics (10:89, score 4.0): 72-word single sentence with 4-deep nesting plus close rhyme 'maintains... mains' (lint phonetics).",
+      "rule": "linear-phonetics/72w-maintains-mains",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split and fix maintains/mains",
+          "text": "Suppose a million infants are born this year, and their parents feed them until they reach eighteen, yet withhold everything else. No one teaches them to read, calculate, or work metal; no one exemplifies marriage or honesty; no one keeps up the courts or the water mains. Meanwhile, the older generation runs up fifty trillion dollars of public debt to fund its own retirement and leaves the bill to the young."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:9fa78706:phonetics-linear/six-tion-51w",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/10_ch10.md",
+      "byte_offset": 15056,
+      "byte_end": 15560,
+      "quote": "In 1790, when the revolutionary National Assembly in France abolished the old provinces, courts, and titles, confiscated the lands of the Church, and placed the clergy under a civil constitution, acting on the misconception that a single generation of theorists had the right to dismantle their country and reconstruct society from the beginning, the Anglo-Irish statesman **Edmund Burke** wrote a passage in *Reflections on the Revolution in France* that states the principle of Virtue 7 with precision.",
+      "problem": "Phonetics + Rule 10 (10:95): heaviest '-tion' cluster in the book (6 in one sentence: constitution, misconception, generation, Reflections, Revolution, precision) plus 51 words before the main verb 'wrote'.",
+      "rule": "phonetics-linear/six-tion-51w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split and cut non-title -tion words",
+          "text": "In 1790, France's revolutionary National Assembly abolished the old provinces, courts, and titles, confiscated the lands of the Church, and placed the clergy under a civil constitution. Its members acted on the error that living theorists alone held the right to dismantle their country and build society anew. In response, the Anglo-Irish statesman **Edmund Burke** wrote a passage in *Reflections on the Revolution in France* that states Virtue 7 clearly."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/11_ch11.md:aa21d1af:linear/active-split-59w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 4937,
+      "byte_end": 5345,
+      "quote": "* **In Material Welfare:** A temporary emergency provision designed to help a displaced worker or a widowed mother regain self-sufficiency is converted by politicians and bureaucracies into an open-ended, multi-generational subsidy that **penalizes marriage and work**, paying a household more if no working father resides in the home and withdrawing benefits if the recipient accepts entry-level employment.",
+      "problem": "Rule 10 (11:48, score 8.0): 59 words, passive main verb delayed 20 words, and 4-deep clause nesting.",
+      "rule": "linear/active-split-59w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "active voice + split",
+          "text": "* **In Material Welfare:** Politicians and bureaucracies convert a temporary emergency provision, designed to help a displaced worker or a widowed mother regain self-sufficiency, into an open-ended, multi-generational subsidy that **penalizes marriage and work**. It pays a household more if no working father resides in the home and withdraws benefits if the recipient accepts entry-level employment."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/11_ch11.md:8fd6bfe1:linear/name-it-they",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 10838,
+      "byte_end": 10982,
+      "quote": "Never. They enforce a strict orthodoxy, dismiss anyone who dissents, and use the institution's budget and authority to reward their own faction.",
+      "problem": "Rule 10 Part 4 (11:88, 'Name it'): 'They' follows 'the conscientious builders' in the previous sentence; naming 'The subversives' removes the fleeting pronoun hitch.",
+      "rule": "linear/name-it-they",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "name The subversives",
+          "text": "Never. The subversives enforce a strict orthodoxy, dismiss anyone who dissents, and use the institution's budget and authority to reward their own faction."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/11_ch11.md:c8eebc13:linear/concession-split",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 12665,
+      "byte_end": 12944,
+      "quote": "Even when the person advocating \"compassion over rules\" is not a calculating Marcusean strategist, but merely a sentimental citizen who dislikes seeing anyone punished, the following case illustrates who actually bears the cost when a community adopts the Compassionate Delusion:",
+      "problem": "Rule 10 (11:104, score 4.0): 27 words before 'illustrates', and the opening concession ('Even when the person...') does not logically modify 'the following case illustrates'.",
+      "rule": "linear/concession-split",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split concession from case intro",
+          "text": "Often the person advocating \"compassion over rules\" is not a calculating Marcusean strategist, but merely a sentimental citizen who dislikes seeing anyone punished. Even so, the following case illustrates who actually bears the cost when a community adopts the Compassionate Delusion:"
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/11_ch11.md:48a7c353:linear-phonetics/release-cease",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 13552,
+      "byte_end": 13829,
+      "quote": "The next morning, a sentimental committee from the walled quarter visits the magistrate, argues that the thieves came from hard backgrounds, declares jail harsh and unfeeling, and demands that a compassionate town release them without bail and cease prosecuting property crime.",
+      "problem": "Rule 10 + Phonetics (11:108, score 4.0): 41-word verb chain plus close rhyme 'release... cease' (lint phonetics).",
+      "rule": "linear-phonetics/release-cease",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split and replace release/cease",
+          "text": "The next morning, a sentimental committee from the walled quarter visits the magistrate. Its members argue that the thieves came from hard backgrounds, declare jail harsh and unfeeling, and demand that a compassionate town free them without bail and stop prosecuting property crime."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/11_ch11.md:1d6bd04d:linear/split-64w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 19698,
+      "byte_end": 20149,
+      "quote": "A clear instance is the postmodern professor who flies at thirty-five thousand feet in a commercial jetliner, takes antibiotics when he contracts an infection, drinks purified municipal water, and collects a salary paid by industrial taxpayers, while spending his afternoon lecture teaching twenty-year-olds that objective scientific truth, merit, engineering standards, and property rights are \"oppressive Western constructs\" that must be dismantled.",
+      "problem": "Rule 10 (11:154, score 3.0): 64-word single sentence; splitting the daytime benefits from the afternoon lecture sharpens the contrast.",
+      "rule": "linear/split-64w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "sharpen contrast in two sentences",
+          "text": "A clear instance is the postmodern professor who flies at thirty-five thousand feet in a commercial jetliner, takes antibiotics for an infection, drinks purified municipal water, and collects a salary paid by industrial taxpayers. That same afternoon, he stands before twenty-year-olds and teaches that objective scientific truth, merit, engineering standards, and property rights are \"oppressive Western constructs\" that must be dismantled."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/12_ch12.md:697a4917:linear/split-88w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 4802,
+      "byte_end": 5339,
+      "quote": "As we saw in Chapter 10, **Edmund Burke** (and twentieth-century successors such as **Russell Kirk**) articulated the core truths of humility before the limits of human knowledge, of how hard an institution is to build and how easy to destroy, of attachment to country that begins in what Burke called the *\"little platoons\"* of family and neighborhood (Principle 4), and of forming and listening: elders form those younger than themselves, and the younger listen and test, inside the partnership of the dead, the living, and the unborn.",
+      "problem": "Rule 10 (12:40, score 9.0, highest in Ch 12): 88-word sentence piling four 'of' clauses onto a colon clause.",
+      "rule": "linear/split-88w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "two clean sentences",
+          "text": "As we saw in Chapter 10, **Edmund Burke** and twentieth-century successors such as **Russell Kirk** articulated several of these core truths: humility before the limits of human knowledge, the difficulty of building an institution compared with the ease of destroying one, and attachment to country beginning in what Burke called the *\"little platoons\"* of family and neighborhood (Principle 4). They also stated the discipline of forming and listening: elders form those younger than themselves, and the younger listen and test, inside the partnership of the dead, the living, and the unborn."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/12_ch12.md:73a0177c:linear/split-90w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 9213,
+      "byte_end": 9723,
+      "quote": "Kant's formulation fails where it detaches procedure from reality: because Kant severed moral duty from keeping and building real human life and from tiered obligation and the reality of enemies, he famously argued in his 1797 essay *On a Supposed Right to Lie Because of Philanthropic Concerns* that if a murderer knocks at your door asking whether the friend he is pursuing has taken refuge in your house, you have a categorical duty not to lie to him, even if the truth lets him find and murder your friend.",
+      "problem": "Rule 10 (12:62, score 6.0): 90-word sentence with colon + 'because' + 'that if' + 'even if'.",
+      "rule": "linear/split-90w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "three clear sentences",
+          "text": "Kant's formulation fails where it detaches procedure from reality. Because he severed moral duty from keeping and building real human life, from tiered obligation, and from the reality of enemies, he reached a notorious conclusion in his 1797 essay *On a Supposed Right to Lie Because of Philanthropic Concerns*. If a murderer knocks at your door asking whether the friend he is pursuing has taken refuge in your house, Kant argued, you have a categorical duty not to lie to him, even if the truth lets him find and murder your friend."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/12_ch12.md:a4617cde:linear/split-85w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 10384,
+      "byte_end": 10921,
+      "quote": "* **Jean-Jacques Rousseau** (1712–1778): Denied that virtue must be cultivated in human beings (Principle 2), claiming they are naturally good and corrupted only by property and civilization; attacked keeping and building by calling the first man who fenced a plot of ground to establish a farm an impostor; and opposed the mediating tiers of family, church, and local guild, demanding in *The Social Contract* that every citizen surrender himself unconditionally to the unitary state's **\"General Will\"** and be *\"forced to be free.\"*",
+      "problem": "Rule 10 (12:70, score 6.0): 85-word semicolon chain covering three distinct errors.",
+      "rule": "linear/split-85w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "three crisp sentences",
+          "text": "* **Jean-Jacques Rousseau** (1712–1778): Denied that virtue must be cultivated in human beings (Principle 2), claiming they are naturally good and corrupted only by property and civilization. He attacked keeping and building by calling the first man who fenced a plot of ground to establish a farm an impostor. He also opposed the mediating tiers of family, church, and local guild, demanding in *The Social Contract* that every citizen surrender himself unconditionally to the unitary state's **\"General Will\"** and be *\"forced to be free.\"*"
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/12_ch12.md:151ba1de:linear-phonetics/117w-longest",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 13149,
+      "byte_end": 13936,
+      "quote": "Historically, the mainstream Christian synthesis that built the universities of Bologna, Paris, Oxford, and Cambridge, incubated the Scientific Revolution (Copernicus, Kepler, Galileo, Pascal, Boyle, Newton) and the science that followed it (Faraday, Maxwell, Mendel), and shaped Western constitutional law rested on the **Two-Books Doctrine**: that a rational Creator authored both the **Book of Scripture** and the **Book of Nature**, that Creation is ordered by consistent laws rather than capricious magic (Principle 1), and that every human being is a morally responsible agent who is simultaneously capable of reason and prone to sin and self-deception (Principle 2, which explains why power held without any check by a limited, self-interested person rarely stays sound for long).",
+      "problem": "Rule 10 + Phonetics (12:84, score 8.0): longest sentence in the book (117 words, 37 words before main verb 'rested'), plus four '-ly' adverbs (Historically, morally, simultaneously, rarely) and three '-tion' nouns.",
+      "rule": "linear-phonetics/117w-longest",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "four clear sentences",
+          "text": "Historically, the mainstream Christian synthesis rested on the **Two-Books Doctrine**. That synthesis built the universities of Bologna, Paris, Oxford, and Cambridge, fostered the Scientific Revolution (Copernicus, Kepler, Galileo, Pascal, Boyle, Newton) and the science that followed it (Faraday, Maxwell, Mendel), and shaped Western constitutional law. It held that a rational Creator authored both the **Book of Scripture** and the **Book of Nature**, so Creation obeys consistent laws rather than capricious magic (Principle 1). It also held that every human being is a moral agent, capable of reason yet prone to sin and self-deception (Principle 2), which explains why unchecked power in human hands seldom stays sound for long."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/12_ch12.md:c32a79fc:linear/split-84w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 16766,
+      "byte_end": 17239,
+      "quote": "    When Jesus says in the Sermon on the Mount, *\"whoever strikes you on the right cheek, turn the other to him as well,\"* the concrete physical detail defines the scope: for a right-handed person facing you to strike your *right* cheek, he must strike you with the **back of his hand**, which in first-century Jewish and Roman law was not a lethal assault, but a formal gesture of **personal insult** (equivalent to an affront intended to provoke a private brawl or duel).",
+      "problem": "Rule 10 (12:110, score 6.5): 84-word sentence with colon + nested relative clause + parenthetical.",
+      "rule": "linear/split-84w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "three direct sentences",
+          "text": "    When Jesus says in the Sermon on the Mount, *\"whoever strikes you on the right cheek, turn the other to him as well,\"* the concrete physical detail defines the scope. For a right-handed person facing you to strike your *right* cheek, he must use the **back of his hand**. In first-century Jewish and Roman law, that blow was not a lethal assault, but a formal gesture of **personal insult** intended to provoke a private brawl or duel."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/12_ch12.md:61abc6f7:linear/split-58w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 25791,
+      "byte_end": 26240,
+      "quote": "In the twentieth century, thinkers such as **Sayyid Qutb** in Egypt and **Ayatollah Ruhollah Khomeini** in Iran (*Islamic Government: Governance of the Jurist*, 1970) removed even the traditional quietist accommodations of earlier centuries and turned Islam into a totalizing revolutionary state ideology, explicitly rejecting secular constitutional symmetry, national sovereignty, and freedom of conscience as idolatrous (*jahiliyyah* or *taghut*).",
+      "problem": "Rule 10 (12:139, score 7.0): 58 words with 26 words before main verb 'removed'.",
+      "rule": "linear/split-58w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split into two sentences",
+          "text": "In the twentieth century, **Sayyid Qutb** in Egypt and **Ayatollah Ruhollah Khomeini** in Iran (*Islamic Government: Governance of the Jurist*, 1970) removed even the traditional quietist accommodations of earlier centuries. They turned Islam into a totalizing revolutionary state ideology, rejecting secular constitutional symmetry, national sovereignty, and freedom of conscience as idolatrous (*jahiliyyah* or *taghut*)."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/12_ch12.md:b3d02447:linear/verb-late-71w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 29276,
+      "byte_end": 29921,
+      "quote": "* **Where Shinto failed when detached from Principle 1 and Principle 5:** Because traditional Shinto is a particularist folk religion without a universal doctrine of correspondence truth or universal human nature, when the Meiji and Showa militarists fused it into **State Shinto** between 1890 and 1945, teaching as state dogma that the Japanese Emperor was a living descendant of the sun goddess and that non-Japanese peoples occupied an inferior ontological tier, it silenced internal rational dissent (violating Principle 1) and licensed atrocities against conquered neighbors (violating Principle 5), culminating in the catastrophe of 1945.",
+      "problem": "Rule 10 (12:155, score 7.0): 93 words with 71 words before the main verb 'silenced' (longest pre-verb delay in the book).",
+      "rule": "linear/verb-late-71w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "three sequential sentences",
+          "text": "* **Where Shinto failed when detached from Principle 1 and Principle 5:** Traditional Shinto is a particularist folk religion without a universal doctrine of correspondence truth or universal human nature. Between 1890 and 1945, the Meiji and Showa militarists fused it into **State Shinto**, teaching as state dogma that the Japanese Emperor was a living descendant of the sun goddess and that non-Japanese peoples occupied an inferior ontological tier. That state creed silenced internal rational dissent (violating Principle 1) and licensed atrocities against conquered neighbors (violating Principle 5), culminating in the catastrophe of 1945."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/13_ch13.md:635e416a:linear/verb-late-39w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/13_ch13.md",
+      "byte_offset": 6973,
+      "byte_end": 7262,
+      "quote": "In a region where neighboring states enacted ethnic quota systems that restricted minority Chinese and Indians' access to universities and civil service posts, or where rulers dismissed judges when a court ruled against the government, Lee Kuan Yew enforced **Scoped Procedural Symmetry**.",
+      "problem": "Rule 10 (13:54, score 7.0, Pull back): 39 words before the main verb 'enforced'. Opening on Lee's policy and then stating the regional contrast lands immediately.",
+      "rule": "linear/verb-late-39w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "lead with Lee Kuan Yew",
+          "text": "Lee Kuan Yew enforced **Scoped Procedural Symmetry** in a region where neighboring states took the opposite path. Nearby governments enacted ethnic quotas that restricted minority Chinese and Indians from universities and civil service posts, and rulers dismissed judges when a court ruled against the state."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/13_ch13.md:1fc6ef0a:linear/split-81w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/13_ch13.md",
+      "byte_offset": 8382,
+      "byte_end": 8925,
+      "quote": "Requesting military advisors from Israel (the only country willing to train Singapore's nascent armed forces in 1965), Singapore built a universal male conscription defense force (**National Service**) on what Lee termed the **\"Poisonous Shrimp\" doctrine** (and later the \"Dolphin\" doctrine): a small island cannot conquer a large neighbor, **but it can make itself so well-armed, disciplined, and formidable that any aggressor attempting to conquer it will suffer prohibitive losses, remaining, in Lee's phrase, *\"not a digestible morsel.\"***",
+      "problem": "Rule 10 (13:62, score 5.0): 81-word sentence with opening participial phrase and colon joining two independent clauses.",
+      "rule": "linear/split-81w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split at colon + active opener",
+          "text": "Singapore requested military advisors from Israel, the only country willing to train its nascent armed forces in 1965, and built a universal male conscription force (**National Service**) on what Lee termed the **\"Poisonous Shrimp\" doctrine** (and later the \"Dolphin\" doctrine). A small island cannot conquer a large neighbor, **but it can make itself so well-armed, disciplined, and formidable that any aggressor will suffer prohibitive losses, remaining, in Lee's phrase, *\"not a digestible morsel.\"***"
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/13_ch13.md:f6addd7b:linear/verb-late-62w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/13_ch13.md",
+      "byte_offset": 12555,
+      "byte_end": 12928,
+      "quote": "In a speech to the State Duma on **December 5, 1908**, defending his land law against socialist levelers who demanded that the state confiscate all land, Stolypin explained that in enacting the law the government had wagered not upon *\"the wretched and the drunken,\"* but upon *\"the sturdy and the strong,\"* and that the strong personal owner was the barrier to revolution.",
+      "problem": "Rule 10 (13:89, score 8.0): 62 words with 27 words before the main verb 'explained'.",
+      "rule": "linear/verb-late-62w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "two crisp sentences",
+          "text": "On **December 5, 1908**, Stolypin defended his land law before the State Duma against socialist levelers who demanded that the state confiscate all land. The government, he explained, had wagered not upon *\"the wretched and the drunken,\"* but upon *\"the sturdy and the strong,\"* because the strong personal owner was the barrier to revolution."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/13_ch13.md:3fe36bc0:linear/split-78w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/13_ch13.md",
+      "byte_offset": 14872,
+      "byte_end": 15392,
+      "quote": "**Durnovo then stated precisely what would follow:** because Russia's educated liberal politicians possessed no executive experience and no support among the peasantry, while the socialist agitators preached simple slogans of total land and factory seizure to a population in which Stolypin's property reforms were still only halfway complete, the liberal government would be overthrown within months by ruthless extremists, and *\"Russia will be flung into hopeless anarchy, the issue of which cannot be even foreseen.\"*",
+      "problem": "Rule 10 (13:105, score 5.0): 78-word sentence with a 48-word 'because... while...' preamble before the prediction.",
+      "rule": "linear/split-78w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "unpack Durnovo's forecast",
+          "text": "**Durnovo then stated precisely what would follow.** Russia's educated liberal politicians possessed no executive experience and no support among the peasantry. Meanwhile, socialist agitators preached simple slogans of total land and factory seizure to a population in which Stolypin's property reforms were still only halfway complete. Within months, ruthless extremists would overthrow the liberal government, and *\"Russia will be flung into hopeless anarchy, the issue of which cannot be even foreseen.\"*"
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/13_ch13.md:253cbe2b:linear/active-split-58w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/13_ch13.md",
+      "byte_offset": 16281,
+      "byte_end": 16632,
+      "quote": "The application of the term *kulak* was systematically destructive: in practice, any peasant who kept his barn roof repaired, owned two cows or a metal plow, and harvested more grain per acre than his negligent neighbor was designated a \"class enemy,\" stripped of his home and tools, and shot or deported in unheated railcars to the Arctic wilderness.",
+      "problem": "Rule 10 (13:114, score 5.0): 58 words with 34 words between the colon and passive 'was designated'.",
+      "rule": "linear/active-split-58w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "active voice + split",
+          "text": "The application of the term *kulak* was systematically destructive. In practice, authorities branded as a \"class enemy\" any peasant who kept his barn roof repaired, owned two cows or a metal plow, and harvested more grain per acre than his negligent neighbor. They stripped him of his home and tools, and shot him or deported him in unheated railcars to the Arctic wilderness."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/13_ch13.md:4b9ac2be:linear/split-70w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/13_ch13.md",
+      "byte_offset": 20093,
+      "byte_end": 20596,
+      "quote": "Instead, between **1979 and 1983**, Khomeini's clerics, who controlled the mosques, the street militias (*Komitehs*), and the new Islamic Revolutionary Guard Corps, systematically closed every independent newspaper, purged the universities in the \"Islamic Cultural Revolution,\" forced women back under the mandatory veil on pain of flogging, outlawed the Tudeh Party and leftist organizations, and arrested, tortured, and executed thousands of their former Marxist and student allies inside Evin Prison.",
+      "problem": "Rule 10 (13:137, score 6.0): 70 words with 23 words before the main verb 'closed' and five consecutive predicate clauses.",
+      "rule": "linear/split-70w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "state leverage, then list actions",
+          "text": "Instead, between **1979 and 1983**, Khomeini's clerics used their control of the mosques, the street militias (*Komitehs*), and the new Islamic Revolutionary Guard Corps to crush every rival. They closed every independent newspaper, purged the universities in the \"Islamic Cultural Revolution,\" forced women back under the mandatory veil on pain of flogging, outlawed the Tudeh Party and leftist organizations, and arrested, tortured, and executed thousands of their former Marxist and student allies inside Evin Prison."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/14_ch14.md:800c9261:linear-phonetics/if-clause-62w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/14_ch14.md",
+      "byte_offset": 4781,
+      "byte_end": 5310,
+      "quote": "* **Fallacious Use:** By contrast, if an actor faithfully and systematically executed the explicit instructions written in the foundational texts of that doctrine, as Lenin, Stalin, Mao, and Pol Pot executed Karl Marx's explicit instruction in the *Communist Manifesto* to *\"abolish private property\"* and concentrate all credit, transport, agriculture, and manufacturing in the hands of a central state monopoly, and the predictable result was tyranny and famine, one cannot legitimately claim, \"That was not authentic Marxism.\"",
+      "problem": "Rule 10 + Phonetics (14:45, score 5.0): 77 words with 62 words in the opening 'if' clause before 'one cannot legitimately claim', plus '-ly'/'-tion' clutter (faithfully, systematically, legitimately; instructions, instruction).",
+      "rule": "linear-phonetics/if-clause-62w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "three direct sentences",
+          "text": "* **Fallacious Use:** By contrast, suppose an actor carries out the explicit instructions written in the foundational texts of a doctrine, and the predictable result is tyranny and famine. Lenin, Stalin, Mao, and Pol Pot followed Karl Marx's explicit command in the *Communist Manifesto* to *\"abolish private property\"* and concentrate all credit, transport, agriculture, and manufacturing in a central state monopoly. One cannot rightly claim afterward, \"That was not authentic Marxism.\""
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/14_ch14.md:7b50893c:linear/pronoun-two-its",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/14_ch14.md",
+      "byte_offset": 10153,
+      "byte_end": 10315,
+      "quote": "They give the governing of it to people with a stake in it, parents and masters who contribute labor and dues, not distant grant offices with conditions attached.",
+      "problem": "Rule 10 Part 4 (14:84, score 4.0): two 'it's ('the governing of it... a stake in it') reaching across an intervening sentence back to 'school, an apprenticeship guild, or a civic association'.",
+      "rule": "linear/pronoun-two-its",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "name the institution",
+          "text": "They place governance in the hands of people with a stake in the institution, parents and masters who contribute labor and dues, not distant grant offices with conditions attached."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/14_ch14.md:14916188:linear/split-70w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/14_ch14.md",
+      "byte_offset": 12422,
+      "byte_end": 12883,
+      "quote": "* When men and women across a nation direct their daily vectors toward correspondence truth, self-anchored ownership, craft excellence, beauty, humility, raising children, and forming the younger while listening to those who formed them, under symmetrical laws, the resultant vector of that civilization points upward toward durability and growth, enabling even a resource-poor island or a damaged town after a storm to become a productive center of human life.",
+      "problem": "Rule 10 (14:117, score 6.5): 70 words; splitting off the trailing participial clause preserves the parallel cadence with the preceding bullet (14:116) while letting the conclusion breathe.",
+      "rule": "linear/split-70w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split trailing clause",
+          "text": "* When men and women across a nation direct their daily vectors toward correspondence truth, self-anchored ownership, craft excellence, beauty, humility, raising children, and forming the younger while listening to those who formed them, under symmetrical laws, the resultant vector of that civilization points upward toward durability and growth. Even a resource-poor island or a damaged town after a storm can then become a productive center of human life."
+        }
+      ]
+    },
+    {
+      "id": "civ/linear:civ/chapters/14_ch14.md:479d6e85:linear/split-56w",
+      "source": "civ/linear",
+      "from": "gemini-4-neon",
+      "kind": "sentence",
+      "path": "civ/chapters/14_ch14.md",
+      "byte_offset": 14473,
+      "byte_end": 14774,
+      "quote": "When a test gauge indicates a crack in a fitting or an error in a calculation, you do not falsify the report to please a superior; you report the physical truth as it is and you verify your work with checklists because you recognize that you are a fallible mortal (Principle 2 and Virtue 5: Humility).",
+      "problem": "Rule 10 (14:125, score 7.0): 56-word semicolon + 'because' compound sentence.",
+      "rule": "linear/split-56w",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split at semicolon",
+          "text": "When a test gauge indicates a crack in a fitting or an error in a calculation, you do not falsify the report to please a superior. You report the physical truth as it is, and you verify your work with checklists because you recognize that you are a fallible mortal (Principle 2 and Virtue 5: Humility)."
+        }
+      ]
+    }
+  ]
+}

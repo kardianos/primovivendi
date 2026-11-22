@@ -1,0 +1,679 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/01_ch01.md:8fe31426:phonetics/single-shingle",
+    "civ/linear:civ/chapters/02_ch02.md:eb005140:linear/subject-38w",
+    "civ/linear:civ/chapters/02_ch02.md:40aac415:linear/split-59w",
+    "call:civ/chapters/02_ch02.md:30f93d88:register-linear/dataset-ptolemy",
+    "call:civ/chapters/02_ch02.md:83711a1c:register/conflates",
+    "civ/linear:civ/chapters/02_ch02.md:0b50b09f:linear/verb-late-61w",
+    "call:civ/chapters/03_ch03.md:4f1ef827:precision/citicorp-reporting",
+    "civ/linear:civ/chapters/03_ch03.md:c3193ec2:linear/if-clause-35w",
+    "call:civ/chapters/03_ch03.md:35be140d:grammar/claim-number",
+    "call:civ/chapters/03_ch03.md:2034f809:register/power-warfare",
+    "civ/linear:civ/chapters/03_ch03.md:2827f5d1:linear/split-68w",
+    "civ/linear:civ/chapters/03_ch03.md:4f4dbdae:linear/verb-late-32w",
+    "civ/linear:civ/chapters/04_ch04.md:c7a5cfbf:linear/pronoun-three-its",
+    "civ/linear:civ/chapters/04_ch04.md:5db12df1:linear/ranbaxy-60w",
+    "civ/linear:civ/chapters/04_ch04.md:865f286e:linear/if-clause-echo",
+    "call:civ/chapters/04_ch04.md:f5a8ac8c:grammar-linear/fragment-habits",
+    "civ/linear:civ/chapters/05_ch05.md:85685989:linear/if-clause-37w",
+    "civ/linear:civ/chapters/05_ch05.md:4a24efc7:linear/split-66w",
+    "civ/linear:civ/chapters/05_ch05.md:314ea358:linear/split-77w",
+    "call:civ/chapters/05_ch05.md:4c92e8cf:style/heading-versus",
+    "call:civ/chapters/05_ch05.md:5e8cc044:style/heading-versus",
+    "civ/linear:civ/chapters/06_ch06.md:3cedd79b:linear/split-83w",
+    "call:civ/chapters/06_ch06.md:8d4c8a4e:rule/algebraic-time-ab",
+    "call:civ/chapters/06_ch06.md:2a1d685c:style/heading-versus",
+    "civ/linear:civ/chapters/06_ch06.md:2bc71b87:linear/appositive-60w",
+    "call:civ/chapters/06_ch06.md:1027de36:phonetics/single-shingle",
+    "call:civ/chapters/06_ch06.md:04d9e0e5:phonetics/single-shingle",
+    "civ/linear:civ/chapters/06_ch06.md:ed437505:linear/verb-late-45w",
+    "civ/linear:civ/chapters/07_ch07.md:aca07252:linear/subject-26w-paren",
+    "civ/linear:civ/chapters/07_ch07.md:4c2f15fb:linear/pronoun-three-its",
+    "call:civ/chapters/07_ch07.md:a07e4c68:style/heading-versus",
+    "civ/linear:civ/chapters/07_ch07.md:e2b20f74:linear/nesting-6deep",
+    "call:civ/chapters/07_ch07.md:725b5c7d:style/heading-versus",
+    "civ/linear:civ/chapters/07_ch07.md:cc350a50:linear/split-71w",
+    "civ/linear:civ/chapters/07_ch07.md:61ca92f9:linear/pronoun-two-its",
+    "call:civ/chapters/07_ch07.md:c14c2c2e:style/heading-versus",
+    "call:civ/chapters/07_ch07.md:c0873d27:spelling-register/grey-breakroom",
+    "civ/linear:civ/chapters/08_ch08.md:e5fddf3f:linear/verb-late-34w",
+    "civ/linear:civ/chapters/08_ch08.md:777aa930:linear-phonetics/split-85w",
+    "civ/linear:civ/chapters/08_ch08.md:6643e1c5:linear-phonetics/four-ly-58w",
+    "civ/linear:civ/chapters/08_ch08.md:004fb5ab:linear/split-68w-paren",
+    "call:civ/chapters/08_ch08.md:ea1e72b3:register/fraudster",
+    "civ/linear:civ/chapters/08_ch08.md:fb08599f:linear/split-56w",
+    "civ/linear:civ/chapters/09_ch09.md:43eca2f9:linear-phonetics/it-chain-tion",
+    "civ/linear:civ/chapters/09_ch09.md:79190e10:linear/split-66w-pronoun",
+    "call:civ/chapters/09_ch09.md:ae8dfbbf:rule/algebraic-clan-ab",
+    "call:civ/chapters/09_ch09.md:3ab0a2fa:register/fraudster",
+    "civ/linear:civ/chapters/09_ch09.md:6d49671c:linear/subject-25w-paren",
+    "civ/linear:civ/chapters/09_ch09.md:ac86ca9a:linear/verb-late-45w",
+    "call:civ/chapters/09_ch09.md:22811b7f:register/fraudster",
+    "call:civ/chapters/09_ch09.md:f7c73046:precision-linear/soviet-deng-dates",
+    "civ/linear:civ/chapters/09_ch09.md:e4610a35:linear/split-73w-it",
+    "call:civ/chapters/09_ch09.md:7cc6e2b2:register-phonetics/unsurprisingly-ly",
+    "civ/linear:civ/chapters/09_ch09.md:86936230:linear/cause-first-5deep",
+    "call:civ/chapters/09_ch09.md:54df0fcb:register/rulebook",
+    "civ/linear:civ/chapters/09_ch09.md:bbeb9dce:linear/subject-26w",
+    "civ/linear:civ/chapters/09_ch09.md:300901b5:linear/verb-late-26w",
+    "call:civ/chapters/10_ch10.md:9fa78706:phonetics-linear/six-tion-51w",
+    "civ/linear:civ/chapters/10_ch10.md:39ac4307:linear-phonetics/72w-maintains-mains",
+    "civ/linear:civ/chapters/10_ch10.md:a387a0a6:linear/verb-late-41w",
+    "civ/linear:civ/chapters/10_ch10.md:1d4b37cb:linear/split-pronoun-it",
+    "civ/linear:civ/chapters/10_ch10.md:21778e99:linear/verb-late-32w",
+    "civ/linear:civ/chapters/10_ch10.md:40a0aa39:linear/verb-late-51w",
+    "civ/linear:civ/chapters/10_ch10.md:8bdc08f3:linear/verb-late-scene",
+    "civ/linear:civ/chapters/11_ch11.md:1d6bd04d:linear/split-64w",
+    "civ/linear:civ/chapters/11_ch11.md:48a7c353:linear-phonetics/release-cease",
+    "civ/linear:civ/chapters/11_ch11.md:c8eebc13:linear/concession-split",
+    "civ/linear:civ/chapters/11_ch11.md:8fd6bfe1:linear/name-it-they",
+    "civ/linear:civ/chapters/11_ch11.md:aa21d1af:linear/active-split-59w",
+    "call:civ/chapters/11_ch11.md:9abee3c0:register/effort-free",
+    "call:civ/chapters/12_ch12.md:4efa6505:register/conservative-sounding",
+    "call:civ/chapters/12_ch12.md:287aa1e9:register/outcome-leveling",
+    "civ/linear:civ/chapters/12_ch12.md:b3d02447:linear/verb-late-71w",
+    "call:civ/chapters/12_ch12.md:72799513:register/standalone",
+    "civ/linear:civ/chapters/12_ch12.md:61abc6f7:linear/split-58w",
+    "civ/linear:civ/chapters/12_ch12.md:c32a79fc:linear/split-84w",
+    "civ/linear:civ/chapters/12_ch12.md:151ba1de:linear-phonetics/117w-longest",
+    "civ/linear:civ/chapters/12_ch12.md:a4617cde:linear/split-85w",
+    "civ/linear:civ/chapters/12_ch12.md:697a4917:linear/split-88w",
+    "call:civ/chapters/12_ch12.md:73de0d25:register/outcome-leveling",
+    "civ/linear:civ/chapters/13_ch13.md:4b9ac2be:linear/split-70w",
+    "civ/linear:civ/chapters/13_ch13.md:253cbe2b:linear/active-split-58w",
+    "civ/linear:civ/chapters/13_ch13.md:3fe36bc0:linear/split-78w",
+    "civ/linear:civ/chapters/13_ch13.md:f6addd7b:linear/verb-late-62w",
+    "call:civ/chapters/13_ch13.md:ccf84abf:register/counterproductive",
+    "call:civ/chapters/13_ch13.md:9a86d0a0:register-linear/headcount",
+    "civ/linear:civ/chapters/13_ch13.md:1fc6ef0a:linear/split-81w",
+    "civ/linear:civ/chapters/13_ch13.md:635e416a:linear/verb-late-39w",
+    "call:civ/chapters/13_ch13.md:5193485b:register/disorder-ridden",
+    "call:civ/chapters/14_ch14.md:f041c83b:register-linear/workspace-split",
+    "civ/linear:civ/chapters/14_ch14.md:479d6e85:linear/split-56w",
+    "civ/linear:civ/chapters/14_ch14.md:14916188:linear/split-70w",
+    "civ/linear:civ/chapters/14_ch14.md:7b50893c:linear/pronoun-two-its",
+    "call:civ/chapters/14_ch14.md:b032e542:register/fraudster",
+    "civ/linear:civ/chapters/14_ch14.md:800c9261:linear-phonetics/if-clause-62w",
+    "call:civ/chapters/14_ch14.md:4b082eb1:register/hyperinflates"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/chapters/01_ch01.md:8fe31426:phonetics/single-shingle",
+      "path": "civ/chapters/01_ch01.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:15:20Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/02_ch02.md:eb005140:linear/subject-38w",
+      "path": "civ/chapters/02_ch02.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:21:49Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/02_ch02.md:40aac415:linear/split-59w",
+      "path": "civ/chapters/02_ch02.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:21:03Z"
+    },
+    {
+      "id": "call:civ/chapters/02_ch02.md:30f93d88:register-linear/dataset-ptolemy",
+      "path": "civ/chapters/02_ch02.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:12:41Z"
+    },
+    {
+      "id": "call:civ/chapters/02_ch02.md:83711a1c:register/conflates",
+      "path": "civ/chapters/02_ch02.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:11:28Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/02_ch02.md:0b50b09f:linear/verb-late-61w",
+      "path": "civ/chapters/02_ch02.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:16:01Z"
+    },
+    {
+      "id": "call:civ/chapters/03_ch03.md:4f1ef827:precision/citicorp-reporting",
+      "path": "civ/chapters/03_ch03.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:13:36Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/03_ch03.md:c3193ec2:linear/if-clause-35w",
+      "path": "civ/chapters/03_ch03.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:22:55Z"
+    },
+    {
+      "id": "call:civ/chapters/03_ch03.md:35be140d:grammar/claim-number",
+      "path": "civ/chapters/03_ch03.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:13:12Z"
+    },
+    {
+      "id": "call:civ/chapters/03_ch03.md:2034f809:register/power-warfare",
+      "path": "civ/chapters/03_ch03.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:13:00Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/03_ch03.md:2827f5d1:linear/split-68w",
+      "path": "civ/chapters/03_ch03.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:22:46Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/03_ch03.md:4f4dbdae:linear/verb-late-32w",
+      "path": "civ/chapters/03_ch03.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:22:20Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/04_ch04.md:c7a5cfbf:linear/pronoun-three-its",
+      "path": "civ/chapters/04_ch04.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:35:29Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/04_ch04.md:5db12df1:linear/ranbaxy-60w",
+      "path": "civ/chapters/04_ch04.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:34:50Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/04_ch04.md:865f286e:linear/if-clause-echo",
+      "path": "civ/chapters/04_ch04.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:34:14Z"
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:f5a8ac8c:grammar-linear/fragment-habits",
+      "path": "civ/chapters/04_ch04.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:21:09Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/05_ch05.md:85685989:linear/if-clause-37w",
+      "path": "civ/chapters/05_ch05.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:39:05Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/05_ch05.md:4a24efc7:linear/split-66w",
+      "path": "civ/chapters/05_ch05.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:36:20Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/05_ch05.md:314ea358:linear/split-77w",
+      "path": "civ/chapters/05_ch05.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:36:09Z"
+    },
+    {
+      "id": "call:civ/chapters/05_ch05.md:4c92e8cf:style/heading-versus",
+      "path": "civ/chapters/05_ch05.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:22:33Z"
+    },
+    {
+      "id": "call:civ/chapters/05_ch05.md:5e8cc044:style/heading-versus",
+      "path": "civ/chapters/05_ch05.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:22:30Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/06_ch06.md:3cedd79b:linear/split-83w",
+      "path": "civ/chapters/06_ch06.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:40:01Z"
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:8d4c8a4e:rule/algebraic-time-ab",
+      "path": "civ/chapters/06_ch06.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:22:48Z"
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:2a1d685c:style/heading-versus",
+      "path": "civ/chapters/06_ch06.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:22:35Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/06_ch06.md:2bc71b87:linear/appositive-60w",
+      "path": "civ/chapters/06_ch06.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:39:49Z"
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:1027de36:phonetics/single-shingle",
+      "path": "civ/chapters/06_ch06.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:39:41Z"
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:04d9e0e5:phonetics/single-shingle",
+      "path": "civ/chapters/06_ch06.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:39:38Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/06_ch06.md:ed437505:linear/verb-late-45w",
+      "path": "civ/chapters/06_ch06.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:39:31Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/07_ch07.md:aca07252:linear/subject-26w-paren",
+      "path": "civ/chapters/07_ch07.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:41:43Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/07_ch07.md:4c2f15fb:linear/pronoun-three-its",
+      "path": "civ/chapters/07_ch07.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:41:31Z"
+    },
+    {
+      "id": "call:civ/chapters/07_ch07.md:a07e4c68:style/heading-versus",
+      "path": "civ/chapters/07_ch07.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:23:11Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/07_ch07.md:e2b20f74:linear/nesting-6deep",
+      "path": "civ/chapters/07_ch07.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:41:14Z"
+    },
+    {
+      "id": "call:civ/chapters/07_ch07.md:725b5c7d:style/heading-versus",
+      "path": "civ/chapters/07_ch07.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:23:10Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/07_ch07.md:cc350a50:linear/split-71w",
+      "path": "civ/chapters/07_ch07.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:40:56Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/07_ch07.md:61ca92f9:linear/pronoun-two-its",
+      "path": "civ/chapters/07_ch07.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:40:14Z"
+    },
+    {
+      "id": "call:civ/chapters/07_ch07.md:c14c2c2e:style/heading-versus",
+      "path": "civ/chapters/07_ch07.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:23:09Z"
+    },
+    {
+      "id": "call:civ/chapters/07_ch07.md:c0873d27:spelling-register/grey-breakroom",
+      "path": "civ/chapters/07_ch07.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:23:05Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/08_ch08.md:e5fddf3f:linear/verb-late-34w",
+      "path": "civ/chapters/08_ch08.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:45:01Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/08_ch08.md:777aa930:linear-phonetics/split-85w",
+      "path": "civ/chapters/08_ch08.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:44:35Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/08_ch08.md:6643e1c5:linear-phonetics/four-ly-58w",
+      "path": "civ/chapters/08_ch08.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:44:26Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/08_ch08.md:004fb5ab:linear/split-68w-paren",
+      "path": "civ/chapters/08_ch08.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:42:41Z"
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:ea1e72b3:register/fraudster",
+      "path": "civ/chapters/08_ch08.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:23:12Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/08_ch08.md:fb08599f:linear/split-56w",
+      "path": "civ/chapters/08_ch08.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:41:56Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/09_ch09.md:43eca2f9:linear-phonetics/it-chain-tion",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T17:12:54Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/09_ch09.md:79190e10:linear/split-66w-pronoun",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:49:14Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:ae8dfbbf:rule/algebraic-clan-ab",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:24:59Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:3ab0a2fa:register/fraudster",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:24:31Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/09_ch09.md:6d49671c:linear/subject-25w-paren",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:48:52Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/09_ch09.md:ac86ca9a:linear/verb-late-45w",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:48:34Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:22811b7f:register/fraudster",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:24:30Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:f7c73046:precision-linear/soviet-deng-dates",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:24:24Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/09_ch09.md:e4610a35:linear/split-73w-it",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:48:17Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:7cc6e2b2:register-phonetics/unsurprisingly-ly",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:23:20Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/09_ch09.md:86936230:linear/cause-first-5deep",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:46:19Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:54df0fcb:register/rulebook",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:23:16Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/09_ch09.md:bbeb9dce:linear/subject-26w",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:46:19Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/09_ch09.md:300901b5:linear/verb-late-26w",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:45:37Z"
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:9fa78706:phonetics-linear/six-tion-51w",
+      "path": "civ/chapters/10_ch10.md",
+      "ok": true,
+      "decision_at": "2026-11-22T17:16:11Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/10_ch10.md:39ac4307:linear-phonetics/72w-maintains-mains",
+      "path": "civ/chapters/10_ch10.md",
+      "ok": true,
+      "decision_at": "2026-11-22T17:15:25Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/10_ch10.md:a387a0a6:linear/verb-late-41w",
+      "path": "civ/chapters/10_ch10.md",
+      "ok": true,
+      "decision_at": "2026-11-22T17:15:25Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/10_ch10.md:1d4b37cb:linear/split-pronoun-it",
+      "path": "civ/chapters/10_ch10.md",
+      "ok": true,
+      "decision_at": "2026-11-22T17:15:04Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/10_ch10.md:21778e99:linear/verb-late-32w",
+      "path": "civ/chapters/10_ch10.md",
+      "ok": true,
+      "decision_at": "2026-11-22T17:14:23Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/10_ch10.md:40a0aa39:linear/verb-late-51w",
+      "path": "civ/chapters/10_ch10.md",
+      "ok": true,
+      "decision_at": "2026-11-22T17:13:52Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/10_ch10.md:8bdc08f3:linear/verb-late-scene",
+      "path": "civ/chapters/10_ch10.md",
+      "ok": true,
+      "decision_at": "2026-11-22T17:13:22Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/11_ch11.md:1d6bd04d:linear/split-64w",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-22T17:43:07Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/11_ch11.md:48a7c353:linear-phonetics/release-cease",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-22T17:38:39Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/11_ch11.md:c8eebc13:linear/concession-split",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-22T17:36:58Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/11_ch11.md:8fd6bfe1:linear/name-it-they",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-22T17:36:32Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/11_ch11.md:aa21d1af:linear/active-split-59w",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-22T17:16:23Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:9abee3c0:register/effort-free",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:25:17Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:4efa6505:register/conservative-sounding",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:25:50Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:287aa1e9:register/outcome-leveling",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:25:44Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/12_ch12.md:b3d02447:linear/verb-late-71w",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:09:24Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:72799513:register/standalone",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:25:25Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/12_ch12.md:61abc6f7:linear/split-58w",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:09:10Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/12_ch12.md:c32a79fc:linear/split-84w",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:08:55Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/12_ch12.md:151ba1de:linear-phonetics/117w-longest",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:08:52Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/12_ch12.md:a4617cde:linear/split-85w",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:08:36Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/12_ch12.md:697a4917:linear/split-88w",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T17:50:11Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:73de0d25:register/outcome-leveling",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:25:17Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/13_ch13.md:4b9ac2be:linear/split-70w",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:10:32Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/13_ch13.md:253cbe2b:linear/active-split-58w",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:10:18Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/13_ch13.md:3fe36bc0:linear/split-78w",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:10:01Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/13_ch13.md:f6addd7b:linear/verb-late-62w",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:09:56Z"
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:ccf84abf:register/counterproductive",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:25:58Z"
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:9a86d0a0:register-linear/headcount",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:25:56Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/13_ch13.md:1fc6ef0a:linear/split-81w",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:09:30Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/13_ch13.md:635e416a:linear/verb-late-39w",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:09:24Z"
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:5193485b:register/disorder-ridden",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:25:53Z"
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:f041c83b:register-linear/workspace-split",
+      "path": "civ/chapters/14_ch14.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:26:03Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/14_ch14.md:479d6e85:linear/split-56w",
+      "path": "civ/chapters/14_ch14.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:11:12Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/14_ch14.md:14916188:linear/split-70w",
+      "path": "civ/chapters/14_ch14.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:11:08Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/14_ch14.md:7b50893c:linear/pronoun-two-its",
+      "path": "civ/chapters/14_ch14.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:10:53Z"
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:b032e542:register/fraudster",
+      "path": "civ/chapters/14_ch14.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:26:02Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/14_ch14.md:800c9261:linear-phonetics/if-clause-62w",
+      "path": "civ/chapters/14_ch14.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:10:47Z"
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:4b082eb1:register/hyperinflates",
+      "path": "civ/chapters/14_ch14.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:26:00Z"
+    }
+  ]
+}

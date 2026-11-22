@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "responds_to": [
+    "civ/linear:civ/chapters/03_ch03.md:7d97600d:linear-phonetics/colon-submit-admit",
+    "civ/linear:civ/chapters/12_ch12.md:73a0177c:linear/split-90w"
+  ],
+  "applied": [
+    {
+      "id": "civ/linear:civ/chapters/03_ch03.md:7d97600d:linear-phonetics/colon-submit-admit",
+      "path": "civ/chapters/03_ch03.md",
+      "ok": true,
+      "decision_at": "2026-11-22T15:33:45Z"
+    },
+    {
+      "id": "civ/linear:civ/chapters/12_ch12.md:73a0177c:linear/split-90w",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-22T18:08:23Z"
+    }
+  ]
+}
