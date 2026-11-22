@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/02_ch02.md:c5485325:prop/silver-bridge-wording",
+    "call:civ/chapters/03_ch03.md:969458e3:prop/admit-error-real",
+    "call:civ/chapters/08_ch08.md:2fc4dfe7:prop/orchard-history",
+    "call:civ/chapters/10_ch10.md:f682b2e1:prop/callback-ch08-plymouth"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/chapters/02_ch02.md:c5485325:prop/silver-bridge-wording",
+      "path": "civ/chapters/02_ch02.md",
+      "ok": true,
+      "decision_at": "2026-11-22T14:02:40Z"
+    },
+    {
+      "id": "call:civ/chapters/03_ch03.md:969458e3:prop/admit-error-real",
+      "path": "civ/chapters/03_ch03.md",
+      "ok": true,
+      "decision_at": "2026-11-22T14:06:01Z"
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:2fc4dfe7:prop/orchard-history",
+      "path": "civ/chapters/08_ch08.md",
+      "ok": true,
+      "decision_at": "2026-11-22T14:07:40Z"
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:f682b2e1:prop/callback-ch08-plymouth",
+      "path": "civ/chapters/10_ch10.md",
+      "ok": true,
+      "decision_at": "2026-11-22T14:08:04Z"
+    }
+  ]
+}

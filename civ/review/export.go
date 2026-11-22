@@ -11,6 +11,7 @@ type ExportEntry struct {
 	ID                string      `json:"id"`
 	Path              string      `json:"path"`
 	Kind              string      `json:"kind,omitempty"`
+	From              string      `json:"from,omitempty"`
 	Rule              string      `json:"rule,omitempty"`
 	Locked            bool        `json:"locked,omitempty"`
 	Problem           string      `json:"problem,omitempty"`
@@ -82,6 +83,7 @@ func (s *Session) BuildExport() ExportPayload {
 			ID:          it.ID,
 			Path:        it.Path,
 			Kind:        it.Kind,
+			From:        it.From,
 			Rule:        it.Rule,
 			Locked:      it.Locked,
 			Problem:     it.Problem,
@@ -138,7 +140,12 @@ func (s *Session) BatchMarkdown() string {
 	b.WriteString("Use `civ/bin/review apply` for clean verbatim items marked `auto_apply: yes`. ")
 	b.WriteString("For remaining Apply items (noted, reaffirmed, stale, locked, or overlapping), match using `before`/`after` context when provided and report any miss in a response packet without forcing the edit. ")
 	b.WriteString("Do not edit Closed items. Answer each Hold in a new packet via `civ/bin/review add`. ")
-	b.WriteString("Do not edit decisions.json. Do not run civ/build.fish.\n\n")
+	b.WriteString("Do not edit decisions.json. Do not run civ/build.fish. ")
+	b.WriteString("Each item has a `from`, the model or agent that wrote the suggestion (argon, cabon, grok-4.7, opus-5.5, and the same kind of name). ")
+	b.WriteString("Leave an alternate's `from` blank when that same agent wrote it; the item `from` then applies. ")
+	b.WriteString("Set an alternate's `from` only when a different agent adds that alternate. ")
+	b.WriteString("On a refresh, repeat the item `from` and any alternate `from` already set. ")
+	b.WriteString("To vote against the whole suggestion, add one alternate with `ignore` true and a `reason`, and set `from` when that agent is not the item's. Do not put a replacement in that alternate.\n\n")
 
 	fmt.Fprintf(&b, "Counts: %d open, %d to apply, %d to answer (%d already answered), %d closed, %d already applied, %d stale.\n\n",
 		p.Counts.Open, len(p.Apply), len(p.Answer), p.Counts.Answered, len(p.Closed), len(p.Applied), p.Counts.Stale)
@@ -158,6 +165,9 @@ func writeExportSection(b *strings.Builder, title string, items []ExportEntry, w
 	for _, it := range items {
 		fmt.Fprintf(b, "### %s\n\n", it.ID)
 		fmt.Fprintf(b, "path: %s\n\n", it.Path)
+		if it.From != "" {
+			fmt.Fprintf(b, "from: %s\n\n", it.From)
+		}
 		fmt.Fprintf(b, "match: %s\n\n", exportMatchLine(it))
 		fmt.Fprintf(b, "disposition: %s\n\n", it.Disposition)
 		if it.Rule != "" {
@@ -204,6 +214,17 @@ func writeExportSection(b *strings.Builder, title string, items []ExportEntry, w
 				lbl := a.ID
 				if a.Label != "" {
 					lbl += " (" + a.Label + ")"
+				}
+				if a.From != "" {
+					lbl += " from " + a.From
+				}
+				if a.Ignore {
+					reason := a.Reason
+					if reason == "" {
+						reason = "(no reason)"
+					}
+					fmt.Fprintf(b, "- **%s:** ignore: %s\n", lbl, reason)
+					continue
 				}
 				fmt.Fprintf(b, "- **%s:** %s\n", lbl, a.Text)
 			}

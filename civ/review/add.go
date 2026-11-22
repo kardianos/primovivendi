@@ -76,6 +76,7 @@ func AddPacket(root, packetsDir string, raw []byte, opts AddOptions) (AddResult,
 		if it.Quote == "" {
 			return AddResult{}, fmt.Errorf("item %s: missing quote", it.ID)
 		}
+		normalizeFrom(it)
 		b, err := loadFile(rel)
 		if err != nil {
 			return AddResult{}, fmt.Errorf("item %s: %w", it.ID, err)
@@ -123,6 +124,19 @@ func AddPacket(root, packetsDir string, raw []byte, opts AddOptions) (AddResult,
 		Applied:    len(pkt.Applied),
 		Hits:       hits,
 	}, nil
+}
+
+// normalizeFrom trims from names and reasons. An alternate from that matches
+// the item from is cleared, so a blank alternate from means the item from.
+func normalizeFrom(it *Item) {
+	it.From = strings.TrimSpace(it.From)
+	for i := range it.Alternates {
+		it.Alternates[i].From = strings.TrimSpace(it.Alternates[i].From)
+		it.Alternates[i].Reason = strings.TrimSpace(it.Alternates[i].Reason)
+		if it.Alternates[i].From == it.From {
+			it.Alternates[i].From = ""
+		}
+	}
 }
 
 // FormatAddResult prints a concise summary for `review add`.

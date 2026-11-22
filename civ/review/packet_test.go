@@ -117,7 +117,7 @@ func TestBatchSections(t *testing.T) {
 			{ID: "acc", Path: "a.md", Quote: "old", Before: "\n\n", After: " ", Problem: "p1", Rule: "r1", Alternates: []Alternate{{ID: "a", Text: "new"}}},
 			{ID: "done", Path: "a.md", Quote: "qdone", Alternates: []Alternate{{ID: "a", Text: "replaced"}}},
 			{ID: "rev", Path: "a.md", Quote: "q2"},
-			{ID: "hold", Path: "a.md", Quote: "q3", Problem: "why this claim?", Rule: "call/claim", Alternates: []Alternate{{ID: "a", Label: "shorter", Text: "alt3"}}},
+			{ID: "hold", Path: "a.md", Quote: "q3", From: "grok-4.7", Problem: "why this claim?", Rule: "call/claim", Alternates: []Alternate{{ID: "a", Label: "shorter", Text: "alt3"}, {ID: "b", Label: "other", From: "opus-5.5", Text: "altb"}, {ID: "no", From: "cabon", Ignore: true, Reason: "this was actually good"}}},
 			{ID: "rej", Path: "a.md", Quote: "q4", Rule: "r4"},
 			{ID: "open", Path: "a.md", Quote: "q5"},
 		},
@@ -153,7 +153,7 @@ func TestBatchSections(t *testing.T) {
 	if strings.Contains(apply, "### rej") || strings.Contains(apply, "### hold") {
 		t.Fatalf("Apply has a closed or held item\n%s", apply)
 	}
-	for _, want := range []string{"### hold", "research", "look up", "why this claim?", "call/claim", "alt3", "prior note"} {
+	for _, want := range []string{"### hold", "research", "look up", "why this claim?", "call/claim", "alt3", "prior note", "from: grok-4.7", "b (other) from opus-5.5", "no from cabon:** ignore: this was actually good"} {
 		if !strings.Contains(answer, want) {
 			t.Fatalf("Answer missing %q:\n%s", want, answer)
 		}
@@ -180,6 +180,29 @@ func TestBatchSections(t *testing.T) {
 	}
 	if len(payload.Apply) != 2 || len(payload.Answer) != 1 || len(payload.Closed) != 1 || len(payload.Applied) != 1 {
 		t.Fatalf("unexpected export json counts: %+v", payload)
+	}
+	hold := payload.Answer[0]
+	if hold.From != "grok-4.7" || hold.Alternates[1].From != "opus-5.5" || hold.Alternates[0].From != "" {
+		t.Fatalf("from not exported: %+v", hold)
+	}
+	if !hold.Alternates[2].Ignore || hold.Alternates[2].Reason != "this was actually good" || hold.Alternates[2].From != "cabon" {
+		t.Fatalf("ignore alternate not exported: %+v", hold.Alternates[2])
+	}
+}
+
+func TestSuggestionFrom(t *testing.T) {
+	it := Item{From: "grok-4.7", Alternates: []Alternate{
+		{ID: "a", Label: "shorter"},
+		{ID: "b", Label: "other", From: "opus-5.5"},
+	}}
+	if got := SuggestionFrom(it, it.Alternates[0]); got != "grok-4.7" {
+		t.Fatalf("blank alt from: %q", got)
+	}
+	if got := SuggestionFrom(it, it.Alternates[1]); got != "opus-5.5" {
+		t.Fatalf("alt from: %q", got)
+	}
+	if got := SuggestionFrom(Item{}, Alternate{}); got != "" {
+		t.Fatalf("empty from: %q", got)
 	}
 }
 
@@ -220,6 +243,13 @@ func TestSamplePacket(t *testing.T) {
 			}
 		}
 	}
+	fire := sess.Items[indexItem(t, sess, "fixture:fire-rewrite")]
+	if fire.From != "grok-4.7" || SuggestionFrom(fire, fire.Alternates[0]) != "grok-4.7" || fire.Alternates[1].From != "opus-5.5" {
+		t.Fatalf("sample from: %+v", fire)
+	}
+	if !fire.Alternates[2].Ignore || fire.Alternates[2].Reason != "this was actually good" || SuggestionFrom(fire, fire.Alternates[2]) != "cabon" {
+		t.Fatalf("sample ignore: %+v", fire.Alternates[2])
+	}
 	amb := sess.Hits["fixture:ambiguous-household"]
 	if len(amb.Candidates) != 2 || amb.Candidates[0] != 0 || amb.Candidates[1] != 200 {
 		t.Fatalf("ambiguous candidates %+v", amb)
@@ -228,6 +258,38 @@ func TestSamplePacket(t *testing.T) {
 	if !CanAccept(off, false) || CanAccept(amb, false) || CanAccept(sess.Hits["fixture:missing"], false) {
 		t.Fatal("accept rules")
 	}
+}
+
+func TestIgnoreAcceptIsNotApplied(t *testing.T) {
+	s := &Session{
+		Items: []Item{{
+			ID: "n", Path: "a.md", Quote: "old", From: "grok-4.7",
+			Alternates: []Alternate{{ID: "no", From: "cabon", Ignore: true, Reason: "this was actually good"}},
+		}},
+		Hits:    map[string]Hit{"n": {Status: StatusOffset, Offset: 0, End: 3}},
+		Applied: map[string]bool{},
+		Decisions: DecisionFile{Items: map[string]Decision{
+			"n": {Disposition: "accept", Alternate: "no", AcceptedText: "this was actually good"},
+		}},
+	}
+	if Replacement(s.Items[0], s.Decisions.Items["n"]) != "" {
+		t.Fatal("an ignore vote must not become a replacement")
+	}
+	plan := s.PlanApply(ApplyOptions{})
+	if len(plan.Ready) != 0 || len(plan.Skipped) != 1 || !strings.Contains(plan.Skipped[0].Reason, "ignore") {
+		t.Fatalf("%+v", plan)
+	}
+}
+
+func indexItem(t *testing.T, s *Session, id string) int {
+	t.Helper()
+	for i := range s.Items {
+		if s.Items[i].ID == id {
+			return i
+		}
+	}
+	t.Fatalf("missing item %s", id)
+	return 0
 }
 
 func section(md, title string) string {

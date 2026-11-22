@@ -1,0 +1,280 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/chapters/02_ch02.md:c5485325:prop/silver-bridge-wording",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "call",
+      "path": "civ/chapters/02_ch02.md",
+      "byte_offset": 17585,
+      "byte_end": 18053,
+      "quote": "In December 1967, the Silver Bridge over the Ohio River collapsed during rush hour and killed forty-six people because a hidden tenth-of-an-inch stress-corrosion crack had grown inside the pin hole of a single suspension eyebar (NTSB Highway Accident Report HAR-71/01). The calculation did not show that hidden flaw; physical inspection and testing are what catch it. A model is justified when it has survived contact with the world, not when the deduction is elegant.",
+      "problem": "Follow-up on author note for eddaa5e1 (Silver Bridge): clarify the closing sentence ('deduction is elegant') to explicitly name the model's calculations on paper. Also verified against the downloaded primary report ext-ref/ntsb/HAR7101.pdf: p. 32 gives the crack radius as 'about 1/8-inch' (0.125 in.) and p. 126 notes it could not be detected visually without disassembling the joint.",
+      "rule": "prop/silver-bridge-wording",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "explicit on calculations + exact HAR-71/01 details",
+          "text": "In December 1967, the Silver Bridge over the Ohio River collapsed during rush hour and killed forty-six people because a hidden eighth-of-an-inch stress-corrosion crack had grown inside the pin hole of a single suspension eyebar (NTSB Highway Accident Report HAR-71/01). The design calculation did not show that hidden flaw, and visual inspection alone could not see inside the assembled joint; only physical testing and inspection of the actual member reveal what is really there. A model is justified when it has survived contact with the world, not merely when its calculations are consistent on paper."
+        },
+        {
+          "id": "b",
+          "label": "tighten closing sentence only",
+          "text": "In December 1967, the Silver Bridge over the Ohio River collapsed during rush hour and killed forty-six people because a hidden tenth-of-an-inch stress-corrosion crack had grown inside the pin hole of a single suspension eyebar (NTSB Highway Accident Report HAR-71/01). The calculation did not show that hidden flaw; physical inspection and testing are what catch it. A model is justified when it has survived contact with the world, not when its calculations hold together on paper."
+        },
+        {
+          "id": "keep",
+          "ignore": true,
+          "reason": "Keep accepted Silver Bridge wording as-is."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/02_ch02.md:a676ed11:prop/boiled-water-source",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/02_ch02.md",
+      "byte_offset": 19938,
+      "byte_end": 21181,
+      "quote": "In a river town five hundred years ago, every household boils its well water each morning with a pinch of dried bitter herb, explaining to its children that the bitter smell drives away river ghosts that cause summer fever. The households that keep the custom stay well through August, while travelers who drink straight from the well fall sick.\n\nDid the practice work? Yes: boiling killed the waterborne bacteria before anyone drank them. Does the healthy town prove that river ghosts flee from bitter herbs? No. A foolish modern reformer who visits the town, proves that river ghosts do not exist, and therefore tells the families to stop boiling their water will bring summer fever back within a season. An equally foolish traditionalist who insists that because the town stayed healthy, every word of the ghost account is literal truth prevents the town from ever learning bacteriology. The boiling was justified by the health of the town; the ghost account was not. Later testing justified a different explanation: heat destroys microscopic pathogens in contaminated water, with or without the herb. **Reality judges consequences and practices directly; the explanation attached to a working practice must be tested on its own evidence.**",
+      "problem": "Follow-up on author note for d3dd0e64 ('Do source with more exact reference'): the river-town passage as written is a hypothetical illustration rather than a single named town. Real historical parallels exist in Qing China's custom of drinking boiled water and tea (explained via damp-heat and yin-yang balance; see Wang Shixiong, Huoluan Lun, 1838) and in eighteenth-century England's spread of tea drinking, which cut mortality in parishes with poor water quality long before Robert Koch isolated Vibrio cholerae in 1883 (Francisca Antman, Review of Economics and Statistics, 2023). Note: Antman 2023 / Wang 1838 are not yet stored as local copies in ext-ref/.",
+      "rule": "prop/boiled-water-source",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "keep river town + add historical tea-boiling paragraph",
+          "text": "In a river town five hundred years ago, every household boils its well water each morning with a pinch of dried bitter herb, explaining to its children that the bitter smell drives away river ghosts that cause summer fever. The households that keep the custom stay well through August, while travelers who drink straight from the well fall sick.\n\nDid the practice work? Yes: boiling killed the waterborne bacteria before anyone drank them. Does the healthy town prove that river ghosts flee from bitter herbs? No. A foolish modern reformer who visits the town, proves that river ghosts do not exist, and therefore tells the families to stop boiling their water will bring summer fever back within a season. An equally foolish traditionalist who insists that because the town stayed healthy, every word of the ghost account is literal truth prevents the town from ever learning bacteriology. The boiling was justified by the health of the town; the ghost account was not. Later testing justified a different explanation: heat destroys microscopic pathogens in contaminated water, with or without the herb. **Reality judges consequences and practices directly; the explanation attached to a working practice must be tested on its own evidence.**\n\nHistory supplies the same pattern directly. In Qing China and in eighteenth-century England, communities that boiled water to brew tea suffered markedly fewer deaths from cholera and other waterborne fevers long before Robert Koch identified the cholera bacillus in 1883, even though traditional Chinese physicians attributed the danger of raw water to internal cold and dampness rather than bacteria (Wang Shixiong, *Huoluan Lun*, 1838; Francisca Antman, *Review of Economics and Statistics*, 2023). The boiling worked before anyone knew bacteriology; later testing separated the true physical cause from the earlier explanation."
+        },
+        {
+          "id": "b",
+          "label": "replace hypothetical with Qing \u0026 English tea-boiling history",
+          "text": "For centuries in southern China, households kept the custom of boiling their drinking water to steep bitter tea leaves rather than drinking raw well or canal water, explaining through traditional medical theory that raw water carried cold and dampness that disrupted the stomach. During nineteenth-century cholera outbreaks, observers noted that communities keeping the boiled-water custom fared far better than populations drinking unboiled water, and a statistical study of eighteenth-century English parishes found the same drop in mortality where tea drinking spread across areas with poor water quality (Francisca Antman, *Review of Economics and Statistics*, 2023).\n\nDid the practice work? Yes: boiling killed the waterborne bacteria before anyone drank them. Does the lower death rate prove that raw water damages the body through cold and dampness? No. A foolish modern reformer who disproves the traditional balance theory and therefore tells households to stop boiling their water will bring cholera and dysentery back within a season. An equally foolish traditionalist who insists that because the custom saved lives, every word of the pre-modern explanation is literal truth prevents medicine from ever learning bacteriology. The boiling was justified by the lower death rate; the balance theory was not. Later testing, culminating in Robert Koch's isolation of the cholera bacillus in 1883, justified a different explanation: heat destroys microscopic pathogens in contaminated water, with or without the tea leaves. **Reality judges consequences and practices directly; the explanation attached to a working practice must be tested on its own evidence.**"
+        },
+        {
+          "id": "keep",
+          "ignore": true,
+          "reason": "Keep the river-town hypothetical as written."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/03_ch03.md:969458e3:prop/admit-error-real",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "call",
+      "path": "civ/chapters/03_ch03.md",
+      "byte_offset": 17264,
+      "byte_end": 17878,
+      "quote": "At the same time, the person who is trying to align with truth faces an inherent limitation. Even when we are completely honest, we do not know everything. Our instruments have tolerances, our observations can miss a hidden crack, and our preferred mental models can be incomplete. When the check shows that our prediction was wrong, when a foundation settles, the business loses money, or the experiment fails, we face a choice: we can protect our pride by hiding the failure and rewriting what we claimed, or we can submit to the evidence, admit the error openly to the people it affected, and correct our model.",
+      "problem": "Follow-up on author note for 9c798e77 ('Foundation is a fine swap. Look into real life account as well.'): structural engineer William LeMessurier's 1978 Citicorp Center crisis is the classic civil-engineering case of discovering a hidden design-and-construction flaw and reporting it immediately to the owners and city officials rather than protecting pride. Caveat: LeMessurier, Citicorp, and city officials kept the nighttime welding out of newspapers during the 1978 New York newspaper strike while briefing owners, city building officials, and the Red Cross, so the text avoids overclaiming 'public' disclosure and states accurately to whom he reported. Primary ASCE/Morgenstern text not yet stored in ext-ref/.",
+      "rule": "prop/admit-error-real",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "keep foundation sentence + add Citicorp Center 1978",
+          "text": "At the same time, the person who is trying to align with truth faces an inherent limitation. Even when we are completely honest, we do not know everything. Our instruments have tolerances, our observations can miss a hidden crack, and our preferred mental models can be incomplete. When the check shows that our prediction was wrong, when a foundation settles, the business loses money, or the experiment fails, we face a choice: we can protect our pride by hiding the failure and rewriting what we claimed, or we can submit to the evidence, admit the error openly to the people it affected, and correct our model.\n\nIn June 1978, a year after Manhattan's fifty-nine-story Citicorp Center opened, structural engineer William LeMessurier recalculated diagonal wind loads after an engineering student questioned his brace design. He discovered that bolted joints approved by his office during construction in place of welded joints left the tower vulnerable to failure in a severe storm. Rather than conceal the defect to protect his reputation, LeMessurier reported the calculation at once to Citicorp executives, city building officials, and emergency planners, and welders worked nightly to weld two-inch steel plates over more than two hundred joints before hurricane season arrived."
+        },
+        {
+          "id": "b",
+          "label": "integrate Citicorp Center directly into paragraph",
+          "text": "At the same time, the person who is trying to align with truth faces an inherent limitation. Even when we are completely honest, we do not know everything. Our instruments have tolerances, our observations can miss a hidden crack, and our preferred mental models can be incomplete. When a check shows that our prediction was wrong, we face a choice: we can protect our pride by hiding the failure, or we can submit to the evidence, report the error to the people it affects, and correct the structure. In 1978, a year after Manhattan's fifty-nine-story Citicorp Center opened, structural engineer William LeMessurier recalculated diagonal wind loads after a student's question and discovered that bolted joints substituted during construction left the tower vulnerable to a severe storm. He reported the defect immediately to Citicorp executives and city building officials, and crews welded steel plates over more than two hundred joints at night before hurricane season arrived."
+        },
+        {
+          "id": "keep",
+          "ignore": true,
+          "reason": "Keep the concise foundation-settles wording without a historical case study."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:2fc4dfe7:prop/orchard-history",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/08_ch08.md",
+      "byte_offset": 6394,
+      "byte_end": 8945,
+      "quote": "#### The Family Orchard: How Tiered Priority Builds Durable Capital\n\nThe work of a single family over one year illustrates how self-anchored, tiered priority builds durable goods across generations, and why atomized egalitarian theories misread how wealth and safety come into existence:\n\n\u003e **The Family Orchard:** Behind a family's house lie five acres of rocky, bramble-choked hillside. Their eight-year-old son is growing old enough to work beside them, and the parents want him to have land he can tend, learn practical stewardship on, and share with his friends.\n\u003e\n\u003e Nobody orders the parents to do what they do next. Every Saturday and evening after work for six months, devoting hundreds of hours of their finite lives, the father and mother take saws, mattocks, and wheelbarrows onto the slope. They clear invasive thorns, haul fieldstone into dry-laid retaining walls, dig deep planting holes, and set and graft forty apple and walnut trees.\n\u003e\n\u003e At the end of six months, a terraced orchard stands where only impassable brambles stood before. The boy tends the young trees every afternoon; the cleared hillside reduces brush-fire and runoff hazards for the adjoining neighbors; and the orchard will still yield fruit and timber for the boy's own children thirty years from now.\n\u003e\n\u003e Now invite a \"Lottery of Birth\" egalitarian theorist to walk down the road and see that boy harvesting apples from the slope. Because the egalitarian views every human being as an isolated, detachable individual who arrived from nowhere, he sees only a disparity: this boy has a bearing orchard behind his house, and a boy in the next town does not. The boy did nothing to earn it, the theorist concludes, so it is arbitrary luck, and the public authority should confiscate the orchard or tax away its value until both boys have identical outcomes.\n\u003e\n\u003e The egalitarian's atomized perspective omitted the essential fact: it omitted the four hundred hours of labor, sacrifice, and affection that the boy's mother and father invested in that hillside specifically because the boy was *their* child. The family is not a random collection of strangers who happened to win a raffle; the family is an intergenerational building unit bound by mutual obligation. If parents across a nation are told that nothing they build may be kept for their own children, and that whatever their labor builds will be seized and divided equally among strangers, the four hundred hours are never worked, the brush is never cleared, the trees are never planted, and everyone is poorer.",
+      "problem": "Follow-up on author note for 5aba1206 ('I'd also love to see an approach that referenced referenceable history'): William Bradford's Of Plymouth Plantation (1623, Book II) is now downloaded and verified at ext-ref/bradford/bradford_1908_davis.txt (pp. 146-147). Alternate (a) keeps The Family Orchard intact (preserving the Ch 10 callback) and appends Bradford's 1623 record right beneath it; alternate (b) replaces The Family Orchard with Plymouth Colony 1623 (pair with the matching Ch 10 callback item if chosen).",
+      "rule": "prop/orchard-history",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "keep Family Orchard + add verified Plymouth 1623 confirmation",
+          "text": "#### The Family Orchard: How Tiered Priority Builds Durable Capital\n\nThe work of a single family over one year illustrates how self-anchored, tiered priority builds durable goods across generations, and why atomized egalitarian theories misread how wealth and safety come into existence:\n\n\u003e **The Family Orchard:** Behind a family's house lie five acres of rocky, bramble-choked hillside. Their eight-year-old son is growing old enough to work beside them, and the parents want him to have land he can tend, learn practical stewardship on, and share with his friends.\n\u003e\n\u003e Nobody orders the parents to do what they do next. Every Saturday and evening after work for six months, devoting hundreds of hours of their finite lives, the father and mother take saws, mattocks, and wheelbarrows onto the slope. They clear invasive thorns, haul fieldstone into dry-laid retaining walls, dig deep planting holes, and set and graft forty apple and walnut trees.\n\u003e\n\u003e At the end of six months, a terraced orchard stands where only impassable brambles stood before. The boy tends the young trees every afternoon; the cleared hillside reduces brush-fire and runoff hazards for the adjoining neighbors; and the orchard will still yield fruit and timber for the boy's own children thirty years from now.\n\u003e\n\u003e Now invite a \"Lottery of Birth\" egalitarian theorist to walk down the road and see that boy harvesting apples from the slope. Because the egalitarian views every human being as an isolated, detachable individual who arrived from nowhere, he sees only a disparity: this boy has a bearing orchard behind his house, and a boy in the next town does not. The boy did nothing to earn it, the theorist concludes, so it is arbitrary luck, and the public authority should confiscate the orchard or tax away its value until both boys have identical outcomes.\n\u003e\n\u003e The egalitarian's atomized perspective omitted the essential fact: it omitted the four hundred hours of labor, sacrifice, and affection that the boy's mother and father invested in that hillside specifically because the boy was *their* child. The family is not a random collection of strangers who happened to win a raffle; the family is an intergenerational building unit bound by mutual obligation. If parents across a nation are told that nothing they build may be kept for their own children, and that whatever their labor builds will be seized and divided equally among strangers, the four hundred hours are never worked, the brush is never cleared, the trees are never planted, and everyone is poorer.\n\nAmerican history tested this exact contrast at the founding of New England. For its first two years, Plymouth Colony farmed under a communal rule that pooled every harvest into a common store. In *Of Plymouth Plantation* (Anno 1623), Governor William Bradford recorded that able-bodied young men resented spending their strength to feed other men's wives and children without reward, and harvests fell short. In the spring of 1623, Bradford assigned each family its own parcel of land for its own household. Bradford wrote that this single change \"made all hands very industrious,\" brought mothers willingly into the fields with their children, yielded far more corn than any command of the governor had ever secured, and ended the colony's chronic hunger."
+        },
+        {
+          "id": "b",
+          "label": "replace with verified Plymouth Colony 1623 (Bradford)",
+          "text": "#### Plymouth Colony in 1623: How Tiered Priority Builds Durable Capital\n\nAn early American record illustrates how self-anchored, tiered priority builds durable wealth, and why atomized egalitarian theories misread how abundance comes into existence:\n\n\u003e **Plymouth's Household Plots (1623):** During its first two years, Plymouth Colony farmed under what Governor William Bradford called a \"common course and condition,\" pooling every harvest into a common store and feeding every person alike from it. The result was persistent shortage. In *Of Plymouth Plantation* (Anno 1623), Bradford recorded that able-bodied young men resented spending their strength to work for other men's wives and children without recompense, older men resented being leveled with youths, and women pleaded weakness to stay out of the fields.\n\u003e\n\u003e In the spring of 1623, facing hunger, Bradford and the colony's leaders abandoned the communal rule and assigned every family its own parcel of land so each household would plant corn for its own particular use. Output rose at once. Bradford wrote that the change \"made all hands very industrious,\" so that far more corn was planted than any command of the governor had ever produced, and mothers went willingly into the fields with their little ones. The colony never suffered the same communal famine again.\n\u003e\n\u003e An atomized egalitarian who inspects only the resulting harvests sees an unequal distribution among households and calls it arbitrary luck. That view omits the motive that cleared the soil and set the corn: parents labored beyond what any public official could compel because the harvest belonged to *their* household and *their* children. Tell families across a nation that whatever their labor builds will be pooled and divided equally among strangers, and the extra hours are never worked, the fields shrink, and everyone is poorer."
+        },
+        {
+          "id": "keep",
+          "ignore": true,
+          "reason": "Keep The Family Orchard as written."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:f682b2e1:prop/callback-ch08-plymouth",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "call",
+      "path": "civ/chapters/10_ch10.md",
+      "byte_offset": 5200,
+      "byte_end": 5511,
+      "quote": "In **The Family Orchard** of Chapter 8, the father and mother who spent six months clearing brambles and setting apple and walnut trees on the hillside did not experience those Saturdays as a penal sentence; building a world for their eight-year-old son gave their own strength and skill a clear, daily purpose.",
+      "problem": "Paired callback for Chapter 8 (prop/orchard-history). Accept alternate (a) ONLY if you choose alternate (b) (replacing The Family Orchard with Plymouth Colony 1623) in civ/chapters/08_ch08.md; otherwise choose Ignore to keep The Family Orchard callback.",
+      "rule": "prop/callback-ch08-plymouth",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "match Ch 8 alt b: Plymouth Colony 1623",
+          "text": "In **Plymouth Colony** of Chapter 8, the fathers and mothers who took their children into the fields once each household received its own parcel of land did not experience that labor as a penal sentence; building a livelihood for their own children gave their strength and skill a clear, daily purpose."
+        },
+        {
+          "id": "keep",
+          "ignore": true,
+          "reason": "Keep The Family Orchard callback (if Chapter 8 keeps The Family Orchard)."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:b9776fa2:prop/cistern-real-anchor",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "call",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 14419,
+      "byte_end": 14694,
+      "quote": "\u003e If the settlement unbolts the gate to five hundred strangers who never dug a channel and acknowledge no obligation to the settlement's rules, the cistern is drained in three weeks, the orchard trees wither, and both the settlers and the newcomers perish of thirst together.",
+      "problem": "Follow-up on author note for 2f046826 ('wondering if callbacks to actual successes or failures of this principle would add or detract from this'): Chapter 9 already follows immediately with Asymmetric Mobilization, Roman civic adoption, Conquest, Solon, Sparta, and Section 4's ECHR/US legal cases, so a long case study here would slow Section 1. Alternate (a) tests a tight three-sentence historical anchor (Torbel, Switzerland's 1483 alpine commons charter, documented by Elinor Ostrom in Governing the Commons, 1990; copy not yet in ext-ref/); choose Ignore if the Desert Cistern reads cleaner alone.",
+      "rule": "prop/cistern-real-anchor",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "add brief Torbel 1483 confirmation below cistern",
+          "text": "\u003e If the settlement unbolts the gate to five hundred strangers who never dug a channel and acknowledge no obligation to the settlement's rules, the cistern is drained in three weeks, the orchard trees wither, and both the settlers and the newcomers perish of thirst together.\n\nHistory confirms that durable shared reserves depend on enforced boundaries. In 1483, the alpine village of Torbel in Valais, Switzerland adopted a formal charter barring outsiders from acquiring rights to the common mountain pastures without the community's grant, paired with a wintering rule limiting each household's summer herd to the cows it could feed on its own winter hay. As economist Elinor Ostrom documented in *Governing the Commons* (1990), that bounded arrangement kept the village's pastures and irrigation channels productive for more than five centuries."
+        },
+        {
+          "id": "keep",
+          "ignore": true,
+          "reason": "Keep the Desert Cistern clean as written; Section 1 already carries real historical and legal material right below."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:71f5446f:prop/exam-real",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 22498,
+      "byte_end": 23803,
+      "quote": "A port authority administers the same **Harbor Pilot's Examination** on tides, shoals, and channel charts to a hundred candidates. Every candidate had access to the same charts, the same training cruises, and the same two hours in a quiet room. The examinations are graded anonymously by candidate number so the board cannot see any candidate's name, race, sex, or family background.\n\nOne candidate spent twelve hours a week all year studying currents and soundings and has a sharp grasp of seamanship; he scores **98 out of 100**. Another spent two hours a week studying and struggles to read a tidal chart; he scores **54 out of 100**.\n\n**The examination was not unjust because the two candidates received unequal scores.** The unequal outcome is the **truthful measurement** of different preparation and competence under an identical procedure.\n\nIf the port commissioner intervenes, declares the unequal scores proof of systemic injustice, discards the examination, and grants both men the same harbor pilot's license, two failures occur at once: first, the port confiscates the reward of diligent labor and teaches the next class of apprentices that study is pointless; second, **it falsifies reality** and puts an incompetent pilot onto the deck of a forty-thousand-ton ship entering a rocky channel.",
+      "problem": "Follow-up on author note for a8285261 (Harbor Pilot's Examination: add or replace with a real-life example): U.S. Supreme Court opinion Ricci v. DeStefano, 557 U.S. 557 (2009) is downloaded and verified at ext-ref/scotus/ricci_557us557.pdf (118 New Haven firefighters took objective lieutenant/captain promotion exams; Frank Ricci, who had dyslexia, spent over $1,000 for study materials on tape and studied 8 to 13 hours a day; city officials threw out the results because of unequal racial pass rates). Alternate (a) keeps Harbor Pilot's Exam and appends Ricci; (b) replaces it with Ricci; (c) replaces it with China's 1966-1977 gaokao abolition and restoration (Deng Xiaoping source not yet in ext-ref/). Note: Culver City High School's 2023 honors-class elimination is already cited later in Chapter 9 (line 251).",
+      "rule": "prop/exam-real",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "keep Harbor Pilot's Exam + add verified Ricci v. DeStefano (2009)",
+          "text": "A port authority administers the same **Harbor Pilot's Examination** on tides, shoals, and channel charts to a hundred candidates. Every candidate had access to the same charts, the same training cruises, and the same two hours in a quiet room. The examinations are graded anonymously by candidate number so the board cannot see any candidate's name, race, sex, or family background.\n\nOne candidate spent twelve hours a week all year studying currents and soundings and has a sharp grasp of seamanship; he scores **98 out of 100**. Another spent two hours a week studying and struggles to read a tidal chart; he scores **54 out of 100**.\n\n**The examination was not unjust because the two candidates received unequal scores.** The unequal outcome is the **truthful measurement** of different preparation and competence under an identical procedure.\n\nIf the port commissioner intervenes, declares the unequal scores proof of systemic injustice, discards the examination, and grants both men the same harbor pilot's license, two failures occur at once: first, the port confiscates the reward of diligent labor and teaches the next class of apprentices that study is pointless; second, **it falsifies reality** and puts an incompetent pilot onto the deck of a forty-thousand-ton ship entering a rocky channel.\n\nThat intervention is not merely hypothetical. In 2003, New Haven, Connecticut administered objective lieutenant and captain promotional examinations to 118 firefighters, including Frank Ricci, who had dyslexia, paid more than a thousand dollars to have the official manuals recorded on tape, and studied eight to thirteen hours a day. When the tabulated scores showed unequal pass rates across racial groups, city officials threw out the entire examination rather than certify the results, prompting the Supreme Court to rule in *Ricci v. DeStefano* (2009) that discarding a valid, job-related examination to alter group outcomes violated federal law."
+        },
+        {
+          "id": "b",
+          "label": "replace with verified Ricci v. DeStefano (2009)",
+          "text": "In 2003, the city of New Haven, Connecticut hired an outside firm to build objective promotional examinations for firefighter lieutenant and captain vacancies. Every one of the 118 candidates received the same three-month study period and the same list of fire-department manuals, and outside panels scored the oral tests by standardized checklists. One candidate, Frank Ricci, who had dyslexia, spent more than a thousand dollars to buy the study materials and pay a neighbor to read them onto tape, and studied eight to thirteen hours a day to prepare (*Ricci v. DeStefano*, 557 U.S. 557, 2009).\n\nWhen the results were tabulated, seventy-seven candidates had finished the lieutenant test and forty-one the captain test, and white candidates outperformed minority candidates on both. **The examinations were not unjust because candidates received unequal scores.** The unequal scores measured different preparation and mastery under an identical procedure.\n\nCity officials nevertheless refused to certify the results because of the racial disparity, discarding the examinations altogether until the United States Supreme Court intervened in 2009. Throwing out an objective professional examination because its results are unequal commits two failures at once: first, it confiscates the earned reward of diligent preparation and teaches the next class of firefighters that intense study is pointless; second, **it subordinates physical competence to statistical quotas** in an office where command decisions inside a burning building decide who lives and who dies."
+        },
+        {
+          "id": "c",
+          "label": "replace with 1966-1977 China gaokao (needs source copy)",
+          "text": "Modern history ran this experiment at the scale of an entire nation. At the start of China's Cultural Revolution in 1966, the government abolished the national university entrance examination (*gaokao*) on the ground that anonymous academic testing favored the privileged and produced unequal outcomes across social classes.\n\nWhen universities reopened between 1970 and 1976, admissions ran instead on political reliability and class-background recommendations for \"worker-peasant-soldier\" candidates rather than standardized tests of mathematics, physics, and literacy.\n\n**Abolishing the examination did not equalize technical competence.** It produced a lost decade in engineering, medicine, and scientific research while signaling to an entire generation of young people that disciplined study counted for less than political pedigree. After Mao Zedong's death, Deng Xiaoping led the restoration of the national merit examination in late 1977 because a country cannot run factories, hospitals, or electrical grids on certificates awarded by political category instead of demonstrated mastery."
+        },
+        {
+          "id": "keep",
+          "ignore": true,
+          "reason": "Keep the Harbor Pilot's Examination as written."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:561a100e:prop/compassion-real",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 12575,
+      "byte_end": 15166,
+      "quote": "#### The Hill Town Grain Storehouse and the Rats: Why False Compassion Harms the Weakest First\n\nEven when the person advocating \"compassion over rules\" is not a calculating Marcusean strategist, but merely a sentimental citizen who dislikes seeing anyone punished, the following case illustrates who actually bears the cost when a community adopts the Compassionate Delusion:\n\n\u003e **The Hill Town Grain Storehouse and the Rats:** In a stone town on a hill, fifty families store their winter barley in a row of bins inside the municipal storehouse. At one end of the building stand the thick, iron-lined stone bins of the wealthy grain merchant; at the other end stand the thin pine-plank bins of the elderly widows and day-laborers, holding just enough barley to keep them alive until April.\n\u003e\n\u003e In November, rats tunnel under the storehouse wall. The town watchman sets heavy iron traps along the floorboards. The next morning, a sentimental committee visits the storehouse, sees three dead rats in the traps, and protests that the creatures were merely hungry, that the traps are cruel, and that a compassionate town must prohibit all traps, poison, and terriers.\n\u003e\n\u003e The town council yields to the sentimentalists and prohibits all rat control. The sentimentalists congratulate themselves at every social gathering on their humanity.\n\u003e\n\u003e **In January, the condition of the storehouse reveals the consequence.** Prohibiting the traps did not stop the rats from feeding; it only decided whose barley they consumed. Their teeth could not penetrate the wealthy merchant's iron-lined stone bins, and even if he lost ten percent of his grain, his family still had ample food for the winter. Instead, the rats gnawed straight through the thin pine boards of the poor widows' and laborers' bins, consumed their winter grain, and fouled what remained.\n\u003e\n\u003e By February, the poor widows are starving in the cold, while the sentimentalists who prohibited the traps sit in their warm parlors praising their own \"empathy.\"\n\nThe operational principle in that storehouse applies across society: When a society refuses to restrain criminals, thieves, rioters, and disorderly students in the name of \"compassion,\" the wealthy can always purchase high walls, gated communities, private security guards, and private tutors. It is the law-abiding working-class family, the elderly widow on public transit, and the capable poor child sitting in a disordered public classroom whose thin pine bins are destroyed. Enforcing order, standards, and law is the truest compassion a city can show to its industrious poor.",
+      "problem": "Follow-up on research hold 561a100e ('The example feels too esoteric now. Are there any more concrete, ideally real-life, examples of this?'): verified BJS NCVS report ext-ref/bjs/hpnvv0812.pdf (NCJ 248384) proves poor households suffer more than double the violent crime rate of high-income households (39.8 vs. 16.9 per 1,000; firearm violence 3.5 vs. 0.8-2.5) while reporting crimes to police at a higher rate (51% vs. 45%). Paired with Gallup's 2020 survey (81% of Black Americans wanting the same or more local police presence) and Minneapolis's Nov 2021 Question 2 rejection (56.17% No). Note: because Ch 2, Ch 6, Ch 9, and Ch 10 all moved off grain/storehouses, the Hill Town Grain Storehouse is now the sole grain-storehouse fable left in the book. If alternate (a) replaces it, also update the passing phrase 'leaves the storehouse empty' at civ/chapters/11_ch11.md:123.",
+      "rule": "prop/compassion-real",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "real-life: BJS victimization data + 2020-21 policing vote",
+          "text": "#### Who Pays for False Compassion: Crime Victimization and Public Order\n\nEven when the person advocating \"compassion over rules\" is not a calculating Marcusean strategist, but merely a sentimental citizen who dislikes seeing offenders punished, federal crime data and recent municipal politics show who actually bears the cost when a community relaxes enforcement.\n\n\u003e **Who Suffers When Order Weakens:** In a multi-year study of the National Crime Victimization Survey, the U.S. Bureau of Justice Statistics found that Americans in households at or below the federal poverty level suffered nonfatal violent crime at **39.8 per 1,000 persons**, more than double the rate of **16.9 per 1,000** in high-income households, alongside higher rates of firearm violence (**3.5 per 1,000** against 0.8 to 2.5 in higher-income brackets). Victims in poor households were also more likely to call the police, reporting **51 percent** of violent crimes compared with **45 percent** in high-income households (Bureau of Justice Statistics, *Household Poverty and Nonfatal Violent Victimization, 2008 to 2012*, NCJ 248384).\n\u003e\n\u003e That asymmetry showed up plainly when activists urged cities to scale back policing in 2020 and 2021. In a June and July 2020 Gallup survey, **81 percent** of Black Americans stated that they wanted police to spend the same amount of time (61 percent) or more time (20 percent) in their neighborhoods. When Minneapolis placed a charter amendment on the November 2021 ballot to replace its police department with a public-health agency, voters defeated it by 56.17 percent to 43.83 percent, with working-class North Minneapolis voters rejecting the measure and replacing its council sponsor.\n\nThe operational principle in those numbers applies across society: when a city refuses to restrain criminals, thieves, rioters, and disorderly students in the name of \"compassion,\" the wealthy can always purchase high walls, gated communities, private security guards, and private tutors. It is the law-abiding working-class family, the elderly widow on public transit, and the capable poor child sitting in a disordered public classroom who depend directly on enforced public order. Enforcing standards and law is the truest compassion a city can show to its industrious poor."
+        },
+        {
+          "id": "b",
+          "label": "keep Hill Town Storehouse (now unique) + add verified BJS data",
+          "text": "#### The Hill Town Grain Storehouse and the Rats: Why False Compassion Harms the Weakest First\n\nEven when the person advocating \"compassion over rules\" is not a calculating Marcusean strategist, but merely a sentimental citizen who dislikes seeing anyone punished, the following case illustrates who actually bears the cost when a community adopts the Compassionate Delusion:\n\n\u003e **The Hill Town Grain Storehouse and the Rats:** In a stone town on a hill, fifty families store their winter barley in a row of bins inside the municipal storehouse. At one end of the building stand the thick, iron-lined stone bins of the wealthy grain merchant; at the other end stand the thin pine-plank bins of the elderly widows and day-laborers, holding just enough barley to keep them alive until April.\n\u003e\n\u003e In November, rats tunnel under the storehouse wall. The town watchman sets heavy iron traps along the floorboards. The next morning, a sentimental committee visits the storehouse, sees three dead rats in the traps, and protests that the creatures were merely hungry, that the traps are cruel, and that a compassionate town must prohibit all traps, poison, and terriers.\n\u003e\n\u003e The town council yields to the sentimentalists and prohibits all rat control. The sentimentalists congratulate themselves at every social gathering on their humanity.\n\u003e\n\u003e **In January, the condition of the storehouse reveals the consequence.** Prohibiting the traps did not stop the rats from feeding; it only decided whose barley they consumed. Their teeth could not penetrate the wealthy merchant's iron-lined stone bins, and even if he lost ten percent of his grain, his family still had ample food for the winter. Instead, the rats gnawed straight through the thin pine boards of the poor widows' and laborers' bins, consumed their winter grain, and fouled what remained.\n\u003e\n\u003e By February, the poor widows are starving in the cold, while the sentimentalists who prohibited the traps sit in their warm parlors praising their own \"empathy.\"\n\nFederal crime records confirm that exact asymmetry in modern cities. In its multi-year National Crime Victimization Survey report (*Household Poverty and Nonfatal Violent Victimization, 2008 to 2012*, NCJ 248384), the Bureau of Justice Statistics found that Americans in households at or below the federal poverty level suffered nonfatal violent crime at 39.8 per 1,000 persons, more than double the 16.9 per 1,000 rate in high-income households, while reporting crimes to the police at a higher rate (51 percent against 45 percent). When a society refuses to restrain criminals, thieves, rioters, and disorderly students in the name of \"compassion,\" the wealthy can always purchase high walls, gated communities, private security guards, and private tutors. It is the law-abiding working-class family, the elderly widow on public transit, and the capable poor child sitting in a disordered public classroom whose thin pine bins are destroyed. Enforcing order, standards, and law is the truest compassion a city can show to its industrious poor."
+        },
+        {
+          "id": "keep",
+          "ignore": true,
+          "reason": "Keep The Hill Town Grain Storehouse and the Rats as written (now the sole grain-storehouse fable in the book)."
+        }
+      ]
+    }
+  ],
+  "responds_to": [
+    "call:civ/chapters/06_ch06.md:64cfac75:prop/granary-vary",
+    "call:civ/chapters/02_ch02.md:eddaa5e1:prop/bridge-real",
+    "call:civ/chapters/02_ch02.md:d3dd0e64:prop/granary-vary",
+    "call:civ/chapters/03_ch03.md:9c798e77:prop/bridge-vary",
+    "call:civ/chapters/08_ch08.md:5aba1206:prop/bridge-vary",
+    "call:civ/chapters/09_ch09.md:2f046826:prop/granary-vary",
+    "call:civ/chapters/09_ch09.md:a8285261:prop/bridge-vary",
+    "call:civ/chapters/11_ch11.md:561a100e:prop/granary-vary"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/chapters/06_ch06.md:64cfac75:prop/granary-vary",
+      "path": "civ/chapters/06_ch06.md",
+      "ok": true,
+      "decision_at": "2026-11-22T04:17:58Z"
+    }
+  ],
+  "answers": [
+    {
+      "id": "call:civ/chapters/02_ch02.md:eddaa5e1:prop/bridge-real",
+      "text": "Applied accepted alt (a) and downloaded NTSB HAR-71/01 to ext-ref/ntsb/HAR7101.pdf. Yes: the closing sentence refers to the model's calculations/deductions on paper (it carried over verbatim from the prior oak-beam paragraph). Primary check on HAR-71/01: NBS measured the crack at 'about 1/8-inch in radius' (p. 32), and the Board concluded visual inspection alone could not detect it without disassembling the eyebar joint (p. 126). Raised follow-up item prop/silver-bridge-wording with cleaner closing-sentence options."
+    },
+    {
+      "id": "call:civ/chapters/02_ch02.md:d3dd0e64:prop/granary-vary",
+      "text": "Applied accepted alt (a). As written, the river-town boiled-water passage is a hypothetical illustration rather than a single named town. Two real historical references match the exact mechanism: (1) Qing-era southern China's habit of boiling drinking water for tea (explained via yin-yang and damp-heat balance rather than bacteria; see physician Wang Shixiong, Huoluan Lun, 1838, and nineteenth-century cholera accounts), and (2) eighteenth-century England's spread of tea drinking, which Francisca Antman (Review of Economics and Statistics, 2023; IZA DP 15016) showed reduced mortality specifically in parishes with poorer water quality long before Robert Koch isolated Vibrio cholerae in 1883. Raised follow-up item prop/boiled-water-source offering either a short sourced add-on paragraph or a historical rewrite."
+    },
+    {
+      "id": "call:civ/chapters/03_ch03.md:9c798e77:prop/bridge-vary",
+      "text": "Applied accepted alt (a) ('when a foundation settles'). The clearest real-life civil-engineering case of submitting to evidence and reporting a hidden structural defect rather than hiding it is William LeMessurier's 1978 Citicorp Center crisis (recalculated diagonal wind loads after an engineering student's question, found bolted joints approved by his office during construction made the 59-story tower vulnerable to a severe storm, reported it immediately to Citicorp executives, city building officials, and emergency planners, and oversaw nighttime welding of 2-inch steel plates over 200+ joints). Caveat: because Citicorp and city officials kept repairs out of newspapers during the 1978 NYC newspaper strike, any chapter wording should specify that he reported it to the owners, city officials, and emergency planners rather than claiming general public announcement. Raised follow-up item prop/admit-error-real."
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:5aba1206:prop/bridge-vary",
+      "text": "Applied accepted alt (a) (The Family Orchard) together with its accepted Chapter 10 callback. Downloaded and verified William Bradford's Of Plymouth Plantation (1623, Book II) at ext-ref/bradford/bradford_1908_davis.txt (pp. 146-147), where abandoning the 'common course and condition' and assigning each family its own parcel of land 'made all hands very industrious' and ended famine (and where Bradford explicitly refutes Plato's communalism). Raised follow-up item prop/orchard-history offering (a) keeping The Family Orchard and adding a brief verified Plymouth 1623 confirmation paragraph right below it, or (b) replacing The Family Orchard with Plymouth Colony 1623 (paired with a Chapter 10 callback item prop/callback-ch08-plymouth)."
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:2f046826:prop/granary-vary",
+      "text": "Applied accepted alt (a) (The Desert Cistern) together with its accepted callback at 09_ch09.md:289. Editorial assessment: a full historical case study here would probably detract by slowing Section 1, which already moves straight into Asymmetric Mobilization, Roman civic adoption (Digest 1.7.15 in ext-ref/book1-4/immigration_as_adoption.txt), Conquest, Solon, Sparta, and Section 4's ECHR and U.S. legal cases. A tight three-sentence anchor to Torbel, Switzerland's 1483 alpine pasture charter and wintering rule (documented by Elinor Ostrom, Governing the Commons, 1990) could add concrete weight without bloating the section. Raised optional follow-up item prop/cistern-real-anchor with an Ignore option so you can compare side by side."
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:a8285261:prop/bridge-vary",
+      "text": "Applied accepted alt (a) (Harbor Pilot's Examination). Two strong, non-overlapping real-life cases fit directly here (noting Culver City High School's 2023 elimination of honors classes is already cited at 09_ch09.md:251): (1) Ricci v. DeStefano, 557 U.S. 557 (2009), now downloaded and verified at ext-ref/scotus/ricci_557us557.pdf, in which New Haven discarded objective firefighter promotion examinations taken by 118 candidates (including Frank Ricci, who had dyslexia and studied 8 to 13 hours a day) solely because of unequal racial pass rates; and (2) China's 1966 abolition and 1977 restoration of the national university entrance examination (gaokao) under Deng Xiaoping. Raised follow-up item prop/exam-real offering an add-on paragraph (Ricci), a full replacement (Ricci or gaokao), or keeping the Harbor Pilot's Examination as-is."
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:561a100e:prop/granary-vary",
+      "text": "Left civ/chapters/11_ch11.md untouched per hold. Researched concrete real-life evidence for why relaxing enforcement harms the weakest law-abiding residents first while the wealthy remain insulated: (1) Bureau of Justice Statistics, Household Poverty and Nonfatal Violent Victimization, 2008-2012 (NCJ 248384, downloaded and verified at ext-ref/bjs/hpnvv0812.pdf): poor households suffer nonfatal violent crime at 39.8 per 1,000 persons versus 16.9 per 1,000 for high-income households, with higher firearm violence (3.5 vs. 0.8-2.5), while reporting crimes to police at a higher rate (51% vs. 45%). (2) Gallup Center on Black Voices (June-July 2020) found 81% of Black Americans wanted police to spend the same amount of time (61%) or more time (20%) in their neighborhoods; in November 2021 Minneapolis voters rejected dismantling the police department (56.17% No), with working-class North Minneapolis wards rejecting it and replacing its council sponsor. (3) Secondary studies (Lacoe \u0026 Steinberg on Philadelphia's 2012 suspension ban; Oregon's 2020-2024 Measure 110 decriminalization and repeal, noting fentanyl as a confounder) show similar patterns with more caveats. Note also that because Chapters 2, 6, 9, and 10 all moved off grain/storehouses, The Hill Town Grain Storehouse is now the sole grain-storehouse fable in the book. Raised open item prop/compassion-real with (a) a pure real-life BJS + Gallup/Minneapolis replacement, (b) keeping the Hill Town fable anchored with the verified BJS figures, and (c) Ignore to keep as-is."
+    }
+  ]
+}

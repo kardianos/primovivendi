@@ -65,11 +65,13 @@
       "quote": "Fire burns cotton because of what fire and cotton are.",
       "before": "\n\n",
       "after": " Steel",
+      "from": "grok-4.7",
       "problem": "Two drafts of the same sentence.",
       "rule": "fixture/rewrite",
       "alternates": [
         {"id": "a", "label": "plain", "text": "Fire burns cotton because fire and cotton are what they are."},
-        {"id": "b", "label": "shorter", "text": "Cotton burns in fire because of what each is."}
+        {"id": "b", "label": "shorter", "from": "opus-5.5", "text": "Cotton burns in fire because of what each is."},
+        {"id": "no", "from": "cabon", "ignore": true, "reason": "this was actually good"}
       ]
     },
     {

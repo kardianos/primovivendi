@@ -69,6 +69,78 @@ func TestTapAcceptWritesDecision(t *testing.T) {
 	}
 }
 
+func TestUIShowsFromAndIgnore(t *testing.T) {
+	root := t.TempDir()
+	if err := os.WriteFile(filepath.Join(root, "doc.md"), []byte("The household keeps its own children.\n"), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	packets := filepath.Join(root, "packets")
+	if err := os.MkdirAll(packets, 0o755); err != nil {
+		t.Fatal(err)
+	}
+	writeJSON(t, filepath.Join(packets, "20261121-120000-from.json"), map[string]any{
+		"version": 1,
+		"items": []map[string]any{{
+			"id": "from1", "from": "grok-4.7", "path": "doc.md",
+			"quote":   "The household keeps its own children.",
+			"problem": "Two agents offered drafts.",
+			"alternates": []map[string]any{
+				{"id": "a", "label": "shorter", "text": "The household keeps its children."},
+				{"id": "b", "label": "other", "from": "opus-5.5", "text": "The household rears its children."},
+				{"id": "no", "from": "cabon", "ignore": true, "reason": "this was actually good"},
+			},
+		}},
+	})
+	dec := filepath.Join(root, "decisions.json")
+	sess, err := LoadSession(root, packets, dec)
+	if err != nil {
+		t.Fatal(err)
+	}
+	tt := gowakutest.New(t, reviewApp{Session: sess}, gowakutest.Options{Width: 1440, Height: 900})
+	dump := tt.Dump()
+	for _, want := range []string{"from: grok-4.7", "from grok-4.7", "Word diff (Quote -> shorter · grok-4.7)", "opus-5.5", "ignore"} {
+		if !strings.Contains(dump, want) {
+			t.Fatalf("missing %q\n%s", want, dump)
+		}
+	}
+	if strings.Contains(dump, "from: opus-5.5") || strings.Contains(dump, "this was actually good") {
+		t.Fatalf("focused alternate should show the item from, not the other votes\n%s", dump)
+	}
+	tt.Tap("other")
+	dump = tt.Dump()
+	if !strings.Contains(dump, "from: opus-5.5") || !strings.Contains(dump, "Word diff (Quote -> other · opus-5.5)") {
+		t.Fatalf("other alternate from not shown\n%s", dump)
+	}
+	tt.Tap("Ignore")
+	dump = tt.Dump()
+	for _, want := range []string{"Ignore", "from: cabon", "this was actually good"} {
+		if !strings.Contains(dump, want) {
+			t.Fatalf("missing %q\n%s", want, dump)
+		}
+	}
+	if strings.Contains(dump, "Word diff (Quote -> Ignore") {
+		t.Fatalf("an ignore vote must not be shown as a replacement diff\n%s", dump)
+	}
+	tt.Tap("Ignore this")
+	b, err := os.ReadFile(dec)
+	if err != nil {
+		t.Fatal(err)
+	}
+	var got DecisionFile
+	if err := json.Unmarshal(b, &got); err != nil {
+		t.Fatal(err)
+	}
+	d := got.Items["from1"]
+	if d.Disposition != "reject" || d.Alternate != "no" || d.Note != "this was actually good" || d.AcceptedText != "" {
+		t.Fatalf("ignore vote was not recorded as reject: %+v", d)
+	}
+	tt.Tap("Compare")
+	dump = tt.Dump()
+	if !strings.Contains(dump, "from: grok-4.7") || !strings.Contains(dump, "from: opus-5.5") || !strings.Contains(dump, "from: cabon") {
+		t.Fatalf("compare columns missing from\n%s", dump)
+	}
+}
+
 func TestFollowingIDSkipsASavedItemAndWrapsLast(t *testing.T) {
 	s := &reviewState{
 		filter:   filterOpen,

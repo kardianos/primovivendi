@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/chapters/02_ch02.md:dc7d74e0:prop/bridge-keep",
+      "source": "call",
+      "from": "gemini",
+      "kind": "call",
+      "path": "civ/chapters/02_ch02.md",
+      "byte_offset": 47,
+      "byte_end": 899,
+      "quote": "### Building a Bridge and an Airplane\n\nSuppose we want to build something that works, such as a timber bridge across a flooded river so a village can bring its grain to market, or a commercial airplane that lifts two hundred passengers into the sky and brings them home alive. Before we write a constitution or debate theology, we simply try to build the structure so that it supports its intended load.\n\nThe moment we begin construction or calculation, we encounter four invariant facts about the world we inhabit.\n\n#### 1. Reality Is Real\n\nFirst, the oak timbers of the bridge, the current of the river, the aluminum alloy of the aircraft wing, the kerosene in the fuel tanks, and the gravitational pull of the earth exist whether we think about them or not. They are not figments of our imagination, and they do not wait for our permission to exist.",
+      "problem": "Kept bridge example (Chapter 2 opening demonstration). Recommended to keep as-is so Chapter 2 owns \"the bridge example\" across the book.",
+      "rule": "prop/bridge-keep",
+      "alternates": [
+        {
+          "id": "keep",
+          "ignore": true,
+          "reason": "Keep: Chapter 2 owns \"the bridge example\" as its opening demonstration."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/02_ch02.md:857225a4:prop/bridge-keep",
+      "source": "call",
+      "from": "gemini",
+      "kind": "call",
+      "path": "civ/chapters/02_ch02.md",
+      "byte_offset": 15065,
+      "byte_end": 15637,
+      "quote": "This sentence states the mandatory **direction of fit** between the human mind and the world. Reality comes first. Our statements, blueprints, accounting ledgers, scientific equations, and historical accounts are true *only* to the extent that they accurately match what actually exists and occurs in reality. If the blueprint specifies that the bridge will carry forty tons and the bridge collapses under twenty tons, reality is not in error; the blueprint is in error. The mind must adjust its map to match the terrain; the terrain never adjusts itself to match the map.",
+      "problem": "Kept bridge example (direction of fit: blueprint specifies forty tons, bridge collapses under twenty). Recommended to keep as part of Chapter 2's bridge thread.",
+      "rule": "prop/bridge-keep",
+      "alternates": [
+        {
+          "id": "keep",
+          "ignore": true,
+          "reason": "Keep: core Chapter 2 bridge demonstration of direction of fit."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/02_ch02.md:7f3374b2:prop/bridge-keep",
+      "source": "call",
+      "from": "gemini",
+      "kind": "call",
+      "path": "civ/chapters/02_ch02.md",
+      "byte_offset": 25333,
+      "byte_end": 26906,
+      "quote": "Did Einstein prove that Newton was a fraud or that Newtonian physics is \"just a social construct\"? Civil engineers designing suspension bridges today, mechanical engineers designing automobile engines, and the flight controllers who calculated the trajectory of the Apollo spacecraft to the Moon all answer no. Every day, engineers use Newton's equations because at speeds of a few hundred or a few thousand miles per hour, the relativistic correction factor differs from Newton's answer by less than one part in a billion. Within its domain of ordinary speeds and masses, Newton's model corresponds to physical reality with high precision. Meanwhile, when we launch Global Positioning System (GPS) satellites into orbit, where atomic clocks move at 14,000 kilometers per hour in weaker gravity twenty thousand kilometers above the Earth, engineers *must* include Einstein's special and general relativistic corrections (about 38 microseconds per day), or else a receiver's calculated position would drift by approximately ten kilometers per day.\n\nA chain of incomplete models expanding from Kepler to Newton to Einstein is not a failure of truth-seeking; it is what real, cumulative truth-seeking looks like among limited human beings. Do not commit either of the two opposite errors: never rescue a *wrong* model by pretending every failure was \"outside its domain\" without stating where its domain actually is, and never discard a working *incomplete* model that still builds sound bridges merely because a broader theory is required for extreme relativistic conditions.",
+      "problem": "Kept bridge example (Newton's mechanics still builds sound suspension bridges, contrasted with GPS satellites). Already grounded in real engineering.",
+      "rule": "prop/bridge-keep",
+      "alternates": [
+        {
+          "id": "keep",
+          "ignore": true,
+          "reason": "Keep: already real engineering and part of Chapter 2's bridge thread."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/02_ch02.md:43216393:prop/bridge-keep",
+      "source": "call",
+      "from": "gemini",
+      "kind": "call",
+      "path": "civ/chapters/02_ch02.md",
+      "byte_offset": 29951,
+      "byte_end": 30501,
+      "quote": "* **Treating error as ignorance.** This is the radical skeptic's error in practical form. The bridge builder does not know the breaking load of each oak beam to the pound; he knows it within a range, sizes the span to carry several times the heaviest wagon expected, and the bridge stands. The unknown remainder is real, but it is bounded, and a bounded unknown is not ignorance. The builder's statement that the span will carry the heaviest wagon corresponds to reality, and so it is true, though he cannot name the breaking load of any single beam.",
+      "problem": "Kept bridge example (bounded error and safety factor; pairs directly with the oak-beam formula in line 152). Recommended to keep, with the 1878 Brooklyn Bridge wire fraud included as an optional real-life alternate (needs primary source copy in ext-ref/ before publishing).",
+      "rule": "prop/bridge-keep",
+      "alternates": [
+        {
+          "id": "keep",
+          "ignore": true,
+          "reason": "Keep: concise Chapter 2 bridge demonstration of bounded error that pairs directly with line 152."
+        },
+        {
+          "id": "b",
+          "label": "real-life: Brooklyn Bridge 1878 (needs source copy)",
+          "text": "* **Treating error as ignorance.** This is the radical skeptic's error in practical form. The bridge builder does not know the breaking load of each beam or wire to the pound; he knows it within a range, builds in a margin several times the heaviest expected load, and the bridge stands. When engineers building the Brooklyn Bridge discovered in 1878 that a contractor had secretly substituted hundreds of tons of rejected steel wire into the four main cables, John Roebling's sixfold factor of safety left enough margin for Washington Roebling to add extra sound wires rather than tear down the span, and the bridge still carries traffic today. The unknown remainder is real, but it is bounded, and a bounded unknown is not ignorance. The builder's statement that the span will carry its load corresponds to reality, and so it is true, though he cannot name the breaking load of any single strand."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:dee3eb82:prop/bridge-keep",
+      "source": "call",
+      "from": "gemini",
+      "kind": "call",
+      "path": "civ/chapters/14_ch14.md",
+      "byte_offset": 2949,
+      "byte_end": 3305,
+      "quote": "5. **Apply the Same Standard of Human Nature to Both Sides:** If he claims his system failed only because \"self-interested individuals acquired power,\" remind him of Principle 2: *every* human institution is administered by self-interested mortals. A bridge design that remains standing only in the absence of gravity and wind is a defective bridge design.",
+      "problem": "Kept bridge aphorism in Chapter 14 (\"A bridge design that remains standing only in the absence of gravity and wind is a defective bridge design.\"). Recommended to keep as a closing callback to Chapter 2.",
+      "rule": "prop/bridge-keep",
+      "alternates": [
+        {
+          "id": "keep",
+          "ignore": true,
+          "reason": "Keep: sharp closing aphorism echoing Chapter 2's bridge example."
+        }
+      ]
+    }
+  ]
+}

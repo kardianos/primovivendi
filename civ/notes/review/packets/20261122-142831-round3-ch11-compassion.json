@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/chapters/11_ch11.md:561a100e:prop/compassion-market-watch",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 12575,
+      "byte_end": 15166,
+      "quote": "#### The Hill Town Grain Storehouse and the Rats: Why False Compassion Harms the Weakest First\n\nEven when the person advocating \"compassion over rules\" is not a calculating Marcusean strategist, but merely a sentimental citizen who dislikes seeing anyone punished, the following case illustrates who actually bears the cost when a community adopts the Compassionate Delusion:\n\n\u003e **The Hill Town Grain Storehouse and the Rats:** In a stone town on a hill, fifty families store their winter barley in a row of bins inside the municipal storehouse. At one end of the building stand the thick, iron-lined stone bins of the wealthy grain merchant; at the other end stand the thin pine-plank bins of the elderly widows and day-laborers, holding just enough barley to keep them alive until April.\n\u003e\n\u003e In November, rats tunnel under the storehouse wall. The town watchman sets heavy iron traps along the floorboards. The next morning, a sentimental committee visits the storehouse, sees three dead rats in the traps, and protests that the creatures were merely hungry, that the traps are cruel, and that a compassionate town must prohibit all traps, poison, and terriers.\n\u003e\n\u003e The town council yields to the sentimentalists and prohibits all rat control. The sentimentalists congratulate themselves at every social gathering on their humanity.\n\u003e\n\u003e **In January, the condition of the storehouse reveals the consequence.** Prohibiting the traps did not stop the rats from feeding; it only decided whose barley they consumed. Their teeth could not penetrate the wealthy merchant's iron-lined stone bins, and even if he lost ten percent of his grain, his family still had ample food for the winter. Instead, the rats gnawed straight through the thin pine boards of the poor widows' and laborers' bins, consumed their winter grain, and fouled what remained.\n\u003e\n\u003e By February, the poor widows are starving in the cold, while the sentimentalists who prohibited the traps sit in their warm parlors praising their own \"empathy.\"\n\nThe operational principle in that storehouse applies across society: When a society refuses to restrain criminals, thieves, rioters, and disorderly students in the name of \"compassion,\" the wealthy can always purchase high walls, gated communities, private security guards, and private tutors. It is the law-abiding working-class family, the elderly widow on public transit, and the capable poor child sitting in a disordered public classroom whose thin pine bins are destroyed. Enforcing order, standards, and law is the truest compassion a city can show to its industrious poor.",
+      "problem": "Follow-up on research hold 561a100e:prop/compassion-fable-keep ('does not make the point it needs to make, and gives social constructivists an easy lever to pull'). Removes BOTH levers at once: (1) drops the rat/vermin metaphor completely (which invites an easy dehumanization accusation), and (2) drops the baseline BJS poverty-victimization stat (which critics dismiss as poverty correlation rather than the effect of non-enforcement). Alternate (a) replaces the fable with a purely human, concrete illustration ('The Market Square and the Night Watch': wealthy walled compounds with private guards vs. cobblers' and widows' wooden-shuttered shops relying on the public constable) preserving every beat with zero animal metaphor. Alternate (b) adds the 2022 NYPD repeat-offender record (327 people accounting for ~30% of \u003e22,000 shoplifting arrests, \u003e6,000 arrests combined; needs primary NYPD/press copy in ext-ref/ before publishing). Pairs with the 1-line callback update at 11_ch11.md:123.",
+      "rule": "prop/compassion-market-watch",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "pure human illustration: The Market Square and the Night Watch",
+          "text": "#### The Market Square and the Night Watch: Why False Compassion Harms the Weakest First\n\nEven when the person advocating \"compassion over rules\" is not a calculating Marcusean strategist, but merely a sentimental citizen who dislikes seeing anyone punished, the following case illustrates who actually bears the cost when a community adopts the Compassionate Delusion:\n\n\u003e **The Market Square and the Night Watch:** In an old market town, wealthy merchants live on the hill inside walled stone compounds with iron gates, barred vaults, and hired private watchmen. Down on the open market square live the cobblers, bakers, day-laborers, and elderly widows, whose wooden-shuttered shops and modest rooms depend on the town constable and the municipal night watch.\n\u003e\n\u003e In November, a small band of repeat thieves begins breaking into shops after dark. The town constable catches three of them in the act, recovers the stolen goods, and locks them in the town jail to await trial. The next morning, a sentimental committee from the walled quarter visits the magistrate, argues that the thieves came from hard backgrounds, declares jail harsh and unfeeling, and demands that a compassionate town release them without bail and cease prosecuting property crime.\n\u003e\n\u003e The town council yields to the committee and orders the constable to stand down. The committee members congratulate themselves at every dinner on their humanity.\n\u003e\n\u003e **By January, the market square reveals the consequence.** Stopping the prosecutions did not stop the thieves from stealing; it only decided whom they robbed. They could not scale the wealthy merchants' iron gates or get past their hired watchmen, and even an occasional loss from a merchant's wagon was easily absorbed. Instead, the thieves pried open the wooden shutters of the cobbler, emptied the baker's till, and stripped the widow's stall bare night after night.\n\u003e\n\u003e By February, the small shops on the square are boarded up and the working families are ruined, while the committee members who ordered the watch to stand down sit behind their locked gates praising their own \"empathy.\"\n\nThe operational principle on that square applies across society: when a city refuses to restrain repeat thieves, violent offenders, and disorderly students in the name of \"compassion,\" the wealthy can always purchase high walls, gated neighborhoods, private security guards, and private tutors. It is the law-abiding working-class family, the elderly widow on public transit, and the capable poor child sitting in a disordered public classroom who depend on the public watch. Enforcing order, standards, and law is the truest compassion a city can show to its industrious poor."
+        },
+        {
+          "id": "b",
+          "label": "Market Square + 2022 NYPD repeat-offender figure (needs source copy)",
+          "text": "#### The Market Square and the Night Watch: Why False Compassion Harms the Weakest First\n\nEven when the person advocating \"compassion over rules\" is not a calculating Marcusean strategist, but merely a sentimental citizen who dislikes seeing anyone punished, the following case illustrates who actually bears the cost when a community adopts the Compassionate Delusion:\n\n\u003e **The Market Square and the Night Watch:** In an old market town, wealthy merchants live on the hill inside walled stone compounds with iron gates, barred vaults, and hired private watchmen. Down on the open market square live the cobblers, bakers, day-laborers, and elderly widows, whose wooden-shuttered shops and modest rooms depend on the town constable and the municipal night watch.\n\u003e\n\u003e In November, a small band of repeat thieves begins breaking into shops after dark. The town constable catches three of them in the act, recovers the stolen goods, and locks them in the town jail to await trial. The next morning, a sentimental committee from the walled quarter visits the magistrate, argues that the thieves came from hard backgrounds, declares jail harsh and unfeeling, and demands that a compassionate town release them without bail and cease prosecuting property crime.\n\u003e\n\u003e The town council yields to the committee and orders the constable to stand down. The committee members congratulate themselves at every dinner on their humanity.\n\u003e\n\u003e **By January, the market square reveals the consequence.** Stopping the prosecutions did not stop the thieves from stealing; it only decided whom they robbed. They could not scale the wealthy merchants' iron gates or get past their hired watchmen, and even an occasional loss from a merchant's wagon was easily absorbed. Instead, the thieves pried open the wooden shutters of the cobbler, emptied the baker's till, and stripped the widow's stall bare night after night.\n\u003e\n\u003e By February, the small shops on the square are boarded up and the working families are ruined, while the committee members who ordered the watch to stand down sit behind their locked gates praising their own \"empathy.\"\n\nModern policing records show how small a group drives that disorder when enforcement stops: in 2022, New York City police reported that just 327 repeat offenders accounted for nearly a third of the city's more than 22,000 shoplifting arrests, having been arrested more than 6,000 times combined (NYPD data reported in *The New York Times*, 2023). The operational principle on that square applies across society: when a city refuses to restrain repeat thieves, violent offenders, and disorderly students in the name of \"compassion,\" the wealthy can always purchase high walls, gated neighborhoods, private security guards, and private tutors. It is the law-abiding working-class family, the elderly widow on public transit, and the capable poor child sitting in a disordered public classroom who depend on the public watch. Enforcing order, standards, and law is the truest compassion a city can show to its industrious poor."
+        },
+        {
+          "id": "keep",
+          "ignore": true,
+          "reason": "Keep existing Hill Town Grain Storehouse passage as-is."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:e86f5819:prop/callback-ch11-market",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "call",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 15789,
+      "byte_end": 16015,
+      "quote": "2. **Ask \"What Happens in Year Ten if Everyone Does This?\"** A policy that sounds benevolent in a brief slogan but leaves the storehouse empty and the street ruined in ten years is not compassion; it is delayed-action cruelty.",
+      "problem": "Paired callback at civ/chapters/11_ch11.md:123. Accept alternate (a) ONLY if you accept The Market Square and the Night Watch above (replacing 'leaves the storehouse empty'); otherwise choose Ignore.",
+      "rule": "prop/callback-ch11-market",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "match Market Square: leaves the shops boarded up",
+          "text": "2. **Ask \"What Happens in Year Ten if Everyone Does This?\"** A policy that sounds benevolent in a brief slogan but leaves the shops boarded up and the street ruined in ten years is not compassion; it is delayed-action cruelty."
+        },
+        {
+          "id": "keep",
+          "ignore": true,
+          "reason": "Keep existing line 123 wording."
+        }
+      ]
+    }
+  ],
+  "responds_to": [
+    "call:civ/chapters/11_ch11.md:561a100e:prop/compassion-fable-keep"
+  ],
+  "answers": [
+    {
+      "id": "call:civ/chapters/11_ch11.md:561a100e:prop/compassion-fable-keep",
+      "text": "Sharp catch. The rats fable hands social constructivists an easy dehumanization lever (comparing human offenders to vermin trapped and poisoned), and adding the BJS baseline poverty-victimization stat hands them a second lever (arguing poverty causes crime rather than lax enforcement). Raised open item prop/compassion-market-watch replacing the animal fable with a purely human illustration ('The Market Square and the Night Watch': repeat human thieves, wealthy walled compounds with private guards vs. wooden-shuttered shops of cobblers and widows depending on the public constable), plus an optional alternate pairing it with NYPD's 2022 repeat-offender figure (327 individuals accounting for ~30% of \u003e22,000 shoplifting arrests), and a paired 1-line callback update at 11_ch11.md:123."
+    }
+  ]
+}

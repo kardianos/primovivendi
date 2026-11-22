@@ -1,0 +1,213 @@
+{
+  "version": 1,
+  "items": {
+    "call:civ/chapters/02_ch02.md:34246c58:prop/bridge-real": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "In March 2018, a newly placed concrete pedestrian bridge over Eighth Street in Miami developed wide structural cracks at its northern truss connection. At a project meeting on the morning of March 15, the engineer of record assured the client and contractor that the cracks posed no safety concern, and traffic kept moving beneath the span. Hours later, at 1:46 p.m., the concrete failed according to its physical state, not the assurances given in the morning meeting, and the bridge dropped onto waiting cars, killing six people (NTSB Highway Accident Report HAR-19/02).",
+      "at": "2026-11-22T04:25:12Z"
+    },
+    "call:civ/chapters/02_ch02.md:43216393:prop/bridge-keep": {
+      "disposition": "reject",
+      "alternate": "keep",
+      "note": "Keep: concise Chapter 2 bridge demonstration of bounded error that pairs directly with line 152.",
+      "at": "2026-11-22T13:45:00Z"
+    },
+    "call:civ/chapters/02_ch02.md:7f3374b2:prop/bridge-keep": {
+      "disposition": "reject",
+      "alternate": "keep",
+      "note": "Keep: already real engineering and part of Chapter 2's bridge thread.",
+      "at": "2026-11-22T13:44:55Z"
+    },
+    "call:civ/chapters/02_ch02.md:857225a4:prop/bridge-keep": {
+      "disposition": "reject",
+      "alternate": "keep",
+      "note": "Keep: core Chapter 2 bridge demonstration of direction of fit.",
+      "at": "2026-11-22T13:44:50Z"
+    },
+    "call:civ/chapters/02_ch02.md:a676ed11:prop/boiled-water-real-only": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "For centuries in China, households kept the custom of boiling their drinking water to steep tea rather than drinking raw well or canal water, explaining through traditional medical theory that raw water carried cold and dampness that harmed the stomach. Medical officers reporting from Peking and Shanghai in the 1870s recorded that the Chinese drank boiled water almost exclusively and escaped much of the waterborne cholera and dysentery common in crowded cities (C. A. Gordon, *Epitome of the Reports of the Medical Officers to the Chinese Imperial Maritime Customs Service*, 1884). A parish-level study of eighteenth-century England found the same pattern: as tea drinking spread, mortality fell sharply in parishes with poorer water quality long before anyone understood bacteria (Francisca Antman, *Review of Economics and Statistics*, 2023).\n\nDid the practice work? Yes: boiling killed waterborne bacteria before anyone drank them. Does the lower death rate prove that raw water injures the body through cold and dampness? No. A foolish modern reformer who disproves the traditional balance theory and therefore tells households to stop boiling their water brings cholera and dysentery back within a season. An equally foolish traditionalist who insists that because the custom saved lives, every word of the pre-modern explanation is literal truth prevents medicine from ever learning bacteriology. The boiling was justified by the lower death rate; the balance theory was not. Later testing, culminating in Robert Koch's isolation of the cholera bacillus in 1883, justified a different explanation: heat destroys microscopic pathogens in contaminated water, with or without the tea leaves. **Reality judges consequences and practices directly; the explanation attached to a working practice must be tested on its own evidence.**",
+      "at": "2026-11-22T14:24:36Z"
+    },
+    "call:civ/chapters/02_ch02.md:a676ed11:prop/boiled-water-source": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "In a river town five hundred years ago, every household boils its well water each morning with a pinch of dried bitter herb, explaining to its children that the bitter smell drives away river ghosts that cause summer fever. The households that keep the custom stay well through August, while travelers who drink straight from the well fall sick.\n\nDid the practice work? Yes: boiling killed the waterborne bacteria before anyone drank them. Does the healthy town prove that river ghosts flee from bitter herbs? No. A foolish modern reformer who visits the town, proves that river ghosts do not exist, and therefore tells the families to stop boiling their water will bring summer fever back within a season. An equally foolish traditionalist who insists that because the town stayed healthy, every word of the ghost account is literal truth prevents the town from ever learning bacteriology. The boiling was justified by the health of the town; the ghost account was not. Later testing justified a different explanation: heat destroys microscopic pathogens in contaminated water, with or without the herb. **Reality judges consequences and practices directly; the explanation attached to a working practice must be tested on its own evidence.**\n\nHistory supplies the same pattern directly. In Qing China and in eighteenth-century England, communities that boiled water to brew tea suffered markedly fewer deaths from cholera and other waterborne fevers long before Robert Koch identified the cholera bacillus in 1883, even though traditional Chinese physicians attributed the danger of raw water to internal cold and dampness rather than bacteria (Wang Shixiong, *Huoluan Lun*, 1838; Francisca Antman, *Review of Economics and Statistics*, 2023). The boiling worked before anyone knew bacteriology; later testing separated the true physical cause from the earlier explanation.",
+      "note": "I would suggest we remove the made up example and fether in the real life version first and formost.",
+      "at": "2026-11-22T14:04:43Z"
+    },
+    "call:civ/chapters/02_ch02.md:c5485325:prop/silver-bridge-wording": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "In December 1967, the Silver Bridge over the Ohio River collapsed during rush hour and killed forty-six people because a hidden eighth-of-an-inch stress-corrosion crack had grown inside the pin hole of a single suspension eyebar (NTSB Highway Accident Report HAR-71/01). The design calculation did not show that hidden flaw, and visual inspection alone could not see inside the assembled joint; only physical testing and inspection of the actual member reveal what is really there. A model is justified when it has survived contact with the world, not merely when its calculations are consistent on paper.",
+      "at": "2026-11-22T14:02:40Z"
+    },
+    "call:civ/chapters/02_ch02.md:d3dd0e64:prop/granary-vary": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "In a river town five hundred years ago, every household boils its well water each morning with a pinch of dried bitter herb, explaining to its children that the bitter smell drives away river ghosts that cause summer fever. The households that keep the custom stay well through August, while travelers who drink straight from the well fall sick.\n\nDid the practice work? Yes: boiling killed the waterborne bacteria before anyone drank them. Does the healthy town prove that river ghosts flee from bitter herbs? No. A foolish modern reformer who visits the town, proves that river ghosts do not exist, and therefore tells the families to stop boiling their water will bring summer fever back within a season. An equally foolish traditionalist who insists that because the town stayed healthy, every word of the ghost account is literal truth prevents the town from ever learning bacteriology. The boiling was justified by the health of the town; the ghost account was not. Later testing justified a different explanation: heat destroys microscopic pathogens in contaminated water, with or without the herb. **Reality judges consequences and practices directly; the explanation attached to a working practice must be tested on its own evidence.**",
+      "note": "I like this example and wording. Do source with more exact reference.",
+      "at": "2026-11-22T04:28:54Z"
+    },
+    "call:civ/chapters/02_ch02.md:dc7d74e0:prop/bridge-keep": {
+      "disposition": "reject",
+      "alternate": "keep",
+      "note": "Keep: Chapter 2 owns \"the bridge example\" as its opening demonstration.",
+      "at": "2026-11-22T13:44:38Z"
+    },
+    "call:civ/chapters/02_ch02.md:eddaa5e1:prop/bridge-real": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Logic and reason are our mental instruments for constructing and checking these models. They are shortcuts to a test. They tell us what a test should show if a model is right. An engineer's formula for the strength of a steel eyebar rests on bars that were measured and loaded until they broke. The formula is a shortcut to breaking this one, and it holds only for what was measured. In December 1967, the Silver Bridge over the Ohio River collapsed during rush hour and killed forty-six people because a hidden tenth-of-an-inch stress-corrosion crack had grown inside the pin hole of a single suspension eyebar (NTSB Highway Accident Report HAR-71/01). The calculation did not show that hidden flaw; physical inspection and testing are what catch it. A model is justified when it has survived contact with the world, not when the deduction is elegant.",
+      "note": "I like it, but I might quibble with the last word \"elegant\" and perhaps be more explicit here. Are we talking about our model calcuations?",
+      "at": "2026-11-22T04:27:17Z"
+    },
+    "call:civ/chapters/03_ch03.md:53a1a094:prop/bridge-vary": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Two machinists from different religious traditions argue over how to build a high-pressure steam boiler for a town waterworks. If the first machinist insists that the shell must be riveted from thin copper plate because his ancient scroll says so, and the second rejects that scroll and demands cast iron from his own scroll, they are not arguing about engineering at all, and they cannot agree until one overpowers the other. The moment both machinists agree that **steam pressure and the tensile strength of the metal determine whether the vessel holds or bursts**, they have stepped onto the common ground of Principle 1. Now they can pump both shells full of cold water on a hydrostatic test stand, watch the weak plate split before it reaches operating pressure, and build the boiler in tested steel together.",
+      "at": "2026-11-22T13:17:22Z"
+    },
+    "call:civ/chapters/03_ch03.md:969458e3:prop/admit-error-real": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "At the same time, the person who is trying to align with truth faces an inherent limitation. Even when we are completely honest, we do not know everything. Our instruments have tolerances, our observations can miss a hidden crack, and our preferred mental models can be incomplete. When the check shows that our prediction was wrong, when a foundation settles, the business loses money, or the experiment fails, we face a choice: we can protect our pride by hiding the failure and rewriting what we claimed, or we can submit to the evidence, admit the error openly to the people it affected, and correct our model.\n\nIn June 1978, a year after Manhattan's fifty-nine-story Citicorp Center opened, structural engineer William LeMessurier recalculated diagonal wind loads after an engineering student questioned his brace design. He discovered that bolted joints approved by his office during construction in place of welded joints left the tower vulnerable to failure in a severe storm. Rather than conceal the defect to protect his reputation, LeMessurier reported the calculation at once to Citicorp executives, city building officials, and emergency planners, and welders worked nightly to weld two-inch steel plates over more than two hundred joints before hurricane season arrived.",
+      "at": "2026-11-22T14:06:01Z"
+    },
+    "call:civ/chapters/03_ch03.md:9c798e77:prop/bridge-vary": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "At the same time, the person who is trying to align with truth faces an inherent limitation. Even when we are completely honest, we do not know everything. Our instruments have tolerances, our observations can miss a hidden crack, and our preferred mental models can be incomplete. When the check shows that our prediction was wrong, when a foundation settles, the business loses money, or the experiment fails, we face a choice: we can protect our pride by hiding the failure and rewriting what we claimed, or we can submit to the evidence, admit the error openly to the people it affected, and correct our model.",
+      "note": "Foundation is a fine swap. Look into real life account as well.",
+      "at": "2026-11-22T13:22:59Z"
+    },
+    "call:civ/chapters/03_ch03.md:e6f5c096:prop/real-ext-ref": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "In July 1990 a federal grand jury indicted Eastern Air Lines and several of its maintenance managers for altering safety and maintenance records. In March 1991 the carrier pleaded guilty to conspiracy and six counts of falsifying work records on its fleet, admitting that records had been written to make it appear maintenance had been performed on landing gear, wing flaps, fuel filters, and other parts when the work had not been done (Associated Press, March 21, 1991). No accident was traced to those omissions, yet the offense against civilization is plain: falsified paper satisfies a schedule and a regulator while leaving the physical machinery uninspected, and reality collects on unperformed maintenance regardless of what the logbook says.",
+      "at": "2026-11-22T13:21:38Z"
+    },
+    "call:civ/chapters/06_ch06.md:64cfac75:prop/granary-vary": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Suppose three generations inhabit one farmhouse. The grandfather cleared the forest, built the stone house, dug the well, and filled the barn with tools and seed grain. The father kept the ledger accurate, repointed the stone walls when frost cracked the mortar, and repaired the tools. Then comes the son. The son finds fieldwork tedious. Every year, he eats from the cellar, sells off one more parcel of pasture and one more chest of his grandfather's tools (which he never learned how to sharpen) to buy wine and ease, lets the roof leak in the back wing, and teaches his one child nothing of soil, accounts, or carpentry. If you visit that farmhouse in year fifteen of the son's tenure, everyone at the dinner table is still breathing and still eating well. They are \"surviving\" by consuming capital they did not build and cannot repair. Ten years later, the barn is empty, the roof collapses, and the family is ruined.",
+      "at": "2026-11-22T04:17:58Z"
+    },
+    "call:civ/chapters/08_ch08.md:2fc4dfe7:prop/orchard-history": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "#### The Family Orchard: How Tiered Priority Builds Durable Capital\n\nThe work of a single family over one year illustrates how self-anchored, tiered priority builds durable goods across generations, and why atomized egalitarian theories misread how wealth and safety come into existence:\n\n\u003e **The Family Orchard:** Behind a family's house lie five acres of rocky, bramble-choked hillside. Their eight-year-old son is growing old enough to work beside them, and the parents want him to have land he can tend, learn practical stewardship on, and share with his friends.\n\u003e\n\u003e Nobody orders the parents to do what they do next. Every Saturday and evening after work for six months, devoting hundreds of hours of their finite lives, the father and mother take saws, mattocks, and wheelbarrows onto the slope. They clear invasive thorns, haul fieldstone into dry-laid retaining walls, dig deep planting holes, and set and graft forty apple and walnut trees.\n\u003e\n\u003e At the end of six months, a terraced orchard stands where only impassable brambles stood before. The boy tends the young trees every afternoon; the cleared hillside reduces brush-fire and runoff hazards for the adjoining neighbors; and the orchard will still yield fruit and timber for the boy's own children thirty years from now.\n\u003e\n\u003e Now invite a \"Lottery of Birth\" egalitarian theorist to walk down the road and see that boy harvesting apples from the slope. Because the egalitarian views every human being as an isolated, detachable individual who arrived from nowhere, he sees only a disparity: this boy has a bearing orchard behind his house, and a boy in the next town does not. The boy did nothing to earn it, the theorist concludes, so it is arbitrary luck, and the public authority should confiscate the orchard or tax away its value until both boys have identical outcomes.\n\u003e\n\u003e The egalitarian's atomized perspective omitted the essential fact: it omitted the four hundred hours of labor, sacrifice, and affection that the boy's mother and father invested in that hillside specifically because the boy was *their* child. The family is not a random collection of strangers who happened to win a raffle; the family is an intergenerational building unit bound by mutual obligation. If parents across a nation are told that nothing they build may be kept for their own children, and that whatever their labor builds will be seized and divided equally among strangers, the four hundred hours are never worked, the brush is never cleared, the trees are never planted, and everyone is poorer.\n\nAmerican history tested this exact contrast at the founding of New England. For its first two years, Plymouth Colony farmed under a communal rule that pooled every harvest into a common store. In *Of Plymouth Plantation* (Anno 1623), Governor William Bradford recorded that able-bodied young men resented spending their strength to feed other men's wives and children without reward, and harvests fell short. In the spring of 1623, Bradford assigned each family its own parcel of land for its own household. Bradford wrote that this single change \"made all hands very industrious,\" brought mothers willingly into the fields with their children, yielded far more corn than any command of the governor had ever secured, and ended the colony's chronic hunger.",
+      "at": "2026-11-22T14:07:40Z"
+    },
+    "call:civ/chapters/08_ch08.md:5aba1206:prop/bridge-vary": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "#### The Family Orchard: How Tiered Priority Builds Durable Capital\n\nThe work of a single family over one year illustrates how self-anchored, tiered priority builds durable goods across generations, and why atomized egalitarian theories misread how wealth and safety come into existence:\n\n\u003e **The Family Orchard:** Behind a family's house lie five acres of rocky, bramble-choked hillside. Their eight-year-old son is growing old enough to work beside them, and the parents want him to have land he can tend, learn practical stewardship on, and share with his friends.\n\u003e\n\u003e Nobody orders the parents to do what they do next. Every Saturday and evening after work for six months, devoting hundreds of hours of their finite lives, the father and mother take saws, mattocks, and wheelbarrows onto the slope. They clear invasive thorns, haul fieldstone into dry-laid retaining walls, dig deep planting holes, and set and graft forty apple and walnut trees.\n\u003e\n\u003e At the end of six months, a terraced orchard stands where only impassable brambles stood before. The boy tends the young trees every afternoon; the cleared hillside reduces brush-fire and runoff hazards for the adjoining neighbors; and the orchard will still yield fruit and timber for the boy's own children thirty years from now.\n\u003e\n\u003e Now invite a \"Lottery of Birth\" egalitarian theorist to walk down the road and see that boy harvesting apples from the slope. Because the egalitarian views every human being as an isolated, detachable individual who arrived from nowhere, he sees only a disparity: this boy has a bearing orchard behind his house, and a boy in the next town does not. The boy did nothing to earn it, the theorist concludes, so it is arbitrary luck, and the public authority should confiscate the orchard or tax away its value until both boys have identical outcomes.\n\u003e\n\u003e The egalitarian's atomized perspective omitted the essential fact: it omitted the four hundred hours of labor, sacrifice, and affection that the boy's mother and father invested in that hillside specifically because the boy was *their* child. The family is not a random collection of strangers who happened to win a raffle; the family is an intergenerational building unit bound by mutual obligation. If parents across a nation are told that nothing they build may be kept for their own children, and that whatever their labor builds will be seized and divided equally among strangers, the four hundred hours are never worked, the brush is never cleared, the trees are never planted, and everyone is poorer.",
+      "note": "The current example was originally an adaptation from an X thread of someone's own work of clearing land for their family. What you adapted is also fine, but I'd also love to see an approach that referenced referenceable history.",
+      "at": "2026-11-22T13:33:06Z"
+    },
+    "call:civ/chapters/09_ch09.md:2f046826:prop/granary-vary": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "#### Borders, the Desert Cistern, and Naturalization as Civic Adoption\n\nThe same law of scope governs the **national border**.\n\nA house without walls and a roof is not a \"welcoming house\"; it is merely an open patch of ground exposed to the wind and rain. In the same way, a country without enforced borders is not a compassionate polity; it is a dissolved jurisdiction where no law, no civic trust, and no shared treasury can survive.\n\nThe necessity of this boundary is illustrated by an arid-basin settlement preparing for the dry season:\n\n\u003e **The Desert Cistern:** During the spring rains, forty farming families in an arid valley quarry stone to line a deep cistern, clear silt from the catch-channels, and ration every bucket against the six-month dry season from May through October. Every gallon inside that stone cistern is **accumulated collective labor** stored against the summer drought.\n\u003e\n\u003e In July, when the creek beds are cracked dust, suppose a theorist stands at the cistern gate and argues that boundaries are arbitrary lines, and that everyone in the region has an equal human right to the water inside, whether or not he belongs to the settlement, helped quarry the stone, or will help clear the channels next spring.\n\u003e\n\u003e If the settlement unbolts the gate to five hundred strangers who never dug a channel and acknowledge no obligation to the settlement's rules, the cistern is drained in three weeks, the orchard trees wither, and both the settlers and the newcomers perish of thirst together.",
+      "note": "I like it as written. I'm wondering if callbacks to actual sucesses or failures of this principles would add or detract from this.",
+      "at": "2026-11-22T13:37:43Z"
+    },
+    "call:civ/chapters/09_ch09.md:71f5446f:prop/exam-real": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "I like the example, and it shows unequal willingness to bear cost, but not hitting against reality itself, just a judgement. Is there a different, sharper example?",
+      "hold_for": "research",
+      "at": "2026-11-22T14:12:48Z"
+    },
+    "call:civ/chapters/09_ch09.md:71f5446f:prop/exam-reality-hit": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "A port authority administers the same **Harbor Pilot's Examination** on tides, shoals, and channel charts to a hundred candidates. Every candidate had access to the same charts, the same training cruises, and the same two hours in a quiet room. The examinations are graded anonymously by candidate number so the board cannot see any candidate's name, race, sex, or family background.\n\nOne candidate spent twelve hours a week all year studying currents and soundings and has a sharp grasp of seamanship; he scores **98 out of 100**. Another spent two hours a week studying and struggles to read a tidal chart; he scores **54 out of 100**.\n\n**The examination was not unjust because the two candidates received unequal scores.** The unequal outcome is the **truthful measurement** of different preparation and competence under an identical procedure.\n\nIf the port commissioner intervenes, declares the unequal scores proof of systemic injustice, discards the examination, and grants both men the same harbor pilot's license, two failures occur at once: first, the port confiscates the reward of diligent labor and teaches the next class of apprentices that study is pointless; second, **it falsifies reality** and puts an incompetent pilot onto the deck of a forty-thousand-ton ship entering a rocky channel.\n\nTwentieth-century history tested that error at national scale twice, and physical reality forced both regimes to reverse course. During the First Five-Year Plan (1928 to 1932), the Soviet Union bypassed individual entrance examinations in technical institutes to fill engineering seats by class quotas and graded students collectively in brigades; when graduates proved unable to keep industrial plants running, the Central Executive Committee issued its decree of September 19, 1932 abolishing collective grading and restoring individual examinations and theses. China repeated the experiment during the Cultural Revolution, abolishing the national university entrance examination (*gaokao*) in 1966 in favor of class-background recommendations; eleven years of crippled technical training forced Deng Xiaoping to restore the examination in 1977, stating that examinations check students' work just as the testing of factory products checks industrial quality.",
+      "at": "2026-11-22T14:25:38Z"
+    },
+    "call:civ/chapters/09_ch09.md:a8285261:prop/bridge-vary": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "A port authority administers the same **Harbor Pilot's Examination** on tides, shoals, and channel charts to a hundred candidates. Every candidate had access to the same charts, the same training cruises, and the same two hours in a quiet room. The examinations are graded anonymously by candidate number so the board cannot see any candidate's name, race, sex, or family background.\n\nOne candidate spent twelve hours a week all year studying currents and soundings and has a sharp grasp of seamanship; he scores **98 out of 100**. Another spent two hours a week studying and struggles to read a tidal chart; he scores **54 out of 100**.\n\n**The examination was not unjust because the two candidates received unequal scores.** The unequal outcome is the **truthful measurement** of different preparation and competence under an identical procedure.\n\nIf the port commissioner intervenes, declares the unequal scores proof of systemic injustice, discards the examination, and grants both men the same harbor pilot's license, two failures occur at once: first, the port confiscates the reward of diligent labor and teaches the next class of apprentices that study is pointless; second, **it falsifies reality** and puts an incompetent pilot onto the deck of a forty-thousand-ton ship entering a rocky channel.",
+      "note": "I like it but I think it would be stronger with either an added real life example(s) of this (or people advocating for this) or replacing it with a real life example. But I like this as is as well.",
+      "at": "2026-11-22T13:40:00Z"
+    },
+    "call:civ/chapters/09_ch09.md:b9776fa2:prop/cistern-real-anchor": {
+      "disposition": "withdraw",
+      "alternate": "a",
+      "at": "2026-11-22T14:09:43Z"
+    },
+    "call:civ/chapters/09_ch09.md:fe73be61:prop/callback-ch09": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "    A functional right cannot exist in a vacuum; it operates in reality only inside a defined jurisdiction (*scope*) where citizens bear the cost of enforcing it. Modern human-rights ideology erases the word *scoped*. It declares that any human being in the world, simply by existing biologically, possesses an immediate \"human right\" to cross your national border uninvited, draw from the **Desert Cistern** (Section 1 above) that your parents and grandparents built and filled, and demand housing, schooling, medical care, legal representation, and political power on the same terms as the citizens who maintain it. It ignores that obligation is tiered and that justice is scoped: an unscoped claim for every stranger is a prescription for insolvency and dissolution for the host nation.",
+      "at": "2026-11-22T13:37:49Z"
+    },
+    "call:civ/chapters/10_ch10.md:666a8598:prop/callback-ch08": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "In **The Family Orchard** of Chapter 8, the father and mother who spent six months clearing brambles and setting apple and walnut trees on the hillside did not experience those Saturdays as a penal sentence; building a world for their eight-year-old son gave their own strength and skill a clear, daily purpose.",
+      "at": "2026-11-22T13:33:20Z"
+    },
+    "call:civ/chapters/10_ch10.md:bd82d886:prop/granary-real": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "#### Refusing Generational Theft: Nauru and the Leningrad Seed Bank\n\nThe grave violations of Virtue 7 are three: elders who refuse to form those younger than themselves; the young who refuse to listen to the experience around them and test it; and **generational theft**, in which the living treat the accumulated moral, institutional, and financial capital of their ancestors as a private fund to be exhausted in a single lifetime, leaving decayed infrastructure, debased currency, massive sovereign debt, and corrupted schools.\n\nTwo twentieth-century records show the violation and the virtue in stark contrast:\n\n\u003e **Nauru's Phosphate Trust (1968 to 2004):** Upon independence in 1968, the small Pacific island of Nauru held rich, finite phosphate deposits that gave its roughly ten thousand citizens one of the highest incomes per person in the world. Knowing the rock would run out, the republic established the Nauru Phosphate Royalties Trust to preserve that wealth for future generations, and by about 1990 the fund stood above one billion Australian dollars. Instead of keeping the principal intact, the living generation borrowed against the trust to cover ongoing public deficits, bought luxury imports and speculative overseas hotels, and strip-mined four-fifths of the island to barren limestone. By the early 2000s, Asian Development Bank reviews recorded that the trust had lost more than three-quarters of its value and entered receivership, leaving the next generation with stripped land and an insolvent state.\n\u003e\n\u003e **The Leningrad Seed Bank (1941 to 1944):** During the 872-day Siege of Leningrad, staff at the All-Union Institute of Plant Industry, founded by the geneticist Nikolai Vavilov (Chapter 2), guarded tons of edible wheat, rice, peas, and potatoes stored as the nation's breeding collection. According to the institute's published records, nine botanists and staff members starved to death at their posts rather than eat the seed collection reserved for future harvests.\n\nAny society that accumulates peacetime deficits so current voters can consume more than they produce, allows its power grids and roads to age without replacement, inflates away savings, or converts its schools into centers of ideological conditioning is repeating Nauru's error. Virtue 7 commands the opposite: preserve the seed, maintain the inheritance, and leave the next generation stronger than you began.",
+      "at": "2026-11-22T13:41:43Z"
+    },
+    "call:civ/chapters/10_ch10.md:f682b2e1:prop/callback-ch08-plymouth": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "In **Plymouth Colony** of Chapter 8, the fathers and mothers who took their children into the fields once each household received its own parcel of land did not experience that labor as a penal sentence; building a livelihood for their own children gave their strength and skill a clear, daily purpose.",
+      "at": "2026-11-22T14:08:04Z"
+    },
+    "call:civ/chapters/11_ch11.md:561a100e:prop/compassion-fable-keep": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "I don't think this make the point it needs to make, and it gives social construcovists an easy leaver to pull.",
+      "hold_for": "research",
+      "at": "2026-11-22T14:26:54Z"
+    },
+    "call:civ/chapters/11_ch11.md:561a100e:prop/compassion-market-watch": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "#### The Market Square and the Night Watch: Why False Compassion Harms the Weakest First\n\nEven when the person advocating \"compassion over rules\" is not a calculating Marcusean strategist, but merely a sentimental citizen who dislikes seeing anyone punished, the following case illustrates who actually bears the cost when a community adopts the Compassionate Delusion:\n\n\u003e **The Market Square and the Night Watch:** In an old market town, wealthy merchants live on the hill inside walled stone compounds with iron gates, barred vaults, and hired private watchmen. Down on the open market square live the cobblers, bakers, day-laborers, and elderly widows, whose wooden-shuttered shops and modest rooms depend on the town constable and the municipal night watch.\n\u003e\n\u003e In November, a small band of repeat thieves begins breaking into shops after dark. The town constable catches three of them in the act, recovers the stolen goods, and locks them in the town jail to await trial. The next morning, a sentimental committee from the walled quarter visits the magistrate, argues that the thieves came from hard backgrounds, declares jail harsh and unfeeling, and demands that a compassionate town release them without bail and cease prosecuting property crime.\n\u003e\n\u003e The town council yields to the committee and orders the constable to stand down. The committee members congratulate themselves at every dinner on their humanity.\n\u003e\n\u003e **By January, the market square reveals the consequence.** Stopping the prosecutions did not stop the thieves from stealing; it only decided whom they robbed. They could not scale the wealthy merchants' iron gates or get past their hired watchmen, and even an occasional loss from a merchant's wagon was easily absorbed. Instead, the thieves pried open the wooden shutters of the cobbler, emptied the baker's till, and stripped the widow's stall bare night after night.\n\u003e\n\u003e By February, the small shops on the square are boarded up and the working families are ruined, while the committee members who ordered the watch to stand down sit behind their locked gates praising their own \"empathy.\"\n\nThe operational principle on that square applies across society: when a city refuses to restrain repeat thieves, violent offenders, and disorderly students in the name of \"compassion,\" the wealthy can always purchase high walls, gated neighborhoods, private security guards, and private tutors. It is the law-abiding working-class family, the elderly widow on public transit, and the capable poor child sitting in a disordered public classroom who depend on the public watch. Enforcing order, standards, and law is the truest compassion a city can show to its industrious poor.",
+      "at": "2026-11-22T14:30:34Z"
+    },
+    "call:civ/chapters/11_ch11.md:561a100e:prop/compassion-real": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "The real-life example is good, but I'm concerned the point isn't made as well. Unless there is a clearer example, perhsps let's keep a version of the fictional account.",
+      "hold_for": "research",
+      "at": "2026-11-22T14:18:38Z"
+    },
+    "call:civ/chapters/11_ch11.md:561a100e:prop/granary-vary": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "The example feels too estoic now. Are there any more concrete, ideally real-life, examples of this?",
+      "hold_for": "research",
+      "at": "2026-11-22T13:43:36Z"
+    },
+    "call:civ/chapters/11_ch11.md:7ee2393f:prop/bridge-vary": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "An engineer, in the sense this book uses, is a person whose work is bound to physical reality. The hull floats or sinks, the patient lives or dies, and the ledger balances or does not. Whether he designs a steam turbine, farms wheat, performs surgery, writes software, or drafts a constitutional check, reality is his final auditor. An institution that grows large through its builders hires clerks to schedule work, keep accounts, and keep personnel records, and in that subordinate place administration is useful. **Managerialism** is the disorder in which that apparatus detaches itself from physical reality, takes command over the engineers and the frontline builders, and turns the institution toward its own continuance, status, and protection from blame.\n\nThe two differ first in what they answer to. The engineer answers to physical results, and no presentation saves him if the boiler bursts. The manager answers to consensus and paper compliance. When the school fails to teach reading, he redefines the measure. The two differ also in who answers. In engineering, one chief engineer or master stamps his name on the work. In management, a decision passes through enough committees that when it fails, every standard procedure was followed and no one is responsible. They differ in how people are chosen: by demonstrated performance on the test bench, or by credentials, fluency in the approved terms, and quotas. They differ in how error is treated. The engineer keeps checklists and stress tests and listens when a junior mechanic finds a cracked seal. The manager treats the bearer of bad news as a threat to the schedule, as at Thiokol and at Chernobyl. They differ in their rules: brief specifications written in advance and applied alike, against thousands of pages of rules enforced at discretion. The locked shop door of section 1 is the managerial treatment of risk.",
+      "at": "2026-11-22T13:44:20Z"
+    },
+    "call:civ/chapters/11_ch11.md:e86f5819:prop/callback-ch11-market": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "2. **Ask \"What Happens in Year Ten if Everyone Does This?\"** A policy that sounds benevolent in a brief slogan but leaves the shops boarded up and the street ruined in ten years is not compassion; it is delayed-action cruelty.",
+      "at": "2026-11-22T14:30:35Z"
+    },
+    "call:civ/chapters/14_ch14.md:dee3eb82:prop/bridge-keep": {
+      "disposition": "reject",
+      "alternate": "keep",
+      "note": "Keep: sharp closing aphorism echoing Chapter 2's bridge example.",
+      "at": "2026-11-22T13:45:02Z"
+    }
+  }
+}

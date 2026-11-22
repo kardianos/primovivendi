@@ -41,7 +41,7 @@ On load:
 
 Accept and revise stay disabled unless the hit is `offset` or `moved`, or the author sets `reaffirm`. Reject, withdraw, and hold stay available.
 
-The id is the one the tool emits. A useful shape is `source`, `path`, the first 8 hex chars of the quote's SHA-256, and `rule`. The offset is not part of the id. A later packet with the same id refreshes `problem`, `alternates`, `quote`, and the byte fields in place. A saved decision stays.
+The id is the one the tool emits. A useful shape is `source`, `path`, the first 8 hex chars of the quote's SHA-256, and `rule`. The offset is not part of the id. A later packet with the same id refreshes `problem`, `alternates`, `quote`, `from`, and the byte fields in place. A saved decision stays. On a refresh, repeat `from`. A blank `from` in the later file clears it.
 
 ## Toolkit
 
@@ -65,6 +65,7 @@ An item is one decision the author can make. Four kinds arrive in the same shape
   "version": 1,
   "id": "linear:civ/chapters/09_ch09.md:9f3a:split",
   "source": "civ/linear",
+  "from": "grok-4.7",
   "kind": "sentence",
   "path": "civ/chapters/09_ch09.md",
   "byte_offset": 1840,
@@ -76,12 +77,17 @@ An item is one decision the author can make. Four kinds arrive in the same shape
   "rule": "rule-10/split",
   "alternates": [
     {"id": "a", "label": "split", "text": "First sentence. Second sentence."},
-    {"id": "b", "label": "pull forward", "text": "The verb leads, and the opening follows."}
+    {"id": "b", "label": "pull forward", "from": "opus-5.5", "text": "The verb leads, and the opening follows."},
+    {"id": "no", "from": "cabon", "ignore": true, "reason": "this was actually good"}
   ]
 }
 ```
 
 `path` is relative to the repository root and uses forward slashes. `quote` is the exact bytes, including a newline the tool included. `byte_offset` is the start of those bytes when the tool knew it, and `byte_end` is the byte after the quote. Omit both when the tool does not know an offset. `before` and `after` are optional context. The locate rules are in Format, above. A hit of `ambiguous` or `missing` can be read, rejected, withdrawn, or held. Accept and revise stay disabled until the quote matches once, or the author sets `reaffirm`.
+
+`source` is the id prefix and the tool that emitted the item (`call`, `civ/linear`, `civ/lint`). `from` is the model or agent that wrote the suggestion: `argon`, `cabon`, `grok-4.7`, `opus-5.5`, and the same kind of name. It is not the book's author. The item `from` covers the problem and every alternate that agent wrote. An alternate has its own `from` slot. Leave that slot blank when the same agent wrote the alternate. A blank alternate `from` displays as the item `from`. Set the alternate `from` only when a different agent adds that alternate. `review add` clears an alternate `from` that equals the item `from`. A tool with no model name may omit `from`.
+
+An alternate with `"ignore": true` is a vote against the whole suggestion, not a replacement. `reason` says why (`this was actually good`). Leave `text` empty. One such alternate is enough. The viewer labels it Ignore and shows the reason. Agreeing with it saves `reject`, copies the reason into the note when the note is empty, and does not change the passage. `apply` will not splice it.
 
 A later run of the same tool refreshes the item in place when the id is unchanged. A changed quote is a new id. The old item stays until the author withdraws it or its quote matches again.
 
@@ -100,7 +106,7 @@ civ/notes/review/
 
 Agents that add a question or read a decision are pointed at `notes/31_review_queue.md`. This file remains the implementation spec.
 
-A packet file is either one item or `{"version":1,"items":[...]}`. A response packet may also carry `applied` and `answers`. The viewer loads every `packets/*.json` at startup. Files that fail to parse are listed in the status bar and skipped. Last file wins for a given `id` on the fields agents own (`problem`, `alternates`, `rule`, `quote`, `byte_offset`, `byte_end`, `before`, `after`). `decisions.json` wins on the disposition. Reloading when the window gains focus is not in the prototype yet.
+A packet file is either one item or `{"version":1,"items":[...]}`. A response packet may also carry `applied` and `answers`. The viewer loads every `packets/*.json` at startup. Files that fail to parse are listed in the status bar and skipped. Last file wins for a given `id` on the fields agents own (`problem`, `alternates`, `rule`, `quote`, `byte_offset`, `byte_end`, `before`, `after`, `from`). `decisions.json` wins on the disposition. Reloading when the window gains focus is not in the prototype yet.
 
 `decisions.json`:
 
@@ -163,9 +169,9 @@ The viewer marks an applied item only when `ok` is true and the file now contain
 
 One window, three regions. The prototype opens on the first open item.
 
-- **Left.** Filters: open, all, hold, decided, stale. Then the items. A row shows the id, the match (`offset`, `moved`, `ambiguous`, `missing`), the kind, and the disposition.
-- **Center.** The path, the recorded offset against the offset that was found, and the problem. Under that, the source around the quote, with the quote marked, and a word diff of the quote against the focused alternate. The passage starts at two lines above the quote and two below. Above, Below, `[`, and `]` open that side further (8 lines, then 24, then 80, then the rest of the file). Chapter shows the whole file. Tight returns to two lines. Moving to another item returns to two lines. Compare replaces the passage with columns: the current quote, each alternate, and Mine when it has text.
-- **Right.** One button per alternate, then Accept, Use my wording, Reject, the three holds, Withdraw, Reaffirm, Compare, Next, and Previous. Under those, the full alternate, the Mine field, and the note.
+- **Left.** Filters: open, all, hold, decided, stale. Then the items. A row shows the id, the match (`offset`, `moved`, `ambiguous`, `missing`), the kind, the disposition, and the item `from` when it is set.
+- **Center.** The path, the item `from` when it is set, the recorded offset against the offset that was found, and the problem. Under that, the source around the quote, with the quote marked, and a word diff of the quote against the focused alternate. The diff title names that alternate's `from` (its own, or the item `from` when the alternate's slot is blank). The passage starts at two lines above the quote and two below. Above, Below, `[`, and `]` open that side further (8 lines, then 24, then 80, then the rest of the file). Chapter shows the whole file. Tight returns to two lines. Moving to another item returns to two lines. Compare replaces the passage with columns: the current quote, each alternate, and Mine when it has text. Each alternate column shows its `from`.
+- **Right.** One button per alternate, with that alternate's `from` under the button. An `ignore` alternate is the button Ignore. Then Accept, Use my wording, Reject, the three holds, Withdraw, Reaffirm, Compare, Next, and Previous. When Ignore is focused, Accept is labeled Ignore this and records `reject` with the reason. Under those, the full alternate, its `from`, the Mine field, and the note. An `ignore` alternate shows its reason instead of a replacement.
 
 Keys, and the same actions as buttons. A focused Mine or Note field takes the plain letters, because those keys type. Ctrl+J and Ctrl+K still move, and Ctrl+Enter saves Mine.
 
@@ -217,6 +223,8 @@ Plain `go test` in `civ/review`:
 - `export` places an `accept` and a `revise` under Apply, a `hold` under Answer, and a `reject` under Closed. The replacement text is the alternate for `accept` and the author's `text` for `revise`. An open item is left out.
 - A response packet with `ok: true` marks applied only when the file contains the replacement. `ok: true` while the replacement is absent stays unapplied. `ok: false` stays unapplied.
 - `gowakutest` opens the sample packet, taps Accept on the offset hit, and reads `accept` back from a temporary `decisions.json`.
+- A blank alternate `from` displays as the item `from`. An alternate `from` that equals the item `from` is cleared by `add`. A different alternate `from` is kept and shown on that alternate.
+- An `ignore` alternate shows its reason, and agreeing with it writes `reject` without a replacement. `apply` skips an accept that names an `ignore` alternate.
 
 `import-lint` is not covered yet, because that importer is not written. The sample packet is `civ/notes/review/packets/sample.json`, over `civ/review/testdata/passage.md`. It has an exact offset, a moved hit, an ambiguous hit, a missing quote, a two-draft rewrite, and an em-dash lint.
 

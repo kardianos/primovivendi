@@ -227,6 +227,15 @@ func (s *reviewState) itemRow(th *theme.Theme, it Item, muted text.Style) gowaku
 	if it.Locked {
 		badges = append(badges, "locked")
 	}
+	if it.From != "" {
+		badges = append(badges, "from "+it.From)
+	}
+	for _, a := range it.Alternates {
+		if a.Ignore {
+			badges = append(badges, "ignore")
+			break
+		}
+	}
 	title := rowTitle(it, h)
 	preview := singleLinePreview(it.Quote, 46)
 	meta := strings.Join(badges, " · ")
@@ -281,8 +290,11 @@ func (s *reviewState) centerPane(th *theme.Theme, body, muted text.Style) gowaku
 	h := s.session.Hits[it.ID]
 	children := []gowaku.Widget{
 		basic.Text{Content: fmt.Sprintf("%s  (%s)", it.Path, it.ID), Style: text.Style{Size: 13, Weight: 700, Color: th.Color.Ink}},
-		basic.Text{Content: s.matchLabel(it, h), Style: muted},
 	}
+	if it.From != "" {
+		children = append(children, basic.Text{Content: "from: " + it.From, Style: text.Style{Size: 13, Weight: 700, Color: th.Color.Ink}})
+	}
+	children = append(children, basic.Text{Content: s.matchLabel(it, h), Style: muted})
 	if it.Locked {
 		children = append(children, basic.Container{
 			Color:   th.Color.Danger.WithAlpha(0.16),
@@ -392,10 +404,18 @@ func (s *reviewState) passageView(th *theme.Theme, it Item, h Hit, body, muted t
 		diffTitle = "Word diff (Quote -> Mine)"
 		target = s.mine
 		hasTarget = true
+	} else if hasAlt && alt.Ignore {
+		diffTitle = "Ignore"
+		if from := SuggestionFrom(it, alt); from != "" {
+			diffTitle += " · " + from
+		}
 	} else if hasAlt {
 		lbl := alt.Label
 		if lbl == "" {
 			lbl = alt.ID
+		}
+		if from := SuggestionFrom(it, alt); from != "" {
+			lbl += " · " + from
 		}
 		diffTitle = fmt.Sprintf("Word diff (Quote -> %s)", lbl)
 		target = alt.Text
@@ -412,7 +432,13 @@ func (s *reviewState) passageView(th *theme.Theme, it Item, h Hit, body, muted t
 		}))
 	}
 	children = append(children, basic.Row{Spacing: 8, Cross: layout.CrossCenter, Children: diffHeaderChildren})
-	if hasTarget {
+	if hasAlt && alt.Ignore && !useMine {
+		reason := alt.Reason
+		if reason == "" {
+			reason = "Ignore."
+		}
+		children = append(children, basic.Text{Content: reason, Style: body})
+	} else if hasTarget {
 		spans := diffSpans(WordDiff(it.Quote, target), body.Size, th.Color.Ink, th.Color.Danger.WithAlpha(0.28), th.Color.Accent.WithAlpha(0.28))
 		if len(spans) == 0 {
 			children = append(children, basic.Text{Content: "(empty)", Style: muted})
@@ -428,16 +454,21 @@ func (s *reviewState) passageView(th *theme.Theme, it Item, h Hit, body, muted t
 }
 
 func (s *reviewState) compareView(th *theme.Theme, it Item, body text.Style) gowaku.Widget {
-	cols := []gowaku.Widget{s.draftColumn(th, "Current", it.Quote, body)}
+	cols := []gowaku.Widget{s.draftColumn(th, "Current", "", it.Quote, body)}
 	for _, a := range it.Alternates {
-		label := a.Label
-		if label == "" {
-			label = a.ID
+		label := altLabel(a)
+		content := a.Text
+		if a.Ignore {
+			label = "Ignore"
+			content = a.Reason
+			if content == "" {
+				content = "Ignore."
+			}
 		}
-		cols = append(cols, s.draftColumn(th, label, a.Text, body))
+		cols = append(cols, s.draftColumn(th, label, SuggestionFrom(it, a), content, body))
 	}
 	if strings.TrimSpace(s.mine) != "" {
-		cols = append(cols, s.draftColumn(th, "Mine", s.mine, body))
+		cols = append(cols, s.draftColumn(th, "Mine", "", s.mine, body))
 	}
 	return basic.Scroll{
 		Horizontal: true,
@@ -447,9 +478,25 @@ func (s *reviewState) compareView(th *theme.Theme, it Item, body text.Style) gow
 	}
 }
 
-func (s *reviewState) draftColumn(th *theme.Theme, title, content string, body text.Style) gowaku.Widget {
-	return basic.SizedBox{Width: 340, Child: basic.Column{Cross: layout.CrossStretch, Children: []gowaku.Widget{
+func altLabel(a Alternate) string {
+	if a.Ignore {
+		return "Ignore"
+	}
+	if a.Label != "" {
+		return a.Label
+	}
+	return a.ID
+}
+
+func (s *reviewState) draftColumn(th *theme.Theme, title, from, content string, body text.Style) gowaku.Widget {
+	head := []gowaku.Widget{
 		basic.Text{Content: title, Style: text.Style{Size: 13, Weight: 700, Color: th.Color.Ink}},
+	}
+	if from != "" {
+		head = append(head, basic.Text{Content: "from: " + from, Style: text.Style{Size: 12, Color: th.Color.Ink2}})
+	}
+	return basic.SizedBox{Width: 340, Child: basic.Column{Cross: layout.CrossStretch, Children: []gowaku.Widget{
+		basic.Column{Size: layout.MainMin, Cross: layout.CrossStretch, Spacing: 2, Children: head},
 		basic.Expanded{Child: basic.Scroll{Child: basic.Column{
 			Size:     layout.MainMin,
 			Cross:    layout.CrossStretch,
@@ -474,17 +521,28 @@ func (s *reviewState) editPane(th *theme.Theme, body, muted text.Style) gowaku.W
 			for i := start; i < end; i++ {
 				i := i
 				a := it.Alternates[i]
-				label := a.Label
-				if label == "" {
-					label = a.ID
-				}
+				label := altLabel(a)
 				style := control.ButtonQuiet
+				if a.Ignore {
+					style = control.ButtonDanger
+				}
 				if i == s.altIndex {
 					style = control.ButtonPrimary
 				}
-				row = append(row, s.button(label, style, func() {
+				btn := s.button(label, style, func() {
 					s.SetState(func() { s.altIndex = i })
-				}))
+				})
+				cell := btn
+				if from := SuggestionFrom(it, a); from != "" {
+					cell = basic.Column{
+						Size: layout.MainMin, Cross: layout.CrossCenter, Spacing: 1,
+						Children: []gowaku.Widget{
+							btn,
+							basic.Text{Content: from, Style: muted},
+						},
+					}
+				}
+				row = append(row, cell)
 			}
 			altRows = append(altRows, basic.Row{Spacing: 4, Children: row})
 		}
@@ -495,13 +553,19 @@ func (s *reviewState) editPane(th *theme.Theme, body, muted text.Style) gowaku.W
 		altText = alt.Text
 	}
 	var copyAltFn func()
-	if hasAlt {
+	if hasAlt && !alt.Ignore {
 		copyAltFn = func() {
 			s.SetState(func() {
 				s.mine = alt.Text
 				s.diffAltOnly = false
 			})
 		}
+	}
+	acceptLabel := "Accept"
+	acceptStyle := control.ButtonPrimary
+	if hasAlt && alt.Ignore {
+		acceptLabel = "Ignore this"
+		acceptStyle = control.ButtonDanger
 	}
 	topChildren := []gowaku.Widget{
 		basic.Row{Spacing: 4, Children: []gowaku.Widget{
@@ -513,7 +577,7 @@ func (s *reviewState) editPane(th *theme.Theme, body, muted text.Style) gowaku.W
 	topChildren = append(topChildren, altRows...)
 	topChildren = append(topChildren,
 		basic.Row{Spacing: 4, Children: []gowaku.Widget{
-			s.button("Accept", control.ButtonPrimary, s.acceptFn()),
+			s.button(acceptLabel, acceptStyle, s.acceptFn()),
 			s.button("Use my wording", control.ButtonNormal, s.reviseFn()),
 			s.button("Reject", control.ButtonDanger, s.reject),
 		}},
@@ -529,9 +593,7 @@ func (s *reviewState) editPane(th *theme.Theme, body, muted text.Style) gowaku.W
 		}},
 		basic.Expanded{Child: basic.Scroll{Child: basic.Column{
 			Size: layout.MainMin, Cross: layout.CrossStretch, Spacing: 8,
-			Children: []gowaku.Widget{
-				basic.Text{Content: "Alternate", Style: muted},
-				basic.Text{Content: altText, Style: body},
+			Children: append(altDetail(th, it, alt, hasAlt, altText, muted, body),
 				basic.Row{Spacing: 4, Cross: layout.CrossCenter, Children: []gowaku.Widget{
 					s.button("Quote -> Mine", control.ButtonQuiet, func() {
 						s.SetState(func() {
@@ -568,13 +630,38 @@ func (s *reviewState) editPane(th *theme.Theme, body, muted text.Style) gowaku.W
 						}
 					},
 				},
-			},
+			),
 		}}},
 	)
 	return basic.Padding{
 		Insets: geom.Insets{Left: 8, Right: 8, Top: 8, Bottom: 8},
 		Child:  basic.Column{Cross: layout.CrossStretch, Spacing: 8, Children: topChildren},
 	}
+}
+
+func altDetail(th *theme.Theme, it Item, alt Alternate, hasAlt bool, altText string, muted, body text.Style) []gowaku.Widget {
+	heading := "Alternate"
+	shown := altText
+	if hasAlt {
+		name := altLabel(alt)
+		if alt.Ignore {
+			heading = "Ignore"
+			shown = alt.Reason
+			if shown == "" {
+				shown = "Ignore."
+			}
+		} else if name != "" {
+			heading = "Alternate · " + name
+		}
+	}
+	out := []gowaku.Widget{basic.Text{Content: heading, Style: muted}}
+	if hasAlt {
+		if from := SuggestionFrom(it, alt); from != "" {
+			out = append(out, basic.Text{Content: "from: " + from, Style: text.Style{Size: 13, Weight: 700, Color: th.Color.Ink}})
+		}
+	}
+	out = append(out, basic.Text{Content: shown, Style: body})
+	return out
 }
 
 func (s *reviewState) button(label string, style control.ButtonStyle, fn func()) gowaku.Widget {
@@ -928,10 +1015,11 @@ func (s *reviewState) canApply() bool {
 }
 
 func (s *reviewState) acceptFn() func() {
-	if !s.canApply() {
+	a, ok := s.alt()
+	if !ok {
 		return nil
 	}
-	if _, ok := s.alt(); !ok {
+	if !a.Ignore && !s.canApply() {
 		return nil
 	}
 	return s.accept
@@ -973,12 +1061,19 @@ func (s *reviewState) accept() {
 	if !ok {
 		return
 	}
+	if a.Ignore {
+		if strings.TrimSpace(s.note) == "" {
+			s.note = a.Reason
+		}
+		s.decide("reject", "", a.ID, "")
+		return
+	}
 	s.decide("accept", "", a.ID, a.Text)
 }
 
-func (s *reviewState) revise()            { s.decide("revise", "", s.altID(), "") }
-func (s *reviewState) reject()            { s.decide("reject", "", s.altID(), "") }
-func (s *reviewState) withdraw()          { s.decide("withdraw", "", s.altID(), "") }
+func (s *reviewState) revise()             { s.decide("revise", "", s.altID(), "") }
+func (s *reviewState) reject()             { s.decide("reject", "", s.altID(), "") }
+func (s *reviewState) withdraw()           { s.decide("withdraw", "", s.altID(), "") }
 func (s *reviewState) hold(forWhat string) { s.decide("hold", forWhat, s.altID(), "") }
 
 func (s *reviewState) reopen() {

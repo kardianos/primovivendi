@@ -18,7 +18,7 @@ Common flags: `-root`, `-packets`, `-decisions`. Demo flags: `-packets civ/notes
 
 Question / rewrite (`kind`: `call`, `rewrite`, `sentence`, `lint`):
 ```json
-{"version":1,"items":[{"id":"call:civ/chapters/01_ch01.md:ab12cd34:rule","source":"agent","kind":"call","path":"civ/chapters/01_ch01.md","quote":"exact bytes","before":"...","after":"...","problem":"...","rule":"...","locked":false,"alternates":[{"id":"a","label":"shorter","text":"..."}]}]}
+{"version":1,"items":[{"id":"call:civ/chapters/01_ch01.md:ab12cd34:rule","source":"agent","from":"grok-4.7","kind":"call","path":"civ/chapters/01_ch01.md","quote":"exact bytes","before":"...","after":"...","problem":"...","rule":"...","locked":false,"alternates":[{"id":"a","label":"shorter","text":"..."},{"id":"b","label":"other","from":"opus-5.5","text":"..."},{"id":"no","from":"cabon","ignore":true,"reason":"this was actually good"}]}]}
 ```
 
 Response (hold answers and/or manual applies):
@@ -32,5 +32,7 @@ Response (hold answers and/or manual applies):
 - **Hold (`research` / `explain` / `later`):** Leave chapter untouched; reply via `add` with `answers` (and new `items` if proposing new drafts).
 - **Closed (`reject` / `withdraw`):** Do not edit; do not re-raise same quote + rule.
 - **IDs & context:** `id` = `<source>:<path>:<8-hex-sha256-of-quote>:<rule>` (reuse `id` to refresh; new quote = new `id`). Provide `before`/`after` when `quote` repeats. Always add via `civ/bin/review add` (writes sortable `YYYYMMDD-HHMMSS-<slug>.json`).
+- **from:** Set `from` on the item to the model or agent that wrote the suggestion (`argon`, `cabon`, `grok-4.7`, `opus-5.5`, and the same kind of name). Leave an alternate's `from` blank when that same agent wrote it. A blank alternate `from` shows the item `from`. Set an alternate's `from` only when a different agent adds that alternate. On a refresh, repeat the item `from` and any alternate `from` already set. `source` is the id prefix (`call`, `civ/linear`). It is not `from`. `from` is not the book's author. `review add` clears an alternate `from` that equals the item `from`.
+- **ignore:** To vote against the whole suggestion, add one alternate and no replacement: `{"id":"no","from":"cabon","ignore":true,"reason":"this was actually good"}`. Set that alternate's `from` when you are not the item's agent. Leave `text` empty. The viewer shows it as Ignore. Agreeing with it records `reject` and keeps the reason. The passage stays.
 - **Guardrails:** Never edit `decisions.json`. Never run `civ/build.fish`. Locked lines (`00_civ_authoritative_bones.md`, `06_editing_guide.md` §1): set `"locked":true`, leave `alternates` empty.
 - **After apply:** Run `civ/bin/lint` (and `civ/bin/linear check -file <path>` on touched chapters). Raise follow-ups as new packet items; never insert unapproved prose.

@@ -30,7 +30,7 @@ func TestApplyBottomUpAndGuards(t *testing.T) {
 		"items": []map[string]any{
 			{
 				"id": "i1", "path": "chap.md", "byte_offset": 0, "byte_end": len("First line keeps truth."),
-				"quote": "First line keeps truth.",
+				"quote":      "First line keeps truth.",
 				"alternates": []map[string]string{{"id": "a", "text": "First line holds truth."}},
 			},
 			{

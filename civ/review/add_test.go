@@ -39,6 +39,31 @@ func TestAddPacketPinsOffsetsAndRejectsStrictMiss(t *testing.T) {
 		t.Fatalf("pinned offset not persisted: %+v", sess.Items)
 	}
 
+	same := []byte(`{"version":1,"items":[{"id":"call:doc:from","from":" grok-4.7 ","path":"doc.md","quote":"Beta line.","alternates":[{"id":"a","label":"same","from":"grok-4.7","text":"Beta."},{"id":"b","label":"other","from":" opus-5.5 ","text":"Line."},{"id":"no","from":" cabon ","ignore":true,"reason":" this was actually good "}]}]}`)
+	res, err = AddPacket(root, packets, same, AddOptions{Slug: "from", Pin: true})
+	if err != nil {
+		t.Fatal(err)
+	}
+	sess, err = LoadSession(root, packets, filepath.Join(root, "decisions.json"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	var got Item
+	for _, it := range sess.Items {
+		if it.ID == "call:doc:from" {
+			got = it
+		}
+	}
+	if got.From != "grok-4.7" || len(got.Alternates) != 3 || got.Alternates[0].From != "" || got.Alternates[1].From != "opus-5.5" {
+		t.Fatalf("from not normalized: %+v", got)
+	}
+	if SuggestionFrom(got, got.Alternates[0]) != "grok-4.7" {
+		t.Fatal("blank alt from should use the item from")
+	}
+	if !got.Alternates[2].Ignore || got.Alternates[2].From != "cabon" || got.Alternates[2].Reason != "this was actually good" || got.Alternates[2].Text != "" {
+		t.Fatalf("ignore alternate: %+v", got.Alternates[2])
+	}
+
 	// Strict rejects missing quotes.
 	bad := []byte(`{"version":1,"items":[{"id":"miss","path":"doc.md","quote":"Nope."}]}`)
 	if _, err := AddPacket(root, packets, bad, AddOptions{Slug: "bad", Strict: true}); err == nil {

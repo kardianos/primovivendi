@@ -4,6 +4,7 @@
     {
       "id": "demo:ch01-naked",
       "source": "demo",
+      "from": "grok-4.7",
       "kind": "sentence",
       "path": "civ/chapters/01_ch01.md",
       "byte_offset": 106,
@@ -20,6 +21,7 @@
     {
       "id": "demo:ch01-newborn",
       "source": "demo",
+      "from": "grok-4.7",
       "kind": "rewrite",
       "path": "civ/chapters/01_ch01.md",
       "byte_offset": 985,
@@ -31,12 +33,14 @@
       "rule": "demo/compare",
       "alternates": [
         {"id": "a", "label": "indeed", "text": "A newborn on the bare ground is wet, naked, and toothless indeed."},
-        {"id": "b", "label": "drop the", "text": "A newborn on bare ground is wet, naked, and toothless."}
+        {"id": "b", "label": "drop the", "from": "opus-5.5", "text": "A newborn on bare ground is wet, naked, and toothless."},
+        {"id": "no", "from": "cabon", "ignore": true, "reason": "this was actually good"}
       ]
     },
     {
       "id": "demo:ch01-house",
       "source": "demo",
+      "from": "argon",
       "kind": "lint",
       "path": "civ/chapters/01_ch01.md",
       "byte_offset": 4443,
@@ -53,6 +57,7 @@
     {
       "id": "demo:ch01-farm",
       "source": "demo",
+      "from": "cabon",
       "kind": "rewrite",
       "path": "civ/chapters/01_ch01.md",
       "byte_offset": 6104,
@@ -64,12 +69,13 @@
       "rule": "demo/long",
       "alternates": [
         {"id": "a", "label": "several", "text": "Leave a freshly plowed farm untouched for several years, and weeds, brush, and forest reclaim the field while the irrigation ditches silt shut."},
-        {"id": "b", "label": "cut short", "text": "Leave a freshly plowed farm untouched for five years."}
+        {"id": "b", "label": "cut short", "from": "opus-5.5", "text": "Leave a freshly plowed farm untouched for five years."}
       ]
     },
     {
       "id": "demo:ch01-virtue",
       "source": "demo",
+      "from": "grok-4.7",
       "kind": "call",
       "path": "civ/chapters/01_ch01.md",
       "byte_offset": 8338,
@@ -86,6 +92,7 @@
     {
       "id": "demo:ch01-five",
       "source": "demo",
+      "from": "argon",
       "kind": "sentence",
       "path": "civ/chapters/01_ch01.md",
       "byte_offset": 15513,
@@ -102,6 +109,7 @@
     {
       "id": "demo:ch01-justice",
       "source": "demo",
+      "from": "grok-4.7",
       "kind": "call",
       "path": "civ/chapters/01_ch01.md",
       "byte_offset": 14745,
@@ -116,6 +124,7 @@
     {
       "id": "demo:ch01-civilization-moved",
       "source": "demo",
+      "from": "cabon",
       "kind": "call",
       "path": "civ/chapters/01_ch01.md",
       "byte_offset": 513,
@@ -130,6 +139,7 @@
     {
       "id": "demo:ch01-civilization-ambiguous",
       "source": "demo",
+      "from": "argon",
       "kind": "call",
       "path": "civ/chapters/01_ch01.md",
       "byte_offset": 0,
@@ -143,6 +153,7 @@
     {
       "id": "demo:ch01-missing",
       "source": "demo",
+      "from": "opus-5.5",
       "kind": "call",
       "path": "civ/chapters/01_ch01.md",
       "quote": "This sentence was never written in chapter 1.",

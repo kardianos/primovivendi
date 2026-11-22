@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/chapters/02_ch02.md:34246c58:prop/bridge-real",
+      "source": "call",
+      "from": "gemini",
+      "kind": "call",
+      "path": "civ/chapters/02_ch02.md",
+      "byte_offset": 901,
+      "byte_end": 1429,
+      "quote": "Suppose the timbers of the old village bridge have rotted inside over ten wet winters. The village council finds the cost of replacing the beams inconvenient, so the council convenes a meeting and votes unanimously that the bridge is structurally sound. The unanimous vote does not remove a single ounce of rot from the oak. When the first heavy wagon rolls onto the span, the rotted timber shears according to the physical state of the wood, not the political minutes of the village council, and the wagon drops into the river.",
+      "problem": "Chapter 2 owns the bridge demonstration (13 uses). Keep the rotted timber bridge as a clean hypothetical, or replace it with a documented bridge collapse where human assurances or faulty calculations ran into physical reality. Historical alternates require downloading the official inquiry report into ext-ref/ before publishing.",
+      "rule": "prop/bridge-real",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "real-life: FIU Bridge 2018 (needs NTSB copy)",
+          "text": "In March 2018, a newly placed concrete pedestrian bridge over Eighth Street in Miami developed wide structural cracks at its northern truss connection. At a project meeting on the morning of March 15, the engineer of record assured the client and contractor that the cracks posed no safety concern, and traffic kept moving beneath the span. Hours later, at 1:46 p.m., the concrete failed according to its physical state, not the assurances given in the morning meeting, and the bridge dropped onto waiting cars, killing six people (NTSB Highway Accident Report HAR-19/02)."
+        },
+        {
+          "id": "b",
+          "label": "real-life: Quebec Bridge 1907 (needs report copy)",
+          "text": "In August 1907, as a cantilever railway bridge across the St. Lawrence River near Quebec neared completion, the steel superstructure weighed thousands of tons more than its designers had calculated, and a lower compression chord had visibly begun to bend. Work continued on the authority of the chief consulting engineer's assurances until the afternoon of August 29, when the overloaded chord buckled according to the strength of the steel, not the calculations on paper, dropping the span into the river and killing seventy-five workers (Royal Commission Quebec Bridge Inquiry, 1908)."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/02_ch02.md:eddaa5e1:prop/bridge-real",
+      "source": "call",
+      "from": "gemini",
+      "kind": "call",
+      "path": "civ/chapters/02_ch02.md",
+      "byte_offset": 17157,
+      "byte_end": 17773,
+      "quote": "Logic and reason are our mental instruments for constructing and checking these models. They are shortcuts to a test. They tell us what a test should show if a model is right. An engineer's formula for the strength of an oak beam rests on other beams that were measured and then loaded until they broke. The formula is a shortcut to breaking this one. It works only from what was measured. If this beam has rotted inside, as the timbers of the village bridge had, the calculation does not show it. A load test does. A model is justified when it has survived contact with the world, not when the deduction is elegant.",
+      "problem": "Optional real-life grounding for hidden internal decay in a bridge member (and pairs cleanly if 02:13 shifts to a historical bridge). Requires downloading NTSB HAR-71/01 into ext-ref/ before publishing.",
+      "rule": "prop/bridge-real",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "real-life: Silver Bridge 1967 (needs NTSB copy)",
+          "text": "Logic and reason are our mental instruments for constructing and checking these models. They are shortcuts to a test. They tell us what a test should show if a model is right. An engineer's formula for the strength of a steel eyebar rests on bars that were measured and loaded until they broke. The formula is a shortcut to breaking this one, and it holds only for what was measured. In December 1967, the Silver Bridge over the Ohio River collapsed during rush hour and killed forty-six people because a hidden tenth-of-an-inch stress-corrosion crack had grown inside the pin hole of a single suspension eyebar (NTSB Highway Accident Report HAR-71/01). The calculation did not show that hidden flaw; physical inspection and testing are what catch it. A model is justified when it has survived contact with the world, not when the deduction is elegant."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/02_ch02.md:d3dd0e64:prop/granary-vary",
+      "source": "call",
+      "from": "gemini",
+      "kind": "rewrite",
+      "path": "civ/chapters/02_ch02.md",
+      "byte_offset": 19658,
+      "byte_end": 21117,
+      "quote": "In an agricultural village five hundred years ago, every third year the farmers take the barley off their main field and plant clover on it instead, explaining to their children that the local field spirits grow angry if they are fed barley three years in a row and delight in the smell of clover blossoms. The next year, when they plant barley again, the grain grows thick and heavy, and the village granary is filled.\n\nDid the practice work? Yes: planting legumes restored nitrogen to the depleted soil and interrupted the cycle of crop pests. Does the full granary prove that invisible field spirits exist and smell clover blossoms? No. A foolish modern reformer who visits the village, proves that field spirits do not exist, and therefore orders the villagers to stop rotating crops and plant barley every year will starve the village within a decade. An equally foolish traditionalist who insists that because the granary is full, every word of the spirit account is literal scientific truth prevents the village from ever understanding soil chemistry. The rotation was justified by the grain; the spirit account was not. Later testing justified a different explanation: bacteria living in nodules on the roots of clover and other legumes take nitrogen from the air and fix it in a form the following crop can use. **Reality judges consequences and practices directly; the explanation attached to a working practice must be tested on its own evidence.**",
+      "problem": "One of five granary/storehouse illustrations across the manuscript. Moving Chapter 2 off grain lets Chapter 10 (or 11) serve unambiguously as 'the granary example.' Alternate (a) uses a distinct physical subject (boiled drinking water); alternate (b) uses a documented historical case (nixtamalization and pellagra, needs primary source copy in ext-ref/ before publishing).",
+      "rule": "prop/granary-vary",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "varied: boiled-water well",
+          "text": "In a river town five hundred years ago, every household boils its well water each morning with a pinch of dried bitter herb, explaining to its children that the bitter smell drives away river ghosts that cause summer fever. The households that keep the custom stay well through August, while travelers who drink straight from the well fall sick.\n\nDid the practice work? Yes: boiling killed the waterborne bacteria before anyone drank them. Does the healthy town prove that river ghosts flee from bitter herbs? No. A foolish modern reformer who visits the town, proves that river ghosts do not exist, and therefore tells the families to stop boiling their water will bring summer fever back within a season. An equally foolish traditionalist who insists that because the town stayed healthy, every word of the ghost account is literal truth prevents the town from ever learning bacteriology. The boiling was justified by the health of the town; the ghost account was not. Later testing justified a different explanation: heat destroys microscopic pathogens in contaminated water, with or without the herb. **Reality judges consequences and practices directly; the explanation attached to a working practice must be tested on its own evidence.**"
+        },
+        {
+          "id": "b",
+          "label": "real-life: nixtamalization (needs source copy)",
+          "text": "For centuries across Mesoamerica, farming peoples boiled and soaked dried maize in water mixed with wood ash or slaked lime before grinding it into dough, treating the step as an inherited culinary custom without any knowledge of vitamin chemistry. Populations living chiefly on maize treated that way remained free of pellagra.\n\nDid the practice work? Yes: the alkaline bath broke open the hull and freed bound niacin so the human digestive tract could absorb it. When European settlers and later farmers in the American South adopted maize as a cheap staple crop while discarding the traditional lime-soaking custom, pellagra swept across corn-dependent counties, killing at least a hundred thousand Americans in the early twentieth century. An impatient reformer who discards a working custom because its practitioners cannot give a modern biochemical account invites catastrophe; a traditionalist who refuses controlled testing never learns why the custom worked. In the 1910s and 1920s, Dr. Joseph Goldberger of the U.S. Public Health Service proved through dietary trials that pellagra was a nutritional deficiency rather than an infection, and in 1937 Conrad Elvehjem isolated niacin as the missing nutrient. **Reality judges consequences and practices directly; the explanation attached to a working practice must be tested on its own evidence.**"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/03_ch03.md:53a1a094:prop/bridge-vary",
+      "source": "call",
+      "from": "gemini",
+      "kind": "rewrite",
+      "path": "civ/chapters/03_ch03.md",
+      "byte_offset": 14661,
+      "byte_end": 15445,
+      "quote": "Suppose two civil engineers from different religious traditions argue over how to design a river bridge. If the first engineer says, *\"We must make the piers out of unreinforced mud brick because my ancient scroll says so,\"* and the second says, *\"I reject your scroll; we must build it according to my scroll,\"* they are not arguing about engineering at all, and they can never reach agreement until one conquers the other. The moment both engineers agree that **the river current, the weight of the trucks, and the compressive strength of the masonry determine whether the structure stands or fails**, they have stepped onto the common ground of Principle 1. Now they can test the mud brick and the stone in water, see the mud brick dissolve, and build the bridge in stone together.",
+      "problem": "Bridges appear 9 times in Chapter 3 after 13 times in Chapter 2. Replacing the mud-brick bridge here with a high-pressure steam boiler keeps Chapter 2 as 'the bridge example' and gives Chapter 3 its own concrete engineering illustration.",
+      "rule": "prop/bridge-vary",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "varied: steam boiler",
+          "text": "Two machinists from different religious traditions argue over how to build a high-pressure steam boiler for a town waterworks. If the first machinist insists that the shell must be riveted from thin copper plate because his ancient scroll says so, and the second rejects that scroll and demands cast iron from his own scroll, they are not arguing about engineering at all, and they cannot agree until one overpowers the other. The moment both machinists agree that **steam pressure and the tensile strength of the metal determine whether the vessel holds or bursts**, they have stepped onto the common ground of Principle 1. Now they can pump both shells full of cold water on a hydrostatic test stand, watch the weak plate split before it reaches operating pressure, and build the boiler in tested steel together."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/03_ch03.md:e6f5c096:prop/real-ext-ref",
+      "source": "call",
+      "from": "gemini",
+      "kind": "call",
+      "path": "civ/chapters/03_ch03.md",
+      "byte_offset": 15817,
+      "byte_end": 16545,
+      "quote": "Suppose an aircraft structural engineer runs a fatigue test on a wing spar and sees that the metal cracked at 80 percent of the required load. If he reports the crack honestly, the project will be delayed by six months, his supervisor will be angry, and his annual bonus will be postponed. If he falsifies the logbook and writes down that the wing passed, everyone in the office goes home happy on Friday afternoon.\n\nFalsifying that logbook is a grave offense against civilization because reality is consequential. The falsified paper satisfies the human bureaucracy, right up until the physical airplane flies into a thunderstorm three years later, the wing snaps off in midair, and two hundred passengers fall to their deaths.",
+      "problem": "The falsified aircraft maintenance logbook here is hypothetical, while ext-ref/eastern_air_lines/ already holds verified local press reports of Eastern Air Lines' 1990 federal indictment and 1991 guilty plea for falsifying maintenance records on landing gear, wing flaps, and fuel filters (previously dropped from Chapter 4 because it did not prove cross-cultural transfer, where it does prove Principle 1 and Virtue 1 here).",
+      "rule": "prop/real-ext-ref",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "real-life: Eastern Air Lines 1990-91 (in ext-ref)",
+          "text": "In July 1990 a federal grand jury indicted Eastern Air Lines and several of its maintenance managers for altering safety and maintenance records. In March 1991 the carrier pleaded guilty to conspiracy and six counts of falsifying work records on its fleet, admitting that records had been written to make it appear maintenance had been performed on landing gear, wing flaps, fuel filters, and other parts when the work had not been done (Associated Press, March 21, 1991). No accident was traced to those omissions, yet the offense against civilization is plain: falsified paper satisfies a schedule and a regulator while leaving the physical machinery uninspected, and reality collects on unperformed maintenance regardless of what the logbook says."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/03_ch03.md:9c798e77:prop/bridge-vary",
+      "source": "call",
+      "from": "gemini",
+      "kind": "call",
+      "path": "civ/chapters/03_ch03.md",
+      "byte_offset": 17212,
+      "byte_end": 17824,
+      "quote": "At the same time, the person who is trying to align with truth faces an inherent limitation. Even when we are completely honest, we do not know everything. Our instruments have tolerances, our observations can miss a hidden crack, and our preferred mental models can be incomplete. When the check shows that our prediction was wrong, when the bridge settles, the business loses money, or the experiment fails, we face a choice: we can protect our pride by hiding the failure and rewriting what we claimed, or we can submit to the evidence, admit the error openly to the people it affected, and correct our model.",
+      "problem": "Another bridge repeat in Chapter 3. Alternate (a) makes a one-word swap to a foundation; alternate (b) adds the real-life Citicorp Center case (William LeMessurier, 1978), which directly illustrates admitting a structural miscalculation openly rather than hiding it (needs primary engineering account in ext-ref/ before publishing).",
+      "rule": "prop/bridge-vary",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "varied: foundation settles",
+          "text": "At the same time, the person who is trying to align with truth faces an inherent limitation. Even when we are completely honest, we do not know everything. Our instruments have tolerances, our observations can miss a hidden crack, and our preferred mental models can be incomplete. When the check shows that our prediction was wrong, when a foundation settles, the business loses money, or the experiment fails, we face a choice: we can protect our pride by hiding the failure and rewriting what we claimed, or we can submit to the evidence, admit the error openly to the people it affected, and correct our model."
+        },
+        {
+          "id": "b",
+          "label": "real-life: Citicorp Center 1978 (needs source copy)",
+          "text": "At the same time, the person who is trying to align with truth faces an inherent limitation. Even when we are completely honest, we do not know everything. Our instruments have tolerances, our observations can miss a hidden crack, and our preferred mental models can be incomplete. In 1978, a year after Manhattan's fifty-nine-story Citicorp Center opened, structural engineer William LeMessurier recalculated diagonal wind loads after a student's question and discovered that bolted joints substituted during construction left the tower vulnerable to a severe storm. He faced the choice every builder faces when a check proves a prediction wrong: hide the defect to protect his reputation, or report it at once to the owners and the city. He reported it, and welders reinforced more than two hundred joints at night before hurricane season arrived."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:64cfac75:prop/granary-vary",
+      "source": "call",
+      "from": "gemini",
+      "kind": "call",
+      "path": "civ/chapters/06_ch06.md",
+      "byte_offset": 22416,
+      "byte_end": 23353,
+      "quote": "    Suppose three generations inhabit one farmhouse. The grandfather cleared the forest, built the stone house, dug the well, and filled the barn with tools and seed grain. The father kept the ledger accurate, repointed the stone walls when frost cracked the mortar, and repaired the tools. Then comes the son. The son finds fieldwork tedious. Every year, he eats from the storehouse, sells off one more parcel of pasture and one more chest of his grandfather's tools (which he never learned how to sharpen) to buy wine and ease, lets the roof leak in the back wing, and teaches his one child nothing of soil, accounts, or carpentry. If you visit that farmhouse in year fifteen of the son's tenure, everyone at the dinner table is still breathing and still eating well. They are \"surviving\" by consuming capital they did not build and cannot repair. Ten years later, the storehouse is empty, the roof collapses, and the family is ruined.",
+      "problem": "Minor storehouse repetition in Chapter 6 ('eats from the storehouse... the storehouse is empty'). Swapping 'storehouse' to 'cellar' and 'barn' keeps the farmhouse vignette intact without competing with 'the granary example.'",
+      "rule": "prop/granary-vary",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "varied: cellar and barn",
+          "text": "Suppose three generations inhabit one farmhouse. The grandfather cleared the forest, built the stone house, dug the well, and filled the barn with tools and seed grain. The father kept the ledger accurate, repointed the stone walls when frost cracked the mortar, and repaired the tools. Then comes the son. The son finds fieldwork tedious. Every year, he eats from the cellar, sells off one more parcel of pasture and one more chest of his grandfather's tools (which he never learned how to sharpen) to buy wine and ease, lets the roof leak in the back wing, and teaches his one child nothing of soil, accounts, or carpentry. If you visit that farmhouse in year fifteen of the son's tenure, everyone at the dinner table is still breathing and still eating well. They are \"surviving\" by consuming capital they did not build and cannot repair. Ten years later, the barn is empty, the roof collapses, and the family is ruined."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:5aba1206:prop/bridge-vary",
+      "source": "call",
+      "from": "gemini",
+      "kind": "rewrite",
+      "path": "civ/chapters/08_ch08.md",
+      "byte_offset": 6394,
+      "byte_end": 9026,
+      "quote": "#### The Family Creek-Bridge: How Tiered Priority Builds Durable Capital\n\nThe work of a single family over one year illustrates how self-anchored, tiered priority builds durable goods across generations, and why atomized egalitarian theories misread how wealth and safety come into existence:\n\n\u003e **The Family Creek-Bridge:** Behind a family's house lies five acres of tangled, overgrown woodland divided by a deep, rocky creek. Their eight-year-old son is growing old enough to explore, and the parents want him to have room to range safely, learn practical outdoor skills, and bring his friends to play.\n\u003e\n\u003e Nobody orders the parents to do what they do next. Every Saturday and evening after work for six months, devoting hundreds of hours of their finite lives, the father and mother take saws, mattocks, and wheelbarrows into the brush. They clear invasive thorns, pull poison ivy, endure splinters and bruised knuckles, excavate stone abutments into the creek banks below the frost line, bolt heavy locust timbers across the span, and spike down oak deck planks.\n\u003e\n\u003e At the end of six months, a sturdy timber bridge stands across the creek where only impassable brambles stood before. The boy crosses it every afternoon; the cleared woodlot reduces brush-fire and pest hazards for the adjoining neighbors; and the bridge will still carry the boy's own children twenty-five years from now.\n\u003e\n\u003e Now invite a \"Lottery of Birth\" egalitarian theorist to walk down the road and see that boy crossing the bridge. Because the egalitarian views every human being as an isolated, detachable individual who arrived from nowhere, he sees only a disparity: this boy has a bridge over the creek, and a boy in the next town does not. The boy did nothing to earn it, the theorist concludes, so it is arbitrary luck, and the public authority should confiscate the bridge or tax away its value until both boys have identical outcomes.\n\u003e\n\u003e The egalitarian's atomized perspective omitted the essential fact: it omitted the four hundred hours of labor, sacrifice, and affection that the boy's mother and father invested in that creek bank specifically because the boy was *their* child. The family is not a random collection of strangers who happened to win a raffle; the family is an intergenerational building unit bound by mutual obligation. If parents across a nation are told that nothing they build may be kept for their own children, and that whatever their labor builds will be seized and divided equally among strangers, the four hundred hours are never worked, the brush is never cleared, the bridge is never built, and everyone is poorer.",
+      "problem": "Chapter 8 carries 8 bridge mentions in The Family Creek-Bridge (plus a callback at 10:46). Replacing it removes a second major bridge parable so Chapter 2 owns 'the bridge example.' Alternate (a) uses The Family Orchard (unique subject, natural multi-generational fit); alternate (b) uses Plymouth Colony's 1623 shift from common storehouse to family plots (William Bradford, Of Plymouth Plantation; download public-domain text to ref/ before quoting verbatim). Pairs with the callback item at civ/chapters/10_ch10.md:46.",
+      "rule": "prop/bridge-vary",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "varied: Family Orchard",
+          "text": "#### The Family Orchard: How Tiered Priority Builds Durable Capital\n\nThe work of a single family over one year illustrates how self-anchored, tiered priority builds durable goods across generations, and why atomized egalitarian theories misread how wealth and safety come into existence:\n\n\u003e **The Family Orchard:** Behind a family's house lie five acres of rocky, bramble-choked hillside. Their eight-year-old son is growing old enough to work beside them, and the parents want him to have land he can tend, learn practical stewardship on, and share with his friends.\n\u003e\n\u003e Nobody orders the parents to do what they do next. Every Saturday and evening after work for six months, devoting hundreds of hours of their finite lives, the father and mother take saws, mattocks, and wheelbarrows onto the slope. They clear invasive thorns, haul fieldstone into dry-laid retaining walls, dig deep planting holes, and set and graft forty apple and walnut trees.\n\u003e\n\u003e At the end of six months, a terraced orchard stands where only impassable brambles stood before. The boy tends the young trees every afternoon; the cleared hillside reduces brush-fire and runoff hazards for the adjoining neighbors; and the orchard will still yield fruit and timber for the boy's own children thirty years from now.\n\u003e\n\u003e Now invite a \"Lottery of Birth\" egalitarian theorist to walk down the road and see that boy harvesting apples from the slope. Because the egalitarian views every human being as an isolated, detachable individual who arrived from nowhere, he sees only a disparity: this boy has a bearing orchard behind his house, and a boy in the next town does not. The boy did nothing to earn it, the theorist concludes, so it is arbitrary luck, and the public authority should confiscate the orchard or tax away its value until both boys have identical outcomes.\n\u003e\n\u003e The egalitarian's atomized perspective omitted the essential fact: it omitted the four hundred hours of labor, sacrifice, and affection that the boy's mother and father invested in that hillside specifically because the boy was *their* child. The family is not a random collection of strangers who happened to win a raffle; the family is an intergenerational building unit bound by mutual obligation. If parents across a nation are told that nothing they build may be kept for their own children, and that whatever their labor builds will be seized and divided equally among strangers, the four hundred hours are never worked, the brush is never cleared, the trees are never planted, and everyone is poorer."
+        },
+        {
+          "id": "b",
+          "label": "real-life: Plymouth 1623 (needs Bradford copy)",
+          "text": "#### Plymouth Colony in 1623: How Tiered Priority Builds Durable Capital\n\nAn early American record illustrates how self-anchored, tiered priority builds durable wealth, and why atomized egalitarian theories misread how abundance comes into existence:\n\n\u003e **Plymouth's Household Plots (1623):** During its first two years, Plymouth Colony farmed under a communal rule that sent every harvest into a common store and fed every person alike from it. The result was persistent shortage. In his history *Of Plymouth Plantation*, Governor William Bradford recorded that able-bodied young men resented spending their strength to feed other men's wives and children without reward, and women pleaded weakness to stay out of the fields.\n\u003e\n\u003e In the spring of 1623, facing famine, Bradford and the colony's leaders abandoned the communal system and assigned every household its own parcel of land to plant for its own family. Output rose at once. Bradford wrote that assigning each family its own plot made every hand industrious, so that far more corn was planted than any command of the governor had ever produced, and mothers went willingly into the fields with their children. The colony never suffered general famine again.\n\u003e\n\u003e An atomized egalitarian who looks only at the resulting harvests sees an unequal distribution among households and calls it unfair luck. That view omits the motive that cleared the soil and set the corn: parents labored beyond what any public official could compel because the harvest belonged to *their* household and *their* children. Tell families across a nation that whatever their labor builds will be pooled and divided equally among strangers, and the extra hours are never worked, the fields shrink, and everyone is poorer."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:666a8598:prop/callback-ch08",
+      "source": "call",
+      "from": "gemini",
+      "kind": "call",
+      "path": "civ/chapters/10_ch10.md",
+      "byte_offset": 5200,
+      "byte_end": 5504,
+      "quote": "In **The Family Creek-Bridge** of Chapter 8, the father and mother who spent six months clearing brush and bolting locust timbers over the creek did not experience those Saturdays as a penal sentence; building a world for their eight-year-old son gave their own strength and skill a clear, daily purpose.",
+      "problem": "Callback to Chapter 8's Family Creek-Bridge. Accept alternate (a) or (b) only if you accept the matching replacement at civ/chapters/08_ch08.md:50-62; otherwise reject.",
+      "rule": "prop/callback-ch08",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "match Ch 8: Family Orchard",
+          "text": "In **The Family Orchard** of Chapter 8, the father and mother who spent six months clearing brambles and setting apple and walnut trees on the hillside did not experience those Saturdays as a penal sentence; building a world for their eight-year-old son gave their own strength and skill a clear, daily purpose."
+        },
+        {
+          "id": "b",
+          "label": "match Ch 8: Plymouth Colony",
+          "text": "In **Plymouth Colony** of Chapter 8, the fathers and mothers who took their children into the fields once each household kept its own plot did not experience that labor as a penal sentence; building a livelihood for their own children gave their strength and skill a clear, daily purpose."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:2f046826:prop/granary-vary",
+      "source": "call",
+      "from": "gemini",
+      "kind": "rewrite",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 13179,
+      "byte_end": 14829,
+      "quote": "#### Borders, the Winter Storehouse, and Naturalization as Civic Adoption\n\nThe same law of scope governs the **national border**.\n\nA house without walls and a roof is not a \"welcoming house\"; it is merely an open patch of ground exposed to the wind and rain. In the same way, a country without enforced borders is not a compassionate polity; it is a dissolved jurisdiction where no law, no civic trust, and no shared treasury can survive.\n\nThe necessity of this boundary is illustrated by a mountain farming community preparing for winter:\n\n\u003e **The Winter Storehouse:** From May through October, forty farming families in a cold mountain valley work twelve hours a day plowing rocky soil, sowing grain, weeding gardens, splitting ten cords of firewood per house, and salting meat into barrels inside the village storehouse. Every pound of flour and every split log in that storehouse is **accumulated summer labor** stored against the six-month freeze from November to April.\n\u003e\n\u003e In January, when the snow is four feet deep, suppose a theorist stands at the storehouse door and argues that boundaries are arbitrary lines, and that everyone on the mountain has an equal human right to the grain and firewood inside, whether or not he belongs to the village, helped plant in May, or will help plow next spring.\n\u003e\n\u003e If the village unbolts the storehouse doors to five hundred strangers who never planted a furrow and acknowledge no obligation to the village laws, the grain and firewood are exhausted by the second week of February, the seed corn for next spring is consumed, and both the villagers and the newcomers freeze and starve together in March.",
+      "problem": "One of the three main granary/storehouse parables (Ch 9, Ch 10, Ch 11). Moving Chapter 9 off grain storehouses clears the name 'the granary example' for Chapter 10 (or 11). Alternate (a) uses The Desert Cistern (unique, unmistakable physical subject); alternate (b) uses Törbel, Switzerland's 1483 alpine pasture charter and wintering rule (Elinor Ostrom, Governing the Commons, 1990; acquire Ostrom/Netting copy before publishing). Pairs with the callback at civ/chapters/09_ch09.md:289.",
+      "rule": "prop/granary-vary",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "varied: Desert Cistern",
+          "text": "#### Borders, the Desert Cistern, and Naturalization as Civic Adoption\n\nThe same law of scope governs the **national border**.\n\nA house without walls and a roof is not a \"welcoming house\"; it is merely an open patch of ground exposed to the wind and rain. In the same way, a country without enforced borders is not a compassionate polity; it is a dissolved jurisdiction where no law, no civic trust, and no shared treasury can survive.\n\nThe necessity of this boundary is illustrated by an arid-basin settlement preparing for the dry season:\n\n\u003e **The Desert Cistern:** During the spring rains, forty farming families in an arid valley quarry stone to line a deep cistern, clear silt from the catch-channels, and ration every bucket against the six-month dry season from May through October. Every gallon inside that stone cistern is **accumulated collective labor** stored against the summer drought.\n\u003e\n\u003e In July, when the creek beds are cracked dust, suppose a theorist stands at the cistern gate and argues that boundaries are arbitrary lines, and that everyone in the region has an equal human right to the water inside, whether or not he belongs to the settlement, helped quarry the stone, or will help clear the channels next spring.\n\u003e\n\u003e If the settlement unbolts the gate to five hundred strangers who never dug a channel and acknowledge no obligation to the settlement's rules, the cistern is drained in three weeks, the orchard trees wither, and both the settlers and the newcomers perish of thirst together."
+        },
+        {
+          "id": "b",
+          "label": "real-life: Törbel 1483 (needs Ostrom copy)",
+          "text": "#### Borders, the Alpine Commons of Törbel, and Naturalization as Civic Adoption\n\nThe same law of scope governs the **national border**.\n\nA house without walls and a roof is not a \"welcoming house\"; it is merely an open patch of ground exposed to the wind and rain. In the same way, a country without enforced borders is not a compassionate polity; it is a dissolved jurisdiction where no law, no civic trust, and no shared treasury can survive.\n\nThe necessity of this boundary is demonstrated by five centuries of documented mountain governance:\n\n\u003e **The Alpine Commons of Törbel (1483):** In February 1483, the farming families of Törbel, an alpine village in Valais, Switzerland, signed a formal charter governing their shared high-altitude summer pastures, forests, and irrigation works. The charter established a strict boundary: outsiders could not acquire rights to the common alp merely by moving in or buying a house, and membership required the formal grant of the existing citizens. A companion statute, known as the wintering rule, decreed that no citizen could send more cows up to the common summer pasture than he could feed through the winter on hay harvested by his own household.\n\u003e\n\u003e As economist Elinor Ostrom documented in *Governing the Commons* (1990), drawing on Robert Netting's archival study of the village, Törbel's common pastures endured in productive order for more than five hundred years precisely because access was bounded and tied to contribution. Remove that boundary and admit five hundred outsiders who harvest no winter hay and accept no village statute, and the summer grass is stripped to bare rock in a single season, ruining villagers and newcomers alike."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:fe73be61:prop/callback-ch09",
+      "source": "call",
+      "from": "gemini",
+      "kind": "call",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 44340,
+      "byte_end": 45128,
+      "quote": "    A functional right cannot exist in a vacuum; it operates in reality only inside a defined jurisdiction (*scope*) where citizens bear the cost of enforcing it. Modern human-rights ideology erases the word *scoped*. It declares that any human being in the world, simply by existing biologically, possesses an immediate \"human right\" to cross your national border uninvited, enter the **Winter Storehouse** (Section 1 above) that your parents and grandparents stocked, and demand housing, schooling, medical care, legal representation, and political power on the same terms as the citizens who built the storehouse. It ignores that obligation is tiered and that justice is scoped: an unscoped claim for every stranger is a prescription for insolvency and dissolution for the host nation.",
+      "problem": "Callback to Chapter 9's Winter Storehouse inside Human Rights Flaw 1. Accept alternate (a) or (b) only if you accept the matching replacement at civ/chapters/09_ch09.md:90-102; otherwise reject.",
+      "rule": "prop/callback-ch09",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "match Ch 9: Desert Cistern",
+          "text": "    A functional right cannot exist in a vacuum; it operates in reality only inside a defined jurisdiction (*scope*) where citizens bear the cost of enforcing it. Modern human-rights ideology erases the word *scoped*. It declares that any human being in the world, simply by existing biologically, possesses an immediate \"human right\" to cross your national border uninvited, draw from the **Desert Cistern** (Section 1 above) that your parents and grandparents built and filled, and demand housing, schooling, medical care, legal representation, and political power on the same terms as the citizens who maintain it. It ignores that obligation is tiered and that justice is scoped: an unscoped claim for every stranger is a prescription for insolvency and dissolution for the host nation."
+        },
+        {
+          "id": "b",
+          "label": "match Ch 9: Törbel commons",
+          "text": "    A functional right cannot exist in a vacuum; it operates in reality only inside a defined jurisdiction (*scope*) where citizens bear the cost of enforcing it. Modern human-rights ideology erases the word *scoped*. It declares that any human being in the world, simply by existing biologically, possesses an immediate \"human right\" to cross your national border uninvited, claim an equal share in the bounded commons of **Törbel** (Section 1 above) that generations of citizens built and kept, and demand housing, schooling, medical care, legal representation, and political power on the same terms as the citizens who sustain it. It ignores that obligation is tiered and that justice is scoped: an unscoped claim for every stranger is a prescription for insolvency and dissolution for the host nation."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:a8285261:prop/bridge-vary",
+      "source": "call",
+      "from": "gemini",
+      "kind": "rewrite",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 22633,
+      "byte_end": 24040,
+      "quote": "A civil engineering professor administers the same **Structural Mechanics Final Examination** to a hundred students. Every student had access to the same lectures, the same textbook, and the same two hours in a quiet room. The examinations are graded anonymously by student identification number so the professor cannot see any student's name, race, sex, or family background.\n\nStudent A spent twelve hours a week all semester solving practice problems and has a strong aptitude for spatial mathematics; he scores **98 out of 100**. Student B spent two hours a week studying and struggles with calculus; he scores **54 out of 100**.\n\n**The examination was not unjust because Student A and Student B received unequal scores.** The unequal outcome is the **truthful measurement** of different preparation and competence under an identical procedure.\n\nWhat happens if the university dean intervenes and declares, *\"Unequal scores are proof of systemic injustice; we must eliminate advanced classes, discard the examination, and grant both Student A and Student B the same Structural Engineer license\"*? Two failures occur simultaneously: first, the institution confiscates the reward of Student A's diligent labor and teaches the next class of students that diligent study is pointless; second, **it falsifies reality** and certifies an incompetent engineer whose bridge will collapse under innocent travelers.",
+      "problem": "Removes another bridge prop from Chapter 9 (and drops algebraic placeholder names 'Student A' / 'Student B' flagged by editing guide Section 3.3). Alternate (a) shifts to a Harbor Pilot's Examination; alternate (b) uses China's 1966 abolition and 1977 restoration of its national university entrance examination (needs primary source copy in ext-ref/ before publishing).",
+      "rule": "prop/bridge-vary",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "varied: Harbor Pilot's Exam",
+          "text": "A port authority administers the same **Harbor Pilot's Examination** on tides, shoals, and channel charts to a hundred candidates. Every candidate had access to the same charts, the same training cruises, and the same two hours in a quiet room. The examinations are graded anonymously by candidate number so the board cannot see any candidate's name, race, sex, or family background.\n\nOne candidate spent twelve hours a week all year studying currents and soundings and has a sharp grasp of seamanship; he scores **98 out of 100**. Another spent two hours a week studying and struggles to read a tidal chart; he scores **54 out of 100**.\n\n**The examination was not unjust because the two candidates received unequal scores.** The unequal outcome is the **truthful measurement** of different preparation and competence under an identical procedure.\n\nIf the port commissioner intervenes, declares the unequal scores proof of systemic injustice, discards the examination, and grants both men the same harbor pilot's license, two failures occur at once: first, the port confiscates the reward of diligent labor and teaches the next class of apprentices that study is pointless; second, **it falsifies reality** and puts an incompetent pilot onto the deck of a forty-thousand-ton ship entering a rocky channel."
+        },
+        {
+          "id": "b",
+          "label": "real-life: 1966-1977 Gaokao (needs source copy)",
+          "text": "Modern history ran this experiment at the scale of an entire nation. At the start of China's Cultural Revolution in 1966, the government abolished the national university entrance examination (*gaokao*) on the ground that anonymous academic testing favored the privileged and produced unequal outcomes across social classes.\n\nWhen universities reopened between 1970 and 1976, admissions ran instead on political reliability and class-background recommendations for \"worker-peasant-soldier\" candidates rather than standardized tests of mathematics, physics, and literacy.\n\n**Abolishing the examination did not equalize technical competence.** It produced a lost decade in engineering, medicine, and scientific research while signaling to an entire generation of young people that disciplined study counted for less than political pedigree. After Mao Zedong's death, Deng Xiaoping led the restoration of the national merit examination in late 1977 because a country cannot run factories, hospitals, or electrical grids on certificates awarded by political category instead of demonstrated mastery."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:bd82d886:prop/granary-real",
+      "source": "call",
+      "from": "gemini",
+      "kind": "rewrite",
+      "path": "civ/chapters/10_ch10.md",
+      "byte_offset": 19013,
+      "byte_end": 21410,
+      "quote": "#### Refusing Generational Theft: The Example of the Seed Granary\n\nThe grave violations of Virtue 7 are three: elders who refuse to form those younger than themselves; the young who refuse to listen to the experience around them and test it; and **generational theft**, in which the living treat the accumulated moral, institutional, and financial capital of their ancestors as a private fund to be exhausted in a single lifetime, leaving decayed infrastructure, debased currency, massive sovereign debt, and corrupted schools.\n\nA farming valley that has endured for five hundred years by keeping one fundamental agricultural rule illustrates this principle:\n\n\u003e **The Example of the Seed Granary:** Every autumn after harvest, the village elders measure out the first fifteen percent of the finest, heaviest wheat kernels and secure them inside the stone Seed Granary on the hill. That seed grain is never ground into flour for winter bread or brewed into festival beer, regardless of how strongly the villagers desire an additional feast in January, because those reserved sacks are next April's crop, and the crop of every generation to come.\n\u003e\n\u003e One winter, a short-sighted generation inherits the valley. They see fifty sacks of prime wheat in the stone Seed Granary and ask why they should bake ordinary bread while it sits there, and what their unborn grandchildren have ever done for them. They unlock the Seed Granary, brew beer, bake sweet cakes, and borrow against next year's harvest to buy silk garments from the river traders.\n\u003e\n\u003e Throughout February, that generation enjoys the most lavish celebration the valley has ever seen. Then April arrives. The farmers walk up the hill with their seed bags to plant the spring furrows, only to find that the stone Seed Granary is empty, the village owes half its tools to the river traders, and the fields remain unplanted.\n\nAny society that accumulates peacetime deficits so current voters can consume more than they produce, allows its bridges and power grids to age without replacement, inflates away the value of savings, or converts its schools from rigorous institutions of literacy and mathematics into centers of ideological conditioning is consuming its seed grain in winter. Virtue 7 commands the exact opposite: Preserve the seed grain, maintain the granary, and leave the fields more productive in April than they were in October.",
+      "problem": "If Chapters 2, 9, and 11 move off grain, reject this item so Chapter 10 stays as the book's sole 'granary example.' Otherwise: alternate (a) pairs real-life Nauru (consuming a sovereign inheritance) with the Leningrad Vavilov Seed Bank (preserving seed grain under siege, callback to Vavilov in Ch 2; needs primary sources in ext-ref/); alternate (b) shifts Chapter 10 to The Shipwright's Oak Grove if Chapter 11 keeps the grain storehouse.",
+      "rule": "prop/granary-real",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "real-life: Nauru \u0026 Leningrad (needs source copies)",
+          "text": "#### Refusing Generational Theft: Nauru and the Leningrad Seed Bank\n\nThe grave violations of Virtue 7 are three: elders who refuse to form those younger than themselves; the young who refuse to listen to the experience around them and test it; and **generational theft**, in which the living treat the accumulated moral, institutional, and financial capital of their ancestors as a private fund to be exhausted in a single lifetime, leaving decayed infrastructure, debased currency, massive sovereign debt, and corrupted schools.\n\nTwo twentieth-century records show the violation and the virtue in stark contrast:\n\n\u003e **Nauru's Phosphate Trust (1968 to 2004):** Upon independence in 1968, the small Pacific island of Nauru held rich, finite phosphate deposits that gave its roughly ten thousand citizens one of the highest incomes per person in the world. Knowing the rock would run out, the republic established the Nauru Phosphate Royalties Trust to preserve that wealth for future generations, and by about 1990 the fund stood above one billion Australian dollars. Instead of keeping the principal intact, the living generation borrowed against the trust to cover ongoing public deficits, bought luxury imports and speculative overseas hotels, and strip-mined four-fifths of the island to barren limestone. By the early 2000s, Asian Development Bank reviews recorded that the trust had lost more than three-quarters of its value and entered receivership, leaving the next generation with stripped land and an insolvent state.\n\u003e\n\u003e **The Leningrad Seed Bank (1941 to 1944):** During the 872-day Siege of Leningrad, staff at the All-Union Institute of Plant Industry, founded by the geneticist Nikolai Vavilov (Chapter 2), guarded tons of edible wheat, rice, peas, and potatoes stored as the nation's breeding collection. According to the institute's published records, nine botanists and staff members starved to death at their posts rather than eat the seed collection reserved for future harvests.\n\nAny society that accumulates peacetime deficits so current voters can consume more than they produce, allows its power grids and roads to age without replacement, inflates away savings, or converts its schools into centers of ideological conditioning is repeating Nauru's error. Virtue 7 commands the opposite: preserve the seed, maintain the inheritance, and leave the next generation stronger than you began."
+        },
+        {
+          "id": "b",
+          "label": "varied: Shipwright's Oak Grove",
+          "text": "#### Refusing Generational Theft: The Shipwright's Oak Grove\n\nThe grave violations of Virtue 7 are three: elders who refuse to form those younger than themselves; the young who refuse to listen to the experience around them and test it; and **generational theft**, in which the living treat the accumulated moral, institutional, and financial capital of their ancestors as a private fund to be exhausted in a single lifetime, leaving decayed infrastructure, debased currency, massive sovereign debt, and corrupted schools.\n\nA maritime town that endured for five hundred years by keeping one forestry rule illustrates this principle:\n\n\u003e **The Shipwright's Oak Grove:** Every decade, the town's shipwrights plant ten acres of acorns on the ridge above the harbor and forbid the felling of any oak younger than eighty years, because a seaworthy keel and rib-frame require eighty-year timber. Each generation builds its vessels from oaks its grandfathers planted, and plants the groves its grandsons will need.\n\u003e\n\u003e One short-sighted generation inherits the harbor. They see forty acres of sixty-year oaks standing on the ridge and ask why they should wait while timber prices are high, and what their unborn grandchildren have ever done for them. They fell the entire ridge early, sell the green lumber to foreign merchants for immediate luxury goods, and plant no acorns in its place.\n\u003e\n\u003e For five years, that generation enjoys the richest feasts the harbor has ever seen. Then the old hulls wear out. Their children walk up the ridge with axes to lay new keels, only to find bare stumps and eroded clay, and the town's fleet dies in a single lifetime.\n\nAny society that accumulates peacetime deficits so current voters can consume more than they produce, allows its power grids and ports to age without replacement, inflates away the value of savings, or converts its schools from rigorous institutions of literacy and mathematics into centers of ideological conditioning is felling its sixty-year oak grove for a season's cash. Virtue 7 commands the opposite: guard the standing timber, plant for the grandchildren, and leave the harbor stronger than you inherited it."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:561a100e:prop/granary-vary",
+      "source": "call",
+      "from": "gemini",
+      "kind": "rewrite",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 12575,
+      "byte_end": 15166,
+      "quote": "#### The Hill Town Grain Storehouse and the Rats: Why False Compassion Harms the Weakest First\n\nEven when the person advocating \"compassion over rules\" is not a calculating Marcusean strategist, but merely a sentimental citizen who dislikes seeing anyone punished, the following case illustrates who actually bears the cost when a community adopts the Compassionate Delusion:\n\n\u003e **The Hill Town Grain Storehouse and the Rats:** In a stone town on a hill, fifty families store their winter barley in a row of bins inside the municipal storehouse. At one end of the building stand the thick, iron-lined stone bins of the wealthy grain merchant; at the other end stand the thin pine-plank bins of the elderly widows and day-laborers, holding just enough barley to keep them alive until April.\n\u003e\n\u003e In November, rats tunnel under the storehouse wall. The town watchman sets heavy iron traps along the floorboards. The next morning, a sentimental committee visits the storehouse, sees three dead rats in the traps, and protests that the creatures were merely hungry, that the traps are cruel, and that a compassionate town must prohibit all traps, poison, and terriers.\n\u003e\n\u003e The town council yields to the sentimentalists and prohibits all rat control. The sentimentalists congratulate themselves at every social gathering on their humanity.\n\u003e\n\u003e **In January, the condition of the storehouse reveals the consequence.** Prohibiting the traps did not stop the rats from feeding; it only decided whose barley they consumed. Their teeth could not penetrate the wealthy merchant's iron-lined stone bins, and even if he lost ten percent of his grain, his family still had ample food for the winter. Instead, the rats gnawed straight through the thin pine boards of the poor widows' and laborers' bins, consumed their winter grain, and fouled what remained.\n\u003e\n\u003e By February, the poor widows are starving in the cold, while the sentimentalists who prohibited the traps sit in their warm parlors praising their own \"empathy.\"\n\nThe operational principle in that storehouse applies across society: When a society refuses to restrain criminals, thieves, rioters, and disorderly students in the name of \"compassion,\" the wealthy can always purchase high walls, gated communities, private security guards, and private tutors. It is the law-abiding working-class family, the elderly widow on public transit, and the capable poor child sitting in a disordered public classroom whose thin pine bins are destroyed. Enforcing order, standards, and law is the truest compassion a city can show to its industrious poor.",
+      "problem": "Third main grain-storehouse parable (after Ch 9 and Ch 10). Note 21 praised this fable highly. Alternate (a) replaces it with The River Town Levee (unique physical subject, freeing 'the granary example' for Ch 10 alone; if accepted, also change 'leaves the storehouse empty' at 11:123 to 'leaves the levee broken'); alternate (b) keeps the Hill Town Grain Storehouse intact and anchors 11:116 with BJS National Crime Victimization Survey data (needs BJS report downloaded to ext-ref/ before publishing).",
+      "rule": "prop/granary-vary",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "varied: River Town Levee",
+          "text": "#### The River Town Levee: Why False Compassion Harms the Weakest First\n\nEven when the person advocating \"compassion over rules\" is not a calculating Marcusean strategist, but merely a sentimental citizen who dislikes seeing anyone punished, the following case illustrates who actually bears the cost when a community adopts the Compassionate Delusion:\n\n\u003e **The River Town Levee:** In a valley town beside a wide river, the wealthy merchants built their stone houses high on the limestone bluff above the flood mark. Down on the low flat along the water stand the brick cottages and workshops of the elderly widows and day-laborers, protected from the spring flood by a long earthen levee.\n\u003e\n\u003e In November, muskrats begin tunneling deep into the levee bank. The town engineer sets heavy iron traps along the water's edge to keep the burrows from hollowing out the wall. The next morning, a sentimental committee visits the bank, sees three dead muskrats in the traps, and protests that the creatures were merely looking for shelter, that the traps are cruel, and that a compassionate town must prohibit all trapping and pest control along the river.\n\u003e\n\u003e The town council yields to the sentimentalists and bans all trapping. The sentimentalists congratulate themselves at every social gathering on their humanity.\n\u003e\n\u003e **In April, the spring flood reveals the consequence.** Prohibiting the traps did not stop the muskrats from tunneling; it only decided whose houses the river would reach. The water never came near the stone mansions on the high bluff. Instead, the swollen river broke straight through the hollowed levee, flooded the low flat to the eaves, and ruined the cottages, workshops, and savings of the widows and laborers.\n\u003e\n\u003e By May, the working families on the flat are destitute, while the sentimentalists who banned the traps look down from their dry parlors on the bluff praising their own \"empathy.\"\n\nThe operational principle on that river flat applies across society: when a society refuses to restrain criminals, thieves, rioters, and disorderly students in the name of \"compassion,\" the wealthy can always afford high ground, gated communities, private security guards, and private tutors. It is the law-abiding working-class family, the elderly widow on public transit, and the capable poor child sitting in a disordered public classroom who live behind the levee. Enforcing order, standards, and law is the truest compassion a city can show to its industrious poor."
+        },
+        {
+          "id": "b",
+          "label": "keep fable + add BJS NCVS data (needs BJS copy)",
+          "text": "#### The Hill Town Grain Storehouse and the Rats: Why False Compassion Harms the Weakest First\n\nEven when the person advocating \"compassion over rules\" is not a calculating Marcusean strategist, but merely a sentimental citizen who dislikes seeing anyone punished, the following case illustrates who actually bears the cost when a community adopts the Compassionate Delusion:\n\n\u003e **The Hill Town Grain Storehouse and the Rats:** In a stone town on a hill, fifty families store their winter barley in a row of bins inside the municipal storehouse. At one end of the building stand the thick, iron-lined stone bins of the wealthy grain merchant; at the other end stand the thin pine-plank bins of the elderly widows and day-laborers, holding just enough barley to keep them alive until April.\n\u003e\n\u003e In November, rats tunnel under the storehouse wall. The town watchman sets heavy iron traps along the floorboards. The next morning, a sentimental committee visits the storehouse, sees three dead rats in the traps, and protests that the creatures were merely hungry, that the traps are cruel, and that a compassionate town must prohibit all traps, poison, and terriers.\n\u003e\n\u003e The town council yields to the sentimentalists and prohibits all rat control. The sentimentalists congratulate themselves at every social gathering on their humanity.\n\u003e\n\u003e **In January, the condition of the storehouse reveals the consequence.** Prohibiting the traps did not stop the rats from feeding; it only decided whose barley they consumed. Their teeth could not penetrate the wealthy merchant's iron-lined stone bins, and even if he lost ten percent of his grain, his family still had ample food for the winter. Instead, the rats gnawed straight through the thin pine boards of the poor widows' and laborers' bins, consumed their winter grain, and fouled what remained.\n\u003e\n\u003e By February, the poor widows are starving in the cold, while the sentimentalists who prohibited the traps sit in their warm parlors praising their own \"empathy.\"\n\nThe operational principle in that storehouse shows up directly in federal crime data. Across multi-year findings of the Bureau of Justice Statistics' National Crime Victimization Survey, people in households at or below the federal poverty line suffer nonfatal violent crime at more than double the rate of people in high-income households, and report crimes to the police at slightly higher rates. When a society refuses to restrain criminals, thieves, rioters, and disorderly students in the name of \"compassion,\" the wealthy can always purchase high walls, gated communities, private security guards, and private tutors. It is the law-abiding working-class family, the elderly widow on public transit, and the capable poor child sitting in a disordered public classroom whose thin pine bins are destroyed. Enforcing order, standards, and law is the truest compassion a city can show to its industrious poor."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:7ee2393f:prop/bridge-vary",
+      "source": "call",
+      "from": "gemini",
+      "kind": "call",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 26018,
+      "byte_end": 27913,
+      "quote": "An engineer, in the sense this book uses, is a person whose work is bound to physical reality. The bridge stands or falls, the patient lives or dies, and the ledger balances or does not. Whether he designs a suspension bridge, farms wheat, performs surgery, writes software, or drafts a constitutional check, reality is his final auditor. An institution that grows large through its builders hires clerks to schedule work, keep accounts, and keep personnel records, and in that subordinate place administration is useful. **Managerialism** is the disorder in which that apparatus detaches itself from physical reality, takes command over the engineers and the frontline builders, and turns the institution toward its own continuance, status, and protection from blame.\n\nThe two differ first in what they answer to. The engineer answers to physical results, and no presentation saves him if the bridge collapses. The manager answers to consensus and paper compliance. When the school fails to teach reading, he redefines the measure. The two differ also in who answers. In engineering, one chief engineer or master stamps his name on the work. In management, a decision passes through enough committees that when it fails, every standard procedure was followed and no one is responsible. They differ in how people are chosen: by demonstrated performance on the test bench, or by credentials, fluency in the approved terms, and quotas. They differ in how error is treated. The engineer keeps checklists and stress tests and listens when a junior mechanic finds a cracked seal. The manager treats the bearer of bad news as a threat to the schedule, as at Thiokol and at Chernobyl. They differ in their rules: brief specifications written in advance and applied alike, against thousands of pages of rules enforced at discretion. The locked shop door of section 1 is the managerial treatment of risk.",
+      "problem": "Three stray bridge mentions inside Section 5 (which is already anchored by Challenger at 11:198). Swapping them to ship's hull, steam turbine, and boiler keeps Chapter 2 as the bridge chapter.",
+      "rule": "prop/bridge-vary",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "varied: hull, turbine, boiler",
+          "text": "An engineer, in the sense this book uses, is a person whose work is bound to physical reality. The hull floats or sinks, the patient lives or dies, and the ledger balances or does not. Whether he designs a steam turbine, farms wheat, performs surgery, writes software, or drafts a constitutional check, reality is his final auditor. An institution that grows large through its builders hires clerks to schedule work, keep accounts, and keep personnel records, and in that subordinate place administration is useful. **Managerialism** is the disorder in which that apparatus detaches itself from physical reality, takes command over the engineers and the frontline builders, and turns the institution toward its own continuance, status, and protection from blame.\n\nThe two differ first in what they answer to. The engineer answers to physical results, and no presentation saves him if the boiler bursts. The manager answers to consensus and paper compliance. When the school fails to teach reading, he redefines the measure. The two differ also in who answers. In engineering, one chief engineer or master stamps his name on the work. In management, a decision passes through enough committees that when it fails, every standard procedure was followed and no one is responsible. They differ in how people are chosen: by demonstrated performance on the test bench, or by credentials, fluency in the approved terms, and quotas. They differ in how error is treated. The engineer keeps checklists and stress tests and listens when a junior mechanic finds a cracked seal. The manager treats the bearer of bad news as a threat to the schedule, as at Thiokol and at Chernobyl. They differ in their rules: brief specifications written in advance and applied alike, against thousands of pages of rules enforced at discretion. The locked shop door of section 1 is the managerial treatment of risk."
+        }
+      ]
+    }
+  ]
+}

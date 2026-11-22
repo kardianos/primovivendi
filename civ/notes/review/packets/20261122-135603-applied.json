@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/02_ch02.md:d3dd0e64:prop/granary-vary",
+    "call:civ/chapters/02_ch02.md:eddaa5e1:prop/bridge-real",
+    "call:civ/chapters/02_ch02.md:34246c58:prop/bridge-real",
+    "call:civ/chapters/03_ch03.md:9c798e77:prop/bridge-vary",
+    "call:civ/chapters/03_ch03.md:e6f5c096:prop/real-ext-ref",
+    "call:civ/chapters/03_ch03.md:53a1a094:prop/bridge-vary",
+    "call:civ/chapters/08_ch08.md:5aba1206:prop/bridge-vary",
+    "call:civ/chapters/09_ch09.md:fe73be61:prop/callback-ch09",
+    "call:civ/chapters/09_ch09.md:a8285261:prop/bridge-vary",
+    "call:civ/chapters/09_ch09.md:2f046826:prop/granary-vary",
+    "call:civ/chapters/10_ch10.md:bd82d886:prop/granary-real",
+    "call:civ/chapters/10_ch10.md:666a8598:prop/callback-ch08",
+    "call:civ/chapters/11_ch11.md:7ee2393f:prop/bridge-vary"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/chapters/02_ch02.md:d3dd0e64:prop/granary-vary",
+      "path": "civ/chapters/02_ch02.md",
+      "ok": true,
+      "decision_at": "2026-11-22T04:28:54Z"
+    },
+    {
+      "id": "call:civ/chapters/02_ch02.md:eddaa5e1:prop/bridge-real",
+      "path": "civ/chapters/02_ch02.md",
+      "ok": true,
+      "decision_at": "2026-11-22T04:27:17Z"
+    },
+    {
+      "id": "call:civ/chapters/02_ch02.md:34246c58:prop/bridge-real",
+      "path": "civ/chapters/02_ch02.md",
+      "ok": true,
+      "decision_at": "2026-11-22T04:25:12Z"
+    },
+    {
+      "id": "call:civ/chapters/03_ch03.md:9c798e77:prop/bridge-vary",
+      "path": "civ/chapters/03_ch03.md",
+      "ok": true,
+      "decision_at": "2026-11-22T13:22:59Z"
+    },
+    {
+      "id": "call:civ/chapters/03_ch03.md:e6f5c096:prop/real-ext-ref",
+      "path": "civ/chapters/03_ch03.md",
+      "ok": true,
+      "decision_at": "2026-11-22T13:21:38Z"
+    },
+    {
+      "id": "call:civ/chapters/03_ch03.md:53a1a094:prop/bridge-vary",
+      "path": "civ/chapters/03_ch03.md",
+      "ok": true,
+      "decision_at": "2026-11-22T13:17:22Z"
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:5aba1206:prop/bridge-vary",
+      "path": "civ/chapters/08_ch08.md",
+      "ok": true,
+      "decision_at": "2026-11-22T13:33:06Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:fe73be61:prop/callback-ch09",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T13:37:49Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:a8285261:prop/bridge-vary",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T13:40:00Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:2f046826:prop/granary-vary",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T13:37:43Z"
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:bd82d886:prop/granary-real",
+      "path": "civ/chapters/10_ch10.md",
+      "ok": true,
+      "decision_at": "2026-11-22T13:41:43Z"
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:666a8598:prop/callback-ch08",
+      "path": "civ/chapters/10_ch10.md",
+      "ok": true,
+      "decision_at": "2026-11-22T13:33:20Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:7ee2393f:prop/bridge-vary",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-22T13:44:20Z"
+    }
+  ]
+}

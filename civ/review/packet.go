@@ -14,8 +14,11 @@ import (
 // Item is one decision the author can make. Tools and agents write items.
 // The viewer does not.
 type Item struct {
-	ID         string      `json:"id"`
+	ID string `json:"id"`
+	// Source is the id prefix and the tool that emitted the item (call, civ/linear).
+	// From is the model or agent that wrote the suggestion (argon, grok-4.7, opus-5.5).
 	Source     string      `json:"source,omitempty"`
+	From       string      `json:"from,omitempty"`
 	Kind       string      `json:"kind,omitempty"`
 	Path       string      `json:"path"`
 	ByteOffset *int        `json:"byte_offset,omitempty"`
@@ -30,10 +33,25 @@ type Item struct {
 }
 
 // Alternate is one proposed replacement. Text is the replacement bytes.
+// From is set only when a different agent wrote this alternate. A blank From
+// uses the item From. Ignore with Reason is a vote against the whole suggestion,
+// not a replacement.
 type Alternate struct {
-	ID    string `json:"id"`
-	Label string `json:"label,omitempty"`
-	Text  string `json:"text"`
+	ID     string `json:"id"`
+	Label  string `json:"label,omitempty"`
+	From   string `json:"from,omitempty"`
+	Text   string `json:"text,omitempty"`
+	Ignore bool   `json:"ignore,omitempty"`
+	Reason string `json:"reason,omitempty"`
+}
+
+// SuggestionFrom is the model or agent to show for one alternate.
+// A blank alternate from uses the item from.
+func SuggestionFrom(it Item, alt Alternate) string {
+	if alt.From != "" {
+		return alt.From
+	}
+	return it.From
 }
 
 // Applied is an agent's or tool's report that it tried to apply one decision.
@@ -325,6 +343,11 @@ func Replacement(it Item, d Decision) string {
 	case "revise":
 		return d.Text
 	case "accept":
+		for _, a := range it.Alternates {
+			if a.ID == d.Alternate && a.Ignore {
+				return ""
+			}
+		}
 		if d.AcceptedText != "" {
 			return d.AcceptedText
 		}
@@ -476,6 +499,7 @@ type CheckItem struct {
 	ID          string    `json:"id"`
 	Path        string    `json:"path"`
 	Kind        string    `json:"kind,omitempty"`
+	From        string    `json:"from,omitempty"`
 	Rule        string    `json:"rule,omitempty"`
 	Locked      bool      `json:"locked,omitempty"`
 	Status      HitStatus `json:"status"`
@@ -512,6 +536,7 @@ func (s *Session) CheckJSON() ([]byte, error) {
 			ID:          it.ID,
 			Path:        it.Path,
 			Kind:        it.Kind,
+			From:        it.From,
 			Rule:        it.Rule,
 			Locked:      it.Locked,
 			Status:      h.Status,
@@ -576,6 +601,15 @@ func (s *Session) CheckReport() string {
 		}
 		if it.Locked {
 			extra += " [locked]"
+		}
+		if it.From != "" {
+			extra += " from " + it.From
+		}
+		for _, a := range it.Alternates {
+			if a.Ignore {
+				extra += " ignore"
+				break
+			}
 		}
 		fmt.Fprintf(&b, "%-10s %s  %s%s\n", h.Status, where, it.ID, extra)
 	}

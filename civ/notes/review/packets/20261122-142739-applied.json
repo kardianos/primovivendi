@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/02_ch02.md:a676ed11:prop/boiled-water-real-only",
+    "call:civ/chapters/09_ch09.md:71f5446f:prop/exam-reality-hit"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/chapters/02_ch02.md:a676ed11:prop/boiled-water-real-only",
+      "path": "civ/chapters/02_ch02.md",
+      "ok": true,
+      "decision_at": "2026-11-22T14:24:36Z"
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:71f5446f:prop/exam-reality-hit",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-22T14:25:38Z"
+    }
+  ]
+}

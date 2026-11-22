@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/11_ch11.md:e86f5819:prop/callback-ch11-market",
+    "call:civ/chapters/11_ch11.md:561a100e:prop/compassion-market-watch"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/chapters/11_ch11.md:e86f5819:prop/callback-ch11-market",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-22T14:30:35Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:561a100e:prop/compassion-market-watch",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-22T14:30:34Z"
+    }
+  ]
+}

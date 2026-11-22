@@ -58,6 +58,15 @@ type ApplyResult struct {
 	ResponsePacket string        `json:"response_packet,omitempty"`
 }
 
+func alternateIgnore(it Item, id string) bool {
+	for _, a := range it.Alternates {
+		if a.ID == id && a.Ignore {
+			return true
+		}
+	}
+	return false
+}
+
 // PlanApply selects unapplied accept/revise decisions that can be spliced
 // deterministically without overlapping spans or unresolved editorial notes.
 func (s *Session) PlanApply(opts ApplyOptions) ApplyPlan {
@@ -90,6 +99,10 @@ func (s *Session) PlanApply(opts ApplyOptions) ApplyPlan {
 		}
 		if strings.TrimSpace(d.Note) != "" && !opts.IncludeNoted {
 			skip("has editorial note (review note or pass -include-noted)")
+			continue
+		}
+		if d.Disposition == "accept" && alternateIgnore(it, d.Alternate) {
+			skip("alternate votes ignore; passage unchanged")
 			continue
 		}
 		if AlternateDrifted(it, d) {
