@@ -122,6 +122,10 @@ func TestUIShowsFromAndIgnore(t *testing.T) {
 		t.Fatalf("an ignore vote must not be shown as a replacement diff\n%s", dump)
 	}
 	tt.Tap("Ignore this")
+	if !strings.Contains(tt.Dump(), "No item selected") {
+		t.Fatalf("the only open item should clear after it is decided\n%s", tt.Dump())
+	}
+	tt.Tap("Decided")
 	b, err := os.ReadFile(dec)
 	if err != nil {
 		t.Fatal(err)
@@ -142,7 +146,7 @@ func TestUIShowsFromAndIgnore(t *testing.T) {
 }
 
 func TestFollowingIDSkipsASavedItemAndWrapsLast(t *testing.T) {
-	s := &reviewState{
+	s := &reviewView{
 		filter:   filterOpen,
 		selected: "a",
 		session: &Session{
@@ -163,6 +167,104 @@ func TestFollowingIDSkipsASavedItemAndWrapsLast(t *testing.T) {
 	s.session.Decisions.Items["a"] = Decision{Disposition: "reject"}
 	if got := s.followingID(); got != "" {
 		t.Fatalf("sole followingID = %q, want empty", got)
+	}
+}
+
+func TestEmptyQueueClearsSelection(t *testing.T) {
+	root := t.TempDir()
+	if err := os.WriteFile(filepath.Join(root, "doc.md"), []byte("Alpha sentence stays.\nBeta sentence stays.\n"), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	packets := filepath.Join(root, "packets")
+	if err := os.MkdirAll(packets, 0o755); err != nil {
+		t.Fatal(err)
+	}
+	writeJSON(t, filepath.Join(packets, "20261122-120000-queue.json"), map[string]any{
+		"version": 1,
+		"items": []map[string]any{
+			{
+				"id": "q-alpha", "path": "doc.md", "quote": "Alpha sentence stays.",
+				"problem":    "Alpha is still open.",
+				"alternates": []map[string]string{{"id": "a", "label": "alpha-alt", "text": "Alpha rewritten."}},
+			},
+			{
+				"id": "q-beta", "path": "doc.md", "quote": "Beta sentence stays.",
+				"problem":    "Beta is still open.",
+				"alternates": []map[string]string{{"id": "a", "label": "beta-alt", "text": "Beta rewritten."}},
+			},
+		},
+	})
+	dec := filepath.Join(root, "decisions.json")
+	sess, err := LoadSession(root, packets, dec)
+	if err != nil {
+		t.Fatal(err)
+	}
+	tt := gowakutest.New(t, reviewApp{Session: sess}, gowakutest.Options{Width: 1440, Height: 900})
+	if !strings.Contains(tt.Dump(), "Alpha is still open.") {
+		t.Fatalf("expected the first open item\n%s", tt.Dump())
+	}
+	tt.Tap("Reject")
+	dump := tt.Dump()
+	if !strings.Contains(dump, "Beta is still open.") || strings.Contains(dump, "Alpha is still open.") {
+		t.Fatalf("expected the remaining open item\n%s", dump)
+	}
+	tt.Tap("Reject")
+	dump = tt.Dump()
+	for _, want := range []string{"No items", "No item selected"} {
+		if !strings.Contains(dump, want) {
+			t.Fatalf("missing %q after the queue emptied\n%s", want, dump)
+		}
+	}
+	for _, gone := range []string{"Alpha is still open.", "Beta is still open.", "Use my wording", "alpha-alt", "beta-alt"} {
+		if strings.Contains(dump, gone) {
+			t.Fatalf("finished queue still shows %q\n%s", gone, dump)
+		}
+	}
+
+	// All still lists a decided item, so the last one stays selected.
+	tt.Tap("All")
+	tt.Tap("Next")
+	tt.Tap("Reject")
+	dump = tt.Dump()
+	if strings.Contains(dump, "No item selected") || !strings.Contains(dump, "Beta is still open.") {
+		t.Fatalf("the last item in All should stay selected\n%s", dump)
+	}
+}
+
+func TestOpenQueueAlreadyEmptySelectsNothing(t *testing.T) {
+	root := t.TempDir()
+	if err := os.WriteFile(filepath.Join(root, "doc.md"), []byte("Gamma sentence stays.\n"), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	packets := filepath.Join(root, "packets")
+	if err := os.MkdirAll(packets, 0o755); err != nil {
+		t.Fatal(err)
+	}
+	writeJSON(t, filepath.Join(packets, "20261122-120100-done.json"), map[string]any{
+		"version": 1,
+		"items": []map[string]any{{
+			"id": "q-gamma", "path": "doc.md", "quote": "Gamma sentence stays.",
+			"problem": "Gamma was already decided.",
+		}},
+	})
+	dec := filepath.Join(root, "decisions.json")
+	writeJSON(t, dec, map[string]any{
+		"version": 1,
+		"items": map[string]any{
+			"q-gamma": map[string]string{"disposition": "reject"},
+		},
+	})
+	sess, err := LoadSession(root, packets, dec)
+	if err != nil {
+		t.Fatal(err)
+	}
+	tt := gowakutest.New(t, reviewApp{Session: sess}, gowakutest.Options{Width: 1440, Height: 900})
+	dump := tt.Dump()
+	if !strings.Contains(dump, "No items") || !strings.Contains(dump, "No item selected") {
+		t.Fatalf("empty open queue should select nothing\n%s", dump)
+	}
+	if strings.Contains(dump, "Gamma was already decided.") || strings.Contains(dump, "Use my wording") {
+		t.Fatalf("empty open queue still shows the decided item\n%s", dump)
 	}
 }
 

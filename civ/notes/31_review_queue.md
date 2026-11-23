@@ -6,6 +6,7 @@ Build once if `civ/bin/` is missing: `fish civ/tools/build-bin.fish`. Spec: `not
 
 ```bash
 civ/bin/review [ui]                               # Author: open read-only viewer (writes decisions.json only)
+civ/bin/review tui                                # Same viewer in the terminal (same flags, same decisions.json)
 civ/bin/review check [-json]                      # Locate quotes & queue counts
 civ/bin/review add -slug <name> -strict [-in F|-] # Agent: validate, pin offsets, write timestamped packet
 civ/bin/review export -format json -out -         # Agent: read pending apply, holds, and closed items (or -format md -> batch.md)

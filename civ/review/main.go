@@ -3,6 +3,7 @@
 //
 //	Author (interactive, read-only on chapters):
 //	  go run . [ui]         open the review window (writes decisions.json only)
+//	  go run . tui          same review session in the terminal
 //
 //	Inspect (author or agent, read-only):
 //	  go run . check        validate packets and locate every quote (-json)
@@ -80,6 +81,7 @@ func usageText() string {
 
 Commands (role / action):
   ui      (default) Author viewer (read-only on chapters; writes decisions.json)
+  tui     Same viewer in the terminal
   check   Validate packets & locate quotes (-json)
   apply   Apply clean verbatim accept/revise edits (-dry-run, -include-noted, -allow-locked, -id, -json)
   export  Export unapplied items, holds, and closed items (-format md|json, -out PATH|-)
@@ -105,6 +107,8 @@ func run(args []string) error {
 		return nil
 	case "ui":
 		return runUI(args)
+	case "tui":
+		return runTUI(args)
 	case "check":
 		return runCheck(args)
 	case "apply":

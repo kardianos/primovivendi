@@ -182,6 +182,18 @@ Keys, and the same actions as buttons. A focused Mine or Note field takes the pl
 Accept, Use my wording, Reject, the three holds, and Withdraw save the decision and show the next item in the current filter. When that filter has nothing left, the passage and the actions clear. A last item that remains in the filter stays selected. Reaffirm stays on the same item.
 - The three hold buttons set `hold_for` to `research`, `explain`, or `later`. Reaffirm sets `reaffirm` and leaves the disposition as it is.
 
+## Terminal
+
+`go run . tui` is the same session in the terminal. It reads and writes the same packets and `decisions.json`. It does not write chapters. The shared rules (filter, selection, context window, drafts, decisions) live in `reviewView`. The window is a gowaku shell over that type. The terminal is a Charmbracelet shell over it.
+
+Filters are `1` Open, `2` Hold, `3` All, `4` Decided, `5` Stale. `j` / `k` and `n` / `p` move. Tab moves the focused alternate. `a` accepts, or records Ignore this. `u` is Use my wording. `r` rejects. `w` withdraws. `h` holds for later, `e` for explain, `s` for research. `o` reopens. `f` reaffirms. `c` compares. `d` switches the diff between Mine and the alternate. `[` and `]` widen the passage, `C` shows the chapter, `t` tightens it. `q` copies the quote into Mine and `y` copies the focused alternate. Enter edits Mine, `N` edits Note, and Esc leaves the field. Ctrl+J and Ctrl+K move while a field is focused. Ctrl+S, while editing, is Use my wording. Ctrl+R reloads. `?` opens the key list. Ctrl+C quits.
+
+The window binds Use my wording to Ctrl+Enter. Terminals usually do not send that chord, so the terminal screen uses `u` and Ctrl+S for the same action.
+
+The detail pane is split in half. Each half has tabs for Current, Proposed, and Actions, and the two halves are chosen separately, including the same view on both. The top starts on Current and the bottom on Proposed. `,` cycles the top half. `.` cycles the bottom half. Current holds the passage and the context controls: the above/below label, Above, Below, Chapter, and Tight. Proposed lists the alternates, then a line, then Quote -> Mine, Alt -> Mine, the diff target, and the diff or the compare. When both halves show Proposed, each half keeps its own alternate and its own diff target, and the wheel scrolls only the half under the pointer. Actions holds the decision chips, a large Mine field, and Note. The alternate text is not repeated on Actions. Enter and `N` show Actions on the bottom when neither half is showing it. The other keys still run when Actions is hidden. Tab and `d` follow the Proposed half that was clicked last, or the only Proposed half.
+
+A left click runs the chip, filter, tab, or item under the pointer. The wheel over the list scrolls the list. The wheel over a Current body scrolls the passage, and the wheel over a Proposed body scrolls the diff or the compare. Prose in the passage, the diff, and the problem wraps inside the pane. Each pane keeps a one-cell inset with a blank column between them, and chips keep a blank cell between them so a gap or a dim chip does not fire.
+
 The author's text is stored as typed, including a rough sentence. The viewer does not correct it. Accept and Use my wording write nothing when the quote is ambiguous or missing, unless `reaffirm` is set. Reject, withdraw, and hold write anyway.
 
 The status bar shows open, hold, decided, and stale counts, the last save, and the name of any packet that failed to parse.
@@ -195,6 +207,7 @@ Default output of `civ/lint` and `civ/linear` stays text. The first version pars
 ```bash
 fish civ/tools/build-bin.fish                            # once (builds gitignored civ/bin/*)
 civ/bin/review [ui]                                      # author: open the read-only review window
+civ/bin/review tui                                       # author: same session in the terminal
 civ/bin/review check [-json]                             # inspect: validate packets and locate every quote
 civ/bin/review apply [-dry-run]                          # applier: apply clean verbatim accept/revise decisions
 civ/bin/review export [-format md|json]                  # handoff: export remaining unapplied items, holds, and closed items
