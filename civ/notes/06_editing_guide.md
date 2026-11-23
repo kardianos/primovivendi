@@ -241,6 +241,16 @@ civ/bin/readback -chapter ch01 -from 17 -to 19
 civ/bin/readback -file civ/notes/28_intro_draft1_rewrite.md --play
 ```
 
+### Part I: Two-Voice Diagnostic (Plain Style vs. Textbook Voice)
+
+`civ/bin/lint voice` scores each chapter section (`>= 150` words by default) on six pure-prose dimensions anchored to fixed Plain-Style baselines (`0.0` = Plain baseline; `>= +1.0` = Textbook drift; adjacent within-chapter jump `>= 1.2` = sharp voice seam): long words (`>= 8` letters), Latinate suffixes, lack of short sentences (`<= 12` words), didactic signpost openers, parallel triplets (`X, Y, and Z`), and coaching markers (`you/your`, rhetorical `?`, scare quotes, intensifier `-ly` adverbs). It deliberately excludes primary-source citation density and Markdown formatting so it measures prose voice itself.
+
+```bash
+civ/bin/lint voice                         # all chapters, sections >= +1.0 and seams >= 1.2
+civ/bin/lint voice -threshold 1.35         # focus on the sharpest textbook sections
+civ/bin/lint voice -fail-score 1.5 -fail-seam 1.5   # optional ratchet gate
+```
+
 ---
 
 ## 6. Bottom-Up Editing Workflow

@@ -1,12 +1,14 @@
 // Command lint is the editing-guide audit for civ: the Part A patterns, American
 // spelling, the locked wording of the Principles and Virtues, the Markdown
-// structure checks, and (as the phonetics subcommand) suffix clutter and rhymes.
+// structure checks, and (as the phonetics subcommand) suffix clutter and rhymes,
+// (as the voice subcommand) the two-voice prose diagnostic.
 //
 //	cd civ/lint
 //	go run .                         # chapters and civ/ccp_sheet.md
 //	go run . -notes                  # also civ/notes/*.md
 //	go run . prose|structure|render
 //	go run . phonetics               # downloads cmudict into ext-ref/phonetics/ if needed
+//	go run . voice                   # two-voice diagnostic across chapters
 //	go run . fetch-cmudict
 package main
 
@@ -31,6 +33,12 @@ func main() {
 	}
 	fs := flag.NewFlagSet(cmd, flag.ExitOnError)
 	notes := fs.Bool("notes", false, "also check civ/notes/*.md")
+	vMinWords := fs.Int("min-words", 150, "voice: minimum words in a section")
+	vThreshold := fs.Float64("threshold", 1.0, "voice: flag sections at or above this score")
+	vSeam := fs.Float64("seam", 1.2, "voice: flag adjacent within-chapter jumps at or above this delta")
+	vAll := fs.Bool("all", false, "voice: list every section, not only flagged ones")
+	vFailScore := fs.Float64("fail-score", 0, "voice: exit non-zero if any section exceeds this score")
+	vFailSeam := fs.Float64("fail-seam", 0, "voice: exit non-zero if any adjacent seam exceeds this delta")
 	fs.Parse(args)
 
 	root, err := repoRoot()
@@ -39,7 +47,11 @@ func main() {
 	}
 	files := fs.Args()
 	if len(files) == 0 {
-		files, err = defaultFiles(root, *notes)
+		if cmd == "voice" {
+			files, err = voiceDefaultChapters(root)
+		} else {
+			files, err = defaultFiles(root, *notes)
+		}
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -71,10 +83,19 @@ func main() {
 		err = runRender(root, files)
 	case "phonetics":
 		err = runPhonetics(root, files)
+	case "voice":
+		err = runVoice(root, files, voiceOptions{
+			minWords:  *vMinWords,
+			threshold: *vThreshold,
+			seamCut:   *vSeam,
+			showAll:   *vAll,
+			failScore: *vFailScore,
+			failSeam:  *vFailSeam,
+		})
 	case "fetch-cmudict":
 		_, err = ensureCMU(root)
 	default:
-		err = fmt.Errorf("unknown command %q (audit, prose, structure, render, phonetics, fetch-cmudict, all)", cmd)
+		err = fmt.Errorf("unknown command %q (audit, prose, structure, render, phonetics, voice, all)", cmd)
 	}
 	if err != nil {
 		log.Fatal(err)
