@@ -251,14 +251,16 @@ civ/bin/lint voice -threshold 1.35         # focus on the sharpest textbook sect
 civ/bin/lint voice -fail-score 1.5 -fail-seam 1.5   # optional ratchet gate
 ```
 
-### Part J: List-Block Audit
+### Part J: List-Block Audit and Review-Packet Pre-Flight
 
-`civ/bin/lint lists` scans bulleted and numbered blocks across chapters and flags blocks that read like prose wearing bullets (multi-paragraph indented lists, 2-item pairs averaging `>= 35` words, or blocks averaging `>= 55` words per item).
+`civ/bin/lint lists` scans bulleted and numbered blocks across chapters and flags blocks that read like prose wearing bullets (multi-paragraph indented lists, 2-item pairs averaging `>= 35` words, or blocks averaging `>= 55` words per item). `civ/bin/lint sim` applies a review packet JSON in memory (without touching chapter files) to verify unique quote matches, zero overlapping byte spans, zero Part A / spelling / locked-line regressions, and before/after `voice` scores.
 
 ```bash
 civ/bin/lint lists                         # prose-like list blocks across chapters
 civ/bin/lint lists -all                    # full inventory of every list block
+civ/bin/lint sim civ/notes/review/packets/<packet>.json
 ```
+
 ---
 
 ## 6. Bottom-Up Editing Workflow
