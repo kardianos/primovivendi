@@ -1,0 +1,366 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/chapters/03_ch03.md:0f4219b5:voice/plain-style",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/03_ch03.md",
+      "byte_offset": 9057,
+      "byte_end": 12497,
+      "quote": "The third major rival to correspondence requires no theology at all; it dominates large portions of modern Western humanities departments, schools of education, and administrative bureaucracies. This is **Postmodern Social Constructivism**, associated with theorists such as **Michel Foucault** (1926–1984) and **Jacques Derrida** (1930–2004) and carried into institutional practice by critical theory.\n\nThe constructivist begins from a partial truth (addressed in Chapter 5): human beings use language to categorize the world, and institutions with political power often influence which categories are favored. From that observation, however, strong constructivism leaps to a sweeping conclusion: **there is no objective, independent reality accessible behind language, and \"truth\" and \"knowledge\" are nothing more than artifacts of social power (\"power-knowledge\" or *pouvoir-savoir*).**\n\nIn this view, scientific method, biological sex, objective merit, and the rule of law are not discoveries about how reality works; they are hegemonic narratives constructed by dominant groups to preserve their privilege. Therefore, when a statement is advanced, whether about biology, crime rates, historical records, or engineering standards, the constructivist does not ask, *\"Does this statement correspond to external facts?\"* He asks, *\"Whose political group-interest does this statement advance, and whose power does it subvert?\"*\n\nChapter 2 drew the distinction this view erases. A book or a story does not create a new reality; it creates a narrative, and a narrative does not push back, because its author controls it. Political power can rewrite a narrative about a harvest, a bridge, or a crime rate. It cannot rewrite the harvest, the bridge, or the crime.\n\nThree consequences follow for human speech and social cooperation the moment truth is subordinated to power, whether by secular constructivism or by a theological-political system of unbound will.\n\nFirst, language ceases to serve as a medium of accurate representation and becomes an instrument of coercion. Under Principle 1, words exist to describe reality so limited people can coordinate and check one another's errors. Under constructivism, words are instruments used to manipulate an audience, secure resources for an in-group, or silence a rival.\n\nSecond, disconfirmation becomes impossible. If a constructivist policy is enacted, such as abolishing advanced mathematics classes or ceasing to prosecute theft, and test scores decline while shops close, those destructive physical results can never falsify the theory. Instead, any citizen who points to the closed shops or the declining mathematics scores is accused of bad faith, \"false consciousness,\" or bigotry. Every contradiction in reality is reclassified as a moral defect in the observer.\n\nThird, limited scope dissolves into total conflict. In a society that accepts objective reality, two neighbors can disagree peacefully about private beliefs while agreeing on whether the street is paved and the contract was paid, because the physical world serves as an impartial standard outside both of them. Once you declare that \"everything is political\" and that \"truth is constructed by power,\" there is no impartial standard left in the universe. The only way to establish \"truth\" is to control public communication, capture administrative institutions, and compel everyone else to repeat the approved narrative.",
+      "problem": "Voice score +1.70 (lat=8.2%, lw=25%, coach=3.4; Δ=2.01 seam) plus opening paragraph Snap=26.4 (Mud=6.1, weak ending). Updated with cadence-tuned opening and sharper masculine paragraph landings.",
+      "rule": "voice/plain-style",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "plain style + cadence",
+          "text": "The third rival to truth needs no priest and no creed. It rules Western humanities halls, teachers' colleges, and state bureaus under the name **Postmodern Social Constructivism**. **Michel Foucault** (1926–1984) and **Jacques Derrida** (1930–2004) forged the doctrine; critical theory put it in charge.\n\nThe claim starts from a small truth (examined in Chapter 5). People use words to sort the world, and powerful groups often shape which words prevail. From that plain fact, strong constructivism jumps to a sweeping claim: **no independent reality stands behind language, and truth and knowledge are only products of social power (\"power-knowledge,\" or *pouvoir-savoir*).**\n\nOn this view, science, biological sex, merit, and the rule of law are not discoveries about how the world works. They are stories told by ruling groups to keep their place. When a claim is made about biology, crime, history, or building codes, the constructivist does not ask whether the claim matches the facts. He asks which group gains from it and whose power it breaks.\n\nChapter 2 drew the line this view erases. A story does not make a new world. It makes a narrative, and a narrative does not push back because its author controls it. Power can rewrite a report on a harvest, a bridge, or a crime rate. It cannot rewrite the harvest, the bridge, or the crime.\n\nOnce truth answers to power, whether under secular constructivism or under a creed of unbound will, three things break at once.\n\nWords stop describing the world and become weapons. Under Principle 1, speech exists so limited people can compare notes and catch mistakes. Under constructivism, speech exists to move a crowd, take resources for a faction, or shut a rival down.\n\nNext, error can no longer be corrected. A school drops advanced math, or a city stops prosecuting theft. Test scores fall and shops close. Under this creed, those results never count against the theory. The witness who points to the closed shops or the lower scores is charged with bad faith or bigotry. Every failed fact is turned into a fault in the man who spoke.\n\nLast, public life turns into open war. Where people accept a shared world, two neighbors can hold different private creeds and still agree on whether the road is paved and the bill was paid. The physical world stands outside both of them as an impartial judge. Once every claim is ruled political and every fact a tool of power, no impartial judge remains. The only way left to settle a dispute is to seize the press, the schools, and the courts, and force everyone else to repeat the winner's script."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:4d881e8e:voice/plain-style",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/08_ch08.md",
+      "byte_offset": 23618,
+      "byte_end": 26432,
+      "quote": "A government can itself become the active enemy of a group of people living inside its borders.\n\nA clear example appears in the actions of the Young Turk regime and the subsequent Turkish nationalist governments toward the long-established non-Muslim minorities living inside the Ottoman Empire and the Turkish Republic during the first half of the twentieth century.\n\nFirst, during the years **1915 to 1923**, the Young Turk and nationalist authorities carried out systematic massacres, death marches into the Syrian desert, forced deportations, and wholesale seizures of homes, churches, farms, and businesses against millions of Armenian and Greek subjects whose families had lived in Anatolia, Pontus, and Thrace for thousands of years.\n\nSecond, even for the small remnant of Greek, Armenian, and Jewish citizens who remained in Istanbul under the Turkish Republic a generation later, in **November 1942** the Turkish parliament enacted the notorious ***Varlık Vergisi* (Wealth Tax)**. On paper, it was called an emergency wartime tax law. In reality, local assessment boards operating behind closed doors without right of appeal assigned non-Muslim citizens arbitrary tax bills intentionally set at 50 percent to 200 percent or more of their total net worth, demanding payment in cash within fifteen days. Non-Muslim shopkeepers, artisans, and families were forced to liquidate their life's work (their houses, factories, and heirlooms) at distressed prices to Muslim buyers, and more than a thousand who still could not meet the impossible assessments were arrested, stripped of everything, and shipped in winter railcars to **forced labor battalions** breaking stone in the snows of Aşkale in eastern Anatolia.\n\nThe Turkish nationalist rulers acted on the premise that the non-Muslim minorities, whose commercial competence and distinct identity did not fit the program of an ethnically homogeneous Turkish state, were an internal obstacle to be eliminated. Consequently, the state made itself the active enemy of its own Greek, Armenian, and Jewish citizens, employing statutes, tax assessments, confiscation, forced labor, and physical violence to destroy their ability to keep and build life in that land.\n\nThis historical record establishes two truths under Principle 4. First, a state can make itself the enemy of a people through a tax law alone: when assessment boards set a people's taxes beyond everything they own, allow no appeal, and send those who cannot pay to forced labor, the state acts as their enemy, whatever name it gives the statute. This is the limit stated under Tier 4: a tax levied to confiscate the household, or to destroy a people, is not a civic duty. Second, even the government under which you live becomes your enemy if it turns its coercive power toward your destruction.",
+      "problem": "Voice score +1.37 (shS=11%, lat=5.8%); earlier plain-style draft left 0/4 paragraphs ending on a stressed beat. Refreshed so every historical paragraph lands cleanly on a concrete beat.",
+      "rule": "voice/plain-style",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "plain style + cadence",
+          "text": "A government can itself turn enemy against people living inside its own borders.\n\nThe record of the Young Turk regime and the Turkish Republic toward non-Muslim minorities in the first half of the twentieth century shows how. Between **1915 and 1923**, Ottoman and nationalist forces carried out massacres, death marches into the Syrian desert, deportations, and seizures of homes, churches, farms, and shops against millions of Armenian and Greek subjects whose families had worked Anatolia, Pontus, and Thrace for hundreds of years.\n\nA generation later, the small remnant of Greek, Armenian, and Jewish citizens still living in Istanbul met a quieter weapon. In **November 1942**, the Turkish parliament passed the ***Varlık Vergisi* (Wealth Tax)**. On paper it was an emergency wartime levy. In practice, closed local boards with no appeal handed non-Muslim citizens bills set at 50 percent to 200 percent or more of everything they owned, due in cash within fifteen days. Shopkeepers and tradesmen had to sell their houses, workshops, and family goods at ruinous prices to Muslim buyers. More than a thousand who still could not pay were arrested, stripped of their property, and sent in winter railcars to Aşkale in eastern Anatolia, where **forced labor battalions** broke rock in the snow.\n\nThe rulers saw those minorities as a block to one uniform Turkish state. Through statutes, tax boards, seizure, forced labor, and arms, the state set out to wipe their homes and trades from the land.\n\nTwo points follow under Principle 4. A state can act as a people's enemy through a tax law alone: when boards tax a group past everything it owns, bar appeal, and ship the defaulters to forced labor, the statute is enmity, whatever title it carries. That is the boundary stated under Tier 4: a tax raised to seize the household or destroy a people is not a civic duty. Even a man's own government turns enemy the day it aims its force at his house."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:1804f760:voice/plain-style",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/10_ch10.md",
+      "byte_offset": 3265,
+      "byte_end": 4333,
+      "quote": "**Have children** is an explicit, foundational virtue of civilization rather than a private preference like stamp-collecting or golf because of three invariable facts of reality. First, every human being is mortal (Principles 1 and 2): within roughly eighty to a hundred years, 100 percent of the human beings currently reading this book, administering the courts, piloting the aircraft, and cultivating the land will be dead. Second, civilization cannot be stored on inanimate storage media or stone monuments (Principle 3): a library of engineering textbooks sitting in an empty city with no living human minds to read, practice, and execute them is merely stacked paper awaiting decay, because civilization exists only within living human beings. Third, replacement requires slightly more than two children per woman (approximately 2.1 under modern low-mortality conditions) across the population as a whole, and keeping and building life requires healthy, well-formed families raising two, three, four, or more children so that the population continues with vigor.",
+      "problem": "Voice score +1.63 (shS=0%, lat=8.2%) and lowest cadence Snap (61.0) among open plain-style drafts due to weak closing paragraph (48.5, Mud=2.9). Refreshed for tighter rhythm and zero mud.",
+      "rule": "voice/plain-style",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "plain style + cadence",
+          "text": "**Have children** is a core virtue of civilization, not a private hobby like stamp-collecting or golf. Three plain facts settle the matter.\n\nEvery human being is mortal (Principles 1 and 2). Within a hundred years, everyone now reading this page, judging in the courts, flying aircraft, and working the fields will be dead.\n\nCivilization cannot be saved on paper or carved in stone (Principle 3). A library of engineering manuals in an empty town, with no living minds to read and practice them, is only stacked paper awaiting decay. Civilization lives only in living hands.\n\nTo hold its ground, a people needs just over two children per woman (about 2.1 in a modern country with low child death). To keep and build with strength takes sound homes raising two, three, four, or more."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:37f6e171:voice/plain-style",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 10273,
+      "byte_end": 12856,
+      "quote": "Tracing modern collectivist and anti-realist philosophy across two centuries shows how each thinker systematically repudiated one or more of the Five Principles.\n\n**Jean-Jacques Rousseau** (1712–1778) denied that virtue must be cultivated in human beings (Principle 2), claiming they are naturally good and corrupted only by property and civilization. He attacked keeping and building by calling the first man who fenced a plot of ground to establish a farm an impostor. He also opposed the mediating tiers of family, church, and local guild, demanding in *The Social Contract* that every citizen surrender himself unconditionally to the unitary state's **\"General Will\"** and be *\"forced to be free.\"* Robespierre and the Jacobins invoked Rousseau's General Will to justify the Terror of 1793–1794.\n\n**G. W. F. Hegel** (1770–1831) replaced fixed correspondence truth with a \"dialectical\" history in which truth unfolds by historical epoch, and set the state above the household and civil society as \"the actuality of the ethical Idea\" (*Elements of the Philosophy of Right*, 1820, section 257), against Principle 4. Hegel himself defended private property and the family; what his successors took from him was the historicized truth and the exalted state. **Karl Marx** (1818–1883) carried Hegel's dialectic into a history in which truth and morality change by class identity. He denied Principle 2 by promising that abolishing private property would remake human nature into the selfless type that later regimes called the \"New Socialist Man,\" and destroyed Principle 5 by replacing symmetrical law with class liquidation. In every instance where Marx's program was implemented in practice, including in Russia, China, Cambodia, Ethiopia, North Korea, and Cuba, it produced the same outcome of tyranny and famine.\n\nIn the twentieth century, **John Rawls** (1921–2002), as we saw in Chapter 4 and Chapter 8, used the \"Veil of Ignorance\" in *A Theory of Justice* (1971) to strip away human particularity and treat the intergenerational work of parents for their children (Principle 4 and Virtue 7) as an arbitrary \"Lottery of Birth\" to be equalized away by the state, violating Principle 5. **Michel Foucault** (1926–1984) and **Jacques Derrida** (1930–2004) completed the repudiation of classical realism by attacking Principle 1 directly, teaching generations of university students that language never refers to objective reality (*\"there is nothing outside the text\"*) and that truth, reason, science, and law are merely instruments of power (*\"regimes of truth\"*).",
+      "problem": "Voice score +1.65 (lw=24%, lat=7.0%, tri=1.55) and highest residual mud (2.56; Marx para 4.8) among open plain-style drafts. Refreshed to cut abstract prepositional chains and land each thinker's paragraph cleanly.",
+      "rule": "voice/plain-style",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "plain style + cadence",
+          "text": "Across two centuries, one modern line of thinkers broke with the Five Principles step by step.\n\n**Jean-Jacques Rousseau** (1712–1778) denied that virtue must be trained (Principle 2). Man was born good, he claimed, and corrupted by property and society. He attacked keeping and building by calling the first man who fenced a field an impostor. He also attacked the middle tiers of family, church, and guild, demanding in *The Social Contract* that every citizen yield himself to the state's **\"General Will\"** and be *\"forced to be free.\"* Robespierre and the Jacobins cited that General Will as their warrant for the Terror of 1793 and 1794.\n\n**G. W. F. Hegel** (1770–1831) traded fixed truth for a \"dialectical\" history in which truth changes by age. He placed the state above the home and civil society as \"the actuality of the ethical Idea\" (*Elements of the Philosophy of Right*, 1820, section 257), against Principle 4. Hegel still defended property and the family. His heirs kept his shifting truth and his exalted state, and dropped the rest.\n\n**Karl Marx** (1818–1883) turned Hegel's scheme into class war, where truth and right shift by class. He broke Principle 2 by claiming that ending private plots and shops would breed a selfless \"New Socialist Man.\" He broke Principle 5 by trading equal law for class purge. Wherever his rules took hold, in Russia, China, Cambodia, Ethiopia, North Korea, and Cuba, they brought police states and starved land.\n\nIn the twentieth century, **John Rawls** (1921–2002) used the \"Veil of Ignorance\" in *A Theory of Justice* (1971) to erase human particularity (Chapters 4 and 8). He treated what parents build for their children (Principle 4 and Virtue 7) as an arbitrary \"Lottery of Birth\" for the state to level down, breaking Principle 5. **Michel Foucault** (1926–1984) and **Jacques Derrida** (1930–2004) went after Principle 1 itself. They taught whole classes of students that words never touch the world (*\"there is nothing outside the text\"*), and that truth, science, and law are only tools of rule (*\"regimes of truth\"*)."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:3da9c1ce:voice/plain-style",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 34768,
+      "byte_end": 38984,
+      "quote": "The most influential global theorist of this anti-Western, anti-procedural right is the Russian philosopher **Alexander Dugin** (born 1962), author of *The Foundations of Geopolitics* (1997) and *The Fourth Political Theory* (2009).\n\nBecause Dugin borrows the language of conservatism, praising \"Tradition,\" the Orthodox Church, multipolarity, and resistance to Western progressive decadence, some Western right-wing commentators have naively treated him as a civilizational ally.\n\nDugin's actual writings and speeches state his core premises directly, allowing them to be evaluated against the Five Common Principles of Reality.\n\nFirst is Dugin's explicit hostility to individual success and excellence (Principle 2, Principle 3, and Virtue 3). In a post on X on 10 July 2026, he stated his moral premise toward individual human achievement without ambiguity:\n\n\u003e *\"The very concept of the success is deeply immoral... We should prosper or suffer together. Otherwise it is satanic.\"*\n\nThe direct meaning of that statement is unmistakable. According to Dugin, if one farmer rises at five in the morning, clears the weeds from his field, repairs his roof, remains sober, and harvests an abundant crop, while his neighbor sleeps until noon, drinks heavily, and lets his roof decay, the industrious farmer's success is \"deeply immoral\" and \"satanic\" unless he suffers in poverty alongside his neighbor. That is the destructive pathology of the old Russian peasant commune (*mir*) and Soviet collectivization: the envious leveling mentality illustrated in the old Russian proverb in which a peasant, offered any wish on condition that his neighbor receive double, asks to have one of his own eyes put out. There is a direct structural parallel between **radical outcome-egalitarianism** in the West and **Dugin's Eurasianist Collectivism** in the East: both look upon a human being who achieves excellence and builds a flourishing life, and both declare that unequal achievement is evil and that all persons must be compelled to *\"suffer together\"* in shared deprivation.\n\nSecond, Dugin denies universal correspondence truth. In *The Fourth Political Theory*, he explicitly rejects the existence of universal objective truth, universal natural science, and universal human nature. Drawing directly on **Martin Heidegger** and **postmodern constructivism**, Dugin declares that what the West calls empirical truth and logic is merely a local \"Atlanticist / Anglo-Saxon episteme,\" and that Russia/Eurasia possesses its own separate \"archaic truth\" in which state myth overrides factual correspondence. Under Principle 1, truth has one frame, which is reality, and a state myth is a narrative. That is postmodern constructivism restated in the vocabulary of Russian imperial nationalism.\n\nThird, Dugin erases the individual and the self-anchored household into *Dasein* (Principles 2 and 4). He explicitly names the **individual human person** as the primary enemy to be abolished. Whereas the First Political Theory (liberalism) took the individual as its subject, the Second (communism) took class, and the Third (fascism) took race or state, Dugin proposes that his \"Fourth Political Theory\" takes Heidegger's collective *Dasein* (\"being-there\") and the undifferentiated mass (*Narod*) as the only real actor, explicitly declaring that the individual possesses no intrinsic boundary, no inviolable property, and no self-anchored standing apart from the collective empire.\n\nFourth, Dugin abolishes procedural symmetry in favor of eternal imperial war. Because he rejects legal symmetry, individual property rights, and constitutional checks inside the state, and views international politics as a permanent war between \"Land Power\" (Eurasia) and \"Sea Power\" (the constitutional West), his system cannot build high-trust domestic courts or peaceful prosperity. Instead, it requires permanent external conquest and internal secret-police mobilization to justify domestic poverty and coercion.\n\nThe verdict under the Five Principles is clear: Alexander Dugin is not a defender of civilization against postmodernism; he is a collectivist leveler and postmodern anti-realist whose program leads to serfdom and imperial warfare.",
+      "problem": "Voice score +1.47 (lw=24%, lat=6.9%, coach=2.1); earlier draft left opening (45.3) and verdict (39.4) weak. Refreshed to tighten opening and close on a sharp stressed verdict.",
+      "rule": "voice/plain-style",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "plain style + cadence",
+          "text": "The best-known voice on this anti-Western right is the Russian writer **Alexander Dugin** (born 1962), author of *The Foundations of Geopolitics* (1997) and *The Fourth Political Theory* (2009). Because he praises Tradition, the Orthodox Church, and resistance to Western decay, some Western writers mistake him for an ally. His own words close the case.\n\nDugin attacks personal success and craft outright (Principles 2 and 3, Virtue 3). On 10 July 2026, he posted on X:\n\n\u003e *\"The very concept of the success is deeply immoral... We should prosper or suffer together. Otherwise it is satanic.\"*\n\nThe sense is plain. One farmer rises at five, weeds his field, mends his roof, stays sober, and brings in a full crop. His neighbor sleeps until noon, drinks, and lets his roof sag. Under Dugin's rule, the working farmer's harvest is \"deeply immoral\" and \"satanic\" unless he shares his neighbor's poverty. That is the spirit of the old Russian *mir* and Soviet collective farms, captured in the proverb of the peasant who, promised any wish if his neighbor gets twice as much, asks to lose an eye. Western outcome-leveling and Dugin's Eurasianism share one root. Both look at a man who builds well, call his uneven gain evil, and insist that everyone *\"suffer together\"* in shared want.\n\nDugin also denies universal truth. In *The Fourth Political Theory*, he rejects universal natural science, universal logic, and a common human nature. Borrowing from **Martin Heidegger** and **postmodern constructivism**, he calls Western science and logic a local \"Atlanticist\" habit, and claims Russia holds a separate \"archaic truth\" in which state myth outranks fact. Under Principle 1, truth has one frame, which is reality, and a state myth is only a story. Dugin's creed is postmodernism dressed in Russian imperial robes.\n\nHe rejects the individual person and the self-anchored home as well (Principles 2 and 4). He names the individual human person as the main foe to be wiped out. Liberalism took the person as its unit, communism took class, and fascism took race or state. Dugin's fourth theory puts Heidegger's collective *Dasein* (\"being-there\") and the mass (*Narod*) in their place. The person keeps no boundary, no secure property, and no standing apart from the empire.\n\nWithout equal law, private property, or checks on rulers, his system cannot build fair courts or lasting wealth. Viewing the world as endless war between Eurasian \"Land Power\" and Western \"Sea Power,\" it runs on foreign conquest and a police state at home to hold down a poor population.\n\nUnder the Five Principles, the verdict is clear. Alexander Dugin is no friend to civilization against postmodernism. He is a collectivist leveler who hates fixed truth, and his plan ends in serfdom and war."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:a69db048:voice/plain-style",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/14_ch14.md",
+      "byte_offset": 837,
+      "byte_end": 3702,
+      "quote": "Frequently, an interlocutor's belief system is constructed so that it can never be refuted by any event in the physical world.\n\nIf a socialist government nationalizes the Venezuelan petroleum industry and, for two years while oil prices are high, distributes subsidized consumer goods, the partisan declares: *\"Socialism succeeds; credit that outcome to Socialism.\"*\n\nThree years later, when the unmaintained oil equipment fails, the currency collapses in runaway inflation, and families suffer severe food shortages, one points to the same country and the same government, and the partisan replies: *\"That is not the fault of Socialism; it resulted from foreign sabotage, hoarders, adverse weather, and an imperfect implementation of Socialism.\"*\n\nThe structural defect in that reasoning is evident: it applies asymmetrical accounting to historical outcomes. Every favorable result is credited to the theory's ledger, while every severe failure caused by executing the theory's own program is excluded from the account and attributed to external interference.\n\nIn sound accounting, an enterprise maintains a Single Ledger: if one claims credit for the revenues of December, one must also record the expenses, spoilage, and losses of January. To evaluate any self-sealing ideological claim, require the **Six-Point Single Ledger Audit**:\n\n1. **State the Program in Advance:** What concrete policies does the system prescribe (e.g., abolishing private property, reducing police enforcement, removing examination standards)?\n2. **Identify the Historical Test Cases Before Knowing the Outcome:** Where was that program actually implemented?\n3. **Record Both the Gains and the Losses in the Same Account:** One may not claim Year 1 and disavow Year 5 of the same policy.\n4. **Compare Against Actual Historical Baselines, Not Imaginary Perfection:** Never permit a critic to compare an existing country (operating with real human limitations under Principle 2) against an imaginary utopia that exists only in abstract speculation; require him to compare his system's **actual historical record** against that country's actual record.\n5. **Apply the Same Standard of Human Nature to Both Sides:** If he claims his system failed only because \"self-interested individuals acquired power,\" remind him of Principle 2: *every* human institution is administered by self-interested mortals. A bridge design that remains standing only in the absence of gravity and wind is a defective bridge design.\n6. **Specify What Observable Fact Would Falsify the Claim:** Ask directly: *\"What concrete outcome in the physical world over the next five years would demonstrate to you that this policy is erroneous?\"* If he cannot state a single falsifying condition, he is not conducting empirical inquiry or policy analysis; he is reciting an unfalsifiable dogma (**violating Principle 1**).",
+      "problem": "Voice score +1.73 (lw=24%, lat=7.5%, shS=11%) and covers ch14:25 (Snap=31.7); earlier plain-style draft left 0/4 prose paragraphs ending on a stressed beat. Refreshed so every beat lands cleanly.",
+      "rule": "voice/plain-style",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "plain style + cadence",
+          "text": "Many creeds are built so no fact in the world can break in.\n\nA socialist regime seizes Venezuela's oil fields and hands out cheap goods for two years while oil prices sit high. The partisan says: *\"Socialism works; put that on Socialism's credit side.\"* Three years later, the neglected rigs break, the money collapses in runaway inflation, and families go short of food. Point to the same country and the same rulers, and the partisan replies: *\"That is not Socialism; blame foreign plots, hoarders, bad weather, and a botched plan.\"*\n\nThe trick is plain. It keeps two books. Every good year goes to the creed's credit; every bad year brought on by its own rules gets torn out and pinned on a foe.\n\nSound accounting keeps one book. Claim December's sales, and January's bills, waste, and losses stay on the same page. Six checks hold any creed to one book:\n\n1. **Name the program up front:** What steps does the creed call for, such as ending private property, pulling back police, or dropping exams?\n2. **Pick the test cases before looking at the score:** Where was that program put into law?\n3. **Keep gains and losses in one book:** No one may claim Year 1 and disown Year 5 of the same policy.\n4. **Compare real records, not dreams:** Never let a critic measure a real country of flawed mortals (Principle 2) against an imagined utopia. Put his creed's actual record beside the country's actual record.\n5. **Hold both sides to the same human nature:** If he says his plan failed only because selfish men took power, answer with Principle 2: every public office is staffed by selfish mortals. A bridge that stands only when there is no wind or gravity is a bad bridge.\n6. **Name the fact that would prove the claim wrong:** Ask what result over the next five years would show the policy failed. If the speaker can name no test that could ever go against him, he is not arguing from evidence; he is reciting closed dogma (Principle 1)."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/01_ch01.md:801e022a:cadence/snap",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/01_ch01.md",
+      "byte_offset": 8700,
+      "byte_end": 9141,
+      "quote": "Stating and deriving the common principles of civilization explicitly is necessary because in any society that has endured for several generations, citizens begin to take their foundational institutions for granted. They argue fiercely about secondary policies, such as tax rates, criminal sentencing, school discipline, border enforcement, or welfare programs, while leaving the foundational premises on which their arguments rest unstated.",
+      "problem": "Cadence Snap 31.5 (R=19.9, Mud=3.3, weak ending 'unstated'). Cuts gerund/Latinate opener and replaces boilerplate 'take their foundational institutions for granted' with a tighter concrete image and masculine close.",
+      "rule": "cadence/snap",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "cadence + snap",
+          "text": "We must state these common principles in plain words, because any people that lasts a few generations starts to treat its ground as air. Citizens fight over tax rates, prison terms, school rules, borders, and relief checks, while the deeper premises under every fight go unnamed."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:8628d660:cadence/snap",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/04_ch04.md",
+      "byte_offset": 15954,
+      "byte_end": 16795,
+      "quote": "Every human being on a factory floor, in a schoolroom, or on a city street is concrete and particular, not a generic, featureless \"Unit of Humanity.\" Biologically, every human is either male or female, with chromosomal, hormonal, skeletal, and reproductive differences that no statute can repeal, and inherits a specific genetic endowment from a specific mother and father that shapes temperament, physical stature, and natural aptitudes. Familially and historically, every human is born to particular parents in a particular household at a particular moment in history, inheriting specific family debts, assets, habits, and memories. Linguistically and culturally, every human learns a particular native tongue in childhood and is formed within a specific culture whose moral and practical habits become the foundation of his daily conduct.",
+      "problem": "Double-flagged: Cadence Snap 35.4 (Mud=3.2, weak ending) AND #2 lowest semantic movement in the book (SentLeap=0.288, SemVel=0.46) from three parallel adverb-led sentences repeating one template. Tightened with concrete beats and a 3-word closing turn.",
+      "rule": "cadence/snap",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "cadence + snap",
+          "text": "Every person on a shop floor, in a schoolroom, or on a city street is someone in particular, not a blank \"Unit of Humanity.\" Each arrives male or female, shaped by bone, blood, and chromosomes that no statute can repeal, carrying traits passed down from one father and one mother. Each is born into one house and one century, taking on that family's debts, tools, habits, and name. Each grows up in one mother tongue and one web of customs that steer his hands every day. Nobody arrives blank."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:d0909661:cadence/snap",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/04_ch04.md",
+      "byte_offset": 22192,
+      "byte_end": 23070,
+      "quote": "The same biological reality applies to human beings. **A human being is not an interchangeable unit drawn from a receptacle of generic lives; he *is* the specific organism formed by his constitution and heritage.** Your genetic code (half from your specific father, half from your specific mother), your biological sex, the womb that carried you, the lineage that preceded you, the language you first heard, and the household that formed you are not an external garment placed over a pre-existing generic self. Subtract your biological parents, your genetics, your lineage, and your formation, and there is no remainder left over, no disembodied \"you\" who could have been born as somebody else's child in tenth-century Mongolia or twenty-first-century Somalia. If two different parents on another continent have a child, that child is *their* child, not you in a different body.",
+      "problem": "Double-flagged: Cadence Snap 46.9 (R=27, weak ending) AND low semantic movement (SentLeap=0.316, SemVel=0.91) from circular restatement of constitution and lineage. Tightened into concrete weight and a masculine ending.",
+      "rule": "cadence/snap",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "cadence + snap",
+          "text": "The same rule holds for people. **A human being is not a blank piece pulled from a bin of generic lives; he *is* the living person shaped by his blood and home.** Half your genes come from your father and half from your mother; your sex, the womb that bore you, the tongue you first heard, and the house that raised you are not a coat draped over some earlier ghost. Strip away parents, blood, and upbringing, and nothing is left behind to drop into tenth-century Mongolia or modern Somalia. When two strangers on another shore bear a child, that child is theirs, not you in another skin."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:0acda266:cadence/snap",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/08_ch08.md",
+      "byte_offset": 11472,
+      "byte_end": 11858,
+      "quote": "For that reason, dispositional love is the proper default disposition toward all peaceful human beings across every tier (Tiers 1 through 5), until and unless a specific person or group proves by conduct to be a swindler, criminal, or enemy. A society where strangers extend dispositional love to one another is far more orderly and cooperative than a society of suspicious antagonists.",
+      "problem": "Cadence Snap 28.9 (R=14.6, Mud=3.3, weak ending 'antagonists', SemVel=0.61). Cuts 'default disposition' echo, adds a semicolon pivot, and closes on an understated concrete beat.",
+      "rule": "cadence/snap",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "cadence + snap",
+          "text": "Dispositional love is the right default toward every peaceful stranger across all five tiers (Tiers 1 through 5); hold it until a man proves by deed that he is a cheat, a thief, or a foe. A town where strangers wish each other well builds more and trades faster. A town of barred doors spends its strength on locks."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:56b6a733:cadence/snap",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/08_ch08.md",
+      "byte_offset": 16694,
+      "byte_end": 17252,
+      "quote": "What happens when a wealthy society forgets the boundary between the two and attempts to institutionalize unscoped, unconditional kindness as the public policy toward every anonymous stranger? Because anonymous bureaucracies cannot personally verify who is a genuine crisis case and who is a criminal or a habitual dependent, unscoped public \"kindness\" becomes an **invitation to systematic abuse**. Opportunists convert temporary emergency provisions into permanent support, and criminals interpret the refusal to enforce public order as license to plunder.",
+      "problem": "Cadence Snap 31.1 (R=14, Str=29.7%, Syl/CW=2.80, weak ending 'plunder', SemVel=0.92). Replaces stacked Latinate qualifiers ('institutionalize unscoped, unconditional kindness', 'temporary emergency provisions') with direct concrete prose and a stressed close.",
+      "rule": "cadence/snap",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "cadence + snap",
+          "text": "Trouble begins when a rich country blurs that line and tries to write boundless kindness into public law for every stranger. A distant bureau cannot tell a man in brief ruin from a crook or a lifelong taker, so boundless public \"kindness\" turns into **an open invitation to abuse**. Hustlers turn short relief into a permanent living, and thieves read slack law as leave to steal."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:b5f9cf6f:cadence/snap",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 10382,
+      "byte_end": 10899,
+      "quote": "If conscientious, self-governed citizens refuse to exercise magistracy and institutional authority out of a reluctance to judge others, sovereign power does not cease to exist. It remains vacant only until the most unscrupulous faction, bureaucrat, or criminal seizes that jurisdiction and exercises it over the households of the conscientious. Refusing to exercise authority within one's proper scope is not humility; it is a dereliction of duty that surrenders governance to the least principled members of society.",
+      "problem": "Cadence Snap 28.4 (R=11.3, AoA=9.3, Syl/CW=2.72, weak ending 'society', SentLeap=0.343). Replaces six abstract Latinate words in one breath with concrete office symbols (bench, gavel, post, keys) and a sharp masculine close.",
+      "rule": "cadence/snap",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "cadence + snap",
+          "text": "When good men refuse the bench because they shrink from judging others, power does not vanish. The seat stays empty only until the worst faction, clerk, or crook takes the gavel and rules their homes. Walking off a post that belongs to you is not humility; it hands the keys to the worst man in town."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:f44d4ad4:cadence/snap",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 25754,
+      "byte_end": 26335,
+      "quote": "**Discriminating judgment, the application of truthful standards to reality and action upon the verdict, is the protective defense of human life.** Just as a body whose immune system ceases to distinguish between healthy host cells and invading bacteria perishes of infection, a society that refuses to distinguish between builder and offender perishes of disorder. What Principle 5 forbids is *arbitrary prejudice* (pre-judging a person by faction or bribe before examining the evidence); what Principle 5 commands is **accurate procedural judgment** based on conduct and reality.",
+      "problem": "Cadence Snap 33.5 (R=20, Str=33.1%, AoA=9.0, weak ending 'reality'). Tightens the immune-system analogy and sharpens the prejudice-versus-judgment contrast onto a stressed masculine close.",
+      "rule": "cadence/snap",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "cadence + snap",
+          "text": "**Sound judgment, measuring a thing by truth and acting on the verdict, is how human life guards itself.** A body whose white blood cells stop telling friend from germ dies of fever; a town that stops telling builder from thief breaks down in chaos. Principle 5 bars *prejudice*, which condemns a man by faction or bribe before the proof is heard. It commands **fair judgment**, weighed by deed and fact."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:1c56610a:cadence/snap",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 4977,
+      "byte_end": 5570,
+      "quote": "In material welfare, politicians and bureaucracies convert a temporary emergency provision, designed to help a displaced worker or a widowed mother regain self-sufficiency, into an open-ended, multi-generational subsidy that **penalizes marriage and work**. It pays a household more if no working father resides in the home and withdraws benefits if the recipient accepts entry-level employment. Within two generations, what was enacted in the name of \"compassion\" has undermined family formation in entire neighborhoods and habituated millions of capable human beings to permanent dependency.",
+      "problem": "Cadence Snap 34.8 (Punch=19.1, Mud=3.6, Syl/CW=2.75, weak ending 'dependency'). Replaces bureaucratic welfare phrasing with direct household images and a 9-word closing punch.",
+      "rule": "cadence/snap",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "cadence + snap",
+          "text": "Lawmakers and bureaus turn a short bridge for a laid-off worker or a young widow into a lifelong check that **penalizes marriage and work**. The rules pay a home more when no working father lives there, and they cut the check the week a parent takes a starter job. Within two generations, mercy written into bad law has hollowed out whole neighborhoods. Millions of able hands now wait on the state."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:16eb6e96:cadence/snap",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 18346,
+      "byte_end": 19110,
+      "quote": "**Social parasitism** occurs when able-bodied adults who will not work, or corporate interests that will not compete fairly in the market, conceal themselves behind the genuine *cannots* in order to live upon the taxed labor of productive citizens. At the lower end of the social scale, it is the able-bodied man who refuses available employment, vandalizes public parks and transit vehicles built by others' taxes, and treats public assistance as a permanent livelihood. At the upper end of the social scale, it is the **crony rent-seeker** or bureaucratic sinecure-holder who produces no goods or services that voluntary customers would purchase, but lobbies the legislature to compel taxpayers to subsidize his enterprise or mandate his administrative services.",
+      "problem": "Double-flagged: Cadence Snap 44.7 (Mud=2.6, weak ending) AND low semantic movement (SentLeap=0.311, SemVel=0.54). Tightens the bottom/top contrast into concrete images landing on a stressed beat.",
+      "rule": "cadence/snap",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "cadence + snap",
+          "text": "**Social parasitism** is the able *will-not* hiding behind the true *cannot* to live off the taxed work of others. At the bottom, it is the healthy man who turns down open jobs, wrecks parks and trains paid for by working neighbors, and treats public relief as a career. At the top, it is the **crony rent-seeker** or padded office-holder who sells nothing a willing buyer wants, and instead lobbies lawmakers to force taxpayers to fund his firm or buy his stamp."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:c60e0f50:cadence/snap",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 8309,
+      "byte_end": 8756,
+      "quote": "**David Hume** was a penetrating historian and economist outside his study, understanding property, contract, and the danger of political fanaticism; yet inside his philosophical treatise, his premise that we perceive only disconnected mental impressions led him to claim that we possess no rational justification for believing in cause and effect or the permanence of external objects. He severed speculative philosophy from common-sense reality.",
+      "problem": "Cadence Snap 34.0 (R=24.7, AoA=9.4, Syl/CW=2.76, weak ending 'reality', SemVel=0.58). Splits the 54-word tangle into an explicit Outside/Inside contrast and closes on a concrete 10-word masculine punch.",
+      "rule": "cadence/snap",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "cadence + snap",
+          "text": "Outside his study, **David Hume** wrote shrewd history and sound economics; he knew property, contract, and the fire of political zeal. Inside his study, he began from the premise that the mind sees only loose flashes of sense, and argued that we have no firm ground to trust cause, effect, or the stone beneath our feet. He cut philosophy loose from the world he walked on."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:060b318e:cadence/snap",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 29113,
+      "byte_end": 29768,
+      "quote": "Its vulnerability appeared when it was detached from Principle 1 and Principle 5. Traditional Shinto is a particularist folk religion without a universal doctrine of correspondence truth or universal human nature. Between 1890 and 1945, the Meiji and Showa militarists fused it into **State Shinto**, teaching as state dogma that the Japanese Emperor was a living descendant of the sun goddess and that non-Japanese peoples occupied an inferior ontological tier. That state creed silenced internal rational dissent (violating Principle 1) and licensed atrocities against conquered neighbors (violating Principle 5), culminating in the catastrophe of 1945.",
+      "problem": "Cadence Snap 33.8 (R=22, Str=31.3%, AoA=9.0, weak ending). Trims 'particularist folk religion' and 'inferior ontological tier' into plainer concrete wording while keeping dates, State Shinto, and Principles 1 and 5 exact.",
+      "rule": "cadence/snap",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "cadence + snap",
+          "text": "Its fault showed once it broke loose from Principles 1 and 5. Old Shinto is a local folk faith with no universal rule of truth and no common human nature. Between 1890 and 1945, Meiji and Showa generals forged it into **State Shinto**, teaching as state law that the Emperor sprang from the sun goddess and that foreign peoples stood on a lower rung of being. That state creed shut down dissent at home (breaking Principle 1), licensed atrocities across conquered lands (breaking Principle 5), and led Japan to ruin in 1945."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:15e862f0:cadence/snap",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/13_ch13.md",
+      "byte_offset": 174,
+      "byte_end": 513,
+      "quote": "The first is **the Generational Criterion (70–100 years)**. Never evaluate a policy by its immediate sentiment during the first eighteen months of borrowed expenditure or revolutionary enthusiasm. Evaluate it by the condition of the country when the grandchildren inherit the resulting institutions and balance sheet seventy years later.",
+      "problem": "Cadence Snap 27.7 (#2 muddiest in book; Str=29.3%, Syl/CW=2.79, weak ending 'later'). Replaces 'immediate sentiment' and 'borrowed expenditure' with concrete words (cheers, cash, crowd, house, ledger, land) and a stressed ending.",
+      "rule": "cadence/snap",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "cadence + snap",
+          "text": "The first test is **the Generational Criterion (70–100 years)**. A law cannot be judged by the cheers of its first eighteen months, when borrowed cash still buys the crowd. Judge it by the house, the ledger, and the land the grandchildren hold seventy years on."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:1c8772dd:cadence/snap",
+      "source": "call",
+      "from": "gemini-4-neon",
+      "kind": "rewrite",
+      "path": "civ/chapters/14_ch14.md",
+      "byte_offset": 12078,
+      "byte_end": 12402,
+      "quote": "When millions of individuals direct their daily vectors toward falsehood, evasion of responsibility, negligent work, cynicism, childlessness, and the consumption of inherited capital, the resultant vector of the whole society points downward toward decline, and no prime minister or central bank can reverse that trajectory.",
+      "problem": "Cadence Snap 29.8 (R=9.4, Mud=8.9, single 45-word sentence, weak ending 'trajectory'). Splits into a concrete setup and a 13-word stressed punch (down / up).",
+      "rule": "cadence/snap",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "cadence + snap",
+          "text": "When millions aim their daily work at lies, dodged duty, sloppy craft, empty cradles, and spent inheritance, the sum of those lives pulls the whole country down. No prime minister and no central bank can turn that sum back up."
+        }
+      ]
+    }
+  ]
+}
