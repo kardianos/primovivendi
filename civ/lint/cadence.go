@@ -44,6 +44,7 @@ type cadenceOptions struct {
 	asJSON   bool
 	text     string
 	showAll  bool
+	semantic bool
 }
 
 type aoaEntry struct {
@@ -82,6 +83,13 @@ type cadenceMetrics struct {
 	Weight         float64 `json:"weight"`           // 0..100 sub-score
 	Punch          float64 `json:"punch"`            // 0..100 sub-score
 	Snap           float64 `json:"snap"`             // 0..100 composite voice presence score
+	SemanticOK     bool    `json:"semantic_ok,omitempty"`
+	SentLeap       float64 `json:"sent_leap,omitempty"`   // mean 1 - cos(s_i, s_{i+1})
+	MaxTurn        float64 `json:"max_turn,omitempty"`    // max 1 - cos(s_i, s_{i+1})
+	EndTurn        float64 `json:"end_turn,omitempty"`    // 1 - cos(s_{n-2}, s_{n-1})
+	ClauseLeap     float64 `json:"clause_leap,omitempty"` // mean 1 - cos across balanced pivots
+	SemVel         float64 `json:"sem_vel,omitempty"`     // sum(sent leaps) / words * 100
+	TreadWater     bool    `json:"tread_water,omitempty"` // >=3 sentences with very low semantic leap
 }
 
 type cadencePara struct {
@@ -971,6 +979,17 @@ func runCadence(root string, files []string, opts cadenceOptions) error {
 
 	if opts.text != "" {
 		p := cadencePara{Text: opts.text, Metrics: measureCadence(opts.text, lx)}
+		if opts.semantic {
+			se, err := newSemanticEngine(root)
+			if err != nil {
+				return err
+			}
+			ps := []cadencePara{p}
+			if err := applySemantic(ps, se); err != nil {
+				return err
+			}
+			p = ps[0]
+		}
 		if opts.asJSON {
 			enc := json.NewEncoder(os.Stdout)
 			enc.SetIndent("", "  ")
@@ -997,6 +1016,15 @@ func runCadence(root string, files []string, opts cadenceOptions) error {
 		}
 	}
 
+	if opts.semantic && len(all) > 0 {
+		se, err := newSemanticEngine(root)
+		if err != nil {
+			return err
+		}
+		if err := applySemantic(all, se); err != nil {
+			return err
+		}
+	}
 
 	if opts.asJSON {
 		enc := json.NewEncoder(os.Stdout)
@@ -1019,6 +1047,12 @@ func runCadence(root string, files []string, opts cadenceOptions) error {
 		aoa     float64
 		poly    float64
 		mud     float64
+		leap    float64
+		leapN   int
+		endT    float64
+		clLeap  float64
+		clLeapN int
+		vel     float64
 	}
 	rowByFile := map[string]*chRow{}
 	var rowOrder []string
@@ -1045,6 +1079,16 @@ func runCadence(root string, files []string, opts cadenceOptions) error {
 		r.aoa += p.Metrics.AoAMean
 		r.poly += p.Metrics.PolyMean
 		r.mud += p.Metrics.Mud100
+		if p.Metrics.SemanticOK && p.Metrics.SentLeap > 0 {
+			r.leap += p.Metrics.SentLeap
+			r.endT += p.Metrics.EndTurn
+			r.vel += p.Metrics.SemVel
+			r.leapN++
+		}
+		if p.Metrics.SemanticOK && p.Metrics.ClauseLeap > 0 {
+			r.clLeap += p.Metrics.ClauseLeap
+			r.clLeapN++
+		}
 	}
 
 	var rows []chRow
@@ -1062,20 +1106,45 @@ func runCadence(root string, files []string, opts cadenceOptions) error {
 		r.aoa /= n
 		r.poly /= n
 		r.mud /= n
+		if r.leapN > 0 {
+			ln := float64(r.leapN)
+			r.leap /= ln
+			r.endT /= ln
+			r.vel /= ln
+		}
+		if r.clLeapN > 0 {
+			r.clLeap /= float64(r.clLeapN)
+		}
 		rows = append(rows, r)
 	}
 
+	if opts.semantic {
+		fmt.Println("=== Cadence & Voice Presence + Semantic Leap (Phases 1–3, pure Go + BGE-small-en-v1.5) ===")
+		fmt.Printf("%-14s %4s %6s | %5s %5s %5s %5s | %5s %5s %5s %4s %4s %4s %4s | %5s %5s %5s %5s\n",
+			"Chapter", "Para", "Words", "Snap", "Rhy", "Wgt", "Pun", "Str%", "End%", "SylCW", "Conc", "AoA", "Poly", "Mud", "Leap", "EndT", "ClLp", "Vel")
+		fmt.Println(strings.Repeat("-", 124))
+	} else {
 		fmt.Println("=== Cadence & Voice Presence (Phases 1+2, pure Go; 0..100 higher = stronger rhythm, word weight, and punch) ===")
 		fmt.Printf("%-14s %4s %6s | %5s %5s %5s %5s | %5s %5s %5s %4s %4s %4s %4s\n",
 			"Chapter", "Para", "Words", "Snap", "Rhy", "Wgt", "Pun", "Str%", "End%", "SylCW", "Conc", "AoA", "Poly", "Mud")
 		fmt.Println(strings.Repeat("-", 98))
+	}
 
 	var bSnap, bRhy, bWgt, bPun, bStr, bEnd, bSyl, bConc, bAoA, bPoly, bMud float64
+	var bLeap, bEndT, bClLeap, bVel float64
+	bLeapN, bClN := 0, 0
 	bWords := 0
 	for _, r := range rows {
+		if opts.semantic {
+			fmt.Printf("%-14s %4d %6d | %5.1f %5.1f %5.1f %5.1f | %5.1f %5.1f %5.2f %4.2f %4.1f %4.2f %4.2f | %5.3f %5.3f %5.3f %5.2f\n",
+				r.file, r.paras, r.words, r.snap, r.rhy, r.wgt, r.pun,
+				r.str, r.end, r.syl, r.conc, r.aoa, r.poly, r.mud,
+				r.leap, r.endT, r.clLeap, r.vel)
+		} else {
 			fmt.Printf("%-14s %4d %6d | %5.1f %5.1f %5.1f %5.1f | %5.1f %5.1f %5.2f %4.2f %4.1f %4.2f %4.2f\n",
 				r.file, r.paras, r.words, r.snap, r.rhy, r.wgt, r.pun,
 				r.str, r.end, r.syl, r.conc, r.aoa, r.poly, r.mud)
+		}
 	}
 	for _, p := range all {
 		bWords += p.Metrics.Words
@@ -1092,14 +1161,42 @@ func runCadence(root string, files []string, opts cadenceOptions) error {
 		bAoA += p.Metrics.AoAMean
 		bPoly += p.Metrics.PolyMean
 		bMud += p.Metrics.Mud100
+		if p.Metrics.SemanticOK && p.Metrics.SentLeap > 0 {
+			bLeap += p.Metrics.SentLeap
+			bEndT += p.Metrics.EndTurn
+			bVel += p.Metrics.SemVel
+			bLeapN++
+		}
+		if p.Metrics.SemanticOK && p.Metrics.ClauseLeap > 0 {
+			bClLeap += p.Metrics.ClauseLeap
+			bClN++
+		}
 	}
 	if len(all) > 0 {
 		n := float64(len(all))
+		if opts.semantic {
+			fmt.Println(strings.Repeat("-", 124))
+			avgLeap, avgEndT, avgVel, avgCl := 0.0, 0.0, 0.0, 0.0
+			if bLeapN > 0 {
+				avgLeap = bLeap / float64(bLeapN)
+				avgEndT = bEndT / float64(bLeapN)
+				avgVel = bVel / float64(bLeapN)
+			}
+			if bClN > 0 {
+				avgCl = bClLeap / float64(bClN)
+			}
+			fmt.Printf("%-14s %4d %6d | %5.1f %5.1f %5.1f %5.1f | %5.1f %5.1f %5.2f %4.2f %4.1f %4.2f %4.2f | %5.3f %5.3f %5.3f %5.2f\n",
+				"BOOK MEAN", len(all), bWords,
+				bSnap/n, bRhy/n, bWgt/n, bPun/n,
+				bStr/n, bEnd/n, bSyl/n, bConc/n, bAoA/n, bPoly/n, bMud/n,
+				avgLeap, avgEndT, avgCl, avgVel)
+		} else {
 			fmt.Println(strings.Repeat("-", 98))
 			fmt.Printf("%-14s %4d %6d | %5.1f %5.1f %5.1f %5.1f | %5.1f %5.1f %5.2f %4.2f %4.1f %4.2f %4.2f\n",
 				"BOOK MEAN", len(all), bWords,
 				bSnap/n, bRhy/n, bWgt/n, bPun/n,
 				bStr/n, bEnd/n, bSyl/n, bConc/n, bAoA/n, bPoly/n, bMud/n)
+		}
 	}
 
 	sorted := append([]cadencePara(nil), all...)
@@ -1126,6 +1223,28 @@ func runCadence(root string, files []string, opts cadenceOptions) error {
 		}
 	}
 
+	if opts.semantic && !opts.showAll {
+		var multi []cadencePara
+		for _, p := range all {
+			if p.Metrics.Sentences >= 3 && p.Metrics.SentLeap > 0 {
+				multi = append(multi, p)
+			}
+		}
+		if len(multi) > 0 {
+			sort.Slice(multi, func(i, j int) bool { return multi[i].Metrics.SentLeap < multi[j].Metrics.SentLeap })
+			lim := min(10, len(multi))
+			fmt.Printf("\n=== Lowest Semantic Movement / Potential Treading-Water (%d shown, >= 3 sents) ===\n", lim)
+			for i := 0; i < lim; i++ {
+				printParaRow(multi[i])
+			}
+
+			sort.Slice(multi, func(i, j int) bool { return multi[i].Metrics.EndTurn > multi[j].Metrics.EndTurn })
+			fmt.Printf("\n=== Strongest Closing Semantic Turns (%d shown, >= 3 sents) ===\n", lim)
+			for i := 0; i < lim; i++ {
+				printParaRow(multi[i])
+			}
+		}
+	}
 	return nil
 }
 
@@ -1138,11 +1257,19 @@ func printParaRow(p cadencePara) {
 	if p.Metrics.ParaEndStr {
 		endMark = "STR"
 	}
-	fmt.Printf("  %5.1f (R:%4.0f W:%4.0f P:%4.0f)  %-28s (%3dw, Str=%4.1f%% Syl=%.2f Conc=%.2f AoA=%.1f Poly=%.2f Mud=%.1f End=%s)\n        %s\n",
+	sem := ""
+	if p.Metrics.SemanticOK {
+		sem = fmt.Sprintf(" | Leap=%.3f EndT=%.3f ClLp=%.3f Vel=%.2f",
+			p.Metrics.SentLeap, p.Metrics.EndTurn, p.Metrics.ClauseLeap, p.Metrics.SemVel)
+		if p.Metrics.TreadWater {
+			sem += " [TREAD]"
+		}
+	}
+	fmt.Printf("  %5.1f (R:%4.0f W:%4.0f P:%4.0f)  %-28s (%3dw, Str=%4.1f%% Syl=%.2f Conc=%.2f AoA=%.1f Poly=%.2f Mud=%.1f End=%s%s)\n        %s\n",
 		p.Metrics.Snap, p.Metrics.Rhythm, p.Metrics.Weight, p.Metrics.Punch,
 		fmt.Sprintf("%s:%d", p.File, p.Line),
 		p.Metrics.Words, p.Metrics.StrPct, p.Metrics.SylPerCW, p.Metrics.ConcMean,
-		p.Metrics.AoAMean, p.Metrics.PolyMean, p.Metrics.Mud100, endMark, snip)
+		p.Metrics.AoAMean, p.Metrics.PolyMean, p.Metrics.Mud100, endMark, sem, snip)
 }
 
 func printSingleCadence(text string, m cadenceMetrics) {
@@ -1158,4 +1285,8 @@ func printSingleCadence(text string, m cadenceMetrics) {
 		m.SylPerCW, m.ConcMean, m.AoAMean, m.PolyMean, m.KineticVerbPct)
 	fmt.Printf("Punch:  Pivot/100w=%.2f  Mud/100w=%.2f  Words=%d  Sents=%d\n",
 		m.Pivot100, m.Mud100, m.Words, m.Sentences)
+	if m.SemanticOK {
+		fmt.Printf("Sem:    SentLeap=%.3f  MaxTurn=%.3f  EndTurn=%.3f  ClauseLeap=%.3f  SemVel=%.2f  TreadWater=%v\n",
+			m.SentLeap, m.MaxTurn, m.EndTurn, m.ClauseLeap, m.SemVel, m.TreadWater)
+	}
 }

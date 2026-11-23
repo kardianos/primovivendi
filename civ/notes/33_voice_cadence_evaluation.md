@@ -188,3 +188,15 @@ Below are 8 paragraphs drawn straight from the lowest-Snap tail of `civ/bin/lint
    - **Option B: Add pure-Go `BAAI/bge-small-en-v1.5` embeddings** (via `goformer` or a cached optional subcommand `civ/bin/lint cadence -semantic`) to catch concrete treading-water and track `SemVel` / `ClauseLeap` without Python or CGo.
    - **Option C: Skip causal-LM surprisal (`SmolLM2` / `llama.cpp`) for linting** unless we later want a dedicated cliché-vs-freshness classifier — raw surprisal did not show a large enough improvement over Phases 1 + 2 to justify 457 ms/paragraph and jargon confounding.
 
+---
+
+## 7. Addendum: Phase 3 Option B Implemented (Pure Go)
+
+Implemented in [semantic.go](file:///home/d/code/po/civ/lint/semantic.go) and [semantic_test.go](file:///home/d/code/po/civ/lint/semantic_test.go) using `github.com/MichaelAyles/goformer` (MIT, zero transitive dependencies, zero CGO, zero ONNX, zero Python), loading `BAAI/bge-small-en-v1.5` (`model.safetensors`, 127.3 MB) from `ext-ref/embed/bge-small-en-v1.5/` with a SHA-256 binary vector cache at `ext-ref/embed/cache_bge_small.bin`:
+
+- **Cold full-book run** (`civ/bin/lint cadence -semantic`, 3,978 uncached sentence/clause segments across 16 Go workers): `5m 01s` (one-time cache build).
+- **Warm cached full-book run** (all 522 paragraphs, 4 lexicons + 3,978 vectors): **`0.482 s`**.
+- **Book semantic means** (`goformer` mean-pooled `BGE-small-en-v1.5`): `SentLeap = 0.441`, `EndTurn = 0.441`, `ClauseLeap = 0.463`, `SemVel = 1.34`.
+- **Calibrated `TreadWater` cutoff:** `SentLeap < 0.28` on paragraphs with `>= 3` sentences (`TREAD_WATER` probe scores `0.252` and flags `TreadWater=true`; deliberate parallel contrasts at `0.281–0.298` are spared).
+- **Double-flagged book paragraphs** (low deterministic `Snap` *and* lowest semantic movement): [04_ch04.md:91](file:///home/d/code/po/civ/chapters/04_ch04.md#L91) (`Snap 35.4`, `Leap 0.288`, `Vel 0.46`), [11_ch11.md:143](file:///home/d/code/po/civ/chapters/11_ch11.md#L143) (`Snap 44.7`, `Leap 0.311`, `Vel 0.54`), and [04_ch04.md:119](file:///home/d/code/po/civ/chapters/04_ch04.md#L119) (`Snap 46.9`, `Leap 0.316`, `Vel 0.91`).
+

@@ -261,16 +261,21 @@ civ/bin/lint lists -all                    # full inventory of every list block
 civ/bin/lint sim civ/notes/review/packets/<packet>.json
 ```
 
-### Part K: Cadence and Voice Presence (Rhythm, Word Weight, and Punch)
+### Part K: Cadence and Voice Presence (Rhythm, Word Weight, Punch, and Semantic Leap)
 
 `civ/bin/lint cadence` measures positive voice presence at the paragraph level in pure Go (~0.4 seconds across all 14 chapters) using four local lexicons kept in `ext-ref/` (not committed): the CMU Pronouncing Dictionary (`ext-ref/phonetics/cmudict.dict`), Brysbaert concreteness (`ext-ref/concreteness/brysbaert_2014.tsv`), Kuperman Age of Acquisition with SUBTLEX dominant POS and lemmas (`ext-ref/lexicon/kuperman_aoa.tsv`), and Princeton WordNet 3.1 sense counts (`ext-ref/lexicon/wordnet_senses.tsv`). Each paragraph receives an anchored `Snap` score (`0–100`, higher = stronger voice) composed of three sub-scores: **Rhythm** (primary stress-beat density, 4+ weak-syllable troughs, masculine stressed landings, sentence-length variation and setup-to-punch contrast), **Weight** (syllables per content word, concreteness, early Age of Acquisition, WordNet polysemy, kinetic verb ratio), and **Punch** (balanced clause pivots, closing snap, and absence of abstract/Latinate prepositional mud chains).
 
+Passing `-semantic` runs an optional pure-Go neural embedding pass (`BAAI/bge-small-en-v1.5` loaded directly from HuggingFace safetensors in `ext-ref/embed/bge-small-en-v1.5/` via `goformer`, with zero CGO, ONNX, or Python) and caches sentence/clause vectors in `ext-ref/embed/cache_bge_small.bin`. It adds adjacent-sentence semantic leap (`Leap`), closing-sentence turn (`EndT`), balanced-pivot clause leap (`ClLp`), semantic velocity (`Vel`), and a `[TREAD]` signal for circular paragraphs that pass the lexical checks without advancing the thought.
+
 ```bash
 civ/bin/lint fetch-lexicons                # once: downloads cmudict, Kuperman AoA, and WordNet 3.1 senses
+civ/bin/lint fetch-embed                   # once: downloads BAAI/bge-small-en-v1.5 safetensors (~133 MB)
 civ/bin/lint cadence                       # chapter summary + 20 muddiest and 10 snappiest paragraphs (0.4 s)
-civ/bin/lint cadence -text "..."           # score a single paragraph or draft rewrite
-civ/bin/lint cadence -json                 # emit per-paragraph metrics as JSON for downstream tools
+civ/bin/lint cadence -semantic             # adds pure-Go BGE-small semantic leap, velocity, and treading-water tables
+civ/bin/lint cadence -semantic -text "..." # score a single paragraph or draft rewrite
+civ/bin/lint cadence -semantic -json       # emit per-paragraph metrics as JSON for downstream tools
 ```
+
 ---
 
 ## 6. Bottom-Up Editing Workflow

@@ -11,11 +11,12 @@
 //	go run . prose|structure|render
 //	go run . phonetics               # downloads cmudict into ext-ref/phonetics/ if needed
 //	go run . voice                   # two-voice diagnostic across chapters
-//	go run . cadence               # rhythm, connotative word weight, and punch
+//	go run . cadence [-semantic]     # rhythm, connotative word weight, punch, and optional pure-Go BGE-small semantic leap
 //	go run . lists                   # list-block / prose-in-bullets audit
 //	go run . sim <packet.json>       # simulate packet edits against lint prose + voice
 //	go run . fetch-cmudict
 //	go run . fetch-lexicons          # downloads cmudict, Kuperman AoA, and WordNet 3.1 senses
+//	go run . fetch-embed             # downloads BAAI/bge-small-en-v1.5 safetensors into ext-ref/embed/
 package main
 
 import (
@@ -54,6 +55,7 @@ func main() {
 	cBest := fs.Int("best", 10, "cadence: number of snappiest/highest-snap paragraphs to show")
 	cJSON := fs.Bool("json", false, "cadence: emit paragraph metrics as JSON")
 	cText := fs.String("text", "", "cadence: score a single text string instead of chapter files")
+	cSemantic := fs.Bool("semantic", false, "cadence: enable pure-Go BGE-small-en-v1.5 semantic leap & velocity metrics (cached)")
 	fs.Parse(args)
 
 	root, err := repoRoot()
@@ -64,7 +66,7 @@ func main() {
 	if len(files) == 0 {
 		if cmd == "voice" || cmd == "lists" || cmd == "cadence" {
 			files, err = voiceDefaultChapters(root)
-		} else if cmd != "sim" && cmd != "fetch-lexicons" {
+		} else if cmd != "sim" && cmd != "fetch-lexicons" && cmd != "fetch-embed" {
 			files, err = defaultFiles(root, *notes)
 		}
 		if err != nil {
@@ -128,13 +130,16 @@ func main() {
 			asJSON:   *cJSON,
 			text:     *cText,
 			showAll:  *vAll,
+			semantic: *cSemantic,
 		})
 	case "fetch-cmudict":
 		_, err = ensureCMU(root)
 	case "fetch-lexicons":
 		err = ensureLexicons(root, true)
+	case "fetch-embed":
+		_, err = ensureEmbedModel(root, true)
 	default:
-		err = fmt.Errorf("unknown command %q (audit, prose, structure, render, phonetics, voice, cadence, lists, sim, fetch-cmudict, fetch-lexicons, all)", cmd)
+		err = fmt.Errorf("unknown command %q (audit, prose, structure, render, phonetics, voice, cadence, lists, sim, fetch-cmudict, fetch-lexicons, fetch-embed, all)", cmd)
 	}
 	if err != nil {
 		log.Fatal(err)
