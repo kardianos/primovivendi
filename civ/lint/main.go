@@ -11,9 +11,11 @@
 //	go run . prose|structure|render
 //	go run . phonetics               # downloads cmudict into ext-ref/phonetics/ if needed
 //	go run . voice                   # two-voice diagnostic across chapters
+//	go run . cadence               # rhythm, connotative word weight, and punch
 //	go run . lists                   # list-block / prose-in-bullets audit
 //	go run . sim <packet.json>       # simulate packet edits against lint prose + voice
 //	go run . fetch-cmudict
+//	go run . fetch-lexicons          # downloads cmudict, Kuperman AoA, and WordNet 3.1 senses
 package main
 
 import (
@@ -47,6 +49,11 @@ func main() {
 	lPairAvg := fs.Float64("pair-avg", 35, "lists: flag 2-item blocks with average words/item at or above this")
 	lFail := fs.Bool("fail", false, "lists: exit non-zero if any prose-like list block is found")
 	sAlt := fs.String("alt", "a", "sim: alternate id to simulate (empty = first non-ignore alternate)")
+	cMinWords := fs.Int("para-min-words", 45, "cadence: minimum words in a paragraph")
+	cTop := fs.Int("top", 20, "cadence: number of muddiest/lowest-snap paragraphs to show")
+	cBest := fs.Int("best", 10, "cadence: number of snappiest/highest-snap paragraphs to show")
+	cJSON := fs.Bool("json", false, "cadence: emit paragraph metrics as JSON")
+	cText := fs.String("text", "", "cadence: score a single text string instead of chapter files")
 	fs.Parse(args)
 
 	root, err := repoRoot()
@@ -55,9 +62,9 @@ func main() {
 	}
 	files := fs.Args()
 	if len(files) == 0 {
-		if cmd == "voice" || cmd == "lists" {
+		if cmd == "voice" || cmd == "lists" || cmd == "cadence" {
 			files, err = voiceDefaultChapters(root)
-		} else if cmd != "sim" {
+		} else if cmd != "sim" && cmd != "fetch-lexicons" {
 			files, err = defaultFiles(root, *notes)
 		}
 		if err != nil {
@@ -113,10 +120,21 @@ func main() {
 		} else {
 			err = runSim(root, files[0], *sAlt, *vMinWords, *vSeam)
 		}
+	case "cadence":
+		err = runCadence(root, files, cadenceOptions{
+			minWords: *cMinWords,
+			topN:     *cTop,
+			bestN:    *cBest,
+			asJSON:   *cJSON,
+			text:     *cText,
+			showAll:  *vAll,
+		})
 	case "fetch-cmudict":
 		_, err = ensureCMU(root)
+	case "fetch-lexicons":
+		err = ensureLexicons(root, true)
 	default:
-		err = fmt.Errorf("unknown command %q (audit, prose, structure, render, phonetics, voice, lists, sim, fetch-cmudict, all)", cmd)
+		err = fmt.Errorf("unknown command %q (audit, prose, structure, render, phonetics, voice, cadence, lists, sim, fetch-cmudict, fetch-lexicons, all)", cmd)
 	}
 	if err != nil {
 		log.Fatal(err)
