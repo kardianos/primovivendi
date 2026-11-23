@@ -7,6 +7,12 @@
       "accepted_text": "Once technology is understood as *a repeatable method, together with the structure that method keeps in being, by which humans answer a problem in reality*, the arbitrary division between mechanical tools and social or personal institutions disappears.\n\nA stable house is technology. Weather, decay, and gravity act continuously upon human bodies and structures. A foundation excavated below the frost line, walls framed plumb and square, and courses of roof shingles overlapped so that rainwater drains by gravity off the eaves rather than penetrating the ceiling timbers constitute a protective structure built against exposure. A stable farm is technology as well: an engineered biological system of cleared land, irrigation channels, soil fertility maintained by manure or nitrogen-fixing cover crops, and seed grain dried and protected from vermin over winter, converting sunlight, water, and human labor into a reliable supply of food.\n\nA stable personal life is technology in the same sense. A human being who wakes at a regular hour, keeps his body clean and healthy, masters a useful trade, tells the truth, spends less money than he earns, and keeps his word when nobody is watching has built an internal operating method. That stable life does not happen by biological default; it has to be constructed and maintained against impulse and sloth just as deliberately as a stone wall is maintained against frost.\n\nLanguage, money, contract law, and the family household are technology too. They are institutional methods constructed to enable finite, fallible human beings to coordinate their labor, exchange goods across time and distance, resolve disputes without blood feuds, and invest fifteen or twenty years of continuous care into raising a helpless infant into a capable adult.",
       "at": "2026-11-22T20:41:03Z"
     },
+    "call:civ/chapters/01_ch01.md:801e022a:cadence/snap": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "No metaphores!!!",
+      "at": "2026-11-23T16:34:14Z"
+    },
     "call:civ/chapters/01_ch01.md:8fe31426:phonetics/single-shingle": {
       "disposition": "accept",
       "alternate": "a",
@@ -18,6 +24,12 @@
       "alternate": "a",
       "accepted_text": "It consists of two things held and practiced by living men and women: **will** and **method**. Will is the active decision by living human beings to continue living, to maintain what they have inherited against decay, to build new capacity, to defend their households and polities against enemies, and to bring children into the world and raise them to carry the work forward. Method is the accumulated, empirically tested customs, laws, crafts, scientific models, and moral procedures that enable limited, self-interested human beings to cooperate and prosper within the constraints of reality.",
       "at": "2026-11-22T20:41:20Z"
+    },
+    "call:civ/chapters/01_ch01.md:b6e8b2a7:voice/plain-style": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "The first sentence is where I might use a \": nothing keeps itself.\" For a newborn, \"naked and untought\" is fine, no need for \"wet\". -- I like the original more. The Moreover and Therefore are useful.",
+      "at": "2026-11-23T14:20:25Z"
     },
     "call:civ/chapters/02_ch02.md:12e8b68e:prose/bullets-to-prose": {
       "disposition": "accept",
@@ -112,6 +124,12 @@
       "note": "I like it, but I might quibble with the last word \"elegant\" and perhaps be more explicit here. Are we talking about our model calcuations?",
       "at": "2026-11-22T04:27:17Z"
     },
+    "call:civ/chapters/03_ch03.md:0f4219b5:voice/plain-style": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "The original is better.",
+      "at": "2026-11-23T14:21:42Z"
+    },
     "call:civ/chapters/03_ch03.md:2034f809:register/power-warfare": {
       "disposition": "accept",
       "alternate": "a",
@@ -197,11 +215,29 @@
       "accepted_text": "Once it is understood that **identity is not detachable from constitution and lineage**, two destructive errors fall together.\n\nThe first is the \"Lottery Guilt\" error. Because there was never a random drawing separate from the people who actually lived and built, a child whose parents worked for thirty years to build a house, maintain a farm, and teach him a trade did not steal a prize from a common pool. Specific ancestors worked, sacrificed, and exercised self-restraint to build that inheritance *for their children*. The proper moral response to inheriting a sound family, a reputable name, and a functioning country is never paralyzing guilt over an imaginary lottery. Instead, the heir owes **gratitude** to the ancestors who built that inheritance, together with his own part in **forming and listening (Virtue 7)**: he tests what he was told, keeps what holds, and forms his own children in those same habits.\n\nThe opposite \"Self-Made Atom\" error falls with it. Just as a person is not the beneficiary of a theft from a lottery, neither is he a self-created being who formed himself out of nothing and owes nothing to the household, lineage, and civilization that formed him. We are **particular, formed agents**, rooted in a real chain of parents and ancestors, and accountable for what we add or squander by our own conduct.",
       "at": "2026-11-22T20:44:15Z"
     },
+    "call:civ/chapters/04_ch04.md:8628d660:cadence/snap": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "We might want to edit it, but the original is better.",
+      "at": "2026-11-23T16:35:41Z"
+    },
     "call:civ/chapters/04_ch04.md:9b17abaa:prose/bullets-to-prose": {
       "disposition": "accept",
       "alternate": "a",
       "accepted_text": "Every human being on a factory floor, in a schoolroom, or on a city street is concrete and particular, not a generic, featureless \"Unit of Humanity.\" Biologically, every human is either male or female, with chromosomal, hormonal, skeletal, and reproductive differences that no statute can repeal, and inherits a specific genetic endowment from a specific mother and father that shapes temperament, physical stature, and natural aptitudes. Familially and historically, every human is born to particular parents in a particular household at a particular moment in history, inheriting specific family debts, assets, habits, and memories. Linguistically and culturally, every human learns a particular native tongue in childhood and is formed within a specific culture whose moral and practical habits become the foundation of his daily conduct.",
       "at": "2026-11-22T20:44:09Z"
+    },
+    "call:civ/chapters/04_ch04.md:c3bb40d1:voice/plain-style": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "I like the punch of \"What kind of creature is a human being?\" but not much else.",
+      "at": "2026-11-23T14:22:55Z"
+    },
+    "call:civ/chapters/04_ch04.md:d0909661:cadence/snap": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "I quibble with \"half from mother/father\", just from mother and father would be sufficent. No metaphores! Use exact language.",
+      "at": "2026-11-23T16:37:08Z"
     },
     "call:civ/chapters/04_ch04.md:f5a8ac8c:grammar-linear/fragment-habits": {
       "disposition": "accept",
@@ -209,11 +245,23 @@
       "accepted_text": "He does so only through thousands of hours of patient, deliberate cultivation. A mother and father tell him *no* when he bites, teach him to say *please* and *thank you*, and require him to put away the blocks he scattered; teachers, masters, and laws then reinforce those habits until self-command becomes second nature.",
       "at": "2026-11-22T18:21:09Z"
     },
+    "call:civ/chapters/05_ch05.md:01a2f1c3:voice/plain-style": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "The original is better. The one thing I see as I read this isn't flagged. I would replace \"Human limits force\" with \"Human limits require...\" or just \"Limited time and attention require humans to divide their labor\" or some vaient of that.",
+      "at": "2026-11-23T14:30:07Z"
+    },
     "call:civ/chapters/05_ch05.md:4c92e8cf:style/heading-versus": {
       "disposition": "accept",
       "alternate": "a",
       "accepted_text": "#### 1. Traffic Laws: Left Versus Right Is Form; Separate Lanes Are Substance",
       "at": "2026-11-22T18:22:33Z"
+    },
+    "call:civ/chapters/05_ch05.md:5e291b3a:voice/plain-style": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "The reinvention test is cute. I don't think it should be included. We should cut it.",
+      "at": "2026-11-23T14:31:18Z"
     },
     "call:civ/chapters/05_ch05.md:5e8cc044:style/heading-versus": {
       "disposition": "accept",
@@ -238,6 +286,18 @@
       "alternate": "a",
       "accepted_text": "To see how quickly an unmaintained structure negates the work of its construction, trace the effect of one displaced shingle on the roof of a house:",
       "at": "2026-11-22T15:39:38Z"
+    },
+    "call:civ/chapters/06_ch06.md:09d6b015:voice/plain-style": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "The original is better. There might be some tweaks, but the wholesale replacement is not as good.",
+      "at": "2026-11-23T14:36:50Z"
+    },
+    "call:civ/chapters/06_ch06.md:0c7a84bb:voice/plain-style": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "I like some of the updated language, but you also removed important langugage like \"revealed prefernce\" and you used metaphores with \"seminar rooms\". I would be open to more fine grain set of suggestions. I'm going to need to reject it as is, even though I agree this section could be tightened. It is the factual points that need to come force emphasizing things like revelaed preferences, not making them more muddy.",
+      "at": "2026-11-23T14:43:39Z"
     },
     "call:civ/chapters/06_ch06.md:1027de36:phonetics/single-shingle": {
       "disposition": "accept",
@@ -274,6 +334,19 @@
       "alternate": "a",
       "accepted_text": "Instead, living well is a **directed effort** measured by the positive rate of improvement from one hour to the next.\n\nAt 8:00 a.m., the cottage floor is covered in tracked mud and the sink is full of encrusted dishes. You pick up the broom and the washcloth. At 8:30 a.m., the floor is clean and the dishes are stacked dry on the shelf. That positive improvement between 8:00 and 8:30 *is* keeping and building in microcosm: human will and method imposing order on a small area of disorder.",
       "at": "2026-11-22T18:22:48Z"
+    },
+    "call:civ/chapters/06_ch06.md:b0caf106:voice/plain-style": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "Floor and ceiling are metaphores. Rejected.",
+      "at": "2026-11-23T14:33:47Z"
+    },
+    "call:civ/chapters/06_ch06.md:b8e79ee3:voice/plain-style": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "The proposed is better then current. We should replace a few metaphores in the proposed to litteral language, but after that, good to go.",
+      "hold_for": "research",
+      "at": "2026-11-23T14:38:48Z"
     },
     "call:civ/chapters/06_ch06.md:d47892cd:prose/bullets-to-prose": {
       "disposition": "accept",
@@ -342,6 +415,12 @@
       "accepted_text": "#### 3. Responsibility Versus Untethered Sacrifice",
       "at": "2026-11-22T18:23:10Z"
     },
+    "call:civ/chapters/07_ch07.md:74238a7a:voice/plain-style": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Someone who thinks of civilization only in calories and steel beams may dismiss beauty as a frill for critics after the real work is done.\n\nTwo aircraft repair hangars, or the main streets of two towns, settle that mistake at a glance.\n\nIn Hangar A, every wrench and torque gauge is wiped dry and hung inside its painted outline on the board. The floor is scrubbed clean of oil. The lights are bright, the aluminum hull is polished and sound, and the mechanics work in clean clothes.\n\nIn Hangar B, puddles of hydraulic fluid pool around cigarette butts and loose bolts. Broken tools lie in rusty buckets, graffiti covers the walls, half the lamps flicker, and the crew works in stained shirts.\n\nA father does not need to open a logbook or inspect a wing spar to know which plane he will put his children aboard. He chooses Hangar A at once, and he is right. Human eyes and ears are built to read the outward marks of **vitality, order, and truth** working together, and to draw back from the signs of decay and neglect.",
+      "at": "2026-11-23T14:49:02Z"
+    },
     "call:civ/chapters/07_ch07.md:a07e4c68:style/heading-versus": {
       "disposition": "accept",
       "alternate": "a",
@@ -360,6 +439,13 @@
       "accepted_text": "#### 2. Forward-Looking Responsibility Versus Backward-Looking Blame",
       "at": "2026-11-22T18:23:09Z"
     },
+    "call:civ/chapters/08_ch08.md:0acda266:cadence/snap": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "I feel like the last sentence in both versions should be part of the previous paragraph, and we should start with for those reasons...",
+      "hold_for": "research",
+      "at": "2026-11-23T17:01:11Z"
+    },
     "call:civ/chapters/08_ch08.md:0dd4b08b:prose/bullets-to-prose": {
       "disposition": "accept",
       "alternate": "a",
@@ -377,6 +463,19 @@
       "alternate": "a",
       "accepted_text": "#### The Family Orchard: How Tiered Priority Builds Durable Capital\n\nThe work of a single family over one year illustrates how self-anchored, tiered priority builds durable goods across generations, and why atomized egalitarian theories misread how wealth and safety come into existence:\n\n\u003e **The Family Orchard:** Behind a family's house lie five acres of rocky, bramble-choked hillside. Their eight-year-old son is growing old enough to work beside them, and the parents want him to have land he can tend, learn practical stewardship on, and share with his friends.\n\u003e\n\u003e Nobody orders the parents to do what they do next. Every Saturday and evening after work for six months, devoting hundreds of hours of their finite lives, the father and mother take saws, mattocks, and wheelbarrows onto the slope. They clear invasive thorns, haul fieldstone into dry-laid retaining walls, dig deep planting holes, and set and graft forty apple and walnut trees.\n\u003e\n\u003e At the end of six months, a terraced orchard stands where only impassable brambles stood before. The boy tends the young trees every afternoon; the cleared hillside reduces brush-fire and runoff hazards for the adjoining neighbors; and the orchard will still yield fruit and timber for the boy's own children thirty years from now.\n\u003e\n\u003e Now invite a \"Lottery of Birth\" egalitarian theorist to walk down the road and see that boy harvesting apples from the slope. Because the egalitarian views every human being as an isolated, detachable individual who arrived from nowhere, he sees only a disparity: this boy has a bearing orchard behind his house, and a boy in the next town does not. The boy did nothing to earn it, the theorist concludes, so it is arbitrary luck, and the public authority should confiscate the orchard or tax away its value until both boys have identical outcomes.\n\u003e\n\u003e The egalitarian's atomized perspective omitted the essential fact: it omitted the four hundred hours of labor, sacrifice, and affection that the boy's mother and father invested in that hillside specifically because the boy was *their* child. The family is not a random collection of strangers who happened to win a raffle; the family is an intergenerational building unit bound by mutual obligation. If parents across a nation are told that nothing they build may be kept for their own children, and that whatever their labor builds will be seized and divided equally among strangers, the four hundred hours are never worked, the brush is never cleared, the trees are never planted, and everyone is poorer.\n\nAmerican history tested this exact contrast at the founding of New England. For its first two years, Plymouth Colony farmed under a communal rule that pooled every harvest into a common store. In *Of Plymouth Plantation* (Anno 1623), Governor William Bradford recorded that able-bodied young men resented spending their strength to feed other men's wives and children without reward, and harvests fell short. In the spring of 1623, Bradford assigned each family its own parcel of land for its own household. Bradford wrote that this single change \"made all hands very industrious,\" brought mothers willingly into the fields with their children, yielded far more corn than any command of the governor had ever secured, and ended the colony's chronic hunger.",
       "at": "2026-11-22T14:07:40Z"
+    },
+    "call:civ/chapters/08_ch08.md:4d881e8e:voice/plain-style": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "Original is more accurate and better.",
+      "at": "2026-11-23T15:16:20Z"
+    },
+    "call:civ/chapters/08_ch08.md:56b6a733:cadence/snap": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "The rewrite to put the problem first is much improved. However, that makes it clear we are lacking further down with an example or two of where this specifically creates problems, and generalizes an idea from that finally.",
+      "hold_for": "research",
+      "at": "2026-11-23T17:02:49Z"
     },
     "call:civ/chapters/08_ch08.md:5aba1206:prop/bridge-vary": {
       "disposition": "accept",
@@ -408,6 +507,12 @@
       "alternate": "a",
       "accepted_text": "Dispositional love requires almost no scarce time, money, or physical energy. Wishing a thousand strangers well as you walk through a train station does not deplete your bank account or remove a single calorie of food from your children's dinner table. It is non-rivalrous and scales to millions or billions of people: holding goodwill toward a man in Peru does not reduce the goodwill you can hold toward a man in Ohio.\n\nFor that reason, dispositional love is the proper default disposition toward all peaceful human beings across every tier (Tiers 1 through 5), until and unless a specific person or group proves by conduct to be a swindler, criminal, or enemy. A society where strangers extend dispositional love to one another is far more orderly and cooperative than a society of suspicious antagonists.",
       "at": "2026-11-22T20:47:24Z"
+    },
+    "call:civ/chapters/08_ch08.md:e10e15e7:voice/plain-style": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "In some ways I feel like it is a wash, but overall the proposed text feels less warm. for example \"a brother\" vs \"your  brother\".",
+      "at": "2026-11-23T14:58:51Z"
     },
     "call:civ/chapters/08_ch08.md:ea1e72b3:register/fraudster": {
       "disposition": "accept",
@@ -526,6 +631,12 @@
       "accepted_text": "Every working system of rules operates within a defined perimeter.\n\nInside a **household**, a husband and wife establish the dinner hour, the budget, and the bedtime. Their neighbor down the street may be an honorable man, but he has no jurisdiction to enter their kitchen and vote on what their children eat for supper, and they have no jurisdiction over the supper served in his house.\n\nInside a **contract or association**, the rule binds only the parties who entered it. If five master carpenters form a partnership and sign a contract agreeing to divide workshop profits evenly according to hours recorded in the shop ledger, that rule binds the five partners who signed the contract. A passerby on the sidewalk cannot walk into the shop on Friday afternoon and demand one-sixth of the proceeds in the name of \"equality,\" because he is outside the scope of the partnership.\n\nThe same holds at the **municipal and national** level: the traffic laws, tax statutes, and criminal courts of Ohio apply inside the borders of Ohio; they do not apply in Tokyo or Paris.",
       "at": "2026-11-22T20:48:07Z"
     },
+    "call:civ/chapters/09_ch09.md:b5f9cf6f:cadence/snap": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "It is more then just \"the bench\". It is rarely the worst man in town. That is spotted quickly. It is about priority, capability directed to what exactly?",
+      "at": "2026-11-23T17:06:30Z"
+    },
     "call:civ/chapters/09_ch09.md:b9776fa2:prop/cistern-real-anchor": {
       "disposition": "withdraw",
       "alternate": "a",
@@ -542,6 +653,12 @@
       "alternate": "a",
       "accepted_text": "There is a fundamental difference between mercy and permissiveness.\n\n**Mercy** begins by stating the complete truth about the law and the wrong: *\"The law against theft is sound and remains in force. You stole fifty dollars from this shopkeeper, and under the statute you owe full restitution plus thirty days in jail. Because this is your first offense, you have confessed truthfully, you have repaid the fifty dollars from your own wages, and your father has vouched to supervise your work this summer, the court exercises mercy to suspend the jail sentence on condition of lawful conduct.\"* Genuine mercy upholds the standard, requires ownership and restitution, protects the innocent victim, and is scoped to a repentant offender.\n\n**Permissiveness (counterfeit mercy)**, by contrast, refuses to enforce the law or identify the wrong as a wrong. Suppose a prosecutor or judge sees a habitual thief steal from a neighborhood grocery store for the twentieth time and releases him onto the street an hour later with no restitution and no penalty, while lecturing the shopkeeper about \"compassion for the marginalized.\" That judge has not shown mercy. Permissiveness toward the unrepentant offender is cruelty toward every law-abiding merchant, mother, and child on that street.",
       "at": "2026-11-22T20:48:41Z"
+    },
+    "call:civ/chapters/09_ch09.md:f44d4ad4:cadence/snap": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "These words have a specific meaning which, when changed, change the meaning of the paragraph.",
+      "at": "2026-11-23T17:07:12Z"
     },
     "call:civ/chapters/09_ch09.md:f7c73046:precision-linear/soviet-deng-dates": {
       "disposition": "accept",
@@ -560,6 +677,13 @@
       "alternate": "a",
       "accepted_text": "    A functional right cannot exist in a vacuum; it operates in reality only inside a defined jurisdiction (*scope*) where citizens bear the cost of enforcing it. Modern human-rights ideology erases the word *scoped*. It declares that any human being in the world, simply by existing biologically, possesses an immediate \"human right\" to cross your national border uninvited, draw from the **Desert Cistern** (Section 1 above) that your parents and grandparents built and filled, and demand housing, schooling, medical care, legal representation, and political power on the same terms as the citizens who maintain it. It ignores that obligation is tiered and that justice is scoped: an unscoped claim for every stranger is a prescription for insolvency and dissolution for the host nation.",
       "at": "2026-11-22T13:37:49Z"
+    },
+    "call:civ/chapters/10_ch10.md:1804f760:voice/plain-style": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "I'm mixed on this one. One one hand, the suggested is easier to read. on the other hand, it is less acurate and more fuzzy.",
+      "hold_for": "research",
+      "at": "2026-11-23T15:18:15Z"
     },
     "call:civ/chapters/10_ch10.md:5b345c85:prose/bullets-to-prose": {
       "disposition": "accept",
@@ -615,11 +739,44 @@
       "accepted_text": "In **Plymouth Colony** of Chapter 8, the fathers and mothers who took their children into the fields once each household received its own parcel of land did not experience that labor as a penal sentence; building a livelihood for their own children gave their strength and skill a clear, daily purpose.",
       "at": "2026-11-22T14:08:04Z"
     },
+    "call:civ/chapters/11_ch11.md:056cf91e:voice/plain-style": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "I think chapter 11 needs a bit of rework. Extrapolating some ideas, not principles, from some examples would be more beneficial. We could draw from Anctient Greek, Areas in eastern europe where in the 1800s decided to not have children in addition to the quakers. We can Talk about Rhodesia and Zimbabwa or south africa, we could bring up the island's mine and endowmant we already brought up, we can talk about elements of Rome.  We can look into peoples ideas of why they delcine and apply them to our principles.",
+      "hold_for": "research",
+      "at": "2026-11-23T15:42:23Z"
+    },
     "call:civ/chapters/11_ch11.md:06a618ee:prose/bullets-to-prose": {
       "disposition": "accept",
       "alternate": "a",
       "accepted_text": "Three examples illustrate **sound civilizational reserves**.\n\nConsider first the rotated three-month winter pantry. A household stocks three months of preserved food, dry beans, rice, and medical supplies in the cellar, rotating the oldest containers to the kitchen table each month and replacing them with fresh provisions. If a blizzard blocks the roads for two weeks or the father loses his employment for a month, the family does not starve or panic; the pantry absorbs the shock while the father secures new work.\n\nThe same holds for the brother's seed loan and the neighborly barn-raising. When a lightning strike burns down a hardworking farmer's barn in July, his neighbors and brothers spend Saturday raising new rafters and lending him seed grain so his family is not ruined by a single bolt of lightning, knowing he works alongside them and will do the same when a storm damages their roofs.\n\nIt holds equally for the trauma emergency room and the short-term disability reserve. When a carpenter falls from a scaffold and fractures his femur, a trauma surgeon sets the bone with a titanium rod, and a temporary disability reserve keeps his family housed for the twelve weeks required for his leg to heal so he can return to his trade.",
       "at": "2026-11-22T20:50:51Z"
+    },
+    "call:civ/chapters/11_ch11.md:09e317c2:voice/plain-style": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "The original is better and more precise. This matters.",
+      "at": "2026-11-23T15:47:55Z"
+    },
+    "call:civ/chapters/11_ch11.md:16eb6e96:cadence/snap": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "I think we should trim this by keeping the original, but only focus on the individual adults. The corporate issues are real, but separate. I don't think we should combeine them here.",
+      "hold_for": "research",
+      "at": "2026-11-23T17:09:43Z"
+    },
+    "call:civ/chapters/11_ch11.md:1c56610a:cadence/snap": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "This might be shortened. Maybe. Or maybe adjusted. But I think we would omit meaning if we took this edit.",
+      "at": "2026-11-23T17:08:24Z"
+    },
+    "call:civ/chapters/11_ch11.md:23e3790e:voice/plain-style": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "The specifics words and phrases in the original are important. They have meaning. Those important meanings are lost with this proposal. What I might change with this section is that people aren't alwasy influenced by activists, they themselves may fail in being unkind to those who violate social bounaries. Yes, in society, you need to sometimes be unkind to others.",
+      "hold_for": "research",
+      "at": "2026-11-23T15:46:57Z"
     },
     "call:civ/chapters/11_ch11.md:561a100e:prop/compassion-fable-keep": {
       "disposition": "hold",
@@ -647,6 +804,11 @@
       "note": "The example feels too estoic now. Are there any more concrete, ideally real-life, examples of this?",
       "hold_for": "research",
       "at": "2026-11-22T13:43:36Z"
+    },
+    "call:civ/chapters/11_ch11.md:6ca4729e:voice/plain-style": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-23T15:48:20Z"
     },
     "call:civ/chapters/11_ch11.md:753777e2:prose/bullets-to-prose": {
       "disposition": "accept",
@@ -703,6 +865,12 @@
       "accepted_text": "The corrupted reserve degrades both **material welfare** and **human agency**.\n\nIn material welfare, politicians and bureaucracies convert a temporary emergency provision, designed to help a displaced worker or a widowed mother regain self-sufficiency, into an open-ended, multi-generational subsidy that **penalizes marriage and work**. It pays a household more if no working father resides in the home and withdraws benefits if the recipient accepts entry-level employment. Within two generations, what was enacted in the name of \"compassion\" has undermined family formation in entire neighborhoods and habituated millions of capable human beings to permanent dependency.\n\nEven more damaging is what the demand for exemption from risk does to **human will**. Suppose a twenty-two-year-old apprentice potter saves his wages for three years and wishes to rent a small storefront to open his own kiln and pottery shop. There is a real probability, perhaps forty percent, that his shop will fail within the first two years and that he will lose his savings and have to return to wage employment wiser and more experienced.\n\nNow suppose a regulatory bureaucracy intervenes to protect citizens from the loss and distress of a failed shop. It rules that no one may open a workshop without first paying eighty thousand dollars for five years of environmental impact studies, compliance attorneys, and licensing permits, which only large established corporations can afford. In the name of \"preventing harm,\" the regulator locked the shop door, barred entry to the trade, and suppressed the young man's initiative to build. As we saw with the Daughter and the Chalked Footrace in Chapter 7, insulating people from every risk of failure does not make them secure; it renders them dependent.",
       "at": "2026-11-22T20:51:17Z"
     },
+    "call:civ/chapters/12_ch12.md:060b318e:cadence/snap": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "Did these really violate the principles? They made other enemies, but I question this interpretation. We should evalutate Shinto as a whole before we look to this. It as runinous.",
+      "at": "2026-11-23T17:13:21Z"
+    },
     "call:civ/chapters/12_ch12.md:0d45bdf4:prose/bullets-to-prose": {
       "disposition": "accept",
       "alternate": "a",
@@ -726,6 +894,20 @@
       "alternate": "a",
       "accepted_text": "When an intelligent young man or woman realizes that postmodern constructivism, forced leveling of outcomes under \"equity,\" open borders, and family breakdown are destroying their country, their first impulse is often to embrace any writer who loudly denounces modern liberalism.",
       "at": "2026-11-22T18:25:44Z"
+    },
+    "call:civ/chapters/12_ch12.md:37f6e171:voice/plain-style": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "In Hegel: I would replace \"fixed truth\" with \"correspondence truth\". The original Max paragraph is better. ",
+      "hold_for": "research",
+      "at": "2026-11-23T16:07:03Z"
+    },
+    "call:civ/chapters/12_ch12.md:3da9c1ce:voice/plain-style": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "I agree we can streamline some of this or edit it. But we are removing critical words and phrases that have specific meaning here.",
+      "hold_for": "research",
+      "at": "2026-11-23T16:10:32Z"
     },
     "call:civ/chapters/12_ch12.md:4efa6505:register/conservative-sounding": {
       "disposition": "accept",
@@ -757,11 +939,25 @@
       "accepted_text": "Shinto aligns strongly with several of the virtues. It fosters a strong cultural ethic of physical cleanliness, care for tools and craft (Virtues 2 and 3), reverence for natural and architectural beauty, and deep generational gratitude connecting living households to their ancestors (*kami*) and descendants, the living heeding what their elders handed down and forming those who come after. In a Japanese workshop or train station, the practical results of those habits are evident.\n\nIts vulnerability appeared when it was detached from Principle 1 and Principle 5. Traditional Shinto is a particularist folk religion without a universal doctrine of correspondence truth or universal human nature. Between 1890 and 1945, the Meiji and Showa militarists fused it into **State Shinto**, teaching as state dogma that the Japanese Emperor was a living descendant of the sun goddess and that non-Japanese peoples occupied an inferior ontological tier. That state creed silenced internal rational dissent (violating Principle 1) and licensed atrocities against conquered neighbors (violating Principle 5), culminating in the catastrophe of 1945.",
       "at": "2026-11-22T20:53:11Z"
     },
+    "call:civ/chapters/12_ch12.md:98535b9f:voice/plain-style": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "Your proposed is an improvment. But I feel like we have room to modify (without adding length) the meaning to imply that this is just for compatibility, two compatible groups can still be at odds. But it still eliminates the self defeating ones or enemies within.",
+      "hold_for": "research",
+      "at": "2026-11-23T15:58:49Z"
+    },
     "call:civ/chapters/12_ch12.md:a4cf96fc:prose/bullets-to-prose": {
       "disposition": "accept",
       "alternate": "a",
       "accepted_text": "Two failure modes depart from this classical Two-Books and properly scoped Christian heritage.\n\nThe first is Scripturalism (Clark and Crampton). As we examined in depth in Chapter 3, extreme Scripturalism denies the Book of Nature and correspondence truth, claiming that empirical observation can never discover truth and confining inquiry within an unfalsifiable textual system.\n\nThe second is progressive church inversion. Across the twentieth and twenty-first centuries, many historic mainline denominations retained their historic stone buildings, stained-glass windows, clerical vestments, and traditional vocabulary on the signboard outside, while completely hollowing out and inverting the internal premises inside. They replaced correspondence truth with therapeutic sentiment, replaced keeping and building family life (Principle 3 and Virtue 6) with ideological activism, erased the distinction between inner-tier duty and borderless universalism, and replaced symmetrical judgment and repentance with unconditional permissiveness. The result, predictably, has been institutional decline within two generations.",
       "at": "2026-11-22T20:52:54Z"
+    },
+    "call:civ/chapters/12_ch12.md:c60e0f50:cadence/snap": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "I'm on the fence on these edits. In both versions, inside his study and outside his stody are a different way to day \"day job\". Don't use day job, be we need to remove this metaphore and use direct language. For a living Hume did X. Outside of that he talked about Y.",
+      "hold_for": "research",
+      "at": "2026-11-23T17:11:21Z"
     },
     "call:civ/chapters/12_ch12.md:ddf9e153:prose/bullets-to-prose": {
       "disposition": "accept",
@@ -781,6 +977,12 @@
       "accepted_text": "The first is **the Golden Rule** (Matthew 7:12):",
       "at": "2026-11-22T21:02:12Z"
     },
+    "call:civ/chapters/13_ch13.md:15e862f0:cadence/snap": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "The edit is bad because it introduces metaphorical lanugage and removes concrete language. \"cheers\" is metaphorical to emotion or sentimant. \"barrowed cash\" is somtimes litteral, but more often metaphore. -- We might need to re-evalutte this paragraph section as I'm re-reading it.",
+      "at": "2026-11-23T17:16:25Z"
+    },
     "call:civ/chapters/13_ch13.md:16b51201:prose/bullets-to-prose": {
       "disposition": "accept",
       "alternate": "a",
@@ -792,6 +994,13 @@
       "alternate": "a",
       "accepted_text": "Every prevailing academic theory of the 1960s, including \"Dependency Theory,\" socialist state ownership, post-colonial grievance politics, and ethnic majoritarianism, predicted that Singapore would become an impoverished, disorderly dependency.",
       "at": "2026-11-22T18:25:53Z"
+    },
+    "call:civ/chapters/13_ch13.md:5e866d9f:voice/plain-style": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "Again this mixes reasonable edits with replacing words that have specific needed meanings with less or different meanings.",
+      "hold_for": "research",
+      "at": "2026-11-23T16:11:52Z"
     },
     "call:civ/chapters/13_ch13.md:7d333427:prose/bullets-to-prose": {
       "disposition": "accept",
@@ -811,6 +1020,13 @@
       "accepted_text": "Instead, the village commune (the *mir* or *obshchina*) held the land collectively and periodically **redistributed strips of land** among households by family size. It forbade any peasant farmer from consolidating his strips, fencing his field, or adopting modern crop rotation without the approval of the village assembly.",
       "at": "2026-11-22T18:25:56Z"
     },
+    "call:civ/chapters/13_ch13.md:b827f5b2:voice/plain-style": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "We do need to examine the content and scope of this paragraph. We need sources for the 5 points or specific examples, I'm not sure we should give an ending prognosis, we should note the incompatibility, how to detect it. Probalby stop there.",
+      "hold_for": "research",
+      "at": "2026-11-23T16:28:13Z"
+    },
     "call:civ/chapters/13_ch13.md:cba7a6ee:prose/bullets-to-prose": {
       "disposition": "accept",
       "alternate": "a",
@@ -829,6 +1045,12 @@
       "accepted_text": "While the regime possessed real defects and faced domestic opposition, two incompatible forces combined in 1978 to overthrow the Iranian state. The **\"Red\" faction** comprised Marxist-Leninists and secular left-wing intellectuals: the Communist **Tudeh Party**, the Marxist-Leninist *Fedaiyan-e Khalq*, the Islamic-Marxist *Mujahedin-e Khalq* (MEK), and Western-educated progressive university students who sought a socialist workers' republic, gender egalitarianism, and the overthrow of Western capitalism. The **\"Black/Green\" faction** consisted of **Ayatollah Ruhollah Khomeini** and his militant clerical network, whose explicit goal was to abolish secular law, impose strict *sharia* gender segregation and veiling, execute apostates and those accused of \"corruption in the land\" (*mofsed-e-filarz*), and establish absolute rule by Islamic jurists (*Velayat-e Faqih*).",
       "at": "2026-11-22T20:53:53Z"
     },
+    "call:civ/chapters/14_ch14.md:1c8772dd:cadence/snap": {
+      "disposition": "reject",
+      "alternate": "a",
+      "note": "Most edits better, but we just used an explicit wording \"vector sum\" we should maintain and keep as the thread here.",
+      "at": "2026-11-23T17:17:31Z"
+    },
     "call:civ/chapters/14_ch14.md:38f5b80f:prose/bullets-to-prose": {
       "disposition": "accept",
       "alternate": "a",
@@ -840,6 +1062,13 @@
       "alternate": "a",
       "accepted_text": "Three years later, when the unmaintained oil equipment fails, the currency collapses in runaway inflation, and families suffer severe food shortages, one points to the same country and the same government, and the partisan replies: *\"That is not the fault of Socialism; it resulted from foreign sabotage, hoarders, adverse weather, and an imperfect implementation of Socialism.\"*",
       "at": "2026-11-22T18:26:00Z"
+    },
+    "call:civ/chapters/14_ch14.md:a69db048:voice/plain-style": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "This does need rework, but I don't think the proposal is it yet. I think the rework needs to be larger then just rephrasing.",
+      "hold_for": "research",
+      "at": "2026-11-23T16:29:33Z"
     },
     "call:civ/chapters/14_ch14.md:b032e542:register/fraudster": {
       "disposition": "accept",
@@ -870,6 +1099,13 @@
       "alternate": "a",
       "accepted_text": "    When you complete the task, you leave the workbench or desk cleaner, more orderly, and more functional than you found it (Virtue 4: Beauty as Vitality, Order, and Truth). When you evaluate two applicants or two contracts in the afternoon, you apply the same written standard to both without regard to their faction or personal connections (Principle 5: Scoped Procedural Symmetry).",
       "at": "2026-11-22T18:26:03Z"
+    },
+    "call:civ/chapters/14_ch14.md:f1c85c31:voice/plain-style": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "This section is important but I think the content is fundamentaly off. We should re-evalutate this. If someone reads a doctrin that says \"here is how you make society and the political work\" and they go about it, that is real (corrospondance). If someone looks at ethics that explicitly distance itself from politics (give to ceasar, give to god) then that is less clear. In the second case, you need to look at was the political a direct result of doctrine?  Again the guiding light is corrospondance to reality. To truth.",
+      "hold_for": "research",
+      "at": "2026-11-23T16:33:25Z"
     },
     "call:civ/chapters/14_ch14.md:feff0f27:prose/bullets-to-prose": {
       "disposition": "accept",
