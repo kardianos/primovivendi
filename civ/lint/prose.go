@@ -28,6 +28,8 @@ var partA = []struct {
 	{"load-bearing", regexp.MustCompile(`(?i)\bload[- ]bearing\b`)},
 	{"Why... Because", regexp.MustCompile(`(?i)Why[^.!?]*\?\s*\*?\*?Because\b`)},
 	{"Question then fragment", regexp.MustCompile(`\?\s+\*{0,2}(No|Yes|Never|Nothing)\.|What (happened|occurred)[^?]*\?`)},
+	{"Algebraic placeholders", regexp.MustCompile(`\b(?:Time|Clan|Person|Agent|Group|Party|Actor|Player|Citizen|Worker|Farmer|Merchant|Nation|State|Country|City|Village|Town|Crew|Team)\s+[A-C]\b`)},
+	{"Abbreviated vs. in heading", regexp.MustCompile(`^#{1,6}\s+.*\bvs\.`)},
 }
 
 var termRef = regexp.MustCompile(`(?i)\b(principles?|virtues?)\s+\d+`)

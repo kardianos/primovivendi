@@ -12,7 +12,7 @@ import (
 var iseOK = map[string]bool{}
 
 func init() {
-	for _, w := range strings.Fields(`advertise advise appraise apprise arise braise bruise chaise chastise chemise circumcise comprise compromise concise cruise demise despise devise disguise enfranchise enterprise excise exercise expertise franchise guise improvise incise malaise merchandise mortise noise otherwise paradise poise porpoise praise precise premise promise reprise revise rise sunrise supervise surmise surprise televise tortoise treatise turquoise uprise valise wise`) {
+	for _, w := range strings.Fields(`advertise advise appraise apprise arise braise bruise chaise chastise chemise circumcise comprise compromise concise cruise demise despise devise disguise enfranchise enterprise excise exercise expertise franchise guise improvise incise malaise merchandise mortise noise otherwise paradise poise porpoise praise precise premise promise raise reprise revise rise sunrise supervise surmise surprise televise tortoise treatise turquoise uprise valise wise`) {
 		iseOK[w] = true
 	}
 }
@@ -29,6 +29,7 @@ var ourBase = []string{
 // not a regular -our or -ise inflection.
 var wholeWord = map[string]string{
 	"programme": "program", "programmes": "programs",
+	"grey": "gray", "greys": "grays",
 	"judgement": "judgment", "judgements": "judgments",
 	"practise": "practice", "practised": "practiced", "practising": "practicing",
 	"analyse": "analyze", "analysed": "analyzed", "analysing": "analyzing", "analyses": "analyzes",
@@ -170,10 +171,14 @@ func iseForm(w string) (string, bool) {
 }
 
 // iseAllowed reports an -ise word that American spelling keeps: the shared
-// list, a -wise compound (likewise), or that word behind a prefix (unsupervised).
+// list, a -wise compound (likewise), a hyphenated compound whose final element
+// is allowed (barn-raising), or that word behind a prefix (unsupervised).
 func iseAllowed(lemma string) bool {
 	if iseOK[lemma] || strings.HasSuffix(lemma, "wise") {
 		return true
+	}
+	if i := strings.LastIndexByte(lemma, '-'); i >= 0 {
+		return iseAllowed(lemma[i+1:])
 	}
 	for _, p := range []string{"under", "over", "ultra", "semi", "non", "dis", "mis", "pre", "out", "un", "re", "en"} {
 		if rest, ok := strings.CutPrefix(lemma, p); ok && len(rest) >= 4 && iseAllowed(rest) {
