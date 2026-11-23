@@ -1,7 +1,8 @@
 // Command lint is the editing-guide audit for civ: the Part A patterns, American
 // spelling, the locked wording of the Principles and Virtues, the Markdown
-// structure checks, and (as the phonetics subcommand) suffix clutter and rhymes,
-// (as the voice subcommand) the two-voice prose diagnostic.
+// structure checks, (as the phonetics subcommand) suffix clutter and rhymes,
+// (as the voice subcommand) the two-voice prose diagnostic, and (as the lists
+// subcommand) the prose-in-bullets audit.
 //
 //	cd civ/lint
 //	go run .                         # chapters and civ/ccp_sheet.md
@@ -9,6 +10,7 @@
 //	go run . prose|structure|render
 //	go run . phonetics               # downloads cmudict into ext-ref/phonetics/ if needed
 //	go run . voice                   # two-voice diagnostic across chapters
+//	go run . lists                   # list-block / prose-in-bullets audit
 //	go run . fetch-cmudict
 package main
 
@@ -39,6 +41,9 @@ func main() {
 	vAll := fs.Bool("all", false, "voice: list every section, not only flagged ones")
 	vFailScore := fs.Float64("fail-score", 0, "voice: exit non-zero if any section exceeds this score")
 	vFailSeam := fs.Float64("fail-seam", 0, "voice: exit non-zero if any adjacent seam exceeds this delta")
+	lMaxAvg := fs.Float64("max-avg", 55, "lists: flag list blocks with average words/item at or above this")
+	lPairAvg := fs.Float64("pair-avg", 35, "lists: flag 2-item blocks with average words/item at or above this")
+	lFail := fs.Bool("fail", false, "lists: exit non-zero if any prose-like list block is found")
 	fs.Parse(args)
 
 	root, err := repoRoot()
@@ -47,7 +52,7 @@ func main() {
 	}
 	files := fs.Args()
 	if len(files) == 0 {
-		if cmd == "voice" {
+		if cmd == "voice" || cmd == "lists" {
 			files, err = voiceDefaultChapters(root)
 		} else {
 			files, err = defaultFiles(root, *notes)
@@ -92,10 +97,17 @@ func main() {
 			failScore: *vFailScore,
 			failSeam:  *vFailSeam,
 		})
+	case "lists":
+		err = runLists(root, files, listOptions{
+			showAll:    *vAll,
+			maxAvg:     *lMaxAvg,
+			pairMaxAvg: *lPairAvg,
+			fail:       *lFail,
+		})
 	case "fetch-cmudict":
 		_, err = ensureCMU(root)
 	default:
-		err = fmt.Errorf("unknown command %q (audit, prose, structure, render, phonetics, voice, all)", cmd)
+		err = fmt.Errorf("unknown command %q (audit, prose, structure, render, phonetics, voice, lists, all)", cmd)
 	}
 	if err != nil {
 		log.Fatal(err)
