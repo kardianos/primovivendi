@@ -1,0 +1,433 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/chapters/06_ch06.md:b8e79ee3:note/literal-wording",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/06_ch06.md",
+      "byte_offset": 11394,
+      "byte_end": 13315,
+      "quote": "A second, even more widespread modern definition makes goodness the minimization of harm and suffering.\n\nHarm-reduction is a legitimate *subordinate consideration*: installing guardrails on a high staircase, filtering cholera bacteria out of drinking water, and wearing seatbelts in automobiles reduce needless injury while helping human life continue and build. Under Principle 3, those are genuine improvements.\n\nThe failure occurs when harm-reduction is elevated from a subordinate consideration to the supreme definition of the good, because once \"reducing suffering and risk of harm\" becomes the supreme moral rule, it has no limiting principle within living reality:\n\n* Working with heavy machinery, building bridges, and sailing ships carry a risk of painful injury; therefore, curtail them.\n* Competing in an objective examination, starting a business, or proposing marriage carries a risk of failure, rejection, and emotional distress; therefore, abolish the examinations and discourage the risk.\n* Having and raising children guarantees morning sickness, the pain of childbirth, sleepless nights, financial sacrifice, and the certainty that every child born will someday suffer grief, illness, and death; therefore, declare childbearing an unethical imposition of harm upon the unborn and promote childlessness (\"anti-natalism\") as the highest environmental and moral virtue.\n\nCarried to its limit, the proposition that \"goodness is the reduction of suffering\" leaves one state of the earth in which suffering, pain, inequality, and risk of harm are permanently eliminated. Total extinction: lifeless rock under a sun, with not a single living mind remaining in the universe.\n\nWhen an ethical system's logical endpoint is the elimination of all living beings capable of acting, building, or caring, one is not looking at a higher form of compassion. One is looking at nihilism disguised as humanitarian concern.",
+      "problem": "Author note on the held plain-style draft (call:civ/chapters/06_ch06.md:b8e79ee3:voice/plain-style): \"The proposed is better then current. We should replace a few metaphores in the proposed to litteral language, but after that, good to go.\" This is the proposed draft with its figurative phrases made literal (\"has no brake\", \"a hand in marriage\", \"one clean state\", \"final destination\", \"wearing a kindly mask\") and with the terms the proposal had dropped restored (subordinate consideration, supreme definition of the good, objective examination, emotional distress, illness, anti-natalism, environmental and moral). The three-item list stays a list.",
+      "rule": "note/literal-wording",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "proposed draft, literal wording",
+          "text": "A second modern rule defines goodness as reducing harm and pain.\n\nHarm-reduction is a legitimate *subordinate consideration*. Handrails on a steep staircase, clean water filters, and seatbelts prevent needless injury while helping people live and build. Under Principle 3, they are real gains.\n\nThe failure occurs when harm-reduction is elevated from a subordinate consideration to the supreme definition of the good. Once that aim is the supreme moral rule, it has no limiting principle within living reality:\n\n* Working with heavy machinery, building bridges, and sailing ships all risk painful injury; therefore, curtail them.\n* Competing in an objective examination, starting a business, or proposing marriage all risk failure, rejection, and emotional distress; therefore, abolish the examinations and discourage the risk.\n* Bearing and raising children brings morning sickness, labor pains, lost sleep, cost, and the certainty that every child will one day suffer grief, illness, and death; therefore, call childbearing a wrong against the unborn and praise childlessness (\"anti-natalism\") as the highest environmental and moral virtue.\n\nCarried to its limit, the rule that good means no pain leaves only one final condition. Total extinction: bare rock under the sun, with no living mind left to ache.\n\nA code whose logical conclusion is the death of every living being is not a higher kind of mercy. It is nihilism disguised as humanitarian concern."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:8e3dbdb8:note/paragraph-move",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/08_ch08.md",
+      "byte_offset": 11050,
+      "byte_end": 11858,
+      "quote": "Dispositional love requires almost no scarce time, money, or physical energy. Wishing a thousand strangers well as you walk through a train station does not deplete your bank account or remove a single calorie of food from your children's dinner table. It is non-rivalrous and scales to millions or billions of people: holding goodwill toward a man in Peru does not reduce the goodwill you can hold toward a man in Ohio.\n\nFor that reason, dispositional love is the proper default disposition toward all peaceful human beings across every tier (Tiers 1 through 5), until and unless a specific person or group proves by conduct to be a swindler, criminal, or enemy. A society where strangers extend dispositional love to one another is far more orderly and cooperative than a society of suspicious antagonists.",
+      "problem": "Author note on the held cadence draft (call:civ/chapters/08_ch08.md:0acda266:cadence/snap): \"I feel like the last sentence in both versions should be part of the previous paragraph, and we should start with for those reasons...\" The wording is the original. The last sentence joins the paragraph that gives the reasons (cheap, non-rivalrous, orderly), and the paragraph of conclusion then opens on \"For those reasons\" in the plural. If you accept this, the held item can be withdrawn.",
+      "rule": "note/paragraph-move",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "original wording, sentence moved",
+          "text": "Dispositional love requires almost no scarce time, money, or physical energy. Wishing a thousand strangers well as you walk through a train station does not deplete your bank account or remove a single calorie of food from your children's dinner table. It is non-rivalrous and scales to millions or billions of people: holding goodwill toward a man in Peru does not reduce the goodwill you can hold toward a man in Ohio. A society where strangers extend dispositional love to one another is far more orderly and cooperative than a society of suspicious antagonists.\n\nFor those reasons, dispositional love is the proper default disposition toward all peaceful human beings across every tier (Tiers 1 through 5), until and unless a specific person or group proves by conduct to be a swindler, criminal, or enemy."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:ec330947:note/individuals-only",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 18346,
+      "byte_end": 19269,
+      "quote": "**Social parasitism** occurs when able-bodied adults who will not work, or corporate interests that will not compete fairly in the market, conceal themselves behind the genuine *cannots* in order to live upon the taxed labor of productive citizens. At the lower end of the social scale, it is the able-bodied man who refuses available employment, vandalizes public parks and transit vehicles built by others' taxes, and treats public assistance as a permanent livelihood. At the upper end of the social scale, it is the **crony rent-seeker** or bureaucratic sinecure-holder who produces no goods or services that voluntary customers would purchase, but lobbies the legislature to compel taxpayers to subsidize his enterprise or mandate his administrative services.\n\n**The Defense:** Strictly separate the *cannot* from the *will-not*, and terminate subsidies to both the able-bodied dependent and the corporate rent-seeker.",
+      "problem": "Author note on the held cadence draft (call:civ/chapters/11_ch11.md:16eb6e96:cadence/snap): \"I think we should trim this by keeping the original, but only focus on the individual adults. The corporate issues are real, but separate. I don't think we should combine them here.\" Original wording, cut to able-bodied adults; the corporate rent-seeker sentences are removed from the paragraph and from its Defense line. No section of the chapter currently treats corporate rent-seeking on its own.",
+      "rule": "note/individuals-only",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "original wording, individuals only",
+          "text": "**Social parasitism** occurs when able-bodied adults who will not work conceal themselves behind the genuine *cannots* in order to live upon the taxed labor of productive citizens. It is the able-bodied man who refuses available employment, vandalizes public parks and transit vehicles built by others' taxes, and treats public assistance as a permanent livelihood.\n\n**The Defense:** Strictly separate the *cannot* from the *will-not*, and terminate subsidies to the able-bodied dependent."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:eb88fba0:note/own-unkindness",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 9910,
+      "byte_end": 10270,
+      "quote": "Fourth comes the moral intimidation of the conscientious. Agreeable mothers, fathers, and churchgoers who genuinely wish to be kind hesitate when an activist accuses them of being *\"bigoted, heartless, and cruel.\"* Rather than be called unkind in public, they fall silent and surrender control of the school board, the courtroom, and the church to the accuser.",
+      "problem": "Author note on the held plain-style draft (call:civ/chapters/11_ch11.md:23e3790e:voice/plain-style): \"The specific words and phrases in the original are important... What I might change with this section is that people aren't always influenced by activists, they themselves may fail in being unkind to those who violate social boundaries. Yes, in society, you need to sometimes be unkind to others.\" The original fourth stage is unchanged; one paragraph is added after it for the failure that needs no activist.",
+      "rule": "note/own-unkindness",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "original plus one paragraph",
+          "text": "Fourth comes the moral intimidation of the conscientious. Agreeable mothers, fathers, and churchgoers who genuinely wish to be kind hesitate when an activist accuses them of being *\"bigoted, heartless, and cruel.\"* Rather than be called unkind in public, they fall silent and surrender control of the school board, the courtroom, and the church to the accuser.\n\nAn activist is not always needed. The conscientious man can silence himself, because he wishes to be kind and takes every unkind act for a wrong one. He cannot bring himself to fail the student who did not study, to dismiss the employee who will not work, or to refuse further help to the repeat offender who has broken every promise. Each of those acts is unkind in the plain sense of the word. It inflicts a deserved pain on someone. A boundary holds only when someone will enforce it against the person who violates it. A society therefore requires such acts. A man who refuses every such act leaves the people he is kind to without protection."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:1804f760:note/keep-quantifiers",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/10_ch10.md",
+      "byte_offset": 3265,
+      "byte_end": 4333,
+      "quote": "**Have children** is an explicit, foundational virtue of civilization rather than a private preference like stamp-collecting or golf because of three invariable facts of reality. First, every human being is mortal (Principles 1 and 2): within roughly eighty to a hundred years, 100 percent of the human beings currently reading this book, administering the courts, piloting the aircraft, and cultivating the land will be dead. Second, civilization cannot be stored on inanimate storage media or stone monuments (Principle 3): a library of engineering textbooks sitting in an empty city with no living human minds to read, practice, and execute them is merely stacked paper awaiting decay, because civilization exists only within living human beings. Third, replacement requires slightly more than two children per woman (approximately 2.1 under modern low-mortality conditions) across the population as a whole, and keeping and building life requires healthy, well-formed families raising two, three, four, or more children so that the population continues with vigor.",
+      "problem": "Author note on the held plain-style draft (call:civ/chapters/10_ch10.md:1804f760:voice/plain-style): \"On one hand, the suggested is easier to read. On the other hand, it is less accurate and more fuzzy.\" Alternate a keeps every word of the original and gains readability by ending each of the three facts at its colon instead of carrying a second claim on. Alternate b also puts the library sentence (the one the linearity aid scores lowest) into a forward order, with every term kept (inanimate storage media and stone monuments are in the sentence before it). The sentence listing who will be dead is left as it is: its weight is your list of four roles, which cannot be made forward without moving or shortening them.",
+      "rule": "note/keep-quantifiers",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "original, split at the three colons",
+          "text": "**Have children** is an explicit, foundational virtue of civilization rather than a private preference like stamp-collecting or golf because of three invariable facts of reality. First, every human being is mortal (Principles 1 and 2). Within roughly eighty to a hundred years, 100 percent of the human beings currently reading this book, administering the courts, piloting the aircraft, and cultivating the land will be dead. Second, civilization cannot be stored on inanimate storage media or stone monuments (Principle 3). A library of engineering textbooks sitting in an empty city with no living human minds to read, practice, and execute them is merely stacked paper awaiting decay, because civilization exists only within living human beings. Third, replacement requires slightly more than two children per woman (approximately 2.1 under modern low-mortality conditions) across the population as a whole. Keeping and building life requires healthy, well-formed families raising two, three, four, or more children so that the population continues with vigor."
+        },
+        {
+          "id": "b",
+          "label": "also: the library sentence rewritten",
+          "text": "**Have children** is an explicit, foundational virtue of civilization rather than a private preference like stamp-collecting or golf because of three invariable facts of reality. First, every human being is mortal (Principles 1 and 2). Within roughly eighty to a hundred years, 100 percent of the human beings currently reading this book, administering the courts, piloting the aircraft, and cultivating the land will be dead. Second, civilization cannot be stored on inanimate storage media or stone monuments (Principle 3). Suppose a library of engineering textbooks sits in an empty city with no living human minds to read, practice, and execute them. It is merely stacked paper awaiting decay, because civilization exists only within living human beings. Third, replacement requires slightly more than two children per woman (approximately 2.1 under modern low-mortality conditions) across the population as a whole. Keeping and building life requires healthy, well-formed families raising two, three, four, or more children so that the population continues with vigor."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:37f6e171:note/terms-restored",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 10273,
+      "byte_end": 12856,
+      "quote": "Tracing modern collectivist and anti-realist philosophy across two centuries shows how each thinker systematically repudiated one or more of the Five Principles.\n\n**Jean-Jacques Rousseau** (1712–1778) denied that virtue must be cultivated in human beings (Principle 2), claiming they are naturally good and corrupted only by property and civilization. He attacked keeping and building by calling the first man who fenced a plot of ground to establish a farm an impostor. He also opposed the mediating tiers of family, church, and local guild, demanding in *The Social Contract* that every citizen surrender himself unconditionally to the unitary state's **\"General Will\"** and be *\"forced to be free.\"* Robespierre and the Jacobins invoked Rousseau's General Will to justify the Terror of 1793–1794.\n\n**G. W. F. Hegel** (1770–1831) replaced fixed correspondence truth with a \"dialectical\" history in which truth unfolds by historical epoch, and set the state above the household and civil society as \"the actuality of the ethical Idea\" (*Elements of the Philosophy of Right*, 1820, section 257), against Principle 4. Hegel himself defended private property and the family; what his successors took from him was the historicized truth and the exalted state. **Karl Marx** (1818–1883) carried Hegel's dialectic into a history in which truth and morality change by class identity. He denied Principle 2 by promising that abolishing private property would remake human nature into the selfless type that later regimes called the \"New Socialist Man,\" and destroyed Principle 5 by replacing symmetrical law with class liquidation. In every instance where Marx's program was implemented in practice, including in Russia, China, Cambodia, Ethiopia, North Korea, and Cuba, it produced the same outcome of tyranny and famine.\n\nIn the twentieth century, **John Rawls** (1921–2002), as we saw in Chapter 4 and Chapter 8, used the \"Veil of Ignorance\" in *A Theory of Justice* (1971) to strip away human particularity and treat the intergenerational work of parents for their children (Principle 4 and Virtue 7) as an arbitrary \"Lottery of Birth\" to be equalized away by the state, violating Principle 5. **Michel Foucault** (1926–1984) and **Jacques Derrida** (1930–2004) completed the repudiation of classical realism by attacking Principle 1 directly, teaching generations of university students that language never refers to objective reality (*\"there is nothing outside the text\"*) and that truth, reason, science, and law are merely instruments of power (*\"regimes of truth\"*).",
+      "problem": "Author note on the held plain-style draft (call:civ/chapters/12_ch12.md:37f6e171:voice/plain-style): \"In Hegel: I would replace 'fixed truth' with 'correspondence truth'. The original Marx paragraph is better.\" Both changes are made. Beyond that the proposed substitutions that replace terms of art were not carried over (cultivated for trained, mediating tiers for middle tiers, unitary state for the state, words never touch the world for language never refers to objective reality, and others listed in the answer). Marx is given his own paragraph, the Rawls sentence is split in two, and Rawls and Foucault are given separate paragraphs; no term changes.",
+      "rule": "note/terms-restored",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "note applied, terms of art kept",
+          "text": "Across two centuries, one modern line of thinkers broke with the Five Principles step by step.\n\n**Jean-Jacques Rousseau** (1712–1778) denied that virtue must be cultivated in human beings (Principle 2), claiming they are naturally good and corrupted only by property and civilization. He attacked keeping and building by calling the first man who fenced a plot of ground to establish a farm an impostor. He also opposed the mediating tiers of family, church, and local guild, demanding in *The Social Contract* that every citizen surrender himself unconditionally to the unitary state's **\"General Will\"** and be *\"forced to be free.\"* Robespierre and the Jacobins invoked Rousseau's General Will to justify the Terror of 1793–1794.\n\n**G. W. F. Hegel** (1770–1831) replaced correspondence truth with a \"dialectical\" history in which truth unfolds by historical epoch, and set the state above the household and civil society as \"the actuality of the ethical Idea\" (*Elements of the Philosophy of Right*, 1820, section 257), against Principle 4. Hegel himself defended private property and the family. What his successors took from him was the historicized truth and the exalted state.\n\n**Karl Marx** (1818–1883) carried Hegel's dialectic into a history in which truth and morality change by class identity. He denied Principle 2 by promising that abolishing private property would remake human nature into the selfless type that later regimes called the \"New Socialist Man,\" and destroyed Principle 5 by replacing symmetrical law with class liquidation. In every instance where Marx's program was implemented in practice, including in Russia, China, Cambodia, Ethiopia, North Korea, and Cuba, it produced the same outcome of tyranny and famine.\n\nIn the twentieth century, **John Rawls** (1921–2002), as we saw in Chapter 4 and Chapter 8, used the \"Veil of Ignorance\" in *A Theory of Justice* (1971) to strip away human particularity. He treated the intergenerational work of parents for their children (Principle 4 and Virtue 7) as an arbitrary \"Lottery of Birth\" to be equalized away by the state, violating Principle 5.\n\n**Michel Foucault** (1926–1984) and **Jacques Derrida** (1930–2004) completed the repudiation of classical realism by attacking Principle 1 directly, teaching generations of university students that language never refers to objective reality (*\"there is nothing outside the text\"*) and that truth, reason, science, and law are merely instruments of power (*\"regimes of truth\"*)."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:3da9c1ce:note/streamline-keep-terms",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 34768,
+      "byte_end": 38984,
+      "quote": "The most influential global theorist of this anti-Western, anti-procedural right is the Russian philosopher **Alexander Dugin** (born 1962), author of *The Foundations of Geopolitics* (1997) and *The Fourth Political Theory* (2009).\n\nBecause Dugin borrows the language of conservatism, praising \"Tradition,\" the Orthodox Church, multipolarity, and resistance to Western progressive decadence, some Western right-wing commentators have naively treated him as a civilizational ally.\n\nDugin's actual writings and speeches state his core premises directly, allowing them to be evaluated against the Five Common Principles of Reality.\n\nFirst is Dugin's explicit hostility to individual success and excellence (Principle 2, Principle 3, and Virtue 3). In a post on X on 10 July 2026, he stated his moral premise toward individual human achievement without ambiguity:\n\n\u003e *\"The very concept of the success is deeply immoral... We should prosper or suffer together. Otherwise it is satanic.\"*\n\nThe direct meaning of that statement is unmistakable. According to Dugin, if one farmer rises at five in the morning, clears the weeds from his field, repairs his roof, remains sober, and harvests an abundant crop, while his neighbor sleeps until noon, drinks heavily, and lets his roof decay, the industrious farmer's success is \"deeply immoral\" and \"satanic\" unless he suffers in poverty alongside his neighbor. That is the destructive pathology of the old Russian peasant commune (*mir*) and Soviet collectivization: the envious leveling mentality illustrated in the old Russian proverb in which a peasant, offered any wish on condition that his neighbor receive double, asks to have one of his own eyes put out. There is a direct structural parallel between **radical outcome-egalitarianism** in the West and **Dugin's Eurasianist Collectivism** in the East: both look upon a human being who achieves excellence and builds a flourishing life, and both declare that unequal achievement is evil and that all persons must be compelled to *\"suffer together\"* in shared deprivation.\n\nSecond, Dugin denies universal correspondence truth. In *The Fourth Political Theory*, he explicitly rejects the existence of universal objective truth, universal natural science, and universal human nature. Drawing directly on **Martin Heidegger** and **postmodern constructivism**, Dugin declares that what the West calls empirical truth and logic is merely a local \"Atlanticist / Anglo-Saxon episteme,\" and that Russia/Eurasia possesses its own separate \"archaic truth\" in which state myth overrides factual correspondence. Under Principle 1, truth has one frame, which is reality, and a state myth is a narrative. That is postmodern constructivism restated in the vocabulary of Russian imperial nationalism.\n\nThird, Dugin erases the individual and the self-anchored household into *Dasein* (Principles 2 and 4). He explicitly names the **individual human person** as the primary enemy to be abolished. Whereas the First Political Theory (liberalism) took the individual as its subject, the Second (communism) took class, and the Third (fascism) took race or state, Dugin proposes that his \"Fourth Political Theory\" takes Heidegger's collective *Dasein* (\"being-there\") and the undifferentiated mass (*Narod*) as the only real actor, explicitly declaring that the individual possesses no intrinsic boundary, no inviolable property, and no self-anchored standing apart from the collective empire.\n\nFourth, Dugin abolishes procedural symmetry in favor of eternal imperial war. Because he rejects legal symmetry, individual property rights, and constitutional checks inside the state, and views international politics as a permanent war between \"Land Power\" (Eurasia) and \"Sea Power\" (the constitutional West), his system cannot build high-trust domestic courts or peaceful prosperity. Instead, it requires permanent external conquest and internal secret-police mobilization to justify domestic poverty and coercion.\n\nThe verdict under the Five Principles is clear: Alexander Dugin is not a defender of civilization against postmodernism; he is a collectivist leveler and postmodern anti-realist whose program leads to serfdom and imperial warfare.",
+      "problem": "Author note on the held plain-style draft (call:civ/chapters/12_ch12.md:3da9c1ce:voice/plain-style): \"I agree we can streamline some of this or edit it. But we are removing critical words and phrases that have specific meaning here.\" Every phrase of specific meaning is kept. The streamlining is structural only: one filler sentence removed (\"The direct meaning of that statement is unmistakable.\"), the long conditional put as rule first and case second, one pronoun named after a split, and five sentences split at a colon or after a stacked clause.",
+      "rule": "note/streamline-keep-terms",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "original terms, sentences split",
+          "text": "The most influential global theorist of this anti-Western, anti-procedural right is the Russian philosopher **Alexander Dugin** (born 1962), author of *The Foundations of Geopolitics* (1997) and *The Fourth Political Theory* (2009).\n\nBecause Dugin borrows the language of conservatism, praising \"Tradition,\" the Orthodox Church, multipolarity, and resistance to Western progressive decadence, some Western right-wing commentators have naively treated him as a civilizational ally.\n\nDugin's actual writings and speeches state his core premises directly, allowing them to be evaluated against the Five Common Principles of Reality.\n\nFirst is Dugin's explicit hostility to individual success and excellence (Principle 2, Principle 3, and Virtue 3). In a post on X on 10 July 2026, he stated his moral premise toward individual human achievement without ambiguity:\n\n\u003e *\"The very concept of the success is deeply immoral... We should prosper or suffer together. Otherwise it is satanic.\"*\n\nAccording to Dugin, an industrious farmer's success is \"deeply immoral\" and \"satanic\" unless he suffers in poverty alongside his neighbor. One farmer rises at five in the morning, clears the weeds from his field, repairs his roof, remains sober, and harvests an abundant crop. His neighbor sleeps until noon, drinks heavily, and lets his roof decay. That is the destructive pathology of the old Russian peasant commune (*mir*) and Soviet collectivization. It is the envious leveling mentality illustrated in the old Russian proverb in which a peasant, offered any wish on condition that his neighbor receive double, asks to have one of his own eyes put out. There is a direct structural parallel between **radical outcome-egalitarianism** in the West and **Dugin's Eurasianist Collectivism** in the East. Both look upon a human being who achieves excellence and builds a flourishing life. Both declare that unequal achievement is evil and that all persons must be compelled to *\"suffer together\"* in shared deprivation.\n\nSecond, Dugin denies universal correspondence truth. In *The Fourth Political Theory*, he explicitly rejects the existence of universal objective truth, universal natural science, and universal human nature. Drawing directly on **Martin Heidegger** and **postmodern constructivism**, Dugin declares that what the West calls empirical truth and logic is merely a local \"Atlanticist / Anglo-Saxon episteme,\" and that Russia/Eurasia possesses its own separate \"archaic truth\" in which state myth overrides factual correspondence. Under Principle 1, truth has one frame, which is reality, and a state myth is a narrative. That is postmodern constructivism restated in the vocabulary of Russian imperial nationalism.\n\nThird, Dugin erases the individual and the self-anchored household into *Dasein* (Principles 2 and 4). He explicitly names the **individual human person** as the primary enemy to be abolished. Whereas the First Political Theory (liberalism) took the individual as its subject, the Second (communism) took class, and the Third (fascism) took race or state, Dugin proposes that his \"Fourth Political Theory\" takes Heidegger's collective *Dasein* (\"being-there\") and the undifferentiated mass (*Narod*) as the only real actor. He declares explicitly that the individual possesses no intrinsic boundary, no inviolable property, and no self-anchored standing apart from the collective empire.\n\nFourth, Dugin abolishes procedural symmetry in favor of eternal imperial war. He rejects legal symmetry, individual property rights, and constitutional checks inside the state, and he views international politics as a permanent war between \"Land Power\" (Eurasia) and \"Sea Power\" (the constitutional West). His system therefore cannot build high-trust domestic courts or peaceful prosperity. Instead, the system requires permanent external conquest and internal secret-police mobilization to justify domestic poverty and coercion.\n\nThe verdict under the Five Principles is clear: Alexander Dugin is not a defender of civilization against postmodernism; he is a collectivist leveler and postmodern anti-realist whose program leads to serfdom and imperial warfare."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:98535b9f:note/compatibility-test",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 63,
+      "byte_end": 2005,
+      "quote": "We now possess a complete, self-consistent analytical framework: the Five Common Principles of Reality and the **Seven Virtues of Civilization**.\n\nThis framework provides an objective standard for evaluating history, philosophy, religion, and politics.\n\nWithout an explicit set of foundational principles, people frequently evaluate philosophies and political movements by **factional label** or **rhetorical tone**: *\"Does this writer employ persuasive language? Does he oppose the same adversaries I oppose? Does his treatise invoke familiar terms such as justice or tradition?\"* Through such superficial criteria, large numbers of well-intentioned citizens are induced to adopt defective ideological systems, ranging from utopian Marxism on the political left to neo-feudal warlordism and Eurasianist collectivism on the political right.\n\n**Scoped procedural symmetry** and truth as correspondence to reality require the **same inspection checklist** for every philosopher, every religious framework, and every political movement, whether friendly or hostile, ancient or modern, Eastern or Western. We do not judge a doctrine by its outward title; we test its foundational premises directly and ask:\n\n1. Does this system affirm that reality is real, knowable, and consequential, and that truth is correspondence to reality (Principle 1)?\n2. Does it take human beings as they actually are: self-interested, limited, and particular (Principle 2)?\n3. Does its moral standard require human life continuing, kept, and built (Principle 3)?\n4. Does it structure duty as self-anchored, tiered, and outward while recognizing that enemies are real (Principle 4)?\n5. Does it govern multi-household life by scoped procedural symmetry rather than arbitrary decree, tribal privilege, or forced leveling of outcomes (Principle 5)?\n\nMajor philosophical schools, world religions, and political doctrines can be evaluated directly under these five criteria.",
+      "problem": "Author note on the held plain-style draft (call:civ/chapters/12_ch12.md:98535b9f:voice/plain-style): \"Your proposed is an improvement. But I feel like we have room to modify (without adding length) the meaning to imply that this is just for compatibility, two compatible groups can still be at odds. But it still eliminates the self-defeating ones or enemies within.\" Two changes only. The sentence announcing \"an objective standard\" is replaced by one that names the test: compatibility, compatible doctrines still at odds, and failure meaning self-defeating or enemy within (all your words). \"Neo-feudal warlordism\" is dropped from the next paragraph, as note 24 dropped it from section 3A. Everything else, including the five questions, is the original. Length: original 272 words, this draft 288.",
+      "rule": "note/compatibility-test",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "compatibility sentence",
+          "text": "We now possess a complete, self-consistent analytical framework: the Five Common Principles of Reality and the **Seven Virtues of Civilization**.\n\nIt provides one test of compatibility for judging history, philosophy, religion, and politics. Two compatible doctrines can still be at odds, but a doctrine that fails is self-defeating or an enemy within.\n\nWithout an explicit set of foundational principles, people frequently evaluate philosophies and political movements by **factional label** or **rhetorical tone**: *\"Does this writer employ persuasive language? Does he oppose the same adversaries I oppose? Does his treatise invoke familiar terms such as justice or tradition?\"* Through such superficial criteria, large numbers of well-intentioned citizens are induced to adopt defective ideological systems, ranging from utopian Marxism on the political left to Eurasianist collectivism on the political right.\n\n**Scoped procedural symmetry** and truth as correspondence to reality require the **same inspection checklist** for every philosopher, every religious framework, and every political movement, whether friendly or hostile, ancient or modern, Eastern or Western. We do not judge a doctrine by its outward title; we test its foundational premises directly and ask:\n\n1. Does this system affirm that reality is real, knowable, and consequential, and that truth is correspondence to reality (Principle 1)?\n2. Does it take human beings as they actually are: self-interested, limited, and particular (Principle 2)?\n3. Does its moral standard require human life continuing, kept, and built (Principle 3)?\n4. Does it structure duty as self-anchored, tiered, and outward while recognizing that enemies are real (Principle 4)?\n5. Does it govern multi-household life by scoped procedural symmetry rather than arbitrary decree, tribal privilege, or forced leveling of outcomes (Principle 5)?\n\nMajor philosophical schools, world religions, and political doctrines can be evaluated directly under these five criteria."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:c60e0f50:note/direct-language",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 8309,
+      "byte_end": 8756,
+      "quote": "**David Hume** was a penetrating historian and economist outside his study, understanding property, contract, and the danger of political fanaticism; yet inside his philosophical treatise, his premise that we perceive only disconnected mental impressions led him to claim that we possess no rational justification for believing in cause and effect or the permanence of external objects. He severed speculative philosophy from common-sense reality.",
+      "problem": "Author note on the held cadence draft (call:civ/chapters/12_ch12.md:c60e0f50:cadence/snap): \"In both versions, inside his study and outside his study are a different way to say 'day job'. Don't use day job, but we need to remove this metaphor and use direct language. For a living Hume did X. Outside of that he talked about Y.\" The study figure is gone. The facts are from Hume's own account: the librarianship paid \"little or no emolument\"; the copy money for the History made him \"not only independent, but opulent\"; Political Discourses (1752) was the one work of his that succeeded on first publication. The dates of the History are the Stanford Encyclopedia's (six volumes, 1754 to 1762); Hume says only that he gave the last two volumes to the public in 1761. Hume attributes his independence to his writings as a whole, so the draft says \"his writings\", not the History alone.",
+      "rule": "note/direct-language",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "direct language, sourced (109 words)",
+          "text": "**David Hume** was a penetrating historian and economist, and he earned his living by writing. His writings sold so well that he became, in his own words, *\"not only independent, but opulent\"* (*My Own Life*, 1776). He showed in his *History of England* (six volumes, 1754 to 1762) and in his *Political Discourses* (1752) that he understood property, contract, and the danger of political fanaticism. In his philosophical works, by contrast, his premise that we perceive only disconnected mental impressions led him to claim that we possess no rational justification for believing in cause and effect or the permanence of external objects. He severed speculative philosophy from common-sense reality."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:3cf06304:note/keep-terms",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/13_ch13.md",
+      "byte_offset": 5090,
+      "byte_end": 5871,
+      "quote": "Addressing the reality of human cognitive and executive variation (Principle 2), Lee noted that in any population, the most capable, disciplined, and public-spirited five to ten percent of citizens act as *\"the yeast, the ferment, the catalyst\"* that enables the entire society to advance. If a nation persecutes, drives out, or levels down its most capable engineers, administrators, and entrepreneurs in the name of envy, the remaining ninety percent do not become wealthier; they sink into unemployment and poverty. Therefore, Singapore established rigorously meritocratic schools, technical institutes, and civil service examinations in which the son of a manual laborer who scored at the top of the mathematics examination received a scholarship alongside the son of a banker.",
+      "problem": "Author note on the held plain-style draft (call:civ/chapters/13_ch13.md:5e866d9f:voice/plain-style): \"Again this mixes reasonable edits with replacing words that have specific needed meanings with less or different meanings.\" Words with specific meaning are kept (human particularity, cultivating, meritocratic, cognitive and executive variation, persecutes and levels down, manual laborer). Three sentences are put in a forward order where one carried a second claim or a long subject; no word of substance changes.",
+      "rule": "note/keep-terms",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "terms kept, two sentences split",
+          "text": "Lee addressed the reality of human cognitive and executive variation (Principle 2). He noted that in any population, the most capable, disciplined, and public-spirited five to ten percent of citizens act as *\"the yeast, the ferment, the catalyst\"* that enables the entire society to advance. If a nation persecutes, drives out, or levels down its most capable engineers, administrators, and entrepreneurs in the name of envy, the remaining ninety percent do not become wealthier. They sink into unemployment and poverty. Therefore, Singapore established rigorously meritocratic schools, technical institutes, and civil service examinations. In them, one scholarship went to the son of a manual laborer who scored at the top of the mathematics examination. Another went to the son of a banker."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/01_ch01.md:2ac067e4:note/colon-punch",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "sentence",
+      "path": "civ/chapters/01_ch01.md",
+      "byte_offset": 6029,
+      "byte_end": 6089,
+      "quote": "A decisive fact governs every technology we have just named.",
+      "problem": "Author note on the rejected plain-style draft (call:civ/chapters/01_ch01.md:b6e8b2a7:voice/plain-style): \"The first sentence is where I might use a ': nothing keeps itself.' ... I like the original more. The Moreover and Therefore are useful.\" Only the first sentence changes; it takes the proposed colon and keeps \"decisive fact\".",
+      "rule": "note/colon-punch",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "colon and the short statement",
+          "text": "A decisive fact governs every technology we have just named: nothing keeps itself."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/01_ch01.md:89b3b151:note/drop-wet",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "sentence",
+      "path": "civ/chapters/01_ch01.md",
+      "byte_offset": 6970,
+      "byte_end": 7014,
+      "quote": "just as naked, wet, and ignorant of calculus",
+      "problem": "Author note on the rejected plain-style draft (call:civ/chapters/01_ch01.md:b6e8b2a7:voice/plain-style): \"For a newborn, 'naked and untought' is fine, no need for 'wet'.\"",
+      "rule": "note/drop-wet",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "without \"wet\"",
+          "text": "just as naked and ignorant of calculus"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:7699d3f9:note/punch-question",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "sentence",
+      "path": "civ/chapters/04_ch04.md",
+      "byte_offset": 827,
+      "byte_end": 917,
+      "quote": "What are the actual, permanent biological and operational specifications of a human being?",
+      "problem": "Author note on the rejected plain-style draft (call:civ/chapters/04_ch04.md:c3bb40d1:voice/plain-style): \"I like the punch of 'What kind of creature is a human being?' but not much else.\"",
+      "rule": "note/punch-question",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the sentence you liked",
+          "text": "What kind of creature is a human being?"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:afb4661e:note/drop-half",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "sentence",
+      "path": "civ/chapters/04_ch04.md",
+      "byte_offset": 22407,
+      "byte_end": 22489,
+      "quote": "Your genetic code (half from your specific father, half from your specific mother)",
+      "problem": "Author note on the rejected cadence draft (call:civ/chapters/04_ch04.md:d0909661:cadence/snap): \"I quibble with 'half from mother/father', just from mother and father would be sufficient.\"",
+      "rule": "note/drop-half",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "mother and father, no halves",
+          "text": "Your genetic code (from your specific mother and father)"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:573fb428:note/literal-wording",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "sentence",
+      "path": "civ/chapters/04_ch04.md",
+      "byte_offset": 22261,
+      "byte_end": 22333,
+      "quote": "is not an interchangeable unit drawn from a receptacle of generic lives;",
+      "problem": "Same author note as the item above: \"No metaphores! Use exact language.\" The proposal was rejected for its metaphors; this phrase is in the original. Optional: \"drawn from a receptacle\" made literal.",
+      "rule": "note/literal-wording",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "literal",
+          "text": "is not an interchangeable unit supplied from a stock of generic lives;"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:29d453e3:note/literal-wording",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "sentence",
+      "path": "civ/chapters/04_ch04.md",
+      "byte_offset": 22634,
+      "byte_end": 22702,
+      "quote": "are not an external garment placed over a pre-existing generic self.",
+      "problem": "Same author note: \"No metaphores! Use exact language.\" This garment phrase is in the original. Optional.",
+      "rule": "note/literal-wording",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "literal",
+          "text": "are not external additions placed over a pre-existing generic self."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/05_ch05.md:e1d92d2a:note/force-require",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "sentence",
+      "path": "civ/chapters/05_ch05.md",
+      "byte_offset": 744,
+      "byte_end": 941,
+      "quote": "Therefore, human limits force **specialization and division of labor**: the farmer farms, the potter throws pots, the smith forges iron, the weaver weaves linen, and the physician studies medicine.",
+      "problem": "Author note on the rejected plain-style draft (call:civ/chapters/05_ch05.md:01a2f1c3:voice/plain-style): \"I would replace 'Human limits force' with 'Human limits require...' or just 'Limited time and attention require humans to divide their labor' or some variant of that.\" Two variants, both your wording; the rest of the sentence is unchanged.",
+      "rule": "note/force-require",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "human limits require",
+          "text": "Therefore, human limits require **specialization and division of labor**: the farmer farms, the potter throws pots, the smith forges iron, the weaver weaves linen, and the physician studies medicine."
+        },
+        {
+          "id": "b",
+          "label": "limited time and attention",
+          "text": "Therefore, limited time and attention require **specialization and division of labor**: the farmer farms, the potter throws pots, the smith forges iron, the weaver weaves linen, and the physician studies medicine."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/05_ch05.md:9ca00707:note/cut-reinvention-test",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "sentence",
+      "path": "civ/chapters/05_ch05.md",
+      "byte_offset": 13316,
+      "byte_end": 14529,
+      "quote": "### The Reinvention Test\n\nWe can summarize this entire chapter in a single diagnostic principle, **the Reinvention Test**:\n\nWhenever a reformer proposes to abolish an inherited human arrangement on the ground that it is \"just a social construct,\" ask what happens when a government bans the official form of that arrangement.\n\nIf the arrangement was merely **constructed form**, like wearing powdered wigs in court or driving on the left side of the road, the ban holds cleanly and life goes on under the new convention without loss. If instead unrelated peoples across different centuries and cultures **reinvent the banned arrangement underground, illegally, and at severe risk to themselves**, then you are looking at **discovered substance**. Black-market money, underground trade, informal property, and kin households always reappear when banned.\n\nReform constructed forms whenever a change of form genuinely helps people survive and build under current conditions. Respect discovered substance, because political decrees cannot alter physical or biological reality, and the cost of treating functional substance as arbitrary convention is paid in illicit markets, neglected children, and agricultural ruin.",
+      "problem": "Author note on the rejected plain-style draft (call:civ/chapters/05_ch05.md:5e291b3a:voice/plain-style): \"The reinvention test is cute. I don't think it should be included. We should cut it.\" The heading and the two paragraphs that define and apply the test are removed. The closing paragraph (\"Reform constructed forms... Respect discovered substance...\") is kept as the chapter's last paragraph. If you meant the closing paragraph to go as well, say so and it will be cut in a follow-up. Nothing else in the chapters or the sheet refers to the Reinvention Test.",
+      "rule": "note/cut-reinvention-test",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "cut the test, keep the closing paragraph",
+          "text": "Reform constructed forms whenever a change of form genuinely helps people survive and build under current conditions. Respect discovered substance, because political decrees cannot alter physical or biological reality, and the cost of treating functional substance as arbitrary convention is paid in illicit markets, neglected children, and agricultural ruin."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:574387b2:note/sentence-tightening",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "sentence",
+      "path": "civ/chapters/06_ch06.md",
+      "byte_offset": 13546,
+      "byte_end": 13749,
+      "quote": "Across generations, living adults must bring the next generation of children into the world and raise them to maturity so that life and the civilization do not terminate when the current generation dies.",
+      "problem": "Author note on the rejected plain-style draft (call:civ/chapters/06_ch06.md:0c7a84bb:voice/plain-style): \"I would be open to more fine grain set of suggestions.\" One sentence; \"time horizons\" is kept because chapter 10 refers back to it.",
+      "rule": "note/sentence-tightening",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "tightened",
+          "text": "Across generations, living adults must bear children and raise them to maturity, so that life and the civilization do not end when the current generation dies."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:31f15b41:note/sentence-tightening",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "sentence",
+      "path": "civ/chapters/06_ch06.md",
+      "byte_offset": 13803,
+      "byte_end": 14037,
+      "quote": "Protecting soil, timber, and clean rivers is part of keeping the human habitat in working order, not a license to treat human beings as a blight upon the earth whose population should be reduced for the sake of undisturbed wilderness.",
+      "problem": "Same author note: \"a more fine grain set of suggestions.\" Split in two; no word of substance changed.",
+      "rule": "note/sentence-tightening",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split in two",
+          "text": "Protecting soil, timber, and clean rivers keeps the human habitat in working order. It does not license treating human beings as a blight upon the earth whose population should be reduced for the sake of undisturbed wilderness."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:82e56dc9:note/revealed-preference",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "sentence",
+      "path": "civ/chapters/06_ch06.md",
+      "byte_offset": 14189,
+      "byte_end": 14298,
+      "quote": "That line is revealed preference demonstrated by action across generations, rather than by academic rhetoric.",
+      "problem": "Same author note: \"you also removed important language like 'revealed preference'... It is the factual points that need to come forward emphasizing things like revealed preferences.\" The term is kept and set off so it carries the sentence.",
+      "rule": "note/revealed-preference",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "term kept and emphasized",
+          "text": "That line is **revealed preference**: the choice of life demonstrated by action across generations, rather than asserted in academic rhetoric."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:136b9cdc:note/sentence-tightening",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "sentence",
+      "path": "civ/chapters/06_ch06.md",
+      "byte_offset": 14300,
+      "byte_end": 14499,
+      "quote": "Second, a crucial truth governs the evaluation of cultures: affirming that human life should continue and be kept and built is NOT a claim that every cultural system is equally worthy of continuance.",
+      "problem": "Same author note. Split at the colon; the capitals on NOT become italics, the book's means of emphasis.",
+      "rule": "note/sentence-tightening",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split, italics for emphasis",
+          "text": "Second, a crucial truth governs the evaluation of cultures. Affirming that human life should continue and be kept and built is *not* a claim that every cultural system is equally worthy of continuance."
+        }
+      ]
+    }
+  ]
+}
