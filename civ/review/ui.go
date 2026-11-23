@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"strings"
+	"time"
 
 	"github.com/bankai-tensei/gowaku"
 	"github.com/bankai-tensei/gowaku/geom"
@@ -17,6 +18,13 @@ import (
 	"github.com/bankai-tensei/gowaku/widgets/interact"
 )
 
+// clickQuiet is how long a second button release is ignored. A button already
+// runs on mouse-up. A double click, or a mouse button that flutters, releases
+// again before this passes, and that release must not decide the item now
+// under the pointer. The wait is shared by every button, because the first
+// release can move the next item onto the same pixel.
+const clickQuiet = 500 * time.Millisecond
+
 const (
 	textBody  = 14
 	textMeta  = 12
@@ -24,9 +32,11 @@ const (
 )
 
 // reviewApp is the three-pane viewer. Session is shared with the caller.
+// now, when set, is the clock for clickQuiet. The window leaves it nil.
 type reviewApp struct {
 	gowaku.StatefulBase
 	Session *Session
+	now     func() time.Time
 }
 
 // reviewState is the gowaku shell around reviewView. Mutations go through ui
@@ -34,10 +44,12 @@ type reviewApp struct {
 type reviewState struct {
 	gowaku.StateBase
 	reviewView
+	now         func() time.Time
+	lastClickAt time.Time
 }
 
 func (a reviewApp) CreateState() gowaku.State {
-	return &reviewState{reviewView: newReviewView(a.Session)}
+	return &reviewState{reviewView: newReviewView(a.Session), now: a.now}
 }
 
 // ui runs fn and rebuilds the window. fn may be nil when a control is disabled.
@@ -54,7 +66,7 @@ func (s *reviewState) Build(ctx gowaku.BuildContext) gowaku.Widget {
 	muted := text.Style{Size: textMeta, Color: th.Color.Ink2}
 	return interact.Actions{
 		Actions: s.actions(),
-		Child: basic.Column{Cross: layout.CrossStretch, Children: []gowaku.Widget{
+		Child: field.SelectionArea{Child: basic.Column{Cross: layout.CrossStretch, Children: []gowaku.Widget{
 			basic.Expanded{Child: control.SplitPane{
 				Pixels: true, Position: 320, MinFirst: 240, MinSecond: 620,
 				First: s.listPane(th, body, muted),
@@ -65,7 +77,7 @@ func (s *reviewState) Build(ctx gowaku.BuildContext) gowaku.Widget {
 				},
 			}},
 			s.statusBar(th, muted),
-		}},
+		}}},
 	}
 }
 
@@ -147,10 +159,7 @@ func (s *reviewState) filterButton(label string, f int) gowaku.Widget {
 	if s.filter == f {
 		style = control.ButtonPrimary
 	}
-	return control.Button{
-		Label: label, Style: style, Size: control.ButtonSmall,
-		OnPress: s.ui(func() { s.setFilter(f) }),
-	}
+	return s.button(label, style, s.ui(func() { s.setFilter(f) }))
 }
 
 func (s *reviewState) itemRow(th *theme.Theme, it Item, muted text.Style) gowaku.Widget {
@@ -464,7 +473,30 @@ func altDetail(th *theme.Theme, it Item, alt Alternate, hasAlt bool, altText str
 }
 
 func (s *reviewState) button(label string, style control.ButtonStyle, fn func()) gowaku.Widget {
-	return control.Button{Label: label, Style: style, Size: control.ButtonSmall, OnPress: fn}
+	return control.Button{Label: label, Style: style, Size: control.ButtonSmall, OnPress: s.guard(fn)}
+}
+
+// guard drops a release that follows another button release inside clickQuiet.
+// fn nil stays nil, so a disabled button stays disabled.
+func (s *reviewState) guard(fn func()) func() {
+	if fn == nil {
+		return nil
+	}
+	return func() {
+		now := s.clock()
+		if !s.lastClickAt.IsZero() && now.Sub(s.lastClickAt) < clickQuiet {
+			return
+		}
+		s.lastClickAt = now
+		fn()
+	}
+}
+
+func (s *reviewState) clock() time.Time {
+	if s.now != nil {
+		return s.now()
+	}
+	return time.Now()
 }
 
 func (s *reviewState) statusBar(th *theme.Theme, muted text.Style) gowaku.Widget {

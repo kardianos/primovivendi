@@ -6,9 +6,29 @@ import (
 	"path/filepath"
 	"strings"
 	"testing"
+	"time"
 
+	"github.com/bankai-tensei/gowaku/core"
+	"github.com/bankai-tensei/gowaku/geom"
 	"github.com/bankai-tensei/gowaku/gowakutest"
+	"github.com/bankai-tensei/gowaku/input"
+	"github.com/bankai-tensei/gowaku/semantics"
 )
+
+// openReview opens the window on a clock that moves clickQuiet on every
+// button release, so a test can click through a queue. A frozen clock is
+// what shows that a second release is ignored.
+func openReview(t *testing.T, sess *Session) *gowakutest.Tester {
+	t.Helper()
+	now := time.Date(2026, 11, 23, 0, 0, 0, 0, time.UTC)
+	return gowakutest.New(t, reviewApp{
+		Session: sess,
+		now: func() time.Time {
+			now = now.Add(clickQuiet)
+			return now
+		},
+	}, gowakutest.Options{Width: 1440, Height: 900})
+}
 
 func TestTapAcceptWritesDecision(t *testing.T) {
 	root, err := findRoot(".")
@@ -20,7 +40,7 @@ func TestTapAcceptWritesDecision(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	tt := gowakutest.New(t, reviewApp{Session: sess}, gowakutest.Options{Width: 1440, Height: 900})
+	tt := openReview(t, sess)
 	if !strings.Contains(tt.Dump(), "Fire burns cotton") {
 		t.Fatalf("two lines below line 1 should reach line 3\n%s", tt.Dump())
 	}
@@ -96,7 +116,7 @@ func TestUIShowsFromAndIgnore(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	tt := gowakutest.New(t, reviewApp{Session: sess}, gowakutest.Options{Width: 1440, Height: 900})
+	tt := openReview(t, sess)
 	dump := tt.Dump()
 	for _, want := range []string{"from: grok-4.7", "from grok-4.7", "Word diff (Quote -> shorter · grok-4.7)", "opus-5.5", "ignore"} {
 		if !strings.Contains(dump, want) {
@@ -199,7 +219,7 @@ func TestEmptyQueueClearsSelection(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	tt := gowakutest.New(t, reviewApp{Session: sess}, gowakutest.Options{Width: 1440, Height: 900})
+	tt := openReview(t, sess)
 	if !strings.Contains(tt.Dump(), "Alpha is still open.") {
 		t.Fatalf("expected the first open item\n%s", tt.Dump())
 	}
@@ -258,7 +278,7 @@ func TestOpenQueueAlreadyEmptySelectsNothing(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	tt := gowakutest.New(t, reviewApp{Session: sess}, gowakutest.Options{Width: 1440, Height: 900})
+	tt := openReview(t, sess)
 	dump := tt.Dump()
 	if !strings.Contains(dump, "No items") || !strings.Contains(dump, "No item selected") {
 		t.Fatalf("empty open queue should select nothing\n%s", dump)
@@ -290,7 +310,7 @@ func TestUICopyToMineLockedBannerAndReopen(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	tt := gowakutest.New(t, reviewApp{Session: sess}, gowakutest.Options{Width: 1440, Height: 900})
+	tt := openReview(t, sess)
 	if !strings.Contains(tt.Dump(), "LOCKED LINE") {
 		t.Fatalf("locked banner not shown\n%s", tt.Dump())
 	}
@@ -312,4 +332,140 @@ func TestUICopyToMineLockedBannerAndReopen(t *testing.T) {
 	if _, exists := got.Items["lock1"]; exists {
 		t.Fatalf("Reopen did not clear decision: %+v", got.Items)
 	}
+}
+
+func TestButtonQuietPeriod(t *testing.T) {
+	now := time.Date(2026, 11, 23, 0, 0, 0, 0, time.UTC)
+	s := &reviewState{now: func() time.Time { return now }}
+	n := 0
+	press := s.guard(func() { n++ })
+	if s.guard(nil) != nil {
+		t.Fatal("a disabled button must stay disabled")
+	}
+	press()
+	press()
+	press()
+	if n != 1 {
+		t.Fatalf("flutter ran %d times", n)
+	}
+	now = now.Add(clickQuiet - time.Millisecond)
+	press()
+	if n != 1 {
+		t.Fatalf("press inside the quiet period ran, count %d", n)
+	}
+	now = now.Add(time.Millisecond)
+	press()
+	if n != 2 {
+		t.Fatalf("press after the quiet period count %d", n)
+	}
+}
+
+func TestFlutterClickDoesNotDecideTheNextItem(t *testing.T) {
+	root, err := findRoot(".")
+	if err != nil {
+		t.Fatal(err)
+	}
+	dec := filepath.Join(t.TempDir(), "decisions.json")
+	sess, err := LoadSession(root, filepath.Join(root, "civ", "review", "testdata", "packets"), dec)
+	if err != nil {
+		t.Fatal(err)
+	}
+	now := time.Date(2026, 11, 23, 0, 0, 0, 0, time.UTC)
+	tt := gowakutest.New(t, reviewApp{Session: sess, now: func() time.Time { return now }}, gowakutest.Options{Width: 1440, Height: 900})
+	accept, ok := tt.Find("Accept")
+	if !ok {
+		t.Fatalf("no Accept button\n%s", tt.Dump())
+	}
+	// Three releases, close together on the pointer clock, so the toolkit
+	// counts a triple click and would run the button on the first and the third.
+	clickN(tt, accept.Rect.Center(), 3)
+	if !strings.Contains(tt.Dump(), "The recorded offset is wrong") {
+		t.Fatalf("flutter did not leave the next item showing\n%s", tt.Dump())
+	}
+	got := readDecisions(t, dec)
+	if len(got.Items) != 1 || got.Items["fixture:offset-household"].Disposition != "accept" {
+		t.Fatalf("flutter wrote %+v", got.Items)
+	}
+	tt.Tap("Reject")
+	got = readDecisions(t, dec)
+	if _, decided := got.Items["fixture:moved-household"]; decided {
+		t.Fatal("a second button inside the quiet period decided the next item")
+	}
+	now = now.Add(clickQuiet)
+	tt.Tap("Reject")
+	got = readDecisions(t, dec)
+	if got.Items["fixture:moved-household"].Disposition != "reject" {
+		t.Fatalf("a click after the quiet period did not reject: %+v", got.Items["fixture:moved-household"])
+	}
+}
+
+func TestUISelectAndCopyPassage(t *testing.T) {
+	root, err := findRoot(".")
+	if err != nil {
+		t.Fatal(err)
+	}
+	dec := filepath.Join(t.TempDir(), "decisions.json")
+	sess, err := LoadSession(root, filepath.Join(root, "civ", "review", "testdata", "packets"), dec)
+	if err != nil {
+		t.Fatal(err)
+	}
+	tt := openReview(t, sess)
+	const mark = "Fire burns cotton"
+	n, ok := tt.FindFunc(func(n *gowakutest.Node) bool {
+		return n.Role == semantics.RoleText && strings.Contains(n.Label, "\n") && strings.Contains(n.Label, mark)
+	})
+	if !ok {
+		t.Fatalf("passage text is not on screen\n%s", tt.Dump())
+	}
+	// The first line of the passage, inside the glyphs rather than the list preview.
+	lineY := n.Rect.Y + 8
+	tt.DoubleTapAt(geom.Offset{X: n.Rect.X + 12, Y: lineY})
+	tt.Key(input.KeyC, input.ModControl)
+	word := tt.Clipboard()
+	if word == "" || !strings.Contains(n.Label, word) {
+		t.Fatalf("double-click copied %q from passage %q", word, n.Label)
+	}
+	from := geom.Offset{X: n.Rect.X + 4, Y: lineY}
+	to := geom.Offset{X: from.X + 80, Y: from.Y}
+	if maxX := n.Rect.X + n.Rect.W - 2; to.X > maxX {
+		to.X = maxX
+	}
+	tt.DragAt(from, to)
+	tt.Key(input.KeyC, input.ModControl)
+	got := tt.Clipboard()
+	if got == "" || !strings.Contains(n.Label, got) {
+		t.Fatalf("drag copied %q from %q", got, n.Label)
+	}
+	tt.SecondaryTapAt(from)
+	if !strings.Contains(tt.Dump(), "Copy") || !strings.Contains(tt.Dump(), "Select all") {
+		t.Fatalf("right-click did not open the copy menu\n%s", tt.Dump())
+	}
+}
+
+func readDecisions(t *testing.T, path string) DecisionFile {
+	t.Helper()
+	b, err := os.ReadFile(path)
+	if err != nil {
+		t.Fatal(err)
+	}
+	var got DecisionFile
+	if err := json.Unmarshal(b, &got); err != nil {
+		t.Fatal(err)
+	}
+	return got
+}
+
+// clickN releases the primary button n times at pos, fast enough to count
+// as one multi-click.
+func clickN(tt *gowakutest.Tester, pos geom.Offset, n int) {
+	var clock uint32 = 5000
+	for range n {
+		tt.Tree().DispatchPointer(core.PointerEvent{Kind: core.PointerMove, Pos: pos, Time: clock})
+		tt.Tree().DispatchPointer(core.PointerEvent{Kind: core.PointerDown, Pos: pos, Button: input.ButtonPrimary, Time: clock})
+		clock += 40
+		tt.Tree().DispatchPointer(core.PointerEvent{Kind: core.PointerUp, Pos: pos, Button: input.ButtonPrimary, Time: clock})
+		clock += 40
+	}
+	tt.Pump()
+	tt.Settle()
 }
