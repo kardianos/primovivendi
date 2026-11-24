@@ -82,6 +82,16 @@ type tuiChip struct {
 	pane    int
 }
 
+// scrollProblem marks a passage-list band that scrolls the problem text.
+// Other passage bands leave slot at 0 and scroll the passage. Two halves
+// that show Current share one problem offset.
+const scrollProblem = -1
+
+// problemMaxLines is how many wrapped lines of the problem stay above the
+// passage controls. A longer note scrolls inside that window, so Above,
+// Below, and Chapter stay on screen.
+const problemMaxLines = 8
+
 // scrollBand is one wheel target in screen coordinates. Current bodies
 // append to passages. Proposed bodies, including compare, append to diffs.
 // Two halves that show the same view share one scroll top.
@@ -523,23 +533,47 @@ func (m tuiModel) paneBody(which, slot, innerW, bodyH int) ([]string, []tuiZone,
 }
 
 func (m tuiModel) currentBody(it Item, innerW, bodyH int) ([]string, []tuiZone, []scrollBand, []scrollBand) {
-	head := m.headLines(it, innerW)
+	meta := wrapBlock(m.metaHead(it), innerW)
+	instr := wrapBlock(it.Problem, innerW)
+	answers := wrapBlock(m.answerHead(it), innerW)
 	ctx, ctxZones := m.contextBlock(innerW)
-	for i := range ctxZones {
-		ctxZones[i].y += len(head)
+	showMax := problemMaxLines
+	budget := bodyH - len(meta) - len(answers) - len(ctx)
+	if budget < showMax {
+		showMax = budget
 	}
-	fixed := append(append([]string{}, head...), ctx...)
+	if showMax < 0 {
+		showMax = 0
+	}
+	show := len(instr)
+	if show > showMax {
+		show = showMax
+	}
+	top := clampTop(m.problemTop, len(instr), show)
+	var bands []scrollBand
+	if show > 0 && len(instr) > show {
+		bands = append(bands, scrollBand{y: len(meta), h: show, n: len(instr), slot: scrollProblem})
+	}
+	for i := range ctxZones {
+		ctxZones[i].y += len(meta) + show + len(answers)
+	}
+	fixed := make([]string, 0, len(meta)+show+len(answers)+len(ctx))
+	fixed = append(fixed, meta...)
+	fixed = append(fixed, sliceFit(instr, top, show, innerW)...)
+	fixed = append(fixed, answers...)
+	fixed = append(fixed, ctx...)
 	if len(fixed) >= bodyH {
 		if len(fixed) > bodyH {
 			fixed = fixed[:bodyH]
 		}
-		return fixed, clipZones(ctxZones, bodyH, innerW), nil, nil
+		return fixed, clipZones(ctxZones, bodyH, innerW), bands, nil
 	}
 	pass := m.passageLines(it, innerW)
-	show := bodyH - len(fixed)
-	top := clampTop(m.passageTop, len(pass), show)
-	lines := append(fixed, sliceFit(pass, top, show, innerW)...)
-	return lines, ctxZones, []scrollBand{{y: len(fixed), h: show, n: len(pass)}}, nil
+	passShow := bodyH - len(fixed)
+	passTop := clampTop(m.passageTop, len(pass), passShow)
+	lines := append(fixed, sliceFit(pass, passTop, passShow, innerW)...)
+	bands = append(bands, scrollBand{y: len(fixed), h: passShow, n: len(pass)})
+	return lines, ctxZones, bands, nil
 }
 
 func (m tuiModel) proposedBody(it Item, slot, innerW, bodyH int) ([]string, []tuiZone, []scrollBand, []scrollBand) {
@@ -764,12 +798,19 @@ func padLines(lines []string, n, width int) []string {
 	return lines
 }
 
-func (m tuiModel) headLines(it Item, innerW int) []string {
-	raw := strings.Split(m.detailHead(it), "\n")
+func wrapBlock(raw string, innerW int) []string {
+	if strings.TrimSpace(raw) == "" || innerW < 1 {
+		return nil
+	}
 	var out []string
-	for _, line := range raw {
-		for _, wrapped := range wrapPlain(line, innerW) {
-			out = append(out, fitCells(wrapped, innerW))
+	for _, line := range strings.Split(raw, "\n") {
+		wrapped := wrapPlain(line, innerW)
+		if len(wrapped) == 0 {
+			out = append(out, fitCells("", innerW))
+			continue
+		}
+		for _, row := range wrapped {
+			out = append(out, fitCells(row, innerW))
 		}
 	}
 	return out

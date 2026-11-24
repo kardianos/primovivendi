@@ -6,6 +6,7 @@ import (
 	"time"
 
 	"github.com/bankai-tensei/gowaku"
+	"github.com/bankai-tensei/gowaku/core"
 	"github.com/bankai-tensei/gowaku/geom"
 	"github.com/bankai-tensei/gowaku/input"
 	"github.com/bankai-tensei/gowaku/layout"
@@ -30,6 +31,12 @@ const (
 	textMeta  = 12
 	textTitle = 18
 )
+
+// problemMaxHeight is how tall the problem may grow before it scrolls.
+// Body text is textBody at the shaper's default line height of 1.5, so this
+// is eight lines. A longer note stays above Above, Below, and Chapter, and
+// the passage keeps the rest of the pane.
+const problemMaxHeight float32 = 8 * textBody * 3 / 2
 
 // reviewApp is the three-pane viewer. Session is shared with the caller.
 // now, when set, is the clock for clickQuiet. The window leaves it nil.
@@ -214,7 +221,7 @@ func (s *reviewState) centerPane(th *theme.Theme, body, muted text.Style) gowaku
 		})
 	}
 	if it.Problem != "" {
-		children = append(children, basic.Text{Content: it.Problem, Style: body})
+		children = append(children, cappedText(it.ID, it.Problem, body))
 	}
 	if answers := s.session.Answers[it.ID]; len(answers) > 0 {
 		var ansWidgets []gowaku.Widget
@@ -523,6 +530,30 @@ func diffSpans(pieces []Piece, size float32, ink, del, ins geom.Color) []text.Sp
 		spans = append(spans, sp)
 	}
 	return spans
+}
+
+// cappedText shows content at its own height until problemMaxHeight, then
+// scrolls inside that height. key resets the scroll when the item changes.
+func cappedText(key, content string, style text.Style) gowaku.Widget {
+	return basic.LayoutBuilder{Content: func(ctx gowaku.BuildContext, c layout.Constraints) gowaku.Widget {
+		shown := basic.Text{Content: content, Style: style}
+		width := c.MaxW
+		if width <= 0 || width >= geom.Inf {
+			return shown
+		}
+		shaper, ok := core.DependOn[*text.Shaper](ctx)
+		if !ok {
+			return shown
+		}
+		if shaper.Shape(content, style).Layout(width).Size().H <= problemMaxHeight {
+			return shown
+		}
+		box := basic.SizedBox{Height: problemMaxHeight, Child: basic.Scroll{Child: shown}}
+		if key == "" {
+			return box
+		}
+		return gowaku.Keyed(key, box)
+	}}
 }
 
 func (s *reviewState) contextBar(muted text.Style) gowaku.Widget {

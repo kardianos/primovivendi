@@ -60,6 +60,7 @@ type tuiModel struct {
 	height        int
 	listTop       int
 	passageTop    int
+	problemTop    int
 	topDiffTop    int
 	bottomDiffTop int
 	topPane       int
@@ -604,7 +605,11 @@ func (m tuiModel) scrollList(msg tea.MouseMsg) (tea.Model, tea.Cmd) {
 		return m, nil
 	}
 	if b, ok := bandAt(sc.passages, msg.Y); ok {
-		m.passageTop = clampTop(m.passageTop+delta*step, b.n, b.h)
+		if b.slot == scrollProblem {
+			m.problemTop = clampTop(m.problemTop+delta*step, b.n, b.h)
+		} else {
+			m.passageTop = clampTop(m.passageTop+delta*step, b.n, b.h)
+		}
 	}
 	return m, nil
 }
@@ -696,6 +701,7 @@ func (m *tuiModel) afterChange() tea.Cmd {
 	if m.anchorID != m.review.selected {
 		m.anchorID = m.review.selected
 		m.passageTop = 0
+		m.problemTop = 0
 		m.topDiffTop, m.bottomDiffTop = 0, 0
 		m.topAlt = m.review.altIndex
 		m.bottomAlt = m.review.altIndex
@@ -837,7 +843,7 @@ func (m tuiModel) View() string {
 	return m.screen().view
 }
 
-func (m tuiModel) detailHead(it Item) string {
+func (m tuiModel) metaHead(it Item) string {
 	var b strings.Builder
 	fmt.Fprintf(&b, "%s  (%s)\n", it.Path, it.ID)
 	if it.From != "" {
@@ -850,11 +856,15 @@ func (m tuiModel) detailHead(it Item) string {
 		b.WriteString(lockedBanner)
 		b.WriteByte('\n')
 	}
-	if it.Problem != "" {
-		b.WriteString(it.Problem)
-		b.WriteByte('\n')
-	}
+	return strings.TrimRight(b.String(), "\n")
+}
+
+func (m tuiModel) answerHead(it Item) string {
 	answers := m.review.session.Answers[it.ID]
+	if len(answers) == 0 {
+		return ""
+	}
+	var b strings.Builder
 	for i, ans := range answers {
 		prefix := "Answer: "
 		if len(answers) > 1 {

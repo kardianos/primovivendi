@@ -603,6 +603,69 @@ func TestTUIWrapsProseAndKeepsTheDiff(t *testing.T) {
 	scrollBand(sc.diffs[0].y, "DIFFEND.")
 }
 
+func TestTUIProblemScrollsAboveTheControls(t *testing.T) {
+	root := t.TempDir()
+	quote := "The bridge still carries the wagon."
+	problem := strings.Repeat("The instruction keeps going. ", 80) + "PROBLEMEND."
+	if err := os.WriteFile(filepath.Join(root, "doc.md"), []byte(quote+"\n"), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	packets := filepath.Join(root, "packets")
+	if err := os.MkdirAll(packets, 0o755); err != nil {
+		t.Fatal(err)
+	}
+	writeJSON(t, filepath.Join(packets, "20261123-120000-problem.json"), map[string]any{
+		"version": 1,
+		"items": []map[string]any{{
+			"id": "q-problem", "path": "doc.md", "quote": quote, "problem": problem,
+		}},
+	})
+	sess, err := LoadSession(root, packets, filepath.Join(root, "decisions.json"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	m := newTUI(sess, "Review", 0)
+	m.width, m.height = 120, 40
+	m.resize()
+	view := plain(m.View())
+	if strings.Contains(view, "PROBLEMEND.") {
+		t.Fatalf("problem tail is on screen before scrolling\n%s", view)
+	}
+	if !strings.Contains(view, "The instruction keeps going.") {
+		t.Fatalf("problem start missing\n%s", view)
+	}
+	above := findAct(t, m, actAbove)
+	var band scrollBand
+	found := false
+	for _, b := range m.screen().passages {
+		if b.slot == scrollProblem && b.h > 0 {
+			band = b
+			found = true
+			break
+		}
+	}
+	if !found {
+		t.Fatalf("no problem scroll band\n%s", view)
+	}
+	if above.y < band.y+band.h {
+		t.Fatalf("Above at %d overlaps the problem window %d+%d", above.y, band.y, band.h)
+	}
+	listW, _ := m.columns()
+	for i := 0; i < 40 && !strings.Contains(plain(m.View()), "PROBLEMEND."); i++ {
+		next, _ := m.Update(tea.MouseMsg{
+			X: listW + 4, Y: band.y + band.h/2,
+			Button: tea.MouseButtonWheelDown, Action: tea.MouseActionPress,
+		})
+		m = next.(tuiModel)
+	}
+	if !strings.Contains(plain(m.View()), "PROBLEMEND.") {
+		t.Fatalf("wheel did not reveal the problem tail\n%s", plain(m.View()))
+	}
+	findAct(t, m, actAbove)
+	findAct(t, m, actBelow)
+	findAct(t, m, actChapter)
+}
+
 func findTab(t *testing.T, m tuiModel, slot, pane int) tuiZone {
 	t.Helper()
 	for _, z := range m.screen().zones {

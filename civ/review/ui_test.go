@@ -442,6 +442,94 @@ func TestUISelectAndCopyPassage(t *testing.T) {
 	}
 }
 
+func TestProblemTextStaysAboveTheControls(t *testing.T) {
+	short := openReview(t, problemFixture(t, "A short note."))
+	note, above := problemAndAbove(t, short, "A short note.")
+	gap := above.Rect.Y - (note.Rect.Y + note.Rect.H)
+	if gap < 0 || gap > 40 {
+		t.Fatalf("short problem left a gap of %v before Above\n%s", gap, short.Dump())
+	}
+
+	longText := strings.Repeat("The instruction keeps going. ", 80) + "PROBLEMEND."
+	tt := openReview(t, problemFixture(t, longText))
+	note, above = problemAndAbove(t, tt, "PROBLEMEND.")
+	if note.Rect.H <= problemMaxHeight {
+		t.Fatalf("long problem height %v, want more than the cap %v", note.Rect.H, problemMaxHeight)
+	}
+	if above.Rect.Y > note.Rect.Y+problemMaxHeight+40 || above.Rect.Y < note.Rect.Y+problemMaxHeight-8 {
+		t.Fatalf("Above at %v, problem at %v, cap %v\n%s", above.Rect.Y, note.Rect.Y, problemMaxHeight, tt.Dump())
+	}
+	for _, w := range tt.Warnings() {
+		if w.Kind == gowakutest.WarnOverflow && strings.Contains(w.Text, "PROBLEMEND") {
+			t.Fatalf("problem overflowed its box: %+v", w)
+		}
+	}
+	before := note.Rect.Y
+	tt.ScrollAt(geom.Offset{X: note.Rect.X + 12, Y: note.Rect.Y + 12}, 0, -3, 0)
+	note, _ = problemAndAbove(t, tt, "PROBLEMEND.")
+	if note.Rect.Y >= before-1 {
+		t.Fatalf("wheel did not move the problem: before %v after %v\n%s", before, note.Rect.Y, tt.Dump())
+	}
+}
+
+func problemFixture(t *testing.T, problem string) *Session {
+	t.Helper()
+	root := t.TempDir()
+	quote := "The household keeps its own children."
+	if err := os.WriteFile(filepath.Join(root, "doc.md"), []byte(quote+"\n"), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	packets := filepath.Join(root, "packets")
+	if err := os.MkdirAll(packets, 0o755); err != nil {
+		t.Fatal(err)
+	}
+	writeJSON(t, filepath.Join(packets, "note.json"), map[string]any{
+		"version": 1,
+		"items": []map[string]any{{
+			"id": "note1", "path": "doc.md", "quote": quote, "problem": problem,
+		}},
+	})
+	sess, err := LoadSession(root, packets, filepath.Join(root, "decisions.json"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	return sess
+}
+
+func problemAndAbove(t *testing.T, tt *gowakutest.Tester, problemMark string) (problem, above gowakutest.Node) {
+	t.Helper()
+	problem, ok := findNode(tt.Semantics(), problemMark, false)
+	if !ok {
+		t.Fatalf("no problem text %q\n%s", problemMark, tt.Dump())
+	}
+	above, ok = findNode(tt.Semantics(), "Above", true)
+	if !ok {
+		t.Fatalf("no Above button\n%s", tt.Dump())
+	}
+	return problem, above
+}
+
+func findNode(root *gowakutest.Node, label string, exact bool) (gowakutest.Node, bool) {
+	var found gowakutest.Node
+	var ok bool
+	if root == nil {
+		return found, false
+	}
+	root.Walk(func(n *gowakutest.Node) bool {
+		match := n.Label == label
+		if !exact {
+			match = strings.Contains(n.Label, label)
+		}
+		if !match {
+			return true
+		}
+		found = *n
+		ok = true
+		return false
+	})
+	return found, ok
+}
+
 func readDecisions(t *testing.T, path string) DecisionFile {
 	t.Helper()
 	b, err := os.ReadFile(path)
