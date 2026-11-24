@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/11_ch11.md:188bade9:note/fewer-details"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/chapters/11_ch11.md:188bade9:note/fewer-details",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-24T13:06:36Z"
+    }
+  ]
+}

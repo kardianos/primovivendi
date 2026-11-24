@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/14_ch14.md:a69db048:note/tool1-rework",
+    "call:civ/chapters/13_ch13.md:14d51098:note/red-green-sourced",
+    "call:civ/chapters/08_ch08.md:9547789f:note/examples-and-rule",
+    "call:civ/chapters/11_ch11.md:ec330947:note/individuals-only",
+    "call:civ/chapters/05_ch05.md:9ca00707:note/cut-reinvention-test",
+    "call:civ/chapters/02_ch02.md:a676ed11:prop/boiled-water-source",
+    "call:civ/chapters/06_ch06.md:b8e79ee3:voice/plain-style",
+    "call:civ/chapters/08_ch08.md:0acda266:cadence/snap",
+    "call:civ/chapters/10_ch10.md:1804f760:voice/plain-style",
+    "call:civ/chapters/11_ch11.md:056cf91e:voice/plain-style",
+    "call:civ/chapters/11_ch11.md:23e3790e:voice/plain-style",
+    "call:civ/chapters/12_ch12.md:98535b9f:voice/plain-style",
+    "call:civ/chapters/12_ch12.md:37f6e171:voice/plain-style",
+    "call:civ/chapters/12_ch12.md:3da9c1ce:voice/plain-style",
+    "call:civ/chapters/13_ch13.md:5e866d9f:voice/plain-style",
+    "call:civ/chapters/14_ch14.md:f1c85c31:voice/plain-style",
+    "call:civ/chapters/11_ch11.md:16eb6e96:cadence/snap",
+    "call:civ/chapters/12_ch12.md:c60e0f50:cadence/snap"
+  ],
+  "answers": [
+    {
+      "id": "call:civ/chapters/14_ch14.md:a69db048:note/tool1-rework",
+      "text": "Answered with one new item that holds three complete drafts of Tool 1, one for each strategy: call:civ/chapters/14_ch14.md:a69db048:note/tool1-three-strategies. (a) The question put before the event: one question asked of the partisan before the outcome, with the failed prophecy (Festinger, Riecken, and Schachter, 1956) and the double-blind test of astrology (Carlson, Nature, 1985) as examples. (b) The believer taken out of the observation, and each excuse examined as a claim: the N-rays, from Wood's letter to Nature of 1904, then a four-step procedure and the Single Ledger. (c) Your six points kept word for word, with two real comparisons for points 4 and 5: Korea at night (NASA) and East Germans leaving for the West before the Wall. All three carry your sentence about God: a belief may be sealed about God; only how it treats reality is examined. The chapter is unchanged. Left to you: which strategy, whether the six points survive as the procedure, and the term hermetic belief, which is yours and is now defined in the first paragraph. Sources and checks: ext-ref/tool1_hermetic/report.md.",
+      "at": "2026-11-24T04:32:35Z"
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:14d51098:note/red-green-sourced",
+      "text": "Answered with a new item: call:civ/chapters/13_ch13.md:14d51098:note/red-green-through-cases. The list of five is gone. Four cases are told in order, and each ends with the idea it gives: London 2004, Tower Hamlets 2014, Lewisham 2016, Paris 2019. Your block quotation is kept word for word and moved to the end as the conclusion; then three things that hold the sides together, where the cooperation breaks, and your four questions. Alternate b is the same without the passage on the two sacred claims. Every quotation is from the sources saved for the earlier draft, and no new fact was added. The chapter is unchanged. Left to you: whether the block quotation moves to the end, whether the heading changes, and whether the passage on the sacred claims stays.",
+      "at": "2026-11-24T04:32:35Z"
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:9547789f:note/examples-and-rule",
+      "text": "Answered with a new item: call:civ/chapters/08_ch08.md:9547789f:note/two-situations. COVID is gone. One situation takes its place: Hurricane Katrina in 2005, where the agency paid two thousand dollars on the applicant's word before any inspection, and the Government Accountability Office estimated that about one payment in six rested on an identity, an address, or a claim that was false or filed twice (GAO-06-844T). The agency disputed the size of the estimate and accepted most of the recommendations for checking applicants (GAO-06-1013). Then the point about kindness and your two closing sentences. Alternate b adds one situation for your sentence on public order: the House of Commons committee on the August 2011 disorder. The first paragraph is the one you called good. The chapter is unchanged. Length fell from 619 words to 342 (a) and 374 (b). Sources: ext-ref/kindness_politeness/report_round2.md.",
+      "at": "2026-11-24T04:32:35Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:ec330947:note/individuals-only",
+      "text": "Applied on 2026-11-24 as accepted. The second request in your note, to remove The Defense and leave the remedy to the society, is a new item: call:civ/chapters/11_ch11.md:24a618ad:note/defense-line. It offers the deletion, one paragraph that leaves the remedy to the society without a number, and the same with your figures as the example.",
+      "at": "2026-11-24T04:32:35Z"
+    },
+    {
+      "id": "call:civ/chapters/05_ch05.md:9ca00707:note/cut-reinvention-test",
+      "text": "Applied on 2026-11-24 as accepted: the Reinvention Test is cut and the ending is kept. The request in your note to rephrase the ending is a new item: call:civ/chapters/05_ch05.md:b3f85695:note/ending-rephrased. It offers a rephrasing with your money example, the same in the other order, and the smallest change.",
+      "at": "2026-11-24T04:32:35Z"
+    },
+    {
+      "id": "call:civ/chapters/02_ch02.md:a676ed11:prop/boiled-water-source",
+      "text": "Not applied, and it should not be applied. The passage it quotes was replaced on 2026-11-22: the accepted call:civ/chapters/02_ch02.md:a676ed11:prop/boiled-water-real-only took the made-up river town out and put the real cases in its place, which are now at civ/chapters/02_ch02.md:103 (Gordon, 1884; Antman, 2023). Applying this item would bring the river town back. Withdraw it. This repeats note 34, section 11, item 2.",
+      "at": "2026-11-24T04:32:35Z"
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:b8e79ee3:voice/plain-style",
+      "text": "Superseded. The follow-up item you accepted, call:civ/chapters/06_ch06.md:b8e79ee3:note/literal-wording, was applied on 2026-11-24, and the passage this hold quotes is no longer in the chapter. This hold can be withdrawn.",
+      "at": "2026-11-24T04:32:35Z"
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:0acda266:cadence/snap",
+      "text": "Superseded. The follow-up item you accepted, call:civ/chapters/08_ch08.md:8e3dbdb8:note/paragraph-move, was applied on 2026-11-24, and the passage this hold quotes is no longer in the chapter. This hold can be withdrawn.",
+      "at": "2026-11-24T04:32:35Z"
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:1804f760:voice/plain-style",
+      "text": "Superseded. The follow-up item you accepted, call:civ/chapters/10_ch10.md:1804f760:note/keep-quantifiers, was applied on 2026-11-24, and the passage this hold quotes is no longer in the chapter. This hold can be withdrawn.",
+      "at": "2026-11-24T04:32:35Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:056cf91e:voice/plain-style",
+      "text": "Superseded. The follow-up item you accepted, call:civ/chapters/11_ch11.md:056cf91e:note/opening-from-cases, was applied on 2026-11-24, and the passage this hold quotes is no longer in the chapter. This hold can be withdrawn.",
+      "at": "2026-11-24T04:32:35Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:23e3790e:voice/plain-style",
+      "text": "Superseded. The follow-up item you accepted, call:civ/chapters/11_ch11.md:eb88fba0:note/own-unkindness, was applied on 2026-11-24, and the passage this hold quotes is no longer in the chapter. This hold can be withdrawn.",
+      "at": "2026-11-24T04:32:35Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:98535b9f:voice/plain-style",
+      "text": "Superseded. The follow-up item you accepted, call:civ/chapters/12_ch12.md:98535b9f:note/compatibility-test, was applied on 2026-11-24, and the passage this hold quotes is no longer in the chapter. This hold can be withdrawn.",
+      "at": "2026-11-24T04:32:35Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:37f6e171:voice/plain-style",
+      "text": "Superseded. The follow-up item you accepted, call:civ/chapters/12_ch12.md:37f6e171:note/terms-restored, was applied on 2026-11-24, and the passage this hold quotes is no longer in the chapter. This hold can be withdrawn.",
+      "at": "2026-11-24T04:32:35Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:3da9c1ce:voice/plain-style",
+      "text": "Superseded. The follow-up item you accepted, call:civ/chapters/12_ch12.md:3da9c1ce:note/streamline-keep-terms, was applied on 2026-11-24, and the passage this hold quotes is no longer in the chapter. This hold can be withdrawn.",
+      "at": "2026-11-24T04:32:35Z"
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:5e866d9f:voice/plain-style",
+      "text": "Superseded. The follow-up item you accepted, call:civ/chapters/13_ch13.md:3cf06304:note/keep-terms, was applied on 2026-11-24, and the passage this hold quotes is no longer in the chapter. This hold can be withdrawn.",
+      "at": "2026-11-24T04:32:35Z"
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:f1c85c31:voice/plain-style",
+      "text": "Superseded. The follow-up item you accepted, call:civ/chapters/14_ch14.md:f1c85c31:note/tool2-rework, was applied on 2026-11-24, and the passage this hold quotes is no longer in the chapter. This hold can be withdrawn.",
+      "at": "2026-11-24T04:32:35Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:16eb6e96:cadence/snap",
+      "text": "Superseded. The follow-up item you accepted, call:civ/chapters/11_ch11.md:ec330947:note/individuals-only, was applied on 2026-11-24, and the passage this hold quotes is no longer in the chapter. This hold can be withdrawn.",
+      "at": "2026-11-24T04:32:35Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:c60e0f50:cadence/snap",
+      "text": "Superseded. The follow-up item you accepted, call:civ/chapters/12_ch12.md:c60e0f50:note/direct-language, was applied on 2026-11-24, and the passage this hold quotes is no longer in the chapter. This hold can be withdrawn.",
+      "at": "2026-11-24T04:32:35Z"
+    }
+  ]
+}

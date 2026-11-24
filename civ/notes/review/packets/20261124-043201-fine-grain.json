@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/chapters/11_ch11.md:a39cebb8:note/name-polybius",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "sentence",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 2311,
+      "byte_end": 2438,
+      "quote": "\"In our own time the whole of Greece has been subject to a low birth-rate and a general decrease of the population,\"* he wrote.",
+      "problem": "Optional, from civ/bin/linear check on the applied opening. The parser finds no person for \"he\" in this sentence or the one before, because it does not know the name Polybius. A reader will not stumble, but Rule 4 asks that a pronoun be named where a noun of its kind is not near. One word changes; no term changes.",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "name him",
+          "text": "\"In our own time the whole of Greece has been subject to a low birth-rate and a general decrease of the population,\"* Polybius wrote."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:23fa049c:note/split-ormansag",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "sentence",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 2843,
+      "byte_end": 3125,
+      "quote": "In seven villages of the Ormánság taken together it rose by five percent between 1870 and 1941, while the population of Hungary, with 1785 taken as 100, rose from 188 to 350; in six of the seven villages it fell (Gábor Koloh, 2021, figures given in Róbert Bagdi's review, 2023).",
+      "problem": "Optional, from civ/bin/linear check on the applied opening: 51 words, an opening phrase, and a second claim after the semicolon. Split in two, and \"it\" named as the population. Every figure and the citation are unchanged.",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split in two",
+          "text": "In seven villages of the Ormánság taken together, the population rose by five percent between 1870 and 1941, while the population of Hungary, with 1785 taken as 100, rose from 188 to 350 (Gábor Koloh, 2021, figures given in Róbert Bagdi's review, 2023). In six of the seven villages it fell."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:5e736aab:note/split-whereas",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "sentence",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 37939,
+      "byte_end": 38269,
+      "quote": "Whereas the First Political Theory (liberalism) took the individual as its subject, the Second (communism) took class, and the Third (fascism) took race or state, Dugin proposes that his \"Fourth Political Theory\" takes Heidegger's collective *Dasein* (\"being-there\") and the undifferentiated mass (*Narod*) as the only real actor.",
+      "problem": "Optional, from civ/bin/linear check on the applied Dugin section. This is the one long sentence that the streamlining left whole: 49 words, the verb after 15. Your note there was \"I agree we can streamline some of this or edit it\", so a split is offered that keeps every term and every name. It needs no other change.",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split in three",
+          "text": "The First Political Theory (liberalism) took the individual as its subject. The Second (communism) took class, and the Third (fascism) took race or state. Dugin proposes that his \"Fourth Political Theory\" takes Heidegger's collective *Dasein* (\"being-there\") and the undifferentiated mass (*Narod*) as the only real actor."
+        }
+      ]
+    }
+  ]
+}

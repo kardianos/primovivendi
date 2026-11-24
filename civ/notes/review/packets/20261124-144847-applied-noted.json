@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/14_ch14.md:a69db048:note/tool1-concrete",
+    "call:civ/chapters/13_ch13.md:14d51098:note/red-green-ends-with-iran"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/chapters/14_ch14.md:a69db048:note/tool1-concrete",
+      "path": "civ/chapters/14_ch14.md",
+      "ok": true,
+      "decision_at": "2026-11-24T14:11:47Z"
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:14d51098:note/red-green-ends-with-iran",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-24T14:37:50Z"
+    }
+  ],
+  "answers": [
+    {
+      "id": "call:civ/chapters/14_ch14.md:a69db048:note/tool1-concrete",
+      "text": "Applied on 2026-11-24 as accepted, alternate (b), with the two changes of your note made in the text: the last sentence of the first step is now \"Ask what is expected before the experiment is run,\" and \", such as a date.\" is removed. Nothing else differs from the alternate you accepted. Asymmetrical accounting is kept, since your note did not ask for it to go.",
+      "at": "2026-11-24T14:48:47Z"
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:14d51098:note/red-green-ends-with-iran",
+      "text": "Applied on 2026-11-24 as accepted, alternate (a), with the three changes of your note made in the text: the name is capitalized and quoted, the \"March against Islamophobia\"; the sentence on Islam is in your words, \"Islam is a religion, and you can disagree with a religion.\"; and the sentence on Christianity is not included. Nothing else differs from the alternate you accepted.",
+      "at": "2026-11-24T14:48:47Z"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/05_ch05.md:b3f85695:note/ending-rephrased",
+    "call:civ/chapters/11_ch11.md:24a618ad:note/defense-line",
+    "call:civ/chapters/11_ch11.md:a39cebb8:note/name-polybius",
+    "call:civ/chapters/12_ch12.md:5e736aab:note/split-whereas"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/chapters/05_ch05.md:b3f85695:note/ending-rephrased",
+      "path": "civ/chapters/05_ch05.md",
+      "ok": true,
+      "decision_at": "2026-11-24T11:40:08Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:24a618ad:note/defense-line",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-24T11:39:13Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:a39cebb8:note/name-polybius",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-24T11:36:44Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:5e736aab:note/split-whereas",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-24T11:38:45Z"
+    }
+  ]
+}

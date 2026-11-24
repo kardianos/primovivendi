@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/05_ch05.md:9ca00707:note/cut-reinvention-test",
+    "call:civ/chapters/11_ch11.md:ec330947:note/individuals-only",
+    "call:civ/chapters/11_ch11.md:056cf91e:note/opening-from-cases"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/chapters/05_ch05.md:9ca00707:note/cut-reinvention-test",
+      "path": "civ/chapters/05_ch05.md",
+      "ok": true,
+      "decision_at": "2026-11-24T02:55:11Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:ec330947:note/individuals-only",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-23T22:26:53Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:056cf91e:note/opening-from-cases",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-24T03:27:05Z"
+    }
+  ]
+}

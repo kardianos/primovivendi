@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/08_ch08.md:9547789f:note/kindness-streamlined"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/chapters/08_ch08.md:9547789f:note/kindness-streamlined",
+      "path": "civ/chapters/08_ch08.md",
+      "ok": true,
+      "decision_at": "2026-11-24T14:38:58Z"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/01_ch01.md:89b3b151:note/drop-wet",
+    "call:civ/chapters/01_ch01.md:2ac067e4:note/colon-punch",
+    "call:civ/chapters/04_ch04.md:29d453e3:note/literal-wording",
+    "call:civ/chapters/04_ch04.md:afb4661e:note/drop-half",
+    "call:civ/chapters/04_ch04.md:573fb428:note/literal-wording",
+    "call:civ/chapters/04_ch04.md:7699d3f9:note/punch-question",
+    "call:civ/chapters/05_ch05.md:e1d92d2a:note/force-require",
+    "call:civ/chapters/06_ch06.md:136b9cdc:note/sentence-tightening",
+    "call:civ/chapters/06_ch06.md:82e56dc9:note/revealed-preference",
+    "call:civ/chapters/06_ch06.md:31f15b41:note/sentence-tightening",
+    "call:civ/chapters/06_ch06.md:574387b2:note/sentence-tightening",
+    "call:civ/chapters/06_ch06.md:b8e79ee3:note/literal-wording",
+    "call:civ/chapters/08_ch08.md:8e3dbdb8:note/paragraph-move",
+    "call:civ/chapters/10_ch10.md:1804f760:note/keep-quantifiers",
+    "call:civ/chapters/11_ch11.md:eb88fba0:note/own-unkindness",
+    "call:civ/chapters/12_ch12.md:3da9c1ce:note/streamline-keep-terms",
+    "call:civ/chapters/12_ch12.md:37f6e171:note/terms-restored",
+    "call:civ/chapters/12_ch12.md:c60e0f50:note/direct-language",
+    "call:civ/chapters/12_ch12.md:98535b9f:note/compatibility-test",
+    "call:civ/chapters/13_ch13.md:3cf06304:note/keep-terms",
+    "call:civ/chapters/14_ch14.md:f1c85c31:note/tool2-rework"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/chapters/01_ch01.md:89b3b151:note/drop-wet",
+      "path": "civ/chapters/01_ch01.md",
+      "ok": true,
+      "decision_at": "2026-11-24T02:51:47Z"
+    },
+    {
+      "id": "call:civ/chapters/01_ch01.md:2ac067e4:note/colon-punch",
+      "path": "civ/chapters/01_ch01.md",
+      "ok": true,
+      "decision_at": "2026-11-24T02:51:38Z"
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:29d453e3:note/literal-wording",
+      "path": "civ/chapters/04_ch04.md",
+      "ok": true,
+      "decision_at": "2026-11-24T02:52:41Z"
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:afb4661e:note/drop-half",
+      "path": "civ/chapters/04_ch04.md",
+      "ok": true,
+      "decision_at": "2026-11-24T02:52:05Z"
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:573fb428:note/literal-wording",
+      "path": "civ/chapters/04_ch04.md",
+      "ok": true,
+      "decision_at": "2026-11-24T02:52:17Z"
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:7699d3f9:note/punch-question",
+      "path": "civ/chapters/04_ch04.md",
+      "ok": true,
+      "decision_at": "2026-11-24T02:51:57Z"
+    },
+    {
+      "id": "call:civ/chapters/05_ch05.md:e1d92d2a:note/force-require",
+      "path": "civ/chapters/05_ch05.md",
+      "ok": true,
+      "decision_at": "2026-11-24T02:52:54Z"
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:136b9cdc:note/sentence-tightening",
+      "path": "civ/chapters/06_ch06.md",
+      "ok": true,
+      "decision_at": "2026-11-24T02:57:22Z"
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:82e56dc9:note/revealed-preference",
+      "path": "civ/chapters/06_ch06.md",
+      "ok": true,
+      "decision_at": "2026-11-24T02:56:32Z"
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:31f15b41:note/sentence-tightening",
+      "path": "civ/chapters/06_ch06.md",
+      "ok": true,
+      "decision_at": "2026-11-24T02:56:15Z"
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:574387b2:note/sentence-tightening",
+      "path": "civ/chapters/06_ch06.md",
+      "ok": true,
+      "decision_at": "2026-11-24T02:55:39Z"
+    },
+    {
+      "id": "call:civ/chapters/06_ch06.md:b8e79ee3:note/literal-wording",
+      "path": "civ/chapters/06_ch06.md",
+      "ok": true,
+      "decision_at": "2026-11-23T22:22:16Z"
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:8e3dbdb8:note/paragraph-move",
+      "path": "civ/chapters/08_ch08.md",
+      "ok": true,
+      "decision_at": "2026-11-23T22:24:14Z"
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:1804f760:note/keep-quantifiers",
+      "path": "civ/chapters/10_ch10.md",
+      "ok": true,
+      "decision_at": "2026-11-23T22:52:58Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:eb88fba0:note/own-unkindness",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-23T22:27:49Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:3da9c1ce:note/streamline-keep-terms",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-24T02:46:45Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:37f6e171:note/terms-restored",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-24T02:44:46Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:c60e0f50:note/direct-language",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-24T02:50:16Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:98535b9f:note/compatibility-test",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-24T02:49:37Z"
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:3cf06304:note/keep-terms",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-24T02:51:14Z"
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:f1c85c31:note/tool2-rework",
+      "path": "civ/chapters/14_ch14.md",
+      "ok": true,
+      "decision_at": "2026-11-24T03:04:16Z"
+    }
+  ]
+}

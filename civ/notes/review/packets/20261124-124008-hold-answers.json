@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/14_ch14.md:a69db048:note/tool1-three-strategies",
+    "call:civ/chapters/13_ch13.md:14d51098:note/red-green-through-cases",
+    "call:civ/chapters/08_ch08.md:9547789f:note/two-situations",
+    "call:civ/chapters/11_ch11.md:23fa049c:note/split-ormansag"
+  ],
+  "answers": [
+    {
+      "id": "call:civ/chapters/14_ch14.md:a69db048:note/tool1-three-strategies",
+      "text": "Answered with a new item: call:civ/chapters/14_ch14.md:a69db048:note/tool1-sealed-three-steps. Hermetic is gone. Sealed is defined in your words, sealed to proof in the world, and set apart from a belief about God, which is sealed from proof. Your points 1, 5 in your variant, and 6 are kept, each with a principle and a case: the N-rays with Principle 2, Korea with Principle 5, the failed prophecy with Principle 1. Each case ends on the idea it gives and turns back to the partisan. Interlocutor is replaced by speaker. (b) says the sentence on God in the words of Chapter 3 and drops the second use of sealed. (c) is shorter. Say how you meant \"sealed to\" against \"sealed from\"; I read the first as closed against proof and the second as out of the reach of proof.",
+      "at": "2026-11-24T12:35:12Z"
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:14d51098:note/red-green-through-cases",
+      "text": "Answered with a new item: call:civ/chapters/13_ch13.md:14d51098:note/red-green-premise-evidence-point. Your first sentence opens the section. Then three paragraphs in one pattern: the premise, the evidence, then which was red, which was green, and their common enemy, the civilization that would oppose its own destruction. London in 2002 and 2003; Paris in 2019 with both of the court's findings; then Livingstone's own words and Iran for where it ends. The conclusion repeats the points. \"Traditional Christians\" is removed and classical liberalism is not named. No source was added.",
+      "at": "2026-11-24T12:35:12Z"
+    },
+    {
+      "id": "call:civ/chapters/08_ch08.md:9547789f:note/two-situations",
+      "text": "Answered with a new item: call:civ/chapters/08_ch08.md:9547789f:note/kindness-known-risk. The police example is gone. \"A household can give that\" now reads \"A household gives without asking for proof\". The objection you raised is written into the passage: the agency knew the risk and paid quickly all the same; a defender can say it judged speed worth the loss; the record does not settle that. The passage gives the auditors' estimate with the agency's dispute beside it, and it says that about five payments in six passed those tests.",
+      "at": "2026-11-24T12:35:12Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:23fa049c:note/split-ormansag",
+      "text": "Applied on 2026-11-24 as accepted: the sentence is split in two and \"it\" is named. The fewer details you asked for is a new item: call:civ/chapters/11_ch11.md:188bade9:note/fewer-details. It offers the figures in your words: rose only slightly, and fell in six of the seven villages.",
+      "at": "2026-11-24T12:35:12Z"
+    }
+  ]
+}

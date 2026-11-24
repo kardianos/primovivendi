@@ -1,6 +1,12 @@
 {
   "version": 1,
   "items": {
+    "call:civ/chapters/01_ch01.md:2ac067e4:note/colon-punch": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "A decisive fact governs every technology we have just named: nothing keeps itself.",
+      "at": "2026-11-24T02:51:38Z"
+    },
     "call:civ/chapters/01_ch01.md:7b47c7ff:prose/bullets-to-prose": {
       "disposition": "accept",
       "alternate": "a",
@@ -12,6 +18,12 @@
       "alternate": "a",
       "note": "No metaphores!!!",
       "at": "2026-11-23T16:34:14Z"
+    },
+    "call:civ/chapters/01_ch01.md:89b3b151:note/drop-wet": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "just as naked and ignorant of calculus",
+      "at": "2026-11-24T02:51:47Z"
     },
     "call:civ/chapters/01_ch01.md:8fe31426:phonetics/single-shingle": {
       "disposition": "accept",
@@ -209,11 +221,29 @@
       "accepted_text": "Two classic thinkers stated this engineering principle with enduring clarity.\n\n**Adam Smith (1723–1790)** wrote in *The Wealth of Nations* that in a civilized society where division of labor and property law operate, *\"It is not from the benevolence of the butcher, the brewer, or the baker, that we expect our dinner, but from their regard to their own interest.\"* The baker wakes at four in the morning to knead dough and fire his oven because he wants to feed his own children and prosper; yet under symmetrical market procedure, the only way he can earn the town's coins is by baking good, wholesome bread at a price his neighbors willingly pay. His self-interest has been harnessed to feed the entire street.\n\n**James Madison (1751–1836)** applied the same realist specification to constitutional government in *Federalist No. 10* and *Federalist No. 51*. Madison did not pretend that voters or politicians would ever become selfless philosopher-kings. *\"The latent causes of faction,\"* he wrote, *\"are thus sown in the nature of man.\"* Trying to abolish competing interests by abolishing liberty is like abolishing air to prevent fire. Instead, because *\"if men were angels, no government would be necessary,\"* a durable constitution must divide power among rival branches and jurisdictions so that **\"ambition must be made to counteract ambition.\"**",
       "at": "2026-11-22T20:43:53Z"
     },
+    "call:civ/chapters/04_ch04.md:29d453e3:note/literal-wording": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "are not external additions placed over a pre-existing generic self.",
+      "at": "2026-11-24T02:52:41Z"
+    },
     "call:civ/chapters/04_ch04.md:551782c0:prose/bullets-to-prose": {
       "disposition": "accept",
       "alternate": "a",
       "accepted_text": "Once it is understood that **identity is not detachable from constitution and lineage**, two destructive errors fall together.\n\nThe first is the \"Lottery Guilt\" error. Because there was never a random drawing separate from the people who actually lived and built, a child whose parents worked for thirty years to build a house, maintain a farm, and teach him a trade did not steal a prize from a common pool. Specific ancestors worked, sacrificed, and exercised self-restraint to build that inheritance *for their children*. The proper moral response to inheriting a sound family, a reputable name, and a functioning country is never paralyzing guilt over an imaginary lottery. Instead, the heir owes **gratitude** to the ancestors who built that inheritance, together with his own part in **forming and listening (Virtue 7)**: he tests what he was told, keeps what holds, and forms his own children in those same habits.\n\nThe opposite \"Self-Made Atom\" error falls with it. Just as a person is not the beneficiary of a theft from a lottery, neither is he a self-created being who formed himself out of nothing and owes nothing to the household, lineage, and civilization that formed him. We are **particular, formed agents**, rooted in a real chain of parents and ancestors, and accountable for what we add or squander by our own conduct.",
       "at": "2026-11-22T20:44:15Z"
+    },
+    "call:civ/chapters/04_ch04.md:573fb428:note/literal-wording": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "is not an interchangeable unit supplied from a stock of generic lives;",
+      "at": "2026-11-24T02:52:17Z"
+    },
+    "call:civ/chapters/04_ch04.md:7699d3f9:note/punch-question": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "What kind of creature is a human being?",
+      "at": "2026-11-24T02:51:57Z"
     },
     "call:civ/chapters/04_ch04.md:8628d660:cadence/snap": {
       "disposition": "reject",
@@ -226,6 +256,12 @@
       "alternate": "a",
       "accepted_text": "Every human being on a factory floor, in a schoolroom, or on a city street is concrete and particular, not a generic, featureless \"Unit of Humanity.\" Biologically, every human is either male or female, with chromosomal, hormonal, skeletal, and reproductive differences that no statute can repeal, and inherits a specific genetic endowment from a specific mother and father that shapes temperament, physical stature, and natural aptitudes. Familially and historically, every human is born to particular parents in a particular household at a particular moment in history, inheriting specific family debts, assets, habits, and memories. Linguistically and culturally, every human learns a particular native tongue in childhood and is formed within a specific culture whose moral and practical habits become the foundation of his daily conduct.",
       "at": "2026-11-22T20:44:09Z"
+    },
+    "call:civ/chapters/04_ch04.md:afb4661e:note/drop-half": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Your genetic code (from your specific mother and father)",
+      "at": "2026-11-24T02:52:05Z"
     },
     "call:civ/chapters/04_ch04.md:c3bb40d1:voice/plain-style": {
       "disposition": "reject",
@@ -269,11 +305,30 @@
       "accepted_text": "### The Engineering Distinction: Constructed in Form Versus Discovered in Substance",
       "at": "2026-11-22T18:22:30Z"
     },
+    "call:civ/chapters/05_ch05.md:9ca00707:note/cut-reinvention-test": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Reform constructed forms whenever a change of form genuinely helps people survive and build under current conditions. Respect discovered substance, because political decrees cannot alter physical or biological reality, and the cost of treating functional substance as arbitrary convention is paid in illicit markets, neglected children, and agricultural ruin.",
+      "note": "Keep the ending, but the phrase \"Reform constructed forms\" is hard for me to parse. I understand it, it is good. We can reform and change what is actually constructions (paper money, electronic money.. but we keep money). It is fine, but see if you can rephrase or change order.",
+      "at": "2026-11-24T02:55:11Z"
+    },
     "call:civ/chapters/05_ch05.md:a627dce1:prose/bullets-to-prose": {
       "disposition": "accept",
       "alternate": "a",
       "accepted_text": "If the arrangement was merely **constructed form**, like wearing powdered wigs in court or driving on the left side of the road, the ban holds cleanly and life goes on under the new convention without loss. If instead unrelated peoples across different centuries and cultures **reinvent the banned arrangement underground, illegally, and at severe risk to themselves**, then you are looking at **discovered substance**. Black-market money, underground trade, informal property, and kin households always reappear when banned.",
       "at": "2026-11-22T20:44:20Z"
+    },
+    "call:civ/chapters/05_ch05.md:b3f85695:note/ending-rephrased": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "A constructed form may be changed whenever the new form genuinely helps people survive and build under current conditions. The form of money has changed from paper notes to electronic entries, and money has remained. Discovered substance must be respected, because political decrees cannot alter physical or biological reality, and the cost of treating functional substance as arbitrary convention is paid in illicit markets, neglected children, and agricultural ruin.",
+      "at": "2026-11-24T11:40:08Z"
+    },
+    "call:civ/chapters/05_ch05.md:e1d92d2a:note/force-require": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Therefore, human limits require **specialization and division of labor**: the farmer farms, the potter throws pots, the smith forges iron, the weaver weaves linen, and the physician studies medicine.",
+      "at": "2026-11-24T02:52:54Z"
     },
     "call:civ/chapters/05_ch05.md:f855fde6:prose/bullets-to-prose": {
       "disposition": "accept",
@@ -305,11 +360,29 @@
       "accepted_text": "\u003e Five years later, a winter wind lifts one shingle near the ridge and leaves a gap the size of a man's hand.",
       "at": "2026-11-22T15:39:41Z"
     },
+    "call:civ/chapters/06_ch06.md:136b9cdc:note/sentence-tightening": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Second, a crucial truth governs the evaluation of cultures. Affirming that human life should continue and be kept and built is *not* a claim that every cultural system is equally worthy of continuance.",
+      "at": "2026-11-24T02:57:22Z"
+    },
     "call:civ/chapters/06_ch06.md:2a1d685c:style/heading-versus": {
       "disposition": "accept",
       "alternate": "a",
       "accepted_text": "#### The Two Partial Failures: Consuming Inherited Capital Versus Neglecting Material Foundations",
       "at": "2026-11-22T18:22:35Z"
+    },
+    "call:civ/chapters/06_ch06.md:31f15b41:note/sentence-tightening": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Protecting soil, timber, and clean rivers keeps the human habitat in working order. It does not license treating human beings as a blight upon the earth whose population should be reduced for the sake of undisturbed wilderness.",
+      "at": "2026-11-24T02:56:15Z"
+    },
+    "call:civ/chapters/06_ch06.md:574387b2:note/sentence-tightening": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Across generations, living adults must bear children and raise them to maturity, so that life and the civilization do not end when the current generation dies.",
+      "at": "2026-11-24T02:55:39Z"
     },
     "call:civ/chapters/06_ch06.md:642126fd:prose/bullets-to-prose": {
       "disposition": "accept",
@@ -322,6 +395,12 @@
       "alternate": "a",
       "accepted_text": "Suppose three generations inhabit one farmhouse. The grandfather cleared the forest, built the stone house, dug the well, and filled the barn with tools and seed grain. The father kept the ledger accurate, repointed the stone walls when frost cracked the mortar, and repaired the tools. Then comes the son. The son finds fieldwork tedious. Every year, he eats from the cellar, sells off one more parcel of pasture and one more chest of his grandfather's tools (which he never learned how to sharpen) to buy wine and ease, lets the roof leak in the back wing, and teaches his one child nothing of soil, accounts, or carpentry. If you visit that farmhouse in year fifteen of the son's tenure, everyone at the dinner table is still breathing and still eating well. They are \"surviving\" by consuming capital they did not build and cannot repair. Ten years later, the barn is empty, the roof collapses, and the family is ruined.",
       "at": "2026-11-22T04:17:58Z"
+    },
+    "call:civ/chapters/06_ch06.md:82e56dc9:note/revealed-preference": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "That line is **revealed preference**: the choice of life demonstrated by action across generations, rather than asserted in academic rhetoric.",
+      "at": "2026-11-24T02:56:32Z"
     },
     "call:civ/chapters/06_ch06.md:86df56a6:prose/bullets-to-prose": {
       "disposition": "accept",
@@ -340,6 +419,12 @@
       "alternate": "a",
       "note": "Floor and ceiling are metaphores. Rejected.",
       "at": "2026-11-23T14:33:47Z"
+    },
+    "call:civ/chapters/06_ch06.md:b8e79ee3:note/literal-wording": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "A second modern rule defines goodness as reducing harm and pain.\n\nHarm-reduction is a legitimate *subordinate consideration*. Handrails on a steep staircase, clean water filters, and seatbelts prevent needless injury while helping people live and build. Under Principle 3, they are real gains.\n\nThe failure occurs when harm-reduction is elevated from a subordinate consideration to the supreme definition of the good. Once that aim is the supreme moral rule, it has no limiting principle within living reality:\n\n* Working with heavy machinery, building bridges, and sailing ships all risk painful injury; therefore, curtail them.\n* Competing in an objective examination, starting a business, or proposing marriage all risk failure, rejection, and emotional distress; therefore, abolish the examinations and discourage the risk.\n* Bearing and raising children brings morning sickness, labor pains, lost sleep, cost, and the certainty that every child will one day suffer grief, illness, and death; therefore, call childbearing a wrong against the unborn and praise childlessness (\"anti-natalism\") as the highest environmental and moral virtue.\n\nCarried to its limit, the rule that good means no pain leaves only one final condition. Total extinction: bare rock under the sun, with no living mind left to ache.\n\nA code whose logical conclusion is the death of every living being is not a higher kind of mercy. It is nihilism disguised as humanitarian concern.",
+      "at": "2026-11-23T22:22:16Z"
     },
     "call:civ/chapters/06_ch06.md:b8e79ee3:voice/plain-style": {
       "disposition": "hold",
@@ -489,6 +574,39 @@
       "alternate": "a",
       "accepted_text": "This historical record establishes two truths under Principle 4. First, a state can make itself the enemy of a people through a tax law alone: when assessment boards set a people's taxes beyond everything they own, allow no appeal, and send those who cannot pay to forced labor, the state acts as their enemy, whatever name it gives the statute. This is the limit stated under Tier 4: a tax levied to confiscate the household, or to destroy a people, is not a civic duty. Second, even the government under which you live becomes your enemy if it turns its coercive power toward your destruction.",
       "at": "2026-11-22T20:48:02Z"
+    },
+    "call:civ/chapters/08_ch08.md:8e3dbdb8:note/paragraph-move": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Dispositional love requires almost no scarce time, money, or physical energy. Wishing a thousand strangers well as you walk through a train station does not deplete your bank account or remove a single calorie of food from your children's dinner table. It is non-rivalrous and scales to millions or billions of people: holding goodwill toward a man in Peru does not reduce the goodwill you can hold toward a man in Ohio. A society where strangers extend dispositional love to one another is far more orderly and cooperative than a society of suspicious antagonists.\n\nFor those reasons, dispositional love is the proper default disposition toward all peaceful human beings across every tier (Tiers 1 through 5), until and unless a specific person or group proves by conduct to be a swindler, criminal, or enemy.",
+      "at": "2026-11-23T22:24:14Z"
+    },
+    "call:civ/chapters/08_ch08.md:9547789f:note/examples-and-rule": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "This is good, but it strays from the main point. We can quickly show one or two situations. Then make the point about kindness. I hesitate with COVID, because the government also forbid going out. Yes, it was rife with fraud. Is there a clearer example of a kind gesture where poitness should have taken its place?",
+      "hold_for": "research",
+      "at": "2026-11-24T03:23:03Z"
+    },
+    "call:civ/chapters/08_ch08.md:9547789f:note/kindness-known-risk": {
+      "disposition": "hold",
+      "alternate": "b",
+      "note": "This is useless \"The attempt fails for a plain reason.\" the failing aspect should be incorperated into the previous or next sentence. I like the shorter version, but we need to streamline and linearize the suggested text some more. It is improving. Good work so far.",
+      "hold_for": "research",
+      "at": "2026-11-24T13:25:06Z"
+    },
+    "call:civ/chapters/08_ch08.md:9547789f:note/kindness-streamlined": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "A wealthy society can forget the boundary between the two and attempt to institutionalize unscoped, unconditional kindness as the public policy toward every anonymous stranger. The attempt fails because an anonymous bureaucracy cannot personally verify who is a genuine crisis case and who is a criminal or a habitual dependent. Unscoped public \"kindness\" therefore becomes an **invitation to systematic abuse**. Opportunists convert temporary emergency provisions into permanent support, and criminals interpret the refusal to enforce public order as license to plunder.\n\nHurricane Katrina showed the cost in 2005. The Federal Emergency Management Agency paid two thousand dollars in emergency assistance to people who said the storm had left them in need. It paid on their word and usually before anyone had inspected the damage (GAO-06-844T, 2006). The agency knew the risk and paid quickly all the same (GAO-06-1013, 2006). A defender can say that it judged speed worth the loss. The record does not settle that. It shows the price. The Government Accountability Office later estimated that about one payment in six, about a billion dollars, rested on an identity, an address, or a claim that was false or filed twice (GAO-06-844T, 2006). About five payments in six passed those tests. The agency disputed the size of the estimate and accepted most of the recommendations for checking applicants (GAO-06-1013, 2006).\n\nThe rule follows from who can know whom. A household gives without asking for proof, because it sees the person every day and can watch his conduct. That is kindness, and it restrains abuse for that reason. An agency never sees the claimant and learns what it has given only from an audit. Such an agency cannot give kindness. It can give a stranger only a fixed rule applied alike, and that is politeness. Conversely, a household that practices only cold *politeness* inside the home treats its own children like strangers. Keep the rule clear: Dispositional goodwill and politeness toward all; costly action-based love and kindness budgeted by tier, anchored at home where personal knowledge can supervise and form character.",
+      "at": "2026-11-24T14:38:58Z"
+    },
+    "call:civ/chapters/08_ch08.md:9547789f:note/two-situations": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "I was confused on what \"A household can give that,\" refered to until I re-read 3 times. \"that\" refers to \"proof\". The downside of this example is you could argue they know it would be abused, but decided it was worth it as 5/6 of the payments were not obvious fraud. So the example is better then the second police one (I don't like that example for this purpse), but be careful on the phrasing.",
+      "hold_for": "research",
+      "at": "2026-11-24T12:06:09Z"
     },
     "call:civ/chapters/08_ch08.md:a1b4c9ac:prose/bullets-to-prose": {
       "disposition": "accept",
@@ -678,6 +796,12 @@
       "accepted_text": "    A functional right cannot exist in a vacuum; it operates in reality only inside a defined jurisdiction (*scope*) where citizens bear the cost of enforcing it. Modern human-rights ideology erases the word *scoped*. It declares that any human being in the world, simply by existing biologically, possesses an immediate \"human right\" to cross your national border uninvited, draw from the **Desert Cistern** (Section 1 above) that your parents and grandparents built and filled, and demand housing, schooling, medical care, legal representation, and political power on the same terms as the citizens who maintain it. It ignores that obligation is tiered and that justice is scoped: an unscoped claim for every stranger is a prescription for insolvency and dissolution for the host nation.",
       "at": "2026-11-22T13:37:49Z"
     },
+    "call:civ/chapters/10_ch10.md:1804f760:note/keep-quantifiers": {
+      "disposition": "accept",
+      "alternate": "b",
+      "accepted_text": "**Have children** is an explicit, foundational virtue of civilization rather than a private preference like stamp-collecting or golf because of three invariable facts of reality. First, every human being is mortal (Principles 1 and 2). Within roughly eighty to a hundred years, 100 percent of the human beings currently reading this book, administering the courts, piloting the aircraft, and cultivating the land will be dead. Second, civilization cannot be stored on inanimate storage media or stone monuments (Principle 3). Suppose a library of engineering textbooks sits in an empty city with no living human minds to read, practice, and execute them. It is merely stacked paper awaiting decay, because civilization exists only within living human beings. Third, replacement requires slightly more than two children per woman (approximately 2.1 under modern low-mortality conditions) across the population as a whole. Keeping and building life requires healthy, well-formed families raising two, three, four, or more children so that the population continues with vigor.",
+      "at": "2026-11-23T22:52:58Z"
+    },
     "call:civ/chapters/10_ch10.md:1804f760:voice/plain-style": {
       "disposition": "hold",
       "alternate": "a",
@@ -739,6 +863,13 @@
       "accepted_text": "In **Plymouth Colony** of Chapter 8, the fathers and mothers who took their children into the fields once each household received its own parcel of land did not experience that labor as a penal sentence; building a livelihood for their own children gave their strength and skill a clear, daily purpose.",
       "at": "2026-11-22T14:08:04Z"
     },
+    "call:civ/chapters/11_ch11.md:056cf91e:note/opening-from-cases": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "The writers who have watched a civilization decline have given much the same account of the cause, and each finds it inside the civilization rather than at its gates: success itself alters the environment in which the grandchildren mature. Sallust wrote of Rome after the destruction of Carthage in 146 BCE: *\"when Carthage, the rival of Rome's sway, had perished root and branch, and all seas and lands were open, then Fortune began to grow cruel and to bring confusion into all our affairs.\"* Men who had borne hardship easily found *\"leisure and wealth, desirable under other circumstances, a burden and a curse\"* (*The War with Catiline*, 10). In the fourteenth century Ibn Khaldun set the span of the change: *\"the duration of the life of a dynasty does not as a rule extend beyond three generations,\"* because luxury reaches its height in the third, and then *\"group feeling disappears completely\"* (*The Muqaddimah*, III.12). Gibbon called the fall of Rome *\"the natural and inevitable effect of immoderate greatness. Prosperity ripened the principle of decay\"* (*The Decline and Fall of the Roman Empire*, chapter 38). In 1982 the economist Mancur Olson supplied a mechanism. *\"Stable societies with unchanged boundaries tend to accumulate more collusions and organizations for collective action over time,\"* he wrote, and such coalitions *\"slow down a society's capacity to adopt new technologies and to reallocate resources in response to changing conditions\"* (*The Rise and Decline of Nations*, chapter 3).\n\nFour records show the process at work.\n\nThe first is the reserve that becomes a claim. Augustus distributed grain to a little more than two hundred thousand people of Rome (*Res Gestae*, 15). He meant to stop. *\"I was strongly inclined to do away forever with distributions of grain, because through dependence on them agriculture was neglected,\"* he wrote, *\"but I did not carry out my purpose, feeling sure that they would one day be renewed through desire for popular favour\"* (Suetonius, *Augustus*, 42). A provision against famine had become a distribution that the ruler believed he could not withdraw.\n\nThe second is the choice not to rear children. In the second century BCE Polybius found Greece emptying without war or plague. *\"In our own time the whole of Greece has been subject to a low birth-rate and a general decrease of the population,\"* he wrote. Men *\"did not wish to marry, or if they married to rear the children born to them, or at most as a rule but one or two of them\"* (*Histories*, 37.9). The custom has recurred in one region. In the Ormánság, a region of south-western Hungary, families kept to one child from the late eighteenth century, at first to keep their land undivided (Ildikó Szántó, 2015). The result shows in the population. In seven villages of the Ormánság taken together it rose by five percent between 1870 and 1941, while the population of Hungary, with 1785 taken as 100, rose from 188 to 350; in six of the seven villages it fell (Gábor Koloh, 2021, figures given in Róbert Bagdi's review, 2023). In Besence, one of those villages, the population had risen above three hundred early in the nineteenth century and was under two hundred in 1970 (Rudolf Andorka, 1970). The nation's statistical office gives the arithmetic of the custom: *\"from 100 people, there were only 40 in the following generation, 16 in the next and 6.4 in the third\"* (Hungarian Central Statistical Office, 2009).\n\nThe third is the consumption of what earlier generations built. In July 2000 Zimbabwe launched the compulsory resettlement of its commercial farms. By 2008 about three hundred large commercial farms remained, and that sector *\"produces less than one-tenth of the maize that it produced in the 1990s.\"* The economy *\"has shrunk by about 44 percent between 1998 and 2007\"* (FAO and WFP, 2008). Tobacco sales fell to 48 million kilograms in 2008 and recovered to 252 million kilograms in 2018 (Ruckert et al., 2022). In November 2008 prices were doubling every 24.7 hours (Hanke and Kwok, 2009), and in February 2009 the government abandoned the currency and authorized foreign currencies (Federal Reserve Bank of Dallas, 2011 Annual Report). Chapter 10 gives the smaller case of Nauru, whose phosphate trust stood above a billion Australian dollars about 1990 and later entered receivership.\n\nThe fourth is capture inside the state. South Africa's Judicial Commission of Inquiry into State Capture reported in 2022. It found that state capture *\"evolved as a project by which a relatively small group of actors, together with their network of collaborators inside and outside of the state, conspired systematically\"* to redirect public resources to their own gain (Ramaphosa, *Response to the State Capture Commission*, 2022). In the same years the national electricity utility rationed power for 3,773 hours in 2022, having first done so in 2007 (Council for Scientific and Industrial Research, 2023; Eskom, 2008).\n\nThese records give this chapter its order. When a pioneering generation clears the forest, drains the malarial swamp, builds the stone wall, and fills the storehouse, it naturally establishes **protective reserves** so that its children do not perish from the same hazards that nearly destroyed the grandparents. Those reserves are a genuine achievement of technology.\n\nWhen a society fails to teach explicitly *why* the walls, the laws, and the reserves were constructed, and how narrow the boundary is between temporary relief and permanent dependency, four destructive tendencies emerge to exploit that security:\n\n1. **The Corruption of Protective Reserves into a Demand for Risk-Free Existence;**\n2. **The Compassionate Delusion and the Strategic Subversion of Morals;**\n3. **Parasitism;** and\n4. **Fatalism.**\n\nA fifth section describes the institutional mechanism through which these failures are administered day to day: **Managerialism**.\n\nAnalyzing each of these failure modes enables a society to identify them in their earliest stages and correct them without falling into reactionary callousness.",
+      "note": "We might revisit this section further, but I like this addition.",
+      "at": "2026-11-24T03:27:05Z"
+    },
     "call:civ/chapters/11_ch11.md:056cf91e:voice/plain-style": {
       "disposition": "hold",
       "alternate": "a",
@@ -765,6 +896,12 @@
       "hold_for": "research",
       "at": "2026-11-23T17:09:43Z"
     },
+    "call:civ/chapters/11_ch11.md:188bade9:note/fewer-details": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "In seven villages of the Ormánság the population rose only slightly between 1870 and 1941, and in six of the seven it fell, while the population of Hungary rose to nearly twice what it had been (Gábor Koloh, 2021, figures given in Róbert Bagdi's review, 2023).",
+      "at": "2026-11-24T13:06:36Z"
+    },
     "call:civ/chapters/11_ch11.md:1c56610a:cadence/snap": {
       "disposition": "reject",
       "alternate": "a",
@@ -777,6 +914,19 @@
       "note": "The specifics words and phrases in the original are important. They have meaning. Those important meanings are lost with this proposal. What I might change with this section is that people aren't alwasy influenced by activists, they themselves may fail in being unkind to those who violate social bounaries. Yes, in society, you need to sometimes be unkind to others.",
       "hold_for": "research",
       "at": "2026-11-23T15:46:57Z"
+    },
+    "call:civ/chapters/11_ch11.md:23fa049c:note/split-ormansag": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "In seven villages of the Ormánság taken together, the population rose by five percent between 1870 and 1941, while the population of Hungary, with 1785 taken as 100, rose from 188 to 350 (Gábor Koloh, 2021, figures given in Róbert Bagdi's review, 2023). In six of the seven villages it fell.",
+      "note": "Change is fine, but there are too many details. We could say it rose only slightly or in some cases dropped suddenly, all well below.",
+      "at": "2026-11-24T11:38:03Z"
+    },
+    "call:civ/chapters/11_ch11.md:24a618ad:note/defense-line": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "#### 3. Technological and Civilizational Parasitism: Consuming the Fruit While Destroying the Foundation",
+      "at": "2026-11-24T11:39:13Z"
     },
     "call:civ/chapters/11_ch11.md:561a100e:prop/compassion-fable-keep": {
       "disposition": "hold",
@@ -834,6 +984,12 @@
       "accepted_text": "When someone uses emotional appeals to press for violating truth, keeping and building, tiered duty, or procedural symmetry in the name of \"compassion,\" the answer is calm and analytical.\n\nFirst, ask: compassionate to whom, in what tier, and at whose expense? *\"You call it 'compassionate' to release a twenty-time violent offender onto the subway without bail. Is that compassionate to the sixty-year-old nurse riding home from her night shift in the next car? Why is your empathy reserved exclusively for the offender and absent for his innocent victims?\"*\n\nSecond, ask what happens in Year Ten if everyone does this. A policy that sounds benevolent in a brief slogan but leaves the shops boarded up and the street ruined in ten years is not compassion; it is delayed-action cruelty. Hold the hierarchy of principles firm: compassion is a valuable disposition within the bounds of reality, but compassion may not corrupt the magistrate, suppress the evidence, or leave the perimeter unguarded.",
       "at": "2026-11-22T20:52:34Z"
     },
+    "call:civ/chapters/11_ch11.md:a39cebb8:note/name-polybius": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "\"In our own time the whole of Greece has been subject to a low birth-rate and a general decrease of the population,\"* Polybius wrote.",
+      "at": "2026-11-24T11:36:44Z"
+    },
     "call:civ/chapters/11_ch11.md:ad44ee94:lint/imperative-opener": {
       "disposition": "hold",
       "alternate": "a",
@@ -865,6 +1021,19 @@
       "accepted_text": "The corrupted reserve degrades both **material welfare** and **human agency**.\n\nIn material welfare, politicians and bureaucracies convert a temporary emergency provision, designed to help a displaced worker or a widowed mother regain self-sufficiency, into an open-ended, multi-generational subsidy that **penalizes marriage and work**. It pays a household more if no working father resides in the home and withdraws benefits if the recipient accepts entry-level employment. Within two generations, what was enacted in the name of \"compassion\" has undermined family formation in entire neighborhoods and habituated millions of capable human beings to permanent dependency.\n\nEven more damaging is what the demand for exemption from risk does to **human will**. Suppose a twenty-two-year-old apprentice potter saves his wages for three years and wishes to rent a small storefront to open his own kiln and pottery shop. There is a real probability, perhaps forty percent, that his shop will fail within the first two years and that he will lose his savings and have to return to wage employment wiser and more experienced.\n\nNow suppose a regulatory bureaucracy intervenes to protect citizens from the loss and distress of a failed shop. It rules that no one may open a workshop without first paying eighty thousand dollars for five years of environmental impact studies, compliance attorneys, and licensing permits, which only large established corporations can afford. In the name of \"preventing harm,\" the regulator locked the shop door, barred entry to the trade, and suppressed the young man's initiative to build. As we saw with the Daughter and the Chalked Footrace in Chapter 7, insulating people from every risk of failure does not make them secure; it renders them dependent.",
       "at": "2026-11-22T20:51:17Z"
     },
+    "call:civ/chapters/11_ch11.md:eb88fba0:note/own-unkindness": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Fourth comes the moral intimidation of the conscientious. Agreeable mothers, fathers, and churchgoers who genuinely wish to be kind hesitate when an activist accuses them of being *\"bigoted, heartless, and cruel.\"* Rather than be called unkind in public, they fall silent and surrender control of the school board, the courtroom, and the church to the accuser.\n\nAn activist is not always needed. The conscientious man can silence himself, because he wishes to be kind and takes every unkind act for a wrong one. He cannot bring himself to fail the student who did not study, to dismiss the employee who will not work, or to refuse further help to the repeat offender who has broken every promise. Each of those acts is unkind in the plain sense of the word. It inflicts a deserved pain on someone. A boundary holds only when someone will enforce it against the person who violates it. A society therefore requires such acts. A man who refuses every such act leaves the people he is kind to without protection.",
+      "at": "2026-11-23T22:27:49Z"
+    },
+    "call:civ/chapters/11_ch11.md:ec330947:note/individuals-only": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "**Social parasitism** occurs when able-bodied adults who will not work conceal themselves behind the genuine *cannots* in order to live upon the taxed labor of productive citizens. It is the able-bodied man who refuses available employment, vandalizes public parks and transit vehicles built by others' taxes, and treats public assistance as a permanent livelihood.\n\n**The Defense:** Strictly separate the *cannot* from the *will-not*, and terminate subsidies to the able-bodied dependent.",
+      "note": "This is much better. As I'm re-reading it, I also think we should remove \"The Defense\". It is up to the society itself to decide what to do. Maybe to prevent abuse, they tell families to suport their own. Maybe they limit anything to 2 month per 4 years of work. Lots of options. Not our job, nor should we just blithly say \"separate them\". Otherwise looks great.",
+      "at": "2026-11-23T22:26:53Z"
+    },
     "call:civ/chapters/12_ch12.md:060b318e:cadence/snap": {
       "disposition": "reject",
       "alternate": "a",
@@ -895,12 +1064,24 @@
       "accepted_text": "When an intelligent young man or woman realizes that postmodern constructivism, forced leveling of outcomes under \"equity,\" open borders, and family breakdown are destroying their country, their first impulse is often to embrace any writer who loudly denounces modern liberalism.",
       "at": "2026-11-22T18:25:44Z"
     },
+    "call:civ/chapters/12_ch12.md:37f6e171:note/terms-restored": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Across two centuries, one modern line of thinkers broke with the Five Principles step by step.\n\n**Jean-Jacques Rousseau** (1712–1778) denied that virtue must be cultivated in human beings (Principle 2), claiming they are naturally good and corrupted only by property and civilization. He attacked keeping and building by calling the first man who fenced a plot of ground to establish a farm an impostor. He also opposed the mediating tiers of family, church, and local guild, demanding in *The Social Contract* that every citizen surrender himself unconditionally to the unitary state's **\"General Will\"** and be *\"forced to be free.\"* Robespierre and the Jacobins invoked Rousseau's General Will to justify the Terror of 1793–1794.\n\n**G. W. F. Hegel** (1770–1831) replaced correspondence truth with a \"dialectical\" history in which truth unfolds by historical epoch, and set the state above the household and civil society as \"the actuality of the ethical Idea\" (*Elements of the Philosophy of Right*, 1820, section 257), against Principle 4. Hegel himself defended private property and the family. What his successors took from him was the historicized truth and the exalted state.\n\n**Karl Marx** (1818–1883) carried Hegel's dialectic into a history in which truth and morality change by class identity. He denied Principle 2 by promising that abolishing private property would remake human nature into the selfless type that later regimes called the \"New Socialist Man,\" and destroyed Principle 5 by replacing symmetrical law with class liquidation. In every instance where Marx's program was implemented in practice, including in Russia, China, Cambodia, Ethiopia, North Korea, and Cuba, it produced the same outcome of tyranny and famine.\n\nIn the twentieth century, **John Rawls** (1921–2002), as we saw in Chapter 4 and Chapter 8, used the \"Veil of Ignorance\" in *A Theory of Justice* (1971) to strip away human particularity. He treated the intergenerational work of parents for their children (Principle 4 and Virtue 7) as an arbitrary \"Lottery of Birth\" to be equalized away by the state, violating Principle 5.\n\n**Michel Foucault** (1926–1984) and **Jacques Derrida** (1930–2004) completed the repudiation of classical realism by attacking Principle 1 directly, teaching generations of university students that language never refers to objective reality (*\"there is nothing outside the text\"*) and that truth, reason, science, and law are merely instruments of power (*\"regimes of truth\"*).",
+      "at": "2026-11-24T02:44:46Z"
+    },
     "call:civ/chapters/12_ch12.md:37f6e171:voice/plain-style": {
       "disposition": "hold",
       "alternate": "a",
       "note": "In Hegel: I would replace \"fixed truth\" with \"correspondence truth\". The original Max paragraph is better. ",
       "hold_for": "research",
       "at": "2026-11-23T16:07:03Z"
+    },
+    "call:civ/chapters/12_ch12.md:3da9c1ce:note/streamline-keep-terms": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "The most influential global theorist of this anti-Western, anti-procedural right is the Russian philosopher **Alexander Dugin** (born 1962), author of *The Foundations of Geopolitics* (1997) and *The Fourth Political Theory* (2009).\n\nBecause Dugin borrows the language of conservatism, praising \"Tradition,\" the Orthodox Church, multipolarity, and resistance to Western progressive decadence, some Western right-wing commentators have naively treated him as a civilizational ally.\n\nDugin's actual writings and speeches state his core premises directly, allowing them to be evaluated against the Five Common Principles of Reality.\n\nFirst is Dugin's explicit hostility to individual success and excellence (Principle 2, Principle 3, and Virtue 3). In a post on X on 10 July 2026, he stated his moral premise toward individual human achievement without ambiguity:\n\n\u003e *\"The very concept of the success is deeply immoral... We should prosper or suffer together. Otherwise it is satanic.\"*\n\nAccording to Dugin, an industrious farmer's success is \"deeply immoral\" and \"satanic\" unless he suffers in poverty alongside his neighbor. One farmer rises at five in the morning, clears the weeds from his field, repairs his roof, remains sober, and harvests an abundant crop. His neighbor sleeps until noon, drinks heavily, and lets his roof decay. That is the destructive pathology of the old Russian peasant commune (*mir*) and Soviet collectivization. It is the envious leveling mentality illustrated in the old Russian proverb in which a peasant, offered any wish on condition that his neighbor receive double, asks to have one of his own eyes put out. There is a direct structural parallel between **radical outcome-egalitarianism** in the West and **Dugin's Eurasianist Collectivism** in the East. Both look upon a human being who achieves excellence and builds a flourishing life. Both declare that unequal achievement is evil and that all persons must be compelled to *\"suffer together\"* in shared deprivation.\n\nSecond, Dugin denies universal correspondence truth. In *The Fourth Political Theory*, he explicitly rejects the existence of universal objective truth, universal natural science, and universal human nature. Drawing directly on **Martin Heidegger** and **postmodern constructivism**, Dugin declares that what the West calls empirical truth and logic is merely a local \"Atlanticist / Anglo-Saxon episteme,\" and that Russia/Eurasia possesses its own separate \"archaic truth\" in which state myth overrides factual correspondence. Under Principle 1, truth has one frame, which is reality, and a state myth is a narrative. That is postmodern constructivism restated in the vocabulary of Russian imperial nationalism.\n\nThird, Dugin erases the individual and the self-anchored household into *Dasein* (Principles 2 and 4). He explicitly names the **individual human person** as the primary enemy to be abolished. Whereas the First Political Theory (liberalism) took the individual as its subject, the Second (communism) took class, and the Third (fascism) took race or state, Dugin proposes that his \"Fourth Political Theory\" takes Heidegger's collective *Dasein* (\"being-there\") and the undifferentiated mass (*Narod*) as the only real actor. He declares explicitly that the individual possesses no intrinsic boundary, no inviolable property, and no self-anchored standing apart from the collective empire.\n\nFourth, Dugin abolishes procedural symmetry in favor of eternal imperial war. He rejects legal symmetry, individual property rights, and constitutional checks inside the state, and he views international politics as a permanent war between \"Land Power\" (Eurasia) and \"Sea Power\" (the constitutional West). His system therefore cannot build high-trust domestic courts or peaceful prosperity. Instead, the system requires permanent external conquest and internal secret-police mobilization to justify domestic poverty and coercion.\n\nThe verdict under the Five Principles is clear: Alexander Dugin is not a defender of civilization against postmodernism; he is a collectivist leveler and postmodern anti-realist whose program leads to serfdom and imperial warfare.",
+      "at": "2026-11-24T02:46:45Z"
     },
     "call:civ/chapters/12_ch12.md:3da9c1ce:voice/plain-style": {
       "disposition": "hold",
@@ -914,6 +1095,12 @@
       "alternate": "a",
       "accepted_text": "Because Dugin borrows the language of conservatism, praising \"Tradition,\" the Orthodox Church, multipolarity, and resistance to Western progressive decadence, some Western right-wing commentators have naively treated him as a civilizational ally.",
       "at": "2026-11-22T18:25:50Z"
+    },
+    "call:civ/chapters/12_ch12.md:5e736aab:note/split-whereas": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "The First Political Theory (liberalism) took the individual as its subject. The Second (communism) took class, and the Third (fascism) took race or state. Dugin proposes that his \"Fourth Political Theory\" takes Heidegger's collective *Dasein* (\"being-there\") and the undifferentiated mass (*Narod*) as the only real actor.",
+      "at": "2026-11-24T11:38:45Z"
     },
     "call:civ/chapters/12_ch12.md:6435572f:prose/bullets-to-prose": {
       "disposition": "accept",
@@ -939,6 +1126,12 @@
       "accepted_text": "Shinto aligns strongly with several of the virtues. It fosters a strong cultural ethic of physical cleanliness, care for tools and craft (Virtues 2 and 3), reverence for natural and architectural beauty, and deep generational gratitude connecting living households to their ancestors (*kami*) and descendants, the living heeding what their elders handed down and forming those who come after. In a Japanese workshop or train station, the practical results of those habits are evident.\n\nIts vulnerability appeared when it was detached from Principle 1 and Principle 5. Traditional Shinto is a particularist folk religion without a universal doctrine of correspondence truth or universal human nature. Between 1890 and 1945, the Meiji and Showa militarists fused it into **State Shinto**, teaching as state dogma that the Japanese Emperor was a living descendant of the sun goddess and that non-Japanese peoples occupied an inferior ontological tier. That state creed silenced internal rational dissent (violating Principle 1) and licensed atrocities against conquered neighbors (violating Principle 5), culminating in the catastrophe of 1945.",
       "at": "2026-11-22T20:53:11Z"
     },
+    "call:civ/chapters/12_ch12.md:98535b9f:note/compatibility-test": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "We now possess a complete, self-consistent analytical framework: the Five Common Principles of Reality and the **Seven Virtues of Civilization**.\n\nIt provides one test of compatibility for judging history, philosophy, religion, and politics. Two compatible doctrines can still be at odds, but a doctrine that fails is self-defeating or an enemy within.\n\nWithout an explicit set of foundational principles, people frequently evaluate philosophies and political movements by **factional label** or **rhetorical tone**: *\"Does this writer employ persuasive language? Does he oppose the same adversaries I oppose? Does his treatise invoke familiar terms such as justice or tradition?\"* Through such superficial criteria, large numbers of well-intentioned citizens are induced to adopt defective ideological systems, ranging from utopian Marxism on the political left to Eurasianist collectivism on the political right.\n\n**Scoped procedural symmetry** and truth as correspondence to reality require the **same inspection checklist** for every philosopher, every religious framework, and every political movement, whether friendly or hostile, ancient or modern, Eastern or Western. We do not judge a doctrine by its outward title; we test its foundational premises directly and ask:\n\n1. Does this system affirm that reality is real, knowable, and consequential, and that truth is correspondence to reality (Principle 1)?\n2. Does it take human beings as they actually are: self-interested, limited, and particular (Principle 2)?\n3. Does its moral standard require human life continuing, kept, and built (Principle 3)?\n4. Does it structure duty as self-anchored, tiered, and outward while recognizing that enemies are real (Principle 4)?\n5. Does it govern multi-household life by scoped procedural symmetry rather than arbitrary decree, tribal privilege, or forced leveling of outcomes (Principle 5)?\n\nMajor philosophical schools, world religions, and political doctrines can be evaluated directly under these five criteria.",
+      "at": "2026-11-24T02:49:37Z"
+    },
     "call:civ/chapters/12_ch12.md:98535b9f:voice/plain-style": {
       "disposition": "hold",
       "alternate": "a",
@@ -959,6 +1152,12 @@
       "hold_for": "research",
       "at": "2026-11-23T17:11:21Z"
     },
+    "call:civ/chapters/12_ch12.md:c60e0f50:note/direct-language": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "**David Hume** was a penetrating historian and economist, and he earned his living by writing. His writings sold so well that he became, in his own words, *\"not only independent, but opulent\"* (*My Own Life*, 1776). He showed in his *History of England* (six volumes, 1754 to 1762) and in his *Political Discourses* (1752) that he understood property, contract, and the danger of political fanaticism. In his philosophical works, by contrast, his premise that we perceive only disconnected mental impressions led him to claim that we possess no rational justification for believing in cause and effect or the permanence of external objects. He severed speculative philosophy from common-sense reality.",
+      "at": "2026-11-24T02:50:16Z"
+    },
     "call:civ/chapters/12_ch12.md:ddf9e153:prose/bullets-to-prose": {
       "disposition": "accept",
       "alternate": "a",
@@ -977,6 +1176,34 @@
       "accepted_text": "The first is **the Golden Rule** (Matthew 7:12):",
       "at": "2026-11-22T21:02:12Z"
     },
+    "call:civ/chapters/13_ch13.md:14d51098:note/red-green-ends-with-iran": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "#### 2. Red-Green Coordination in the West\n\nThere is a saying that an enemy of your enemy is your friend. There is no better demonstration of this than the functional arrangement between radical progressives and Islamists. Red is the radical left, which comes from Marx. Green is the Islamists. The two are not one movement, and no agreement records their cooperation. Here is how their cooperation works.\n\nThe first thing to show is that the two sides will organize one event together. The Muslim Association of Britain held its first protest with the Stop the War Coalition in London on 28 September 2002. The two had not agreed on priorities. The Association's leaflets put Palestine first and the war second, and the Coalition's leaflets put the two in the opposite order (Timothy Peace, 2015). On 15 February 2003 came the largest demonstration in British history. The same two organizations arranged it with the Campaign for Nuclear Disarmament. The demonstration opposed the coming invasion of Iraq. Key figures of the Coalition sat on the central committee of the Socialist Workers Party, a party of *\"the revolutionary Marxist tradition.\"* The Association's ideology is *\"loosely based on the teachings of the Muslim Brotherhood\"* (Timothy Peace, 2015). Red was the Socialist Workers Party, which comes from Marx. Green was the Muslim Association of Britain, which comes from the Brotherhood. Both sides had one enemy that day: their own government, which was preparing to invade Iraq. The larger enemy of both is the civilization that would oppose its own destruction. Neither red nor green can advance while it lasts. They disagreed about what to build, and they agreed about what to pull down.\n\nThe second thing to show is that the arrangement survives the contradictions between the two doctrines. On 10 November 2019 about 13,500 people marched through Paris in what its organizers called a march against Islamophobia (franceinfo, 10 November 2019). Islam is a religion, and a religion can be reviled. People have reviled Christianity for hundreds of years without being called phobes. The Collectif contre l'islamophobie en France (CCIF) had called the march with the New Anticapitalist Party and with libertarian communists (Mediapart, 3 November 2019). Signatories included the general secretary of the CGT trade union, the leader of Europe Écologie Les Verts, and the spokesman of the Communist Party. The Socialist Party stayed away (RTL, 7 November 2019; franceinfo, 10 November 2019). A year later the government dissolved the CCIF. In September 2021 the Conseil d'État upheld the dissolution. The court had found that the CCIF kept close ties with proponents of a radical Islamism that urges people to disregard certain laws of the Republic, and that its conduct was of a nature to provoke discrimination, hatred, or violence. The court found no acts aimed at provoking terrorism (decision no. 449215, paras. 9, 11, and 12). Red was the Communist Party and the anticapitalist party. Green was the CCIF. Both sides had one enemy there: the law of the Republic, which is written for every citizen alike and exempts no religion. That law is part of the civilization that would oppose its own destruction. Again they disagreed about what to build, and they agreed about what to pull down.\n\nThe last thing to show is where the arrangement ends. In Iran, Marxists and Islamists marched together against the Shah in 1978. Each wanted the Shah's government gone, and neither could bring it down alone. They disagreed about what to build. The Marxists wanted a secular socialist republic and equality between the sexes. The Islamists wanted religious law, the veil, and the execution of apostates. By 1983 Khomeini's clerics had outlawed the Tudeh Party and executed thousands of their former allies (section 1 above). Red and green part on religious law, on the place of women, and on who commands once the common enemy has fallen. There the stronger side destroyed the weaker.\n\nEvery case ends where the others end. Red comes from Marx, and green from Islam. They disagree about what to build, and they agree about what to pull down. Neither can advance while the civilization they live in lasts. That civilization, and not each other, is their common enemy, because it would oppose its own destruction.\n\n\u003e Radical progressive activists march alongside Islamist groups whose classical legal doctrine prescribes severe punishment for homosexuality and legal subordination for women and religious minorities because both share the immediate tactical goal of subverting and paralyzing the host country's order of law.\n\nThey will destroy the civilization that opposes them, such as the one this book describes.",
+      "note": "\"march against Islamophobia\" should be capitalized and quoted. Just say Islam is a religion and you can disagree with a religion. Don't include the sentence on Christianity.",
+      "at": "2026-11-24T14:37:50Z"
+    },
+    "call:civ/chapters/13_ch13.md:14d51098:note/red-green-premise-evidence-point": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "This sentence \"The cases show how the arrangement works and where it ends.\" reads poorly, could be removed or replaced with \"Here is how their cooperation works\" or similar. Don't give the word \"Islamophobia\" creedence. You can name the march, but Islam is a religion and it can be revialed. That is fine. People have been revialing Chrstianity for hundreds of years without being called a phobe.  I don't think the quotation ` *\"I don't agree with the position of Dr Qaradawi on lesbian and gay rights,\"* `really gives us anything. We could probably just end with Iran. Generally much better. Quotation fine. I would ignore homosexuality as a difference. Maybe substitute something else.",
+      "hold_for": "research",
+      "at": "2026-11-24T13:21:50Z"
+    },
+    "call:civ/chapters/13_ch13.md:14d51098:note/red-green-sourced": {
+      "disposition": "hold",
+      "alternate": "b",
+      "note": "This is a good start. The shorter version I think is better, but we need to figure out how to tell this through story. Not a litteral story, but right now we are giving a lot of facts. We need to walk the reader through this cconcept. I odn't think we need the list of 5. We should be specific. Maybe we tell a story, extract the idea, tell a story and extract the conclusion. I think we can do better.",
+      "hold_for": "research",
+      "at": "2026-11-24T03:17:17Z"
+    },
+    "call:civ/chapters/13_ch13.md:14d51098:note/red-green-through-cases": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "The first paragraph could be simpler and say the same thing. Something like \"There is a saying that an enemey of your enemy is youf friend. There is no better demonstration of this then the functional arraingment between radical progressives and Islamists.\" Drop \"Political\" before Islamists. Then in the next paragraph, we start out with the premise of what we want to show, an alliance, then we bring up evidence, then we point out after the evidence which was red (marx) and which was green (islam) and their common enemy (the cvilization that would oppose it's own destruction if red or green are to advance; NOT classical liberalism). Repeate this pattern 1 more time, then point to where they will disagree in the same structure (can point to Iran or other sources). Then conclude essentially repeating the points made after each exmple in the conclusion. Remove \"traditional Chrisitan\". They will destroy the civilization that opposes them, such as the one this book describes.",
+      "hold_for": "research",
+      "at": "2026-11-24T12:00:19Z"
+    },
     "call:civ/chapters/13_ch13.md:15e862f0:cadence/snap": {
       "disposition": "reject",
       "alternate": "a",
@@ -988,6 +1215,12 @@
       "alternate": "a",
       "accepted_text": "Singapore's record carries two cautions. First, adopt the foundational principles, not every emergency regulation. A large continental republic does not need, and should not copy, every municipal regulation or restriction that a small island city-state adopted during a 1960s communist insurgency. What any nation *can* and *should* adopt are Singapore's alignment with reality, meritocratic standards, self-anchored ownership accounts, public order, swift punishment of violent crime and corruption, and symmetrical commercial courts.\n\nSecond, modern Singapore shows its own vulnerability in having children. Because it became a high-cost, high-density urban economy in which young adults delay marriage and childbearing for corporate careers, its resident Total Fertility Rate has fallen below **1.0 child per woman** (0.97 in 2023 and again in 2024; Singapore Department of Statistics). Even Lee Kuan Yew in his final years warned that this demographic decline was the single greatest threat to Singapore's survival, demonstrating once again that **The Interconnect Criterion** admits no exceptions: a civilization must maintain all Five Principles and all Seven Virtues, or the seventy-year replacement horizon overtakes even the most capable material builders.",
       "at": "2026-11-22T20:53:46Z"
+    },
+    "call:civ/chapters/13_ch13.md:3cf06304:note/keep-terms": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Lee addressed the reality of human cognitive and executive variation (Principle 2). He noted that in any population, the most capable, disciplined, and public-spirited five to ten percent of citizens act as *\"the yeast, the ferment, the catalyst\"* that enables the entire society to advance. If a nation persecutes, drives out, or levels down its most capable engineers, administrators, and entrepreneurs in the name of envy, the remaining ninety percent do not become wealthier. They sink into unemployment and poverty. Therefore, Singapore established rigorously meritocratic schools, technical institutes, and civil service examinations. In them, one scholarship went to the son of a manual laborer who scored at the top of the mathematics examination. Another went to the son of a banker.",
+      "at": "2026-11-24T02:51:14Z"
     },
     "call:civ/chapters/13_ch13.md:5193485b:register/disorder-ridden": {
       "disposition": "accept",
@@ -1063,6 +1296,34 @@
       "accepted_text": "Three years later, when the unmaintained oil equipment fails, the currency collapses in runaway inflation, and families suffer severe food shortages, one points to the same country and the same government, and the partisan replies: *\"That is not the fault of Socialism; it resulted from foreign sabotage, hoarders, adverse weather, and an imperfect implementation of Socialism.\"*",
       "at": "2026-11-22T18:26:00Z"
     },
+    "call:civ/chapters/14_ch14.md:a69db048:note/tool1-concrete": {
+      "disposition": "accept",
+      "alternate": "b",
+      "accepted_text": "Frequently, a speaker's belief system is constructed so that it can never be refuted by any event in the physical world. Such a belief is **sealed to proof in the world**. Sealed to proof means that the belief holds to a source of truth that no observation is allowed to correct (Chapter 1). The belief claims something about reality. No event can count against that claim. A belief about God is a different case. For the ultimate questions that produce no measurable distinction in the observable world, the principles issue no catechism and no anti-catechism (Chapter 3). Such a belief is not sealed to proof, because proof is a test against the world and no test reaches a claim about what lies beyond the world. This tool examines only how a belief treats reality. The tool reaches a belief about God only where that belief states something about the world, such as a date.\n\nIf a socialist government nationalizes the Venezuelan petroleum industry and, for two years while oil prices are high, distributes subsidized consumer goods, the partisan declares: *\"Socialism succeeds; credit that outcome to Socialism.\"*\n\nThree years later, when the unmaintained oil equipment fails, the currency collapses in runaway inflation, and families suffer severe food shortages, one points to the same country and the same government, and the partisan replies: *\"That is not the fault of Socialism; it resulted from foreign sabotage, hoarders, adverse weather, and an imperfect implementation of Socialism.\"*\n\nThe structural defect in that reasoning is evident: it applies asymmetrical accounting to historical outcomes. Every favorable result is credited to the theory, while every severe failure caused by executing the theory's own program is attributed to external interference. Three steps detect the defect.\n\n**First, state the program in advance.** What concrete policies does the system prescribe (e.g., abolishing private property, reducing police enforcement, removing examination standards)? Principle 2 gives the reason. People find what they expect to find. The N-rays were falsely claimed in this way. A French physicist announced them in 1903, and only some observers could see them. In 1904 R. W. Wood visited the laboratory and found that the observer could not say when a hand entered the path of the rays or which way a prism was turned, and that a piece of wood in place of a steel file changed nothing (Wood, *Nature* 70, 1904, pp. 530 and 531). A test fixed after the result is fixed by what the observer expects. A program stated after its years is stated to fit them. Ask the partisan what the program is before its years are counted.\n\n**Second, apply the same standard of evaluation to arguments for and against.** This is procedural symmetry, and Principle 5 requires it. The partisan's excuse is a statement like any other. *\"foreign sabotage, hoarders, adverse weather\"* can be asked who did what, and when, and what it changed. A claim made for the doctrine is asked the same questions. If the successes are counted on the doctrine's word and the failures are excused on the partisan's word, two standards have been applied.\n\n**Third, specify what observable fact would falsify the claim.** Ask directly: *\"What concrete outcome in the physical world over the next five years would demonstrate to you that this policy is erroneous?\"* Principle 1 gives the reason. Truth is correspondence to reality. A claim that no possible observation could prove false corresponds to none in particular. A small group of Americans once expected a flood on 21 December and a flying saucer to carry them away before it. The fact was named in advance, and it was specific. *\"Midnight had passed and nothing had happened.\"* At about 4:45 in the morning the group received a message: *\"The little group, sitting all night long, had spread so much light that God had saved the world from destruction\"* (Festinger, Riecken, and Schachter, *When Prophecy Fails*, 1956, p. 68). The believers did not give up the belief. They changed the claim. The flood had been called off, they said, and the new claim stated nothing that an event could show to be false. A claim that fails its test does not cross to the metaphysical side afterward (Chapter 3). If the partisan cannot state a single falsifying condition, he is not conducting empirical inquiry or policy analysis; he is reciting an unfalsifiable dogma (**violating Principle 1**).\n\nClaims about reality are always testable against reality. A doctrine is tested by all of its results, the losses as well as the gains. The three steps are that test: the program, the standard, and the fact that would count against it. By Principle 5, the speaker runs his own doctrine through the same three steps before he requires them of another.",
+      "note": "\"Ask the partisan what the program is before its years are counted.\" good direction, bad phrasing Better: \"ask what is expected before the experiment is run\" or similar. \", such as a date.\" can be removed.",
+      "at": "2026-11-24T14:11:47Z"
+    },
+    "call:civ/chapters/14_ch14.md:a69db048:note/tool1-rework": {
+      "disposition": "hold",
+      "alternate": "a",
+      "note": "No, we need to rewrite this entire Tool 1 section. The need to detect a hermetic belief is real. But how we go about it needs more brainstorming. Contemplate 3 alternative strategies along with a written proposal draft for each approach. I think we should use examples.  We might also say \"a belief might be sealed about god, but not about reality. Here we only consider how it treat reality.\"",
+      "hold_for": "research",
+      "at": "2026-11-24T03:01:53Z"
+    },
+    "call:civ/chapters/14_ch14.md:a69db048:note/tool1-sealed-three-steps": {
+      "disposition": "hold",
+      "alternate": "b",
+      "note": "I like this version. I don't understand \"I observe that I'm often wrong on things I can check\". I don't understand \"An excuse is a claim about the world.\".   I don't think the N/S Korea example shows anything for our purpose, remove. I don't like the phrase \"In sound accounting\" it is a metaphore. Say what you actually mean, perhaps \"Claims about reality are always testable against reality.\" or adapt to something similarly concrete. no \"Ledger\". Again be concrete. Just focus on \"the same; God in the words of Chapter 3\" version.",
+      "hold_for": "research",
+      "at": "2026-11-24T13:14:28Z"
+    },
+    "call:civ/chapters/14_ch14.md:a69db048:note/tool1-three-strategies": {
+      "disposition": "hold",
+      "alternate": "c",
+      "note": "All three would be an improvment, so we are getting progress, but still not quite ready yet. I like some of the points and the examples are both good, and fail because they don't pivot after to tie into an explicit idea. So Let's take a subset of the 6 points. I would say 1, 5 (variant, apply the same standard of evaluation, a form of procedural symmetry, to both arguments for and against), 6. These are the key.  We also need to use a different word then \"interlocuter\" as that is too estoic. The examples are good, but we should pair with one of our 3 principles. Also, we should map our arguments so they build and conclude. I like the UFO example. The N-Rays could be okay if you lead with that these were falsly claimed and we condensed it to primary points and tied in. The N/S Korea could be good as a sentence or two.",
+      "hold_for": "research",
+      "at": "2026-11-24T11:51:17Z"
+    },
     "call:civ/chapters/14_ch14.md:a69db048:voice/plain-style": {
       "disposition": "hold",
       "alternate": "a",
@@ -1099,6 +1360,12 @@
       "alternate": "a",
       "accepted_text": "    When you complete the task, you leave the workbench or desk cleaner, more orderly, and more functional than you found it (Virtue 4: Beauty as Vitality, Order, and Truth). When you evaluate two applicants or two contracts in the afternoon, you apply the same written standard to both without regard to their faction or personal connections (Principle 5: Scoped Procedural Symmetry).",
       "at": "2026-11-22T18:26:03Z"
+    },
+    "call:civ/chapters/14_ch14.md:f1c85c31:note/tool2-rework": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Related to asymmetrical accounting is the familiar \"That was not authentic doctrine\" evasion (*\"The Soviet Union was not real Communism,\"* *\"The Inquisition was not real Christianity,\"* *\"Al-Qaeda is not real Islam\"*). The defender removes every failed case from the ledger by denying that the people who produced it practiced the doctrine.\n\nHow does scoped procedural symmetry distinguish when *\"That was not authentic doctrine\"* is a **valid boundary distinction** versus when it is a **fallacious evasion**?\n\nThe guide is correspondence to reality. The test compares what the actors did with what the doctrine's own texts instruct, and it starts with the scope of the doctrine.\n\nA doctrine that prescribes a political and social order is tested by its program. When rulers carry out what its texts instruct, their conduct corresponds to the doctrine, and the years that follow belong on the doctrine's ledger.\n\nLenin, Stalin, Mao, and Pol Pot followed Karl Marx's explicit command in the *Communist Manifesto* to *\"abolish private property\"* and concentrate all credit, transport, agriculture, and manufacturing in a central state monopoly. One cannot rightly claim afterward, \"That was not authentic Marxism.\" The famine was not a departure from the doctrine; the famine was the direct consequence of executing those instructions in the physical world.\n\nAn ethic that explicitly leaves politics to another authority has no program to compare with a government's acts. The Gospels are the clearest case. Jesus says, *\"give to Caesar the things that are Caesar's, and to God the things that are God's\"* (Matthew 22:21), and, *\"My kingdom is not from this world\"* (John 18:36). Men who bear that religion's name later held power and used it, as the Inquisition did. Their conduct cannot be read off the doctrine. The question is then whether the political act was a direct result of the doctrine. It was, if the doctrine's texts command the act, or if rules that the doctrine's own recognized authorities derive from those texts command it. It was not, if no text commands it and the texts forbid it. An act of the second kind belongs to the men who performed it and not to the doctrine they named.\n\nA written rule of law is the simplest case, because its scope and its text are both explicit. Suppose a corrupt judge accepts a ten-thousand-dollar bribe to alter a verdict in an American courtroom. An American may legitimately state, *\"That judge was violating American constitutional law.\"* Article II, Section 4 of the Constitution makes bribery a ground for removal from office, 18 U.S.C. § 201 makes it a crime, and the judicial oath binds the judge to administer justice without respect to persons (28 U.S.C. § 453).\n\nPrinciple 5 requires the same test for every doctrine: the accuser's own, the defender's own, and the doctrine under examination alike.",
+      "at": "2026-11-24T03:04:16Z"
     },
     "call:civ/chapters/14_ch14.md:f1c85c31:voice/plain-style": {
       "disposition": "hold",

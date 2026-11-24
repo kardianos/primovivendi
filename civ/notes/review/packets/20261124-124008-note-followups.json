@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/chapters/11_ch11.md:188bade9:note/fewer-details",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "sentence",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 2849,
+      "byte_end": 3144,
+      "quote": "In seven villages of the Ormánság taken together, the population rose by five percent between 1870 and 1941, while the population of Hungary, with 1785 taken as 100, rose from 188 to 350 (Gábor Koloh, 2021, figures given in Róbert Bagdi's review, 2023). In six of the seven villages it fell.",
+      "problem": "Your note on the accepted split (call:civ/chapters/11_ch11.md:23fa049c:note/split-ormansag): \"Change is fine, but there are too many details. We could say it rose only slightly or in some cases dropped suddenly, all well below.\" The split is applied as accepted. This item reduces the details, in your words. (a) One sentence: rose only slightly, fell in six of the seven, while the population of Hungary rose to nearly twice what it had been. (b) The same without the dates or the comparison. (c) The smallest change: your sentence with the index dropped. The record says \"fell\", not \"dropped suddenly\": the six villages lost people over seventy years, and the one figure the review gives for a village is Lúzsok, from 393 to 242 (Bagdi's review, 2023, pp. 96 and 97). The citation is kept in each. The two sentences that follow, on Besence and on the statistical office's arithmetic, are not touched; say if they should be reduced as well.",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "one sentence, in your words",
+          "text": "In seven villages of the Ormánság the population rose only slightly between 1870 and 1941, and in six of the seven it fell, while the population of Hungary rose to nearly twice what it had been (Gábor Koloh, 2021, figures given in Róbert Bagdi's review, 2023)."
+        },
+        {
+          "id": "b",
+          "label": "without dates or comparison",
+          "text": "In seven villages of the Ormánság the population rose only slightly in those years, and in six of the seven it fell (Gábor Koloh, 2021, figures given in Róbert Bagdi's review, 2023)."
+        },
+        {
+          "id": "c",
+          "label": "smallest change",
+          "text": "In seven villages of the Ormánság taken together, the population rose by only five percent between 1870 and 1941, while the population of Hungary nearly doubled. In six of the seven villages it fell (Gábor Koloh, 2021, figures given in Róbert Bagdi's review, 2023)."
+        }
+      ]
+    }
+  ]
+}

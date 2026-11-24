@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/chapters/11_ch11.md:24a618ad:note/defense-line",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 23689,
+      "byte_end": 23917,
+      "quote": "**The Defense:** Strictly separate the *cannot* from the *will-not*, and terminate subsidies to the able-bodied dependent.\n\n#### 3. Technological and Civilizational Parasitism: Consuming the Fruit While Destroying the Foundation",
+      "problem": "Your note on the accepted item (call:civ/chapters/11_ch11.md:ec330947:note/individuals-only): \"As I'm re-reading it, I also think we should remove \"The Defense\". It is up to the society itself to decide what to do. Maybe to prevent abuse, they tell families to suport their own. Maybe they limit anything to 2 month per 4 years of work. Lots of options. Not our job, nor should we just blithly say \"separate them\".\" The accepted cut is applied. This item takes out the Defense paragraph of section 2, label and sentence, so that the book neither prescribes nor says only \"separate them\". (a) The paragraph is deleted, and the section ends with the description of the able-bodied man who treats public assistance as a permanent livelihood. (b) One paragraph replaces it and leaves the remedy to the society, in your two examples and without a number. (c) As b, with your figures as the example; the figures are yours and would be new to the book. The Defense line of section 1 (guard the schools) is not touched here. Say if it should go as well, and it will be a second item.",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "delete the paragraph",
+          "text": "#### 3. Technological and Civilizational Parasitism: Consuming the Fruit While Destroying the Foundation"
+        },
+        {
+          "id": "b",
+          "label": "remedy left to the society",
+          "text": "How a society keeps the *cannot* and the *will-not* apart is its own decision. It may require families to support their own, or it may set a limit and a term for public assistance.\n\n#### 3. Technological and Civilizational Parasitism: Consuming the Fruit While Destroying the Foundation"
+        },
+        {
+          "id": "c",
+          "label": "as b, with your figures",
+          "text": "How a society keeps the *cannot* and the *will-not* apart is its own decision. It may require families to support their own, or it may limit public assistance, for example to two months for every four years of work.\n\n#### 3. Technological and Civilizational Parasitism: Consuming the Fruit While Destroying the Foundation"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/05_ch05.md:b3f85695:note/ending-rephrased",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/05_ch05.md",
+      "byte_offset": 13318,
+      "byte_end": 13677,
+      "quote": "Reform constructed forms whenever a change of form genuinely helps people survive and build under current conditions. Respect discovered substance, because political decrees cannot alter physical or biological reality, and the cost of treating functional substance as arbitrary convention is paid in illicit markets, neglected children, and agricultural ruin.",
+      "problem": "Your note on the accepted cut (call:civ/chapters/05_ch05.md:9ca00707:note/cut-reinvention-test): \"Keep the ending, but the phrase \"Reform constructed forms\" is hard for me to parse. I understand it, it is good. We can reform and change what is actually constructions (paper money, electronic money.. but we keep money). It is fine, but see if you can rephrase or change order.\" The cut is applied and the ending is kept. The paragraph is now the last of the chapter, and the two terms it uses (constructed form, discovered substance) are still defined at the start of the chapter, so it stands on its own. (a) Rephrased, with your money example as one sentence. The example is the chapter's own (the paragraph on money, line 50). (b) Rephrased and in the other order, so that the chapter ends on money remaining. (c) The smallest change: the first phrase only, by one word.",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "rephrased, with the money example",
+          "text": "A constructed form may be changed whenever the new form genuinely helps people survive and build under current conditions. The form of money has changed from paper notes to electronic entries, and money has remained. Discovered substance must be respected, because political decrees cannot alter physical or biological reality, and the cost of treating functional substance as arbitrary convention is paid in illicit markets, neglected children, and agricultural ruin."
+        },
+        {
+          "id": "b",
+          "label": "rephrased, other order",
+          "text": "Discovered substance must be respected, because political decrees cannot alter physical or biological reality, and the cost of treating functional substance as arbitrary convention is paid in illicit markets, neglected children, and agricultural ruin. A constructed form may be changed whenever the new form genuinely helps people survive and build under current conditions. The form of money has changed from paper notes to electronic entries, and money has remained."
+        },
+        {
+          "id": "c",
+          "label": "smallest change",
+          "text": "A constructed form may be reformed whenever a change of form genuinely helps people survive and build under current conditions. Respect discovered substance, because political decrees cannot alter physical or biological reality, and the cost of treating functional substance as arbitrary convention is paid in illicit markets, neglected children, and agricultural ruin."
+        }
+      ]
+    }
+  ]
+}
