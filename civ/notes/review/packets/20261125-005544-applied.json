@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/01_ch01.md:d877e216:note/eighty-years",
+    "call:civ/chapters/01_ch01.md:8e70a9ed:note/drop-wet",
+    "call:civ/chapters/04_ch04.md:ebc0a667:note/eighty-years",
+    "call:civ/chapters/10_ch10.md:d0d2288b:note/eighty-years",
+    "call:civ/chapters/10_ch10.md:21fa0016:note/eighty-years",
+    "call:civ/chapters/13_ch13.md:8353b56f:note/eighty-years",
+    "call:civ/chapters/13_ch13.md:fcaf7936:note/results-not-intent",
+    "call:civ/chapters/14_ch14.md:7f96fa68:note/eighty-years",
+    "call:civ/chapters/14_ch14.md:fefacd9b:note/eighty-years"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/chapters/01_ch01.md:d877e216:note/eighty-years",
+      "path": "civ/chapters/01_ch01.md",
+      "ok": true,
+      "decision_at": "2026-11-25T00:52:20Z"
+    },
+    {
+      "id": "call:civ/chapters/01_ch01.md:8e70a9ed:note/drop-wet",
+      "path": "civ/chapters/01_ch01.md",
+      "ok": true,
+      "decision_at": "2026-11-25T00:51:41Z"
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:ebc0a667:note/eighty-years",
+      "path": "civ/chapters/04_ch04.md",
+      "ok": true,
+      "decision_at": "2026-11-25T00:52:28Z"
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:d0d2288b:note/eighty-years",
+      "path": "civ/chapters/10_ch10.md",
+      "ok": true,
+      "decision_at": "2026-11-25T00:52:42Z"
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:21fa0016:note/eighty-years",
+      "path": "civ/chapters/10_ch10.md",
+      "ok": true,
+      "decision_at": "2026-11-25T00:52:39Z"
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:8353b56f:note/eighty-years",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-25T00:51:46Z"
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:fcaf7936:note/results-not-intent",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-25T00:52:15Z"
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:7f96fa68:note/eighty-years",
+      "path": "civ/chapters/14_ch14.md",
+      "ok": true,
+      "decision_at": "2026-11-25T00:52:46Z"
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:fefacd9b:note/eighty-years",
+      "path": "civ/chapters/14_ch14.md",
+      "ok": true,
+      "decision_at": "2026-11-25T00:51:56Z"
+    }
+  ]
+}

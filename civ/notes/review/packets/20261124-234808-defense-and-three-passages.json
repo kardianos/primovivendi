@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/chapters/11_ch11.md:cdd92bf7:note/defense-guard-schools",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/11_ch11.md",
+      "byte_offset": 22658,
+      "byte_end": 22975,
+      "quote": "**The Defense:** Builders must never surrender the moral and intellectual formation of their children to ideological strangers. Guard the schools, boards, and curricula with the same vigilance with which one guards the household.\n\n#### 2. Social and Economic Parasitism: The Able *Will-Not* Hiding Behind the *Cannot*",
+      "problem": "The last \"The Defense:\" in the book. On 2026-11-24 you asked for it as a review item. You had the Defense of section 2 removed on your note (call:civ/chapters/11_ch11.md:ec330947:note/individuals-only): \"I also think we should remove \"The Defense\". It is up to the society itself to decide what to do. ... Lots of options. Not our job\". This one has two sentences of different kinds. The first is a household's duty toward its own children. The second names public institutions, the schools, boards, and curricula. What a society does about them is its own choice, and that is your reason for removing the other. (a) The paragraph is deleted, as in section 2, and the section ends with the paragraph on the teacher-training colleges. (b) The first sentence stays, without the label. (c) Both sentences stay, without the label. To keep the label as well, reject this item.",
+      "rule": "note/defense-guard-schools",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "delete the paragraph",
+          "text": "#### 2. Social and Economic Parasitism: The Able *Will-Not* Hiding Behind the *Cannot*"
+        },
+        {
+          "id": "b",
+          "label": "first sentence only, no label",
+          "text": "Builders must never surrender the moral and intellectual formation of their children to ideological strangers.\n\n#### 2. Social and Economic Parasitism: The Able *Will-Not* Hiding Behind the *Cannot*"
+        },
+        {
+          "id": "c",
+          "label": "both sentences, no label",
+          "text": "Builders must never surrender the moral and intellectual formation of their children to ideological strangers. Guard the schools, boards, and curricula with the same vigilance with which one guards the household.\n\n#### 2. Social and Economic Parasitism: The Able *Will-Not* Hiding Behind the *Cannot*"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:15e862f0:note/generational-criterion",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/13_ch13.md",
+      "byte_offset": 174,
+      "byte_end": 513,
+      "quote": "The first is **the Generational Criterion (70–100 years)**. Never evaluate a policy by its immediate sentiment during the first eighteen months of borrowed expenditure or revolutionary enthusiasm. Evaluate it by the condition of the country when the grandchildren inherit the resulting institutions and balance sheet seventy years later.",
+      "problem": "Your note on the cadence draft (call:civ/chapters/13_ch13.md:15e862f0:cadence/snap): \"The edit is bad because it introduces metaphorical lanugage and removes concrete language. ... We might need to re-evalutte this paragraph section as I'm re-reading it.\" The draft is rejected, and its rule will not be raised again on this passage. Your words (immediate sentiment, borrowed expenditure, revolutionary enthusiasm, institutions and balance sheet) are kept in every alternate. Read against the chapter, four things call for a decision. 1. The name says 70 to 100 years, and the sentence says \"seventy years later\". 2. The cases run 25 years (Singapore; 59 with the fertility figures), 26 (Russia), and 5 (Iran), so by this criterion their verdicts are early. 3. \"Eighteen months\" is in no source saved for the book, and no case turns on it. 4. The book gives the replacement span in three forms: \"seventy or eighty years\" (01_ch01.md:41), \"roughly eighty to a hundred years\" (10_ch10.md:34), and here. \"Never\" is left as you wrote it: the sentence forbids judging by sentiment, and the chapter judges by condition. (a) The sentence takes the range of its own name. (b) As a, and one sentence says the cases are early readings. (c) As b, and \"the first eighteen months\" becomes \"the first months\". Left to you: whether the eighteen months has a source; and the two other passages and the \"seventy-year replacement horizon\" of line 67, which are outside this quote.",
+      "rule": "note/generational-criterion",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the range of the name, in the sentence",
+          "text": "The first is **the Generational Criterion (70–100 years)**. Never evaluate a policy by its immediate sentiment during the first eighteen months of borrowed expenditure or revolutionary enthusiasm. Evaluate it by the condition of the country when the grandchildren inherit the resulting institutions and balance sheet seventy to a hundred years later."
+        },
+        {
+          "id": "b",
+          "label": "as a, and the cases called early readings",
+          "text": "The first is **the Generational Criterion (70–100 years)**. Never evaluate a policy by its immediate sentiment during the first eighteen months of borrowed expenditure or revolutionary enthusiasm. Evaluate it by the condition of the country when the grandchildren inherit the resulting institutions and balance sheet seventy to a hundred years later. The cases below are read over shorter spans, so their verdicts are early ones."
+        },
+        {
+          "id": "c",
+          "label": "as b, without the unsourced figure",
+          "text": "The first is **the Generational Criterion (70–100 years)**. Never evaluate a policy by its immediate sentiment during the first months of borrowed expenditure or revolutionary enthusiasm. Evaluate it by the condition of the country when the grandchildren inherit the resulting institutions and balance sheet seventy to a hundred years later. The cases below are read over shorter spans, so their verdicts are early ones."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/09_ch09.md:b5f9cf6f:note/refusing-authority-priority",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/09_ch09.md",
+      "byte_offset": 10382,
+      "byte_end": 10899,
+      "quote": "If conscientious, self-governed citizens refuse to exercise magistracy and institutional authority out of a reluctance to judge others, sovereign power does not cease to exist. It remains vacant only until the most unscrupulous faction, bureaucrat, or criminal seizes that jurisdiction and exercises it over the households of the conscientious. Refusing to exercise authority within one's proper scope is not humility; it is a dereliction of duty that surrenders governance to the least principled members of society.",
+      "problem": "Your note on the cadence draft (call:civ/chapters/09_ch09.md:b5f9cf6f:cadence/snap): \"It is more then just \"the bench\". It is rarely the worst man in town. That is spotted quickly. It is about priority, capability directed to what exactly?\" The draft is rejected, and its rule will not be raised again here. Your first point stands against the draft alone: it narrowed the passage to a judge's office. Your second point stands against the printed sentence as well, which says the vacancy is taken by \"the most unscrupulous faction, bureaucrat, or criminal\" and \"the least principled members of society\". Your words magistracy, institutional authority, jurisdiction, and dereliction of duty are kept. (a) Only the two claims about the worst are removed, and nothing is put in their place. (b) Priority is said in four sentences. (c) As b, without the sentence that says where the conscientious direct their capability. My reading of your question, to confirm or correct: the conscientious rank governing below their households and work; whoever ranks it first takes power; he need not be the worst man in town. Left to you: what the capability is directed to; and whether the refusal in the first sentence is reluctance to judge, as printed, or priority.",
+      "rule": "note/refusing-authority-priority",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the two claims about the worst removed",
+          "text": "If conscientious, self-governed citizens refuse to exercise magistracy and institutional authority out of a reluctance to judge others, sovereign power does not cease to exist. It remains vacant only until someone else takes that jurisdiction and exercises it over the households of the conscientious. Refusing to exercise authority within one's proper scope is not humility; it is a dereliction of duty."
+        },
+        {
+          "id": "b",
+          "label": "as a, and priority said",
+          "text": "If conscientious, self-governed citizens refuse to exercise magistracy and institutional authority out of a reluctance to judge others, sovereign power does not cease to exist. It remains vacant only until someone gives governing a higher priority than the conscientious do. The worst man in town is spotted quickly, so he is rarely the one who takes power. The man who takes power directs his capability to winning and keeping it. The conscientious direct theirs to their own households and work. Refusing to exercise authority within one's proper scope is not humility; it is a dereliction of duty."
+        },
+        {
+          "id": "c",
+          "label": "as b, shorter",
+          "text": "If conscientious, self-governed citizens refuse to exercise magistracy and institutional authority out of a reluctance to judge others, sovereign power does not cease to exist. It remains vacant only until someone gives governing a higher priority than they do. The worst man in town is spotted quickly, so he is rarely the one who takes power. The man who takes power directs his capability to winning and keeping it. Refusing to exercise authority within one's proper scope is not humility; it is a dereliction of duty."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:4f07b9b8:note/shinto-as-a-whole",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/12_ch12.md",
+      "byte_offset": 28795,
+      "byte_end": 30032,
+      "quote": "#### D. Shinto: Strong on Continuity and Beauty, Vulnerable When Bound to Blood Mysticism\n\nShinto aligns strongly with several of the virtues. It fosters a strong cultural ethic of physical cleanliness, care for tools and craft (Virtues 2 and 3), reverence for natural and architectural beauty, and deep generational gratitude connecting living households to their ancestors (*kami*) and descendants, the living heeding what their elders handed down and forming those who come after. In a Japanese workshop or train station, the practical results of those habits are evident.\n\nIts vulnerability appeared when it was detached from Principle 1 and Principle 5. Traditional Shinto is a particularist folk religion without a universal doctrine of correspondence truth or universal human nature. Between 1890 and 1945, the Meiji and Showa militarists fused it into **State Shinto**, teaching as state dogma that the Japanese Emperor was a living descendant of the sun goddess and that non-Japanese peoples occupied an inferior ontological tier. That state creed silenced internal rational dissent (violating Principle 1) and licensed atrocities against conquered neighbors (violating Principle 5), culminating in the catastrophe of 1945.\n\n---",
+      "problem": "Your note on the cadence draft (call:civ/chapters/12_ch12.md:060b318e:cadence/snap): \"Did these really violate the principles? They made other enemies, but I question this interpretation. We should evalutate Shinto as a whole before we look to this. It as runinous.\" On 2026-11-24 you wrote \"I might suggest we remove shinto\", and asked for basic research and for ways to view Shinto from the framework. The passage cites no source. Five documents and three articles were read today (note 39, sections 4 and 5). None is saved under ext-ref/. What they show: in 1871 the government made the shrines public institutions, and in 1882 it separated them from the Shinto sects; the Constitution of 1889 made the Emperor's unbroken line the basis of the state, declared him sacred and inviolable, and gave subjects freedom of religious belief; the state classed its own shrine rites as non-religious, so they fell outside that freedom; the Occupation ended this in December 1945. Among the texts read, the doctrine that the Japanese are superior to other peoples is named only by the Occupation's directive and by the Emperor's rescript of 1 January 1946, which calls it false. Six ways to view Shinto from the framework, with the passage of the book that supplies each, are in note 39, section 6. (a) The section is removed. Shinto is named in no other chapter and not in the sheet. (b) The view of the law's scope (Principle 5), which is your own verdict in civ/notes/02_book1_4.md:103. The heading and the first paragraph are kept, and the second is replaced with the documents. (c) As b, in six sentences. Left to you: the view; and whether \"It as runinous\" meant State Shinto or the draft.",
+      "rule": "note/shinto-as-a-whole",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "remove the section",
+          "text": "---"
+        },
+        {
+          "id": "b",
+          "label": "the law's scope, with the steps dated",
+          "text": "#### D. Shinto: Strong on Continuity and Beauty, Vulnerable When Bound to Blood Mysticism\n\nShinto aligns strongly with several of the virtues. It fosters a strong cultural ethic of physical cleanliness, care for tools and craft (Virtues 2 and 3), reverence for natural and architectural beauty, and deep generational gratitude connecting living households to their ancestors (*kami*) and descendants, the living heeding what their elders handed down and forming those who come after. In a Japanese workshop or train station, the practical results of those habits are evident.\n\nThe *Nihongi* of 720 makes the first Emperor a descendant of the sun goddess (W. G. Aston's translation, 1896). Shinto's defect appeared when the state made that descent the basis of the law. In 1871 the government made the shrines public institutions. In 1882 it separated them from the Shinto sects (Inoue Nobutaka, *Japanese Journal of Religious Studies*, 2002). The Constitution of 1889 provided that the Empire \"shall be reigned over and governed by a line of Emperors unbroken for ages eternal\" (art. 1). It declared the Emperor \"sacred and inviolable\" (art. 3). It gave Japanese subjects \"freedom of religious belief\" (art. 28). The state classed its own shrine rites as rites of the nation and not as a religion, so that they fell outside that freedom. The Emperor stood in a scope of his own, above the law (Chapter 9). The defect is not a lack of procedure, but where the scope was drawn (Principle 5). The Allied Occupation ended the arrangement by its directive of 15 December 1945.\n\n---"
+        },
+        {
+          "id": "c",
+          "label": "as b, in six sentences",
+          "text": "#### D. Shinto: Strong on Continuity and Beauty, Vulnerable When Bound to Blood Mysticism\n\nShinto aligns strongly with several of the virtues. It fosters a strong cultural ethic of physical cleanliness, care for tools and craft (Virtues 2 and 3), reverence for natural and architectural beauty, and deep generational gratitude connecting living households to their ancestors (*kami*) and descendants, the living heeding what their elders handed down and forming those who come after. In a Japanese workshop or train station, the practical results of those habits are evident.\n\nThe *Nihongi* of 720 makes the first Emperor a descendant of the sun goddess (W. G. Aston's translation, 1896). The Constitution of 1889 provided for \"a line of Emperors unbroken for ages eternal\" (art. 1). It gave Japanese subjects \"freedom of religious belief\" (art. 28). The state classed its own shrine rites as rites of the nation and not as a religion, so that they fell outside that freedom (Inoue Nobutaka, *Japanese Journal of Religious Studies*, 2002). The defect is not a lack of procedure, but where the scope was drawn (Principle 5). The Allied Occupation ended the arrangement by its directive of 15 December 1945.\n\n---"
+        }
+      ]
+    }
+  ]
+}

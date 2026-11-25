@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/chapters/13_ch13.md:fcaf7936:note/results-not-intent",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/13_ch13.md",
+      "byte_offset": 174,
+      "byte_end": 506,
+      "quote": "The first is **the Generational Criterion (80 years)**. Never evaluate a policy by its immediate sentiment during the first eighteen months of borrowed expenditure or revolutionary enthusiasm. Evaluate it by the condition of the country when the grandchildren inherit the resulting institutions and balance sheet eighty years later.",
+      "problem": "Your instruction of 2026-11-25, in conversation: \"We can change that slightly and make it more precise. Don't give a timeline. The goal is to judge based on the results, not the intent. You may have voted to bring a high speed rail in, but if all money is spent and no usable track is produced in any reasonable timeframe, then that is the result not only of the law, but also of the environment it is enacted in and who is actually implementing it. That needs to be re-worded\". (a) The slightest change: \"the first eighteen months\" becomes \"a period\", the intent is named, and two sentences say what a result includes. Your words immediate sentiment, borrowed expenditure, and revolutionary enthusiasm stay. (b) The middle is one statement, intent against results, and the clause on sentiment is gone. (c) As b, with your example in two sentences and no time given. In every alternate the name and the last sentence are as applied this morning, except that the last sentence now names the policy, because other nouns stand before it.",
+      "rule": "note/results-not-intent",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "no timeline; your clause kept",
+          "text": "The first is **the Generational Criterion (80 years)**. Never evaluate a policy by the intent behind it or by its immediate sentiment during a period of borrowed expenditure or revolutionary enthusiasm. A result comes from the policy, from the country it was enacted in, and from the people who carried it out. The three are not judged apart. Evaluate the policy by the condition of the country when the grandchildren inherit the resulting institutions and balance sheet eighty years later."
+        },
+        {
+          "id": "b",
+          "label": "intent against results",
+          "text": "The first is **the Generational Criterion (80 years)**. Never evaluate a policy by its intent. A result comes from the policy, from the country it was enacted in, and from the people who carried it out. The three are not judged apart. Evaluate the policy by the condition of the country when the grandchildren inherit the resulting institutions and balance sheet eighty years later."
+        },
+        {
+          "id": "c",
+          "label": "as b, with your example",
+          "text": "The first is **the Generational Criterion (80 years)**. Never evaluate a policy by its intent. You may have voted for high-speed rail. If the money is spent and no usable track exists, that is the result of the policy, of the country the policy was enacted in, and of the people who carried it out. The three are not judged apart. Evaluate the policy by the condition of the country when the grandchildren inherit the resulting institutions and balance sheet eighty years later."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/01_ch01.md:d877e216:note/eighty-years",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/01_ch01.md",
+      "byte_offset": 6853,
+      "byte_end": 6940,
+      "quote": "Within seventy or eighty years, every adult currently operating our world will be dead.",
+      "problem": "Your instruction of 2026-11-25, in conversation: \"RE 70. Make everything just say 80 flat as a generational placeholder, no 70 or 70-100.\" This sentence gives the span as \"seventy or eighty years\". (a) \"Within eighty years\". The rest of the sentence is yours and is unchanged.",
+      "rule": "note/eighty-years",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "eighty years",
+          "text": "Within eighty years, every adult currently operating our world will be dead."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/04_ch04.md:ebc0a667:note/eighty-years",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/04_ch04.md",
+      "byte_offset": 10568,
+      "byte_end": 10692,
+      "quote": "We have roughly seventy or eighty years in this life, some twenty-five thousand days, before our organs wear out and we die.",
+      "problem": "Your instruction of 2026-11-25, in conversation: \"RE 70. Make everything just say 80 flat as a generational placeholder, no 70 or 70-100.\" This sentence gives a life as \"seventy or eighty years, some twenty-five thousand days\". The count of days follows from the count of years: eighty years are 29,219 days, and seventy are 25,567. (a) \"roughly eighty years in this life, some twenty-nine thousand days\".",
+      "rule": "note/eighty-years",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "eighty years, twenty-nine thousand days",
+          "text": "We have roughly eighty years in this life, some twenty-nine thousand days, before our organs wear out and we die."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:21fa0016:note/eighty-years",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/10_ch10.md",
+      "byte_offset": 700,
+      "byte_end": 2909,
+      "quote": "Now project the demographic arithmetic forward **seventy to eighty years**.\n\nWhat does that prosperous city look like in Year 75?\n\nFor the first twenty years, the city actually appears *wealthier* in financial statistics, because adults in their thirties and forties who are not expending money or hours on infants, larger dwellings, school tuition, and family vehicles have large disposable incomes to spend on restaurants, travel, luxury apartments, and pets, while both spouses work sixty hours a week. Economists analyzing only ten-year gross domestic product figures applaud the expansion.\n\nBy **Year 35**, the primary schools and universities begin closing their doors. A couple with 0.8 children has 0.32 grandchildren: every 100 citizens in the grandparents' generation has been replaced by 40 in the children's generation and 16 in the grandchildren's generation, an 84 percent population decline in two generations.\n\nBy **Year 55**, the median age of the city exceeds sixty. Across the municipal water plant, the electrical grid substation, and the hospital operating room, no thirty-year-old apprentices exist to replace retiring hands. The master electrician climbing the ladder to repair a high-voltage transformer in a winter storm is seventy-two years old. The pension funds, government bonds, and retirement savings accounts that the childless sixty-five-year-olds carefully accumulated prove to be unredeemable paper or electronic ledger entries, because currency cannot bake bread, tend an invalid, or roof a house. Money is only a claim upon the current labor of young, working hands; if nobody raised and trained those young working hands thirty years ago, there is nobody in the bakery or the hospital to honor the claim at any price.\n\nFinally, by **Year 75**, a neighboring civilization or migrant population that *did* raise three or four children per family, and that brings its own laws, language, and religion, simply crosses the unguarded border or purchases the vacant properties at auction. The city's constitution, libraries, scientific journals, and courts become historical artifacts studied by another people's grandchildren.\n\nThat is **the seventy-year replacement horizon**.",
+      "problem": "Your instruction of 2026-11-25, in conversation: \"RE 70. Make everything just say 80 flat as a generational placeholder, no 70 or 70-100.\" This passage gives the span twice: \"seventy to eighty years\" and \"the seventy-year replacement horizon\". The story of the city also ends at Year 75, in two places. (a) All four become eighty, so the story ends where the horizon ends. (b) Only the two sentences that name the horizon change, and Year 75 stays. The years 20, 35, and 55 inside the story are not the horizon and do not change.",
+      "rule": "note/eighty-years",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "eighty in all four places",
+          "text": "Now project the demographic arithmetic forward **eighty years**.\n\nWhat does that prosperous city look like in Year 80?\n\nFor the first twenty years, the city actually appears *wealthier* in financial statistics, because adults in their thirties and forties who are not expending money or hours on infants, larger dwellings, school tuition, and family vehicles have large disposable incomes to spend on restaurants, travel, luxury apartments, and pets, while both spouses work sixty hours a week. Economists analyzing only ten-year gross domestic product figures applaud the expansion.\n\nBy **Year 35**, the primary schools and universities begin closing their doors. A couple with 0.8 children has 0.32 grandchildren: every 100 citizens in the grandparents' generation has been replaced by 40 in the children's generation and 16 in the grandchildren's generation, an 84 percent population decline in two generations.\n\nBy **Year 55**, the median age of the city exceeds sixty. Across the municipal water plant, the electrical grid substation, and the hospital operating room, no thirty-year-old apprentices exist to replace retiring hands. The master electrician climbing the ladder to repair a high-voltage transformer in a winter storm is seventy-two years old. The pension funds, government bonds, and retirement savings accounts that the childless sixty-five-year-olds carefully accumulated prove to be unredeemable paper or electronic ledger entries, because currency cannot bake bread, tend an invalid, or roof a house. Money is only a claim upon the current labor of young, working hands; if nobody raised and trained those young working hands thirty years ago, there is nobody in the bakery or the hospital to honor the claim at any price.\n\nFinally, by **Year 80**, a neighboring civilization or migrant population that *did* raise three or four children per family, and that brings its own laws, language, and religion, simply crosses the unguarded border or purchases the vacant properties at auction. The city's constitution, libraries, scientific journals, and courts become historical artifacts studied by another people's grandchildren.\n\nThat is **the eighty-year replacement horizon**."
+        },
+        {
+          "id": "b",
+          "label": "the two horizon sentences only",
+          "text": "Now project the demographic arithmetic forward **eighty years**.\n\nWhat does that prosperous city look like in Year 75?\n\nFor the first twenty years, the city actually appears *wealthier* in financial statistics, because adults in their thirties and forties who are not expending money or hours on infants, larger dwellings, school tuition, and family vehicles have large disposable incomes to spend on restaurants, travel, luxury apartments, and pets, while both spouses work sixty hours a week. Economists analyzing only ten-year gross domestic product figures applaud the expansion.\n\nBy **Year 35**, the primary schools and universities begin closing their doors. A couple with 0.8 children has 0.32 grandchildren: every 100 citizens in the grandparents' generation has been replaced by 40 in the children's generation and 16 in the grandchildren's generation, an 84 percent population decline in two generations.\n\nBy **Year 55**, the median age of the city exceeds sixty. Across the municipal water plant, the electrical grid substation, and the hospital operating room, no thirty-year-old apprentices exist to replace retiring hands. The master electrician climbing the ladder to repair a high-voltage transformer in a winter storm is seventy-two years old. The pension funds, government bonds, and retirement savings accounts that the childless sixty-five-year-olds carefully accumulated prove to be unredeemable paper or electronic ledger entries, because currency cannot bake bread, tend an invalid, or roof a house. Money is only a claim upon the current labor of young, working hands; if nobody raised and trained those young working hands thirty years ago, there is nobody in the bakery or the hospital to honor the claim at any price.\n\nFinally, by **Year 75**, a neighboring civilization or migrant population that *did* raise three or four children per family, and that brings its own laws, language, and religion, simply crosses the unguarded border or purchases the vacant properties at auction. The city's constitution, libraries, scientific journals, and courts become historical artifacts studied by another people's grandchildren.\n\nThat is **the eighty-year replacement horizon**."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/10_ch10.md:d0d2288b:note/eighty-years",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/10_ch10.md",
+      "byte_offset": 3501,
+      "byte_end": 3691,
+      "quote": "Within roughly eighty to a hundred years, 100 percent of the human beings currently reading this book, administering the courts, piloting the aircraft, and cultivating the land will be dead.",
+      "problem": "Your instruction of 2026-11-25, in conversation: \"RE 70. Make everything just say 80 flat as a generational placeholder, no 70 or 70-100.\" This sentence gives a span of \"eighty to a hundred years\". It is not a seventy, so it may be meant to stay. With eighty years flat, \"100 percent\" cannot stay, because a child reading the book now may be alive then. (a) \"Within roughly eighty years, almost every human being\". Reject the item to keep the sentence as it is.",
+      "rule": "note/eighty-years",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "eighty years; almost every",
+          "text": "Within roughly eighty years, almost every human being currently reading this book, administering the courts, piloting the aircraft, and cultivating the land will be dead."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:7f96fa68:note/eighty-years",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/14_ch14.md",
+      "byte_offset": 18465,
+      "byte_end": 18591,
+      "quote": "You repay the grandfather who instructed you by forming the grandchildren who will inhabit this community seventy years hence.",
+      "problem": "Your instruction of 2026-11-25, in conversation: \"RE 70. Make everything just say 80 flat as a generational placeholder, no 70 or 70-100.\" This sentence gives the span as \"seventy years hence\". (a) \"eighty years hence\".",
+      "rule": "note/eighty-years",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "eighty years hence",
+          "text": "You repay the grandfather who instructed you by forming the grandchildren who will inhabit this community eighty years hence."
+        }
+      ]
+    }
+  ]
+}

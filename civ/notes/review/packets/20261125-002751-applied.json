@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/09_ch09.md:b5f9cf6f:note/refusing-authority-priority",
+    "call:civ/chapters/11_ch11.md:cdd92bf7:note/defense-guard-schools",
+    "call:civ/chapters/12_ch12.md:4f07b9b8:note/shinto-as-a-whole"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/chapters/09_ch09.md:b5f9cf6f:note/refusing-authority-priority",
+      "path": "civ/chapters/09_ch09.md",
+      "ok": true,
+      "decision_at": "2026-11-25T00:19:39Z"
+    },
+    {
+      "id": "call:civ/chapters/11_ch11.md:cdd92bf7:note/defense-guard-schools",
+      "path": "civ/chapters/11_ch11.md",
+      "ok": true,
+      "decision_at": "2026-11-25T00:17:30Z"
+    },
+    {
+      "id": "call:civ/chapters/12_ch12.md:4f07b9b8:note/shinto-as-a-whole",
+      "path": "civ/chapters/12_ch12.md",
+      "ok": true,
+      "decision_at": "2026-11-25T00:23:28Z"
+    }
+  ]
+}

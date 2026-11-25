@@ -8,7 +8,7 @@ We come into this world naked. Beneath us stands reality. Anything we build is t
 
 Every person inherits a working world and is born unable to keep it. Nothing we build keeps itself, and the people who know how to keep it die. Civilization is the technology that keeps every other technology working. Books and machines hold part of it, but they pass nothing on by themselves. Each generation must learn again to read the old books, to run the machines, to reason soundly, and to think beyond the present moment, which no child does by nature. That learning takes place in ordinary lives, wherever a person tells the truth, does good work, raises children, and repairs what was handed down to him.
 
-A newborn on the bare ground is wet, naked, and toothless. He possesses no language, no mathematics, no agriculture, and no knowledge of which berries are nourishing and which are poison. A foal can stand and walk within an hour of birth. A human infant cannot lift his own head, find food, defend himself against a stray dog, or keep himself warm through the night. Alone on the bare earth, he dies of cold or thirst within two days.
+A newborn on the bare ground is naked and toothless. He possesses no language, no mathematics, no agriculture, and no knowledge of which berries are nourishing and which are poison. A foal can stand and walk within an hour of birth. A human infant cannot lift his own head, find food, defend himself against a stray dog, or keep himself warm through the night. Alone on the bare earth, he dies of cold or thirst within two days.
 
 Yet twenty or thirty years later, the same child can board an airliner, cross an ocean in a few hours, and step off on another continent while drinking hot coffee.
 
@@ -40,7 +40,7 @@ A decisive fact governs every technology we have just named: nothing keeps itsel
 
 Leave a freshly plowed farm untouched for five years, and weeds, brush, and forest reclaim the field while the irrigation ditches silt shut. Leave a well-built house unmaintained for ten winters, and one lifted shingle lets autumn rain rot the roof beam until the ceiling collapses. Leave a complex machine, such as an electrical grid, a semiconductor foundry, or a fleet of commercial aircraft, without trained engineers and mechanics for a single generation, and the bearings seize, the transformers fail, and corrosion reduces the machinery to scrap metal.
 
-Moreover, the builders themselves are subject to biological limits. Every human engineer, farmer, mason, judge, and parent who knows how to build and run these systems is mortal. Within seventy or eighty years, every adult currently operating our world will be dead. And every replacement human being enters the world just as naked and ignorant of calculus, metallurgy, and self-control as an infant born ten thousand years ago.
+Moreover, the builders themselves are subject to biological limits. Every human engineer, farmer, mason, judge, and parent who knows how to build and run these systems is mortal. Within eighty years, every adult currently operating our world will be dead. And every replacement human being enters the world just as naked and ignorant of calculus, metallurgy, and self-control as an infant born ten thousand years ago.
 
 Therefore, no mechanical tool, no farm, no legal code, and no library can keep itself alive across time. Every specific technology depends upon a deeper, prerequisite technology: a foundational method that transmits human life itself, together with the disciplined capacity to keep and build, from one generation to the next.
 
@@ -425,7 +425,7 @@ Do not design arrangements that require people to be angels; they will not be. D
 
 ### 3. Limited: Finite Reach, Cognitive Circles, and the Need for Systems
 
-We are finite in every dimension of our existence. We have roughly seventy or eighty years in this life, some twenty-five thousand days, before our organs wear out and we die. There are only twenty-four hours in a day; after sixteen hours of focused labor without sleep, an engineer's or a surgeon's error rate climbs precipitously, and an hour spent in one place cannot simultaneously be spent fifty miles away. Our knowledge and intelligence are bounded in the same way. No human mind can master every craft, verify every historical record from scratch, or hold the tolerances of all four million parts of a wide-body airliner in working memory at once, and everyone reasons poorly when exhausted, frightened, angry, or flattered.
+We are finite in every dimension of our existence. We have roughly eighty years in this life, some twenty-nine thousand days, before our organs wear out and we die. There are only twenty-four hours in a day; after sixteen hours of focused labor without sleep, an engineer's or a surgeon's error rate climbs precipitously, and an hour spent in one place cannot simultaneously be spent fifty miles away. Our knowledge and intelligence are bounded in the same way. No human mind can master every craft, verify every historical record from scratch, or hold the tolerances of all four million parts of a wide-body airliner in working memory at once, and everyone reasons poorly when exhausted, frightened, angry, or flattered.
 
 We are finite in relational capacity as well. Anthropological and cognitive studies of human social networks find a limit, and they find it in layers. Dunbar's primate comparison predicted a human group of about **150** people who can be known as a stable network, with a wide band around that figure (Dunbar, *Journal of Human Evolution*, 1992; *Behavioral and Brain Sciences*, 1993). Later counts of actual networks find layers at about **5** (the support clique), about **15** (sympathy and crisis), about **50** (regular working or kin familiarity), and about **150** (personal knowledge of character). The same series runs outward to about **500** acquaintances and about **1,500** recognizable faces (Zhou, Sornette, Hill, and Dunbar, 2005; Dunbar, 2020). These numbers are approximations, not a statute. Beyond them we do not know people as concrete individuals whose habits we can see. We know them as statistics or abstractions.
 
@@ -1200,7 +1200,7 @@ What happens when conscientious people accept that claim and refuse to exercise 
 
 In every human association larger than a few individuals, governing decisions must be enforced: someone will determine whether thieves are prosecuted or released, whether children are taught sound instruction or partisan dogma, and whether public revenue maintains civic infrastructure or enriches favored factions.
 
-If conscientious, self-governed citizens refuse to exercise magistracy and institutional authority out of a reluctance to judge others, sovereign power does not cease to exist. It remains vacant only until the most unscrupulous faction, bureaucrat, or criminal seizes that jurisdiction and exercises it over the households of the conscientious. Refusing to exercise authority within one's proper scope is not humility; it is a dereliction of duty that surrenders governance to the least principled members of society.
+If conscientious, self-governed citizens refuse to exercise magistracy and institutional authority out of a reluctance to judge others, sovereign power does not cease to exist. It remains vacant only until someone else takes that jurisdiction and exercises it over the households of the conscientious. Refusing to exercise authority within one's proper scope is not humility; it is a dereliction of duty.
 
 The natural model of **sound authority** appears in the foundational human scope: the loving father and mother raising a young child.
 
@@ -1450,9 +1450,9 @@ Suppose the citizens living today align with truth, take ownership of their work
 
 There is only one omission: the adults of this prosperous city decide that raising children is too costly, too disruptive, and too inconvenient for their personal leisure and career schedules, so they have an average of 0.8 children per woman.
 
-Now project the demographic arithmetic forward **seventy to eighty years**.
+Now project the demographic arithmetic forward **eighty years**.
 
-What does that prosperous city look like in Year 75?
+What does that prosperous city look like in Year 80?
 
 For the first twenty years, the city actually appears *wealthier* in financial statistics, because adults in their thirties and forties who are not expending money or hours on infants, larger dwellings, school tuition, and family vehicles have large disposable incomes to spend on restaurants, travel, luxury apartments, and pets, while both spouses work sixty hours a week. Economists analyzing only ten-year gross domestic product figures applaud the expansion.
 
@@ -1460,9 +1460,9 @@ By **Year 35**, the primary schools and universities begin closing their doors. 
 
 By **Year 55**, the median age of the city exceeds sixty. Across the municipal water plant, the electrical grid substation, and the hospital operating room, no thirty-year-old apprentices exist to replace retiring hands. The master electrician climbing the ladder to repair a high-voltage transformer in a winter storm is seventy-two years old. The pension funds, government bonds, and retirement savings accounts that the childless sixty-five-year-olds carefully accumulated prove to be unredeemable paper or electronic ledger entries, because currency cannot bake bread, tend an invalid, or roof a house. Money is only a claim upon the current labor of young, working hands; if nobody raised and trained those young working hands thirty years ago, there is nobody in the bakery or the hospital to honor the claim at any price.
 
-Finally, by **Year 75**, a neighboring civilization or migrant population that *did* raise three or four children per family, and that brings its own laws, language, and religion, simply crosses the unguarded border or purchases the vacant properties at auction. The city's constitution, libraries, scientific journals, and courts become historical artifacts studied by another people's grandchildren.
+Finally, by **Year 80**, a neighboring civilization or migrant population that *did* raise three or four children per family, and that brings its own laws, language, and religion, simply crosses the unguarded border or purchases the vacant properties at auction. The city's constitution, libraries, scientific journals, and courts become historical artifacts studied by another people's grandchildren.
 
-That is **the seventy-year replacement horizon**.
+That is **the eighty-year replacement horizon**.
 
 And it demonstrates why no list of personal virtues can be complete until it bridges the interval from one mortal lifespan to the next. From Principles 1, 2, 3, and 4, we derive the sixth and seventh Virtues of Civilization:
 
@@ -1475,7 +1475,7 @@ Both virtues require detailed analysis.
 
 ### 1. Virtue 6: Have Children
 
-**Have children** is an explicit, foundational virtue of civilization rather than a private preference like stamp-collecting or golf because of three invariable facts of reality. First, every human being is mortal (Principles 1 and 2). Within roughly eighty to a hundred years, 100 percent of the human beings currently reading this book, administering the courts, piloting the aircraft, and cultivating the land will be dead. Second, civilization cannot be stored on inanimate storage media or stone monuments (Principle 3). Suppose a library of engineering textbooks sits in an empty city with no living human minds to read, practice, and execute them. It is merely stacked paper awaiting decay, because civilization exists only within living human beings. Third, replacement requires slightly more than two children per woman (approximately 2.1 under modern low-mortality conditions) across the population as a whole. Keeping and building life requires healthy, well-formed families raising two, three, four, or more children so that the population continues with vigor.
+**Have children** is an explicit, foundational virtue of civilization rather than a private preference like stamp-collecting or golf because of three invariable facts of reality. First, every human being is mortal (Principles 1 and 2). Within roughly eighty years, almost every human being currently reading this book, administering the courts, piloting the aircraft, and cultivating the land will be dead. Second, civilization cannot be stored on inanimate storage media or stone monuments (Principle 3). Suppose a library of engineering textbooks sits in an empty city with no living human minds to read, practice, and execute them. It is merely stacked paper awaiting decay, because civilization exists only within living human beings. Third, replacement requires slightly more than two children per woman (approximately 2.1 under modern low-mortality conditions) across the population as a whole. Keeping and building life requires healthy, well-formed families raising two, three, four, or more children so that the population continues with vigor.
 
 #### Aiming at Full Life, Not Grim Demographic Duty
 
@@ -1712,8 +1712,6 @@ The clearest illustration is a rule that forbids the children on whom continuanc
 
 If the movements that hold such an ideal had to populate their own island by raising their own children from infancy, they would become extinct in a single generation. Such movements continue only by drawing upon outsiders. Households that do not hold the ideal bear, feed, and form the children, and the movement recruits those children at school age. The capture runs through the teacher-training colleges, the school curricula, the youth media, and the universities, so that the builders' children are formed against the household that raised them.
 
-**The Defense:** Builders must never surrender the moral and intellectual formation of their children to ideological strangers. Guard the schools, boards, and curricula with the same vigilance with which one guards the household.
-
 #### 2. Social and Economic Parasitism: The Able *Will-Not* Hiding Behind the *Cannot*
 
 In every society, there is a small number of people who **genuinely cannot** support themselves through no fault of their own, including the severely disabled from birth, the gravely injured, and the frail elderly without kin. A sound society willingly supports those genuine *cannots* through family, charity, and scoped reserves.
@@ -1925,12 +1923,6 @@ Yet Buddhism cannot serve as a self-sufficient root for civilization. Its founda
 
 Judged on its own terms, an ideal that is the root of a civilization has to be able to sustain itself when people actually attain it. If every member attains the highest Buddhist ideal of celibate monastic non-attachment, no one cultivates the fields, no one manufactures tools, no one defends the frontier, and no children are born. The society ends within one generation. Continuance then depends on people who do not attain the ideal, or who set it aside. Jain mendicants meet the same test: the highest form does not pick the fruit or till the soil, and lay households do that work so the mendicant can keep the rule. A root that survives only by being broken is not a root.
 
-#### D. Shinto: Strong on Continuity and Beauty, Vulnerable When Bound to Blood Mysticism
-
-Shinto aligns strongly with several of the virtues. It fosters a strong cultural ethic of physical cleanliness, care for tools and craft (Virtues 2 and 3), reverence for natural and architectural beauty, and deep generational gratitude connecting living households to their ancestors (*kami*) and descendants, the living heeding what their elders handed down and forming those who come after. In a Japanese workshop or train station, the practical results of those habits are evident.
-
-Its vulnerability appeared when it was detached from Principle 1 and Principle 5. Traditional Shinto is a particularist folk religion without a universal doctrine of correspondence truth or universal human nature. Between 1890 and 1945, the Meiji and Showa militarists fused it into **State Shinto**, teaching as state dogma that the Japanese Emperor was a living descendant of the sun goddess and that non-Japanese peoples occupied an inferior ontological tier. That state creed silenced internal rational dissent (violating Principle 1) and licensed atrocities against conquered neighbors (violating Principle 5), culminating in the catastrophe of 1945.
-
 ---
 
 ### 3. Right-Wing Anti-Proceduralists and Surface-Aligned False Friends, Including Alexander Dugin
@@ -1981,7 +1973,7 @@ The verdict under the Five Principles is clear: Alexander Dugin is not a defende
 
 When we evaluate modern history under the Five Principles, three long-horizon criteria govern the inquiry.
 
-The first is **the Generational Criterion (70–100 years)**. Never evaluate a policy by its immediate sentiment during the first eighteen months of borrowed expenditure or revolutionary enthusiasm. Evaluate it by the condition of the country when the grandchildren inherit the resulting institutions and balance sheet seventy years later.
+The first is **the Generational Criterion (80 years)**. Never evaluate a policy by the intent behind it or by its immediate sentiment during a period of borrowed expenditure or revolutionary enthusiasm. A result comes from the policy, from the country it was enacted in, and from the people who carried it out. The three are not judged apart. Evaluate the policy by the condition of the country when the grandchildren inherit the resulting institutions and balance sheet eighty years later.
 
 The second is **the Scale Criterion**. A voluntary commune, monastery, or early kibbutz of eighty selected members can sometimes operate for a few decades on informal communal sharing (Tier 2/3 *kindness*), because every member dines in the same hall and idlers can be corrected or expelled in person. If one attempts to scale that communal arrangement linearly to a nation of fifty million strangers without scoped procedural symmetry and private property (Principle 4), it collapses into bureaucratic coercion and mass deprivation.
 
@@ -2043,7 +2035,7 @@ When Britain announced its military withdrawal, Lee did not rely upon diplomatic
 
 Singapore's record carries two cautions. First, adopt the foundational principles, not every emergency regulation. A large continental republic does not need, and should not copy, every municipal regulation or restriction that a small island city-state adopted during a 1960s communist insurgency. What any nation *can* and *should* adopt are Singapore's alignment with reality, meritocratic standards, self-anchored ownership accounts, public order, swift punishment of violent crime and corruption, and symmetrical commercial courts.
 
-Second, modern Singapore shows its own vulnerability in having children. Because it became a high-cost, high-density urban economy in which young adults delay marriage and childbearing for corporate careers, its resident Total Fertility Rate has fallen below **1.0 child per woman** (0.97 in 2023 and again in 2024; Singapore Department of Statistics). Even Lee Kuan Yew in his final years warned that this demographic decline was the single greatest threat to Singapore's survival, demonstrating once again that **The Interconnect Criterion** admits no exceptions: a civilization must maintain all Five Principles and all Seven Virtues, or the seventy-year replacement horizon overtakes even the most capable material builders.
+Second, modern Singapore shows its own vulnerability in having children. Because it became a high-cost, high-density urban economy in which young adults delay marriage and childbearing for corporate careers, its resident Total Fertility Rate has fallen below **1.0 child per woman** (0.97 in 2023 and again in 2024; Singapore Department of Statistics). Even Lee Kuan Yew in his final years warned that this demographic decline was the single greatest threat to Singapore's survival, demonstrating once again that **The Interconnect Criterion** admits no exceptions: a civilization must maintain all Five Principles and all Seven Virtues, or the eighty-year replacement horizon overtakes even the most capable material builders.
 
 ---
 
@@ -2211,7 +2203,7 @@ Seven questions can be put to any serious decision, whether in a household, an e
 4. **Self-anchored tiers.** Are the self and the household provided for before scarce resources go to the outer tiers?
 5. **Enemies.** How would a swindler, a free rider, or an enemy use or attack this arrangement? Are its boundaries and reserves guarded?
 6. **Scoped procedural symmetry.** Is the rule stated in advance and applied alike to everyone in the same position inside this scope? Would I accept it if the labels were swapped?
-7. **The generational horizon.** If everyone in our community followed this rule for seventy years, would our great-grandchildren be more numerous, more capable, and freer, or depleted and insolvent?
+7. **The generational horizon.** If everyone in our community followed this rule for eighty years, would our great-grandchildren be more numerous, more capable, and freer, or depleted and insolvent?
 
 A father of three is offered a promotion that raises his salary by a quarter and keeps him in airports and hotels from Monday to Friday for six years. He already houses, feeds, and educates his children. His marriage is strained, and his ten-year-old son is struggling in school. The fourth and seventh questions decide it. If the family were in want, travel to feed them would be the father's duty to the household. A family that is already solvent gains goods it does not need and loses its father in the decade when the children's character is formed. No one at the company will remember the quarterly report in thirty years, and a broken marriage or a neglected son has consequences across generations.
 
@@ -2259,7 +2251,7 @@ At **7:00 a.m.** (Tier 2, Virtues 6 and 7), in the kitchen, you prepare breakfas
 
 From **8:30 a.m. to 5:00 p.m.** (Tiers 3 and 4), you step out your front door into the wider community. As you pass strangers on the sidewalk and travel to work, you extend dispositional love and politeness, obeying traffic laws, dealing fairly, and wishing your fellow citizens well. At your workplace, whether you are an aircraft mechanic, an engineer, a carpenter, a surgeon, a teacher, or a magistrate, you align with truth and seek excellence. When a test gauge indicates a crack in a fitting or an error in a calculation, you do not falsify the report to please a superior. You report the physical truth as it is, and you verify your work with checklists because you recognize that you are a fallible mortal (Principle 2, Virtue 5). When you complete the task, you leave the workbench or desk cleaner, more orderly, and more functional than you found it (Virtue 4). When you evaluate two applicants or two contracts in the afternoon, you apply the same written standard to both without regard to their faction or personal connections (Principle 5).
 
-At **6:00 p.m.** (Principle 3, Virtue 7), at home before supper, you spend forty-five minutes with your son and daughter by the shed replacing a decayed fence post or splitting firewood, teaching them the proper use of a level and a wrench and the discipline of sustained labor. They listen. They test the method by using it, and they are permitted to practice, err, and master the tool (Chapter 10). You do not require them to agree with every word. You repay the grandfather who instructed you by forming the grandchildren who will inhabit this community seventy years hence.
+At **6:00 p.m.** (Principle 3, Virtue 7), at home before supper, you spend forty-five minutes with your son and daughter by the shed replacing a decayed fence post or splitting firewood, teaching them the proper use of a level and a wrench and the discipline of sustained labor. They listen. They test the method by using it, and they are permitted to practice, err, and master the tool (Chapter 10). You do not require them to agree with every word. You repay the grandfather who instructed you by forming the grandchildren who will inhabit this community eighty years hence.
 
 At **8:00 p.m.** (Principle 4 outward), twice a month after supper, instead of spending the evening in passive distraction and complaining that "someone ought to reform the country," you attend the meeting of the town council, the school board, the volunteer fire company, or the parish vestry. You audit the actual budget ledger, defend the academic standards of the local school, and ensure that the municipal police and courts are supported in protecting property and maintaining public order.
 

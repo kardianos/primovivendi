@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/chapters/13_ch13.md:15e862f0:note/generational-criterion"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/chapters/13_ch13.md:15e862f0:note/generational-criterion",
+      "path": "civ/chapters/13_ch13.md",
+      "ok": true,
+      "decision_at": "2026-11-25T00:19:05Z"
+    }
+  ],
+  "answers": [
+    {
+      "id": "call:civ/chapters/13_ch13.md:15e862f0:note/generational-criterion",
+      "text": "Applied on 2026-11-25 as accepted, alternate (a), with the change of your note made in the text: the name reads \"the Generational Criterion (80 years)\" and the sentence ends \"eighty years later.\" Nothing else differs from the alternate you accepted. \"Eighteen months\" is unchanged. Its context is in note 40, section 6.",
+      "at": "2026-11-25T00:28:17Z"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/chapters/01_ch01.md:8e70a9ed:note/drop-wet",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/01_ch01.md",
+      "byte_offset": 985,
+      "byte_end": 1043,
+      "quote": "A newborn on the bare ground is wet, naked, and toothless.",
+      "problem": "On 2026-11-25, in conversation, you asked: \"Also in first chapter, remove wet from born naked, like we did with another entry.\" The other entry was 01_ch01.md:41, where \"just as naked, wet, and ignorant of calculus\" became \"just as naked and ignorant of calculus\" on your note \"For a newborn, \"naked and untought\" is fine, no need for \"wet\".\" (a) \"wet, \" is removed, and the sentence reads \"A newborn on the bare ground is naked and toothless.\" Nothing else changes.",
+      "rule": "note/drop-wet",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "without \"wet\"",
+          "text": "A newborn on the bare ground is naked and toothless."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/13_ch13.md:8353b56f:note/eighty-years",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/13_ch13.md",
+      "byte_offset": 10212,
+      "byte_end": 10248,
+      "quote": "the seventy-year replacement horizon",
+      "problem": "Follow-up to your note on the Generational Criterion (call:civ/chapters/13_ch13.md:15e862f0:note/generational-criterion): \"Make them both be just 80 years.\" That is applied at line 5. The same chapter still names the span at line 67, as \"the seventy-year replacement horizon\". (a) It becomes \"the eighty-year replacement horizon\", so the chapter gives the horizon once, at eighty years.",
+      "rule": "note/eighty-years",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "eighty-year replacement horizon",
+          "text": "the eighty-year replacement horizon"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/chapters/14_ch14.md:fefacd9b:note/eighty-years",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/chapters/14_ch14.md",
+      "byte_offset": 12064,
+      "byte_end": 12100,
+      "quote": "followed this rule for seventy years",
+      "problem": "Follow-up to your note on the Generational Criterion (call:civ/chapters/13_ch13.md:15e862f0:note/generational-criterion): \"Make them both be just 80 years.\" Chapter 13 now gives the horizon as eighty years. The seventh question of this tool gives it as seventy: \"If everyone in our community followed this rule for seventy years\". (a) \"seventy years\" becomes \"eighty years\". The name of the question, \"The generational horizon\", is not touched (note 09, line 77).",
+      "rule": "note/eighty-years",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "eighty years",
+          "text": "followed this rule for eighty years"
+        }
+      ]
+    }
+  ]
+}
