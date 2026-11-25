@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/ccp_sheet.md:9da1f1fd:sheet/point-or-principle"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/ccp_sheet.md:9da1f1fd:sheet/point-or-principle",
+      "path": "civ/ccp_sheet.md",
+      "ok": true,
+      "decision_at": "2026-11-25T01:23:04Z"
+    }
+  ]
+}

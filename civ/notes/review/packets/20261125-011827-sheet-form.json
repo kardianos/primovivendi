@@ -1,0 +1,533 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/ccp_sheet.md:214fddfd:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 4750,
+      "byte_end": 5443,
+      "quote": "**What it cannot accept:** It cannot accept radical skepticism, which claims that we cannot know anything with enough certainty to act and build, because we do not know everything perfectly. It also cannot accept intuition or emotional certainty as a substitute for sensory and empirical verification where the claim is about the shared physical world. A feeling that a beam will hold is not a test of the beam. Intuition may suggest a hypothesis. It does not confirm one. A calculation of the beam is not a test of it either. In a load test, reality acts on the beam itself. A calculation is the logic that carries what tested beams did under load over to this one, without testing each beam.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"Knowable\". \"also\" is dropped in the second item, because the label covers every item.",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Radical skepticism, which claims that we cannot know anything with enough certainty to act and build, because we do not know everything perfectly. Intuition or emotional certainty as a substitute for sensory and empirical verification where the claim is about the shared physical world. A feeling that a beam will hold is not a test of the beam. Intuition may suggest a hypothesis. It does not confirm one. A calculation of the beam is not a test of it either. In a load test, reality acts on the beam itself. A calculation is the logic that carries what tested beams did under load over to this one, without testing each beam."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:02e49eb3:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 6549,
+      "byte_end": 6837,
+      "quote": "**What it cannot accept:** It cannot accept the belief that good intentions excuse or erase destructive outcomes. It cannot accept the belief that renaming a failure changes the physical or social result of that failure. It cannot accept the belief that doing nothing escapes consequence.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"Consequential\". (b) The three beliefs are made one sentence.",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** The belief that good intentions excuse or erase destructive outcomes. The belief that renaming a failure changes the physical or social result of that failure. The belief that doing nothing escapes consequence."
+        },
+        {
+          "id": "b",
+          "label": "the three beliefs in one sentence",
+          "text": "**What it cannot accept:** The belief that good intentions excuse or erase destructive outcomes, that renaming a failure changes the physical or social result of that failure, and that doing nothing escapes consequence."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:43ac5df9:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 8417,
+      "byte_end": 9053,
+      "quote": "**What it cannot accept:** It cannot accept redefining truth as whatever is politically useful, whatever a majority agrees upon, or whatever an authority decrees. It cannot accept truth relative to a person, a class, a culture, or an epoch. Truth does not have different frames, just one: reality. It cannot accept coherence alone: a theory that is internally consistent on paper but fails when tested against the physical world. Logic can tell what is congruent inside a model or a story; it cannot tell whether the story is real. It cannot accept altering a hypothesis after the fact to claim a failed prediction was actually correct.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"Truth is what corresponds to reality\". A \"that\" is added after \"claim\" in the last item. Without it, the item can be read as a sentence that says the opposite: that the altering was correct.",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Redefining truth as whatever is politically useful, whatever a majority agrees upon, or whatever an authority decrees. Truth relative to a person, a class, a culture, or an epoch. Truth does not have different frames, just one: reality. Coherence alone: a theory that is internally consistent on paper but fails when tested against the physical world. Logic can tell what is congruent inside a model or a story; it cannot tell whether the story is real. Altering a hypothesis after the fact to claim that a failed prediction was actually correct."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:cb11991c:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 9691,
+      "byte_end": 10004,
+      "quote": "**What it cannot accept:** It cannot accept the belief that humans are born naturally good, or that they are blank slates that can be reshaped into a new kind of creature by state conditioning. Nor can it accept treating men and women as interchangeable administrative units without distinct biological realities.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"Humans\". \"Nor can it accept\" becomes the thing alone.",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** The belief that humans are born naturally good, or that they are blank slates that can be reshaped into a new kind of creature by state conditioning. Treating men and women as interchangeable administrative units without distinct biological realities."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:467e550b:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 10785,
+      "byte_end": 11067,
+      "quote": "**What it cannot accept:** It cannot accept moral systems that condemn basic self-preservation and personal ambition as evil. Conversely, it cannot accept defining self-interest as the pursuit of short-term whims, hedonism, or the right to harm and defraud others for personal gain.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"Self-interested\". \"Conversely\" stays.",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Moral systems that condemn basic self-preservation and personal ambition as evil. Conversely, Defining self-interest as the pursuit of short-term whims, hedonism, or the right to harm and defraud others for personal gain."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:72d914a3:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 11844,
+      "byte_end": 12114,
+      "quote": "**What it cannot accept:** It cannot accept utopian doctrines that demand unlimited global responsibility from finite individuals. It also cannot accept using human limitation as an excuse for laziness or refusing to handle the duties that lie within one's actual reach.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"Limited\".",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Utopian doctrines that demand unlimited global responsibility from finite individuals. Using human limitation as an excuse for laziness or refusing to handle the duties that lie within one's actual reach."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:8f4d7158:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 12726,
+      "byte_end": 13060,
+      "quote": "**What it cannot accept:** It cannot accept egalitarian theories that treat all human beings as identical, interchangeable tokens with no attachment to heritage, biology, or place. Recognizing particularity establishes that people are distinct and have specific roots. It does not by itself establish a moral hierarchy of human worth.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"Particular\".",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Egalitarian theories that treat all human beings as identical, interchangeable tokens with no attachment to heritage, biology, or place. Recognizing particularity establishes that people are distinct and have specific roots. It does not by itself establish a moral hierarchy of human worth."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:c32215f1:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 14141,
+      "byte_end": 14466,
+      "quote": "**What it cannot accept:** It cannot accept anti-human ideologies (such as voluntary human extinction), nor can it accept moral systems that define goodness merely as the absence of pain, as pleasant feelings, as whatever adults consent to, or as adherence to abstract rules that cause the society practicing them to die out.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"Goodness must include\". The two items were one sentence of 54 words joined by \"nor\". They are two items now.",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Anti-human ideologies (such as voluntary human extinction). Moral systems that define goodness merely as the absence of pain, as pleasant feelings, as whatever adults consent to, or as adherence to abstract rules that cause the society practicing them to die out."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:51e57ae0:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 15228,
+      "byte_end": 15493,
+      "quote": "**What it cannot accept:** It cannot accept substituting animal or plant life for human life. It cannot accept a society that measures success solely by the material comfort of the currently living generation while failing to have enough children to replace itself.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"Human life continuing\".",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Substituting animal or plant life for human life. A society that measures success solely by the material comfort of the currently living generation while failing to have enough children to replace itself."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:b42252c9:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 16965,
+      "byte_end": 17399,
+      "quote": "**What it cannot accept:** It cannot accept neglect: allowing homes, tools, laws, and personal health to deteriorate. It cannot accept building without keeping, or keeping without building. A new project left to decay is a case of the first. A shrinking inheritance hoarded while nothing new is made and no children are raised is a case of the second. It cannot accept dismissing the destruction of homes, shops, and tools as trivial.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"Kept and built\". (b) The third item moves up beside the other two, so that the two examples, \"a case of the first\" and \"a case of the second\", follow the items they explain.",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Neglect: allowing homes, tools, laws, and personal health to deteriorate. Building without keeping, or keeping without building. A new project left to decay is a case of the first. A shrinking inheritance hoarded while nothing new is made and no children are raised is a case of the second. Dismissing the destruction of homes, shops, and tools as trivial."
+        },
+        {
+          "id": "b",
+          "label": "the third item moves up beside the other two",
+          "text": "**What it cannot accept:** Neglect: allowing homes, tools, laws, and personal health to deteriorate. Building without keeping, or keeping without building. Dismissing the destruction of homes, shops, and tools as trivial. A new project left to decay is a case of the first. A shrinking inheritance hoarded while nothing new is made and no children are raised is a case of the second."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:4cbb7065:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 18041,
+      "byte_end": 18216,
+      "quote": "**What it cannot accept:** It cannot accept treating verbal signaling, political activism, or emotional sympathy as a substitute for the tangible work of keeping and building.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"What you keep and build\".",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Treating verbal signaling, political activism, or emotional sympathy as a substitute for the tangible work of keeping and building."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:6a2add5f:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 18932,
+      "byte_end": 19232,
+      "quote": "**What it cannot accept:** It cannot accept collectivist doctrines that claim the individual belongs first to the state, the party, or humanity at large. You do not start from the globe and reason inward to find out what you are allowed to keep for yourself; you start from yourself and work outward.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"Self-anchored\".",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Collectivist doctrines that claim the individual belongs first to the state, the party, or humanity at large. You do not start from the globe and reason inward to find out what you are allowed to keep for yourself; you start from yourself and work outward."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:677f665d:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 20806,
+      "byte_end": 21362,
+      "quote": "**What it cannot accept:** It cannot accept universalism (such as extreme utilitarianism), which demands that a father treat a stranger in a foreign land as having the identical claim on his income and attention as his own child. A person who spends his family's grocery money on a distant cause has violated the tiers. It cannot accept treating truthfulness as an outer-tier surplus, owed only after the household and the state have been satisfied. Equally, it cannot accept nepotism or clan corruption inside a public office, which belongs under Point 5.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"Tiered\". \"Equally\" stays.",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Universalism (such as extreme utilitarianism), which demands that a father treat a stranger in a foreign land as having the identical claim on his income and attention as his own child. A person who spends his family's grocery money on a distant cause has violated the tiers. Treating truthfulness as an outer-tier surplus, owed only after the household and the state have been satisfied. Equally, Nepotism or clan corruption inside a public office, which belongs under Point 5."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:43854beb:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 22288,
+      "byte_end": 22650,
+      "quote": "**What it cannot accept:** It cannot accept pure isolationism or egoism, where a person refuses to contribute anything to the community or nation whose laws and defenses keep his household safe. Conversely, it cannot accept state adventures that use the rhetoric of emergency to drain households for foreign projects that do not protect the nation's continuance.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"Outward\". \"Conversely\" stays.",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Pure isolationism or egoism, where a person refuses to contribute anything to the community or nation whose laws and defenses keep his household safe. Conversely, State adventures that use the rhetoric of emergency to drain households for foreign projects that do not protect the nation's continuance."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:1ac64f79:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 24165,
+      "byte_end": 24553,
+      "quote": "**What it cannot accept:** It cannot accept a refusal to use violence to protect oneself and one's own. That refusal stands against these principles. It cannot accept the naive belief that enmity is merely a misunderstanding that vanishes if one refuses to name it. Equally, it cannot accept labeling everyone who is foreign, poor, or holds a different opinion within the law as an enemy.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"Enemies are real\". \"Equally\" stays.",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** A refusal to use violence to protect oneself and one's own. That refusal stands against these principles. The naive belief that enmity is merely a misunderstanding that vanishes if one refuses to name it. Equally, Labeling everyone who is foreign, poor, or holds a different opinion within the law as an enemy."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:b78e27a2:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 27234,
+      "byte_end": 27575,
+      "quote": "**What it cannot accept:** It cannot accept borderless universalism, which claims that every human in the world holds the identical legal claim on a nation's treasury, courts, and territory as the citizens who pay taxes and defend that nation. It also cannot accept arbitrary scopes invented to create corrupt exemptions for a ruling clique.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"Scoped\".",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Borderless universalism, which claims that every human in the world holds the identical legal claim on a nation's treasury, courts, and territory as the citizens who pay taxes and defend that nation. Arbitrary scopes invented to create corrupt exemptions for a ruling clique."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:a9df65fc:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 28795,
+      "byte_end": 29044,
+      "quote": "**What it cannot accept:** It cannot accept changing the rules after the fact to guarantee that a favored person or group wins. It cannot accept lawlessness disguised as compassion, where clear violations of the rule are ignored without consequence.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"Procedural\".",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Changing the rules after the fact to guarantee that a favored person or group wins. Lawlessness disguised as compassion, where clear violations of the rule are ignored without consequence."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:05e53015:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 30062,
+      "byte_end": 30140,
+      "quote": "**What it cannot accept:** It cannot accept two false definitions of symmetry:",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"Symmetry\". The numbered list that follows is not touched.",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Two false definitions of symmetry:"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:122fe8c7:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 32119,
+      "byte_end": 32486,
+      "quote": "**What it cannot accept:** It cannot accept treating civilization as an automatic background condition that runs by itself without upkeep. It cannot accept valuing secondary technologies, such as financial instruments or entertainment, above the foundational practices that keep them in being, including family stability, law, agriculture, defense, and manufacturing.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"Civilization as the root technology\".",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Treating civilization as an automatic background condition that runs by itself without upkeep. Valuing secondary technologies, such as financial instruments or entertainment, above the foundational practices that keep them in being, including family stability, law, agriculture, defense, and manufacturing."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:bf4d7766:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 33705,
+      "byte_end": 33857,
+      "quote": "**What it cannot accept:** It cannot accept lying, fraud, self-deception, or prioritizing ideological loyalty and group consensus over observable facts.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"1. Align with truth\".",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Lying, fraud, self-deception, or prioritizing ideological loyalty and group consensus over observable facts."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:2a5584a9:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 34816,
+      "byte_end": 35089,
+      "quote": "**What it cannot accept:** It cannot accept blaming others for one's own failures, demanding rights and privileges without carrying the corresponding upkeep, or expressing loud concern for distant global problems while leaving one's own home, finances, and job in disorder.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"2. Take ownership, which is responsibility\".",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Blaming others for one's own failures, demanding rights and privileges without carrying the corresponding upkeep, or expressing loud concern for distant global problems while leaving one's own home, finances, and job in disorder."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:f47cdc06:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 35959,
+      "byte_end": 36134,
+      "quote": "**What it cannot accept:** It cannot accept mediocrity, omitting required steps when unsupervised, or substituting credentials, titles, and certificates for actual competence.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"3. Seek excellence\".",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Mediocrity, omitting required steps when unsupervised, or substituting credentials, titles, and certificates for actual competence."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:e6c75a57:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 37442,
+      "byte_end": 37772,
+      "quote": "**What it cannot accept:** It cannot accept the cult of ugliness: art, architecture, or narratives that celebrate chaos, filth, or falsehood. Depicting a wound, a ruin, or a deformed body truthfully is a different act from celebrating it. It also cannot accept treating beauty as mere idle luxury detached from function and truth.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"4. Admire beauty\". A full sentence stands before the last item, so in (a) that item opens on \"Also\". (b) The first item changes and the last sentence stays as it is.",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** The cult of ugliness: art, architecture, or narratives that celebrate chaos, filth, or falsehood. Depicting a wound, a ruin, or a deformed body truthfully is a different act from celebrating it. Also treating beauty as mere idle luxury detached from function and truth."
+        },
+        {
+          "id": "b",
+          "label": "the first item changes; the last sentence stays",
+          "text": "**What it cannot accept:** The cult of ugliness: art, architecture, or narratives that celebrate chaos, filth, or falsehood. Depicting a wound, a ruin, or a deformed body truthfully is a different act from celebrating it. It also cannot accept treating beauty as mere idle luxury detached from function and truth."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:bc281270:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 38474,
+      "byte_end": 38816,
+      "quote": "**What it cannot accept:** It cannot accept arrogance: refusing to check one's beliefs against conflicting evidence, or tearing down inherited institutions and customs without understanding why they were built. Conversely, it cannot accept false humility, which is weak self-deprecation used as an excuse to avoid taking ownership and acting.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"5. Be humble\". \"Conversely\" stays.",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Arrogance: refusing to check one's beliefs against conflicting evidence, or tearing down inherited institutions and customs without understanding why they were built. Conversely, False humility, which is weak self-deprecation used as an excuse to avoid taking ownership and acting."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:035cebc9:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 39414,
+      "byte_end": 39747,
+      "quote": "**What it cannot accept:** It cannot accept treating children as an undesirable burden, or as a luxury to be added once comfort is secured. It cannot accept a cultural ideal that celebrates deliberate childlessness among healthy adults while expecting someone else's children to maintain the economy and the country in their old age.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"6. Have children\".",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Treating children as an undesirable burden, or as a luxury to be added once comfort is secured. A cultural ideal that celebrates deliberate childlessness among healthy adults while expecting someone else's children to maintain the economy and the country in their old age."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:023d6e99:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 40809,
+      "byte_end": 41239,
+      "quote": "**What it cannot accept:** It cannot accept elders who will not form those younger than themselves, or the young who will not listen to the experience around them. It cannot accept generational theft: consuming inherited wealth, running up unpayable public debts, allowing infrastructure to decay, or failing to pass on the culture and technical skills required to keep the civilization alive after the current generation is gone.",
+      "problem": "The form you accepted on the sample at line 60 (call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept, 2026-11-25): the field opens on the thing, and the label carries the predicate. (a) The same change in this field, under \"7. Form and listen\".",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Elders who will not form those younger than themselves, or the young who will not listen to the experience around them. Generational theft: consuming inherited wealth, running up unpayable public debts, allowing infrastructure to decay, or failing to pass on the culture and technical skills required to keep the civilization alive after the current generation is gone."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:9da1f1fd:sheet/point-or-principle",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 13646,
+      "byte_end": 13671,
+      "quote": "it belongs under Point 4.",
+      "problem": "This came from reading the sheet, not from a tool. The sheet refers to the principles as \"Point N\" twelve times, in nine sentences, and never as \"Principle N\". The book refers to them as \"Principle N\" 137 times and never as \"Point N\", and the editing guide fixes that form (Part A: \"`Principle N` and `Virtue N` keep those capitals\"). (a) \"Point\" becomes \"Principle\" here, as a sample, under \"Goodness must include\". If you accept, the other eleven are filed, each in its sentence. Reject the item to keep \"Point\" in the sheet.",
+      "rule": "sheet/point-or-principle",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "Principle 4",
+          "text": "it belongs under Principle 4."
+        }
+      ]
+    }
+  ]
+}

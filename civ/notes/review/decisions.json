@@ -1,6 +1,243 @@
 {
   "version": 1,
   "items": {
+    "call:civ/ccp_sheet.md:023d6e99:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:52Z"
+    },
+    "call:civ/ccp_sheet.md:02e49eb3:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:33Z"
+    },
+    "call:civ/ccp_sheet.md:035cebc9:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:51Z"
+    },
+    "call:civ/ccp_sheet.md:0581ee52:sheet/double-negative": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "**What it cannot accept:** It cannot accept a refusal to use violence to protect oneself and one's own. These principles require a person to defend himself and his own.",
+      "at": "2026-11-25T03:18:22Z"
+    },
+    "call:civ/ccp_sheet.md:05e53015:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:46Z"
+    },
+    "call:civ/ccp_sheet.md:122fe8c7:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:47Z"
+    },
+    "call:civ/ccp_sheet.md:15b6d965:sheet/point-or-principle": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "so things decay (Principle 1), and what is built must be kept (Principle 3)",
+      "at": "2026-11-25T03:17:55Z"
+    },
+    "call:civ/ccp_sheet.md:1ac64f79:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:44Z"
+    },
+    "call:civ/ccp_sheet.md:2136be3c:sheet/point-or-principle": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "the tiered loyalties of Principle 4",
+      "at": "2026-11-25T03:17:53Z"
+    },
+    "call:civ/ccp_sheet.md:214fddfd:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:32Z"
+    },
+    "call:civ/ccp_sheet.md:2a5584a9:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:48Z"
+    },
+    "call:civ/ccp_sheet.md:43854beb:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:44Z"
+    },
+    "call:civ/ccp_sheet.md:43ac5df9:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:35Z"
+    },
+    "call:civ/ccp_sheet.md:467e550b:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:37Z"
+    },
+    "call:civ/ccp_sheet.md:49ac61c7:sheet/form-keep": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "**What it cannot accept:** It cannot accept solipsism. It cannot accept the claim that the external world is an illusion, or that each person possesses a separate \"personal reality.\" It cannot accept the belief that social consensus or political authority creates reality.",
+      "at": "2026-11-25T03:18:06Z"
+    },
+    "call:civ/ccp_sheet.md:4cbb7065:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:42Z"
+    },
+    "call:civ/ccp_sheet.md:51e57ae0:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:40Z"
+    },
+    "call:civ/ccp_sheet.md:600c8d01:sheet/rule-10-split": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "to sustain human life. It is a piece of civilization.",
+      "at": "2026-11-25T01:12:04Z"
+    },
+    "call:civ/ccp_sheet.md:630a0ed4:sheet/rule-10-split": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "A stable life is technology in the same sense. It continues because conduct is repeated, not because it was wished for.",
+      "at": "2026-11-25T01:12:31Z"
+    },
+    "call:civ/ccp_sheet.md:677f665d:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:43Z"
+    },
+    "call:civ/ccp_sheet.md:6a2add5f:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:42Z"
+    },
+    "call:civ/ccp_sheet.md:72d914a3:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:38Z"
+    },
+    "call:civ/ccp_sheet.md:76b760c5:sheet/point-or-principle": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "the personal practice of Principle 1.",
+      "at": "2026-11-25T03:17:54Z"
+    },
+    "call:civ/ccp_sheet.md:83443c99:sheet/register": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "identical, interchangeable tokens",
+      "at": "2026-11-25T01:12:48Z"
+    },
+    "call:civ/ccp_sheet.md:872fd65b:sheet/point-or-principle": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "which belongs under Principle 5.",
+      "at": "2026-11-25T03:17:50Z"
+    },
+    "call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept": {
+      "disposition": "withdraw",
+      "alternate": "a",
+      "at": "2026-11-25T03:28:53Z"
+    },
+    "call:civ/ccp_sheet.md:8f4d7158:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:39Z"
+    },
+    "call:civ/ccp_sheet.md:9da1f1fd:sheet/point-or-principle": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "it belongs under Principle 4.",
+      "at": "2026-11-25T01:23:04Z"
+    },
+    "call:civ/ccp_sheet.md:a47ad345:sheet/point-or-principle": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "Because humans are limited (Principle 2) and their obligations are tiered (Principle 4)",
+      "at": "2026-11-25T03:17:55Z"
+    },
+    "call:civ/ccp_sheet.md:a9df65fc:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:46Z"
+    },
+    "call:civ/ccp_sheet.md:afdc766d:sheet/point-or-principle": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "of *human life continuing* (Principle 3). Human life is the floor of goodness, and having children continues it. A person's care for children follows the tiers of Principle 4",
+      "at": "2026-11-25T03:17:57Z"
+    },
+    "call:civ/ccp_sheet.md:b42252c9:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:41Z"
+    },
+    "call:civ/ccp_sheet.md:b78e27a2:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:45Z"
+    },
+    "call:civ/ccp_sheet.md:bc281270:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:50Z"
+    },
+    "call:civ/ccp_sheet.md:bf4d7766:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:47Z"
+    },
+    "call:civ/ccp_sheet.md:c32215f1:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:39Z"
+    },
+    "call:civ/ccp_sheet.md:c672ab20:sheet/point-or-principle": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "knowing that humans are limited (Principle 2)",
+      "at": "2026-11-25T03:17:56Z"
+    },
+    "call:civ/ccp_sheet.md:cb11991c:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:35Z"
+    },
+    "call:civ/ccp_sheet.md:d5283888:sheet/rule-10-split": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "stays near the household and local trade. During an invasion or natural disaster",
+      "at": "2026-11-25T01:12:15Z"
+    },
+    "call:civ/ccp_sheet.md:e5716222:sheet/point-or-principle": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "unequal in talent and effort (Principle 2)",
+      "at": "2026-11-25T03:17:52Z"
+    },
+    "call:civ/ccp_sheet.md:e6c75a57:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:50Z"
+    },
+    "call:civ/ccp_sheet.md:eea1547c:sheet/rule-10-verb": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "as noble and free of consequence, cannot be beautiful.",
+      "at": "2026-11-25T01:12:44Z"
+    },
+    "call:civ/ccp_sheet.md:f47cdc06:sheet/form-cannot-accept": {
+      "disposition": "reject",
+      "alternate": "a",
+      "at": "2026-11-25T03:18:49Z"
+    },
+    "call:civ/ccp_sheet.md:fed2f422:sheet/rule-10-split": {
+      "disposition": "accept",
+      "alternate": "a",
+      "accepted_text": "at every level of wealth. Sweeping a floor",
+      "at": "2026-11-25T01:11:52Z"
+    },
     "call:civ/chapters/01_ch01.md:2ac067e4:note/colon-punch": {
       "disposition": "accept",
       "alternate": "a",

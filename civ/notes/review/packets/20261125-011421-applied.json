@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/ccp_sheet.md:eea1547c:sheet/rule-10-verb",
+    "call:civ/ccp_sheet.md:630a0ed4:sheet/rule-10-split",
+    "call:civ/ccp_sheet.md:d5283888:sheet/rule-10-split",
+    "call:civ/ccp_sheet.md:600c8d01:sheet/rule-10-split",
+    "call:civ/ccp_sheet.md:fed2f422:sheet/rule-10-split",
+    "call:civ/ccp_sheet.md:83443c99:sheet/register",
+    "call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/ccp_sheet.md:eea1547c:sheet/rule-10-verb",
+      "path": "civ/ccp_sheet.md",
+      "ok": true,
+      "decision_at": "2026-11-25T01:12:44Z"
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:630a0ed4:sheet/rule-10-split",
+      "path": "civ/ccp_sheet.md",
+      "ok": true,
+      "decision_at": "2026-11-25T01:12:31Z"
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:d5283888:sheet/rule-10-split",
+      "path": "civ/ccp_sheet.md",
+      "ok": true,
+      "decision_at": "2026-11-25T01:12:15Z"
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:600c8d01:sheet/rule-10-split",
+      "path": "civ/ccp_sheet.md",
+      "ok": true,
+      "decision_at": "2026-11-25T01:12:04Z"
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:fed2f422:sheet/rule-10-split",
+      "path": "civ/ccp_sheet.md",
+      "ok": true,
+      "decision_at": "2026-11-25T01:11:52Z"
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:83443c99:sheet/register",
+      "path": "civ/ccp_sheet.md",
+      "ok": true,
+      "decision_at": "2026-11-25T01:12:48Z"
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept",
+      "path": "civ/ccp_sheet.md",
+      "ok": true,
+      "decision_at": "2026-11-25T01:11:31Z"
+    }
+  ]
+}

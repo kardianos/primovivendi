@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "responds_to": [
+    "call:civ/ccp_sheet.md:afdc766d:sheet/point-or-principle",
+    "call:civ/ccp_sheet.md:c672ab20:sheet/point-or-principle",
+    "call:civ/ccp_sheet.md:15b6d965:sheet/point-or-principle",
+    "call:civ/ccp_sheet.md:a47ad345:sheet/point-or-principle",
+    "call:civ/ccp_sheet.md:76b760c5:sheet/point-or-principle",
+    "call:civ/ccp_sheet.md:2136be3c:sheet/point-or-principle",
+    "call:civ/ccp_sheet.md:e5716222:sheet/point-or-principle",
+    "call:civ/ccp_sheet.md:0581ee52:sheet/double-negative",
+    "call:civ/ccp_sheet.md:872fd65b:sheet/point-or-principle",
+    "call:civ/ccp_sheet.md:49ac61c7:sheet/form-keep"
+  ],
+  "applied": [
+    {
+      "id": "call:civ/ccp_sheet.md:afdc766d:sheet/point-or-principle",
+      "path": "civ/ccp_sheet.md",
+      "ok": true,
+      "decision_at": "2026-11-25T03:17:57Z"
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:c672ab20:sheet/point-or-principle",
+      "path": "civ/ccp_sheet.md",
+      "ok": true,
+      "decision_at": "2026-11-25T03:17:56Z"
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:15b6d965:sheet/point-or-principle",
+      "path": "civ/ccp_sheet.md",
+      "ok": true,
+      "decision_at": "2026-11-25T03:17:55Z"
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:a47ad345:sheet/point-or-principle",
+      "path": "civ/ccp_sheet.md",
+      "ok": true,
+      "decision_at": "2026-11-25T03:17:55Z"
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:76b760c5:sheet/point-or-principle",
+      "path": "civ/ccp_sheet.md",
+      "ok": true,
+      "decision_at": "2026-11-25T03:17:54Z"
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:2136be3c:sheet/point-or-principle",
+      "path": "civ/ccp_sheet.md",
+      "ok": true,
+      "decision_at": "2026-11-25T03:17:53Z"
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:e5716222:sheet/point-or-principle",
+      "path": "civ/ccp_sheet.md",
+      "ok": true,
+      "decision_at": "2026-11-25T03:17:52Z"
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:0581ee52:sheet/double-negative",
+      "path": "civ/ccp_sheet.md",
+      "ok": true,
+      "decision_at": "2026-11-25T03:18:22Z"
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:872fd65b:sheet/point-or-principle",
+      "path": "civ/ccp_sheet.md",
+      "ok": true,
+      "decision_at": "2026-11-25T03:17:50Z"
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:49ac61c7:sheet/form-keep",
+      "path": "civ/ccp_sheet.md",
+      "ok": true,
+      "decision_at": "2026-11-25T03:18:06Z"
+    }
+  ]
+}

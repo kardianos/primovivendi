@@ -1,0 +1,200 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/ccp_sheet.md:872fd65b:sheet/point-or-principle",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 21338,
+      "byte_end": 21366,
+      "quote": "which belongs under Point 5.",
+      "problem": "You accepted \"Principle\" on the sample at line 120 (call:civ/ccp_sheet.md:9da1f1fd:sheet/point-or-principle, 2026-11-25), which is applied. (a) The same change here, on line 165.",
+      "rule": "sheet/point-or-principle",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "Principle",
+          "text": "which belongs under Principle 5."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:e5716222:sheet/point-or-principle",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 27942,
+      "byte_end": 27980,
+      "quote": "unequal in talent and effort (Point 2)",
+      "problem": "You accepted \"Principle\" on the sample at line 120 (call:civ/ccp_sheet.md:9da1f1fd:sheet/point-or-principle, 2026-11-25), which is applied. (a) The same change here, on line 212.",
+      "rule": "sheet/point-or-principle",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "Principle",
+          "text": "unequal in talent and effort (Principle 2)"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:2136be3c:sheet/point-or-principle",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 29612,
+      "byte_end": 29643,
+      "quote": "the tiered loyalties of Point 4",
+      "problem": "You accepted \"Principle\" on the sample at line 120 (call:civ/ccp_sheet.md:9da1f1fd:sheet/point-or-principle, 2026-11-25), which is applied. (a) The same change here, on line 219.",
+      "rule": "sheet/point-or-principle",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "Principle",
+          "text": "the tiered loyalties of Principle 4"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:76b760c5:sheet/point-or-principle",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 33056,
+      "byte_end": 33089,
+      "quote": "the personal practice of Point 1.",
+      "problem": "You accepted \"Principle\" on the sample at line 120 (call:civ/ccp_sheet.md:9da1f1fd:sheet/point-or-principle, 2026-11-25), which is applied. (a) The same change here, on line 249.",
+      "rule": "sheet/point-or-principle",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "Principle",
+          "text": "the personal practice of Principle 1."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:a47ad345:sheet/point-or-principle",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 34094,
+      "byte_end": 34173,
+      "quote": "Because humans are limited (Point 2) and their obligations are tiered (Point 4)",
+      "problem": "You accepted \"Principle\" on the sample at line 120 (call:civ/ccp_sheet.md:9da1f1fd:sheet/point-or-principle, 2026-11-25), which is applied. (a) The same change here, on line 256. Both references on the line change.",
+      "rule": "sheet/point-or-principle",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "Principle",
+          "text": "Because humans are limited (Principle 2) and their obligations are tiered (Principle 4)"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:15b6d965:sheet/point-or-principle",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 35361,
+      "byte_end": 35428,
+      "quote": "so things decay (Point 1), and what is built must be kept (Point 3)",
+      "problem": "You accepted \"Principle\" on the sample at line 120 (call:civ/ccp_sheet.md:9da1f1fd:sheet/point-or-principle, 2026-11-25), which is applied. (a) The same change here, on line 263. Both references on the line change.",
+      "rule": "sheet/point-or-principle",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "Principle",
+          "text": "so things decay (Principle 1), and what is built must be kept (Principle 3)"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:c672ab20:sheet/point-or-principle",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 37862,
+      "byte_end": 37903,
+      "quote": "knowing that humans are limited (Point 2)",
+      "problem": "You accepted \"Principle\" on the sample at line 120 (call:civ/ccp_sheet.md:9da1f1fd:sheet/point-or-principle, 2026-11-25), which is applied. (a) The same change here, on line 277.",
+      "rule": "sheet/point-or-principle",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "Principle",
+          "text": "knowing that humans are limited (Principle 2)"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:afdc766d:sheet/point-or-principle",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 38909,
+      "byte_end": 39075,
+      "quote": "of *human life continuing* (Point 3). Human life is the floor of goodness, and having children continues it. A person's care for children follows the tiers of Point 4",
+      "problem": "You accepted \"Principle\" on the sample at line 120 (call:civ/ccp_sheet.md:9da1f1fd:sheet/point-or-principle, 2026-11-25), which is applied. (a) The same change here, on line 284. Both references on the line change.",
+      "rule": "sheet/point-or-principle",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "Principle",
+          "text": "of *human life continuing* (Principle 3). Human life is the floor of goodness, and having children continues it. A person's care for children follows the tiers of Principle 4"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:49ac61c7:sheet/form-keep",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 3042,
+      "byte_end": 3263,
+      "quote": "**What it cannot accept:** Solipsism. The claim that the external world is an illusion, or that each person possesses a separate \"personal reality.\" The belief that social consensus or political authority creates reality.",
+      "problem": "Your note of 2026-11-25, in conversation: \"The other \"It cannot accept\" might stay. Normally in prose, this would be good to remove. But I think for now we will keep in this instance.\" This field is the sample that was converted on your accept of 2026-11-25 (note 42). It is now the only one of the 27 fields in the new form. (a) The field returns to the text it had before, so that all 27 fields match. Reject the item to keep this one field in the new form.",
+      "rule": "sheet/form-keep",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "back to the form of the other 26",
+          "text": "**What it cannot accept:** It cannot accept solipsism. It cannot accept the claim that the external world is an illusion, or that each person possesses a separate \"personal reality.\" It cannot accept the belief that social consensus or political authority creates reality."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:0581ee52:sheet/double-negative",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 24169,
+      "byte_end": 24318,
+      "quote": "**What it cannot accept:** It cannot accept a refusal to use violence to protect oneself and one's own. That refusal stands against these principles.",
+      "problem": "Your note of 2026-11-25, in conversation: \"We might want to look into double negatives, such as in [the first two sentences of this field] where we are talk about the refusal right aftwarwards.\" I looked for the pattern in the whole sheet: a negative as the thing a sentence rejects, and then referred back to. It occurs here alone. One other sentence rejects a negative outright, \"cannot accept neglect\" at line 140, and nothing refers back to it. The other places where two negative words meet are of three kinds: the label and the sentence that both say \"cannot accept\"; a negative inside a description of the thing rejected, as \"a theory that is internally consistent on paper but fails when tested\" (line 81); or parallel clauses, as \"Shortage of money does not license a lie, and owing a stranger the truth does not give him the child's claim\" (line 161). In this field three negatives are stacked: cannot accept, a refusal, and stands against. (a) The second sentence says what the principles require, in a positive clause. The sheet already says \"you defend against him, deter him, or defeat him\" at line 175. (b) The second sentence is removed. The label and the first sentence already say it. Reject the item to keep the field as it is.",
+      "rule": "sheet/double-negative",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the second sentence states the duty",
+          "text": "**What it cannot accept:** It cannot accept a refusal to use violence to protect oneself and one's own. These principles require a person to defend himself and his own."
+        },
+        {
+          "id": "b",
+          "label": "the second sentence removed",
+          "text": "**What it cannot accept:** It cannot accept a refusal to use violence to protect oneself and one's own."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "call:civ/ccp_sheet.md:883c4823:sheet/form-cannot-accept",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 3042,
+      "byte_end": 3314,
+      "quote": "**What it cannot accept:** It cannot accept solipsism. It cannot accept the claim that the external world is an illusion, or that each person possesses a separate \"personal reality.\" It cannot accept the belief that social consensus or political authority creates reality.",
+      "problem": "On 2026-11-25 you asked for the linear and the ngram report on the sheet, and for review suggestions if warranted. Both reports point first at the form of this field. The sheet has 27 fields that open \"What it cannot accept: It cannot accept\", so the phrase is said twice in a row. \"Cannot accept\" appears 79 times in 6,426 words. The ngram report lists \"it cannot accept\" (75 uses) and \"what it cannot accept\" (27) among the phrases most foreign to print of 1850 to 1950. The linear tool scores 26 of these sentences, for \"it\" chained or with no noun near it. This item shows the first field as a sample. (a) The field opens on the thing, and the label carries the predicate. (b) The label changes and the sentences stay as they are. The label in (b) is my proposal. Name another with \"Use my wording\". Reject the item to keep the form. If you take (a) or (b), the other 26 fields are filed, each as its own item. Three or four of them need a hand, because a \"cannot accept\" sentence follows an explanatory one, as at line 274.",
+      "rule": "sheet/form-cannot-accept",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the field opens on the thing",
+          "text": "**What it cannot accept:** Solipsism. The claim that the external world is an illusion, or that each person possesses a separate \"personal reality.\" The belief that social consensus or political authority creates reality."
+        },
+        {
+          "id": "b",
+          "label": "the label changes; sentences stay",
+          "text": "**What does not fit:** It cannot accept solipsism. It cannot accept the claim that the external world is an illusion, or that each person possesses a separate \"personal reality.\" It cannot accept the belief that social consensus or political authority creates reality."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:fed2f422:sheet/rule-10-split",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 15873,
+      "byte_end": 15915,
+      "quote": "at every level of wealth: sweeping a floor",
+      "problem": "From `civ/bin/linear check -file civ/ccp_sheet.md` (Rule 10 of the editing guide): two claims joined by a colon. The tool's move is to split there, as in the linearity pass on the book that you accepted in full on 2026-11-22. (a) The colon becomes a full stop and the next word is capitalized. Nothing else changes. Line 136, \"Kept and built\".",
+      "rule": "sheet/rule-10-split",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split at the colon",
+          "text": "at every level of wealth. Sweeping a floor"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:600c8d01:sheet/rule-10-split",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 16488,
+      "byte_end": 16541,
+      "quote": "to sustain human life; it is a piece of civilization.",
+      "problem": "From `civ/bin/linear check -file civ/ccp_sheet.md` (Rule 10 of the editing guide): two claims joined by a semicolon. The tool's move is to split there, as in the linearity pass on the book that you accepted in full on 2026-11-22. (a) The semicolon becomes a full stop and the next word is capitalized. Nothing else changes. Line 136, \"Kept and built\".",
+      "rule": "sheet/rule-10-split",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split at the semicolon",
+          "text": "to sustain human life. It is a piece of civilization."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:d5283888:sheet/rule-10-split",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 22134,
+      "byte_end": 22214,
+      "quote": "stays near the household and local trade; during an invasion or natural disaster",
+      "problem": "From `civ/bin/linear check -file civ/ccp_sheet.md` (Rule 10 of the editing guide): two claims joined by a semicolon. The tool's move is to split there, as in the linearity pass on the book that you accepted in full on 2026-11-22. (a) The semicolon becomes a full stop and the next word is capitalized. Nothing else changes. Line 170, \"Outward\", 39 words.",
+      "rule": "sheet/rule-10-split",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split at the semicolon",
+          "text": "stays near the household and local trade. During an invasion or natural disaster"
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:630a0ed4:sheet/rule-10-split",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 31014,
+      "byte_end": 31133,
+      "quote": "A stable life is technology in the same sense: it continues because conduct is repeated, not because it was wished for.",
+      "problem": "From `civ/bin/linear check -file civ/ccp_sheet.md` (Rule 10 of the editing guide): two claims joined by a colon. The tool's move is to split there, as in the linearity pass on the book that you accepted in full on 2026-11-22. (a) The colon becomes a full stop and the next word is capitalized. Nothing else changes. Line 235, \"Civilization as the root technology\". The book already has the split: 01_ch01.md:31 reads \"A stable personal life is technology in the same sense.\" and goes on in a new sentence.",
+      "rule": "sheet/rule-10-split",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "split at the colon",
+          "text": "A stable life is technology in the same sense. It continues because conduct is repeated, not because it was wished for."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:eea1547c:sheet/rule-10-verb",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 36788,
+      "byte_end": 36829,
+      "quote": "as noble and free of consequence, cannot.",
+      "problem": "From the linear report on the sheet (Rule 10, score 5.0, the second highest in the sheet): twenty words stand before the verb, and the verb is \"cannot\" alone. It borrows \"be beautiful\" from the sentence before. (a) The verb is written out: \"cannot be beautiful.\" The order of the two sentences, claim then example, is yours and stays. Line 270, \"Admire beauty\".",
+      "rule": "sheet/rule-10-verb",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "the verb written out",
+          "text": "as noble and free of consequence, cannot be beautiful."
+        }
+      ]
+    },
+    {
+      "id": "call:civ/ccp_sheet.md:83443c99:sheet/register",
+      "source": "call",
+      "from": "glm-5.4",
+      "kind": "rewrite",
+      "path": "civ/ccp_sheet.md",
+      "byte_offset": 12873,
+      "byte_end": 12900,
+      "quote": "identical, swappable tokens",
+      "problem": "From the ngram report on the sheet: \"swappable\" was printed 0.0 times per million words in 1850 to 1950. It is the sheet's only word so rare that the book does not use it at all. In the register pass of 2026-11-22 you had such words replaced, 32 of 32 (fraudster, rulebook, headcount, counterproductive, and the rest). \"Foundational\" and \"infrastructure\" are also rare in the period, but the book keeps them, so no item is filed for them. (a) The book's own phrase, at 01_ch01.md:64: \"interchangeable tokens\". (b) The sheet's own phrase from line 92: \"interchangeable units\". Line 113, \"Particular\".",
+      "rule": "sheet/register",
+      "alternates": [
+        {
+          "id": "a",
+          "label": "interchangeable tokens",
+          "text": "identical, interchangeable tokens"
+        },
+        {
+          "id": "b",
+          "label": "interchangeable units",
+          "text": "identical, interchangeable units"
+        }
+      ]
+    }
+  ]
+}

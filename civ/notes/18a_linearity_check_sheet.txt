@@ -1,0 +1,1161 @@
+18:58:46 parsing one file with CoreNLP (heap 6g)
+ccp_sheet:5  score 0.0  words 6  before verb 1  subject 1  depth 0
+  We come into this world naked.
+ccp_sheet:5  score 0.0  words 4  before verb 2  subject 1  depth 0
+  Beneath us stands reality.
+ccp_sheet:5  score 0.0  words 5  before verb 3  subject 3  depth 1
+  Anything we build is technology.
+ccp_sheet:5  score 2.0  words 13  before verb 11  subject 11  depth 0
+  A stable life, a stable farm, a stable house, and tools are technology.
+  - part 2, late verb (1.0): 11 words come before the main verb ("are").
+  - part 2, long subject (1.0): The subject is 11 words: "A stable life, a stable farm, a stable house, and tools".
+  - close echo (1.0): The content word "technology" repeats within 13 words ("technology", then "technology").
+  - close echo (0.5): The content word "stable" repeats within 3 words ("stable", then "stable"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:5  score 0.0  words 15  before verb 0  subject 0  depth 1
+  Continuing life from generation to generation, and the ability to build and keep, is civilization.
+  - close echo (1.0): The content word "life" repeats within 12 words ("life", then "life").
+  - close echo (0.5): The content word "generation" repeats within 2 words ("generation", then "generation"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:7  score 0.0  words 19  before verb 2  subject 2  depth 0
+  A civilization includes its mechanical tools, and also the social customs and individual values of the people within it.
+ccp_sheet:9  score 0.0  words 10  before verb 2  subject 2  depth 0
+  All civilizations exist within the bounds and consequences of reality.
+ccp_sheet:9  score 0.0  words 5  before verb 1  subject 0  depth 0
+  Here is what is asserted:
+ccp_sheet:13  score 0.0  words 6  before verb 1  subject 1  depth 0
+  Reality is real, knowable, and consequential.
+ccp_sheet:13  score 0.0  words 6  before verb 1  subject 1  depth 1
+  Truth is what corresponds to reality.
+  - close echo (1.0): The content word "reality" repeats within 11 words ("Reality", then "reality").
+ccp_sheet:15  score 0.0  words 7  before verb 1  subject 1  depth 0
+  Humans are self-interested, limited, and particular.
+ccp_sheet:17  score 0.0  words 12  before verb 1  subject 1  depth 0
+  Goodness must include human life continuing, and that life kept and built.
+  - close echo (0.5): The content word "life" repeats within 4 words ("life", then "life"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:19  score 0.0  words 11  before verb 5  subject 5  depth 1
+  What you keep and build is self-anchored, tiered, and outward.
+ccp_sheet:19  score 0.0  words 3  before verb 1  subject 1  depth 0
+  Enemies are real.
+ccp_sheet:21  score 0.0  words 5  before verb 1  subject 1  depth 0
+  Justice is scoped procedural symmetry.
+ccp_sheet:25  score 0.0  words 9  before verb 2  subject 2  depth 1
+  These five are the ground any builder stands on.
+ccp_sheet:25  score 0.0  words 6  before verb 1  subject 0  depth 0
+  Reality answers false claims with failure.
+ccp_sheet:25  score 0.0  words 7  before verb 2  subject 2  depth 0
+  Limited people cannot carry unlimited duties.
+ccp_sheet:25  score 0.0  words 9  before verb 6  subject 6  depth 1
+  A life that is not kept does not continue.
+ccp_sheet:25  score 0.0  words 15  before verb 3  subject 3  depth 1
+  What is kept begins with the keeper and moves outward, or it is not kept.
+  - close echo (1.0): The content word "keep" repeats within 6 words ("kept", then "kept").
+ccp_sheet:25  score 0.0  words 12  before verb 1  subject 1  depth 1
+  People build where the rule is known beforehand, bounded, and applied alike.
+ccp_sheet:27  score 0.0  words 6  before verb 2  subject 1  depth 0
+  So technology requires something from us.
+ccp_sheet:27  score 0.0  words 13  before verb 1  subject 1  depth 1
+  It requires a will and a method that answer those constraints in conduct.
+  - close echo (1.0): The content word "require" repeats within 5 words ("requires", then "requires").
+ccp_sheet:27  score 0.0  words 7  before verb 5  subject 2  depth 0
+  That answer, in a person, is virtue.
+ccp_sheet:27  score 0.0  words 9  before verb 7  subject 7  depth 1
+  That answer, held across people and generations, is civilization.
+  - close echo (1.0): The content word "answer" repeats within 6 words ("answer", then "answer"). The content word "answer" appears in 3 consecutive sentences.
+  - close echo (1.0): The content word "person" repeats within 7 words ("person", then "people").
+ccp_sheet:27  score 0.0  words 9  before verb 1  subject 1  depth 0
+  Civilization is not an entity and not a collective.
+  - close echo (1.0): The content word "civilization" repeats within 1 words ("civilization", then "Civilization").
+ccp_sheet:27  score 0.0  words 9  before verb 1  subject 1  depth 2
+  It is the technology that lets other technologies stand.
+  - close echo (0.5): The content word "technology" repeats within 4 words ("technology", then "technologies"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:31  score 0.0  words 8  before verb 1  subject 1  depth 1
+  Civilization enables survival, and life kept and built.
+ccp_sheet:31  score 0.0  words 8  before verb 1  subject 1  depth 0
+  It keeps enemies away and its people fed.
+ccp_sheet:31  score 2.0  words 6  before verb 1  subject 1  depth 0
+  It keeps individuals alive and building.
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+  - close echo (1.0): The content word "keep" repeats within 4 words ("kept", then "keeps"). The content word "keep" appears in 3 consecutive sentences.
+ccp_sheet:31  score 0.0  words 6  before verb 3  subject 3  depth 0
+  Every other technology rests on it.
+ccp_sheet:33  score 0.0  words 7  before verb 1  subject 1  depth 0
+  Virtue is that technology in a person.
+ccp_sheet:33  score 0.0  words 7  before verb 3  subject 0  depth 0
+  The individual's virtues of civilization are:
+ccp_sheet:35  score 0.0  words 3  before verb 0  subject 0  depth 0
+  Align with truth
+ccp_sheet:37  score 0.0  words 5  before verb 0  subject 0  depth 0
+  Take ownership, which is responsibility
+ccp_sheet:39  score 0.0  words 2  before verb 0  subject 0  depth 0
+  Seek excellence
+ccp_sheet:41  score 0.0  words 2  before verb 0  subject 0  depth 0
+  Admire beauty
+ccp_sheet:43  score 0.0  words 2  before verb 0  subject 0  depth 0
+  Be humble
+ccp_sheet:45  score 0.0  words 2  before verb 0  subject 0  depth 0
+  Have children
+ccp_sheet:47  score 0.0  words 3  before verb 0  subject 0  depth 0
+  Form and listen
+ccp_sheet:56  score 0.0  words 8  before verb 5  subject 1  depth 1
+  Why it is important: Reality is what exists.
+ccp_sheet:56  score 0.0  words 10  before verb 1  subject 1  depth 0
+  There is one reality, and it is not an illusion.
+  - close echo (1.0): The content word "reality" repeats within 7 words ("Reality", then "reality").
+ccp_sheet:56  score 0.0  words 21  before verb 1  subject 1  depth 1
+  It operates independently of human wishes, opinions, or votes, so a tool, a law, or a plan can be relied on.
+ccp_sheet:56  score 2.5  words 15  before verb 5  subject 5  depth 1
+  A book or a story does not create a new reality; it creates a narrative.
+  - part 3, second claim (0.5): A second clause with its own subject follows the semicolon.
+    draft (split): A book or a story does not create a new reality. It creates a narrative.
+  - part 4, ambiguous it (2.0): "it" may refer to "book", but story and reality sit between them.
+  - close echo (0.5): The content word "create" repeats within 5 words ("create", then "creates"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:58  score 0.0  words 14  before verb 0  subject 0  depth 1
+  Range of views: People may include different things within the total scope of reality.
+ccp_sheet:58  score 0.0  words 24  before verb 1  subject 1  depth 2
+  Some hold that reality consists strictly of the physical universe of matter and energy, and that natural laws describe how matter and energy behave.
+  - close echo (1.0): The content word "reality" repeats within 4 words ("reality", then "reality").
+  - close echo (0.5): The content word "matter" repeats within 9 words ("matter", then "matter"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+  - close echo (0.5): The content word "energy" repeats within 9 words ("energy", then "energy"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:58  score 0.0  words 15  before verb 1  subject 1  depth 1
+  Others hold that God and spiritual laws are also real and act within the world.
+  - close echo (1.0): The content word "hold" repeats within 24 words ("hold", then "hold").
+  - close echo (1.0): The content word "law" repeats within 13 words ("laws", then "laws").
+ccp_sheet:58  score 2.0  words 42  before verb 2  subject 2  depth 3
+  Both views remain within this principle so long as they agree that we inhabit a single, shared physical world in which things have objective properties of their own and act by them, and those properties do not change when our descriptions change.
+  - part 3, nested clauses (1.0): Clauses nest 3 deep (a clause inside a clause inside a clause).
+  - part 3, long sentence (1.0): 42 words.
+  - close echo (1.0): The content word "world" repeats within 19 words ("world", then "world").
+  - close echo (0.5): The content word "property" repeats within 10 words ("properties", then "properties"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+  - close echo (0.5): The content word "change" repeats within 4 words ("change", then "change"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:60  score 0.0  words 10  before verb 6  subject 1  depth 0
+  What it cannot accept: It cannot accept solipsism.
+ccp_sheet:60  score 2.0  words 22  before verb 1  subject 1  depth 2
+  It cannot accept the claim that the external world is an illusion, or that each person possesses a separate "personal reality."
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+ccp_sheet:60  score 2.0  words 14  before verb 1  subject 1  depth 1
+  It cannot accept the belief that social consensus or political authority creates reality.
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+  - close echo (1.0): The content word "accept" repeats within 9 words ("accept", then "accept"). The content word "accept" appears in 3 consecutive sentences.
+ccp_sheet:63  score 0.0  words 14  before verb 5  subject 1  depth 1
+  Why it is important: Humans can obtain an accurate, working understanding of the world.
+ccp_sheet:63  score 1.0  words 15  before verb 8  subject 0  depth 1
+  What a man knows of the shared world is what has survived contact with it.
+  - part 2, opening phrase (1.0): An 8-word opening phrase stands before the subject: "What a man knows of the shared world".
+  - close echo (1.0): The content word "world" repeats within 8 words ("world", then "world").
+ccp_sheet:63  score 1.0  words 24  before verb 2  subject 2  depth 0
+  His senses are proxies: the eye turns bands of light into nerve signals, and the ear does the same with variations in air pressure.
+  - part 3, second claim (1.0): A second clause with its own subject follows the colon.
+    draft (split): His senses are proxies. The eye turns bands of light into nerve signals, and the ear does the same with variations in air pressure.
+ccp_sheet:63  score 0.0  words 20  before verb 1  subject 1  depth 2
+  Instruments are proxies he builds, and he learns how far to trust each one by testing it in different ways.
+  - close echo (1.0): The content word "proxy" repeats within 23 words ("proxies", then "proxies").
+ccp_sheet:63  score 0.0  words 8  before verb 3  subject 3  depth 0
+  Logic and reason are shortcuts to a test.
+ccp_sheet:63  score 2.0  words 22  before verb 1  subject 1  depth 2
+  They tell him what a test should show if a theory is right, and they tell him when a theory contradicts itself.
+  - part 4, distant pronoun (2.0): No person in this sentence or the one before for "him" to refer to.
+  - close echo (1.0): The content word "test" repeats within 12 words ("testing", then "test"). The content word "test" appears in 3 consecutive sentences.
+  - close echo (0.5): The content word "tell" repeats within 14 words ("tell", then "tell"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+  - close echo (0.5): The content word "theory" repeats within 9 words ("theory", then "theory"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:63  score 0.0  words 12  before verb 3  subject 1  depth 0
+  By themselves they do not confirm a claim about the shared world.
+ccp_sheet:63  score 0.0  words 7  before verb 2  subject 2  depth 1
+  The world does that, by pushing back.
+ccp_sheet:63  score 0.0  words 14  before verb 1  subject 1  depth 2
+  Knowledge grows as models are tested against reality again and again, until they converge.
+  - close echo (0.5): The content word "again" repeats within 2 words ("again", then "again"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:63  score 0.0  words 20  before verb 1  subject 1  depth 2
+  People fly in airplanes and use telephones because engineers have learned the properties of materials and built processes that work.
+ccp_sheet:65  score 0.0  words 18  before verb 0  subject 0  depth 1
+  Range of views: People differ on the precision of human knowledge and the tools required to reach it.
+ccp_sheet:65  score 0.0  words 31  before verb 2  subject 2  depth 1
+  Direct observation suffices for simple tasks, while instruments, mathematics, and controlled testing are required to know things beyond immediate perception, such as radio waves or the crystal structure of a metal.
+  - close echo (1.0): The content word "require" repeats within 17 words ("required", then "required").
+ccp_sheet:65  score 0.0  words 12  before verb 2  subject 1  depth 1
+  Some also accept religious revelation about what the senses do not reach.
+ccp_sheet:65  score 0.0  words 15  before verb 1  subject 1  depth 0
+  Revelation is a separate category from knowledge, and each person may believe it or not.
+ccp_sheet:65  score 0.0  words 5  before verb 1  subject 1  depth 0
+  Revelation may add a claim.
+ccp_sheet:65  score 0.0  words 6  before verb 1  subject 1  depth 0
+  It may not cancel a measurement.
+ccp_sheet:65  score 0.0  words 6  before verb 1  subject 0  depth 2
+  The obligation to test it remains.
+ccp_sheet:67  score 2.0  words 33  before verb 6  subject 1  depth 4
+  What it cannot accept: It cannot accept radical skepticism, which claims that we cannot know anything with enough certainty to act and build, because we do not know everything perfectly.
+  - part 3, nested clauses (2.0): Clauses nest 4 deep (a clause inside a clause inside a clause).
+  - close echo (0.5): The content word "accept" repeats within 4 words ("accept", then "accept"). The repeat stays inside one sentence; judge whether it is deliberate.
+  - close echo (0.5): The content word "know" repeats within 13 words ("know", then "know"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:67  score 2.0  words 26  before verb 2  subject 1  depth 1
+  It also cannot accept intuition or emotional certainty as a substitute for sensory and empirical verification where the claim is about the shared physical world.
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+  - close echo (1.0): The content word "certainty" repeats within 20 words ("certainty", then "certainty").
+ccp_sheet:67  score 0.0  words 14  before verb 7  subject 7  depth 1
+  A feeling that a beam will hold is not a test of the beam.
+ccp_sheet:67  score 0.0  words 5  before verb 1  subject 1  depth 0
+  Intuition may suggest a hypothesis.
+ccp_sheet:67  score 0.0  words 5  before verb 1  subject 1  depth 0
+  It does not confirm one.
+ccp_sheet:67  score 0.0  words 12  before verb 5  subject 5  depth 0
+  A calculation of the beam is not a test of it either.
+ccp_sheet:67  score 0.0  words 10  before verb 5  subject 1  depth 0
+  In a load test, reality acts on the beam itself.
+ccp_sheet:67  score 2.0  words 21  before verb 2  subject 2  depth 3
+  A calculation is the logic that carries what tested beams did under load over to this one, without testing each beam.
+  - part 3, nested clauses (1.0): Clauses nest 3 deep (a clause inside a clause inside a clause).
+  - part 1, new before old (1.0): The sentence opens on new material and ends on words from the sentence before ("one, without testing each beam"); consider opening from them.
+  - close echo (1.0): The content word "beam" repeats within 24 words ("beam", then "beam"). The content word "beam" appears in 3 consecutive sentences.
+  - close echo (1.0): The content word "test" repeats within 22 words ("test", then "test"). The content word "test" appears in 3 consecutive sentences.
+  - close echo (1.0): The content word "calculation" repeats within 22 words ("calculation", then "calculation").
+  - close echo (1.0): The content word "load" repeats within 20 words ("load", then "load").
+ccp_sheet:70  score 0.0  words 7  before verb 5  subject 1  depth 1
+  Why it is important: Reality pushes back.
+ccp_sheet:70  score 0.0  words 10  before verb 7  subject 7  depth 1
+  A man who runs into a wall breaks his nose.
+ccp_sheet:70  score 1.0  words 22  before verb 2  subject 2  depth 1
+  Pushing back is more than having effects: a story can affect its reader, but nothing in the story pushes back on him.
+  - part 3, second claim (1.0): A second clause with its own subject follows the colon.
+    draft (split): Pushing back is more than having effects. A story can affect its reader, but nothing in the story pushes back on him.
+  - close echo (1.0): The content word "push" repeats within 12 words ("pushes", then "Pushing").
+  - close echo (0.5): The content word "story" repeats within 9 words ("story", then "story"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:70  score 0.5  words 15  before verb 2  subject 2  depth 1
+  An author can bring a dead character back to life; a dead animal stays dead.
+  - part 3, second claim (0.5): A second clause with its own subject follows the semicolon.
+    draft (split): An author can bring a dead character back to life. A dead animal stays dead.
+  - close echo (0.5): The content word "dead" repeats within 6 words ("dead", then "dead"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:70  score 0.0  words 8  before verb 1  subject 1  depth 1
+  Reality pushes back even when no one acts.
+ccp_sheet:70  score 0.0  words 11  before verb 6  subject 5  depth 1
+  A man who does nothing still starves or dies of exposure.
+ccp_sheet:70  score 0.5  words 15  before verb 1  subject 1  depth 1
+  Reality is never at rest; air and the molecules of every substance are always moving.
+  - part 3, second claim (0.5): A second clause with its own subject follows the semicolon.
+    draft (split): Reality is never at rest. Air and the molecules of every substance are always moving.
+  - close echo (1.0): The content word "reality" repeats within 19 words ("Reality", then "Reality").
+ccp_sheet:70  score 0.5  words 15  before verb 1  subject 1  depth 2
+  Reality is consequential because there is no way to escape the activity of the physical.
+  - part 5, effect before cause (0.5): The effect comes first and the 12-word cause follows.
+    draft (pull forward): Because there is no way to escape the activity of the physical, reality is consequential.
+ccp_sheet:70  score 0.0  words 22  before verb 2  subject 2  depth 2
+  Dry cotton burns when a flame reaches it, because of what cotton and flame are, whatever the person holding the flame intended.
+  - close echo (0.5): The content word "cotton" repeats within 10 words ("cotton", then "cotton"). The repeat stays inside one sentence; judge whether it is deliberate.
+  - close echo (0.5): The content word "flame" repeats within 8 words ("flame", then "flame"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:70  score 0.0  words 17  before verb 9  subject 5  depth 1
+  Because reality is consequential, errors in judgment or action carry real costs, and so does doing nothing.
+ccp_sheet:72  score 0.0  words 16  before verb 0  subject 0  depth 1
+  Range of views: Reasonable people will debate which consequences matter most over different spans of time.
+ccp_sheet:72  score 0.0  words 17  before verb 2  subject 2  depth 1
+  An action may produce an immediate physical benefit while causing a long-term financial or demographic loss.
+ccp_sheet:72  score 0.0  words 10  before verb 6  subject 6  depth 1
+  Judging the full chain of consequences requires study and debate.
+ccp_sheet:74  score 0.0  words 19  before verb 6  subject 1  depth 1
+  What it cannot accept: It cannot accept the belief that good intentions excuse or erase destructive outcomes.
+ccp_sheet:74  score 2.0  words 19  before verb 1  subject 1  depth 2
+  It cannot accept the belief that renaming a failure changes the physical or social result of that failure.
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+  - close echo (0.5): The content word "failure" repeats within 9 words ("failure", then "failure"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:74  score 2.0  words 11  before verb 1  subject 1  depth 2
+  It cannot accept the belief that doing nothing escapes consequence.
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+  - close echo (1.0): The content word "accept" repeats within 18 words ("accept", then "accept"). The content word "accept" appears in 3 consecutive sentences.
+  - close echo (1.0): The content word "belief" repeats within 14 words ("belief", then "belief"). The content word "belief" appears in 3 consecutive sentences.
+ccp_sheet:77  score 0.0  words 17  before verb 6  subject 2  depth 0
+  Why it is important: This sentence states the direction of fit between the mind and the world.
+ccp_sheet:77  score 0.5  words 19  before verb 1  subject 1  depth 2
+  Reality comes first; our statements, models, and beliefs are true only to the extent that they accurately match reality.
+  - part 3, second claim (0.5): A second clause with its own subject follows the semicolon.
+    draft (split): Reality comes first. Our statements, models, and beliefs are true only to the extent that they accurately match reality.
+  - close echo (0.5): The content word "reality" repeats within 18 words ("Reality", then "reality"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:77  score 0.0  words 9  before verb 6  subject 6  depth 1
+  What corresponds only to a narrative is not truth.
+ccp_sheet:77  score 0.0  words 11  before verb 7  subject 1  depth 1
+  When men debate, they must not merely adjudicate differing personal opinions.
+ccp_sheet:77  score 0.0  words 21  before verb 1  subject 1  depth 1
+  They must point to something outside of themselves, make predictions about common observations, and verify the results in the external world.
+ccp_sheet:77  score 0.0  words 7  before verb 1  subject 1  depth 1
+  Correspondence is what makes a belief true.
+  - close echo (1.0): The content word "make" repeats within 16 words ("make", then "makes").
+ccp_sheet:77  score 0.0  words 8  before verb 1  subject 1  depth 2
+  Justification is having grounds to think it corresponds.
+ccp_sheet:77  score 0.0  words 27  before verb 2  subject 2  depth 2
+  A belief is justified in so much as it has been tested against reality and holds up, and the more independent tests converge, the stronger the justification.
+  - close echo (1.0): The content word "belief" repeats within 11 words ("belief", then "belief").
+  - close echo (0.5): The content word "test" repeats within 10 words ("tested", then "tests"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:77  score 2.0  words 17  before verb 13  subject 13  depth 1
+  A claim about the shared world that no possible observation could prove false cannot be trusted.
+  - part 2, late verb (1.0): 13 words come before the main verb ("can").
+  - part 2, long subject (1.0): The subject is 13 words: "A claim about the shared world that no possible observation could prove false".
+ccp_sheet:77  score 0.0  words 13  before verb 1  subject 1  depth 2
+  It fits every state of reality, so it corresponds to none in particular.
+ccp_sheet:77  score 0.0  words 15  before verb 1  subject 0  depth 2
+  A claim about what lies outside the shared world belongs with revelation, not with knowledge.
+ccp_sheet:77  score 0.0  words 5  before verb 2  subject 2  depth 0
+  This principle leaves it open.
+ccp_sheet:79  score 0.0  words 13  before verb 0  subject 0  depth 1
+  Range of views: Correspondence may be exact or approximate depending on the task.
+ccp_sheet:79  score 0.5  words 27  before verb 6  subject 6  depth 2
+  A machinist cutting a steel cylinder requires correspondence within thousandths of an inch; a historian describing a war requires correspondence to the surviving records and physical evidence.
+  - part 3, second claim (0.5): A second clause with its own subject follows the semicolon.
+    draft (split): A machinist cutting a steel cylinder requires correspondence within thousandths of an inch. A historian describing a war requires correspondence to the surviving records and physical evidence.
+  - close echo (1.0): The content word "correspondence" repeats within 17 words ("Correspondence", then "correspondence").
+  - close echo (0.5): The content word "require" repeats within 12 words ("requires", then "requires"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:79  score 0.0  words 31  before verb 6  subject 6  depth 2
+  Scientific models, such as Newtonian mechanics, remain true and useful within the specific range of conditions where their predictions match reality, even if a broader model is required for extreme conditions.
+  - close echo (0.5): The content word "model" repeats within 24 words ("models", then "model"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+  - close echo (0.5): The content word "condition" repeats within 15 words ("conditions", then "conditions"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:81  score 0.0  words 26  before verb 6  subject 1  depth 1
+  What it cannot accept: It cannot accept redefining truth as whatever is politically useful, whatever a majority agrees upon, or whatever an authority decrees.
+ccp_sheet:81  score 2.0  words 16  before verb 1  subject 1  depth 0
+  It cannot accept truth relative to a person, a class, a culture, or an epoch.
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+  - close echo (1.0): The content word "accept" repeats within 21 words ("accept", then "accept").
+  - close echo (1.0): The content word "truth" repeats within 20 words ("truth", then "truth").
+ccp_sheet:81  score 0.0  words 9  before verb 1  subject 1  depth 0
+  Truth does not have different frames, just one: reality.
+ccp_sheet:81  score 0.0  words 22  before verb 1  subject 1  depth 2
+  It cannot accept coherence alone: a theory that is internally consistent on paper but fails when tested against the physical world.
+ccp_sheet:81  score 0.5  words 21  before verb 1  subject 1  depth 2
+  Logic can tell what is congruent inside a model or a story; it cannot tell whether the story is real.
+  - part 3, second claim (0.5): A second clause with its own subject follows the semicolon.
+    draft (split): Logic can tell what is congruent inside a model or a story. It cannot tell whether the story is real.
+  - close echo (0.5): The content word "tell" repeats within 13 words ("tell", then "tell"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+  - close echo (0.5): The content word "story" repeats within 7 words ("story", then "story"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:81  score 0.0  words 18  before verb 1  subject 1  depth 1
+  It cannot accept altering a hypothesis after the fact to claim a failed prediction was actually correct.
+ccp_sheet:88  score 0.0  words 22  before verb 6  subject 2  depth 1
+  Why it is important: These principles describe the actual biological creatures, men and women, who must live and build in the world.
+ccp_sheet:88  score 0.0  words 16  before verb 3  subject 3  depth 2
+  Rules and technologies must be designed for humans as they are, rather than for theoretical beings.
+ccp_sheet:88  score 0.0  words 18  before verb 1  subject 1  depth 1
+  Virtue is cultivated in each person by formation and practice, and it is lost when the cultivation stops.
+ccp_sheet:90  score 0.0  words 18  before verb 0  subject 0  depth 0
+  Range of views: One may analyze human nature primarily through biology, through psychology, or through history and religion.
+ccp_sheet:90  score 0.0  words 15  before verb 1  subject 1  depth 1
+  All are compatible here so long as they recognize the stable traits of the species.
+ccp_sheet:92  score 3.0  words 36  before verb 6  subject 1  depth 3
+  What it cannot accept: It cannot accept the belief that humans are born naturally good, or that they are blank slates that can be reshaped into a new kind of creature by state conditioning.
+  - part 3, nested clauses (1.0): Clauses nest 3 deep (a clause inside a clause inside a clause).
+  - part 4, distant pronoun (2.0): No singular noun in this sentence or the one before for "it" to refer to.
+  - close echo (0.5): The content word "accept" repeats within 4 words ("accept", then "accept"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:92  score 2.0  words 16  before verb 1  subject 1  depth 0
+  Nor can it accept treating men and women as interchangeable administrative units without distinct biological realities.
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+ccp_sheet:95  score 0.0  words 17  before verb 7  subject 3  depth 1
+  Why it is important: A human being is naturally concerned with his own survival and well-being.
+ccp_sheet:95  score 0.0  words 9  before verb 4  subject 4  depth 1
+  Valuing his own life is what makes ownership possible.
+ccp_sheet:95  score 0.0  words 7  before verb 1  subject 1  depth 1
+  He answers for the life he values.
+  - close echo (1.0): The content word "value" repeats within 15 words ("Valuing", then "values").
+  - close echo (1.0): The content word "life" repeats within 10 words ("life", then "life").
+ccp_sheet:95  score 0.0  words 3  before verb 1  subject 1  depth 0
+  Ownership is responsibility.
+  - close echo (1.0): The content word "ownership" repeats within 9 words ("ownership", then "Ownership").
+ccp_sheet:95  score 0.0  words 8  before verb 3  subject 3  depth 1
+  Being self-interested is not a moral defect.
+ccp_sheet:95  score 0.0  words 26  before verb 1  subject 1  depth 2
+  It is the ordinary condition from which he takes that responsibility and ceases to be a burden on the people who are doing their own work.
+  - close echo (1.0): The content word "responsibility" repeats within 19 words ("responsibility", then "responsibility").
+ccp_sheet:97  score 0.0  words 20  before verb 0  subject 0  depth 2
+  Range of views: There is legitimate debate over where the boundary of self-interest ends and obligation to others begins.
+ccp_sheet:97  score 0.0  words 27  before verb 7  subject 7  depth 1
+  None of the views inside this perimeter treats a person as having a generic responsibility to Humanity, and none treats ordinary self-preservation as a moral defect.
+  - close echo (1.0): The content word "view" repeats within 21 words ("views", then "views").
+  - close echo (0.5): The content word "none" repeats within 18 words ("None", then "none"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+  - close echo (0.5): The content word "treat" repeats within 12 words ("treats", then "treats"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:97  score 0.0  words 11  before verb 3  subject 3  depth 0
+  All of them value human life both broadly and in particular.
+ccp_sheet:99  score 0.0  words 21  before verb 6  subject 1  depth 1
+  What it cannot accept: It cannot accept moral systems that condemn basic self-preservation and personal ambition as evil.
+ccp_sheet:99  score 2.0  words 27  before verb 2  subject 1  depth 1
+  Conversely, it cannot accept defining self-interest as the pursuit of short-term whims, hedonism, or the right to harm and defraud others for personal gain.
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+  - close echo (1.0): The content word "accept" repeats within 21 words ("accept", then "accept").
+  - close echo (1.0): The content word "self" repeats within 13 words ("self", then "self").
+ccp_sheet:102  score 0.0  words 15  before verb 5  subject 1  depth 1
+  Why it is important: Humans are finite in lifespan, time, energy, attention, knowledge, and intelligence.
+ccp_sheet:102  score 0.0  words 33  before verb 4  subject 2  depth 1
+  Because a person only has so many hours in a day and so much wealth and attention to spend, he cannot care for everyone equally or solve every problem in the world.
+  - close echo (1.0): The content word "attention" repeats within 20 words ("attention", then "attention").
+ccp_sheet:102  score 0.0  words 11  before verb 5  subject 4  depth 1
+  Limited knowledge and time also mean that we can be wrong.
+ccp_sheet:102  score 0.0  words 6  before verb 1  subject 1  depth 1
+  Humility follows from acknowledging these limits.
+ccp_sheet:102  score 0.0  words 20  before verb 2  subject 2  depth 1
+  The world is knowable, and humility is the practice of checking our understanding against reality and looking for conflicting evidence.
+  - close echo (1.0): The content word "world" repeats within 19 words ("world", then "world").
+ccp_sheet:104  score 0.0  words 22  before verb 0  subject 0  depth 0
+  Range of views: People differ in their individual capacities, and societies can extend human reach through tools, records, and division of labor.
+ccp_sheet:104  score 0.0  words 13  before verb 4  subject 3  depth 1
+  However, extending human reach does not remove the fundamental condition of being finite.
+  - close echo (1.0): The content word "extend" repeats within 11 words ("extend", then "extending").
+  - close echo (1.0): The content word "human" repeats within 11 words ("human", then "human").
+  - close echo (1.0): The content word "reach" repeats within 11 words ("reach", then "reach").
+ccp_sheet:106  score 0.0  words 19  before verb 6  subject 1  depth 1
+  What it cannot accept: It cannot accept utopian doctrines that demand unlimited global responsibility from finite individuals.
+ccp_sheet:106  score 2.0  words 26  before verb 2  subject 1  depth 2
+  It also cannot accept using human limitation as an excuse for laziness or refusing to handle the duties that lie within one's actual reach.
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+  - close echo (1.0): The content word "accept" repeats within 19 words ("accept", then "accept").
+ccp_sheet:109  score 0.0  words 11  before verb 7  subject 3  depth 1
+  Why it is important: No human being is a generic specimen.
+ccp_sheet:109  score 0.0  words 29  before verb 2  subject 2  depth 1
+  Every man has a particular genetic makeup, a particular sex, a particular family lineage, a particular native language, and a particular culture and society in which he was raised.
+  - close echo (0.5): The content word "particular" repeats within 4 words ("particular", then "particular"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:109  score 0.0  words 16  before verb 5  subject 5  depth 0
+  These specific traits and ties form the actual person and determine his concrete abilities and obligations.
+ccp_sheet:111  score 0.0  words 24  before verb 0  subject 0  depth 1
+  Range of views: Serious people debate the relative weight of genetics, family upbringing, and broader culture in shaping a person's character and capability.
+  - close echo (0.5): The content word "person" repeats within 15 words ("people", then "person"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:111  score 0.0  words 12  before verb 0  subject 0  depth 1
+  Recognizing that all three exist and matter is sufficient for this principle.
+ccp_sheet:113  score 0.0  words 28  before verb 6  subject 1  depth 1
+  What it cannot accept: It cannot accept egalitarian theories that treat all human beings as identical, swappable tokens with no attachment to heritage, biology, or place.
+  - close echo (0.5): The content word "accept" repeats within 4 words ("accept", then "accept"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:113  score 0.0  words 11  before verb 2  subject 2  depth 1
+  Recognizing particularity establishes that people are distinct and have specific roots.
+ccp_sheet:113  score 0.0  words 12  before verb 1  subject 1  depth 0
+  It does not by itself establish a moral hierarchy of human worth.
+  - close echo (1.0): The content word "establish" repeats within 14 words ("establishes", then "establish").
+ccp_sheet:120  score 0.0  words 17  before verb 5  subject 1  depth 1
+  Why it is important: Goodness is the standard of what humans ought to do and aim for.
+ccp_sheet:120  score 0.0  words 17  before verb 8  subject 2  depth 2
+  By stating what goodness must include, this principle establishes a mandatory minimum requirement for any moral system.
+  - close echo (1.0): The content word "goodness" repeats within 16 words ("Goodness", then "goodness").
+ccp_sheet:120  score 0.0  words 37  before verb 7  subject 6  depth 1
+  If a moral or political code itself brings about the death of the people who practice it, or ruins their ability to sustain themselves and to raise the next generation, that code fails the test of reality.
+  - close echo (1.0): The content word "moral" repeats within 4 words ("moral", then "moral").
+ccp_sheet:120  score 0.0  words 16  before verb 6  subject 6  depth 0
+  Death at an enemy's hands is a different fact, and it belongs under Point 4.
+ccp_sheet:120  score 0.0  words 20  before verb 2  subject 2  depth 1
+  A people can keep a sound code and still be destroyed by someone who has set out to destroy them.
+  - close echo (0.5): The content word "destroy" repeats within 8 words ("destroyed", then "destroy"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:120  score 0.0  words 13  before verb 2  subject 2  depth 1
+  The code fails when its own commands produce the death or the ruin.
+  - close echo (1.0): The content word "code" repeats within 15 words ("code", then "code").
+ccp_sheet:122  score 0.0  words 11  before verb 0  subject 0  depth 1
+  Range of views: This phrase establishes a floor, not a ceiling.
+ccp_sheet:122  score 0.0  words 32  before verb 5  subject 5  depth 2
+  Religious faiths and philosophical traditions may include higher goods above this floor, such as holiness, salvation, or philosophical contemplation, provided those aims do not destroy the floor of human continuance and maintenance.
+  - close echo (1.0): The content word "floor" repeats within 15 words ("floor", then "floor").
+  - close echo (0.5): The content word "philosophical" repeats within 14 words ("philosophical", then "philosophical"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:124  score 3.0  words 54  before verb 6  subject 1  depth 4
+  What it cannot accept: It cannot accept anti-human ideologies (such as voluntary human extinction), nor can it accept moral systems that define goodness merely as the absence of pain, as pleasant feelings, as whatever adults consent to, or as adherence to abstract rules that cause the society practicing them to die out.
+  - part 3, nested clauses (2.0): Clauses nest 4 deep (a clause inside a clause inside a clause).
+  - part 3, long sentence (1.0): 54 words.
+  - close echo (0.5): The content word "accept" repeats within 4 words ("accept", then "accept"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:127  score 0.0  words 15  before verb 7  subject 3  depth 0
+  Why it is important: Survival across generations is the precondition for all other human goods.
+ccp_sheet:127  score 0.0  words 15  before verb 3  subject 3  depth 0
+  A dead person cannot practice virtue, and an extinct people leaves no civilization behind.
+  - close echo (0.5): The content word "person" repeats within 8 words ("person", then "people"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:127  score 0.0  words 26  before verb 1  subject 1  depth 2
+  Continuing means both staying alive in the present and producing and raising the next generation so that the population and its knowledge do not die out.
+ccp_sheet:127  score 0.0  words 14  before verb 3  subject 0  depth 0
+  This principle values life itself, and having children continues that life through new individuals.
+  - close echo (0.5): The content word "life" repeats within 7 words ("life", then "life"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:129  score 0.0  words 28  before verb 0  subject 0  depth 1
+  Range of views: Communities will weigh immediate survival against long-term demographic health in different ways depending on their circumstances, such as during a famine or a war.
+ccp_sheet:129  score 0.0  words 15  before verb 6  subject 6  depth 2
+  Affirming that human life should continue does not make every culture equally worthy of continuance.
+ccp_sheet:131  score 0.0  words 17  before verb 6  subject 1  depth 0
+  What it cannot accept: It cannot accept substituting animal or plant life for human life.
+  - close echo (0.5): The content word "life" repeats within 3 words ("life", then "life"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:131  score 3.0  words 28  before verb 1  subject 1  depth 3
+  It cannot accept a society that measures success solely by the material comfort of the currently living generation while failing to have enough children to replace itself.
+  - part 3, nested clauses (1.0): Clauses nest 3 deep (a clause inside a clause inside a clause).
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+  - close echo (1.0): The content word "accept" repeats within 16 words ("accept", then "accept").
+ccp_sheet:134  score 0.5  words 18  before verb 6  subject 2  depth 1
+  Why it is important: Human life requires more than bare biological survival; it requires material and social order.
+  - part 3, second claim (0.5): A second clause with its own subject follows the semicolon.
+    draft (split): Why it is important: Human life requires more than bare biological survival. It requires material and social order.
+  - close echo (0.5): The content word "require" repeats within 7 words ("requires", then "requires"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:134  score 0.0  words 11  before verb 0  subject 0  depth 2
+  Kept means maintaining what already exists against natural decay and entropy.
+ccp_sheet:134  score 0.0  words 14  before verb 1  subject 1  depth 1
+  Built means creating new capacity, structures, tools, and people that were not there before.
+ccp_sheet:136  score 2.0  words 31  before verb 1  subject 1  depth 3
+  Keeping applies at every level of wealth: sweeping a floor so the home is clean and habitable is the same fundamental act of keeping, whether the floor is dirt or marble.
+  - part 3, second claim (1.0): A second clause with its own subject follows the colon.
+    draft (split): Keeping applies at every level of wealth. Sweeping a floor so the home is clean and habitable is the same fundamental act of keeping, whether the floor is dirt or marble.
+  - part 3, nested clauses (1.0): Clauses nest 3 deep (a clause inside a clause inside a clause).
+  - close echo (0.5): The content word "floor" repeats within 17 words ("floor", then "floor"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:136  score 0.0  words 9  before verb 1  subject 1  depth 1
+  Building includes physical property, businesses, infrastructure, and raising children.
+ccp_sheet:136  score 0.5  words 23  before verb 2  subject 2  depth 1
+  Raising children is part of building, because people grow old and die, and new capable people must be formed to take their place.
+  - part 5, effect before cause (0.5): The effect comes first and the 17-word cause follows. Consider stating the cause first, in its own sentence.
+  - close echo (1.0): The content word "building" repeats within 14 words ("Building", then "building").
+  - close echo (1.0): The content word "raise" repeats within 2 words ("raising", then "Raising").
+  - close echo (1.0): The content word "child" repeats within 2 words ("children", then "children").
+  - close echo (0.5): The content word "person" repeats within 8 words ("people", then "people"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:136  score 0.0  words 10  before verb 6  subject 6  depth 1
+  Separating "human life" from "mere property" is an illusory distinction.
+ccp_sheet:136  score 1.5  words 21  before verb 14  subject 1  depth 1
+  When a riot or a war burns down a home or a business, it is not "just property" that was lost.
+  - part 2, late verb (1.0): 14 words come before the main verb ("is").
+  - part 2, opening phrase (0.5): A 13-word "When" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
+ccp_sheet:136  score 2.5  words 24  before verb 4  subject 4  depth 1
+  That home or business was a useful structure built by human labor and time to sustain human life; it is a piece of civilization.
+  - part 3, second claim (0.5): A second clause with its own subject follows the semicolon.
+    draft (split): That home or business was a useful structure built by human labor and time to sustain human life. It is a piece of civilization.
+  - part 4, ambiguous it (2.0): "it" may refer to "home", but business, structure, time, and life sit between them.
+  - close echo (1.0): The content word "home" repeats within 13 words ("home", then "home").
+  - close echo (1.0): The content word "business" repeats within 12 words ("business", then "business").
+ccp_sheet:136  score 0.0  words 23  before verb 3  subject 3  depth 2
+  Destroying built property destroys part of what sustains human life, even though a building can be rebuilt and a dead man cannot.
+  - close echo (1.0): The content word "build" repeats within 17 words ("built", then "built").
+  - close echo (1.0): The content word "human" repeats within 22 words ("human", then "human").
+  - close echo (1.0): The content word "sustain" repeats within 16 words ("sustain", then "sustains").
+  - close echo (1.0): The content word "life" repeats within 16 words ("life", then "life").
+  - close echo (0.5): The content word "destroy" repeats within 3 words ("Destroying", then "destroys"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:138  score 1.0  words 21  before verb 0  subject 0  depth 3
+  Range of views: Different societies and households will prioritize different proportions of keeping versus building depending on their stage of development.
+  - part 3, nested clauses (1.0): Clauses nest 3 deep (a clause inside a clause inside a clause).
+  - close echo (0.5): The content word "different" repeats within 6 words ("Different", then "different"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:138  score 0.0  words 26  before verb 3  subject 3  depth 1
+  A frontier settlement must focus heavily on building basic infrastructure; an established city must devote immense labor to keeping its waterworks, roads, and laws in repair.
+  - close echo (1.0): The content word "build" repeats within 14 words ("building", then "building").
+ccp_sheet:140  score 0.0  words 19  before verb 6  subject 1  depth 1
+  What it cannot accept: It cannot accept neglect: allowing homes, tools, laws, and personal health to deteriorate.
+ccp_sheet:140  score 2.0  words 11  before verb 1  subject 1  depth 1
+  It cannot accept building without keeping, or keeping without building.
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+  - close echo (1.0): The content word "accept" repeats within 18 words ("accept", then "accept").
+  - close echo (0.5): The content word "building" repeats within 6 words ("building", then "building"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+  - close echo (0.5): The content word "keep" repeats within 2 words ("keeping", then "keeping"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:140  score 0.0  words 12  before verb 6  subject 6  depth 1
+  A new project left to decay is a case of the first.
+ccp_sheet:140  score 2.0  words 20  before verb 14  subject 9  depth 2
+  A shrinking inheritance hoarded while nothing new is made and no children are raised is a case of the second.
+  - part 2, late verb (1.0): 14 words come before the main verb ("is").
+  - part 2, long subject (1.0): The subject is 9 words: "A shrinking inheritance hoarded while nothing new is made".
+  - close echo (1.0): The content word "case" repeats within 20 words ("case", then "case").
+ccp_sheet:140  score 2.0  words 14  before verb 1  subject 1  depth 1
+  It cannot accept dismissing the destruction of homes, shops, and tools as trivial.
+  - part 4, ambiguous it (2.0): "It" may refer to "inheritance", but nothing and case sit between them.
+ccp_sheet:147  score 1.0  words 25  before verb 5  subject 1  depth 2
+  Why it is important: This identifies the subject of moral obligation: the actual work of maintaining and constructing life, addressed directly to the individual ("you").
+  - part 4, bare this (1.0): "This" stands alone as a noun; name what it refers to.
+ccp_sheet:147  score 0.0  words 18  before verb 2  subject 2  depth 1
+  Moral duty is measured by what a person actually maintains and constructs with his time, effort, and resources.
+  - close echo (1.0): The content word "maintain" repeats within 19 words ("maintaining", then "maintains").
+ccp_sheet:149  score 2.0  words 39  before verb 11  subject 8  depth 2
+  Range of views: The specific things a person keeps and builds will vary by his station, trade, and stage of life: whether he is maintaining a farm, running a machine shop, raising young children, or serving in public office.
+  - part 2, late verb (1.0): 11 words come before the main verb ("will").
+  - part 3, second claim (1.0): A second clause with its own subject follows the colon.
+    draft (split): Range of views: The specific things a person keeps and builds will vary by his station, trade, and stage of life. Whether he is maintaining a farm, running a machine shop, raising young children, or serving in public office.
+ccp_sheet:151  score 0.0  words 28  before verb 6  subject 1  depth 1
+  What it cannot accept: It cannot accept treating verbal signaling, political activism, or emotional sympathy as a substitute for the tangible work of keeping and building.
+  - close echo (0.5): The content word "accept" repeats within 4 words ("accept", then "accept"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:154  score 0.0  words 16  before verb 10  subject 6  depth 1
+  Why it is important: The work of keeping and building must begin with the individual himself.
+ccp_sheet:154  score 0.0  words 22  before verb 10  subject 2  depth 0
+  Because humans are self-interested, limited, and particular, each person is the primary custodian of his own body, mind, solvency, and conduct.
+ccp_sheet:154  score 1.0  words 19  before verb 10  subject 10  depth 1
+  A man who does not keep himself in working order cannot support a family or defend a country.
+  - part 2, long subject (1.0): The subject is 10 words: "A man who does not keep himself in working order".
+ccp_sheet:154  score 0.0  words 32  before verb 1  subject 1  depth 1
+  He is undisciplined, insolvent, or sick from a neglect of the care that was in his power, and he becomes a burden upon the people around him who are doing their work.
+ccp_sheet:156  score 0.0  words 30  before verb 0  subject 0  depth 1
+  Range of views: People may draw the line of the "anchor" strictly at the individual, or include the immediate household (spouse and dependent children) as part of the foundational unit.
+ccp_sheet:158  score 1.0  words 26  before verb 6  subject 1  depth 3
+  What it cannot accept: It cannot accept collectivist doctrines that claim the individual belongs first to the state, the party, or humanity at large.
+  - part 3, nested clauses (1.0): Clauses nest 3 deep (a clause inside a clause inside a clause).
+  - close echo (0.5): The content word "accept" repeats within 4 words ("accept", then "accept"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:158  score 0.5  words 28  before verb 1  subject 1  depth 1
+  You do not start from the globe and reason inward to find out what you are allowed to keep for yourself; you start from yourself and work outward.
+  - part 3, second claim (0.5): A second clause with its own subject follows the semicolon.
+    draft (split): You do not start from the globe and reason inward to find out what you are allowed to keep for yourself. You start from yourself and work outward.
+  - close echo (0.5): The content word "start" repeats within 19 words ("start", then "start"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:161  score 2.5  words 23  before verb 16  subject 4  depth 1
+  Why it is important: Because human time, money, and energy are limited, claims on those resources must be ranked by proximity and bond.
+  - part 2, late verb (2.0): 16 words come before the main verb ("must").
+  - part 2, opening phrase (0.5): An 8-word "Because" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
+ccp_sheet:161  score 0.0  words 7  before verb 3  subject 2  depth 0
+  Nearer tiers rightly command the larger share.
+ccp_sheet:161  score 0.0  words 4  before verb 2  subject 2  depth 0
+  Farther tiers command less.
+  - close echo (1.0): The content word "tier" repeats within 7 words ("tiers", then "tiers").
+  - close echo (1.0): The content word "command" repeats within 6 words ("command", then "command").
+ccp_sheet:161  score 0.0  words 13  before verb 6  subject 2  depth 0
+  In a household budget, a man must first keep himself healthy and employed.
+ccp_sheet:161  score 0.0  words 14  before verb 2  subject 1  depth 0
+  Second, he must feed and house his wife and children, and educate his children.
+  - close echo (0.5): The content word "child" repeats within 4 words ("children", then "children"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:161  score 0.0  words 14  before verb 2  subject 1  depth 0
+  Third, he must meet his obligations to extended family, neighbors, and his local community.
+ccp_sheet:161  score 0.0  words 20  before verb 2  subject 1  depth 1
+  Fourth, he must perform the duties he owes his country, including taxes levied by law for the country's continuance.
+  - close echo (0.5): The content word "country" repeats within 8 words ("country", then "country"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:161  score 0.0  words 12  before verb 2  subject 1  depth 1
+  Fifth, he may give charity to distant strangers when a surplus remains.
+ccp_sheet:161  score 0.0  words 11  before verb 5  subject 5  depth 0
+  Honesty in speech and dealing is not one of these tiers.
+ccp_sheet:161  score 2.0  words 5  before verb 1  subject 1  depth 0
+  It binds inside every tier.
+  - part 4, ambiguous it (2.0): "It" may refer to "honesty", but speech and dealing sit between them.
+ccp_sheet:161  score 2.0  words 5  before verb 2  subject 2  depth 0
+  An enemy stands outside them.
+  - part 4, distant pronoun (2.0): No plural noun in this sentence or the one before for "them" to refer to. The parser links it to "distant strangers", 3 sentences back.
+    draft (name it): An enemy stands outside distant strangers.
+ccp_sheet:161  score 0.0  words 25  before verb 3  subject 3  depth 1
+  Shortage of money does not license a lie, and owing a stranger the truth does not give him the child's claim on the household.
+ccp_sheet:161  score 2.0  words 20  before verb 12  subject 12  depth 2
+  A tax levied to confiscate the household, or to destroy a people, is not a duty of the fourth tier.
+  - part 2, late verb (1.0): 12 words come before the main verb ("is").
+  - part 2, long subject (1.0): The subject is 12 words: "A tax levied to confiscate the household, or to destroy a people,".
+  - close echo (1.0): The content word "household" repeats within 7 words ("household", then "household").
+ccp_sheet:161  score 4.0  words 14  before verb 1  subject 1  depth 1
+  It is an act of enmity, and it is answered under "Enemies are real."
+  - part 4, ambiguous it (2.0): "It" may refer to "tax", but household, duty, and tier sit between them.
+  - part 4, ambiguous it (2.0): "it" may refer to "tax", but household, duty, tier, act, and enmity sit between them.
+ccp_sheet:163  score 1.0  words 36  before verb 6  subject 3  depth 0
+  Range of views: Cultures and households argue over the order of the intermediate tiers: whether a close friend outranks a distant cousin, and how an obligation to a church ranks beside an obligation to the town.
+  - part 3, second claim (1.0): A second clause with its own subject follows the colon.
+    draft (split): Range of views: Cultures and households argue over the order of the intermediate tiers. Whether a close friend outranks a distant cousin, and how an obligation to a church ranks beside an obligation to the town.
+  - close echo (0.5): The content word "obligation" repeats within 7 words ("obligation", then "obligation"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:163  score 0.0  words 8  before verb 3  subject 3  depth 0
+  The order above is one workable household budget.
+ccp_sheet:163  score 0.0  words 6  before verb 1  subject 1  depth 0
+  It does not close that argument.
+ccp_sheet:163  score 0.0  words 8  before verb 2  subject 2  depth 1
+  What stands is the shape of the ranking.
+ccp_sheet:163  score 0.0  words 27  before verb 5  subject 5  depth 1
+  The self and the household come before the stranger, and a claim on time and money thins as it moves outward, while goodwill reaches every peaceful person.
+  - close echo (1.0): The content word "household" repeats within 20 words ("household", then "household").
+ccp_sheet:165  score 1.0  words 40  before verb 6  subject 1  depth 3
+  What it cannot accept: It cannot accept universalism (such as extreme utilitarianism), which demands that a father treat a stranger in a foreign land as having the identical claim on his income and attention as his own child.
+  - part 3, nested clauses (1.0): Clauses nest 3 deep (a clause inside a clause inside a clause).
+ccp_sheet:165  score 2.0  words 17  before verb 13  subject 13  depth 1
+  A person who spends his family's grocery money on a distant cause has violated the tiers.
+  - part 2, late verb (1.0): 13 words come before the main verb ("has").
+  - part 2, long subject (1.0): The subject is 13 words: "A person who spends his family's grocery money on a distant cause".
+ccp_sheet:165  score 0.0  words 22  before verb 1  subject 1  depth 2
+  It cannot accept treating truthfulness as an outer-tier surplus, owed only after the household and the state have been satisfied.
+  - close echo (1.0): The content word "tier" repeats within 10 words ("tiers", then "tier").
+ccp_sheet:165  score 2.0  words 18  before verb 2  subject 1  depth 1
+  Equally, it cannot accept nepotism or clan corruption inside a public office, which belongs under Point 5.
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+  - close echo (1.0): The content word "accept" repeats within 23 words ("accept", then "accept").
+ccp_sheet:168  score 3.5  words 21  before verb 14  subject 1  depth 1
+  Why it is important: While the work begins at the self and household, it does not stop at the front door.
+  - part 2, late verb (1.0): 14 words come before the main verb ("does").
+  - part 2, opening phrase (0.5): A 9-word "While" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
+  - part 4, ambiguous it (2.0): "it" may refer to "work", but self and household sit between them.
+ccp_sheet:168  score 2.0  words 17  before verb 13  subject 0  depth 0
+  The direction of responsibility moves outward from the individual to the neighborhood, the town, and the nation.
+  - part 2, late verb (1.0): 13 words come before the main verb ("town").
+  - part 2, opening phrase (1.0): A 12-word opening phrase stands before the subject: "The direction of responsibility moves outward from the individual to the neighborhood".
+ccp_sheet:168  score 0.0  words 22  before verb 2  subject 2  depth 1
+  A household cannot survive in isolation if the town's water supply fails, the courts collapse, or the country is invaded.
+  - close echo (1.0): The content word "town" repeats within 13 words ("town", then "town").
+ccp_sheet:168  score 1.0  words 34  before verb 3  subject 3  depth 3
+  The inner rings are protected only when each man does his share in maintaining and defending the outer rings, including civic duty, lawful commerce, and military service when the nation's survival is threatened.
+  - part 3, nested clauses (1.0): Clauses nest 3 deep (a clause inside a clause inside a clause).
+  - close echo (0.5): The content word "ring" repeats within 16 words ("rings", then "rings"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:170  score 0.0  words 22  before verb 0  subject 0  depth 1
+  Range of views: How much of a person's time and money should go to the outer tiers changes depending on circumstances.
+ccp_sheet:170  score 4.0  words 39  before verb 22  subject 19  depth 1
+  In peaceful times, most effort stays near the household and local trade; during an invasion or natural disaster, a much larger share must be directed outward to the border or the common defense so the household is not destroyed.
+  - part 2, late verb (2.0): 22 words come before the main verb ("must").
+  - part 2, long subject (2.0): The subject is 19 words: "most effort stays near the household and local trade; during an invasion or natural disaster, a much larger share".
+  - close echo (1.0): The content word "time" repeats within 15 words ("time", then "times").
+ccp_sheet:172  score 0.0  words 33  before verb 6  subject 1  depth 2
+  What it cannot accept: It cannot accept pure isolationism or egoism, where a person refuses to contribute anything to the community or nation whose laws and defenses keep his household safe.
+  - close echo (0.5): The content word "accept" repeats within 4 words ("accept", then "accept"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:172  score 2.0  words 27  before verb 2  subject 1  depth 2
+  Conversely, it cannot accept state adventures that use the rhetoric of emergency to drain households for foreign projects that do not protect the nation's continuance.
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+  - close echo (1.0): The content word "household" repeats within 17 words ("household", then "households").
+ccp_sheet:175  score 0.0  words 22  before verb 2  subject 1  depth 1
+  Why it is important: Some individuals, groups, and states actively seek to rob, subjugate, or destroy you, your family, or your people.
+ccp_sheet:175  score 0.0  words 17  before verb 1  subject 1  depth 1
+  You do not "keep and build" an enemy; you defend against him, deter him, or defeat him.
+ccp_sheet:175  score 0.0  words 13  before verb 6  subject 6  depth 2
+  Refusing to recognize that enemies exist leaves a family or a nation defenseless.
+ccp_sheet:175  score 0.0  words 11  before verb 1  subject 1  depth 2
+  Weakness is a condition to carry, not a virtue to admire.
+ccp_sheet:177  score 0.0  words 19  before verb 4  subject 0  depth 2
+  At the household level, suppose a home invader breaks into a house where a man lives with his family.
+ccp_sheet:177  score 0.0  words 20  before verb 2  subject 2  depth 1
+  The invader has stepped outside peaceful law and is using force that threatens the life and safety of the family.
+  - close echo (1.0): The content word "family" repeats within 20 words ("family", then "family").
+ccp_sheet:177  score 0.0  words 15  before verb 5  subject 2  depth 1
+  To the homeowner, the invader is an immediate enemy who must be stopped by force.
+  - close echo (1.0): The content word "invader" repeats within 13 words ("invader", then "invader"). The content word "invader" appears in 3 consecutive sentences.
+  - close echo (1.0): The content word "force" repeats within 24 words ("force", then "force").
+ccp_sheet:179  score 0.0  words 18  before verb 8  subject 4  depth 1
+  At the national level, the Young Turk government massacred and deported Armenians and Greeks living under its rule.
+ccp_sheet:179  score 2.0  words 8  before verb 4  subject 1  depth 0
+  By that program it made itself their enemy.
+  - part 4, ambiguous it (2.0): "it" may refer to "government", but rule and program sit between them.
+ccp_sheet:181  score 0.0  words 23  before verb 2  subject 2  depth 2
+  An enemy is any person, or any body of persons, who acts to rob, subjugate, or destroy you, your household, or your people.
+ccp_sheet:181  score 0.0  words 12  before verb 2  subject 2  depth 0
+  The act may be one man forcing his way into a house.
+  - close echo (1.0): The content word "act" repeats within 13 words ("acts", then "act").
+ccp_sheet:181  score 2.0  words 12  before verb 1  subject 1  depth 0
+  It may be a state carrying out a program against a people.
+  - part 4, ambiguous it (2.0): "It" may refer to "act", but way and house sit between them.
+  - close echo (1.0): The content word "person" repeats within 24 words ("people", then "people").
+ccp_sheet:181  score 0.0  words 28  before verb 3  subject 3  depth 1
+  A further fact belongs with the second kind of case: the government under which you live can be that enemy when it turns its power to your destruction.
+ccp_sheet:183  score 0.0  words 27  before verb 0  subject 0  depth 1
+  Range of views: Prudent people will debate when a competitor becomes an actual enemy, and what level of force or pre-emption is required to stop a threat.
+ccp_sheet:183  score 2.0  words 20  before verb 14  subject 14  depth 1
+  A business rival or a political opponent who abides by common laws and procedures is a competitor, not an enemy.
+  - part 2, late verb (1.0): 14 words come before the main verb ("is").
+  - part 2, long subject (1.0): The subject is 14 words: "A business rival or a political opponent who abides by common laws and procedures".
+ccp_sheet:185  score 0.0  words 21  before verb 6  subject 1  depth 2
+  What it cannot accept: It cannot accept a refusal to use violence to protect oneself and one's own.
+ccp_sheet:185  score 0.0  words 6  before verb 2  subject 2  depth 0
+  That refusal stands against these principles.
+  - close echo (1.0): The content word "refusal" repeats within 12 words ("refusal", then "refusal").
+ccp_sheet:185  score 1.0  words 21  before verb 1  subject 1  depth 3
+  It cannot accept the naive belief that enmity is merely a misunderstanding that vanishes if one refuses to name it.
+  - part 3, nested clauses (1.0): Clauses nest 3 deep (a clause inside a clause inside a clause).
+  - close echo (1.0): The content word "accept" repeats within 22 words ("accept", then "accept").
+ccp_sheet:185  score 2.0  words 22  before verb 2  subject 1  depth 1
+  Equally, it cannot accept labeling everyone who is foreign, poor, or holds a different opinion within the law as an enemy.
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+ccp_sheet:192  score 0.0  words 20  before verb 7  subject 3  depth 2
+  Why it is important: These three words form a single concept that defines how rules must be applied among people.
+ccp_sheet:192  score 0.0  words 8  before verb 2  subject 2  depth 0
+  The phrase is one name for three requirements.
+ccp_sheet:192  score 0.0  words 4  before verb 1  subject 1  depth 0
+  "Symmetry" is the noun.
+ccp_sheet:192  score 0.0  words 12  before verb 2  subject 0  depth 1
+  "Scoped" and "procedural" name the kind of symmetry that counts as justice.
+  - close echo (1.0): The content word "name" repeats within 11 words ("name", then "name").
+ccp_sheet:192  score 2.0  words 5  before verb 1  subject 1  depth 0
+  They are not optional description.
+  - part 4, distant pronoun (2.0): No plural noun in this sentence or the one before for "They" to refer to.
+ccp_sheet:192  score 0.0  words 11  before verb 7  subject 6  depth 1
+  If any one of the three words is removed, justice fails.
+  - close echo (1.0): The content word "justice" repeats within 15 words ("justice", then "justice").
+ccp_sheet:192  score 2.0  words 16  before verb 4  subject 2  depth 1
+  Without scope, a rule claims jurisdiction over the whole world where it cannot be enforced.
+  - part 4, ambiguous it (2.0): "it" may refer to "rule", but jurisdiction and world sit between them.
+  - abstract subject (1.0): "rule" (a textual or institutional noun) is the subject of "claims".
+ccp_sheet:192  score 0.0  words 6  before verb 3  subject 1  depth 0
+  Without procedure, decisions are arbitrary commands.
+ccp_sheet:192  score 0.0  words 11  before verb 6  subject 0  depth 0
+  Without symmetry, the powerful exempt their friends and punish their rivals.
+ccp_sheet:195  score 0.0  words 18  before verb 8  subject 4  depth 1
+  Why it is important: Every system of rules operates within a defined boundary of jurisdiction, membership, and role.
+ccp_sheet:195  score 0.5  words 35  before verb 4  subject 4  depth 2
+  A state's laws extend only to the borders of that state or country where they are established; a court in one country has no authority or mechanism to enforce its laws in another country.
+  - part 3, second claim (0.5): A second clause with its own subject follows the semicolon.
+    draft (split): A state's laws extend only to the borders of that state or country where they are established. A court in one country has no authority or mechanism to enforce its laws in another country.
+  - close echo (0.5): The content word "state" repeats within 10 words ("state", then "state"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:195  score 0.0  words 19  before verb 6  subject 2  depth 0
+  Within a country, smaller scopes also exist, such as a family, a business, a school, or a military unit.
+  - close echo (1.0): The content word "country" repeats within 24 words ("country", then "country").
+ccp_sheet:197  score 0.0  words 14  before verb 2  subject 1  depth 1
+  Scope also defines distinct positions within a boundary based on distinct duties and status.
+  - close echo (0.5): The content word "distinct" repeats within 7 words ("distinct", then "distinct"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:197  score 0.5  words 30  before verb 5  subject 5  depth 1
+  A citizen and a non-citizen do not occupy the same position regarding voting, military conscription, or welfare, because they do not share the same bond and obligations to the polity.
+  - part 5, effect before cause (0.5): The effect comes first and the 13-word cause follows. Consider stating the cause first, in its own sentence.
+ccp_sheet:197  score 0.0  words 15  before verb 8  subject 5  depth 0
+  In a school, the teacher and the students are in different positions with different authority.
+  - close echo (1.0): The content word "position" repeats within 20 words ("positions", then "position"). The content word "position" appears in 3 consecutive sentences.
+  - close echo (0.5): The content word "different" repeats within 3 words ("different", then "different"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:199  score 0.0  words 11  before verb 8  subject 8  depth 1
+  How a society defines its scope and positions determines its character.
+ccp_sheet:199  score 0.0  words 17  before verb 3  subject 3  depth 1
+  Men and women differ, the young and the old differ, and the teacher and the student differ.
+  - close echo (0.5): The content word "differ" repeats within 6 words ("differ", then "differ"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:199  score 0.0  words 21  before verb 4  subject 4  depth 0
+  The question for justice is which differences are real and relevant to a position inside the scope, and which are not.
+ccp_sheet:201  score 4.0  words 24  before verb 18  subject 18  depth 2
+  A Muslim who wants a country that distinguishes Muslim from non-Muslim in law, as written in the Quran, gives one answer to that question.
+  - part 2, late verb (2.0): 18 words come before the main verb ("gives").
+  - part 2, long subject (2.0): The subject is 18 words: "A Muslim who wants a country that distinguishes Muslim from non-Muslim in law, as written in the Quran".
+ccp_sheet:201  score 0.0  words 11  before verb 2  subject 2  depth 0
+  A non-Muslim will not naturally want to live in that country.
+  - close echo (1.0): The content word "non-muslim" repeats within 15 words ("non-Muslim", then "non-Muslim").
+ccp_sheet:201  score 2.0  words 22  before verb 11  subject 11  depth 1
+  A person who truly holds that distinction to be morally right is not compatible with a country that refuses to draw it.
+  - part 2, late verb (1.0): 11 words come before the main verb ("is").
+  - part 2, long subject (1.0): The subject is 11 words: "A person who truly holds that distinction to be morally right".
+  - close echo (1.0): The content word "country" repeats within 17 words ("country", then "country"). The content word "country" appears in 3 consecutive sentences.
+ccp_sheet:201  score 0.0  words 8  before verb 3  subject 3  depth 0
+  Those two answers do not make one polity.
+ccp_sheet:203  score 0.0  words 14  before verb 3  subject 3  depth 0
+  A secular state does not use religion to place citizens in different legal positions.
+ccp_sheet:203  score 1.0  words 19  before verb 10  subject 0  depth 1
+  Age, competence, office, and the difference between citizen and non-citizen remain positions where the difference is real and relevant.
+  - part 2, opening phrase (1.0): A 10-word opening phrase stands before the subject: "Age, competence, office, and the difference between citizen and non-citizen".
+  - close echo (1.0): The content word "citizen" repeats within 12 words ("citizens", then "citizen").
+  - close echo (0.5): The content word "difference" repeats within 9 words ("difference", then "difference"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:203  score 0.0  words 9  before verb 1  subject 1  depth 1
+  Symmetry runs between persons who occupy the same position.
+  - close echo (1.0): The content word "position" repeats within 12 words ("positions", then "positions"). The content word "position" appears in 3 consecutive sentences.
+ccp_sheet:205  score 0.0  words 35  before verb 0  subject 0  depth 1
+  Range of views: Societies debate where national borders should sit, how immigrants may be admitted to citizenship without overwhelming the existing population, and which differences (such as age, competence, or citizenship) justify separate legal positions.
+  - close echo (0.5): The content word "citizenship" repeats within 14 words ("citizenship", then "citizenship"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:207  score 2.0  words 42  before verb 6  subject 1  depth 3
+  What it cannot accept: It cannot accept borderless universalism, which claims that every human in the world holds the identical legal claim on a nation's treasury, courts, and territory as the citizens who pay taxes and defend that nation.
+  - part 3, nested clauses (1.0): Clauses nest 3 deep (a clause inside a clause inside a clause).
+  - part 3, long sentence (1.0): 42 words.
+  - close echo (0.5): The content word "accept" repeats within 4 words ("accept", then "accept"). The repeat stays inside one sentence; judge whether it is deliberate.
+  - close echo (0.5): The content word "claim" repeats within 11 words ("claims", then "claim"). The repeat stays inside one sentence; judge whether it is deliberate.
+  - close echo (0.5): The content word "nation" repeats within 15 words ("nation", then "nation"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:207  score 2.0  words 16  before verb 2  subject 1  depth 0
+  It also cannot accept arbitrary scopes invented to create corrupt exemptions for a ruling clique.
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+ccp_sheet:210  score 0.0  words 25  before verb 5  subject 1  depth 2
+  Why it is important: Justice requires a known method (rules, laws, and standards of evidence) stated beforehand and followed consistently regardless of who is involved.
+ccp_sheet:210  score 0.0  words 19  before verb 1  subject 1  depth 1
+  Procedure ensures predictability so people can plan their lives and build without fear of sudden, arbitrary confiscation or punishment.
+ccp_sheet:212  score 1.5  words 20  before verb 15  subject 3  depth 1
+  Because humans are particular and unequal in talent and effort (Point 2), a fair procedure will naturally produce unequal outcomes.
+  - part 2, late verb (1.0): 15 words come before the main verb ("will").
+  - part 2, opening phrase (0.5): A 12-word "Because" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
+  - close echo (0.5): The content word "unequal" repeats within 13 words ("unequal", then "unequal"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:212  score 0.0  words 15  before verb 5  subject 0  depth 1
+  In a classroom, the teacher grades all students using the identical examination and grading scale.
+ccp_sheet:212  score 0.0  words 4  before verb 1  subject 1  depth 0
+  That is procedural justice.
+ccp_sheet:212  score 0.5  words 23  before verb 2  subject 2  depth 2
+  The students will receive different grades based on their mastery of the material; an unequal outcome does not mean the test was unjust.
+  - part 3, second claim (0.5): A second clause with its own subject follows the semicolon.
+    draft (split): The students will receive different grades based on their mastery of the material. An unequal outcome does not mean the test was unjust.
+  - close echo (1.0): The content word "grade" repeats within 19 words ("grades", then "grades").
+  - close echo (1.0): The content word "student" repeats within 13 words ("students", then "students").
+ccp_sheet:212  score 0.0  words 29  before verb 8  subject 7  depth 2
+  Furthermore, separating gifted students into higher-level classes is completely consistent with procedural justice, provided the qualification standard is stated beforehand and open to any student who meets it.
+ccp_sheet:214  score 1.0  words 43  before verb 0  subject 0  depth 1
+  Range of views: Different legal and institutional traditions use different specific procedures (such as jury trials versus panels of judges, or different standards of testing and licensing) and allow varying degrees of mercy after a person has been found guilty under the rule.
+  - part 3, long sentence (1.0): 43 words.
+  - close echo (0.5): The content word "different" repeats within 6 words ("Different", then "different"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:216  score 0.0  words 24  before verb 6  subject 1  depth 1
+  What it cannot accept: It cannot accept changing the rules after the fact to guarantee that a favored person or group wins.
+ccp_sheet:216  score 2.0  words 18  before verb 1  subject 1  depth 2
+  It cannot accept lawlessness disguised as compassion, where clear violations of the rule are ignored without consequence.
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+  - close echo (1.0): The content word "accept" repeats within 23 words ("accept", then "accept").
+ccp_sheet:219  score 0.0  words 35  before verb 5  subject 1  depth 2
+  Why it is important: Symmetry means that every person who stands in the same position within a scope receives the identical procedure, and the penalty for a wrong falls on the person who did it.
+  - close echo (0.5): The content word "person" repeats within 23 words ("person", then "person"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:219  score 2.5  words 30  before verb 17  subject 7  depth 1
+  While a teacher and a student are in different positions, any two students taking the same class stand in the same position and must be graded by the same rule.
+  - part 2, late verb (2.0): 17 words come before the main verb ("stand").
+  - part 2, opening phrase (0.5): A 10-word "While" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
+  - close echo (0.5): The content word "student" repeats within 7 words ("student", then "students"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:219  score 0.0  words 24  before verb 6  subject 6  depth 1
+  Any two citizens accused of theft stand in the same position before the criminal court, regardless of their wealth, family connections, or political views.
+  - close echo (1.0): The content word "stand" repeats within 19 words ("stand", then "stand"). The content word "stand" appears in 3 consecutive sentences.
+  - close echo (1.0): The content word "position" repeats within 19 words ("position", then "position"). The content word "position" appears in 3 consecutive sentences.
+ccp_sheet:219  score 1.0  words 48  before verb 1  subject 1  depth 2
+  Symmetry is what prevents the tiered loyalties of Point 4 from corrupting public institutions: when a man serves as a judge, a police officer, or a teacher, he is bound by the scope of his office to apply the procedure symmetrically, rather than favoring his relatives or friends.
+  - part 3, long sentence (1.0): 48 words.
+ccp_sheet:221  score 0.0  words 30  before verb 0  subject 0  depth 2
+  Range of views: People may debate proportionate punishments within the law, and debate what qualifications are necessary to enter a given position (such as an occupation or an advanced class).
+  - close echo (0.5): The content word "debate" repeats within 7 words ("debate", then "debate"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:223  score 0.0  words 14  before verb 6  subject 1  depth 0
+  What it cannot accept: It cannot accept two false definitions of symmetry:
+  - close echo (0.5): The content word "accept" repeats within 4 words ("accept", then "accept"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:225  score 0.0  words 33  before verb 1  subject 0  depth 2
+  Equal outcomes (disparate impact): The claim that if different individuals or groups achieve different results under the same rule, the rule itself is unjust and must be rigged until the results are equal.
+  - close echo (0.5): The content word "different" repeats within 5 words ("different", then "different"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+  - close echo (0.5): The content word "result" repeats within 16 words ("results", then "results"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+  - close echo (0.5): The content word "rule" repeats within 2 words ("rule", then "rule"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:226  score 4.0  words 46  before verb 1  subject 0  depth 5
+  Value symmetry: Holding the losses of two sides equal, so that a wrong is a debt between them, paid by an equal loss: a brother killed for a brother, a daughter for a daughter, or a price set by the victim's rank, tribe, or religion.
+  - part 3, nested clauses (3.0): Clauses nest 5 deep (a clause inside a clause inside a clause).
+  - part 3, long sentence (1.0): 46 words.
+  - close echo (0.5): The content word "loss" repeats within 18 words ("losses", then "loss"). The repeat stays inside one sentence; judge whether it is deliberate.
+  - close echo (0.5): The content word "equal" repeats within 13 words ("equal", then "equal"). The repeat stays inside one sentence; judge whether it is deliberate.
+  - close echo (0.5): The content word "brother" repeats within 4 words ("brother", then "brother"). The repeat stays inside one sentence; judge whether it is deliberate.
+  - close echo (0.5): The content word "daughter" repeats within 3 words ("daughter", then "daughter"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:235  score 0.0  words 27  before verb 6  subject 2  depth 1
+  Why it is important: A technology is a repeatable method, together with the structure that method keeps in being, by which humans answer a problem in reality.
+ccp_sheet:235  score 4.5  words 15  before verb 3  subject 3  depth 1
+  A stable house is technology because a known method built it and keeps it standing.
+  - part 5, effect before cause (0.5): The effect comes first and the 10-word cause follows. Consider stating the cause first, in its own sentence.
+  - part 4, ambiguous it (2.0): "it" may refer to "house", but technology and method sit between them.
+  - part 4, ambiguous it (2.0): "it" may refer to "house", but technology and method sit between them.
+  - close echo (1.0): The content word "method" repeats within 20 words ("method", then "method").
+  - close echo (1.0): The content word "keep" repeats within 23 words ("keeps", then "keeps").
+ccp_sheet:235  score 6.0  words 21  before verb 3  subject 3  depth 3
+  A stable life is technology in the same sense: it continues because conduct is repeated, not because it was wished for.
+  - part 3, second claim (1.0): A second clause with its own subject follows the colon.
+    draft (split): A stable life is technology in the same sense. It continues because conduct is repeated, not because it was wished for.
+  - part 3, nested clauses (1.0): Clauses nest 3 deep (a clause inside a clause inside a clause).
+  - part 4, ambiguous it (2.0): "it" may refer to "house", but technology, method, life, and sense sit between them.
+  - part 4, ambiguous it (2.0): "it" may refer to "house", but technology, method, life, sense, and conduct sit between them.
+  - close echo (1.0): The content word "stable" repeats within 15 words ("stable", then "stable").
+ccp_sheet:235  score 0.0  words 12  before verb 2  subject 1  depth 0
+  We commonly think of technology as machines: steam engines, airplanes, or computers.
+  - close echo (1.0): The content word "technology" repeats within 15 words ("technology", then "technology"). The content word "technology" appears in 4 consecutive sentences.
+ccp_sheet:235  score 0.0  words 40  before verb 5  subject 4  depth 2
+  However, none of those machines can be built or maintained unless people are fed, violent criminals and foreign invaders are kept away, contracts and laws are enforced, language and mathematics are taught, and children are raised to replace retiring workers.
+  - close echo (1.0): The content word "machine" repeats within 10 words ("machines", then "machines").
+ccp_sheet:235  score 0.0  words 5  before verb 1  subject 1  depth 0
+  Civilization is that foundational technology.
+ccp_sheet:235  score 0.0  words 5  before verb 1  subject 1  depth 0
+  It consists of two parts.
+ccp_sheet:235  score 0.0  words 19  before verb 1  subject 1  depth 1
+  Will is the active decision by living individuals to keep the system running and to continue into the future.
+ccp_sheet:235  score 0.0  words 13  before verb 1  subject 1  depth 1
+  Method is the accumulated customs, laws, crafts, and knowledge passed down across generations.
+ccp_sheet:235  score 0.5  words 32  before verb 1  subject 1  depth 2
+  Civilization is not a living entity or a collective mind; if individual human beings lose the will or forget the method, the civilization stops working, even if its buildings are still standing.
+  - part 3, second claim (0.5): A second clause with its own subject follows the semicolon.
+    draft (split): Civilization is not a living entity or a collective mind. If individual human beings lose the will or forget the method, the civilization stops working, even if its buildings are still standing.
+  - close echo (0.5): The content word "civilization" repeats within 22 words ("Civilization", then "civilization"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:237  score 0.0  words 26  before verb 0  subject 0  depth 1
+  Range of views: Civilizations vary in their specific customs, forms of government, and technical specializations, provided their methods successfully keep their people fed, defended, and reproducing.
+ccp_sheet:239  score 0.0  words 22  before verb 6  subject 1  depth 1
+  What it cannot accept: It cannot accept treating civilization as an automatic background condition that runs by itself without upkeep.
+ccp_sheet:239  score 2.0  words 30  before verb 1  subject 1  depth 2
+  It cannot accept valuing secondary technologies, such as financial instruments or entertainment, above the foundational practices that keep them in being, including family stability, law, agriculture, defense, and manufacturing.
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+  - close echo (1.0): The content word "accept" repeats within 21 words ("accept", then "accept").
+ccp_sheet:242  score 1.0  words 21  before verb 13  subject 1  depth 1
+  Why it is important: Because civilization is not an independent organism, it only exists when practiced by individual men and women.
+  - part 2, late verb (1.0): 13 words come before the main verb ("exists").
+ccp_sheet:242  score 0.0  words 14  before verb 1  subject 1  depth 0
+  Virtue is the practice of civilization's will and method by an individual person.
+  - close echo (1.0): The content word "civilization" repeats within 21 words ("civilization", then "civilization").
+  - close echo (1.0): The content word "practice" repeats within 9 words ("practiced", then "practice").
+  - close echo (1.0): The content word "individual" repeats within 16 words ("individual", then "individual").
+ccp_sheet:242  score 0.0  words 29  before verb 2  subject 2  depth 2
+  A society collapses when its people lie, shirk responsibility, produce shoddy work, despise order, refuse correction, have no children, and neither form the young nor listen to the old.
+  - close echo (1.0): The content word "person" repeats within 6 words ("person", then "people").
+ccp_sheet:242  score 0.0  words 8  before verb 4  subject 4  depth 0
+  A clever written constitution does not save it.
+ccp_sheet:249  score 1.0  words 12  before verb 5  subject 1  depth 1
+  Why it is important: This is the personal practice of Point 1.
+  - part 4, bare this (1.0): "This" stands alone as a noun; name what it refers to.
+ccp_sheet:249  score 0.0  words 30  before verb 7  subject 2  depth 2
+  To build anything that lasts, a person must conform his mind and his speech to reality as it actually is, rather than to what is flattering, comfortable, or socially convenient.
+ccp_sheet:249  score 0.0  words 16  before verb 2  subject 2  depth 0
+  A falsehood introduces a flaw into the method, and reality eventually answers the flaw with failure.
+  - close echo (1.0): The content word "reality" repeats within 24 words ("reality", then "reality").
+  - close echo (0.5): The content word "flaw" repeats within 9 words ("flaw", then "flaw"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:249  score 0.0  words 28  before verb 1  subject 0  depth 2
+  The engineer who falsifies a stress test, the business owner who falsifies his ledgers, and the citizen who lies about a threat to his city each introduce one.
+  - close echo (0.5): The content word "falsify" repeats within 8 words ("falsifies", then "falsifies"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:251  score 0.0  words 24  before verb 0  subject 0  depth 2
+  Range of views: Aligning with truth includes rigorous scientific measurement, accurate bookkeeping, plain truthfulness in daily speech, and admitting when a plan has failed.
+ccp_sheet:253  score 0.0  words 23  before verb 6  subject 1  depth 1
+  What it cannot accept: It cannot accept lying, fraud, self-deception, or prioritizing ideological loyalty and group consensus over observable facts.
+  - close echo (0.5): The content word "accept" repeats within 4 words ("accept", then "accept"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:256  score 0.0  words 24  before verb 5  subject 1  depth 2
+  Why it is important: Ownership is answering personally for the condition and outcome of what is yours, even when someone else did the damage.
+ccp_sheet:256  score 0.0  words 7  before verb 1  subject 1  depth 1
+  It is more than holding legal title.
+ccp_sheet:256  score 1.5  words 36  before verb 15  subject 2  depth 1
+  Because humans are limited (Point 2) and their obligations are tiered (Point 4), a person must claim a definite charge and maintain it himself: his body, his craft, his household, his debts, and his assigned post.
+  - part 2, late verb (1.0): 15 words come before the main verb ("must").
+  - part 2, opening phrase (0.5): A 13-word "Because" clause comes before the subject. It keeps the order of the argument; if it is long, consider stating it in its own sentence.
+  - close echo (0.5): The content word "point" repeats within 7 words ("Point", then "Point"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:256  score 0.0  words 15  before verb 8  subject 8  depth 2
+  Property and tasks assigned to everyone in general are assigned to no one in particular.
+  - close echo (1.0): The content word "assign" repeats within 5 words ("assigned", then "assigned").
+ccp_sheet:256  score 2.0  words 15  before verb 12  subject 10  depth 0
+  Unless a named person, or a named office, answers for them, they fall into disrepair.
+  - part 2, late verb (1.0): 12 words come before the main verb ("fall").
+  - part 2, long subject (1.0): The subject is 10 words: "a named person, or a named office, answers for them,".
+  - close echo (0.5): The content word "name" repeats within 4 words ("named", then "named"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:256  score 0.0  words 14  before verb 3  subject 3  depth 2
+  A shared work lasts only when someone in particular is charged with the upkeep.
+  - close echo (1.0): The content word "particular" repeats within 24 words ("particular", then "particular").
+ccp_sheet:258  score 1.0  words 43  before verb 0  subject 0  depth 1
+  Range of views: The scale of what a person owns and answers for ranges from a young apprentice responsible only for his own tools and punctuality, to a father responsible for a household, to an executive or general responsible for a large enterprise.
+  - part 3, long sentence (1.0): 43 words.
+  - close echo (0.5): The content word "range" repeats within 13 words ("Range", then "ranges"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+  - close echo (0.5): The content word "responsible" repeats within 11 words ("responsible", then "responsible"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:260  score 1.0  words 44  before verb 6  subject 1  depth 2
+  What it cannot accept: It cannot accept blaming others for one's own failures, demanding rights and privileges without carrying the corresponding upkeep, or expressing loud concern for distant global problems while leaving one's own home, finances, and job in disorder.
+  - part 3, long sentence (1.0): 44 words.
+  - close echo (0.5): The content word "accept" repeats within 4 words ("accept", then "accept"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:263  score 0.0  words 19  before verb 5  subject 1  depth 1
+  Why it is important: Excellence is holding one's work to a high, objective standard of performance and durability.
+ccp_sheet:263  score 0.0  words 12  before verb 4  subject 4  depth 1
+  Doing the bare minimum lets tools, institutions, and skills degrade over time.
+ccp_sheet:263  score 0.0  words 21  before verb 1  subject 1  depth 1
+  Reality is consequential and never at rest, so things decay (Point 1), and what is built must be kept (Point 3).
+  - close echo (0.5): The content word "point" repeats within 9 words ("Point", then "Point"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:263  score 0.0  words 24  before verb 1  subject 1  depth 1
+  Excellence is required in routine maintenance, such as sweeping a floor thoroughly or machining a part to exact tolerances, and in building new improvements.
+ccp_sheet:263  score 1.5  words 21  before verb 12  subject 6  depth 2
+  When workers and leaders seek excellence, the civilization's margin of safety grows; when they accept slackness, systems fail under stress.
+  - part 2, late verb (1.0): 12 words come before the main verb ("grows").
+  - part 3, second claim (0.5): A second clause with its own subject follows the semicolon.
+    draft (split): When workers and leaders seek excellence, the civilization's margin of safety grows. When they accept slackness, systems fail under stress.
+ccp_sheet:265  score 0.0  words 12  before verb 0  subject 0  depth 1
+  Range of views: The specific standard of excellence depends on the task.
+ccp_sheet:265  score 1.0  words 24  before verb 9  subject 9  depth 0
+  A temporary field shelter and a permanent stone bridge have different engineering requirements, but both can be executed well or poorly within their class.
+  - part 2, long subject (1.0): The subject is 9 words: "A temporary field shelter and a permanent stone bridge".
+ccp_sheet:267  score 0.0  words 24  before verb 6  subject 1  depth 1
+  What it cannot accept: It cannot accept mediocrity, omitting required steps when unsupervised, or substituting credentials, titles, and certificates for actual competence.
+  - close echo (0.5): The content word "accept" repeats within 4 words ("accept", then "accept"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:270  score 0.0  words 16  before verb 5  subject 1  depth 1
+  Why it is important: Beauty is vitality, order, and truth showing together in a particular thing.
+ccp_sheet:270  score 1.0  words 26  before verb 1  subject 1  depth 3
+  Vitality means that the thing has living form: a healthy body, a building with a coherent structure, an engine running as designed, a sentence that moves.
+  - part 3, nested clauses (1.0): Clauses nest 3 deep (a clause inside a clause inside a clause).
+  - close echo (1.0): The content word "vitality" repeats within 10 words ("vitality", then "Vitality").
+  - close echo (1.0): The content word "thing" repeats within 5 words ("thing", then "thing").
+ccp_sheet:270  score 2.0  words 12  before verb 1  subject 1  depth 1
+  It does not mean that the subject must be cheerful or intact.
+  - part 4, ambiguous it (2.0): "It" may refer to "vitality", but thing, form, body, building, structure, engine, and sentence sit between them.
+ccp_sheet:270  score 2.0  words 16  before verb 14  subject 14  depth 2
+  A tragedy is beautiful when its form is alive and its account of grief is true.
+  - part 2, late verb (1.0): 14 words come before the main verb ("is").
+  - part 2, long subject (1.0): The subject is 14 words: "A tragedy is beautiful when its form is alive and its account of grief".
+ccp_sheet:270  score 3.0  words 18  before verb 15  subject 15  depth 1
+  A fictional tale that truly describes a moral reality, or an aspect of human nature, can be beautiful.
+  - part 2, late verb (1.0): 15 words come before the main verb ("can").
+  - part 2, long subject (2.0): The subject is 15 words: "A fictional tale that truly describes a moral reality, or an aspect of human nature".
+ccp_sheet:270  score 5.0  words 22  before verb 20  subject 20  depth 3
+  A tale that depicts reality falsely, such as one that portrays cowardice and decay as noble and free of consequence, cannot.
+  - part 2, late verb (2.0): 20 words come before the main verb ("can").
+  - part 2, long subject (2.0): The subject is 20 words: "A tale that depicts reality falsely, such as one that portrays cowardice and decay as noble and free of consequence,".
+  - part 3, nested clauses (1.0): Clauses nest 3 deep (a clause inside a clause inside a clause).
+ccp_sheet:270  score 2.0  words 18  before verb 11  subject 1  depth 1
+  Inside a tale the author decides the consequences; in reality they come whether anyone decides them or not.
+  - part 2, late verb (1.0): 11 words come before the main verb ("come").
+  - part 2, opening phrase (1.0): An 8-word opening phrase stands before the subject: "Inside a tale the author decides the consequences".
+  - close echo (1.0): The content word "tale" repeats within 17 words ("tale", then "tale"). The content word "tale" appears in 3 consecutive sentences.
+  - close echo (1.0): The content word "reality" repeats within 14 words ("reality", then "reality"). The content word "reality" appears in 3 consecutive sentences.
+  - close echo (1.0): The content word "consequence" repeats within 10 words ("consequence", then "consequences").
+  - close echo (0.5): The content word "decide" repeats within 9 words ("decides", then "decides"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:270  score 1.0  words 30  before verb 2  subject 2  depth 2
+  Admiring beauty is practical: it trains a person to recognize when something is thriving, ordered, and true, and makes him unwilling to tolerate squalor, disorder, and falsehood in his surroundings.
+  - part 3, second claim (1.0): A second clause with its own subject follows the colon.
+    draft (split): Admiring beauty is practical. It trains a person to recognize when something is thriving, ordered, and true, and makes him unwilling to tolerate squalor, disorder, and falsehood in his surroundings.
+ccp_sheet:270  score 0.5  words 24  before verb 1  subject 1  depth 2
+  People will work and sacrifice to maintain a civilization that is orderly and beautiful; they become demoralized in one that is ugly and degraded.
+  - part 3, second claim (0.5): A second clause with its own subject follows the semicolon.
+    draft (split): People will work and sacrifice to maintain a civilization that is orderly and beautiful. They become demoralized in one that is ugly and degraded.
+  - close echo (1.0): The content word "person" repeats within 23 words ("person", then "People").
+ccp_sheet:272  score 0.0  words 12  before verb 0  subject 0  depth 1
+  Range of views: Different cultures have distinct architectural, musical, and artistic styles.
+ccp_sheet:272  score 2.0  words 15  before verb 11  subject 1  depth 1
+  So long as those styles reflect vitality, order, and truth, they fall within this virtue.
+  - part 2, late verb (1.0): 11 words come before the main verb ("fall").
+  - part 2, opening phrase (1.0): A 10-word opening phrase stands before the subject: "So long as those styles reflect vitality, order, and truth".
+  - close echo (1.0): The content word "style" repeats within 5 words ("styles", then "styles").
+ccp_sheet:274  score 0.0  words 23  before verb 6  subject 1  depth 1
+  What it cannot accept: It cannot accept the cult of ugliness: art, architecture, or narratives that celebrate chaos, filth, or falsehood.
+  - close echo (0.5): The content word "accept" repeats within 4 words ("accept", then "accept"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:274  score 1.0  words 17  before verb 10  subject 10  depth 1
+  Depicting a wound, a ruin, or a deformed body truthfully is a different act from celebrating it.
+  - part 2, long subject (1.0): The subject is 10 words: "Depicting a wound, a ruin, or a deformed body truthfully".
+  - close echo (1.0): The content word "celebrate" repeats within 20 words ("celebrate", then "celebrating").
+ccp_sheet:274  score 0.0  words 16  before verb 2  subject 1  depth 1
+  It also cannot accept treating beauty as mere idle luxury detached from function and truth.
+ccp_sheet:277  score 0.0  words 27  before verb 5  subject 1  depth 2
+  Why it is important: Humility is the practical application of knowing that humans are limited (Point 2) and that we did not invent the civilization we inherited.
+ccp_sheet:277  score 1.0  words 18  before verb 13  subject 6  depth 1
+  Because our knowledge and time are finite, our current models of the world may be incomplete or wrong.
+  - part 2, late verb (1.0): 13 words come before the main verb ("may").
+ccp_sheet:277  score 0.0  words 35  before verb 3  subject 3  depth 1
+  A humble person tests his ideas against reality, listens to correction, learns from skilled predecessors before trying to change the method, and recognizes that his individual work is only one part of a larger whole.
+ccp_sheet:279  score 2.0  words 33  before verb 0  subject 0  depth 4
+  Range of views: Humility applies equally to the student learning a trade from a master and to the master engineer who double-checks his calculations because he knows he is capable of error.
+  - part 3, nested clauses (2.0): Clauses nest 4 deep (a clause inside a clause inside a clause).
+  - close echo (0.5): The content word "master" repeats within 4 words ("master", then "master"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:281  score 1.0  words 32  before verb 6  subject 1  depth 3
+  What it cannot accept: It cannot accept arrogance: refusing to check one's beliefs against conflicting evidence, or tearing down inherited institutions and customs without understanding why they were built.
+  - part 3, nested clauses (1.0): Clauses nest 3 deep (a clause inside a clause inside a clause).
+  - close echo (0.5): The content word "accept" repeats within 4 words ("accept", then "accept"). The repeat stays inside one sentence; judge whether it is deliberate.
+ccp_sheet:281  score 3.0  words 22  before verb 2  subject 1  depth 3
+  Conversely, it cannot accept false humility, which is weak self-deprecation used as an excuse to avoid taking ownership and acting.
+  - part 3, nested clauses (1.0): Clauses nest 3 deep (a clause inside a clause inside a clause).
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+ccp_sheet:284  score 1.0  words 16  before verb 5  subject 1  depth 1
+  Why it is important: This is the direct personal application of human life continuing (Point 3).
+  - part 4, bare this (1.0): "This" stands alone as a noun; name what it refers to.
+ccp_sheet:284  score 1.0  words 12  before verb 10  subject 10  depth 1
+  Human life is the floor of goodness, and having children continues it.
+  - part 2, long subject (1.0): The subject is 10 words: "Human life is the floor of goodness, and having children".
+  - close echo (1.0): The content word "human" repeats within 5 words ("human", then "Human").
+  - close echo (1.0): The content word "life" repeats within 5 words ("life", then "life").
+  - close echo (1.0): The content word "continue" repeats within 13 words ("continuing", then "continues").
+ccp_sheet:284  score 0.0  words 19  before verb 6  subject 6  depth 1
+  A person's care for children follows the tiers of Point 4: his immediate family first, then his kin.
+  - close echo (1.0): The content word "child" repeats within 8 words ("children", then "children").
+ccp_sheet:286  score 0.0  words 19  before verb 0  subject 0  depth 1
+  Range of views: Family size will vary according to health, biological fertility, and the particular hardships of a household.
+ccp_sheet:286  score 0.0  words 13  before verb 3  subject 3  depth 0
+  Not every individual is biologically able to have children, or able to marry.
+ccp_sheet:286  score 1.0  words 17  before verb 9  subject 4  depth 1
+  For those who are able, having their own children is the normal course of an adult life.
+  - part 4, bare this (1.0): "those" stands alone as a noun; name what it refers to.
+  - close echo (1.0): The content word "able" repeats within 12 words ("able", then "able").
+  - close echo (1.0): The content word "child" repeats within 13 words ("children", then "children").
+ccp_sheet:288  score 0.0  words 26  before verb 6  subject 1  depth 2
+  What it cannot accept: It cannot accept treating children as an undesirable burden, or as a luxury to be added once comfort is secured.
+ccp_sheet:288  score 2.0  words 31  before verb 1  subject 1  depth 2
+  It cannot accept a cultural ideal that celebrates deliberate childlessness among healthy adults while expecting someone else's children to maintain the economy and the country in their old age.
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+  - close echo (1.0): The content word "accept" repeats within 21 words ("accept", then "accept").
+ccp_sheet:291  score 1.0  words 10  before verb 5  subject 1  depth 1
+  Why it is important: Elders form those younger than themselves.
+  - part 4, bare this (1.0): "those" stands alone as a noun; name what it refers to.
+ccp_sheet:291  score 0.0  words 4  before verb 2  subject 2  depth 0
+  The duty is broad.
+ccp_sheet:291  score 0.0  words 3  before verb 1  subject 1  depth 0
+  It includes kin.
+ccp_sheet:291  score 2.0  words 14  before verb 2  subject 1  depth 1
+  It also includes politicians and other leaders, who train the people younger than themselves.
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+  - close echo (1.0): The content word "young" repeats within 21 words ("younger", then "younger").
+  - close echo (1.0): The content word "include" repeats within 4 words ("includes", then "includes").
+ccp_sheet:291  score 1.0  words 12  before verb 4  subject 4  depth 1
+  Those who are younger seek the experience of the people around them.
+  - part 4, bare this (1.0): "Those" stands alone as a noun; name what it refers to.
+  - close echo (1.0): The content word "person" repeats within 13 words ("people", then "people").
+ccp_sheet:291  score 0.0  words 2  before verb 1  subject 1  depth 0
+  They listen.
+ccp_sheet:291  score 0.0  words 6  before verb 1  subject 1  depth 1
+  They test what they are told.
+ccp_sheet:291  score 2.0  words 10  before verb 1  subject 1  depth 0
+  They do not have to agree with all of it.
+  - part 4, distant pronoun (2.0): No singular noun in this sentence or the one before for "it" to refer to.
+ccp_sheet:291  score 0.0  words 20  before verb 3  subject 2  depth 1
+  Each person also receives an inheritance he did not earn: a language, laws, infrastructure, technical knowledge, and a defended territory.
+ccp_sheet:291  score 0.0  words 8  before verb 1  subject 1  depth 0
+  He hands that inheritance on in working order.
+  - close echo (1.0): The content word "inheritance" repeats within 18 words ("inheritance", then "inheritance").
+ccp_sheet:291  score 2.0  words 21  before verb 10  subject 2  depth 1
+  For those who cannot have biological children, the duty remains open through adoption, teaching, apprenticeship, and leaving durable work behind.
+  - part 2, opening phrase (1.0): An 8-word opening phrase stands before the subject: "For those who cannot have biological children".
+  - part 4, bare this (1.0): "those" stands alone as a noun; name what it refers to.
+  - close echo (1.0): The content word "work" repeats within 21 words ("working", then "work").
+ccp_sheet:291  score 0.0  words 21  before verb 0  subject 0  depth 1
+  Raising a child with affection while failing to teach him discipline, truth, and a useful skill leaves him unprepared for reality.
+  - close echo (1.0): The content word "child" repeats within 16 words ("children", then "child").
+  - close echo (1.0): The content word "leave" repeats within 20 words ("leaving", then "leaves").
+ccp_sheet:293  score 1.0  words 21  before verb 0  subject 0  depth 1
+  Range of views: Parents do this in the home, teachers in schools, master craftsmen in workshops, and leaders in public office.
+  - part 4, bare this (1.0): "this" stands alone as a noun; name what it refers to.
+ccp_sheet:293  score 0.0  words 14  before verb 2  subject 2  depth 1
+  The younger may test an elder's word and refuse what fails the test.
+  - close echo (0.5): The content word "test" repeats within 10 words ("test", then "test"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:293  score 0.0  words 2  before verb 1  subject 0  depth 0
+  Listening remains.
+ccp_sheet:295  score 2.0  words 30  before verb 6  subject 1  depth 1
+  What it cannot accept: It cannot accept elders who will not form those younger than themselves, or the young who will not listen to the experience around them.
+  - part 4, distant pronoun (2.0): No singular noun in this sentence or the one before for "it" to refer to.
+  - close echo (0.5): The content word "accept" repeats within 4 words ("accept", then "accept"). The repeat stays inside one sentence; judge whether it is deliberate.
+  - close echo (0.5): The content word "young" repeats within 5 words ("younger", then "young"). The repeats sit in a parallel or a contrast; judge whether they are deliberate.
+ccp_sheet:295  score 3.0  words 40  before verb 1  subject 1  depth 3
+  It cannot accept generational theft: consuming inherited wealth, running up unpayable public debts, allowing infrastructure to decay, or failing to pass on the culture and technical skills required to keep the civilization alive after the current generation is gone.
+  - part 3, nested clauses (1.0): Clauses nest 3 deep (a clause inside a clause inside a clause).
+  - part 4, it chain (2.0): "it" is the subject, or the opening word, of this sentence and of the sentence before. Name the noun instead of chaining "it".
+
+summary  sentences 373
+  close-range echoes: 222 (59.5 per 100 sentences)
+  it-chains: 22 (5.9 per 100 sentences)
+  ambiguous it: 15 (4.0 per 100 sentences)
+  abstract subjects: 1 (0.3 per 100 sentences)
+  concreteness: mean 3.18 over 1699 rated nouns
