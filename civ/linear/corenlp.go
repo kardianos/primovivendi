@@ -9,6 +9,8 @@ import (
 	"os/exec"
 	"path/filepath"
 	"strings"
+
+	"po/civ/sys/corenlp"
 )
 
 // Stanford CoreNLP 4.6.0 with the English models jar, unpacked in
@@ -30,52 +32,31 @@ var corenlpArgs = []string{
 	"-outputFormat", "json",
 }
 
-type cnDoc struct {
-	Sentences []cnSent               `json:"sentences"`
-	Corefs    map[string][]cnMention `json:"corefs"`
-}
-
-type cnSent struct {
-	Index int     `json:"index"`
-	Deps  []cnDep `json:"basicDependencies"`
-	Toks  []cnTok `json:"tokens"`
-}
-
-type cnDep struct {
-	Dep       string `json:"dep"`
-	Governor  int    `json:"governor"`
-	Dependent int    `json:"dependent"`
-	DepGloss  string `json:"dependentGloss"`
-}
-
-type cnTok struct {
-	Index int    `json:"index"`
-	Word  string `json:"word"`
-	Orig  string `json:"originalText"`
-	Lemma string `json:"lemma"`
-	Begin int    `json:"characterOffsetBegin"`
-	End   int    `json:"characterOffsetEnd"`
-	POS   string `json:"pos"`
-	NER   string `json:"ner"`
-}
-
-type cnMention struct {
-	ID        int    `json:"id"`
-	Text      string `json:"text"`
-	Type      string `json:"type"`
-	Start     int    `json:"startIndex"`
-	End       int    `json:"endIndex"`
-	Head      int    `json:"headIndex"`
-	SentNum   int    `json:"sentNum"`
-	IsRep     bool   `json:"isRepresentativeMention"`
-	MentionID int    `json:"-"`
-}
+// The parse types are the shared corenlp structs (the same JSON schema the
+// pure-Go parser emits), under the names this tool has always used. Token
+// offsets are UTF-8 byte offsets into the source text for both engines:
+// legacy CoreNLP JSON is normalized once on load.
+type (
+	cnDoc     = corenlp.Doc
+	cnSent    = corenlp.Sent
+	cnDep     = corenlp.Dep
+	cnTok     = corenlp.Tok
+	cnMention = corenlp.Mention
+)
 
 func workDir(data string) string { return filepath.Join(data, "linear") }
 
 // cmdParse writes each source as plain text and runs CoreNLP on every source
-// whose text changed since its last parse.
-func cmdParse(root, data string, threads int, mem string) error {
+// whose text changed since its last parse. With the Go engine there is nothing
+// to run: chapters are parsed in memory when they are read.
+func cmdParse(root, data string, threads int, mem string, engine string) error {
+	if engine == engineGo {
+		if _, err := pipelineGo(root); err != nil {
+			return err
+		}
+		log.Print("engine go: nothing to parse; chapters are parsed in memory")
+		return nil
+	}
 	srcs, err := loadSources(root, data)
 	if err != nil {
 		return err
@@ -141,5 +122,8 @@ func loadParsed(data string, s source) (*cnDoc, string, error) {
 	if string(text) != s.Text {
 		return nil, "", fmt.Errorf("%s changed since it was parsed (run: go run . parse)", s.Name)
 	}
+	// CoreNLP's character offsets count UTF-16 code units; convert them to
+	// UTF-8 byte offsets once, here at the JSON boundary.
+	corenlp.NormalizeUTF16ToUTF8(&d, s.Text)
 	return &d, string(text), nil
 }

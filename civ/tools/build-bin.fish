@@ -8,10 +8,10 @@ set -l bin $civ/bin
 
 mkdir -p $bin
 
-for tool in lint linear ngram review
+for tool in lint linear ngram review compose parser
     echo "building civ/bin/$tool"
-    pushd $civ/$tool >/dev/null
-    go build -o $bin/$tool .
+    pushd $civ >/dev/null
+    env GOEXPERIMENT=simd go build -o $bin/$tool ./$tool
     set -l code $status
     popd >/dev/null
     if test $code -ne 0
@@ -20,4 +20,4 @@ for tool in lint linear ngram review
 end
 
 ln -sf ../tools/readback.fish $bin/readback
-echo "ready: $bin/{lint,linear,ngram,review,readback}"
+echo "ready: $bin/{lint,linear,ngram,review,compose,parser,readback}"

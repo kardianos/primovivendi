@@ -1,8 +1,9 @@
-module po/civ/review
+module po/civ
 
 go 1.27.3
 
 require (
+	github.com/MichaelAyles/goformer v0.1.0
 	github.com/bankai-tensei/gowaku v0.2.0
 	github.com/charmbracelet/bubbles v0.21.0
 	github.com/charmbracelet/bubbletea v1.3.10

@@ -1,0 +1,1116 @@
+{
+  "version": 1,
+  "chapter": "01_ch01",
+  "source_path": "civ/chapters/01_ch01.md",
+  "source_hash": "8f1d0f22b1f50f717120b722",
+  "created_at": "2026-11-25T16:00:42.76709254Z",
+  "blocks": [
+    {
+      "id": "b001",
+      "kind": "heading",
+      "heading": "Chapter 1: The Human Condition, Technology, and Civilization",
+      "raw": "## Chapter 1: The Human Condition, Technology, and Civilization",
+      "separator": "\n\n"
+    },
+    {
+      "id": "b002",
+      "kind": "heading",
+      "heading": "The Immediate Fact of Our Existence",
+      "raw": "### The Immediate Fact of Our Existence",
+      "separator": "\n\n"
+    },
+    {
+      "id": "b003",
+      "kind": "prose",
+      "heading": "The Immediate Fact of Our Existence",
+      "raw": "We come into this world naked. Beneath us stands reality. Anything we build is technology. A stable life, a stable farm, a stable house, and tools are technology. Continuing life from generation to generation, and the ability to build and keep, is civilization.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b003:s00",
+          "block_id": "b003",
+          "index": 0,
+          "text": "We come into this world naked.",
+          "hash": "708f5db7832d6e5107ee15e3"
+        },
+        {
+          "id": "01_ch01:b003:s01",
+          "block_id": "b003",
+          "index": 1,
+          "text": "Beneath us stands reality.",
+          "hash": "c1a5d4c791d5366bd69b7430"
+        },
+        {
+          "id": "01_ch01:b003:s02",
+          "block_id": "b003",
+          "index": 2,
+          "text": "Anything we build is technology.",
+          "hash": "c3174f34059dda2e6c4e063d"
+        },
+        {
+          "id": "01_ch01:b003:s03",
+          "block_id": "b003",
+          "index": 3,
+          "text": "A stable life, a stable farm, a stable house, and tools are technology.",
+          "hash": "e92366a1cb4cb55cf06b1336"
+        },
+        {
+          "id": "01_ch01:b003:s04",
+          "block_id": "b003",
+          "index": 4,
+          "text": "Continuing life from generation to generation, and the ability to build and keep, is civilization.",
+          "hash": "cc3221ae3add245f8e5d0203"
+        }
+      ]
+    },
+    {
+      "id": "b004",
+      "kind": "prose",
+      "heading": "The Immediate Fact of Our Existence",
+      "raw": "Every person inherits a working world and is born unable to keep it. Nothing we build keeps itself, and the people who know how to keep it die. Civilization is the technology that keeps every other technology working. Books and machines hold part of it, but they pass nothing on by themselves. Each generation must learn again to read the old books, to run the machines, to reason soundly, and to think beyond the present moment, which no child does by nature. That learning takes place in ordinary lives, wherever a person tells the truth, does good work, raises children, and repairs what was handed down to him.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b004:s00",
+          "block_id": "b004",
+          "index": 0,
+          "text": "Every person inherits a working world and is born unable to keep it.",
+          "hash": "542ddb1978544146dc7d049d"
+        },
+        {
+          "id": "01_ch01:b004:s01",
+          "block_id": "b004",
+          "index": 1,
+          "text": "Nothing we build keeps itself, and the people who know how to keep it die.",
+          "hash": "172ce0c05c49b3ae62e40b1e"
+        },
+        {
+          "id": "01_ch01:b004:s02",
+          "block_id": "b004",
+          "index": 2,
+          "text": "Civilization is the technology that keeps every other technology working.",
+          "hash": "c4e6cd37b7e989bac856f3fc"
+        },
+        {
+          "id": "01_ch01:b004:s03",
+          "block_id": "b004",
+          "index": 3,
+          "text": "Books and machines hold part of it, but they pass nothing on by themselves.",
+          "hash": "af18092af13258ced694509c"
+        },
+        {
+          "id": "01_ch01:b004:s04",
+          "block_id": "b004",
+          "index": 4,
+          "text": "Each generation must learn again to read the old books, to run the machines, to reason soundly, and to think beyond the present moment, which no child does by nature.",
+          "hash": "5944878583806d707924a2e8"
+        },
+        {
+          "id": "01_ch01:b004:s05",
+          "block_id": "b004",
+          "index": 5,
+          "text": "That learning takes place in ordinary lives, wherever a person tells the truth, does good work, raises children, and repairs what was handed down to him.",
+          "hash": "f0210e7a8e5ed007c5ad9589"
+        }
+      ]
+    },
+    {
+      "id": "b005",
+      "kind": "prose",
+      "heading": "The Immediate Fact of Our Existence",
+      "raw": "A newborn on the bare ground is naked and toothless. He possesses no language, no mathematics, no agriculture, and no knowledge of which berries are nourishing and which are poison. A foal can stand and walk within an hour of birth. A human infant cannot lift his own head, find food, defend himself against a stray dog, or keep himself warm through the night. Alone on the bare earth, he dies of cold or thirst within two days.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b005:s00",
+          "block_id": "b005",
+          "index": 0,
+          "text": "A newborn on the bare ground is naked and toothless.",
+          "hash": "2c41c4d985174a1816814fd0"
+        },
+        {
+          "id": "01_ch01:b005:s01",
+          "block_id": "b005",
+          "index": 1,
+          "text": "He possesses no language, no mathematics, no agriculture, and no knowledge of which berries are nourishing and which are poison.",
+          "hash": "10497650ad7424f623354c45"
+        },
+        {
+          "id": "01_ch01:b005:s02",
+          "block_id": "b005",
+          "index": 2,
+          "text": "A foal can stand and walk within an hour of birth.",
+          "hash": "cadc65224683dd16c20d458d"
+        },
+        {
+          "id": "01_ch01:b005:s03",
+          "block_id": "b005",
+          "index": 3,
+          "text": "A human infant cannot lift his own head, find food, defend himself against a stray dog, or keep himself warm through the night.",
+          "hash": "67b82dcd5edd29f896b7f637"
+        },
+        {
+          "id": "01_ch01:b005:s04",
+          "block_id": "b005",
+          "index": 4,
+          "text": "Alone on the bare earth, he dies of cold or thirst within two days.",
+          "hash": "20b400ebd722d776af28e98a"
+        }
+      ]
+    },
+    {
+      "id": "b006",
+      "kind": "prose",
+      "heading": "The Immediate Fact of Our Existence",
+      "raw": "Yet twenty or thirty years later, the same child can board an airliner, cross an ocean in a few hours, and step off on another continent while drinking hot coffee.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b006:s00",
+          "block_id": "b006",
+          "index": 0,
+          "text": "Yet twenty or thirty years later, the same child can board an airliner, cross an ocean in a few hours, and step off on another continent while drinking hot coffee.",
+          "hash": "05d616c5b15d983500e5ff3e"
+        }
+      ]
+    },
+    {
+      "id": "b007",
+      "kind": "prose",
+      "heading": "The Immediate Fact of Our Existence",
+      "raw": "How do we get from that infant to an airliner, a stocked grocery store, and a court of law, and do it again in every generation?",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b007:s00",
+          "block_id": "b007",
+          "index": 0,
+          "text": "How do we get from that infant to an airliner, a stocked grocery store, and a court of law, and do it again in every generation?",
+          "hash": "ae4386f71b441c0f907a4e62"
+        }
+      ]
+    },
+    {
+      "id": "b008",
+      "kind": "prose",
+      "heading": "The Immediate Fact of Our Existence",
+      "raw": "That question has a practical answer. The answer rests on reality, and reality answers both atheists and people of faith in the same way. A field left unplowed yields no grain, and a child left untaught never learns to build, whatever anyone believes.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b008:s00",
+          "block_id": "b008",
+          "index": 0,
+          "text": "That question has a practical answer.",
+          "hash": "cefbe4124f30ff2b6b33f933"
+        },
+        {
+          "id": "01_ch01:b008:s01",
+          "block_id": "b008",
+          "index": 1,
+          "text": "The answer rests on reality, and reality answers both atheists and people of faith in the same way.",
+          "hash": "8750c684c97fb083b93e43b5"
+        },
+        {
+          "id": "01_ch01:b008:s02",
+          "block_id": "b008",
+          "index": 2,
+          "text": "A field left unplowed yields no grain, and a child left untaught never learns to build, whatever anyone believes.",
+          "hash": "665c2e5645ca005621a88a61"
+        }
+      ]
+    },
+    {
+      "id": "b009",
+      "kind": "prose",
+      "heading": "The Immediate Fact of Our Existence",
+      "raw": "That shared reality does not make all beliefs equal. It divides religious and secular beliefs alike into two groups. One group holds to a source of truth that no observation is allowed to correct, so no test can settle its claims. The other group points to the shared world, so its claims can be tested and debated on the evidence. Within that group, people who believe very differently can reason from the same facts to the same practical conclusions. Those conclusions form a common account of what a lasting civilization requires. This book derives that account step by step. At each step it shows *why* a principle has the shape it has, and *what* happens in history and daily life when part of it is removed.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b009:s00",
+          "block_id": "b009",
+          "index": 0,
+          "text": "That shared reality does not make all beliefs equal.",
+          "hash": "fcb6e4d1dfae2adc4520b4bd"
+        },
+        {
+          "id": "01_ch01:b009:s01",
+          "block_id": "b009",
+          "index": 1,
+          "text": "It divides religious and secular beliefs alike into two groups.",
+          "hash": "bd6c1b75c5d55eb3bfffb768"
+        },
+        {
+          "id": "01_ch01:b009:s02",
+          "block_id": "b009",
+          "index": 2,
+          "text": "One group holds to a source of truth that no observation is allowed to correct, so no test can settle its claims.",
+          "hash": "b7fcf8183382a654b3567cb9"
+        },
+        {
+          "id": "01_ch01:b009:s03",
+          "block_id": "b009",
+          "index": 3,
+          "text": "The other group points to the shared world, so its claims can be tested and debated on the evidence.",
+          "hash": "87e1aa00faba6753678a094a"
+        },
+        {
+          "id": "01_ch01:b009:s04",
+          "block_id": "b009",
+          "index": 4,
+          "text": "Within that group, people who believe very differently can reason from the same facts to the same practical conclusions.",
+          "hash": "322bf1b46c8f22da057db450"
+        },
+        {
+          "id": "01_ch01:b009:s05",
+          "block_id": "b009",
+          "index": 5,
+          "text": "Those conclusions form a common account of what a lasting civilization requires.",
+          "hash": "55ef5f00c7aee77a4697224d"
+        },
+        {
+          "id": "01_ch01:b009:s06",
+          "block_id": "b009",
+          "index": 6,
+          "text": "This book derives that account step by step.",
+          "hash": "b27df3943433408be66f0271"
+        },
+        {
+          "id": "01_ch01:b009:s07",
+          "block_id": "b009",
+          "index": 7,
+          "text": "At each step it shows *why* a principle has the shape it has, and *what* happens in history and daily life when part of it is removed.",
+          "hash": "ba1d3d44c26c37b33467da1b"
+        }
+      ]
+    },
+    {
+      "id": "b010",
+      "kind": "prose",
+      "heading": "The Immediate Fact of Our Existence",
+      "raw": "This book takes each faith and philosophy at its word. It rejects the claim that all religions point to one nebulous god and that their differences are small. That claim takes no creed at its word and in the end affirms nothing. Creeds contradict one another on God, the soul, and the highest good, and not all of them can be true. Yet this book is not a theology, nor is it written to diminish any faith. Believer and atheist alike can use this work without denying or speaking against their convictions. The book asks only what follows from living in one reality with people who believe otherwise. It offers a standard and a guide for civilization: a way for any people to judge what keeps and builds its common life.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b010:s00",
+          "block_id": "b010",
+          "index": 0,
+          "text": "This book takes each faith and philosophy at its word.",
+          "hash": "0353fd76e8f1e6c1ce114a59"
+        },
+        {
+          "id": "01_ch01:b010:s01",
+          "block_id": "b010",
+          "index": 1,
+          "text": "It rejects the claim that all religions point to one nebulous god and that their differences are small.",
+          "hash": "6eff07985188ecece737932e"
+        },
+        {
+          "id": "01_ch01:b010:s02",
+          "block_id": "b010",
+          "index": 2,
+          "text": "That claim takes no creed at its word and in the end affirms nothing.",
+          "hash": "e2481f0afe2744db9012e2fc"
+        },
+        {
+          "id": "01_ch01:b010:s03",
+          "block_id": "b010",
+          "index": 3,
+          "text": "Creeds contradict one another on God, the soul, and the highest good, and not all of them can be true.",
+          "hash": "58e93410cddd6997fa01f259"
+        },
+        {
+          "id": "01_ch01:b010:s04",
+          "block_id": "b010",
+          "index": 4,
+          "text": "Yet this book is not a theology, nor is it written to diminish any faith.",
+          "hash": "122afb6befdd30fd668e8a92"
+        },
+        {
+          "id": "01_ch01:b010:s05",
+          "block_id": "b010",
+          "index": 5,
+          "text": "Believer and atheist alike can use this work without denying or speaking against their convictions.",
+          "hash": "12e405a87b6c6e0f5c1ea0b9"
+        },
+        {
+          "id": "01_ch01:b010:s06",
+          "block_id": "b010",
+          "index": 6,
+          "text": "The book asks only what follows from living in one reality with people who believe otherwise.",
+          "hash": "b75208c1df82314518a9c2cc"
+        },
+        {
+          "id": "01_ch01:b010:s07",
+          "block_id": "b010",
+          "index": 7,
+          "text": "It offers a standard and a guide for civilization: a way for any people to judge what keeps and builds its common life.",
+          "hash": "adb99480ba6dfb06643dca73"
+        }
+      ]
+    },
+    {
+      "id": "b011",
+      "kind": "heading",
+      "heading": "Technology as Anything We Build",
+      "raw": "### Technology as Anything We Build",
+      "separator": "\n\n"
+    },
+    {
+      "id": "b012",
+      "kind": "prose",
+      "heading": "Technology as Anything We Build",
+      "raw": "In ordinary usage, people commonly reserve the word *technology* for mechanical or electronic devices: steam engines, telephones, radar arrays, or suspension bridges. That definition is too narrow, and its narrowness obscures the most important operational systems we possess.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b012:s00",
+          "block_id": "b012",
+          "index": 0,
+          "text": "In ordinary usage, people commonly reserve the word *technology* for mechanical or electronic devices: steam engines, telephones, radar arrays, or suspension bridges.",
+          "hash": "44b0ceb78f2c17fe95521c4c"
+        },
+        {
+          "id": "01_ch01:b012:s01",
+          "block_id": "b012",
+          "index": 1,
+          "text": "That definition is too narrow, and its narrowness obscures the most important operational systems we possess.",
+          "hash": "5da3f76b99a8c2701d656993"
+        }
+      ]
+    },
+    {
+      "id": "b013",
+      "kind": "prose",
+      "heading": "Technology as Anything We Build",
+      "raw": "A plow, a water wheel, or a microprocessor is an artificial arrangement of matter and repeatable procedure constructed by human beings to solve a recurring problem imposed by physical reality. Nature does not hand us loaves of bread; we clear stones from a field, forge an iron plowshare, hitch draft power, sow selected seed at a known season, and mill the harvested grain. The iron plow is technology, and the repeatable calendar of crop rotation is technology.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b013:s00",
+          "block_id": "b013",
+          "index": 0,
+          "text": "A plow, a water wheel, or a microprocessor is an artificial arrangement of matter and repeatable procedure constructed by human beings to solve a recurring problem imposed by physical reality.",
+          "hash": "51d3cf0872a9c486bb946af7"
+        },
+        {
+          "id": "01_ch01:b013:s01",
+          "block_id": "b013",
+          "index": 1,
+          "text": "Nature does not hand us loaves of bread; we clear stones from a field, forge an iron plowshare, hitch draft power, sow selected seed at a known season, and mill the harvested grain.",
+          "hash": "93a27e1551aee1e6061f8e1f"
+        },
+        {
+          "id": "01_ch01:b013:s02",
+          "block_id": "b013",
+          "index": 2,
+          "text": "The iron plow is technology, and the repeatable calendar of crop rotation is technology.",
+          "hash": "a2c6e32ced05ed4154b710f4"
+        }
+      ]
+    },
+    {
+      "id": "b014",
+      "kind": "prose",
+      "heading": "Technology as Anything We Build",
+      "raw": "Once technology is understood as *a repeatable method, together with the structure that method keeps in being, by which humans answer a problem in reality*, the arbitrary division between mechanical tools and social or personal institutions disappears.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b014:s00",
+          "block_id": "b014",
+          "index": 0,
+          "text": "Once technology is understood as *a repeatable method, together with the structure that method keeps in being, by which humans answer a problem in reality*, the arbitrary division between mechanical tools and social or personal institutions disappears.",
+          "hash": "3a823e25f8689d4c01b14553"
+        }
+      ]
+    },
+    {
+      "id": "b015",
+      "kind": "prose",
+      "heading": "Technology as Anything We Build",
+      "raw": "A stable house is technology. Weather, decay, and gravity act continuously upon human bodies and structures. A foundation excavated below the frost line, walls framed plumb and square, and courses of roof shingles overlapped so that rainwater drains by gravity off the eaves rather than penetrating the ceiling timbers constitute a protective structure built against exposure. A stable farm is technology as well: an engineered biological system of cleared land, irrigation channels, soil fertility maintained by manure or nitrogen-fixing cover crops, and seed grain dried and protected from vermin over winter, converting sunlight, water, and human labor into a reliable supply of food.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b015:s00",
+          "block_id": "b015",
+          "index": 0,
+          "text": "A stable house is technology.",
+          "hash": "a832ae77b176e70cbf92f26a"
+        },
+        {
+          "id": "01_ch01:b015:s01",
+          "block_id": "b015",
+          "index": 1,
+          "text": "Weather, decay, and gravity act continuously upon human bodies and structures.",
+          "hash": "50b112a3c05053489eda3d0d"
+        },
+        {
+          "id": "01_ch01:b015:s02",
+          "block_id": "b015",
+          "index": 2,
+          "text": "A foundation excavated below the frost line, walls framed plumb and square, and courses of roof shingles overlapped so that rainwater drains by gravity off the eaves rather than penetrating the ceiling timbers constitute a protective structure built against exposure.",
+          "hash": "041e4d5ec7cfd90eac5caa25"
+        },
+        {
+          "id": "01_ch01:b015:s03",
+          "block_id": "b015",
+          "index": 3,
+          "text": "A stable farm is technology as well: an engineered biological system of cleared land, irrigation channels, soil fertility maintained by manure or nitrogen-fixing cover crops, and seed grain dried and protected from vermin over winter, converting sunlight, water, and human labor into a reliable supply of food.",
+          "hash": "9754e0dec20763cebf2e32c9"
+        }
+      ]
+    },
+    {
+      "id": "b016",
+      "kind": "prose",
+      "heading": "Technology as Anything We Build",
+      "raw": "A stable personal life is technology in the same sense. A human being who wakes at a regular hour, keeps his body clean and healthy, masters a useful trade, tells the truth, spends less money than he earns, and keeps his word when nobody is watching has built an internal operating method. That stable life does not happen by biological default; it has to be constructed and maintained against impulse and sloth just as deliberately as a stone wall is maintained against frost.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b016:s00",
+          "block_id": "b016",
+          "index": 0,
+          "text": "A stable personal life is technology in the same sense.",
+          "hash": "9d7c7e3d0e013eb252425953"
+        },
+        {
+          "id": "01_ch01:b016:s01",
+          "block_id": "b016",
+          "index": 1,
+          "text": "A human being who wakes at a regular hour, keeps his body clean and healthy, masters a useful trade, tells the truth, spends less money than he earns, and keeps his word when nobody is watching has built an internal operating method.",
+          "hash": "d60d52db2952cd7382ba20c1"
+        },
+        {
+          "id": "01_ch01:b016:s02",
+          "block_id": "b016",
+          "index": 2,
+          "text": "That stable life does not happen by biological default; it has to be constructed and maintained against impulse and sloth just as deliberately as a stone wall is maintained against frost.",
+          "hash": "9ca2ab2fc506867cc773eb9f"
+        }
+      ]
+    },
+    {
+      "id": "b017",
+      "kind": "prose",
+      "heading": "Technology as Anything We Build",
+      "raw": "Language, money, contract law, and the family household are technology too. They are institutional methods constructed to enable finite, fallible human beings to coordinate their labor, exchange goods across time and distance, resolve disputes without blood feuds, and invest fifteen or twenty years of continuous care into raising a helpless infant into a capable adult.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b017:s00",
+          "block_id": "b017",
+          "index": 0,
+          "text": "Language, money, contract law, and the family household are technology too.",
+          "hash": "623962d25c60eae087c865b0"
+        },
+        {
+          "id": "01_ch01:b017:s01",
+          "block_id": "b017",
+          "index": 1,
+          "text": "They are institutional methods constructed to enable finite, fallible human beings to coordinate their labor, exchange goods across time and distance, resolve disputes without blood feuds, and invest fifteen or twenty years of continuous care into raising a helpless infant into a capable adult.",
+          "hash": "2fea73999391b2e6fa0ae0d1"
+        }
+      ]
+    },
+    {
+      "id": "b018",
+      "kind": "heading",
+      "heading": "Civilization as the Prerequisite Technology",
+      "raw": "### Civilization as the Prerequisite Technology",
+      "separator": "\n\n"
+    },
+    {
+      "id": "b019",
+      "kind": "prose",
+      "heading": "Civilization as the Prerequisite Technology",
+      "raw": "A decisive fact governs every technology we have just named: nothing keeps itself.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b019:s00",
+          "block_id": "b019",
+          "index": 0,
+          "text": "A decisive fact governs every technology we have just named: nothing keeps itself.",
+          "hash": "2eb9bbccac12dd1e86baaaff"
+        }
+      ]
+    },
+    {
+      "id": "b020",
+      "kind": "prose",
+      "heading": "Civilization as the Prerequisite Technology",
+      "raw": "Leave a freshly plowed farm untouched for five years, and weeds, brush, and forest reclaim the field while the irrigation ditches silt shut. Leave a well-built house unmaintained for ten winters, and one lifted shingle lets autumn rain rot the roof beam until the ceiling collapses. Leave a complex machine, such as an electrical grid, a semiconductor foundry, or a fleet of commercial aircraft, without trained engineers and mechanics for a single generation, and the bearings seize, the transformers fail, and corrosion reduces the machinery to scrap metal.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b020:s00",
+          "block_id": "b020",
+          "index": 0,
+          "text": "Leave a freshly plowed farm untouched for five years, and weeds, brush, and forest reclaim the field while the irrigation ditches silt shut.",
+          "hash": "fe07cb82cf8e1099464fb2e4"
+        },
+        {
+          "id": "01_ch01:b020:s01",
+          "block_id": "b020",
+          "index": 1,
+          "text": "Leave a well-built house unmaintained for ten winters, and one lifted shingle lets autumn rain rot the roof beam until the ceiling collapses.",
+          "hash": "2479a084d8a1d7235c15ef19"
+        },
+        {
+          "id": "01_ch01:b020:s02",
+          "block_id": "b020",
+          "index": 2,
+          "text": "Leave a complex machine, such as an electrical grid, a semiconductor foundry, or a fleet of commercial aircraft, without trained engineers and mechanics for a single generation, and the bearings seize, the transformers fail, and corrosion reduces the machinery to scrap metal.",
+          "hash": "6d5a36c544bb1880b3ea786e"
+        }
+      ]
+    },
+    {
+      "id": "b021",
+      "kind": "prose",
+      "heading": "Civilization as the Prerequisite Technology",
+      "raw": "Moreover, the builders themselves are subject to biological limits. Every human engineer, farmer, mason, judge, and parent who knows how to build and run these systems is mortal. Within eighty years, every adult currently operating our world will be dead. And every replacement human being enters the world just as naked and ignorant of calculus, metallurgy, and self-control as an infant born ten thousand years ago.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b021:s00",
+          "block_id": "b021",
+          "index": 0,
+          "text": "Moreover, the builders themselves are subject to biological limits.",
+          "hash": "7d926dd0799667ade2f9846f"
+        },
+        {
+          "id": "01_ch01:b021:s01",
+          "block_id": "b021",
+          "index": 1,
+          "text": "Every human engineer, farmer, mason, judge, and parent who knows how to build and run these systems is mortal.",
+          "hash": "03868cd8e77d72ec8d21d9c0"
+        },
+        {
+          "id": "01_ch01:b021:s02",
+          "block_id": "b021",
+          "index": 2,
+          "text": "Within eighty years, every adult currently operating our world will be dead.",
+          "hash": "bf2dbf4d22c21cee2e1ce641"
+        },
+        {
+          "id": "01_ch01:b021:s03",
+          "block_id": "b021",
+          "index": 3,
+          "text": "And every replacement human being enters the world just as naked and ignorant of calculus, metallurgy, and self-control as an infant born ten thousand years ago.",
+          "hash": "a5205d25dfa042eda2985e0b"
+        }
+      ]
+    },
+    {
+      "id": "b022",
+      "kind": "prose",
+      "heading": "Civilization as the Prerequisite Technology",
+      "raw": "Therefore, no mechanical tool, no farm, no legal code, and no library can keep itself alive across time. Every specific technology depends upon a deeper, prerequisite technology: a foundational method that transmits human life itself, together with the disciplined capacity to keep and build, from one generation to the next.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b022:s00",
+          "block_id": "b022",
+          "index": 0,
+          "text": "Therefore, no mechanical tool, no farm, no legal code, and no library can keep itself alive across time.",
+          "hash": "b2349d4053aff700e0479e06"
+        },
+        {
+          "id": "01_ch01:b022:s01",
+          "block_id": "b022",
+          "index": 1,
+          "text": "Every specific technology depends upon a deeper, prerequisite technology: a foundational method that transmits human life itself, together with the disciplined capacity to keep and build, from one generation to the next.",
+          "hash": "a0ab1b8b7638688e06ccba27"
+        }
+      ]
+    },
+    {
+      "id": "b023",
+      "kind": "prose",
+      "heading": "Civilization as the Prerequisite Technology",
+      "raw": "**That prerequisite technology is civilization.**",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b023:s00",
+          "block_id": "b023",
+          "index": 0,
+          "text": "**That prerequisite technology is civilization.**",
+          "hash": "de82f1a7c3577a4be9de6bd5"
+        }
+      ]
+    },
+    {
+      "id": "b024",
+      "kind": "prose",
+      "heading": "Civilization as the Prerequisite Technology",
+      "raw": "Civilizations are not just mechanical tools; they also comprise the social customs, laws, and individual values within that civilization. Moreover, civilization is neither an immaterial spirit independent of human beings nor a collective organism with a mind of its own. It consists of two things held and practiced by living men and women: **will** and **method**. Will is the active decision by living human beings to continue living, to maintain what they have inherited against decay, to build new capacity, to defend their households and polities against enemies, and to bring children into the world and raise them to carry the work forward. Method is the accumulated, empirically tested customs, laws, crafts, scientific models, and moral procedures that enable limited, self-interested human beings to cooperate and prosper within the constraints of reality.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b024:s00",
+          "block_id": "b024",
+          "index": 0,
+          "text": "Civilizations are not just mechanical tools; they also comprise the social customs, laws, and individual values within that civilization.",
+          "hash": "00166e87bd5d9cc078979960"
+        },
+        {
+          "id": "01_ch01:b024:s01",
+          "block_id": "b024",
+          "index": 1,
+          "text": "Moreover, civilization is neither an immaterial spirit independent of human beings nor a collective organism with a mind of its own.",
+          "hash": "0c3fd1eaa7ae611972b20295"
+        },
+        {
+          "id": "01_ch01:b024:s02",
+          "block_id": "b024",
+          "index": 2,
+          "text": "It consists of two things held and practiced by living men and women: **will** and **method**.",
+          "hash": "625de95e4e9bd4fb80f24257"
+        },
+        {
+          "id": "01_ch01:b024:s03",
+          "block_id": "b024",
+          "index": 3,
+          "text": "Will is the active decision by living human beings to continue living, to maintain what they have inherited against decay, to build new capacity, to defend their households and polities against enemies, and to bring children into the world and raise them to carry the work forward.",
+          "hash": "7eebb0e5e18644b973ee63b4"
+        },
+        {
+          "id": "01_ch01:b024:s04",
+          "block_id": "b024",
+          "index": 4,
+          "text": "Method is the accumulated, empirically tested customs, laws, crafts, scientific models, and moral procedures that enable limited, self-interested human beings to cooperate and prosper within the constraints of reality.",
+          "hash": "b324f21c1d03cc84a0ce2b0b"
+        }
+      ]
+    },
+    {
+      "id": "b025",
+      "kind": "prose",
+      "heading": "Civilization as the Prerequisite Technology",
+      "raw": "When that **will** and that **method** are practiced in the daily conduct of an individual person, we call it **virtue**. When that will and that method are held across a population and transmitted across generations, we call it **civilization**. Civilization is the technology that lets all other technologies stand.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b025:s00",
+          "block_id": "b025",
+          "index": 0,
+          "text": "When that **will** and that **method** are practiced in the daily conduct of an individual person, we call it **virtue**.",
+          "hash": "ffaa2b9edc62f675dc27021e"
+        },
+        {
+          "id": "01_ch01:b025:s01",
+          "block_id": "b025",
+          "index": 1,
+          "text": "When that will and that method are held across a population and transmitted across generations, we call it **civilization**.",
+          "hash": "55b6bc6f48c5bd4afc5ef9a0"
+        },
+        {
+          "id": "01_ch01:b025:s02",
+          "block_id": "b025",
+          "index": 2,
+          "text": "Civilization is the technology that lets all other technologies stand.",
+          "hash": "462593b71efc38ce16c2c8e4"
+        }
+      ]
+    },
+    {
+      "id": "b026",
+      "kind": "heading",
+      "heading": "Hidden Premises Beneath Surface Arguments",
+      "raw": "### Hidden Premises Beneath Surface Arguments",
+      "separator": "\n\n"
+    },
+    {
+      "id": "b027",
+      "kind": "prose",
+      "heading": "Hidden Premises Beneath Surface Arguments",
+      "raw": "Stating and deriving the common principles of civilization explicitly is necessary because in any society that has endured for several generations, citizens begin to take their foundational institutions for granted. They argue fiercely about secondary policies, such as tax rates, criminal sentencing, school discipline, border enforcement, or welfare programs, while leaving the foundational premises on which their arguments rest unstated.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b027:s00",
+          "block_id": "b027",
+          "index": 0,
+          "text": "Stating and deriving the common principles of civilization explicitly is necessary because in any society that has endured for several generations, citizens begin to take their foundational institutions for granted.",
+          "hash": "c354a2118f7084ce75081733"
+        },
+        {
+          "id": "01_ch01:b027:s01",
+          "block_id": "b027",
+          "index": 1,
+          "text": "They argue fiercely about secondary policies, such as tax rates, criminal sentencing, school discipline, border enforcement, or welfare programs, while leaving the foundational premises on which their arguments rest unstated.",
+          "hash": "3854bc2d3c94f214695cdcdb"
+        }
+      ]
+    },
+    {
+      "id": "b028",
+      "kind": "prose",
+      "heading": "Hidden Premises Beneath Surface Arguments",
+      "raw": "Two neighbors may argue for an hour over what to do about repeat shoplifting and burglary in their town. The first neighbor demands consistent arrest, prosecution, and prison sentences. The second neighbor opposes prosecution and demands publicly funded counseling and social support in its place. They exchange crime statistics and recidivism studies, growing angrier by the minute, and neither convinces the other.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b028:s00",
+          "block_id": "b028",
+          "index": 0,
+          "text": "Two neighbors may argue for an hour over what to do about repeat shoplifting and burglary in their town.",
+          "hash": "7caa2a6125a920a67ba72e00"
+        },
+        {
+          "id": "01_ch01:b028:s01",
+          "block_id": "b028",
+          "index": 1,
+          "text": "The first neighbor demands consistent arrest, prosecution, and prison sentences.",
+          "hash": "cab2541515daaeeb43074a6e"
+        },
+        {
+          "id": "01_ch01:b028:s02",
+          "block_id": "b028",
+          "index": 2,
+          "text": "The second neighbor opposes prosecution and demands publicly funded counseling and social support in its place.",
+          "hash": "188a7aea2e325f0b66cc973c"
+        },
+        {
+          "id": "01_ch01:b028:s03",
+          "block_id": "b028",
+          "index": 3,
+          "text": "They exchange crime statistics and recidivism studies, growing angrier by the minute, and neither convinces the other.",
+          "hash": "569905c98a25a1a3050930bb"
+        }
+      ]
+    },
+    {
+      "id": "b029",
+      "kind": "prose",
+      "heading": "Hidden Premises Beneath Surface Arguments",
+      "raw": "Their argument never converges because they are not really arguing about crime statistics. Beneath the statistics, the first neighbor holds the premise that human beings are self-interested creatures who respond to predictable incentives and penalties, and that the primary function of law is to protect law-abiding citizens from offenders. The second neighbor holds the premise that human beings are naturally good and that theft is merely an involuntary symptom of social deprivation, making punishment an act of cruelty by a guilty society. Until those underlying premises about human nature and justice are stated explicitly and tested against reality, exchanging additional policy studies accomplishes nothing, because the disputants are reasoning from incompatible axioms.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b029:s00",
+          "block_id": "b029",
+          "index": 0,
+          "text": "Their argument never converges because they are not really arguing about crime statistics.",
+          "hash": "4218328b9f9edf97bc0d0497"
+        },
+        {
+          "id": "01_ch01:b029:s01",
+          "block_id": "b029",
+          "index": 1,
+          "text": "Beneath the statistics, the first neighbor holds the premise that human beings are self-interested creatures who respond to predictable incentives and penalties, and that the primary function of law is to protect law-abiding citizens from offenders.",
+          "hash": "cf18bd52b3ce0c96b11225b1"
+        },
+        {
+          "id": "01_ch01:b029:s02",
+          "block_id": "b029",
+          "index": 2,
+          "text": "The second neighbor holds the premise that human beings are naturally good and that theft is merely an involuntary symptom of social deprivation, making punishment an act of cruelty by a guilty society.",
+          "hash": "116e2127a6cc8954a115b7f2"
+        },
+        {
+          "id": "01_ch01:b029:s03",
+          "block_id": "b029",
+          "index": 3,
+          "text": "Until those underlying premises about human nature and justice are stated explicitly and tested against reality, exchanging additional policy studies accomplishes nothing, because the disputants are reasoning from incompatible axioms.",
+          "hash": "1878880205d1f1a772c2cda0"
+        }
+      ]
+    },
+    {
+      "id": "b030",
+      "kind": "prose",
+      "heading": "Hidden Premises Beneath Surface Arguments",
+      "raw": "The same collision occurs at a local school board meeting. Two parents argue over classroom discipline. One parent wants clear, published rules, objective grading, and immediate suspension for students who assault teachers or disrupt the class. The other parent wants grades softened and suspensions replaced with \"restorative circles,\" arguing that misbehavior is only an expression of unmet emotional need. Again, the dispute is not about administrative technique. One parent believes that children arrive in the world limited and self-interested, and that virtue and competence must be cultivated through structure and real consequences. The other believes that children arrive naturally good or infinitely malleable, and that any failure or bad conduct is the fault of the surrounding environment.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b030:s00",
+          "block_id": "b030",
+          "index": 0,
+          "text": "The same collision occurs at a local school board meeting.",
+          "hash": "72eec86129d1d83c39d235d7"
+        },
+        {
+          "id": "01_ch01:b030:s01",
+          "block_id": "b030",
+          "index": 1,
+          "text": "Two parents argue over classroom discipline.",
+          "hash": "2ff1708f87614a07491f4cee"
+        },
+        {
+          "id": "01_ch01:b030:s02",
+          "block_id": "b030",
+          "index": 2,
+          "text": "One parent wants clear, published rules, objective grading, and immediate suspension for students who assault teachers or disrupt the class.",
+          "hash": "53fcb8923b8fe5ad4fadeeb0"
+        },
+        {
+          "id": "01_ch01:b030:s03",
+          "block_id": "b030",
+          "index": 3,
+          "text": "The other parent wants grades softened and suspensions replaced with \"restorative circles,\" arguing that misbehavior is only an expression of unmet emotional need.",
+          "hash": "e46e68830a3851c48b52ab45"
+        },
+        {
+          "id": "01_ch01:b030:s04",
+          "block_id": "b030",
+          "index": 4,
+          "text": "Again, the dispute is not about administrative technique.",
+          "hash": "9f4fa5b3989286cb75c2da51"
+        },
+        {
+          "id": "01_ch01:b030:s05",
+          "block_id": "b030",
+          "index": 5,
+          "text": "One parent believes that children arrive in the world limited and self-interested, and that virtue and competence must be cultivated through structure and real consequences.",
+          "hash": "42d3a656499fd0f4eb60a0f5"
+        },
+        {
+          "id": "01_ch01:b030:s06",
+          "block_id": "b030",
+          "index": 6,
+          "text": "The other believes that children arrive naturally good or infinitely malleable, and that any failure or bad conduct is the fault of the surrounding environment.",
+          "hash": "b383eb54dee0481d41d0bad8"
+        }
+      ]
+    },
+    {
+      "id": "b031",
+      "kind": "prose",
+      "heading": "Hidden Premises Beneath Surface Arguments",
+      "raw": "In public life, people routinely classify themselves by political or ideological labels: *conservative*, *liberal*, *progressive*, *Christian*, *Muslim*, *atheist*, *capitalist*, *socialist*. Although those labels appear informative, they are unreliable indicators of whether two people can actually build and maintain a working society together. Two people can sit in the same church pew on Sunday or carry the same political party card on Tuesday and return opposite answers on the five foundational questions that govern every civilization:",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b031:s00",
+          "block_id": "b031",
+          "index": 0,
+          "text": "In public life, people routinely classify themselves by political or ideological labels: *conservative*, *liberal*, *progressive*, *Christian*, *Muslim*, *atheist*, *capitalist*, *socialist*.",
+          "hash": "e3f1fe77a82e95f7f8438e02"
+        },
+        {
+          "id": "01_ch01:b031:s01",
+          "block_id": "b031",
+          "index": 1,
+          "text": "Although those labels appear informative, they are unreliable indicators of whether two people can actually build and maintain a working society together.",
+          "hash": "becc642c471c68592de847d9"
+        },
+        {
+          "id": "01_ch01:b031:s02",
+          "block_id": "b031",
+          "index": 2,
+          "text": "Two people can sit in the same church pew on Sunday or carry the same political party card on Tuesday and return opposite answers on the five foundational questions that govern every civilization:",
+          "hash": "a2c83c7464b4026b453eda1f"
+        }
+      ]
+    },
+    {
+      "id": "b032",
+      "kind": "raw",
+      "heading": "Hidden Premises Beneath Surface Arguments",
+      "raw": "1. **What is reality, and what makes a claim true?** Does an objective world exist independently of our wishes, can we know it with usable confidence, and does truth mean matching our minds to that world, or is \"truth\" merely a construct of social power, linguistic convention, or uncheckable authority?\n2. **What kind of creature is the human being?** Are humans permanently self-interested, limited, and particular creatures whose virtue must be cultivated, or are they blank slates, interchangeable tokens, or naturally good beings who can be perfected by tearing down and remaking the social order?\n3. **What is the minimum standard of the good?** Must any valid definition of goodness include human life continuing across generations, and that life kept and built, or should society aim instead at pure harm-reduction, equalized outcomes, or voluntary shrinkage, even if the people practicing that code die out?\n4. **How must a finite person order his obligations, and how must he treat those who seek his destruction?** Must keeping and building begin anchored in the self and household and move outward in tiers while recognizing that enemies are real, or does every stranger in the world hold an equal claim on your time and money, and is physical force always wrong?\n5. **What is justice among cooperating people?** Does justice mean applying the same known procedure to everyone who stands in the same position within a defined scope, or does justice demand identical statistical outcomes for every group, or private retaliatory feuding?",
+      "separator": "\n\n"
+    },
+    {
+      "id": "b033",
+      "kind": "prose",
+      "heading": "Hidden Premises Beneath Surface Arguments",
+      "raw": "Whether a person has ever heard these five questions stated aloud or not, his daily actions already declare his answers. A father who saves for his own daughter's tuition before donating to a charity on another continent has answered the fourth question through conduct. A voter who points to unequal earnings between two groups and immediately declares the rules rigged has answered the fifth. A student who dismisses a factual refutation by saying *\"That may be your truth, but this is my truth\"* has answered the first. A healthy couple that treats having children as an intolerable interruption to vacation travel has answered the third.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b033:s00",
+          "block_id": "b033",
+          "index": 0,
+          "text": "Whether a person has ever heard these five questions stated aloud or not, his daily actions already declare his answers.",
+          "hash": "2229b5cb486a276082ca43c8"
+        },
+        {
+          "id": "01_ch01:b033:s01",
+          "block_id": "b033",
+          "index": 1,
+          "text": "A father who saves for his own daughter's tuition before donating to a charity on another continent has answered the fourth question through conduct.",
+          "hash": "3a70573d054d93d0843003cf"
+        },
+        {
+          "id": "01_ch01:b033:s02",
+          "block_id": "b033",
+          "index": 2,
+          "text": "A voter who points to unequal earnings between two groups and immediately declares the rules rigged has answered the fifth.",
+          "hash": "d8be9afe049dc0b18cabcb10"
+        },
+        {
+          "id": "01_ch01:b033:s03",
+          "block_id": "b033",
+          "index": 3,
+          "text": "A student who dismisses a factual refutation by saying *\"That may be your truth, but this is my truth\"* has answered the first.",
+          "hash": "1206e8ecd132b4600d22475f"
+        },
+        {
+          "id": "01_ch01:b033:s04",
+          "block_id": "b033",
+          "index": 4,
+          "text": "A healthy couple that treats having children as an intolerable interruption to vacation travel has answered the third.",
+          "hash": "c74de1eaa8583a65d523e638"
+        }
+      ]
+    },
+    {
+      "id": "b034",
+      "kind": "prose",
+      "heading": "Hidden Premises Beneath Surface Arguments",
+      "raw": "Unexamined premises are dangerous because a person who holds a sound habit without knowing *why* it is sound can be persuaded to abandon it by any rhetorician who appeals to his emotions. Conversely, a person is not easily misled by fashionable slogans when he knows why the foundational principles hold and what happens where they are broken.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b034:s00",
+          "block_id": "b034",
+          "index": 0,
+          "text": "Unexamined premises are dangerous because a person who holds a sound habit without knowing *why* it is sound can be persuaded to abandon it by any rhetorician who appeals to his emotions.",
+          "hash": "9ac72ffbe98648ce1ffcb59b"
+        },
+        {
+          "id": "01_ch01:b034:s01",
+          "block_id": "b034",
+          "index": 1,
+          "text": "Conversely, a person is not easily misled by fashionable slogans when he knows why the foundational principles hold and what happens where they are broken.",
+          "hash": "abb84dc7b520fd30d4fec42b"
+        }
+      ]
+    },
+    {
+      "id": "b035",
+      "kind": "heading",
+      "heading": "The Architecture in Full: Five Principles and Seven Virtues",
+      "raw": "### The Architecture in Full: Five Principles and Seven Virtues",
+      "separator": "\n\n"
+    },
+    {
+      "id": "b036",
+      "kind": "prose",
+      "heading": "The Architecture in Full: Five Principles and Seven Virtues",
+      "raw": "All civilizations exist within the bounds and consequences of reality. Here are the **Five Common Principles of Reality**:",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b036:s00",
+          "block_id": "b036",
+          "index": 0,
+          "text": "All civilizations exist within the bounds and consequences of reality.",
+          "hash": "0b81e7cff3ed806886a80654"
+        },
+        {
+          "id": "01_ch01:b036:s01",
+          "block_id": "b036",
+          "index": 1,
+          "text": "Here are the **Five Common Principles of Reality**:",
+          "hash": "016f3943b6f09eb8349f2106"
+        }
+      ]
+    },
+    {
+      "id": "b037",
+      "kind": "raw",
+      "heading": "The Architecture in Full: Five Principles and Seven Virtues",
+      "raw": "1. **Reality is real, knowable, and consequential. Truth is what corresponds to reality.**\n2. **Humans are self-interested, limited, and particular.**\n3. **Goodness must include human life continuing, and that life kept and built.**\n4. **What you keep and build is self-anchored, tiered, and outward. Enemies are real.**\n5. **Justice is scoped procedural symmetry.**",
+      "separator": "\n\n"
+    },
+    {
+      "id": "b038",
+      "kind": "prose",
+      "heading": "The Architecture in Full: Five Principles and Seven Virtues",
+      "raw": "These five principles are the ground any builder stands on:",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b038:s00",
+          "block_id": "b038",
+          "index": 0,
+          "text": "These five principles are the ground any builder stands on:",
+          "hash": "22fa7a94633a8b1c81f9346f"
+        }
+      ]
+    },
+    {
+      "id": "b039",
+      "kind": "raw",
+      "heading": "The Architecture in Full: Five Principles and Seven Virtues",
+      "raw": "* Reality answers false claims with failure.\n* Limited people cannot carry unlimited duties.\n* A life that is not kept does not continue.\n* What is kept begins with the keeper and moves outward, or it is not kept.\n* People build where the rule is known beforehand, bounded, and applied alike.",
+      "separator": "\n\n"
+    },
+    {
+      "id": "b040",
+      "kind": "prose",
+      "heading": "The Architecture in Full: Five Principles and Seven Virtues",
+      "raw": "To answer those five constraints in personal conduct requires **virtue**, the technology of civilization practiced by an individual human being. Here are the **Seven Virtues of Civilization**:",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b040:s00",
+          "block_id": "b040",
+          "index": 0,
+          "text": "To answer those five constraints in personal conduct requires **virtue**, the technology of civilization practiced by an individual human being.",
+          "hash": "eb6b0af58b7d07c5e5186a59"
+        },
+        {
+          "id": "01_ch01:b040:s01",
+          "block_id": "b040",
+          "index": 1,
+          "text": "Here are the **Seven Virtues of Civilization**:",
+          "hash": "738c6fe7181132522e0d3be6"
+        }
+      ]
+    },
+    {
+      "id": "b041",
+      "kind": "raw",
+      "heading": "The Architecture in Full: Five Principles and Seven Virtues",
+      "raw": "1. **Align with truth**\n2. **Take ownership, which is responsibility**\n3. **Seek excellence**\n4. **Admire beauty**\n5. **Be humble**\n6. **Have children**\n7. **Form and listen**",
+      "separator": "\n\n"
+    },
+    {
+      "id": "b042",
+      "kind": "prose",
+      "heading": "The Architecture in Full: Five Principles and Seven Virtues",
+      "raw": "These five principles and seven virtues are not a list of optional preferences from which one may select a few and discard the remainder. They form a single interlocking engineering specification. Without any one of them, the remaining components fail under stress until the civilization collapses. We will now derive each specification from first principles.",
+      "separator": "\n\n",
+      "sentences": [
+        {
+          "id": "01_ch01:b042:s00",
+          "block_id": "b042",
+          "index": 0,
+          "text": "These five principles and seven virtues are not a list of optional preferences from which one may select a few and discard the remainder.",
+          "hash": "f493740a1049a7f22dbcb9b5"
+        },
+        {
+          "id": "01_ch01:b042:s01",
+          "block_id": "b042",
+          "index": 1,
+          "text": "They form a single interlocking engineering specification.",
+          "hash": "b5ca5e674f30cf52fe5060bb"
+        },
+        {
+          "id": "01_ch01:b042:s02",
+          "block_id": "b042",
+          "index": 2,
+          "text": "Without any one of them, the remaining components fail under stress until the civilization collapses.",
+          "hash": "9d6a32497e05fa429c52d3f0"
+        },
+        {
+          "id": "01_ch01:b042:s03",
+          "block_id": "b042",
+          "index": 3,
+          "text": "We will now derive each specification from first principles.",
+          "hash": "d4f0bdd51bc4d751e60bd0f0"
+        }
+      ]
+    }
+  ]
+}

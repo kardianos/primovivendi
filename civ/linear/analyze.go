@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 	"unicode"
-	"unicode/utf16"
+	"unicode/utf8"
 )
 
 // A finding is one way a sentence departs from Rule 10, with a suggested
@@ -40,9 +40,11 @@ type sentence struct {
 	Voice     string   // active, passive, expletive, or nominalization
 }
 
+// parsedDoc holds a parsed source. Token offsets index text as UTF-8 bytes,
+// so every substring is a zero-copy slice of the document.
 type parsedDoc struct {
 	src   *source
-	units []uint16
+	text  string
 	doc   *cnDoc
 	sents []*sentInfo
 }
@@ -124,19 +126,20 @@ func newSentInfo(cs cnSent) (*sentInfo, bool) {
 	return s, true
 }
 
+// sub returns text[a:b] ("" when the range falls outside the document).
 func (p *parsedDoc) sub(a, b int) string {
-	if a < 0 || b > len(p.units) || a >= b {
+	if a < 0 || b > len(p.text) || a >= b {
 		return ""
 	}
-	return string(utf16.Decode(p.units[a:b]))
+	return p.text[a:b]
 }
 
 func capFirst(s string) string {
-	r := []rune(s)
-	if len(r) > 0 {
-		r[0] = unicode.ToUpper(r[0])
+	r, sz := utf8.DecodeRuneInString(s)
+	if sz == 0 || r == utf8.RuneError {
+		return s
 	}
-	return string(r)
+	return string(unicode.ToUpper(r)) + s[sz:]
 }
 
 // lowerFirst lowers the first letter unless the word is a name. pos is the
@@ -145,14 +148,14 @@ func lowerFirst(s string, ner string) string {
 	if (ner != "" && ner != "O") || strings.HasPrefix(s, "I ") {
 		return s
 	}
-	r := []rune(s)
-	if len(r) > 1 && unicode.IsUpper(r[1]) { // an acronym
+	r0, sz := utf8.DecodeRuneInString(s)
+	if sz == 0 || r0 == utf8.RuneError {
 		return s
 	}
-	if len(r) > 0 {
-		r[0] = unicode.ToLower(r[0])
+	if r1, _ := utf8.DecodeRuneInString(s[sz:]); unicode.IsUpper(r1) { // an acronym
+		return s
 	}
-	return string(r)
+	return string(unicode.ToLower(r0)) + s[sz:]
 }
 
 func tidy(s string) string {
@@ -194,7 +197,7 @@ func contentLemma(t cnTok) (string, bool) {
 }
 
 func analyzeDoc(src *source, doc *cnDoc, text string, rates map[string]float64) []*sentence {
-	p := &parsedDoc{src: src, units: utf16.Encode([]rune(text)), doc: doc}
+	p := &parsedDoc{src: src, text: text, doc: doc}
 	for _, cs := range doc.Sentences {
 		si, ok := newSentInfo(cs)
 		if !ok {
@@ -556,7 +559,7 @@ func analyzeDoc(src *source, doc *cnDoc, text string, rates map[string]float64) 
 			t := s.toks[i]
 			lw := strings.ToLower(t.Word)
 			class := pronounClass[lw]
-			if class == "" || (t.POS != "PRP" && t.POS != "PRP$") || quoted[i] || (i > 1 && unicode.IsUpper([]rune(t.Word)[0])) {
+			if class == "" || (t.POS != "PRP" && t.POS != "PRP$") || quoted[i] || (i > 1 && startsUpper(t.Word)) {
 				continue
 			}
 			if lw == "it" && dummyIt(s, i) {
@@ -723,6 +726,12 @@ func analyzeDoc(src *source, doc *cnDoc, text string, rates map[string]float64) 
 	}
 	addCloseEchoes(echoHits)
 	return out
+}
+
+// startsUpper reports whether the first rune of w is a capital letter.
+func startsUpper(w string) bool {
+	r, _ := utf8.DecodeRuneInString(w)
+	return unicode.IsUpper(r)
 }
 
 func abs(x int) int {

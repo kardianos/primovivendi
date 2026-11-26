@@ -13,7 +13,7 @@ import (
 
 // A source is one input to the parser: a chapter or a reference sample. Its
 // plain text is written for CoreNLP. For a chapter, ParaStart holds the start
-// offset (in UTF-16 units, as CoreNLP counts) of each paragraph, ParaLine the
+// offset (a UTF-8 byte offset, as token offsets are) of each paragraph, ParaLine the
 // paragraph's first line in the Markdown file, and ParaSec the heading it
 // falls under (an index into SecTitle and SecLine; -1 before any heading).
 type source struct {
@@ -129,7 +129,7 @@ func chapterSource(path string) (source, error) {
 	flush()
 	rep := strings.NewReplacer("**", "", "*", "", "`", "", "\\", "")
 	var sb strings.Builder
-	units := 0
+	off := 0
 	for _, p := range paras {
 		t := strings.Join(p.text, " ")
 		if p.quote && wholeQuotation(t) {
@@ -142,27 +142,15 @@ func chapterSource(path string) (source, error) {
 		if t == "" {
 			continue
 		}
-		src.ParaStart = append(src.ParaStart, units)
+		src.ParaStart = append(src.ParaStart, off)
 		src.ParaLine = append(src.ParaLine, p.line)
 		src.ParaSec = append(src.ParaSec, p.sec)
 		sb.WriteString(t)
 		sb.WriteString("\n\n")
-		units += utf16Len(t) + 2
+		off += len(t) + 2
 	}
 	src.Text = sb.String()
 	return src, nil
-}
-
-func utf16Len(s string) int {
-	n := 0
-	for _, r := range s {
-		if r >= 0x10000 {
-			n += 2
-		} else {
-			n++
-		}
-	}
-	return n
 }
 
 // lineAt returns the Markdown line of the paragraph holding offset off.

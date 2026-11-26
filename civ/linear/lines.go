@@ -8,7 +8,7 @@ import (
 // cmdLines prints every sentence of one chapter whose line lies in
 // [from, to], with its score, its measures, and each finding, including the
 // sentences that score below the report's cut.
-func cmdLines(root, data, chapter string, from, to int) error {
+func cmdLines(root, data, chapter string, from, to int, engine string) error {
 	srcs, err := loadSources(root, data)
 	if err != nil {
 		return err
@@ -18,7 +18,7 @@ func cmdLines(root, data, chapter string, from, to int) error {
 		if s.Ref || s.Name != chapter {
 			continue
 		}
-		doc, text, err := loadParsed(data, *s)
+		doc, text, err := loadDocEngine(root, data, *s, engine)
 		if err != nil {
 			return err
 		}

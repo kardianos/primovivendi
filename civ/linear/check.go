@@ -15,7 +15,7 @@ import (
 // cmdCheck scores one Markdown file. The plain text is hashed, and CoreNLP's
 // input and output are cached under ext-ref/linear/scratch/ so a second run
 // on the same text does not parse again.
-func cmdCheck(root, data, path string, from, to int, mem string, threads int) error {
+func cmdCheck(root, data, path string, from, to int, mem string, threads int, engine string) error {
 	src, err := chapterSource(path)
 	if err != nil {
 		return err
@@ -24,7 +24,7 @@ func cmdCheck(root, data, path string, from, to int, mem string, threads int) er
 	if err != nil {
 		return err
 	}
-	doc, text, err := loadScratch(data, src.Text, mem, threads)
+	doc, text, err := parseTextEngine(root, data, src.Text, engine, mem, threads)
 	if err != nil {
 		return err
 	}
