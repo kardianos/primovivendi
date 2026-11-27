@@ -11,8 +11,10 @@ import (
 	"io"
 	"os"
 	"path/filepath"
+	"sort"
 	"strconv"
 	"strings"
+	"unicode/utf8"
 
 	"po/civ/sys/corenlp"
 )
@@ -401,4 +403,217 @@ func LoadGUM(root, split string) ([]*Sentence, error) {
 func EWTAvailable(root string) bool {
 	_, err := os.Stat(filepath.Join(root, "ext-ref", "parser", "ud_ewt", "en_ewt-ud-train.conllu"))
 	return err == nil
+}
+
+// ---- Round 2: dev split, optional treebank, sealed drafts ---------------------
+
+// TrainChapters lists the book chapters used as silver training data in
+// Round 2: ch12 is held out from training as the in-domain dev set.
+var TrainChapters = []string{"ch01", "ch02", "ch03", "ch04", "ch05", "ch06", "ch07", "ch08", "ch09", "ch10", "ch11"}
+
+// DevBookChapter is the chapter held out from Round-2 training for
+// checkpoint selection and the Stage 4 tuning (dev_book).
+const DevBookChapter = "ch12"
+
+// UDDir returns the directory of a UD treebank under ext-ref/parser/.
+func UDDir(root, name string) string { return filepath.Join(root, "ext-ref", "parser", name) }
+
+// LoadLinES loads a UD_English-LinES split (train, dev, test) from
+// ext-ref/parser/ud_lines/.
+func LoadLinES(root, split string) ([]*Sentence, error) {
+	path := filepath.Join(UDDir(root, "ud_lines"), "en_lines-ud-"+split+".conllu")
+	ss, err := ReadCoNLLU(path)
+	if err != nil {
+		return nil, fmt.Errorf("parser: UD_English-LinES %s not found (run: civ/bin/parser fetch-ud): %w", split, err)
+	}
+	for _, s := range ss {
+		s.Src = "lines-" + s.Src
+	}
+	return ss, nil
+}
+
+// LinESAvailable reports whether the optional UD_English-LinES treebank is
+// downloaded.
+func LinESAvailable(root string) bool {
+	_, err := os.Stat(filepath.Join(UDDir(root, "ud_lines"), "en_lines-ud-train.conllu"))
+	return err == nil
+}
+
+// GUMAvailable reports whether UD_English-GUM is downloaded.
+func GUMAvailable(root string) bool {
+	_, err := os.Stat(filepath.Join(UDDir(root, "ud_gum"), "en_gum-ud-train.conllu"))
+	return err == nil
+}
+
+// DraftDir returns the directory of the CoreNLP parses of drafts
+// (ext-ref/linear/scratch), which holds name.txt and name.txt.json pairs.
+func DraftDir(root string) string { return filepath.Join(root, "ext-ref", "linear", "scratch") }
+
+// HoldoutSealKeys returns the sentence keys of the held-out chapters' raw
+// text. It is the only function besides evaluation that reads ch13 or ch14,
+// and it reads nothing but the text: the keys exist to exclude, never to
+// train on. A draft that shares one sentence with a held-out chapter is
+// sealed.
+func HoldoutSealKeys(root string) (map[string]bool, error) {
+	keys := map[string]bool{}
+	for _, name := range HeldoutChapters {
+		b, err := os.ReadFile(filepath.Join(root, "ext-ref", "linear", "in", name+".txt"))
+		if err != nil {
+			return nil, fmt.Errorf("parser: cannot read the held-out chapter %s for sealing drafts: %w", name, err)
+		}
+		for k := range sentenceKeys(string(b)) {
+			keys[k] = true
+		}
+	}
+	return keys, nil
+}
+
+// DevSealKeys returns the sentence keys of dev_book's raw text (ch12). It
+// reads nothing but the text, as HoldoutSealKeys does, and for the same
+// purpose: a draft that shares a sentence with the development chapter is
+// excluded from training, so that dev_book measures what the held-out
+// chapters will, whose overlapping drafts are sealed too.
+func DevSealKeys(root string) (map[string]bool, error) {
+	b, err := os.ReadFile(filepath.Join(root, "ext-ref", "linear", "in", DevBookChapter+".txt"))
+	if err != nil {
+		return nil, fmt.Errorf("parser: cannot read %s for sealing drafts: %w", DevBookChapter, err)
+	}
+	keys := map[string]bool{}
+	for k := range sentenceKeys(string(b)) {
+		keys[k] = true
+	}
+	return keys, nil
+}
+
+// SilverSentenceKeys returns the sentence keys (CoreNLP tokenization) of
+// the named cached sources, for deduplicating drafts against them.
+func SilverSentenceKeys(root string, names []string) (map[string]bool, error) {
+	keys := map[string]bool{}
+	for _, name := range names {
+		ss, err := ReadCoreNLPDoc(filepath.Join(SilverDir(root), name+".txt.json"), name)
+		if err != nil {
+			return nil, err
+		}
+		for _, s := range ss {
+			if s == nil {
+				continue
+			}
+			if k := sentenceKeyToks(s.Words); utf8.RuneCountInString(k) >= minSharedRunes {
+				keys[k] = true
+			}
+		}
+	}
+	return keys, nil
+}
+
+// sentenceKeyToks is sentenceKey over surface forms.
+func sentenceKeyToks(words []string) string {
+	return strings.ToLower(strings.Join(words, " "))
+}
+
+// DraftLoad reports what LoadSealedDrafts did.
+type DraftLoad struct {
+	Files, Unreadable, Loaded int
+	Sealed                    int // drafts excluded for sharing a sentence with ch13 or ch14
+	SealedDev                 int // drafts excluded for sharing a sentence with ch12
+	Deduped, Sentences        int
+}
+
+// LoadSealedDrafts loads the CoreNLP parses of the drafts in dir as silver
+// sentences. A draft whose text shares a sentence (minSharedRunes) with a
+// key of seal is excluded whole, and so is a draft without a parse. dev
+// (nil: none) holds the keys of the development chapter; a draft sharing a
+// sentence with it is excluded too and counted apart. Within the remaining
+// drafts, sentences that occur verbatim in reference (the chapters and
+// treatises already in the corpus) are dropped, so every returned sentence
+// is new in-domain text. The result is sorted by file name for a
+// reproducible order.
+func LoadSealedDrafts(dir string, seal, dev, reference map[string]bool) ([]*Sentence, *DraftLoad, error) {
+	paths, err := filepath.Glob(filepath.Join(dir, "*.txt.json"))
+	if err != nil {
+		return nil, nil, err
+	}
+	sort.Strings(paths)
+	var out []*Sentence
+	info := &DraftLoad{Files: len(paths)}
+	for _, path := range paths {
+		base := strings.TrimSuffix(filepath.Base(path), ".txt.json")
+		text, err := os.ReadFile(filepath.Join(dir, base+".txt"))
+		if err != nil {
+			info.Unreadable++
+			continue
+		}
+		keys := sentenceKeys(string(text))
+		if overlapsSentence(keys, seal) {
+			info.Sealed++
+			continue
+		}
+		if dev != nil && overlapsSentence(keys, dev) {
+			info.SealedDev++
+			continue
+		}
+		ss, err := ReadCoreNLPDoc(path, "draft-"+base[:min(8, len(base))])
+		if err != nil {
+			info.Unreadable++
+			continue
+		}
+		info.Loaded++
+		for _, s := range ss {
+			if s == nil {
+				continue
+			}
+			if k := sentenceKeyToks(s.Words); utf8.RuneCountInString(k) >= minSharedRunes && reference[k] {
+				info.Deduped++
+				continue
+			}
+			out = append(out, s)
+		}
+		info.Sentences = len(out)
+	}
+	return out, info, nil
+}
+
+// LoadSilverCorpus loads the CoreNLP-silver part of the Round-2 recipe:
+// the eight treatises, ch01..ch11, and the drafts of ext-ref/linear/scratch.
+// A draft that shares a sentence (minSharedRunes) with ch13 or ch14 is
+// sealed, that is excluded whole, and a draft sentence that already occurs
+// in ch01..ch12 or a treatise is dropped. Training code obtains drafts only
+// through this function, and the held-out and the development chapters
+// enter it as nothing but the sentence keys that exclude their drafts.
+func LoadSilverCorpus(root string) (treatises, chapters, drafts []*Sentence, info DraftLoad, err error) {
+	treatises, err = LoadSilver(root, TreatiseIDs)
+	if err != nil {
+		return nil, nil, nil, info, err
+	}
+	chapters, err = LoadSilver(root, TrainChapters)
+	if err != nil {
+		return nil, nil, nil, info, err
+	}
+	seal, err := HoldoutSealKeys(root)
+	if err != nil {
+		return nil, nil, nil, info, err
+	}
+	dev, err := DevSealKeys(root)
+	if err != nil {
+		return nil, nil, nil, info, err
+	}
+	reference, err := SilverSentenceKeys(root, append(append([]string{}, TreatiseIDs...), BookChapters...))
+	if err != nil {
+		return nil, nil, nil, info, err
+	}
+	var di *DraftLoad
+	drafts, di, err = LoadSealedDrafts(DraftDir(root), seal, dev, reference)
+	if di != nil {
+		info = *di
+	}
+	if err != nil {
+		return nil, nil, nil, info, err
+	}
+	return treatises, chapters, drafts, info, nil
+}
+
+// LoadBookDev loads dev_book: the CoreNLP doc of ch12 and its raw text.
+// (ch12 is a development set; the held-out chapters are never touched.)
+func LoadBookDev(root string) (*corenlp.Doc, string, error) {
+	return corenlp.LoadCached(root, DevBookChapter)
 }

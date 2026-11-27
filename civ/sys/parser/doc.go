@@ -5,6 +5,7 @@ package parser
 
 import (
 	"errors"
+	"fmt"
 	"os"
 	"path/filepath"
 	"runtime"
@@ -14,11 +15,14 @@ import (
 	"po/civ/sys/prof"
 )
 
-// Model file names under ext-ref/parser/.
+// Model file names under ext-ref/parser/. parser is the Round-2 unified
+// model (Stage 2 and Stage 3 in one network: parserModelFormat); the POS
+// and dependency files are the Round-1 models, still loadable.
 const (
-	POSModelFile = "pos_tagger.safetensors"
-	DepModelFile = "dep_parser.safetensors"
-	NERModelFile = "ner.safetensors"
+	ParserModelFile = "parser.safetensors"
+	POSModelFile    = "pos_tagger.safetensors"
+	DepModelFile    = "dep_parser.safetensors"
+	NERModelFile    = "ner.safetensors"
 )
 
 // ErrNotTrained is returned by Load when the model files have not been built.
@@ -28,7 +32,9 @@ var ErrNotTrained = errors.New("parser: models not trained (run: civ/bin/parser 
 func ModelDir(root string) string { return filepath.Join(root, "ext-ref", "parser") }
 
 // BundledModelDir returns the committed compressed model directory under civ/.
-func BundledModelDir(root string) string { return filepath.Join(root, "civ", "sys", "parser", "models") }
+func BundledModelDir(root string) string {
+	return filepath.Join(root, "civ", "sys", "parser", "models")
+}
 
 // ResolveModelPath finds a model file, preferring freshly trained local weights
 // under ext-ref/parser/ and falling back to compressed models committed under
@@ -50,30 +56,44 @@ func ResolveModelPath(root, file string) (string, bool) {
 
 // Pipeline holds the trained stages: tokenizer/lemmatizer (Stage 1), POS
 // tagger (Stage 2), dependency parser (Stage 3), and the optional NER tagger
-// and coreference resolver (Stage 4).
+// and coreference resolver (Stage 4). Round 2 tags and parses with one
+// network (uni, the BiGRU + biaffine model); a tree with only Round-1 model
+// files loads the separate tagger and greedy parser instead.
 type Pipeline struct {
 	Root string
 	POS  string // "go" once loaded
-	pos  *apModel
+	uni  *biEngine
+	pos  *apModel // Round 1 only
 	dep  *depEngine
 	ner  *apModel
 	lem  *lemmatizer
 	pool sync.Pool
+	bi   sync.Pool
 	// sem bounds concurrent sentence parsing across all callers.
 	sem chan struct{}
 }
+
+// maxParseTokens bounds the tokens the graph parser decodes at once; a
+// longer range (text without sentence punctuation) is parsed in chunks whose
+// roots are joined by parataxis.
+const maxParseTokens = 400
+
+// Unified reports whether the pipeline runs the Round-2 unified model.
+func (p *Pipeline) Unified() bool { return p != nil && p.uni != nil }
 
 // HasNER reports whether the Stage 4 NER model is loaded.
 func (p *Pipeline) HasNER() bool { return p != nil && p.ner != nil }
 
 // parseState is the per-call working memory.
 type parseState struct {
+	bi     *biState
 	sc     *depScratch
 	h      []tokHashes
 	preds  []int
 	scores []float32
 	feats  [96]uint64
 	words  []string
+	origs  []string // cased surface forms of the sentence (the unified model's input)
 	tags   []int
 	wids   []uint16
 	pids   []uint8
@@ -88,35 +108,80 @@ func newParseState(H int) *parseState {
 	return &parseState{sc: sc}
 }
 
-// Load reads pos_tagger, dep_parser, and optional ner models from
+// Load reads the parser model (Round 2: Stages 2 and 3 in one file), or the
+// Round-1 pos_tagger and dep_parser pair, plus the optional ner model, from
 // ext-ref/parser/ (local overrides) or civ/sys/parser/models/ (committed
-// compressed bundles). It returns (nil, ErrNotTrained) when no models exist.
-func Load(root string) (*Pipeline, error) {
-	posPath, okPos := ResolveModelPath(root, POSModelFile)
-	depPath, okDep := ResolveModelPath(root, DepModelFile)
-	if !okPos || !okDep {
+// compressed bundles). It returns (nil, ErrNotTrained) when no model exists.
+func Load(root string) (*Pipeline, error) { return loadWith(root, ResolveModelPath) }
+
+// LoadBundled is Load restricted to the committed compressed models under
+// civ/sys/parser/models/ (the files a fresh checkout has).
+func LoadBundled(root string) (*Pipeline, error) { return loadWith(root, resolveBundled) }
+
+// LoadLocal is Load restricted to the local weights under ext-ref/parser/
+// (what `train-parser` just wrote).
+func LoadLocal(root string) (*Pipeline, error) { return loadWith(root, resolveLocal) }
+
+func resolveBundled(root, file string) (string, bool) {
+	for _, p := range []string{filepath.Join(BundledModelDir(root), file+".gz"), filepath.Join(BundledModelDir(root), file)} {
+		if st, err := os.Stat(p); err == nil && !st.IsDir() {
+			return p, true
+		}
+	}
+	return "", false
+}
+
+func resolveLocal(root, file string) (string, bool) {
+	for _, p := range []string{filepath.Join(ModelDir(root), file), filepath.Join(ModelDir(root), file+".gz")} {
+		if st, err := os.Stat(p); err == nil && !st.IsDir() {
+			return p, true
+		}
+	}
+	return "", false
+}
+
+func loadWith(root string, resolve func(string, string) (string, bool)) (*Pipeline, error) {
+	uniPath, okUni := resolve(root, ParserModelFile)
+	posPath, okPos := resolve(root, POSModelFile)
+	depPath, okDep := resolve(root, DepModelFile)
+	if !okUni && !(okPos && okDep) {
 		return nil, ErrNotTrained
 	}
 	done := prof.Span("parser.load")
 	defer done()
 	lem := newLemmatizer(root)
-	pos, err := loadAPModel(posPath, posModelFormat)
-	if err != nil {
-		return nil, err
+	p := &Pipeline{Root: root, POS: "go", lem: lem}
+	var hidden int
+	if okUni {
+		m, err := loadBiaffineModel(uniPath)
+		if err == nil {
+			err = m.checkInventories()
+		}
+		if err != nil {
+			return nil, fmt.Errorf("%s: %w", uniPath, err)
+		}
+		p.uni = newBiEngine(m, lem)
+		hidden = 64
+	} else {
+		pos, err := loadAPModel(posPath, posModelFormat)
+		if err != nil {
+			return nil, err
+		}
+		pos.wn = lem
+		pos.shortcut = false
+		dm, err := loadDepModel(depPath)
+		if err != nil {
+			return nil, err
+		}
+		p.pos, p.dep = pos, newDepEngine(dm)
+		hidden = dm.dims.H
 	}
-	pos.wn = lem
-	pos.shortcut = false
-	dm, err := loadDepModel(depPath)
-	if err != nil {
-		return nil, err
-	}
-	p := &Pipeline{Root: root, POS: "go", pos: pos, dep: newDepEngine(dm), lem: lem}
-	if nerPath, ok := ResolveModelPath(root, NERModelFile); ok {
+	if nerPath, ok := resolve(root, NERModelFile); ok {
 		if m, err := loadAPModel(nerPath, nerModelFormat); err == nil {
 			p.ner = m
 		}
 	}
-	p.pool.New = func() any { return newParseState(dm.dims.H) }
+	p.initPools(hidden)
 	// An empty buffered channel is the counting semaphore: a send blocks while
 	// GOMAXPROCS sentences are already being parsed.
 	p.sem = make(chan struct{}, runtime.GOMAXPROCS(0))
@@ -143,6 +208,107 @@ func (p *Pipeline) tagPOS(toks []corenlp.Tok, st *parseState) {
 	}
 }
 
+// initPools prepares the per-call working-memory pools: the legacy
+// parse state and the unified model's scratch.
+func (p *Pipeline) initPools(hidden int) {
+	p.pool.New = func() any { return newParseState(hidden) }
+	p.bi.New = func() any { return &biState{} }
+}
+
+// tagPOSUnified fills POS (and the PTB word form of quotes) in place with
+// the unified model's layer 1 and decodes the sentence's tree in the same
+// pass, leaving it for parseUnified.
+func (p *Pipeline) tagPOSUnified(toks []corenlp.Tok, st *parseState) {
+	if st.bi == nil {
+		st.bi = p.bi.Get().(*biState)
+	}
+	n := len(toks)
+	st.words = st.words[:0]
+	st.origs = st.origs[:0]
+	for i := range toks {
+		st.words = append(st.words, toks[i].Orig)
+		st.origs = append(st.origs, toks[i].Orig)
+	}
+	setPOS := func(lo int, pos []int32, count int) {
+		for i := 0; i < count; i++ {
+			t := &toks[lo+i]
+			t.POS = PTBTags[pos[i]]
+			if t.Orig == `"` || t.Orig == "'" || t.Orig == "`" || t.Orig == "“" || t.Orig == "”" || t.Orig == "‘" || t.Orig == "’" {
+				if t.POS == "``" || t.POS == "''" {
+					t.Word = t.POS
+				}
+			}
+		}
+	}
+	if n <= maxParseTokens {
+		// The network tags and scores the whole sentence in one pass; the tree
+		// is decoded here and kept for parseUnified.
+		p.uni.parse(st.origs, st.bi)
+		setPOS(0, st.bi.sc.posIn, n)
+		return
+	}
+	// Very long unpunctuated spans are tagged chunk-by-chunk so we never
+	// allocate an N×N arc matrix larger than maxParseTokens².
+	for lo := 0; lo < n; lo += maxParseTokens {
+		hi := min(n, lo+maxParseTokens)
+		pos, _, _ := p.uni.parse(st.origs[lo:hi], st.bi)
+		setPOS(lo, pos, hi-lo)
+	}
+}
+
+// getState borrows per-call working memory; putState returns it.
+func (p *Pipeline) getState() *parseState {
+	st := p.pool.Get().(*parseState)
+	return st
+}
+
+func (p *Pipeline) putState(st *parseState) {
+	if st.bi != nil {
+		bi := st.bi
+		st.bi = nil
+		p.bi.Put(bi)
+	}
+	p.pool.Put(st)
+}
+
+// parseUnified decodes the token range with the unified model (the stage
+// already ran for a range of at most maxParseTokens tokens) and returns its
+// 1-based heads and DepLabels indices. A longer range is parsed in chunks:
+// the first chunk keeps the root, every later chunk's root hangs off it by
+// parataxis.
+func (p *Pipeline) parseUnified(toks []corenlp.Tok, st *parseState) (heads, rels []int32) {
+	n := len(toks)
+	heads, rels = make([]int32, n+1), make([]int32, n+1)
+	if n <= maxParseTokens {
+		copy(heads, st.bi.sc.heads[:n+1])
+		copy(rels, st.bi.sc.labels[:n+1])
+		return heads, rels
+	}
+	firstRoot := int32(0)
+	for lo := 0; lo < n; lo += maxParseTokens {
+		hi := min(n, lo+maxParseTokens)
+		part := toks[lo:hi]
+		origs := make([]string, len(part))
+		for i := range part {
+			origs[i] = part[i].Orig
+		}
+		_, h, l := p.uni.parse(origs, st.bi)
+		for i := 1; i <= len(part); i++ {
+			g := int32(lo + i)
+			if h[i] == 0 {
+				if firstRoot == 0 {
+					firstRoot = g
+				} else {
+					heads[g], rels[g] = firstRoot, parataxisIdx()
+				}
+			} else {
+				heads[g], rels[g] = h[i]+int32(lo), l[i]
+			}
+		}
+	}
+	return heads, rels
+}
+
 // runStages tags, lemmatizes, and parses one sentence in place, returning its
 // 1-based head and DepLabels arrays (index 0 unused).
 func (p *Pipeline) runStages(toks []corenlp.Tok, st *parseState) ([]int32, []int32) {
@@ -150,7 +316,11 @@ func (p *Pipeline) runStages(toks []corenlp.Tok, st *parseState) ([]int32, []int
 		return nil, nil
 	}
 	done := prof.Span("parser.pos")
-	p.tagPOS(toks, st)
+	if p.uni != nil {
+		p.tagPOSUnified(toks, st)
+	} else {
+		p.tagPOS(toks, st)
+	}
 	done()
 	done = prof.Span("parser.lemma")
 	p.lem.lemmatize(toks)
@@ -168,6 +338,11 @@ func (p *Pipeline) runStages(toks []corenlp.Tok, st *parseState) ([]int32, []int
 		done()
 	}
 	done = prof.Span("parser.dep")
+	if p.uni != nil {
+		heads, rels := p.parseUnified(toks, st)
+		done()
+		return heads, rels
+	}
 	st.wids = st.wids[:0]
 	st.pids = st.pids[:0]
 	for i := range toks {
@@ -210,7 +385,7 @@ func (p *Pipeline) ParseSentence(text string) *corenlp.Tree {
 		return &corenlp.Tree{Text: text}
 	}
 	st := p.pool.Get().(*parseState)
-	defer p.pool.Put(st)
+	defer p.putState(st)
 	ranges := SplitSentences(text, toks)
 	allH, allR := []int32{0}, []int32{0} // 1-based
 	offset := 0
@@ -272,7 +447,7 @@ func (p *Pipeline) ParseDoc(text string) *corenlp.Doc {
 			p.sem <- struct{}{}
 			defer func() { <-p.sem }()
 			st := p.pool.Get().(*parseState)
-			defer p.pool.Put(st)
+			defer p.putState(st)
 			heads[ri], rels[ri] = p.runStages(toks[r.lo:r.hi], st)
 		}(ri, r)
 	}

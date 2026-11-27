@@ -750,7 +750,7 @@ func TrainDep(train []*Sentence, cfg DepTrainConfig) (*DepResult, error) {
 			}
 		}
 	}
-	planned := cfg.Epochs*((len(stepOrder)+cfg.BatchSize-1)/cfg.BatchSize)
+	planned := cfg.Epochs * ((len(stepOrder) + cfg.BatchSize - 1) / cfg.BatchSize)
 	for ep := 1; ep <= cfg.Epochs; ep++ {
 		rng.Shuffle(len(stepOrder), func(i, j int) { stepOrder[i], stepOrder[j] = stepOrder[j], stepOrder[i] })
 		for lo := 0; lo < len(stepOrder); lo += cfg.BatchSize {

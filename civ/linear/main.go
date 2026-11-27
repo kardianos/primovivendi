@@ -22,10 +22,11 @@
 //	go run . lines -chapter ch01 -from 5 -to 21   # every sentence in a line range, scored
 //	go run . check -file ../notes/28_intro_draft1_rewrite.md   # one Markdown file
 //
-// Add -engine go to parse, report, lines, or check to parse in memory with the
-// pure-Go pipeline (civ/sys/parser, civ/notes/47_go_parser_spec.md) instead of
-// the cached CoreNLP JSON. `scores` prints the per-sentence Rule 10 results of
-// one engine as JSON lines for `civ/bin/parser eval`.
+// Add -engine go to parse, report, lines, check, or scores to parse in memory
+// with the pure-Go Round-2 BiGRU + Biaffine pipeline (civ/sys/parser, bundled
+// in civ/sys/parser/models/, see civ/notes/48_go_parser_r2_spec.md) instead of
+// cached CoreNLP JSON (default -engine corenlp). `scores` prints per-sentence
+// Rule 10 results as JSON lines for `civ/bin/parser eval`.
 package main
 
 import (

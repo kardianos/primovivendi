@@ -1,18 +1,27 @@
 // Command parser trains, evaluates, and runs the pure-Go NLP pipeline that
 // replaces Stanford CoreNLP for civ/compose and civ/linear (see
-// civ/notes/47_go_parser_spec.md). Models and treebanks live uncommitted under
-// ext-ref/parser/.
+// civ/notes/47_go_parser_spec.md, civ/notes/48_go_parser_r2_spec.md, and
+// civ/notes/48a_go_parser_r2_handoff.md).
+//
+// Pre-trained F16+gzip models are committed under civ/sys/parser/models/
+// (parser.safetensors.gz + ner.safetensors.gz, ~3.79 MB total) and loaded
+// automatically when no local retrain exists under ext-ref/parser/.
 //
 // Usage, from civ/:
 //
-//	civ/bin/parser fetch-ud                             # download the gold treebanks
-//	civ/bin/parser train-pos [-distill] [-epochs 12]    # train & save pos_tagger.safetensors
-//	civ/bin/parser train-dep [-distill] [-epochs 20]    # train & save dep_parser.safetensors
-//	civ/bin/parser train-ner                            # train & save ner.safetensors
-//	civ/bin/parser train-all [-distill] [-epochs 20]    # run the full training pipeline
-//	civ/bin/parser eval [-chapter ch13,ch14]            # UD test + held-out parity + Rule 10
-//	civ/bin/parser parse "We come into this world naked."
-//	civ/bin/parser bench [-chapter ch13] [-reps 3]      # speed and memory
+//	./bin/parser fetch-ud [-lines]                    # download the gold treebanks
+//	./bin/parser train-parser [-epochs 30] [-phase-b] # train & save parser.safetensors (BiGRU + biaffine)
+//	./bin/parser train-ner                            # train & save ner.safetensors
+//	./bin/parser train-all [-epochs 30] [-phase-b]    # fetch check, then train parser and NER
+//	./bin/parser pack [-f16=true] [-out DIR]          # compress ext-ref/parser/*.safetensors to civ/sys/parser/models/
+//	./bin/parser eval [-chapter ch13,ch14] [-models auto|bundled|local]
+//	./bin/parser parse "We come into this world naked."
+//	./bin/parser bench [-chapter ch13] [-reps 3]      # speed and memory
+//	./bin/parser part4 [-chapter ch01,...,ch12]       # Stage 4 diagnostics against CoreNLP
+//
+// ch13 and ch14 are held out: only eval reads them (the training loaders read
+// their raw text for nothing but sealing drafts that share a sentence with
+// them). ch12 is the Round-2 in-domain dev set and is kept out of training.
 package main
 
 import (
@@ -20,12 +29,10 @@ import (
 	"fmt"
 	"io"
 	"log"
-	"maps"
 	"net/http"
 	"os"
 	"path/filepath"
 	"runtime"
-	"slices"
 	"sort"
 	"strings"
 	"sync"
@@ -52,14 +59,16 @@ func main() {
 		usage()
 	case "fetch-ud":
 		err2 = cmdFetchUD(root, args)
-	case "train-pos":
-		err2 = cmdTrainPOS(root, args)
-	case "train-dep":
-		err2 = cmdTrainDep(root, args)
+	case "train-parser":
+		err2 = cmdTrainParser(root, args)
 	case "train-ner":
 		err2 = cmdTrainNER(root, args)
 	case "train-all":
 		err2 = cmdTrainAll(root, args)
+	case "train-pos":
+		err2 = cmdTrainPOS(root, args)
+	case "train-dep":
+		err2 = cmdTrainDep(root, args)
 	case "eval":
 		err2 = cmdEval(root, args)
 	case "parse":
@@ -68,6 +77,8 @@ func main() {
 		err2 = cmdBench(root, args)
 	case "pack":
 		err2 = cmdPack(root, args)
+	case "part4":
+		err2 = cmdPart4(root, args)
 	default:
 		fmt.Fprintf(os.Stderr, "unknown command %q\n\n", cmd)
 		usage()
@@ -78,39 +89,28 @@ func main() {
 	}
 }
 
-// cachedInputs returns the cached CoreNLP input texts by source name (the
-// chapters and treatises under ext-ref/linear/in).
-func cachedInputs(root string) (map[string]string, error) {
-	paths, err := filepath.Glob(filepath.Join(root, "ext-ref", "linear", "in", "*.txt"))
-	if err != nil {
-		return nil, err
-	}
-	out := map[string]string{}
-	for _, p := range paths {
-		b, err := os.ReadFile(p)
-		if err != nil {
-			continue
-		}
-		out[strings.TrimSuffix(filepath.Base(p), ".txt")] = string(b)
-	}
-	return out, nil
-}
-
 func usage() {
 	fmt.Fprint(os.Stderr, `usage: civ/bin/parser <command> [flags]
 
-  fetch-ud                             download UD_English-EWT (+ UD_English-GUM) into ext-ref/parser/
-  train-pos [-distill] [-epochs N]     train & save pos_tagger.safetensors
-  train-dep [-distill] [-epochs N]     train & save dep_parser.safetensors
-  train-ner                            train & save ner.safetensors
-  train-all [-distill] [-epochs N]     fetch check, then train POS, dependencies, and NER
-  eval [-chapter ch13,ch14]            UD test + held-out CoreNLP parity + Rule 10 parity table
+  fetch-ud [-lines]                    download UD_English-EWT and UD_English-GUM (and, on request,
+                                      UD_English-LinES, CC BY-NC-SA 4.0) into ext-ref/parser/
+  train-parser [-epochs 30] [-phase-b] [-epochs-b 5] [-lines] [-seed S] [-workers W] [-silver 2]
+                                      train & save parser.safetensors: the Round-2 BiGRU + biaffine
+                                      tagger and parser (Phase A, default 30 epochs, optional Phase B);
+                                      -silver weighs ch01..ch11 in the mix (default 2)
+  train-ner                            train & save ner.safetensors (treatises, ch01..ch11, sealed drafts)
+  train-all [-epochs 30] [-phase-b]    fetch check, then train parser and NER
+  train-pos [-distill] [-epochs N]     (Round 1) train & save pos_tagger.safetensors
+  train-dep [-distill] [-epochs N]     (Round 1) train & save dep_parser.safetensors
+  eval [-chapter ch13,ch14] [-ud-split test|dev] [-models auto|bundled|local] [-drafts N] [-no-book]
+                                      the gate table: UD, held-out CoreNLP parity, Rule 10, speed, size
   parse [-n 1] "sentence"              print the dependency tree and latency
   bench [-chapter ch13] [-reps 3]      sentences/sec, latency percentiles, memory
   pack [-f16=true] [-out DIR]          compress ext-ref/parser/*.safetensors into civ/sys/parser/models/*.safetensors.gz
+  part4 [-chapter ch01,...,ch12]       Stage 4 diagnostics: every Part 4 finding where Go and CoreNLP differ
 
--distill mixes the CoreNLP silver prose (treatises and ch01..ch12) into training.
-ch13 and ch14 are held out: they are only ever read by eval.
+Models resolve from ext-ref/parser/ first, falling back to bundled civ/sys/parser/models/*.safetensors.gz.
+ch13 and ch14 are held out: only eval reads them. ch12 is the Round-2 dev set.
 `)
 }
 
@@ -133,6 +133,33 @@ func repoRoot() (string, error) {
 
 func logf(format string, args ...any) { log.Printf(format, args...) }
 
+// cachedInputs returns the cached CoreNLP input texts by source name (the
+// chapters and treatises under ext-ref/linear/in).
+func cachedInputs(root string) (map[string]string, error) {
+	paths, err := filepath.Glob(filepath.Join(root, "ext-ref", "linear", "in", "*.txt"))
+	if err != nil {
+		return nil, err
+	}
+	out := map[string]string{}
+	for _, p := range paths {
+		b, err := os.ReadFile(p)
+		if err != nil {
+			continue
+		}
+		out[strings.TrimSuffix(filepath.Base(p), ".txt")] = string(b)
+	}
+	return out, nil
+}
+
+func containsString(xs []string, x string) bool {
+	for _, v := range xs {
+		if v == x {
+			return true
+		}
+	}
+	return false
+}
+
 // ---- fetch-ud ----------------------------------------------------------------
 
 type treebank struct {
@@ -148,15 +175,24 @@ var treebanks = []treebank{
 	{"UD_English-GUM", []string{"en_gum-ud-train.conllu", "en_gum-ud-dev.conllu", "en_gum-ud-test.conllu"}},
 }
 
+// linesTreebank is optional: its text is licensed CC BY-NC-SA 4.0.
+var linesTreebank = treebank{"UD_English-LinES", []string{"en_lines-ud-train.conllu", "en_lines-ud-dev.conllu", "en_lines-ud-test.conllu"}}
+
 func cmdFetchUD(root string, args []string) error {
 	fs := flag.NewFlagSet("fetch-ud", flag.ExitOnError)
 	force := fs.Bool("force", false, "re-download files that already exist")
+	withLines := fs.Bool("lines", false, "also fetch UD_English-LinES (CC BY-NC-SA 4.0)")
 	fs.Parse(args)
 	dirOf := map[string]string{
-		"UD_English-EWT": filepath.Join(root, "ext-ref", "parser", "ud_ewt"),
-		"UD_English-GUM": filepath.Join(root, "ext-ref", "parser", "ud_gum"),
+		"UD_English-EWT":   filepath.Join(root, "ext-ref", "parser", "ud_ewt"),
+		"UD_English-GUM":   filepath.Join(root, "ext-ref", "parser", "ud_gum"),
+		"UD_English-LinES": filepath.Join(root, "ext-ref", "parser", "ud_lines"),
 	}
-	for _, tb := range treebanks {
+	list := append([]treebank{}, treebanks...)
+	if *withLines {
+		list = append(list, linesTreebank)
+	}
+	for _, tb := range list {
 		dir := dirOf[tb.name]
 		if err := os.MkdirAll(dir, 0o755); err != nil {
 			return err
@@ -171,7 +207,7 @@ func cmdFetchUD(root string, args []string) error {
 			}
 			url := fmt.Sprintf("https://raw.githubusercontent.com/UniversalDependencies/%s/%s/%s", tb.name, udRelease, f)
 			if err := download(url, dst); err != nil {
-				return fmt.Errorf("%s: %w (license: %s)", url, err, tb.name)
+				return fmt.Errorf("%s: %w", url, err)
 			}
 			st, _ := os.Stat(dst)
 			log.Printf("%s/%s: %d bytes", tb.name, f, st.Size())
@@ -185,7 +221,7 @@ func download(url, dst string) error {
 	if err != nil {
 		return err
 	}
-	req.Header.Set("User-Agent", "civ-parser/1.0")
+	req.Header.Set("User-Agent", "civ-parser/2.0")
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
 		return err
@@ -212,63 +248,79 @@ func download(url, dst string) error {
 
 // ---- training ----------------------------------------------------------------
 
-func trainFlags(name string, args []string) (distill bool, epochs int) {
-	fs := flag.NewFlagSet(name, flag.ExitOnError)
-	fs.BoolVar(&distill, "distill", false, "mix the CoreNLP silver prose into training")
-	fs.IntVar(&epochs, "epochs", 0, "training epochs (0 for the default)")
+func cmdTrainParser(root string, args []string) error {
+	fs := flag.NewFlagSet("train-parser", flag.ExitOnError)
+	opt := parser.ParserTrainOptions{}
+	fs.IntVar(&opt.EpochsA, "epochs", 0, "Phase A epochs (0 for 30)")
+	fs.BoolVar(&opt.PhaseB, "phase-b", false, "run Phase B when dev_book lags dev_ud by more than 1.5 LAS points")
+	fs.IntVar(&opt.EpochsB, "epochs-b", 0, "Phase B epochs (0 for 5)")
+	fs.BoolVar(&opt.LinES, "lines", false, "add UD_English-LinES (CC BY-NC-SA 4.0) to the gold mix")
+	fs.Uint64Var(&opt.Seed, "seed", 0, "random seed (0 for the default)")
+	fs.IntVar(&opt.Workers, "workers", 0, "training goroutines (0 for min(NumCPU, 8))")
+	fs.StringVar(&opt.InitPath, "init", "", "start from a saved parser.safetensors of the same vocabulary")
+	fs.IntVar(&opt.DevEvery, "dev-every", 1, "select a checkpoint every N epochs")
+	fs.IntVar(&opt.Silver, "silver", 0, "weight of ch01..ch11 in the mix (0 for 2)")
 	fs.Parse(args)
-	return distill, epochs
-}
-
-func cmdTrainPOS(root string, args []string) error {
-	distill, epochs := trainFlags("train-pos", args)
 	if err := requireUD(root); err != nil {
 		return err
 	}
-	_, err := parser.TrainAndSavePOS(root, distill, epochs, logf)
-	return err
-}
-
-func cmdTrainDep(root string, args []string) error {
-	distill, epochs := trainFlags("train-dep", args)
-	if err := requireUD(root); err != nil {
-		return err
-	}
-	if !hasPOS(root) {
-		return fmt.Errorf("train-dep needs the POS tagger (run: civ/bin/parser train-pos)")
-	}
-	_, err := parser.TrainAndSaveDep(root, distill, epochs, logf)
+	_, err := parser.TrainAndSaveParser(root, opt, logf)
 	return err
 }
 
 func cmdTrainNER(root string, args []string) error {
 	flag.NewFlagSet("train-ner", flag.ExitOnError).Parse(args)
-	if !hasPOS(root) {
-		return fmt.Errorf("train-ner needs the POS tagger (run: civ/bin/parser train-pos)")
+	if pos, _, _ := parser.ModelsPresent(root); !pos {
+		return fmt.Errorf("train-ner needs the tagger (run: civ/bin/parser train-parser)")
 	}
-	_, err := parser.TrainAndSaveNER(root, logf)
+	_, _, err := parser.TrainAndSaveNER(root, logf)
 	return err
 }
 
 func cmdTrainAll(root string, args []string) error {
-	distill, epochs := trainFlags("train-all", args)
+	fs := flag.NewFlagSet("train-all", flag.ExitOnError)
+	epochs := fs.Int("epochs", 0, "Phase A epochs (0 for 30)")
+	phaseB := fs.Bool("phase-b", false, "run Phase B when dev_book lags dev_ud by more than 1.5 LAS points")
+	lines := fs.Bool("lines", false, "add UD_English-LinES to the gold mix")
+	seed := fs.Uint64("seed", 0, "random seed (0 for the default)")
+	workers := fs.Int("workers", 0, "training goroutines (0 for min(NumCPU, 8))")
+	fs.Parse(args)
+	opt := parser.ParserTrainOptions{EpochsA: *epochs, PhaseB: *phaseB, LinES: *lines, Seed: *seed, Workers: *workers}
 	if err := cmdFetchUD(root, []string{"-force=false"}); err != nil {
 		return err
 	}
-	if _, err := parser.TrainAndSavePOS(root, distill, 0, logf); err != nil {
+	if _, err := parser.TrainAndSaveParser(root, opt, logf); err != nil {
 		return err
 	}
-	if _, err := parser.TrainAndSaveDep(root, distill, epochs, logf); err != nil {
-		return err
-	}
-	_, err := parser.TrainAndSaveNER(root, logf)
+	_, _, err := parser.TrainAndSaveNER(root, logf)
 	return err
 }
 
-// hasPOS reports whether the POS tagger has been trained.
-func hasPOS(root string) bool {
-	pos, _, _ := parser.ModelsPresent(root)
-	return pos
+func cmdTrainPOS(root string, args []string) error {
+	fs := flag.NewFlagSet("train-pos", flag.ExitOnError)
+	distill := fs.Bool("distill", false, "mix the CoreNLP silver prose (ch01..ch12) into training")
+	epochs := fs.Int("epochs", 0, "epochs (0 for the default)")
+	fs.Parse(args)
+	if err := requireUD(root); err != nil {
+		return err
+	}
+	_, err := parser.TrainAndSavePOS(root, *distill, *epochs, logf)
+	return err
+}
+
+func cmdTrainDep(root string, args []string) error {
+	fs := flag.NewFlagSet("train-dep", flag.ExitOnError)
+	distill := fs.Bool("distill", false, "mix the CoreNLP silver prose (ch01..ch12) into training")
+	epochs := fs.Int("epochs", 0, "epochs (0 for the default)")
+	fs.Parse(args)
+	if err := requireUD(root); err != nil {
+		return err
+	}
+	if pos, _, _ := parser.ModelsPresent(root); !pos {
+		return fmt.Errorf("train-dep needs the POS tagger (run: civ/bin/parser train-pos)")
+	}
+	_, err := parser.TrainAndSaveDep(root, *distill, *epochs, logf)
+	return err
 }
 
 func requireUD(root string) error {
@@ -280,12 +332,22 @@ func requireUD(root string) error {
 
 // ---- eval ---------------------------------------------------------------------
 
+// round1 holds the Round-1 figures of the gate table (47a_go_parser_handoff.md).
+type gate struct {
+	name, round1, gate string
+	// pass reports whether value meets the gate.
+	pass func(v float64) bool
+}
+
 func cmdEval(root string, args []string) error {
 	fs := flag.NewFlagSet("eval", flag.ExitOnError)
 	chapter := fs.String("chapter", "ch13,ch14", "held-out CoreNLP chapters (comma separated)")
 	linear := fs.String("linear", "", "path to the civ/linear binary (default civ/bin/linear)")
 	reps := fs.Int("reps", 5, "timing repetitions per sentence")
 	drafts := fs.Int("drafts", 0, "also compare with CoreNLP on drafts, on sentences absent from the chapters and treatises (up to N drafts; 0 skips)")
+	udSplit := fs.String("ud-split", "test", "UD_English-EWT split for the UD rows (test is the official one; dev for development)")
+	models := fs.String("models", "auto", "auto: local overrides then bundled; bundled: civ/sys/parser/models only; local: ext-ref/parser only")
+	noBook := fs.Bool("no-book", false, "skip the full-book timing (development runs that keep the holdout unread)")
 	fs.Parse(args)
 	chapters := []string{}
 	for _, c := range strings.Split(*chapter, ",") {
@@ -296,17 +358,31 @@ func cmdEval(root string, args []string) error {
 	if err := requireUD(root); err != nil {
 		return err
 	}
+	official := strings.Join(chapters, ",") == "ch13,ch14" && *udSplit == "test"
 	t0 := time.Now()
-	p, err := parser.Load(root)
+	var p *parser.Pipeline
+	var err error
+	switch *models {
+	case "bundled":
+		p, err = parser.LoadBundled(root)
+	case "local":
+		p, err = parser.LoadLocal(root)
+	default:
+		p, err = parser.Load(root)
+	}
 	if err != nil {
-		return fmt.Errorf("%w (run: civ/bin/parser train-all -distill)", err)
+		return fmt.Errorf("%w (run: civ/bin/parser train-all)", err)
 	}
 	loadTime := time.Since(t0)
 	heapMB, rssMB := parser.Memory()
-	log.Printf("models loaded in %s (heap %.1f MB, RSS %.1f MB, simd=%v)", loadTime.Round(time.Millisecond), heapMB, rssMB, vec.SIMDEnabled())
+	mode := *models
+	if mode == "auto" {
+		mode = "local+bundled"
+	}
+	log.Printf("models loaded in %s from %s (heap %.1f MB, RSS %.1f MB, simd=%v, unified=%v)", loadTime.Round(time.Millisecond), mode, heapMB, rssMB, vec.SIMDEnabled(), p.Unified())
 
-	log.Println("evaluating on UD_English-EWT test ...")
-	ud, err := parser.EvalUDTest(root, p)
+	log.Printf("evaluating on UD_English-EWT %s ...", *udSplit)
+	ud, err := evalUD(root, p, *udSplit)
 	if err != nil {
 		return err
 	}
@@ -325,14 +401,18 @@ func cmdEval(root string, args []string) error {
 		}
 	}
 	if len(sents) == 0 {
-		if cs, err := parser.ChapterSentences(root, "ch12"); err == nil {
-			sents = cs
+		if cs, err := parser.ChapterSentences(root, parser.DevBookChapter); err == nil {
+			sents = append(sents, cs...)
 		}
 	}
 	mean, p50, p95, p99 := parser.Latency(p, sents, *reps)
-	bookTime, bookSents, err := bookParse(root, p)
-	if err != nil {
-		return err
+	var bookTime time.Duration
+	bookSents := 0
+	if !*noBook {
+		bookTime, bookSents, err = bookParse(root, p)
+		if err != nil {
+			return err
+		}
 	}
 	var r10 *parser.Rule10Parity
 	if len(chapters) > 0 {
@@ -342,26 +422,27 @@ func cmdEval(root string, args []string) error {
 		}
 	}
 	var draftsAg *parser.Agreement
-	var nDrafts int
+	nDrafts := 0
 	if *drafts != 0 {
 		log.Println("comparing with CoreNLP on drafts (sentences absent from the chapters and treatises) ...")
 		texts, derr := cachedInputs(root)
 		if derr == nil {
-			// Trained sources supply the sentences to leave out; the held-out
-			// chapters seal the drafts that share a sentence with them.
+			// Sentences that occur in any cached chapter or treatise are left
+			// out; a draft that shares a sentence with a held-out chapter
+			// (always ch13 and ch14, plus the -chapter list) is sealed whole.
 			var reference, sealed []string
-			for _, name := range slices.Sorted(maps.Keys(texts)) {
-				if slices.Contains(chapters, name) {
+			names := make([]string, 0, len(texts))
+			for name := range texts {
+				names = append(names, name)
+			}
+			sort.Strings(names)
+			for _, name := range names {
+				reference = append(reference, texts[name])
+				if parser.IsHeldout(name) || containsString(chapters, name) {
 					sealed = append(sealed, texts[name])
-				} else {
-					reference = append(reference, texts[name])
 				}
 			}
-			limit := *drafts
-			if limit < 0 {
-				limit = 0 // all
-			}
-			draftsAg, nDrafts, derr = parser.CompareDrafts(filepath.Join(root, "ext-ref", "linear", "scratch"), p, reference, sealed, limit)
+			draftsAg, nDrafts, derr = parser.CompareDrafts(parser.DraftDir(root), p, reference, sealed, *drafts)
 		}
 		if derr != nil {
 			log.Printf("draft comparison skipped: %v", derr)
@@ -369,40 +450,60 @@ func cmdEval(root string, args []string) error {
 		}
 	}
 	modelBytes := parser.ModelBytes(root)
+	bundledBytes := parser.BundledModelBytes(root)
 
+	holdout := strings.Join(chapters, " + ")
+	known := official // the Round-1 column is only meaningful for the official run
+	r1 := func(v string) string {
+		if known {
+			return v
+		}
+		return "—"
+	}
 	var b strings.Builder
-	row := func(name, value string, gate string, ok bool) {
+	row := func(name, round1, gateStr, value string, ok bool) {
 		mark := "PASS"
 		if !ok {
 			mark = "FAIL"
 		}
-		fmt.Fprintf(&b, "| %s | %s | %s | %s |\n", name, value, gate, mark)
+		fmt.Fprintf(&b, "| %s | %s | %s | %s | %s |\n", name, round1, gateStr, value, mark)
 	}
 	pct := func(x float64) string { return fmt.Sprintf("%.2f%%", 100*x) }
-	fmt.Fprintf(&b, "\n| Metric | Value | Gate | Result |\n|---|---|---|---|\n")
-	row("UD-EWT test POS accuracy", pct(ud.POS), "≥ 96.5%", ud.POS >= 0.965)
-	row("UD-EWT test UAS (predicted POS)", pct(ud.UAS), "≥ 90.0%", ud.UAS >= 0.900)
-	row("UD-EWT test LAS (predicted POS)", pct(ud.LAS), "≥ 87.5%", ud.LAS >= 0.875)
+	// report prints a figure that has no gate.
+	report := func(name, value string) {
+		fmt.Fprintf(&b, "| %s | — | report | %s | — |\n", name, value)
+	}
+	fmt.Fprintf(&b, "\n| Metric | Round 1 | Round-2 Gate | Value | Result |\n|---|---|---|---|---|\n")
+	row("UD-EWT "+*udSplit+" POS accuracy", "94.92%", "≥ 96.5%", pct(ud.POS), ud.POS >= 0.965)
+	row("UD-EWT "+*udSplit+" UAS (predicted POS)", "83.49%", "≥ 90.0%", pct(ud.UAS), ud.UAS >= 0.900)
+	row("UD-EWT "+*udSplit+" LAS (predicted POS)", "80.27%", "≥ 87.5%", pct(ud.LAS), ud.LAS >= 0.875)
 	if ag != nil {
-		name := strings.Join(ag.Chapters, " + ")
-		row(name+" POS agreement vs CoreNLP", pct(ag.POS), "≥ 97.0%", ag.POS >= 0.970)
-		row(name+" UAS vs CoreNLP", pct(ag.UAS), "≥ 91.0%", ag.UAS >= 0.910)
-		row(name+" LAS vs CoreNLP", pct(ag.LAS), "≥ 88.5%", ag.LAS >= 0.885)
+		row(holdout+" POS agreement vs CoreNLP", r1("97.19%"), "≥ 97.5%", pct(ag.POS), ag.POS >= 0.975)
+		row(holdout+" non-punct UAS vs CoreNLP", r1("~81%"), "≥ 91.0%", pct(ag.UASNonPunct)+" (all-token "+pct(ag.UAS)+")", ag.UASNonPunct >= 0.910)
+		row(holdout+" non-punct LAS vs CoreNLP", r1("~77%"), "≥ 88.5%", pct(ag.LASNonPunct)+" (all-token "+pct(ag.LAS)+")", ag.LASNonPunct >= 0.885)
+		report(holdout+" non-punct UAS vs CoreNLP, CoreNLP dep left out", pct(ag.UASNonPunctNoDep)+" over "+fmt.Sprint(ag.NonPunctNoDepTokens())+" tokens")
+		report(holdout+" non-punct LAS vs CoreNLP, CoreNLP dep left out", pct(ag.LASNonPunctNoDep))
+		row(holdout+" Root agreement vs CoreNLP", r1("79.7%"), "≥ 92.0%", pct(ag.Root), ag.Root >= 0.920)
+		report(holdout+" Root agreement, copula or auxiliary as head allowed", pct(ag.RootContentHead))
 	}
 	if r10 != nil {
-		row(agName(r10)+" civ/linear Rule 10 score correlation (r)", fmt.Sprintf("%.4f", r10.ScoreR), "≥ 0.92", r10.ScoreR >= 0.92)
+		row(holdout+" civ/linear Rule 10 correlation (r)", r1("0.6898"), "≥ 0.92", fmt.Sprintf("%.4f", r10.ScoreR), r10.ScoreR >= 0.92)
+		row(holdout+" civ/linear Part 4 findings F1", r1("0.462"), "≥ 0.85", fmt.Sprintf("%.3f", r10.Part4F1), r10.Part4F1 >= 0.85)
 	}
-	row("Mean end-to-end latency (ParseSentence)", fmt.Sprintf("%.3f ms", mean), "< 1.0 ms", mean < 1.0)
-	row("Full book (ch01..ch14) parallel parse time", fmt.Sprintf("%.2f s (%d sentences)", bookTime.Seconds(), bookSents), "< 2.5 s", bookTime < 2500*time.Millisecond)
-	row("Cold model load time", fmt.Sprintf("%.1f ms", float64(loadTime.Microseconds())/1000), "< 150 ms", loadTime < 150*time.Millisecond)
-	row("Total .safetensors size on disk", fmt.Sprintf("%.2f MB", float64(modelBytes)/1e6), "≤ 20 MB", modelBytes <= 20<<20)
+	row("Mean end-to-end latency (ParseSentence)", "0.620 ms", "< 1.5 ms (stretch < 1.0 ms)", fmt.Sprintf("%.3f ms", mean), mean < 1.5)
+	if !*noBook {
+		row("Full book (ch01..ch14) parallel parse time", "0.27 s", "< 1.5 s", fmt.Sprintf("%.2f s (%d sentences)", bookTime.Seconds(), bookSents), bookTime < 1500*time.Millisecond)
+	}
+	row("Cold model load time", "104 ms", "< 150 ms", fmt.Sprintf("%.1f ms", float64(loadTime.Microseconds())/1000), loadTime < 150*time.Millisecond)
+	row("Live heap after load", "36.6 MB", "< 45 MB", fmt.Sprintf("%.1f MB", heapMB), heapMB < 45)
+	row("Total packed .safetensors.gz size on disk", "7.34 MB", "≤ 15 MB", fmt.Sprintf("%.2f MB", float64(bundledBytes)/1e6), bundledBytes <= 15<<20)
 	fmt.Println(b.String())
 
-	fmt.Printf("detail: UD-EWT test tokens %d; latency p50 %.3f ms, p95 %.3f ms, p99 %.3f ms over %d sentences x %d; %.0f sentences/sec single-thread\n",
-		ud.Tokens, p50, p95, p99, len(sents), *reps, 1000/mean)
+	fmt.Printf("detail: UD-EWT %s tokens %d; latency p50 %.3f ms, p95 %.3f ms, p99 %.3f ms over %d sentences x %d; %.0f sentences/sec single-thread\n",
+		*udSplit, ud.Tokens, p50, p95, p99, len(sents), *reps, 1000/mean)
 	if ag != nil {
 		if draftsAg != nil {
-			fmt.Printf("detail: drafts on %d sentences absent from the chapters and treatises (%d drafts): POS %.2f%% UAS %.2f%% LAS %.2f%% | on aligned tokens: POS %.2f%% UAS %.2f%% LAS %.2f%% | NER macro F1 %.2f\n",
+			fmt.Printf("detail: drafts on %d sentences absent from every cached chapter and treatise (%d drafts): POS %.2f%% UAS %.2f%% LAS %.2f%% | on aligned tokens: POS %.2f%% UAS %.2f%% LAS %.2f%% | NER macro F1 %.2f\n",
 				draftsAg.Sentences, nDrafts, 100*draftsAg.POS, 100*draftsAg.UAS, 100*draftsAg.LAS, 100*draftsAg.POSAligned, 100*draftsAg.UASAligned, 100*draftsAg.LASAligned, draftsAg.NERMacroF1)
 			for _, l := range parser.NERLabels[1:] {
 				c := draftsAg.NER[l]
@@ -411,6 +512,7 @@ func cmdEval(root string, args []string) error {
 		}
 		fmt.Printf("detail: CoreNLP parity over %d sentences, %d aligned identically (%.2f%%); on aligned tokens: POS %.2f%% UAS %.2f%% LAS %.2f%%\n",
 			ag.Sentences, ag.Aligned, 100*float64(ag.Aligned)/float64(max(1, ag.Sentences)), 100*ag.POSAligned, 100*ag.UASAligned, 100*ag.LASAligned)
+		fmt.Printf("detail: non-punct tokens %d: UAS %.2f%% LAS %.2f%%; without CoreNLP dep (%d tokens): UAS %.2f%% LAS %.2f%%; root agreement %.2f%% (%d sentences; %.2f%% with the copula or auxiliary as head)\n", nonPunctTokens(ag), 100*ag.UASNonPunct, 100*ag.LASNonPunct, ag.NonPunctNoDepTokens(), 100*ag.UASNonPunctNoDep, 100*ag.LASNonPunctNoDep, 100*ag.Root, ag.SentenceCount(), 100*ag.RootContentHead)
 		labels := make([]string, 0, len(ag.NER))
 		for l := range ag.NER {
 			labels = append(labels, l)
@@ -431,10 +533,19 @@ func cmdEval(root string, args []string) error {
 			fmt.Printf("detail:   %-17s CoreNLP %3d  Go %3d  matched %3d  F1 %.3f\n", k+":", c[1], c[2], c[0], f1Of(c[0], c[1], c[2]))
 		}
 	}
+	fmt.Printf("detail: models %.2f MB resolved; %.2f MB packed under civ/sys/parser/models\n", float64(modelBytes)/1e6, float64(bundledBytes)/1e6)
 	return nil
 }
 
-func agName(r *parser.Rule10Parity) string { return strings.Join(r.Chapters, " + ") }
+// evalUD scores the pipeline on a UD_English-EWT split.
+func evalUD(root string, p *parser.Pipeline, split string) (parser.UDScores, error) {
+	if split == "test" {
+		return parser.EvalUDTest(root, p)
+	}
+	return parser.EvalUDSplit(root, p, split)
+}
+
+func nonPunctTokens(ag *parser.Agreement) int { return ag.NonPunctTokens() }
 
 func f1Of(tp, g, p int) float64 {
 	if tp == 0 {
@@ -446,8 +557,7 @@ func f1Of(tp, g, p int) float64 {
 // bookParse parses ch01..ch14 in parallel and returns the wall time.
 func bookParse(root string, p *parser.Pipeline) (time.Duration, int, error) {
 	type job struct {
-		text string
-		n    int
+		n int
 	}
 	jobs := make([]job, 14)
 	var wg sync.WaitGroup
@@ -490,7 +600,7 @@ func cmdParse(root string, args []string) error {
 	t0 := time.Now()
 	p, err := parser.Load(root)
 	if err != nil {
-		return fmt.Errorf("%w (run: civ/bin/parser train-all -distill)", err)
+		return fmt.Errorf("%w (run: civ/bin/parser train-all)", err)
 	}
 	load := time.Since(t0)
 	tree := p.ParseSentence(text)
@@ -528,9 +638,10 @@ func cmdBench(root string, args []string) error {
 	t0 := time.Now()
 	p, err := parser.Load(root)
 	if err != nil {
-		return fmt.Errorf("%w (run: civ/bin/parser train-all -distill)", err)
+		return fmt.Errorf("%w (run: civ/bin/parser train-all)", err)
 	}
 	load := time.Since(t0)
+	runtime.KeepAlive(p)
 	runtime.GC()
 	heapMB, rssMB := parser.Memory()
 	sents, err := parser.ChapterSentences(root, *chapter)
@@ -538,24 +649,23 @@ func cmdBench(root string, args []string) error {
 		return err
 	}
 	mean, p50, p95, p99 := parser.Latency(p, sents, *reps)
-	bookTime, bookSents, err := bookParse(root, p)
-	if err != nil {
-		return err
-	}
 	size := parser.ModelBytes(root)
 	fmt.Printf("model load           %s\n", load.Round(time.Millisecond))
-	fmt.Printf("models on disk        %.2f MB\n", float64(size)/1e6)
+	fmt.Printf("models on disk       %.2f MB (resolved), %.2f MB packed\n", float64(size)/1e6, float64(parser.BundledModelBytes(root))/1e6)
 	fmt.Printf("live heap after load  %.1f MB (RSS %.1f MB)\n", heapMB, rssMB)
-	fmt.Printf("SIMD (AVX2+FMA)       %v\n", vec.SIMDEnabled())
+	fmt.Printf("SIMD (AVX2+FMA)       %v; unified model %v\n", vec.SIMDEnabled(), p.Unified())
 	fmt.Printf("%s sentences         %d\n", *chapter, len(sents))
 	fmt.Printf("ParseSentence        mean %.3f ms  p50 %.3f ms  p95 %.3f ms  p99 %.3f ms  (%d runs)\n", mean, p50, p95, p99, len(sents)**reps)
 	fmt.Printf("single-thread speed   %.0f sentences/sec\n", 1000/mean)
-	fmt.Printf("full book (ch01..ch14) %d sentences parsed in parallel: %.2f s (%.0f sentences/sec)\n", bookSents, bookTime.Seconds(), float64(bookSents)/bookTime.Seconds())
 	return nil
 }
 
 // ---- pack ----------------------------------------------------------------------
 
+// cmdPack compresses the raw weights under ext-ref/parser/ into
+// civ/sys/parser/models/: the Round-2 parser and NER when parser.safetensors
+// exists (the superseded Round-1 bundles are removed then), else the Round-1
+// trio.
 func cmdPack(root string, args []string) error {
 	fs := flag.NewFlagSet("pack", flag.ExitOnError)
 	useF16 := fs.Bool("f16", true, "quantize F32 weight tensors to IEEE-754 F16 before gzip")
@@ -565,8 +675,12 @@ func cmdPack(root string, args []string) error {
 	if dstDir == "" {
 		dstDir = parser.BundledModelDir(root)
 	}
+	files := []string{parser.POSModelFile, parser.DepModelFile, parser.NERModelFile}
+	if _, err := os.Stat(parser.ParserModelPath(root)); err == nil {
+		files = []string{parser.ParserModelFile, parser.NERModelFile}
+	}
 	var rawTotal, packedTotal int64
-	for _, file := range []string{parser.POSModelFile, parser.DepModelFile, parser.NERModelFile} {
+	for _, file := range files {
 		src := filepath.Join(parser.ModelDir(root), file)
 		st, err := os.Stat(src)
 		if err != nil {
@@ -584,6 +698,20 @@ func cmdPack(root string, args []string) error {
 		packedTotal += dstSt.Size()
 		fmt.Printf("%-26s %6.2f MB -> %5.2f MB (%.1f%%)\n",
 			file+".gz", float64(st.Size())/1e6, float64(dstSt.Size())/1e6, 100*float64(dstSt.Size())/float64(st.Size()))
+	}
+	if len(files) == 2 {
+		// The Round-1 tagger and greedy parser are superseded by the
+		// unified model; leaving their bundles would count against the size
+		// gate and could be picked up by a loader.
+		for _, stale := range []string{parser.POSModelFile, parser.DepModelFile} {
+			old := filepath.Join(dstDir, stale+".gz")
+			if _, err := os.Stat(old); err == nil {
+				if err := os.Remove(old); err != nil {
+					return err
+				}
+				log.Printf("removed the superseded Round-1 bundle %s", old)
+			}
+		}
 	}
 	fmt.Printf("%-26s %6.2f MB -> %5.2f MB (%.1f%%)\n",
 		"total", float64(rawTotal)/1e6, float64(packedTotal)/1e6, 100*float64(packedTotal)/float64(rawTotal))

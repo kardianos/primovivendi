@@ -2,9 +2,9 @@
 
 `compose` is a local Go + `gowaku` GUI and CLI tool for rebuilding `civ/chapters/*.md` sentence by sentence, phrase by phrase, and paragraph by paragraph using:
 
-* **Sentence diagramming** (Stanford CoreNLP 4.6.0 cached parses in `ext-ref/linear/out/` for the original sentences, and the pure-Go pipeline `civ/sys/parser` for anything else: manual rewrites, custom phrases, uncached sentences. An optional local `StanfordCoreNLPServer` can be opted into with `-corenlp-server`.)
+* **Sentence diagramming** (Stanford CoreNLP 4.6.0 cached parses in `ext-ref/linear/out/` for the original chapter sentences, and the pure-Go Round-2 unified BiGRU + Biaffine pipeline `civ/sys/parser` for everything else: manual rewrites, custom phrases, and uncached sentences. Pre-trained F16+gzip weights are bundled in `civ/sys/parser/models/` (~3.79 MB), so no Java or training step is required. An optional local `StanfordCoreNLPServer` can still be opted into with `-corenlp-server`.)
 
-The Go pipeline parses a sentence in about 0.5 ms (no Java), but it agrees with CoreNLP on only about 76% of head attachments and 72% of labeled arcs on held-out chapters, so read its diagrams as a first pass. `civ/notes/47a_go_parser_handoff.md` has the measured table (`civ/bin/parser eval`) and the known gaps.
+The Go pipeline parses a sentence in ~1.1 ms using 14.8 MB of live heap (88.0% UD-EWT UAS, 86.2% non-punct UAS vs CoreNLP on held-out chapters excluding CoreNLP `dep`, 85.3% root agreement, 0.80 Rule 10 correlation). See [48a_go_parser_r2_handoff.md](file:///home/d/code/po/civ/notes/48a_go_parser_r2_handoff.md) for the full `civ/bin/parser eval` breakdown.
 * **Mechanical structural transforms & Rule 10 scoring** (`civ/sys/linear`)
 * **WordNet 3.1 + English POS inflector + concreteness / AoA / CMUdict stress** (`civ/sys/lexicon`, `civ/sys/cadence`)
 * **1850–1950 Google Books Ngrams & reference-corpus collocations** (`civ/sys/ngram`)
@@ -27,8 +27,10 @@ The Go pipeline parses a sentence in about 0.5 ms (no Java), but it agrees with 
 # Open the interactive GUI on Chapter 1:
 ./bin/compose ui -chapter ch01
 
-# Train the pure-Go parser once (tokenizer, POS, dependencies, NER, coreference; a few minutes):
-./bin/parser train-all -distill
+# Optional: retrain the pure-Go parser locally (pre-trained models are already bundled in civ/sys/parser/models/):
+./bin/parser train-all [-epochs 30]
+# And repack locally trained models into civ/sys/parser/models/:
+./bin/parser pack
 
 # Opt in to a local CoreNLP HTTP server for re-parsing instead of the Go parser:
 ./bin/compose ui -chapter ch01 -corenlp-server
@@ -37,7 +39,7 @@ The Go pipeline parses a sentence in about 0.5 ms (no Java), but it agrees with 
 ./bin/compose ui -chapter ch01 -view hybrid
 
 # Enable periodic timing profiler (flushes span totals, slow calls >=50ms, heap/goroutines every 5s):
-./bin/compose ui -chapter ch01 -corenlp-server -profile notes/compose/profile.log -profile-interval 5s
+./bin/compose ui -chapter ch01 -profile notes/compose/profile.log -profile-interval 5s
 # Watch live in another terminal:
 tail -f notes/compose/profile.log
 ```

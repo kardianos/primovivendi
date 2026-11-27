@@ -31,7 +31,7 @@ func pipelineGo(root string) (*parser.Pipeline, error) {
 	}
 	p, err := parser.Load(root)
 	if err != nil {
-		return nil, fmt.Errorf("%w (train it with: civ/bin/parser train-all -distill)", err)
+		return nil, fmt.Errorf("%w (train it with: civ/bin/parser train-all)", err)
 	}
 	goPipeline = p
 	return p, nil

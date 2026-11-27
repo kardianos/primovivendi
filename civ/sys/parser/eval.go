@@ -30,13 +30,23 @@ type UDScores struct {
 }
 
 // EvalUDTest scores a pipeline on UD_English-EWT test: tagger accuracy, then
-// parsing with predicted POS tags (end-to-end).
-func EvalUDTest(root string, p *Pipeline) (UDScores, error) {
-	test, err := LoadEWT(root, "test")
+// parsing with predicted POS tags (end to end; punctuation included).
+func EvalUDTest(root string, p *Pipeline) (UDScores, error) { return EvalUDSplit(root, p, "test") }
+
+// EvalUDSplit is EvalUDTest on another split of the treebank (dev is the
+// development-time substitute for the test set).
+func EvalUDSplit(root string, p *Pipeline, split string) (UDScores, error) {
+	test, err := LoadEWT(root, split)
 	if err != nil {
 		return UDScores{}, err
 	}
 	var s UDScores
+	if p.uni != nil {
+		corpus, _ := p.uni.m.encode(test, p.lem, false)
+		d := BiaffineEvaluate(p.uni.m, corpus)
+		s.POS, s.UAS, s.LAS, s.Tokens = d.POS, d.UAS, d.LAS, d.Tokens
+		return s, nil
+	}
 	c, n := POSAccuracy(p.pos, test)
 	s.POS = float64(c) / float64(max(1, n))
 	pred := make([]*Sentence, 0, len(test))
@@ -81,8 +91,27 @@ type Agreement struct {
 	// NER per canonical label over aligned sentences: [truePositive, gold, predicted].
 	NER        map[string][3]int
 	NERMacroF1 float64
+	// Over aligned tokens whose CoreNLP relation is not punct: UAS and LAS.
+	// CoreNLP and the UD treebands attach punctuation by different
+	// conventions, so the punct arcs are reported apart.
+	UASNonPunct, LASNonPunct float64
+	// The same over aligned tokens whose CoreNLP relation is neither punct
+	// nor dep. dep is CoreNLP's label for an attachment its parser could
+	// not classify; UD treebanks almost never use it, so a parser trained
+	// on UD does not reproduce it.
+	UASNonPunctNoDep, LASNonPunctNoDep float64
+	// Root: the share of aligned sentences whose root token is the same.
+	Root float64
+	// RootContentHead: the same, counting a sentence as agreed when the two
+	// roots differ only by the copula or auxiliary that Stanford dependencies
+	// make the head of and UD a dependent of ("is" against the predicate,
+	// "has" against the participle).
+	RootContentHead float64
 
-	posOK, headOK, labelOK, alignedTokens int
+	posOK, headOK, labelOK, alignedTokens        int
+	npTokens, npHeadOK, npLabelOK, rootOK, sents int
+	npndTokens, npndHeadOK, npndLabelOK          int
+	rootSwap                                     int
 
 	// skip lists normalized sentences (see sentenceKey) that add must not
 	// score: text the models were trained on.
@@ -237,26 +266,56 @@ func (ag *Agreement) add(mine, cn *corenlp.Doc) {
 		}
 		ag.Sentences++
 		ag.Tokens += n
+		// The non-punct denominator counts every CoreNLP token: an unaligned
+		// sentence is a disagreement.
+		cnHead, cnRel := depArrays(cs.Deps, n)
+		for i := 1; i <= n; i++ {
+			if cnRel[i] != "punct" {
+				ag.npTokens++
+				if cnRel[i] != "dep" {
+					ag.npndTokens++
+				}
+			}
+		}
 		mi, ok := bySpan[spanKey{cs.Toks[0].Begin, cs.Toks[n-1].End}]
 		if !ok || len(mine.Sentences[mi].Toks) != n {
 			continue
 		}
 		ms := mine.Sentences[mi]
 		ag.Aligned++
-		cnHead, cnRel := depArrays(cs.Deps, n)
 		myHead, myRel := depArrays(ms.Deps, n)
+		ag.sents++
 		for i := 1; i <= n; i++ {
 			if cs.Toks[i-1].POS == ms.Toks[i-1].POS {
 				ag.posOK++
 			}
+			if cnHead[i] == 0 && myHead[i] == 0 {
+				ag.rootOK++
+			}
+			punct, noDep := cnRel[i] == "punct", cnRel[i] != "punct" && cnRel[i] != "dep"
 			if cnHead[i] == myHead[i] {
 				ag.headOK++
+				if !punct {
+					ag.npHeadOK++
+					if noDep {
+						ag.npndHeadOK++
+					}
+				}
 				if cnRel[i] == myRel[i] {
 					ag.labelOK++
+					if !punct {
+						ag.npLabelOK++
+						if noDep {
+							ag.npndLabelOK++
+						}
+					}
 				}
 			}
 		}
 		ag.alignedTokens += n
+		if cr, gr := rootOf(cnHead), rootOf(myHead); cr != gr && (swapHeads(cnHead, cnRel, gr, cr) || swapHeads(myHead, myRel, cr, gr)) {
+			ag.rootSwap++
+		}
 		gold, pred := map[string]map[string]bool{}, map[string]map[string]bool{}
 		nerSpans(cs.Toks, func(label string, a, b int) { addSpan(gold, label, a, b) })
 		nerSpans(ms.Toks, func(label string, a, b int) { addSpan(pred, label, a, b) })
@@ -273,10 +332,25 @@ func (ag *Agreement) add(mine, cn *corenlp.Doc) {
 	}
 }
 
+// NonPunctTokens is the number of aligned CoreNLP tokens whose relation is
+// not punct: the denominator of the non-punct figures.
+func (ag *Agreement) NonPunctTokens() int { return ag.npTokens }
+
+// NonPunctNoDepTokens is the denominator of the figures that leave out
+// CoreNLP's dep as well.
+func (ag *Agreement) NonPunctNoDepTokens() int { return ag.npndTokens }
+
+// SentenceCount is the number of aligned sentences scored.
+func (ag *Agreement) SentenceCount() int { return ag.sents }
+
 func (ag *Agreement) finish() {
 	d := func(a, b int) float64 { return float64(a) / float64(max(1, b)) }
 	ag.POS, ag.UAS, ag.LAS = d(ag.posOK, ag.Tokens), d(ag.headOK, ag.Tokens), d(ag.labelOK, ag.Tokens)
 	ag.POSAligned, ag.UASAligned, ag.LASAligned = d(ag.posOK, ag.alignedTokens), d(ag.headOK, ag.alignedTokens), d(ag.labelOK, ag.alignedTokens)
+	ag.UASNonPunct, ag.LASNonPunct = d(ag.npHeadOK, ag.npTokens), d(ag.npLabelOK, ag.npTokens)
+	ag.UASNonPunctNoDep, ag.LASNonPunctNoDep = d(ag.npndHeadOK, ag.npndTokens), d(ag.npndLabelOK, ag.npndTokens)
+	ag.Root = d(ag.rootOK, ag.sents)
+	ag.RootContentHead = d(ag.rootOK+ag.rootSwap, ag.sents)
 	var sum float64
 	for _, c := range ag.NER {
 		sum += f1(c[0], c[1], c[2])
@@ -285,6 +359,23 @@ func (ag *Agreement) finish() {
 }
 
 // depArrays maps a sentence's edges to per-token governor and label arrays.
+// rootOf returns the 1-based token without a governor.
+func rootOf(head []int) int {
+	for i := 1; i < len(head); i++ {
+		if head[i] == 0 {
+			return i
+		}
+	}
+	return 0
+}
+
+// swapHeads reports whether a is the copula or auxiliary of b in the tree:
+// the pair that Stanford dependencies heads on a and UD on b.
+func swapHeads(head []int, rel []string, a, b int) bool {
+	return a >= 1 && a < len(head) && b >= 1 && b < len(head) && head[a] == b &&
+		(rel[a] == "cop" || rel[a] == "aux" || rel[a] == "aux:pass")
+}
+
 func depArrays(deps []corenlp.Dep, n int) (head []int, rel []string) {
 	head, rel = make([]int, n+1), make([]string, n+1)
 	for _, d := range deps {
@@ -551,14 +642,32 @@ func Memory() (heapMB, rssMB float64) {
 	return float64(ms.HeapAlloc) / (1024 * 1024), rssMB
 }
 
-// ModelBytes is the total size of the resolved model files on disk.
+// ModelBytes is the total size of the resolved model files on disk: the
+// unified parser and NER, or the Round-1 trio.
 func ModelBytes(root string) int64 {
 	var n int64
-	for _, f := range []string{POSModelFile, DepModelFile, NERModelFile} {
+	files := []string{ParserModelFile, NERModelFile}
+	if _, ok := ResolveModelPath(root, ParserModelFile); !ok {
+		files = []string{POSModelFile, DepModelFile, NERModelFile}
+	}
+	for _, f := range files {
 		if p, ok := ResolveModelPath(root, f); ok {
 			if st, err := os.Stat(p); err == nil {
 				n += st.Size()
 			}
+		}
+	}
+	return n
+}
+
+// BundledModelBytes is the total size of the committed compressed models
+// under civ/sys/parser/models/ (*.safetensors.gz).
+func BundledModelBytes(root string) int64 {
+	paths, _ := filepath.Glob(filepath.Join(BundledModelDir(root), "*.safetensors.gz"))
+	var n int64
+	for _, p := range paths {
+		if st, err := os.Stat(p); err == nil {
+			n += st.Size()
 		}
 	}
 	return n

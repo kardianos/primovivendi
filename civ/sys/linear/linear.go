@@ -372,6 +372,9 @@ func GenerateStructures(t *corenlp.Tree, locks []SpanLock) []StructureOption {
 			continue
 		}
 		lo, hi := t.Lo[k], t.Hi[k]
+		for lo < hi && t.Toks[lo].Word == "," {
+			lo++
+		}
 		if t.WordsIn(lo, hi) < 3 || hi < bodyHi-1 || lo <= 2 || splitsLock(lo, hi, locks) {
 			continue
 		}
@@ -957,6 +960,21 @@ func fallbackStartsClause(t *corenlp.Tree, start, bodyHi int) bool {
 }
 
 func trailingTailSafe(t *corenlp.Tree, clauseHead, bodyHi int) bool {
+	// If the parser attached the opening verb of a trailing subordinate clause
+	// forward to a coordinated verb inside the same trailing span (same left
+	// boundary), evaluate the enclosing trailing clause span instead.
+	for step := 0; step <= t.N(); step++ {
+		h := t.Head[clauseHead]
+		if h <= clauseHead || h > bodyHi {
+			break
+		}
+		sameLeft := t.Lo[h] == t.Lo[clauseHead] ||
+			(t.Lo[h] == t.Lo[clauseHead]-1 && t.Toks[t.Lo[h]].Word == ",")
+		if !sameLeft {
+			break
+		}
+		clauseHead = h
+	}
 	hi := t.Hi[clauseHead]
 	if hi >= bodyHi-1 {
 		return true

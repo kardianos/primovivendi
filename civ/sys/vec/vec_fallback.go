@@ -89,6 +89,27 @@ func axpyScalar(dst, x []float32, alpha float32) {
 	}
 }
 
+// ---- dense kernels: the plain loops of vec_mat_scalar.go ----------------------
+
+func matMulT(out, A, B []float32, M, N, K int) { matMulTScalar(out, A, B, M, N, K) }
+
+func outerAdd(dst, a, b []float32, M, N int) { outerAddScalar(dst, a, b, M, N) }
+
+func addMatMulNT(dst, A, B []float32, M, N, K int) {
+	switch {
+	case K <= 1:
+		outerAddScalar(dst, A, B, M, N)
+	default:
+		addMatMulNTScalar(dst, A, B, M, N, K)
+	}
+}
+
+func addScaledRows(dst, mat, v []float32, M, N int) { addScaledRowsScalar(dst, mat, v, M, N) }
+
+func sigmoidVec(dst, x []float32) { sigmoidVecScalar(dst, x) }
+
+func tanhVec(dst, x []float32) { tanhVecScalar(dst, x) }
+
 // SimHash64 produces a 64-bit bitwise signature from a float32 embedding.
 func SimHash64(v []float32) uint64 {
 	if len(v) == 0 {

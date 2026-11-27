@@ -1,6 +1,7 @@
 package parser
 
 import (
+	"encoding/json"
 	"errors"
 	"fmt"
 	goparser "go/parser"
@@ -10,6 +11,8 @@ import (
 	"os"
 	"path/filepath"
 	"runtime"
+	"sort"
+	"strconv"
 	"strings"
 	"sync"
 	"testing"
@@ -1061,6 +1064,12 @@ func TestHeldoutDiscipline(t *testing.T) {
 			t.Errorf("held-out chapter %q leaks into training sources %q", name, sources)
 		}
 	}
+	// Round 2 trains on a subset of the silver sources: ch12 is dev_book.
+	for _, name := range TrainChapters {
+		if IsHeldout(name) || name == DevBookChapter {
+			t.Errorf("TrainChapters contains %q, which is held out from training", name)
+		}
+	}
 	if root := repoRoot(); root != "" {
 		for _, bad := range [][]string{{"ch13"}, {"ch13", "ch02"}, {"ch14"}, {"pg935", "ch14"}} {
 			if _, err := LoadSilver(root, bad); err == nil {
@@ -1070,7 +1079,311 @@ func TestHeldoutDiscipline(t *testing.T) {
 		if _, err := LoadSilver(root, TrainingSources()); err != nil {
 			t.Errorf("LoadSilver on the training sources: %v", err)
 		}
+		if _, err := LoadSilver(root, TrainChapters); err != nil {
+			t.Errorf("LoadSilver on the Round-2 training chapters: %v", err)
+		}
 	}
+}
+
+// corefTree builds one parsed sentence for the coreference tests: text is
+// tokenized, pos gives the tag of every token, and each arc is
+// "dependent governor relation" with 1-based token numbers.
+func corefTree(t *testing.T, text string, pos []string, arcs ...string) *corenlp.Tree {
+	t.Helper()
+	toks := Tokenize(text)
+	if len(toks) != len(pos) {
+		t.Fatalf("%q: %d tokens, %d tags", text, len(toks), len(pos))
+	}
+	s := corenlp.Sent{}
+	for i, tk := range toks {
+		tk.POS = pos[i]
+		tk.Lemma = strings.ToLower(tk.Orig)
+		s.Toks = append(s.Toks, tk)
+	}
+	for _, a := range arcs {
+		f := strings.Fields(a)
+		if len(f) != 3 {
+			t.Fatalf("arc %q", a)
+		}
+		d, _ := strconv.Atoi(f[0])
+		g, _ := strconv.Atoi(f[1])
+		s.Deps = append(s.Deps, corenlp.Dep{Dependent: d, Governor: g, Dep: f[2]})
+	}
+	tr, ok := corenlp.BuildTree(s, "")
+	if !ok {
+		t.Fatalf("%q: not a tree", text)
+	}
+	return tr
+}
+
+// chainsText renders the chains of trees as "word+word; ...", each chain
+// with its mentions in order.
+func chainsText(t *testing.T, trees []*corenlp.Tree) string {
+	var chains []string
+	for _, ch := range Corefs(trees) {
+		var words []string
+		for _, m := range ch {
+			words = append(words, m.Text)
+		}
+		chains = append(chains, strings.Join(words, "+"))
+	}
+	sort.Strings(chains)
+	return strings.Join(chains, "; ")
+}
+
+// TestCorefsItMentions checks which "it" the coreference stage reads as a
+// pronoun, mirroring civ/linear's referentialIt, and that a mention linked
+// to nothing is left out of the chains, as in CoreNLP's output.
+func TestCorefsItMentions(t *testing.T) {
+	for _, c := range []struct {
+		name  string
+		trees []*corenlp.Tree
+		want  string
+	}{
+		{"a pronoun beside its noun", []*corenlp.Tree{corefTree(t, "The plan takes years and it changes the law.",
+			[]string{"DT", "NN", "VBZ", "NNS", "CC", "PRP", "VBZ", "DT", "NN", "."},
+			"1 2 det", "2 3 nsubj", "3 0 ROOT", "4 3 obj", "5 7 cc", "6 7 nsubj", "7 3 conj", "8 9 det", "9 7 obj", "10 3 punct")},
+			"The plan+it"},
+		// A subject "it" carrying a finite complement stands for a
+		// proposition, not for a noun.
+		{"it means that", []*corenlp.Tree{corefTree(t, "It means that the plan fails.",
+			[]string{"PRP", "VBZ", "IN", "DT", "NN", "VBZ", "."},
+			"1 2 nsubj", "2 0 ROOT", "3 6 mark", "4 5 det", "5 6 nsubj", "6 2 ccomp", "7 2 punct")},
+			""},
+		{"a cleft", []*corenlp.Tree{corefTree(t, "It is the mason who builds.",
+			[]string{"PRP", "VBZ", "DT", "NN", "WP", "VBZ", "."},
+			"1 4 nsubj", "3 4 det", "4 0 ROOT", "2 4 cop", "5 6 nsubj", "6 4 acl:relcl", "7 4 punct")},
+			""},
+		{"the dummy it of it is clear that", []*corenlp.Tree{corefTree(t, "It is clear that the plan fails.",
+			[]string{"PRP", "VBZ", "JJ", "IN", "DT", "NN", "VBZ", "."},
+			"1 3 nsubj", "3 0 ROOT", "2 3 cop", "4 7 mark", "5 6 det", "6 7 nsubj", "7 3 ccomp", "8 3 punct")},
+			""},
+		// A real "it" under a verb that takes an infinitive is kept.
+		{"it fails to", []*corenlp.Tree{corefTree(t, "The plan seeks to change the law, and it fails to persuade them.",
+			[]string{"DT", "NN", "VBZ", "TO", "VB", "DT", "NN", ",", "CC", "PRP", "VBZ", "TO", "VB", "PRP", "."},
+			"1 2 det", "2 3 nsubj", "3 0 ROOT", "4 5 mark", "5 3 xcomp", "6 7 det", "7 5 obj", "8 3 punct",
+			"9 11 cc", "10 11 nsubj", "11 3 conj", "12 13 mark", "13 11 xcomp", "14 13 obj", "15 3 punct")},
+			"The plan+it"},
+		{"an it opening the next sentence", []*corenlp.Tree{
+			corefTree(t, "The plan is sound.", []string{"DT", "NN", "VBZ", "JJ", "."},
+				"1 2 det", "2 4 nsubj", "3 4 cop", "4 0 ROOT", "5 4 punct"),
+			corefTree(t, "It changes the law.", []string{"PRP", "VBZ", "DT", "NN", "."},
+				"1 2 nsubj", "2 0 ROOT", "3 4 det", "4 2 obj", "5 2 punct")},
+			"The plan+It"},
+	} {
+		if got := chainsText(t, c.trees); got != c.want {
+			t.Errorf("%s: chains %q, want %q", c.name, got, c.want)
+		}
+	}
+}
+
+// writeCoreNLPDoc writes a CoreNLP-style parse of text to path: one
+// sentence per paragraph (separated by a blank line), one token per
+// whitespace-separated word, every word but the first attached to the first.
+func writeCoreNLPDoc(t *testing.T, path, text string) {
+	t.Helper()
+	var doc corenlp.Doc
+	for _, para := range strings.Split(strings.TrimSpace(text), "\n\n") {
+		words := strings.Fields(para)
+		if len(words) == 0 {
+			continue
+		}
+		s := corenlp.Sent{Index: len(doc.Sentences) + 1, Deps: []corenlp.Dep{{Dep: "root", Governor: 0, Dependent: 1}}}
+		for i, w := range words {
+			s.Toks = append(s.Toks, corenlp.Tok{Index: i + 1, Word: w, Orig: w, POS: "NN"})
+			if i > 0 {
+				s.Deps = append(s.Deps, corenlp.Dep{Dep: "dep", Governor: 1, Dependent: i + 1})
+			}
+		}
+		doc.Sentences = append(doc.Sentences, s)
+	}
+	b, err := json.Marshal(&doc)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if err := os.WriteFile(path, b, 0o644); err != nil {
+		t.Fatal(err)
+	}
+}
+
+func writeFileT(t *testing.T, path, text string) {
+	t.Helper()
+	if err := os.WriteFile(path, []byte(text), 0o644); err != nil {
+		t.Fatal(err)
+	}
+}
+
+// rawSentenceKeys returns the sentence keys of a corpus in the key space of
+// the held-out chapters' text: every sentence is put back as text and keyed
+// like a draft, with the parser's own tokenizer and sentence splitter.
+func rawSentenceKeys(ss []*Sentence) map[string]bool {
+	keys := map[string]bool{}
+	for _, s := range ss {
+		for k := range sentenceKeys(strings.Join(s.Words, " ")) {
+			keys[k] = true
+		}
+	}
+	return keys
+}
+
+// TestSealedDraftsHoldout is the Round-2 half of the hold-out discipline: a
+// draft of ext-ref/linear/scratch that shares a sentence with ch13 or ch14
+// must never reach a training corpus. The scenario is built from scratch in
+// a temporary root, so it runs without the downloaded data; it is then
+// repeated on the repository when the drafts are present. The final check of
+// each part keys the loaded sentences as raw text, the key space of the seal,
+// so it holds however sealing is implemented.
+func TestSealedDraftsHoldout(t *testing.T) {
+	const (
+		held13  = "The committee reviewed the evidence and published its findings in the spring of that year."
+		held13b = "Nobody in the room remembered who had locked the garden door on the night of the storm."
+		held14  = "A second held sentence, written for the fourteenth chapter, mentions the old library by the river."
+		inBook  = "In the first chapter the author describes the long walk along the northern wall of the city."
+		new1    = "Beneath the staircase a narrow door opened onto a courtyard that nobody had used for years."
+		new2    = "She counted the coins twice, then tied them in a cloth and put the bundle back in the drawer."
+		new3    = "Around midnight the wind changed and the shutters began to knock against the frame."
+		new4    = "Later that week the baker closed his shop and moved the ovens to a larger room across the street."
+		new5    = "Beyond the river the road climbs through a forest of pines before it reaches the first farms."
+		dev1    = "Whoever keeps a journal soon learns how much the memory of an evening depends on the words."
+		short   = "The dog slept."
+		capital = "THE  COMMITTEE REVIEWED THE EVIDENCE AND PUBLISHED ITS FINDINGS IN THE SPRING OF THAT YEAR."
+	)
+	// The premises of the fixture: every sentence but the short one is a
+	// key of its own, and case and spacing do not change a key.
+	for _, s := range []string{held13, held13b, held14, inBook, new1, new2, new3, new4, new5, dev1} {
+		if len(sentenceKeys(s)) != 1 {
+			t.Fatalf("fixture sentence %q has keys %v, want exactly one", s, sentenceKeys(s))
+		}
+	}
+	if len(sentenceKeys(short)) != 0 {
+		t.Fatalf("fixture sentence %q is long enough to seal a draft", short)
+	}
+	if fmt.Sprint(sentenceKeys(capital)) != fmt.Sprint(sentenceKeys(held13)) {
+		t.Fatalf("fixture: %q does not key like %q", capital, held13)
+	}
+
+	root := t.TempDir()
+	in := filepath.Join(root, "ext-ref", "linear", "in")
+	out := filepath.Join(root, "ext-ref", "linear", "out")
+	scratch := filepath.Join(root, "ext-ref", "linear", "scratch")
+	for _, d := range []string{in, out, scratch} {
+		if err := os.MkdirAll(d, 0o755); err != nil {
+			t.Fatal(err)
+		}
+	}
+	writeFileT(t, filepath.Join(in, "ch13.txt"), held13+"\n\n"+held13b)
+	writeFileT(t, filepath.Join(in, "ch14.txt"), held14)
+	// The development chapter is sealed as well, so that it is as unseen as
+	// the held-out ones when it is scored.
+	writeFileT(t, filepath.Join(in, "ch12.txt"), dev1)
+	for _, name := range append(append([]string{}, TreatiseIDs...), BookChapters...) {
+		writeCoreNLPDoc(t, filepath.Join(out, name+".txt.json"), inBook)
+	}
+	for _, d := range []struct{ name, text string }{
+		// Shares a sentence with ch13: sealed whole, its two new sentences with it.
+		{"a_verbatim", new1 + "\n\n" + held13 + "\n\n" + new2},
+		{"b_clean", new1 + "\n\n" + new2},
+		// Its first sentence already is in the corpus: dropped, the second kept.
+		{"c_known", inBook + "\n\n" + new3},
+		// The ch13 sentence in capitals with doubled spaces: still sealed.
+		{"f_case", capital},
+		// The shared sentence is shorter than minSharedRunes: by the rule of
+		// the specification it does not seal the draft.
+		{"g_short", short + "\n\n" + new4},
+		// Shares a sentence with ch12, the development chapter: sealed too.
+		{"h_dev", dev1 + "\n\n" + new5},
+	} {
+		writeFileT(t, filepath.Join(scratch, d.name+".txt"), d.text)
+		writeCoreNLPDoc(t, filepath.Join(scratch, d.name+".txt.json"), d.text)
+	}
+	// A parse without its text cannot be checked for overlap: never loaded.
+	writeCoreNLPDoc(t, filepath.Join(scratch, "e_notext.txt.json"), new1)
+
+	seal, err := HoldoutSealKeys(root)
+	if err != nil {
+		t.Fatal(err)
+	}
+	wantSeal := map[string]bool{}
+	for _, s := range []string{held13, held13b, held14} {
+		for k := range sentenceKeys(s) {
+			wantSeal[k] = true
+		}
+	}
+	if len(seal) != 3 || fmt.Sprint(seal) != fmt.Sprint(wantSeal) {
+		t.Errorf("seal keys = %v, want %v", seal, wantSeal)
+	}
+	devSeal, err := DevSealKeys(root)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if fmt.Sprint(devSeal) != fmt.Sprint(sentenceKeys(dev1)) {
+		t.Errorf("development seal keys = %v, want the key of the ch12 sentence %v", devSeal, sentenceKeys(dev1))
+	}
+	// A draft sharing a sentence with the development chapter is sealed
+	// only when the development keys are passed.
+	if free, _, err := LoadSealedDrafts(scratch, seal, nil, map[string]bool{}); err != nil || len(free) != 8 {
+		t.Errorf("without the development seal %d draft sentences (%v), want 8", len(free), err)
+	}
+
+	// Control: with no seal keys the same drafts do carry the held-out text,
+	// so what keeps it out below is the seal.
+	leaked, _, err := LoadSealedDrafts(scratch, map[string]bool{}, nil, map[string]bool{})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if !overlapsSentence(rawSentenceKeys(leaked), seal) || len(leaked) != 12 {
+		t.Errorf("control: %d draft sentences without a seal, want the held-out ones among 12", len(leaked))
+	}
+
+	treatises, chapters, got, info, err := LoadSilverCorpus(root)
+	if err != nil {
+		t.Fatal(err)
+	}
+	wantInfo := DraftLoad{Files: 7, Sealed: 2, SealedDev: 1, Unreadable: 1, Loaded: 3, Deduped: 1, Sentences: 5}
+	if info != wantInfo {
+		t.Errorf("draft report %+v, want %+v", info, wantInfo)
+	}
+	var keys []string
+	for _, s := range got {
+		keys = append(keys, sentenceKeyToks(s.Words))
+	}
+	// Keys are lower case; the fixture's kept sentences are as written.
+	if want := strings.ToLower(strings.Join([]string{new1, new2, new3, short, new4}, "|")); strings.Join(keys, "|") != want {
+		t.Errorf("draft sentences:\n got %q\nwant %q", strings.Join(keys, "|"), want)
+	}
+	if len(treatises) != len(TreatiseIDs) || len(chapters) != len(TrainChapters) {
+		t.Errorf("%d treatise and %d chapter sentences loaded, want %d and %d", len(treatises), len(chapters), len(TreatiseIDs), len(TrainChapters))
+	}
+	for name, group := range map[string][]*Sentence{"treatises": treatises, "chapters": chapters, "drafts": got} {
+		if overlapsSentence(rawSentenceKeys(group), seal) {
+			t.Errorf("the %s of the training corpus contain a sentence of ch13 or ch14", name)
+		}
+	}
+
+	// The repository, when the drafts are present.
+	r := repoRoot()
+	if r == "" {
+		return
+	}
+	if _, err := os.Stat(filepath.Join(r, "ext-ref", "linear", "in", "ch13.txt")); err != nil {
+		t.Log("held-out chapter text not present: repository check skipped")
+		return
+	}
+	seal, err = HoldoutSealKeys(r)
+	if err != nil {
+		t.Fatal(err)
+	}
+	_, _, got, info, err = LoadSilverCorpus(r)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if info.Sealed == 0 || len(got) == 0 {
+		t.Fatalf("repository: %+v, want sealed and loaded drafts", info)
+	}
+	if overlapsSentence(rawSentenceKeys(got), seal) {
+		t.Errorf("repository: %d draft sentences of the training corpus include one of ch13 or ch14", len(got))
+	}
+	t.Logf("repository: %+v", info)
 }
 
 func TestLoadUntrained(t *testing.T) {

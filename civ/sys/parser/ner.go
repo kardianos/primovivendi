@@ -67,17 +67,28 @@ var timeWords = words(`day night morning afternoon evening noon midnight dawn du
 // span: "ten years", "two hours", "twenty-four hours".
 var durationUnits = words(`years months weeks days hours minutes seconds decades centuries`)
 
+// orgGazetteer lists the nouns that end or form organization names. The
+// gazetteer features fire only in name-like context (a capitalized token,
+// or a capitalized token before the word): "Harvard University", "the
+// Court", "Reuters Inc.". The silver set shows the perceptron too few
+// organizations on its own (Round 1 recalled a quarter of them).
+var orgGazetteer = words(`university court senate congress church party bank institute company press times
+department ministry council committee board commission association foundation corp corp. inc inc. ltd ltd.
+agency school college hospital society trust bureau office center centre organization organisation authority
+service assembly federation union league firm group enterprises holdings industries laboratory labs academy fund`)
+
 var (
-	titlesH     = hashSet(titles)
-	personsH    = hashSet(personNouns)
-	numbersH    = hashSet(numberWords)
-	ordinalsH   = hashSet(ordinalWords)
-	monthsH     = hashSet(monthWords)
-	weekdaysH   = hashSet(weekdayWords)
-	numeralsH   = hashSet(numeralWords)
-	timesH      = hashSet(timeWords)
-	durationsH  = hashSet(durationUnits)
-	nerClassIdx = func() map[string]int {
+	orgGazetteerH = hashSet(orgGazetteer)
+	titlesH       = hashSet(titles)
+	personsH      = hashSet(personNouns)
+	numbersH      = hashSet(numberWords)
+	ordinalsH     = hashSet(ordinalWords)
+	monthsH       = hashSet(monthWords)
+	weekdaysH     = hashSet(weekdayWords)
+	numeralsH     = hashSet(numeralWords)
+	timesH        = hashSet(timeWords)
+	durationsH    = hashSet(durationUnits)
+	nerClassIdx   = func() map[string]int {
 		m := map[string]int{}
 		for i, c := range nerClasses {
 			m[c] = i
@@ -165,6 +176,18 @@ func nerFeatures(h []tokHashes, tags []int, i, p1, p2, dictTag int, dst []uint64
 	}
 	if dictTag >= 0 {
 		dst = append(dst, mix(35, uint64(dictTag)))
+	}
+	// Organization gazetteer, in name-like context only: a capitalized
+	// name-forming noun, a lowercase one after a capitalized token, or a
+	// capitalized token before one.
+	if t.caps && orgGazetteerH[lw] {
+		dst = append(dst, mix(39, uint64(pos)))
+	}
+	if i > 0 && h[i-1].caps && orgGazetteerH[lw] && !t.caps {
+		dst = append(dst, mix(41, uint64(pos)))
+	}
+	if t.caps && i+1 < n && orgGazetteerH[h[i+1].low] {
+		dst = append(dst, mix(42, uint64(pos)))
 	}
 	return dst
 }

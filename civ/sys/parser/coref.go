@@ -116,6 +116,86 @@ func dummyIt(t *corenlp.Tree, i int) bool {
 	return false
 }
 
+// extraposeLemmas are the verbs of the dummy "it" of "it takes years to",
+// as in civ/linear.
+var extraposeLemmas = words("take seem appear happen remain look sound feel become get")
+
+// copularPredicate reports whether g is a form of "be" or carries a copula.
+func copularPredicate(t *corenlp.Tree, g int) bool {
+	if g < 1 || g > t.N() {
+		return false
+	}
+	if strings.ToLower(t.Toks[g].Lemma) == "be" {
+		return true
+	}
+	for _, k := range t.Kids[g] {
+		if t.Rel[k] == "cop" {
+			return true
+		}
+	}
+	return false
+}
+
+// cleftClause reports whether g or one of its coordinated nouns carries a
+// relative clause ("it is the mason or the smith who builds").
+func cleftClause(t *corenlp.Tree, g int) bool {
+	for _, k := range t.Kids[g] {
+		if k > g && t.Rel[k] == "acl:relcl" {
+			return true
+		}
+		if t.Rel[k] == "conj" {
+			for _, c := range t.Kids[k] {
+				if c > k && t.Rel[c] == "acl:relcl" {
+					return true
+				}
+			}
+		}
+	}
+	return false
+}
+
+// referentialIt mirrors civ/linear's referentialIt: "it" at i refers to
+// something, rather than being an expletive, the "it" of a cleft, or the
+// dummy subject of a clause that follows, unless its verb is one a real
+// "it" can also have ("it seeks to").
+func referentialIt(t *corenlp.Tree, i int) bool {
+	if t.Rel[i] == "expl" {
+		return false
+	}
+	g := t.Head[i]
+	if g > 0 && corenlp.SubjRels[t.Rel[i]] && copularPredicate(t, g) && cleftClause(t, g) {
+		return false
+	}
+	if !dummyIt(t, i) {
+		return true
+	}
+	return g > 0 && !copularPredicate(t, g) && !extraposeLemmas[strings.ToLower(t.Toks[g].Lemma)]
+}
+
+// propositionalIt reports whether "it" at i stands for a proposition rather
+// than a thing: a subject whose verb carries a finite complement ("it means
+// that", "it establishes that"). Such an "it" has no noun antecedent to
+// find.
+func propositionalIt(t *corenlp.Tree, i int) bool {
+	if t.Rel[i] == "expl" || !corenlp.SubjRels[t.Rel[i]] || strings.ToLower(t.Toks[i].Word) != "it" {
+		return false
+	}
+	g := t.Head[i]
+	finite, other := false, false
+	for _, k := range t.Kids[g] {
+		if k <= g {
+			continue
+		}
+		switch t.Rel[k] {
+		case "ccomp", "csubj", "csubj:pass":
+			finite = true
+		case "xcomp", "advcl", "acl:relcl":
+			other = true
+		}
+	}
+	return finite && !other
+}
+
 // extractMentions finds the pronoun and noun-phrase mentions of each tree.
 func extractMentions(trees []*corenlp.Tree) []*mention {
 	var out []*mention
@@ -128,8 +208,8 @@ func extractMentions(trees []*corenlp.Tree) []*mention {
 			switch {
 			case pos == "PRP" || pos == "PRP$":
 				lw := strings.ToLower(t.Toks[i].Word)
-				if itPronouns[lw] && dummyIt(t, i) {
-					continue
+				if lw == "it" && (!referentialIt(t, i) || propositionalIt(t, i)) {
+					continue // the dummy "it": civ/linear does not read it as a pronoun either
 				}
 				m := &mention{sent: si, start: i, end: i + 1, head: i, text: t.Toks[i].Orig, typ: typPronomial,
 					subject: isSubject(t, i)}
@@ -260,13 +340,22 @@ func (d *dsu) union(a, b int) {
 	}
 }
 
-// resolveCoref links mentions into chains with two sieve passes.
+// resolveCoref links mentions into chains: one pass over the nominals, then
+// one over the pronouns.
 func resolveCoref(ms []*mention) {
 	d := &dsu{p: make([]int, len(ms))}
 	for i := range d.p {
 		d.p[i] = i
 	}
-	// Pass 1: repeated proper names and definite nominals.
+	linkNominals(d, ms)
+	linkPronouns(d, ms)
+	for i, m := range ms {
+		m.chain = d.find(i)
+	}
+}
+
+// linkNominals is pass 1: repeated proper names and definite nominals.
+func linkNominals(d *dsu, ms []*mention) {
 	for i, m := range ms {
 		if m.typ == typPronomial {
 			continue
@@ -289,7 +378,12 @@ func resolveCoref(ms []*mention) {
 			break
 		}
 	}
-	// Pass 2: pronouns.
+}
+
+// linkPronouns is pass 2: each pronoun joins its most salient compatible
+// antecedent. A pronoun with none stays alone and is left out of the
+// output (see chainsOut), as a pronoun that CoreNLP did not resolve is.
+func linkPronouns(d *dsu, ms []*mention) {
 	for i, m := range ms {
 		if m.typ != typPronomial || m.number == 0 {
 			continue
@@ -310,9 +404,6 @@ func resolveCoref(ms []*mention) {
 		if best >= 0 {
 			d.union(best, i)
 		}
-	}
-	for i, m := range ms {
-		m.chain = d.find(i)
 	}
 }
 
@@ -365,13 +456,21 @@ func salience(m, c *mention, gap int) float64 {
 }
 
 // Corefs runs mention extraction and resolution over parsed trees and returns
-// the chains in CoreNLP's JSON shape (keys "0", "1", ...).
+// the chains in CoreNLP's JSON shape (keys "0", "1", ...). As in CoreNLP's
+// output, a chain has at least two mentions: a mention linked to nothing is
+// not listed, so a reader of the chains can tell an unresolved pronoun from
+// a resolved one.
 func Corefs(trees []*corenlp.Tree) map[string][]corenlp.Mention {
 	ms := extractMentions(trees)
 	if len(ms) == 0 {
 		return map[string][]corenlp.Mention{}
 	}
 	resolveCoref(ms)
+	return chainsOut(ms)
+}
+
+// chainsOut groups resolved mentions into chains, in CoreNLP's JSON shape.
+func chainsOut(ms []*mention) map[string][]corenlp.Mention {
 	order := make([]int, len(ms))
 	for i := range order {
 		order[i] = i
@@ -385,9 +484,15 @@ func Corefs(trees []*corenlp.Tree) map[string][]corenlp.Mention {
 		for ; k < len(order) && ms[order[k]].chain == root; k++ {
 			m := ms[order[k]]
 			chain = append(chain, corenlp.Mention{
-				ID: id, Text: m.text, Type: m.typ, Start: m.start, End: m.end, Head: m.head,
+				Text: m.text, Type: m.typ, Start: m.start, End: m.end, Head: m.head,
 				SentNum: m.sent + 1, IsRep: len(chain) == 0,
 			})
+		}
+		if len(chain) < 2 {
+			continue
+		}
+		for k := range chain {
+			chain[k].ID = id
 			id++
 		}
 		out[strconv.Itoa(len(out))] = chain

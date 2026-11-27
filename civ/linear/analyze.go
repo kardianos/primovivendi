@@ -668,7 +668,7 @@ func analyzeDoc(src *source, doc *cnDoc, text string, rates map[string]float64) 
 					bc = c
 				}
 			}
-			if bc == 0 || s.lo[k] != bc {
+			if bc == 0 || (s.lo[k] != bc && !(s.lo[k] == bc-1 && s.isPunct(s.lo[k]))) {
 				continue
 			}
 			cw := s.wordsIn(s.lo[k], s.hi[k])

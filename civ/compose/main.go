@@ -7,8 +7,10 @@
 // chapters deterministically on demand.
 //
 // Sentences that are not in the chapter's cached CoreNLP parses (manual
-// rewrites, custom phrases) are parsed by the pure-Go pipeline of
-// civ/sys/parser once civ/bin/parser train-all has been run.
+// rewrites, custom phrases) are parsed in memory by the pure-Go Round-2
+// BiGRU + Biaffine pipeline in civ/sys/parser (pre-trained F16+gzip models
+// are bundled in civ/sys/parser/models/; optional local retrains live in
+// ext-ref/parser/).
 //
 // Usage:
 //
